@@ -10,7 +10,7 @@ function add(value, relative = '/') {
   if (url.origin === new URL(base).origin) requests.add(url.pathname);
 }
 function media(value) {
-  if (typeof value === 'string' && /^\/(?:comic|audio|images|fonts|marks|scripts)\//.test(value)) add(value);
+  if (typeof value === 'string' && /^\/(?:comic|audio|images|fonts|marks|scripts)\//.test(value) && /\.[a-z0-9]{2,5}(?:[?#]|$)/i.test(value)) add(value);
   else if (Array.isArray(value)) value.forEach(media);
   else if (value && typeof value === 'object') Object.values(value).forEach(media);
 }

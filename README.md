@@ -34,3 +34,5 @@ Music retains its source licence and attribution in `wiki/soundtrack-library/sou
 ## Deployment
 
 Vercel runs the root `vercel.json` build command and serves `site/dist`. The .claude/.codex sources and native libraries are in Git, while uploads exclude authoring-only data.
+
+After deploying, run `npm run test:live -- https://comics.makingthings.work` to check every reader and its referenced scripts, images and audio. Playback scripts under `site/public/scripts` must remain in the upload; `.vercelignore` excludes only root authoring folders. The retained paper tile is used; optional grain masks with no retained source bytes are disabled.

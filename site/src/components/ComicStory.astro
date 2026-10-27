@@ -37,7 +37,8 @@ const src = (img: string) => artSrc(img, story);
 const config = {
   mode,
   still,
-  page: pageConstants.page,
+  // The retained paper tile ships with this public example. The optional light/dark masks have no retained source bytes.
+  page: { ...pageConstants.page, paperGrain: null },
   ghost: pageConstants.ghostOpacity,
   balloon: balloonStyle,
   current: issue?.slug ?? null,
