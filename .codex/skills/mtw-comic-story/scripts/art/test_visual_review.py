@@ -1,7 +1,7 @@
 """Offline escape cases; synthetic claims are NOT production pixel inspection.
 
 All sources, records and outputs stay in a retained external fixture directory.
-Run: python -B test_visual_review.py --repo C:/Code/MTWWebsite-clean
+Run: python -B test_visual_review.py --repo .
 """
 import argparse
 import copy

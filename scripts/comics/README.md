@@ -22,7 +22,7 @@ Every build has an id (`<slug>-build-<buildId>`), a ledger at `wiki/comics-libra
 Each step names its input, the file it writes and the check that gates the next step. A step that fails its check is corrected once from the observed defect; a second failure stops the scene and reports.
 
 ### 0. Preflight
-`node scripts/comics/preflight.mjs --slug <slug> --build <id>` checks Codex, Python imaging, sharp, Playwright, the story file, free disk, the dev server on 8787, Studio on 8788, Git status of the story and STATUS ownership. Writes `preflight` into the ledger.
+`node scripts/comics/preflight.mjs --slug <slug> --build <id>` checks Codex, Python imaging, sharp, Playwright, the story file, free disk, the dev server on 8789, Studio on 8790, Git status of the story and STATUS ownership. Writes `preflight` into the ledger.
 
 ### 1. Story
 Input: the A page, the world bible (`wiki/site/comic-story.md`), the eight repair beats, the cast. Output: the story file with scenes, boxes (`r`, `img`, `alt`), balloons (words, kind, who, state, approximate x/y) and sound intent (`score`, `room`, `sfx`), but no art bindings yet. The writer follows `mtw-comic-story/references/storytelling.md` and `story-craft.md`.
@@ -54,7 +54,7 @@ Check: `audio-coverage.mjs`: every box's words are voiced or listed as pending a
 Check: `comic-story-check.mjs --require-art` passes and `build-comics-library.mjs` validates.
 
 ### 8. Frames
-`frames-review.mjs` opens the real reader on 8787 and captures every box at its reveal, after its last balloon and, for moving boxes, mid-motion, on desktop, phone and reduced motion, with the box cropped out as well. Output: `frames/<scene>/index.json` and PNGs.
+`frames-review.mjs` opens the real reader on 8789 and captures every box at its reveal, after its last balloon and, for moving boxes, mid-motion, on desktop, phone and reduced motion, with the box cropped out as well. Output: `frames/<scene>/index.json` and PNGs.
 Check: no page errors and no failed requests; then a reviewer agent reads the frames and answers per frame: art loaded and filling the box, balloons readable and off every face, tails to the right mouth, the beat the story needs visible, planes moving where authored and still under reduced motion. Fail: one correction (lettering or art), then stop.
 Gate: `scene-gate.mjs --stage framed` passes. Matt can accept the scene from its frames in Studio.
 

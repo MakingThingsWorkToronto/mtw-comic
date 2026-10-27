@@ -1,8 +1,8 @@
 // Launch MTW Studio (apps/mtw) from the repo root.
-//   node scripts/studio/start-studio.mjs            dev server (hot reload) on port 8788; a busy port is an error, never a move to another port
+//   node scripts/studio/start-studio.mjs            dev server (hot reload) on port 8790; a busy port is an error, never a move to another port
 //   node scripts/studio/start-studio.mjs --build    install if needed, then build the web bundle and type-check
 //   node scripts/studio/start-studio.mjs --built    serve the built bundle (builds it first when missing)
-//   --port N   port (default 8788; `npm run all` passes 8788 too). MTW uses only 8787 (website) and 8788 (Studio).
+//   --port N   port (default 8790; `npm run all` passes 8790 too). MTW uses only 8789 (website) and 8790 (Studio).
 // Also started by `npm run all` as a child; it then stops on the parent's 'stop' message or disconnect.
 import { spawn, spawnSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
@@ -15,7 +15,7 @@ const app = path.join(root, 'apps', 'mtw');
 const args = process.argv.slice(2);
 const mode = args.includes('--build') ? 'build' : args.includes('--built') ? 'built' : 'dev';
 const portArg = args.indexOf('--port');
-const preferred = portArg >= 0 ? Number(args[portArg + 1]) : 8788;
+const preferred = portArg >= 0 ? Number(args[portArg + 1]) : 8790;
 
 function run(command, commandArgs) {
   const result = spawnSync(command, commandArgs, { cwd: root, stdio: 'inherit', shell: true });
@@ -52,7 +52,7 @@ if (mode === 'built' && !existsSync(path.join(app, 'dist', 'web', 'index.html'))
 
 const port = preferred;
 if (!(await canListen(port))) {
-  console.error(`Studio: port ${port} is already in use. MTW uses only 8787 (website) and 8788 (Studio). If Studio is already running, use http://127.0.0.1:${port}/; otherwise stop the process holding it (netstat -ano | findstr :${port}) and start again.`);
+  console.error(`Studio: port ${port} is already in use. MTW uses only 8789 (website) and 8790 (Studio). If Studio is already running, use http://127.0.0.1:${port}/; otherwise stop the process holding it (netstat -ano | findstr :${port}) and start again.`);
   process.exit(1);
 }
 const serverArgs = ['--import', 'tsx', 'server/main.ts', '--port', String(port), ...(mode === 'dev' ? ['--dev'] : [])];

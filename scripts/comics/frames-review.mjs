@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Per-box frames of one scene of a Comic Story reader page (skill: mtw-comic-story; protocol: scripts/comics/README.md).
-// Usage: node scripts/comics/frames-review.mjs --slug <slug> --build <buildId> --scene <id> [--origin http://127.0.0.1:8787]
+// Usage: node scripts/comics/frames-review.mjs --slug <slug> --build <buildId> --scene <id> [--origin http://127.0.0.1:8789]
 //        [--sizes desktop,phone,reduced] [--channel chrome] [--json]
 // Reader page <origin>/comics/<slug>/ embeds the retimed story (#comic-story). Test hooks: ?scene=<id>&beat=<n>&mute&hold
 // (beat is relative to the scene start), ?reel=off is the reduced-motion still. Per non-inset box: reveal, read, and
@@ -38,7 +38,7 @@ async function text(url) {
 async function main() {
   const args = process.argv.slice(2);
   const opt = (n, d) => { const i = args.indexOf(`--${n}`); return i > -1 ? args[i + 1] : d; };
-  const slug = opt('slug'), build = opt('build'), sceneId = opt('scene'), origin = opt('origin', 'http://127.0.0.1:8787'), json = args.includes('--json');
+  const slug = opt('slug'), build = opt('build'), sceneId = opt('scene'), origin = opt('origin', 'http://127.0.0.1:8789'), json = args.includes('--json');
   const sizes = opt('sizes', 'desktop,phone,reduced').split(',');
   if (!slug || !build || !sceneId || sizes.some((s) => !SIZES[s])) { console.error('usage: frames-review.mjs --slug <slug> --build <id> --scene <id> [--origin url] [--sizes desktop,phone,reduced] [--json]'); return 2; }
 

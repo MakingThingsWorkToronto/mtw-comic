@@ -45,9 +45,9 @@ Produce exactly the raster diagram versions Matt asked for, in his order, save a
 `wiki/image-library/manifest.json` is the catalog for every image record, style choice and review state, including discussion-era previews and exploratory variants. `maintain_library.py` reads only that library and works without discussion or site assets. Save the exact files under `assets/` and `records/` first, then from the repo root:
 
 ```powershell
-python .codex/skills/mtw-raster-alternatives/scripts/portable-gallery/maintain_library.py register --library C:/Code/MTWWebsite-clean/wiki/image-library --payload <record-update.json> --receipt-dir <external-receipts>
-python .codex/skills/mtw-raster-alternatives/scripts/portable-gallery/maintain_library.py refresh --library C:/Code/MTWWebsite-clean/wiki/image-library --receipt-dir <external-receipts>
-python .codex/skills/mtw-raster-alternatives/scripts/portable-gallery/maintain_library.py verify --library C:/Code/MTWWebsite-clean/wiki/image-library --receipt-dir <external-receipts>
+python .codex/skills/mtw-raster-alternatives/scripts/portable-gallery/maintain_library.py register --library ./wiki/image-library --payload <record-update.json> --receipt-dir <external-receipts>
+python .codex/skills/mtw-raster-alternatives/scripts/portable-gallery/maintain_library.py refresh --library ./wiki/image-library --receipt-dir <external-receipts>
+python .codex/skills/mtw-raster-alternatives/scripts/portable-gallery/maintain_library.py verify --library ./wiki/image-library --receipt-dir <external-receipts>
 ```
 
 `node apps/mtw/cli/mtw.mjs register image <path>` and the `images-register` procedure call the same producer (`wiki/site/image-library.md` "Storage and updates").

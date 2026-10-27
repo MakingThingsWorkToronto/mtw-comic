@@ -5,7 +5,7 @@ Use this before generating a holographic or photorealistic diagram from a select
 Read the exact source and current treatment brief first. The maintained [subject contracts](../../mtw-raster-alternatives/references/subject-contracts.md) retain selected-source, label/removal and reference-role decisions. The canonical manifest resolves current per-style SVG metadata and original-reference records without a discussion dependency; the old discussion replay option is retired and rejects before reading inputs. Build a small JSON card and compile it with:
 
 ```text
-python .codex/skills/imagegen/scripts/compile_scene_brief.py wiki/image-library/records/<id>/<style>/<attempt>/scene.json --repo C:/Code/MTWWebsite-clean --out wiki/image-library/records/<id>/<style>/<attempt>/scene-contract.json --prompt-out wiki/image-library/records/<id>/<style>/<attempt>/scene-constraints.txt
+python .codex/skills/imagegen/scripts/compile_scene_brief.py wiki/image-library/records/<id>/<style>/<attempt>/scene.json --repo . --out wiki/image-library/records/<id>/<style>/<attempt>/scene-contract.json --prompt-out wiki/image-library/records/<id>/<style>/<attempt>/scene-constraints.txt
 ```
 
 Use the emitted text once in the generation prompt, alongside the material/style block and the source-specific composition description. Replace overlapping generic route, logo and caption prose; do not append the same rules twice. Save the card, contract and exact final prompt with the normal output evidence. The helper reads inputs only and refuses existing outputs. New evidence inside the repo must be under the canonical library's `records/`; an external worker staging directory is also supported. Never write new evidence in discussion or over artwork.
@@ -62,7 +62,7 @@ Keep `referenceKind` and `reference` pointing to the primary composition source.
 [scene-brief-cases.json](scene-brief-cases.json) contains five focused cards derived from actual earlier briefs. They exercise the repeated failures; they are regression fixtures, not replacement production prompts. Run:
 
 ```text
-python .codex/skills/imagegen/scripts/test_compile_scene_brief.py --repo C:/Code/MTWWebsite-clean
+python .codex/skills/imagegen/scripts/test_compile_scene_brief.py --repo .
 python .codex/skills/imagegen/scripts/test_canonical_scene_brief.py
 ```
 

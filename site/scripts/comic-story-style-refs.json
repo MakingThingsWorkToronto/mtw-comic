@@ -1,0 +1,173 @@
+{
+ "_about": "Reference crops for comic-story-style-check.mjs: boxes [left, top, width, height] on the original pages in discussion/reference-comics/ (read in place, never copied into site/), one per kind in the measured usage table. Each is the balloon-shape analysis crop (wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/<id>.png, which carries tracing overlays) located on its original page by template matching, so Codex sees the printed balloon without overlays.",
+ "crops": [
+  {
+   "name": "speech: X-Men #137",
+   "id": "ref-4",
+   "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+   "box": [
+    135,
+    190,
+    72,
+    74
+   ],
+   "half": true
+  },
+  {
+   "name": "chain: X-Men #137",
+   "id": "ref-10",
+   "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+   "box": [
+    265,
+    538,
+    78,
+    96
+   ],
+   "half": true
+  },
+  {
+   "name": "butted: X-Men #137",
+   "id": "ref-8",
+   "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+   "box": [
+    122,
+    427,
+    180,
+    114
+   ],
+   "half": true
+  },
+  {
+   "name": "across panels: Avengers",
+   "id": "ref-40",
+   "file": "images.jpg",
+   "box": [
+    96,
+    229,
+    304,
+    138
+   ],
+   "half": true
+  },
+  {
+   "name": "off-panel tail: X-Men #132",
+   "id": "ref-13",
+   "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+   "box": [
+    22,
+    0,
+    375,
+    129
+   ],
+   "half": true
+  },
+  {
+   "name": "menace (red ragged second outline): X-Men #132",
+   "id": "ref-15",
+   "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+   "box": [
+    15,
+    300,
+    149,
+    106
+   ],
+   "half": true
+  },
+  {
+   "name": "weak voice (zigzag tail): Darkseid",
+   "id": "ref-56",
+   "file": "swwvm51dxbrh1.jpg",
+   "box": [
+    0,
+    615,
+    196,
+    217
+   ],
+   "half": true
+  },
+  {
+   "name": "thinking in yellow: Spider-Man #33",
+   "id": "ref-34",
+   "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+   "box": [
+    328,
+    356,
+    105,
+    93
+   ],
+   "half": true
+  },
+  {
+   "name": "shout: Darkseid",
+   "id": "ref-50",
+   "file": "swwvm51dxbrh1.jpg",
+   "box": [
+    673,
+    264,
+    232,
+    169
+   ],
+   "half": true
+  },
+  {
+   "name": "scream in red: X-Men #137",
+   "id": "ref-12",
+   "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+   "box": [
+    319,
+    394,
+    115,
+    75
+   ],
+   "half": true
+  },
+  {
+   "name": "panic: AllTime #15",
+   "id": "ref-57",
+   "file": "AllTime-Comics-15.jpg",
+   "box": [
+    3,
+    26,
+    171,
+    145
+   ],
+   "half": true
+  },
+  {
+   "name": "shaken (scalloped): Avengers",
+   "id": "ref-44",
+   "file": "images.jpg",
+   "box": [
+    211,
+    392,
+    99,
+    91
+   ],
+   "half": true
+  },
+  {
+   "name": "caption: Crisis #8",
+   "id": "ref-26",
+   "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+   "box": [
+    0,
+    572,
+    96,
+    71
+   ],
+   "half": true
+  },
+  {
+   "name": "caption band: AllTime #15",
+   "id": "ref-61",
+   "file": "AllTime-Comics-15.jpg",
+   "box": [
+    0,
+    433,
+    511,
+    189
+   ],
+   "half": true
+  }
+ ]
+}

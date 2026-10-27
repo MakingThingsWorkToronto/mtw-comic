@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Comic build preflight (skill: mtw-comic-story; protocol: scripts/comics/README.md).
-// Usage: node scripts/comics/preflight.mjs --slug <registry-slug> --build <buildId> [--origin http://127.0.0.1:8787] [--json]
+// Usage: node scripts/comics/preflight.mjs --slug <registry-slug> --build <buildId> [--origin http://127.0.0.1:8789] [--json]
 // Required checks fail the run (exit 1): codex, python PIL/numpy, sharp/playwright, story file + registry, disk >= 5 GB,
 // transport dir and ledger. Optional checks only warn: reader page, Studio, dirty story/art files, STATUS ownership.
 // The report is recorded in the ledger at "preflight". Exit 0 ok, 1 required check failed, 2 usage.
@@ -49,7 +49,7 @@ async function get(url, ms = 5000) {
 async function main() {
   const args = process.argv.slice(2);
   const opt = (n, d) => { const i = args.indexOf(`--${n}`); return i > -1 ? args[i + 1] : d; };
-  const slug = opt('slug'), build = opt('build'), origin = opt('origin', 'http://127.0.0.1:8787'), json = args.includes('--json');
+  const slug = opt('slug'), build = opt('build'), origin = opt('origin', 'http://127.0.0.1:8789'), json = args.includes('--json');
   if (!slug || !build) { console.error('usage: preflight.mjs --slug <slug> --build <buildId> [--origin url] [--json]'); return 2; }
   const checks = [];
   const check = async (name, required, fn) => {
@@ -78,7 +78,7 @@ async function main() {
     const has = r.text.includes('id="comic-story"');
     return { ok: r.status === 200 && has, detail: `${r.status}${has ? '' : ' no #comic-story'}` };
   });
-  await check('Studio 8788', false, async () => { const r = await get('http://127.0.0.1:8788/'); return { ok: r.status > 0, detail: String(r.status) }; });
+  await check('Studio 8790', false, async () => { const r = await get('http://127.0.0.1:8790/'); return { ok: r.status > 0, detail: String(r.status) }; });
   await check('git clean (story + art)', false, () => {
     const r = sh('git', ['status', '--porcelain', '--', rel(storyFile), `site/public/comic/${storyId}/`]);
     const dirty = (r.stdout || '').split('\n').filter(Boolean);

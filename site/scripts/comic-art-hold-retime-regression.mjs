@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {registerHooks} from 'node:module';
+import {pathToFileURL} from 'node:url';
+import {resolve} from 'node:path';
+registerHooks({resolve(spec,ctx,next){try{return next(spec,ctx);}catch(error){if(/^\.\.?\//.test(spec)&&!/\.[a-z]+$/i.test(spec))return next(spec+'.ts',ctx);throw error;}}});
+const {retime}=await import(pathToFileURL(resolve(process.argv[2]||'site/src/data/comic-stories/retime.ts')).href);
+const clone=structuredClone,words=Array.from({length:32},(_,i)=>'word'+i).join(' ');
+const fixture=()=>({bpm:90,beats:999,next:{b:999},scenes:[{id:'access',b:111,l:111,panels:[{at:111,r:[0,0,1,1],img:'access-evidence',balloons:[{at:111,text:words}]}]},{id:'next',b:222,l:222,panels:[{at:222,r:[0,0,1,1],img:'next-evidence',balloons:[]}]}]});
+let checks=0;
+const test=(name,run)=>{run();checks++;console.log('PASS '+name);};
+test('known legacy clocks with no art hold',()=>{const s=retime(fixture());assert.equal(s.scenes[0].panels[0].at,1);assert.equal(s.scenes[0].panels[0].balloons[0].at,1.5);assert.deepEqual(s.scenes.map(x=>[x.b,x.l]),[[0,24],[24,8]]);assert.equal(s.next.b,32);assert.equal(s.beats,36);});
+test('zero art hold preserves all legacy fields and clocks',()=>{const base=retime(fixture()),s=fixture();s.scenes[0].artHoldBeats=0;retime(s);delete s.scenes[0].artHoldBeats;assert.deepEqual(s,base);});
+test('four genuine art beats extend Access24 to28 only and shift downstream',()=>{const base=retime(fixture()),s=fixture();s.scenes[0].artHoldBeats=4;retime(s);assert.deepEqual(s.scenes[0].panels,base.scenes[0].panels);assert.equal(s.scenes[0].l,28);assert.equal(s.scenes[1].b,28);assert.equal(s.scenes[1].l,8);assert.equal(s.next.b,36);assert.equal(s.beats,40);assert.deepEqual(s.scenes[1].panels,base.scenes[1].panels);});
+test('fractional hold keeps the existing bar rounding',()=>{const s=fixture();s.scenes[0].artHoldBeats=2.5;retime(s);assert.equal(s.scenes[0].l,24);s.scenes[0].artHoldBeats=3.9;retime(s);assert.equal(s.scenes[0].l,28);});
+test('inclusive32beat upper bound',()=>{const s=fixture();s.scenes[0].artHoldBeats=32;retime(s);assert.equal(s.scenes[0].l,56);});
+test('speech-aware relative spacing and measured clip duration unchanged',()=>{const plain=fixture();plain.scenes[0].panels[0].balloons[0].speech={id:'fixture',src:'/speech/fixture.wav',durationSeconds:25,provider:'fixture',characterId:'matt'};const base=retime(clone(plain));plain.scenes[0].artHoldBeats=4;const held=retime(plain);assert.deepEqual(held.scenes[0].panels,base.scenes[0].panels);assert.equal(held.scenes[0].l,base.scenes[0].l+4);assert.equal(held.scenes[0].panels[0].balloons[0].speech.durationSeconds,25);});
+test('Home short replies advance sooner while a recorded clip retains its complete window',()=>{
+ const make=id=>({id,bpm:90,next:{b:0},scenes:[{id:'reply',b:0,l:0,panels:[{img:'brief',balloons:[{text:'Wait.'}]},{img:'next',balloons:[]}]}]});
+ const legacy=retime(make('other')),quick=retime(make('home'));
+ assert(quick.scenes[0].panels[1].at<legacy.scenes[0].panels[1].at);
+ const voiced=make('home');voiced.scenes[0].panels[0].balloons[0].speech={durationSeconds:4};retime(voiced);
+ const start=voiced.scenes[0].panels[0].balloons[0].at*60/90;
+ assert(voiced.scenes[0].panels[1].at*60/90>=start+.3+4+.12);
+});
+test('Home longer passages retain established reading duration',()=>{
+ const legacy=fixture(),home=fixture();home.id='home';
+ assert.deepEqual(retime(home).scenes,retime(legacy).scenes);
+});
+for(const bad of [-.001,32.001,Infinity,-Infinity,NaN,'4',null,true])test('invalid hold rejects atomically: '+String(bad),()=>{const s=fixture();s.scenes[0].artHoldBeats=4;s.scenes[1].artHoldBeats=bad;const before=clone(s);assert.throws(()=>retime(s),{name:'RangeError',message:'artHoldBeats must be a finite number within 0-32'});assert.deepEqual(s,before);});
+console.log(JSON.stringify({checks,status:'PASS',scope:'Durable retime fixtures only; no current Home dependency, image/audio/provider/browser or reader approval'}));

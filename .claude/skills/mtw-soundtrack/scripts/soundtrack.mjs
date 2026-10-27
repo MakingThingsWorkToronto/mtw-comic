@@ -6,7 +6,7 @@
 //   node .claude/skills/mtw-soundtrack/scripts/soundtrack.mjs build [--only id,id] [--force]
 //   node .claude/skills/mtw-soundtrack/scripts/soundtrack.mjs check
 // Profiles are rebuilt only when a track's file hash or the analysis version changes (or --force).
-// Review (play, rate, Approve, Find similar) happens in MTW Studio at /m/soundtrack (`npm run studio`, port 8788), which
+// Review (play, rate, Approve, Find similar) happens in MTW Studio at /m/soundtrack (`npm run studio`, port 8790), which
 // writes sources.json, discovery.json and manifest.json exactly as `build` does and answers the Pixabay collector.
 import { createHash } from 'node:crypto';
 import { copyFileSync, existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
@@ -124,6 +124,6 @@ function check() {
   console.log(`checked ${sources.tracks.length} tracks`);
 }
 
-if (cmd === 'serve') problems.push('serve is retired: open /m/soundtrack in MTW Studio (npm run studio, port 8788)'); else if (cmd === 'build') await build(); else check();
+if (cmd === 'serve') problems.push('serve is retired: open /m/soundtrack in MTW Studio (npm run studio, port 8790)'); else if (cmd === 'build') await build(); else check();
 for (const p of problems) console.log('PROBLEM', p);
 process.exit(problems.length && cmd !== 'build' ? 1 : 0);

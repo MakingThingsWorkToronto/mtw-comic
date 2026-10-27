@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import { freezeDevNotifications } from './comic-review-dev-notifications.mjs';
+let match, route, fromServer, fromClient;
+const sent = [], upstream = [];
+const server = { onMessage: fn => { fromServer = fn; }, send: m => upstream.push(m) };
+const socket = { connectToServer: () => server, onMessage: fn => { fromClient = fn; }, send: m => sent.push(m) };
+await freezeDevNotifications({ routeWebSocket: async (predicate, handler) => { match = predicate; route = handler; } }, 'http://localhost:8789');
+assert.equal(match(new URL('ws://localhost:8789/')), true);
+assert.equal(match(new URL('ws://localhost:8790/')), false);
+route(socket);
+fromServer('{"type":"full-reload"}'); fromServer('{"type":"update"}');
+fromServer('{"type":"connected"}'); fromServer('{"type":"error","err":"retained"}'); fromServer('ping');
+assert.deepEqual(sent, ['{"type":"connected"}', '{"type":"error","err":"retained"}', 'ping']);
+fromClient('native client ping'); assert.deepEqual(upstream, ['native client ping']);
+console.log('4 native dev-notification branches PASS; actual modules, errors and other origins remain intact');

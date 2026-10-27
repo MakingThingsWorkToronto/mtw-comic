@@ -1,0 +1,60 @@
+import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { deferReview, prepareReviewBatch, finalizeReviewBatch, reviewTitle } from './comic-story-library.mjs';
+const root = mkdtempSync(join(tmpdir(), 'comic-review-batch-test-')), tracked = [];
+const write = (path, bytes) => { mkdirSync(join(path, '..'), { recursive: true }); writeFileSync(path, bytes); tracked.push(path); return path; };
+write(join(root, 'manifest.json'), JSON.stringify({ records: [] }));
+const fixture = (name, batch = 'review-test') => {
+ const image = write(join(root, 'assets/experiments/comic-b/reader-art', name, 'frame.png'), Buffer.from('89504e470d0a1a0a','hex'));
+ const report = write(join(root, 'records', name, 'reader-review.json'), JSON.stringify({ errors: [{ fatal: true, message: 'retained baseline failure' }] }));
+ const manifest = deferReview([{ path: image, title: name, group: 'reader artwork', note: 'fixture' }], { batch, reportPath: report, libraryRoot: root }); tracked.push(manifest);
+ return { image, report, manifest };
+};
+let count = 0;
+const reportFinalizationEvidence = [];
+const test = (name, run) => { run(); count++; console.log(`PASS ${name}`); };
+try {
+ test('catalog title prefix has no encoding artifacts', () => assert.equal(reviewTitle('Home scene'), 'Comic B - Home scene'));
+ test('catalog title preserves authored Unicode exactly', () => { const title='Dana \u2014 Caf\u00e9 \u00b7 \u6771\u4eac \ud83c\udfa8'; assert.equal(reviewTitle(title).slice('Comic B - '.length), title); });
+ const first = fixture('baseline'), second = fixture('corrected');
+ const prepare = files => prepareReviewBatch(files, 'review-test', { libraryRoot: root });
+ test('baseline failures and corrected pass evidence aggregate without dropping either', () => assert.equal(prepare([first.manifest, second.manifest]).files.length, 2));
+ test('duplicate pass manifest fails', () => assert.throws(() => prepare([first.manifest, first.manifest]), /Duplicate/));
+ test('different coordinated batch fails', () => assert.throws(() => prepareReviewBatch([first.manifest], 'wrong', { libraryRoot: root }), /mismatch/));
+ test('missing captured image fails', () => { const f = fixture('missing'); unlinkSync(f.image); assert.throws(() => prepare([f.manifest])); });
+ test('changed image bytes fail', () => { const f = fixture('changed'); writeFileSync(f.image, 'changed'); assert.throws(() => prepare([f.manifest]), /changed/); });
+ test('changed failure report fails', () => { const f = fixture('report'); writeFileSync(f.report, '{}'); assert.throws(() => prepare([f.manifest]), /changed/); });
+ test('post-defer pending path rewrite is rejected as changed evidence', () => {
+  const f = fixture('post-defer-rewrite'), before = readFileSync(f.report), original = JSON.parse(before);
+  const declared = JSON.parse(readFileSync(f.manifest)).report;
+  original.pendingRegistration = f.manifest;
+  writeFileSync(f.report, JSON.stringify(original));
+  const after = readFileSync(f.report);
+  assert.throws(() => prepare([f.manifest]), /Evidence changed:/);
+  delete original.pendingRegistration;
+  assert.deepEqual(Buffer.from(JSON.stringify(original)), before);
+  reportFinalizationEvidence.push({ name: 'post-defer-rewrite', outcome: 'rejected', declared, before: before.toString('utf8'), after: after.toString('utf8'), actualSha256: createHash('sha256').update(after).digest('hex'), actualBytes: after.length });
+ });
+ test('write-once report with separate pending receipt remains valid', () => {
+  const f = fixture('write-once-report'), before = readFileSync(f.report);
+  const resultPath = write(join(root, 'records', 'write-once-report', 'registration-result.json'), JSON.stringify({ report: f.report, pendingRegistration: f.manifest }));
+  const result = JSON.parse(readFileSync(resultPath)), declared = JSON.parse(readFileSync(f.manifest)).report;
+  assert.equal(prepare([result.pendingRegistration]).files.length, 1);
+  assert.deepEqual(readFileSync(f.report), before);
+  assert.equal(JSON.parse(before).errors[0].message, 'retained baseline failure');
+  assert.equal(JSON.parse(before).pendingRegistration, undefined);
+  assert.equal(declared.sha256, createHash('sha256').update(before).digest('hex'));
+  assert.equal(declared.bytes, before.length);
+  reportFinalizationEvidence.push({ name: 'write-once-report', outcome: 'accepted for registration preparation only', declared, report: before.toString('utf8'), separateResult: result, retainedProductFailure: true });
+ });
+ test('outside-library paths fail before pending manifest write', () => assert.throws(() => deferReview([{ path: import.meta.filename }], { batch: 'review-test', reportPath: first.report, libraryRoot: root }), /outside library/));
+ test('immutable pass manifest refuses overwrite', () => assert.throws(() => deferReview([{ path: first.image }], { batch: 'review-test', reportPath: first.report, libraryRoot: root }), /EEXIST/));
+ test('different paths colliding to one review record ID fail', () => { const a = fixture('same-name'), b = fixture('same_name'); assert.throws(() => prepare([a.manifest, b.manifest]), /Duplicate/); });
+ test('already registered versions fail', () => { writeFileSync(join(root, 'manifest.json'), JSON.stringify({records:[{id:'comic-b-review-reader-art-baseline-frame'}]})); assert.throws(() => prepare([first.manifest]), /already registered/); writeFileSync(join(root,'manifest.json'),JSON.stringify({records:[]})); });
+ test('one finalizer call registers both exact passes once and retains evidence', () => { let calls = 0; const receipt = finalizeReviewBatch([first.manifest, second.manifest], 'review-test', {libraryRoot:root,register:files=>{calls++;assert.equal(files.length,2);return {fixture:true};}}); tracked.push(receipt); assert.equal(calls,1); assert.equal(JSON.parse(readFileSync(receipt)).images,2); assert.equal(JSON.parse(readFileSync(first.manifest)).status,'pending-registration'); assert.throws(()=>finalizeReviewBatch([first.manifest], 'review-test',{libraryRoot:root,register:()=>{calls++;}}), /already finalized/);assert.equal(calls,1); });
+ console.log(JSON.stringify({ reportFinalizationEvidence }));
+ console.log(`${count}/15 review batch regressions passed; no browser or catalog helper was run.`);
+} finally { for (const path of [...new Set(tracked)].reverse()) { try { unlinkSync(path); } catch(e) { if(e.code!=='ENOENT') throw e; } } }

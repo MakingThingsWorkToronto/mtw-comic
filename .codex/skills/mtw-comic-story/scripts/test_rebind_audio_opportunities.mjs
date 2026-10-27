@@ -6,7 +6,7 @@ import {hash,loadContext,validateAudioOpportunities,validateFiles} from './audio
 import {storySnapshot,prepareRebind,rebindAudit,reviewInventoryAudit,inventoryReviewPlan,writeRebind} from './rebind_audio_opportunities.mjs';
 
 const args=process.argv.slice(2),at=args.indexOf('--fixtures');
-const parent=resolve(at>=0?args[at+1]:join(dirname(fileURLToPath(import.meta.url)),'fixture-runs'));
+const parent=resolve(at>=0?args[at+1]:join(process.cwd(),'.codex/worktrees/comic-audio-fixtures'));
 await fs.mkdir(parent,{recursive:true});
 const root=await fs.mkdtemp(join(parent,'run-'));
 const put=async(path,bytes)=>{const target=join(root,path);await fs.mkdir(dirname(target),{recursive:true});await fs.writeFile(target,bytes,{encoding:'utf8',flag:'wx'});};

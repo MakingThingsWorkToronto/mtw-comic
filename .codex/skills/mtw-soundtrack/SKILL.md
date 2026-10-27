@@ -21,13 +21,13 @@ Read `discussion/spec.md` first ("Soundtrack library", "Homepage B music"): it w
 | `manifest.json` | Generated catalogue: every track with its credit and summary; each track's `profile` field is `profiles/<id>.json`. |
 | `comic-audio.json` | Comic ambience, effects and speech projection ([references/comic-audio.md](references/comic-audio.md)). |
 
-**Review surface:** open `/m/soundtrack` in MTW Studio (`npm run studio`, http://127.0.0.1:8788): filters, player, the homepage credit tag, frequency lane, live bands, metronome and a transition preview, and Matt's review buttons (stars, Approve, Find similar). Studio reads the files above directly; there is no browser page or server in the library folder.
+**Review surface:** open `/m/soundtrack` in MTW Studio (`npm run studio`, http://127.0.0.1:8790): filters, player, the homepage credit tag, frequency lane, live bands, metronome and a transition preview, and Matt's review buttons (stars, Approve, Find similar). Studio reads the files above directly; there is no browser page or server in the library folder.
 
 **Statuses:** `approved` (usable on pages), `candidate` (found by a discovery run, credited and profiled, waiting for Matt), `needs source`, `withdrawn`. Only Matt approves: his Approve button (saved as `approvedVia: "console"`, the value Studio still writes) or his words in a session.
 
 ## Matt's review (Studio's Soundtrack module)
 
-Start Studio (`npm run studio`, or `npm run all` for the website too) and give Matt http://127.0.0.1:8788/m/soundtrack. Every click writes `sources.json` or `discovery.json` (plus a line in `wiki/soundtrack-library/decisions.jsonl`) and rebuilds the manifest at once: **Approve** (candidate to approved, with the date), **Undo approval** (only a Studio approval no page uses), **1-5 stars** (`rating`; the same star again clears it) and **Find similar songs** (an open request that `mtw-music-discovery` answers). Studio re-reads the files on every change, so an intake may run beside it. `soundtrack.mjs serve` is retired.
+Start Studio (`npm run studio`, or `npm run all` for the website too) and give Matt http://127.0.0.1:8790/m/soundtrack. Every click writes `sources.json` or `discovery.json` (plus a line in `wiki/soundtrack-library/decisions.jsonl`) and rebuilds the manifest at once: **Approve** (candidate to approved, with the date), **Undo approval** (only a Studio approval no page uses), **1-5 stars** (`rating`; the same star again clears it) and **Find similar songs** (an open request that `mtw-music-discovery` answers). Studio re-reads the files on every change, so an intake may run beside it. `soundtrack.mjs serve` is retired.
 
 ## Intake (every time Matt approves tracks)
 
