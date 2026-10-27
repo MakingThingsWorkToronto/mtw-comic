@@ -1,0 +1,74 @@
+---
+import { servicesLink, services, primaryLinks, contactLink } from '../config/site';
+import { serviceCatalog } from '../config/services';
+import SoundToggle from './SoundToggle.astro';
+import BrandMark from './BrandMark.astro';
+import { experiments } from '../data/experiments';
+
+// Independent experiments use the same header, with website links returning to MTW.
+const { siteOrigin = '' } = Astro.props;
+const websiteLink = (href: string) => siteOrigin ? new URL(href, siteOrigin).href : href;
+
+const current = Astro.url.pathname;
+const isCurrent = (href: string) => (href === current ? 'page' : undefined);
+
+// Services mega menu (Matt, 2026-09-24): one column per section, a two-colour heading that links to the overview, and
+// direct links to every service. Its section images were removed (Matt, 2026-09-25).
+const groups = services.map((g) => {
+  const id = g.href.replace(/\//g, '');
+  const words = g.label.split(' ');
+  return {
+    id,
+    label: g.label,
+    href: g.href,
+    lead: words.slice(0, -1).join(' '),
+    accent: words[words.length - 1],
+    items: serviceCatalog.filter((s) => s.group === id),
+  };
+});
+---
+<header class="site-header">
+  <a class="brand" href={websiteLink('/')} aria-label="Making Things Work, home">
+    <BrandMark />
+    <span>MAKING THINGS <em>WORK</em></span>
+  </a>
+  <nav class="site-nav" aria-label="Site" data-open="false">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    <ul id="site-menu">
+      <li class="menu" data-open="false">
+        <a href={websiteLink(servicesLink.href)}>{servicesLink.label}</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="services-menu" aria-label="Show services">
+          <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+        </button>
+        <div class="menu-panel mega" id="services-menu">
+          {groups.map((g) => (
+            <section class="mega-col" data-open="false" aria-labelledby={`mega-${g.id}`}>
+              <div class="mega-col__head">
+                <a class="mega-col__title" id={`mega-${g.id}`} href={websiteLink(g.href)} aria-current={!siteOrigin && isCurrent(g.href)}>{g.lead} <span class="accent">{g.accent}</span></a>
+                <button class="mega-col__toggle" type="button" aria-expanded="false" aria-controls={`mega-${g.id}-links`} aria-label={`Show ${g.label} services`}>
+                  <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+                </button>
+              </div>
+              <ul class="mega-col__links" id={`mega-${g.id}-links`}>
+                {g.items.map((s) => <li><a href={websiteLink(s.href)} aria-current={!siteOrigin && isCurrent(s.href)}>{s.label}</a></li>)}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </li>
+      {primaryLinks.map((l) => l.href === '/experiments/' ? (
+        <li class="menu experiments-menu" data-open="false">
+          <a href={websiteLink(l.href)} aria-current={!siteOrigin && isCurrent(l.href)}>{l.label}</a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="experiments-menu" aria-label="Show experiments">
+            <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+          </button>
+          <ul class="menu-panel" id="experiments-menu">
+            {experiments.map((experiment) => <li><a href={experiment.href}>{experiment.title}</a></li>)}
+          </ul>
+        </li>
+      ) : <li><a href={websiteLink(l.href)} aria-current={!siteOrigin && isCurrent(l.href)}>{l.label}</a></li>)}
+      <li class="sound-item"><SoundToggle /></li>
+      <li><a class="nav-contact" href={websiteLink(contactLink.href)} aria-current={!siteOrigin && isCurrent(contactLink.href)}>{contactLink.label}</a></li>
+    </ul>
+  </nav>
+</header>

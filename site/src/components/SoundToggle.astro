@@ -1,0 +1,49 @@
+---
+// Sound Toggle: the site's one sound setting: tactile sounds (a brief piano note, and vibration on supporting phones)
+// and any Beat Comic music, on or off (Matt, 2026-09-27: "link scene audio to button click audio").
+// Behaviour lives in public/scripts/tactile.js, which unhides the button, keeps aria-pressed in
+// step with the stored preference (localStorage 'mtw-sound') and plays a rising third when turned on.
+// Hidden until that script runs, because without it the button would do nothing.
+// Placement is root's choice: Site Header (inside .site-nav > ul, before the Contact Button) or Site Footer.
+export interface Props {
+  /** Show the word "Sound" next to the icon. Icon-only still has the accessible name "Sound". */
+  showLabel?: boolean;
+  class?: string;
+}
+const { showLabel = false, class: extra } = Astro.props;
+---
+<button
+  class:list={['sound-toggle', { 'sound-toggle--label': showLabel }, extra]}
+  type="button"
+  aria-pressed="false"
+  aria-label={showLabel ? undefined : 'Sound'}
+  title="Sound"
+  data-sound-toggle
+  data-tactile="none"
+  hidden
+>
+  <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+    <path d="M3 7.5h3l4-3.5v12l-4-3.5H3z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+    <path class="sound-toggle__waves" d="M13 7.2a4 4 0 0 1 0 5.6M15.3 5a7 7 0 0 1 0 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+    <path class="sound-toggle__off" d="M13.2 7.6l4.8 4.8M18 7.6l-4.8 4.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+  </svg>
+  {showLabel && <span>Sound</span>}
+</button>
+
+<style>
+  .sound-toggle {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    min-width: 40px; min-height: 40px; padding: 8px; border: 0; border-radius: 3px;
+    background: none; color: var(--muted); font-size: 14px; line-height: 1; cursor: pointer;
+    transition: color .2s, transform var(--tactile-settle-ms, .2s) var(--tactile-settle, ease);
+  }
+  .sound-toggle--label { padding-inline: 12px; }
+  .sound-toggle:hover, .sound-toggle[aria-pressed='true'] { color: var(--teal-light); }
+  .sound-toggle svg { width: 20px; height: 20px; flex: none; }
+  .sound-toggle svg path { transition: opacity .2s, transform var(--tactile-snap-ms, .2s) var(--tactile-snap, ease); transform-box: fill-box; transform-origin: left center; }
+  .sound-toggle[aria-pressed='false'] .sound-toggle__waves { opacity: 0; transform: scaleX(.6); }
+  .sound-toggle[aria-pressed='true'] .sound-toggle__off { opacity: 0; transform: scale(.6); }
+  @media (prefers-reduced-motion: reduce) {
+    .sound-toggle, .sound-toggle svg path { transform: none !important; }
+  }
+</style>

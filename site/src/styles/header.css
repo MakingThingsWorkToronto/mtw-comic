@@ -71,6 +71,7 @@
    Mobile: the groups are collapsible menus inside the menu list; no images. */
 @media (min-width: 900px) {
   .site-nav .menu { position: static; }
+  .site-nav .experiments-menu { position: relative; }
   .menu-panel.mega {
     position: fixed; left: 0; right: 0; top: var(--header-h); min-width: 0;
     grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px;
