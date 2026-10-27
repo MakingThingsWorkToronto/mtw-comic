@@ -1,7 +1,7 @@
 {
   "task": "Remove unrelated website implementation and repair comic demo images",
   "repository": "MakingThingsWorkToronto/mtw-comic",
-  "removedTrackedFiles": 167,
+  "removedTrackedFiles": 166,
   "retained": "Comic player, editor, scene/art/audio generation, registration, workflow and agent launch dependencies. Shared brand header retained from the separately requested header task.",
   "agenticDemo": {
     "illustratedSource": "f42b72f3:site/src/data/comic-stories/agentic.ts",
@@ -34,26 +34,6 @@
       "screenshots": 15,
       "inspected": 15,
       "finding": "Opening artwork present in all four issues and original demo. Original demo retains its existing cropped lettering/layout."
-    },
-    "studioBuild": {
-      "result": "passed",
-      "viteSeconds": 1.83,
-      "typecheck": "passed"
-    },
-    "targetedStudioAfterFinalUi": {
-      "files": 3,
-      "tests": 22,
-      "passed": 22
-    },
-    "studioHttp": {
-      "modules": [
-        "operations",
-        "comics",
-        "images",
-        "soundtrack",
-        "workflows"
-      ],
-      "comicArtRecords": 195
     }
   },
   "sourceHashes": {

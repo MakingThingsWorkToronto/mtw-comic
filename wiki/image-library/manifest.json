@@ -5809,6 +5809,12 @@
       "role": "provenance"
     },
     {
+      "destination": "records/comics-cleanup-20261027/review-v2.json",
+      "sha256": "c38941e325155978b19830200c32d86216062412c0639a6a385489c5b91c9f6c",
+      "bytes": 2332,
+      "role": "provenance"
+    },
+    {
       "destination": "records/comics-cleanup-20261027/review.json",
       "sha256": "125cd1432191cb7d1eb7d5ec775c387a053650044b17faf9487bf64939885ede",
       "bytes": 1910,
@@ -5889,8 +5895,8 @@
     },
     "selectedOriginalReferences": 0,
     "traditionalOriginals": 0,
-    "copiedFiles": 220,
-    "copiedBytes": 414610710,
+    "copiedFiles": 221,
+    "copiedBytes": 414613042,
     "imageFiles": 198,
     "evidenceImageFiles": 15
   }
