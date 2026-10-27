@@ -1,10 +1,12 @@
-apps/
-wiki/
-scripts/
-tests/
-.claude/
-.codex/
-node_modules/
-site/node_modules/
-site/dist/
-site/verification/
+# Root-only authoring exclusions. Playback scripts under site/public must ship.
+/apps/
+/wiki/
+/scripts/
+/tests/
+/.claude/
+/.codex/
+/node_modules/
+/site/node_modules/
+/site/dist/
+/site/.astro/
+/site/verification/

@@ -6,6 +6,7 @@
     "dev": "npm --prefix site run dev",
     "build": "npm --prefix site run build",
     "test": "npm --prefix site test",
-    "studio": "node scripts/studio/start-studio.mjs --port 8790"
+    "studio": "node scripts/studio/start-studio.mjs --port 8790",
+    "test:live": "node scripts/test-live.mjs"
   }
 }
