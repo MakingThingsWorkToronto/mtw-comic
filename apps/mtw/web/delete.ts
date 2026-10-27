@@ -7,13 +7,12 @@ import type { TerminalInfo } from '../modules/types';
 /** The one shared procedure (wiki/operations/prompts/operations-delete-item.md). Its body never varies per item. */
 export const DELETE_OPERATION = 'operations-delete-item';
 
-export type DeleteKind = 'image' | 'track' | 'journal' | 'comic' | 'comic-page' | 'comic-box';
+export type DeleteKind = 'image' | 'track' | 'comic' | 'comic-page' | 'comic-box';
 
 /** Studio module whose wiki-changed events mean the item's data may have changed. */
 export const DELETE_MODULE: Record<DeleteKind, string> = {
   image: 'images',
   track: 'soundtrack',
-  journal: 'journal',
   comic: 'comics',
   'comic-page': 'comics',
   'comic-box': 'comics',
@@ -23,7 +22,6 @@ export const deleteSubject = {
   /** One version of one style: `delete:img:<record>#<style>@<version>` (version: v<N> or an 8-char sha256 prefix). */
   image: (record: string, version: string, style?: string): string => `delete:img:${record}${style ? `#${style}` : ''}@${version}`,
   track: (id: string): string => `delete:snd:${id}`,
-  journal: (slug: string): string => `delete:journal:${slug}`,
   comic: (issue: string): string => `delete:comic:${issue}`,
   page: (issue: string, scene: string): string => `delete:comic-page:${issue}/${scene}`,
   /** `number` is 1-based in reading order; `fingerprint` tells a box apart from the one that moves into its place. */

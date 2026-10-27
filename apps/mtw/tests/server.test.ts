@@ -24,7 +24,7 @@ describe('server', () => {
     const modules = await json<{ id: string; nav: { label: string } }[]>('/api/modules');
     expect(modules.map((m) => m.id)).toContain('operations');
     const ops = await json<{ id: string }[]>('/api/operations');
-    expect(ops.map((o) => o.id)).toEqual(expect.arrayContaining(['wiki-graph-check', 'asset-destination-check']));
+    expect(ops.map((o) => o.id)).toEqual(expect.arrayContaining(['comics-build-story', 'comics-build-scenes']));
     expect((await fetch(`${base()}/api/nope`)).status).toBe(404);
   });
 

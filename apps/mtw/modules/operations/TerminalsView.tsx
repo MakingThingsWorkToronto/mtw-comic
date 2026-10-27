@@ -8,8 +8,7 @@ import { buildUrl } from '../../web/shell/route';
 import { navigate, route, setQuery } from '../../web/shell/router';
 import { terminals, useLiveResource } from '../../web/state';
 import { Badge, Button, ConfirmLaunch, EmptyState, Menu, Table, Tabs, TabActions, launchBody } from '../../web/ui';
-import type { Column, LaunchArgs } from '../../web/ui';
-import { ContributionDetail, useRun } from './ContributionsView';
+import type { Column } from '../../web/ui';
 import { TerminalPane } from './TerminalPane';
 
 const when = (iso: string) => new Date(iso).toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
@@ -161,10 +160,7 @@ export function TerminalView({ id }: { id: string }) {
   const t = terminals.value.find((x) => x.id === id);
   const [error, setError] = useState('');
   const now = useNow(t?.status === 'running');
-  const run = useRun(id);
-  const [improveOpen, setImproveOpen] = useState(false);
   const [resumeOpen, setResumeOpen] = useState(false);
-  const improve = async (args: LaunchArgs): Promise<{ id: string }> => api.post<TerminalInfo>(`/api/operations/runs/${encodeURIComponent(id)}/improve`, launchBody(args));
   if (!t) {
     return (
       <div class="page">
@@ -225,11 +221,6 @@ export function TerminalView({ id }: { id: string }) {
               Resume
             </Button>
           )}
-          {t.operation && t.hasPrompt && (
-            <Button variant="secondary" help="Opens a window to confirm which agent, model and effort review this run and suggest edits to its procedure. Nothing starts until you confirm." onClick={() => setImproveOpen(true)}>
-              Improve this procedure
-            </Button>
-          )}
           <Button variant="secondary" help="Goes back to the list of all agent sessions, running and finished." onClick={() => navigate(buildUrl('operations', ['terminals']))}>
             All terminals
           </Button>
@@ -237,14 +228,7 @@ export function TerminalView({ id }: { id: string }) {
       </div>
       {error && <p role="alert" style="color:var(--error)">{error}</p>}
       {resumeOpen && <ResumeDialog t={t} onClose={() => setResumeOpen(false)} />}
-      {improveOpen && <ConfirmLaunch operation="operations-improve-procedure" title="Improve this procedure" body="An agent reads this run and proposes edits to its procedure. Choose which agent, model and effort do it." onClose={() => setImproveOpen(false)} run={improve} />}
       {t.interrupted && <p class="sub">This terminal stopped without finishing (it crashed or Studio was closed). Resume reopens its saved conversation.</p>}
-      {t.operation && run && run.status !== 'running' && (
-        <section aria-label="Contributions">
-          <h2 class="sr-only">Contributions</h2>
-          <ContributionDetail run={run} />
-        </section>
-      )}
       <TerminalPane id={t.id} running={t.status === 'running'} fill />
     </div>
   );

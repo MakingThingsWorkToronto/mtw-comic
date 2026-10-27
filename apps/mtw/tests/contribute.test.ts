@@ -75,15 +75,3 @@ describe('ContributionTracker', () => {
     expect(runs[0]).toMatchObject({ id, operation: 'op', contributed: ['made.md — new note'], changedFiles: ['made.md'] });
   });
 });
-
-describe('learning procedures', () => {
-  it('parses operations-improve-procedure and operations-run-retro', () => {
-    for (const [id, params] of [['operations-improve-procedure', ['operation', 'run', 'prompt', 'transcript']], ['operations-run-retro', ['runs', 'operation']]] as const) {
-      const { def, body } = parsePrompt(read(path.join(REPO, 'wiki', 'operations', 'prompts', `${id}.md`), 'utf8'), id);
-      expect(def.id).toBe(id);
-      expect(def.params.map((p) => p.name)).toEqual(params);
-      expect(body).toContain('Contributed:');
-      expect(body).not.toContain('## This run');
-    }
-  });
-});

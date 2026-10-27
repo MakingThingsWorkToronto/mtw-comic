@@ -52,7 +52,7 @@ describe('domain sections', () => {
   it('offers the domains in use plus the suggestions, without duplicates or Other', () => {
     const d = domainChoices(['Music', 'music', 'Other', '', 'Ops']);
     expect(d).toContain('Ops');
-    expect(d).toContain('Research');
+    expect(d).toContain('Comics');
     expect(d.filter((x) => x.toLowerCase() === 'music')).toHaveLength(1);
     expect(d).not.toContain('Other');
   });
@@ -142,13 +142,13 @@ describe('POST /api/workflows/create', () => {
 
     const list = await h.get<{ id: string; domain: string; problems: string[] }[]>('/api/workflows/list');
     expect(list.find((r) => r.id === 'test-made-by-form')).toMatchObject({ domain: 'Research', problems: [] });
-    expect(list.find((r) => r.id === 'weekly-journal-entry')?.domain).toBe('Journal');
+    expect(list.find((r) => r.id === 'comic-build')?.domain).toBe('Comics');
 
     const again = await h.post('/api/workflows/create', { workflow: { ...wf, title: 'Changed' } });
     expect(again.status).toBe(409);
     expect(JSON.parse(readFileSync(file, 'utf8')).title).toBe('Made by the form');
 
-    const shipped = await h.post('/api/workflows/create', { workflow: { ...wf, id: 'music-discovery' } });
+    const shipped = await h.post('/api/workflows/create', { workflow: { ...wf, id: 'comic-build' } });
     expect(shipped.status).toBe(409);
 
     const bad = await h.post<{ error: string }>('/api/workflows/create', { workflow: { ...wf, id: 'bad-step', nodes: [{ id: 'go', label: 'Go', kind: 'operation', operation: 'no-such-procedure' }], edges: [] } });
@@ -168,10 +168,10 @@ describe('the shipped workflows run end to end (dry: fake launcher, simulated ex
   });
   afterAll(async () => close());
 
-  it('each of the four reaches succeeded, launching only real procedures with every required value set', async () => {
+  it('the comic build reaches succeeded, launching only real procedures with every required value set', async () => {
     const loaded = await loadWorkflows(core);
     const realOps = await core.operations.list();
-    for (const id of ['weekly-journal-entry', 'comic-box-art-fix', 'music-discovery', 'access-review-example']) {
+    for (const id of ['comic-build']) {
       const hit = loaded.find((l) => l.id === id);
       expect({ id, problems: hit?.problems }).toEqual({ id, problems: [] });
       const w = hit?.workflow;

@@ -13,9 +13,8 @@ const prompt = (id: string) => parsePrompt(readFileSync(path.join(REPO, 'wiki', 
 const parsed = prompt(ADD_OPERATION);
 
 const valid: Record<AddKind, Record<string, string>> = {
-  image: { name: 'Operator desk at night', brief: 'A holographic desk scene\nfor the Home hero.', collection: 'scenes', style: 'holographic', options: '2', use: '', sources: 'img:home-desk@v2\nhttps://example.com/ref.png' },
+  image: { name: 'Operator desk at night', brief: 'A comic-ink desk scene\nfor the Home hero.', collection: 'scenes', style: 'comic-ink', options: '2', use: '', sources: 'img:home-desk@v2\nhttps://example.com/ref.png' },
   track: { name: 'Slow synth build', brief: 'Home hero bed', mood: 'calm', length: '', options: '3', sources: '' },
-  'journal-candidate': { name: 'Measuring agents can slow their work', brief: 'What happened.', category: 'Agentic Systems', event: '', counter: '', sources: '' },
   character: { name: '', brief: 'A night-shift operator who finds the stuck queue.', role: 'operator', issue: 'home', look: '', voice: '', sources: '' },
 };
 
@@ -43,12 +42,12 @@ describe('operations-add-resource procedure', () => {
 
   it('keeps the whole prefix before "## This run" byte-identical across kinds (prompt caching)', () => {
     const a = renderPrompt(parsed, buildAddLaunch('image', 'generate', valid.image).params, REPO);
-    const b = renderPrompt(parsed, buildAddLaunch('journal-candidate', undefined, valid['journal-candidate']).params, REPO);
+    const b = renderPrompt(parsed, buildAddLaunch('character', undefined, valid.character).params, REPO);
     const ia = a.indexOf('## This run');
     const ib = b.indexOf('## This run');
     expect(ia).toBeGreaterThan(0);
     expect(a.slice(0, ia)).toBe(b.slice(0, ib));
-    expect(a.slice(ia)).toContain('Collection: scenes; Style: holographic; Options: 2');
+    expect(a.slice(ia)).toContain('Collection: scenes; Style: comic-ink; Options: 2');
     expect(a.slice(0, ia)).not.toContain('Operator desk');
     expect(parsed.body).not.toMatch(/\{\{\w+\}\}/);
   });
@@ -62,7 +61,7 @@ describe('operations-add-resource procedure', () => {
     expect(body).toMatch(/only by Codex through the Codex CLI/);
     expect(body).toMatch(/maintained producer/);
     expect(body).toMatch(/Never run `git add`, `git commit`, `git push`/);
-    expect(body).toContain('discussion/handoff/STATUS.md');
+    expect(body).toContain('git status --short');
   });
 
   it('has a stable per-kind section in the add-resource-kinds template for every kind', () => {
@@ -132,14 +131,14 @@ describe('validation helpers', () => {
     expect(params).toEqual({
       kind: 'image',
       name: 'Operator desk at night',
-      brief: 'A holographic desk scene for the Home hero.',
-      details: 'Collection: scenes; Style: holographic; Options: 2',
+      brief: 'A comic-ink desk scene for the Home hero.',
+      details: 'Collection: scenes; Style: comic-ink; Options: 2',
       sources: 'img:home-desk@v2; https://example.com/ref.png',
       subject: 'add:image:operator-desk-at-night',
     });
   });
 
   it('refuses to build a launch from invalid input', () => {
-    expect(() => buildAddLaunch('journal-candidate', undefined, { name: 'x' })).toThrow(/required/);
+    expect(() => buildAddLaunch('character', undefined, { name: 'x' })).toThrow(/required/);
   });
 });

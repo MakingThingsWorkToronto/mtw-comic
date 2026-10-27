@@ -79,9 +79,9 @@ function setup() {
     writeFileSync(path.join(dir, `${sid}.jsonl`), '{"type":"user"}\n');
   };
   const codexRollout = (sid: string) => {
-    const day = path.join(codexHome, 'sessions', '2026', '10', '11');
+    const day = path.join(codexHome, 'sessions', ...new Date().toISOString().slice(0, 10).split('-'));
     mkdirSync(day, { recursive: true });
-    const file = path.join(day, `rollout-2026-10-11T01-02-03-${sid}.jsonl`);
+    const file = path.join(day, `rollout-${new Date().toISOString().slice(0, 10)}T01-02-03-${sid}.jsonl`);
     writeFileSync(file, `${JSON.stringify({ type: 'session_meta', payload: { id: sid, cwd, timestamp: new Date().toISOString() } })}\n`);
     return file;
   };

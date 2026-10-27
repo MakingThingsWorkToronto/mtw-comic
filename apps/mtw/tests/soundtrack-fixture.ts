@@ -1,11 +1,13 @@
 // Test support for the soundtrack module: a temp copy of the library (never the live one) and a server that mirrors
 // server/app.ts plus the raw-route hook the module needs (see the report's "promote to shared").
 import { spawn } from 'node:child_process';
-import { copyFileSync, linkSync, mkdirSync, mkdtempSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { copyFileSync, linkSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { Core } from '../server/core/services';
+import { buildManifest, manifestJson } from '../modules/soundtrack/server/library';
+import type { Sources } from '../modules/soundtrack/server/library';
 
 export const appRoot = fileURLToPath(new URL('..', import.meta.url));
 export const liveRepo = path.resolve(appRoot, '..', '..');
@@ -50,8 +52,18 @@ export function makeFixture(): Fixture {
   mkdirSync(path.join(lib, 'profiles'), { recursive: true });
   // Profiles and audio are only ever read (the module never writes them), so hard links stand in for copies.
   for (const f of readdirSync(path.join(liveLib, 'profiles'))) if (f.endsWith('.json')) linkOrCopy(path.join(liveLib, 'profiles', f), path.join(lib, 'profiles', f));
+  const sources = JSON.parse(readFileSync(path.join(lib, 'sources.json'), 'utf8')) as Sources;
+  sources.tracks[0]!.usedBy = ['comic-fixture'];
+  const sample = sources.tracks[0]!;
+  for (let i = 1; i <= 3; i++) sources.tracks.push({ ...sample, id: `fixture-candidate-${i}`, file: `fixture-candidate-${i}.mp3`, title: `Fixture candidate ${i}`, status: 'candidate', usedBy: [], discovery: { run: 'fixture-run', rank: i } });
+  writeFileSync(path.join(lib, 'sources.json'), JSON.stringify(sources));
+  writeFileSync(path.join(lib, 'manifest.json'), manifestJson(buildManifest(sources, {requests:[],runs:[]}, t => {
+    const file = path.join(lib, 'profiles', `${t.id}.json`);
+    try { return JSON.parse(readFileSync(file, 'utf8')); } catch { return null; }
+  })));
   mkdirSync(path.join(lib, 'records'), { recursive: true });
   linkTree(path.join(liveLib, 'assets'), path.join(lib, 'assets'));
+  for (const track of sources.tracks.filter(t => t.id.startsWith('fixture-candidate-'))) linkOrCopy(path.join(liveLib, 'assets', sample.file), path.join(lib, 'assets', track.file));
   writeFileSync(path.join(root, 'AGENTS.md'), 'fixture root\n');
   const scripts = path.join(root, '.claude', 'skills', 'mtw-soundtrack', 'scripts');
   mkdirSync(scripts, { recursive: true });

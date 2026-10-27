@@ -9,11 +9,11 @@ function argValue(name: string): string | undefined {
 
 const appRoot = fileURLToPath(new URL('..', import.meta.url));
 const repoRoot = process.env.MTW_REPO_ROOT ?? path.resolve(appRoot, '..', '..');
-const port = Number(argValue('--port') ?? process.env.MTW_PORT ?? 8788);
+const port = Number(argValue('--port') ?? process.env.MTW_PORT ?? 8790);
 const dev = process.argv.includes('--dev');
 
 const app = await startApp({ repoRoot, appRoot, port, dev });
-console.log(`MTW Studio${dev ? ' (dev)' : ''}: ${app.url}`);
+console.log(`Comic Studio${dev ? ' (dev)' : ''}: ${app.url}`);
 
 let closing = false;
 const shutdown = async (): Promise<void> => {

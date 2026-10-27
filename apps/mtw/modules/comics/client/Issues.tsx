@@ -71,7 +71,6 @@ export function IssuesView() {
       <div class="row">
         <OpButton id="comics-rebuild-library" label="Rebuild library" help="Opens a terminal where an agent checks that the comics library pages can be rebuilt from the cast, voices, images and stories, and reports any warnings. It writes no files." />
         <OpButton id="comics-author-issue" label="Author or revise issue" help="Opens a window where you describe the issue you want written or changed. Launching it opens a terminal where an agent writes or revises that issue's story, art plan and lettering, then runs the checks. It does not publish." />
-        <OpButton id="comics-beat-comic" label="Beat comic" help="Opens a window where you choose an approved song and a story. Launching it opens a terminal where an agent builds an 8-bit motion comic cut to that song's beats and runs its checks. It does not publish." />
         <span class="muted small">Library built {new Date(data.builtAt).toLocaleString()}</span>
       </div>
       <Table columns={columns} rows={data.issues} rowKey={(r) => r.id} defaultSort={{ key: 'issue', dir: 'asc' }} />

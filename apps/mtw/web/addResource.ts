@@ -8,8 +8,8 @@
 /** The one shared procedure (wiki/operations/prompts/operations-add-resource.md). */
 export const ADD_OPERATION = 'operations-add-resource';
 
-export type AddKind = 'image' | 'track' | 'journal-candidate' | 'character';
-export const ADD_KINDS: readonly AddKind[] = ['image', 'track', 'journal-candidate', 'character'];
+export type AddKind = 'image' | 'track' | 'character';
+export const ADD_KINDS: readonly AddKind[] = ['image', 'track', 'character'];
 
 /**
  * Where a field's value goes. For the shared procedure: `name`, `brief`, `sources`, or `detail` (rendered as
@@ -60,9 +60,8 @@ export const NAME_MAX = 120;
 export const BRIEF_MAX = 800;
 export const LINE_MAX = 300;
 
-export const IMAGE_COLLECTIONS = ['diagrams', 'icons', 'originals', 'scenes', 'comics', 'earlier'] as const;
-export const IMAGE_STYLES = ['holographic', 'photorealistic', 'svg-glass', 'svg-flat', 'svg-outline', 'comic-ink'] as const;
-export const JOURNAL_CATEGORIES = ['Agentic Systems', 'Data & Migrations', 'Traditional Systems'] as const;
+export const IMAGE_COLLECTIONS = ['originals', 'scenes', 'comics'] as const;
+export const IMAGE_STYLES = ['comic-ink'] as const;
 export const CHARACTER_ROLES = ['hero', 'mentor', 'operator', 'antagonist', 'villain', 'background'] as const;
 
 const imageAsset = {
@@ -143,28 +142,6 @@ export const ADD_SPECS: Record<AddKind, AddSpec> = {
         summary: 'Takes files you downloaded into the library with their exact credit (soundtrack-intake).',
         operation: 'soundtrack-intake',
         fields: [{ name: 'files', label: 'Files', control: 'textarea', target: 'param', required: true, initial: 'all new in Downloads', item: sourceItem, hint: 'File names in Downloads, one per line, or "all new in Downloads".' }],
-      },
-    ],
-  },
-  'journal-candidate': {
-    kind: 'journal-candidate',
-    button: 'Add candidate',
-    title: 'Add a Journal candidate',
-    module: 'journal',
-    modes: [
-      {
-        id: 'candidate',
-        label: 'New candidate',
-        summary: 'Writes your idea as a new concept in a dated proposals file, scored against the nine candidate checks. Nothing is queued or approved.',
-        operation: ADD_OPERATION,
-        fields: [
-          nameField('Working headline', 'e.g. Measuring agents can slow their work'),
-          briefField('What happened and what it argues', 'The event, your decision or mistake, and the point a business leader should take from it.'),
-          detail('category', 'Category', { control: 'select', options: JOURNAL_CATEGORIES, required: true }),
-          detail('event', 'Dated event', { placeholder: 'e.g. 2026-10-09 the tour timing check failed' }),
-          detail('counter', 'Counter-position', { placeholder: 'The outside view it argues with, if known' }),
-          sourcesField('Evidence', 'Commits, session notes, records or links, one per line.'),
-        ],
       },
     ],
   },

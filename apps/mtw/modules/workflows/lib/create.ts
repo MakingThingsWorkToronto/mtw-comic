@@ -5,7 +5,7 @@ import type { ValidationContext, Workflow } from './schema';
 
 export const OTHER_DOMAIN = 'Other';
 /** Offered in the form beside the domains already in use. */
-export const SUGGESTED_DOMAINS = ['Access', 'Comics', 'Images', 'Journal', 'Music', 'Research', 'Site'];
+export const SUGGESTED_DOMAINS = ['Comics', 'Images', 'Music'];
 /** Ids the routes under /m/workflows/ already use. */
 export const RESERVED_IDS = ['run', 'new', 'runs', 'list', 'create'];
 

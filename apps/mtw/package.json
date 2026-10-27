@@ -1,9 +1,9 @@
 {
-  "name": "mtw-app",
+  "name": "comic-studio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Making Things Work Studio: one local operating surface over the wiki libraries.",
+  "description": "Local comic authoring, art registration, sound and reader review.",
   "scripts": {
     "dev": "tsx server/main.ts --dev",
     "build": "vite build && tsc --noEmit",

@@ -1,0 +1,1157 @@
+[
+  {
+    "size": "desktop",
+    "slug": "home",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 7.5,
+      "scene": "quote",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "page",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 35,
+      "crops": 45,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "desktop",
+    "slug": "agentic-systems",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 8.13,
+      "scene": "five",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "page",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 0,
+      "crops": 0,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": [
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-floor19.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-scan-feed.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-duplicates.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-claude-chat.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-ocr-fields.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-2.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-new-account.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-1.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-search.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-asleep.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-silhouette.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-3.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-4.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-chat-june.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-agent-forms.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-chat-july.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-job-scheduled.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-fog.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-scans-safe.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-matt-phone.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-sam-call.svg",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "size": "desktop",
+    "slug": "traditional-systems",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 9,
+      "scene": "locked",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "page",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 18,
+      "crops": 18,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "desktop",
+    "slug": "data-migrations",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 6.58,
+      "scene": "records",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "page",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 21,
+      "crops": 21,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "desktop",
+    "slug": "demo",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 7.5,
+      "scene": "p1",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "page",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 0,
+      "crops": 23,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "phone",
+    "slug": "home",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 7.5,
+      "scene": "quote",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 35,
+      "crops": 45,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "phone",
+    "slug": "agentic-systems",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 8.13,
+      "scene": "five",
+      "sheet": 0,
+      "sheets": 2,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 0,
+      "crops": 0,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": [
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-floor19.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-scan-feed.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-new-account.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-duplicates.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-asleep.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-job-scheduled.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-ocr-fields.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-2.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-3.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-silhouette.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-search.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-chat-june.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-1.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-chat-july.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-fog.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-agent-forms.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-claude-chat.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-matt-phone.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-sam-call.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-4.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-scans-safe.svg",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "size": "phone",
+    "slug": "traditional-systems",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 9,
+      "scene": "locked",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 18,
+      "crops": 18,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "phone",
+    "slug": "data-migrations",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 6.58,
+      "scene": "records",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 21,
+      "crops": 21,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "phone",
+    "slug": "demo",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": false,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 7.5,
+      "scene": "p1",
+      "sheet": 0,
+      "sheets": 3,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 0,
+      "crops": 23,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "reduced",
+    "slug": "home",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": true,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 7.5,
+      "scene": "quote",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 35,
+      "crops": 45,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "reduced",
+    "slug": "agentic-systems",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": true,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 8.13,
+      "scene": "five",
+      "sheet": 0,
+      "sheets": 2,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 0,
+      "crops": 0,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": [
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-floor19.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-ocr-fields.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-claude-chat.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-job-scheduled.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-duplicates.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-1.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-scan-feed.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-asleep.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-new-account.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-agent-forms.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-3.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-2.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-run-4.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-silhouette.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-search.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-chat-june.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-matt-phone.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-sam-call.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-scans-safe.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-fog.svg",
+        "status": 404
+      },
+      {
+        "url": "https://comics.makingthings.work/comic/agentic/agentic-chat-july.svg",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "size": "reduced",
+    "slug": "traditional-systems",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": true,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 9,
+      "scene": "locked",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 18,
+      "crops": 18,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "reduced",
+    "slug": "data-migrations",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": true,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 6.58,
+      "scene": "records",
+      "sheet": 0,
+      "sheets": 1,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 21,
+      "crops": 21,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  },
+  {
+    "size": "reduced",
+    "slug": "demo",
+    "status": {
+      "score": {
+        "scored": true,
+        "ctx": null,
+        "routed": false,
+        "headroom": 0.6,
+        "masterGain": null,
+        "buses": {
+          "music": null,
+          "room": null,
+          "voice": null,
+          "roomEnvelopes": []
+        },
+        "level": -1,
+        "room": "",
+        "focus": null,
+        "roomAssets": {},
+        "speech": {
+          "playing": false,
+          "current": null,
+          "busLevel": 0.7,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.045,
+          "musicDuck": 1,
+          "ambienceDuck": 1,
+          "assets": {},
+          "issues": [],
+          "pending": 0
+        },
+        "eq": null,
+        "fired": []
+      },
+      "app": true,
+      "still": true,
+      "issues": false,
+      "state": "paused",
+      "T": 5,
+      "beat": 7.5,
+      "scene": "p1",
+      "sheet": 0,
+      "sheets": 3,
+      "mode": "phone",
+      "held": false,
+      "userPaused": false,
+      "audioLive": false,
+      "muted": true,
+      "loaded": true
+    },
+    "art": {
+      "layers": 0,
+      "crops": 23,
+      "missing": 0,
+      "layerErrors": []
+    },
+    "errors": [],
+    "missing": []
+  }
+]

@@ -1,6 +1,5 @@
-// Issue 2, rewritten again for comic build agentic-systems 20261015 (third draft, after Matt's rejection of the second):
-// the OCR conversion of six years of paper safety assessments, an ungoverned cleanup agent, and Matt's domain harness.
-// Story, scenes, boxes, words and sound intent only. No art bindings yet; art, planes and lettering come in later steps.
+// Issue02 layered source successor. Nine/Contained remain original complete artwork after tool safety rejection.
+// Three specific evidence panels are deliberately static source inserts; new speech remains human-gated.
 import type { ComicStory } from './types';
 import { retime } from './retime';
 
@@ -9,7 +8,7 @@ export const agenticComic: ComicStory = retime({
   "issue": 2,
   "title": "The keys to production.",
   "bpm": 97.5,
-  "beats": 648,
+  "beats": 336,
   "music": {
     "src": "/audio/pixabay-481595-moody-rap-type-beat-free-rap-beat.mp3",
     "offset": 0.18,
@@ -43,14 +42,7 @@ export const agenticComic: ComicStory = retime({
   "scenes": [
     {
       "id": "five",
-      "b": 0,
-      "l": 96,
-      "title": "One: forty names.",
-      "score": 0,
-      "room": "office",
-      "villains": [
-        "amnesia"
-      ],
+      "artCropInsetPct": 0,
       "phonePages": [
         [
           {
@@ -59,78 +51,47 @@ export const agenticComic: ComicStory = retime({
               0,
               0,
               1,
-              0.46
-            ]
-          },
-          {
-            "img": "agentic-scan-feed",
-            "r": [
-              0,
-              0.46,
-              1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-ocr-fields",
-            "r": [
-              0,
-              0.73,
-              1,
-              0.27
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-claude-chat",
-            "r": [
-              0,
-              0,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-duplicates",
-            "r": [
-              0,
-              0.25,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-new-account",
-            "r": [
-              0,
-              0.5,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-job-scheduled",
-            "r": [
-              0,
-              0.75,
-              1,
-              0.25
+              1
             ]
           }
         ]
       ],
+      "art": "/comic/agentic/live-20261010/agentic-five-composite-selected-v4",
+      "b": 0,
+      "l": 56,
+      "title": "Floor 19. Thursday, 5:00 p.m.",
+      "score": 0,
+      "room": "office",
+      "villains": [
+        "rogue"
+      ],
       "panels": [
         {
           "at": 1,
+          "room": "office",
           "r": [
             0,
             0,
-            0.62,
-            0.6
+            1,
+            1
           ],
+          "ar": [
+            0.008827238335435058,
+            0.014112903225806451,
+            0.5844892812105927,
+            0.5292338709677419
+          ],
+          "cropFocus": {
+            "phone": [
+              0.76475273,
+              0.5
+            ]
+          },
           "img": "agentic-floor19",
-          "alt": "Wide: Esposito's training office on floor 19 of the Keon Tower at five o'clock. Staff head for the elevators; Sam Howe, hi-vis vest over a work shirt, hard hat on the desk, feeds paper assessment forms into a document scanner beside his monitor.",
+          "alt": "Wide: the Esposito training office on floor 19 at five o'clock, staff pulling on coats and heading for the elevators past safety posters; at a desk in the foreground Sam Howe, in a hi-vis vest over a work shirt with a hard hat on the desk, stays seated under a desk lamp.",
+          "motion": {
+            "preset": "still"
+          },
           "balloons": [
             {
               "at": 1.5,
@@ -138,2653 +99,108 @@ export const agenticComic: ComicStory = retime({
               "state": "narration",
               "who": "narrator",
               "text": "Toronto. Keon Tower,\nfloor 19. Thursday,\n5 November, 5:00 p.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
+              "x": 0.008683068017366137,
+              "y": 0.01634877384196185,
+              "w": 0.2066121562952243,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
             },
             {
               "at": 3,
               "kind": "caption",
+              "characterIntro": true,
               "state": "narration",
               "who": "narrator",
+              "text": "Sam Howe. Training.\nHe checks the records\ncrews climb on.",
+              "x": 0.22397829232995659,
+              "y": 0.01634877384196185,
+              "w": 0.2066121562952243,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 4.5,
+              "kind": "caption",
               "sceneSetup": true,
-              "text": "Esposito Power & Light keeps Toronto's power on. Its training team is scanning six years of paper safety assessments into a new records system. Forty lineworkers climb Monday at 6:00 a.m. Sam must verify each one's assessment first, or nobody goes up.",
-              "x": 0.02,
-              "y": 0.92,
-              "w": 0.96
-            },
-            {
-              "at": 4.5,
-              "kind": "caption",
               "state": "narration",
               "who": "narrator",
-              "characterIntro": true,
-              "text": "Sam Howe. Training,\nEsposito Power & Light.\nAllergic to slides.",
-              "x": 0.02,
-              "y": 0.18,
-              "w": 0.42
+              "text": "Esposito Power & Light keeps\nthe city’s electricity running.\nForty lineworkers start Monday\nat 6:00 a.m. Sam must verify\ntheir safety records. A new\nagent has permission to delete\nthose records tonight.",
+              "x": 0.008683068017366137,
+              "y": 0.95,
+              "w": 0.9826338639652678,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.95,
+                "w": 0.9544159544159544,
+                "chain": false
+              },
+              "chain": false
             }
           ],
-          "sfx": [
-            {
-              "kind": "paper",
-              "gain": 0.4
-            }
+          "pageArt": [
+            0.008683068017366137,
+            0.11444141689373297,
+            0.9826338639652678,
+            0.6757493188010899
           ],
-          "room": "office"
-        },
-        {
-          "at": 37,
-          "r": [
-            0.62,
-            0,
-            0.38,
-            0.27
+          "phoneArt": [
+            0.022792022792022793,
+            0.2198473282442748,
+            0.9544159544159544,
+            0.5679389312977099
           ],
-          "img": "agentic-scan-feed",
-          "alt": "Close: a paper assessment form slides into the scanner's feed tray, showing a worker's name, a date, a ticked pass box and an inked assessor signature.",
-          "balloons": [
+          "layerMotion": [
             {
-              "at": 37.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Six years of paper.\nThe last boxes\ngo in tonight.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper",
-              "gain": 0.6
-            }
-          ]
-        },
-        {
-          "at": 44,
-          "r": [
-            0.62,
-            0.27,
-            0.38,
-            0.33
-          ],
-          "img": "agentic-ocr-fields",
-          "alt": "Insert: Sam's monitor. On the left, the scanned form; on the right, the fields the OCR system read from it: worker name, assessment date, pass or fail, assessor signature, each with a confidence score, one in amber.",
-          "balloons": [
-            {
-              "at": 44.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Read from scan:\nname, date, result,\nsignature. Confidence\n94 per cent.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 51.5,
-          "r": [
-            0,
-            0.6,
-            0.27,
-            0.4
-          ],
-          "img": "agentic-claude-chat",
-          "alt": "Sam pastes a batch of extracted records into a chat window; Claude, a tall AI projected in full colour beside the monitor in a long coat of layered pages, visor flat grey, answers at once.",
-          "balloons": [
-            {
-              "at": 52,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "characterIntro": true,
-              "text": "Claude. An AI.\nIt reads everything,\nand agrees with\neveryone.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
+              "layerId": "background",
+              "preset": "still"
             },
             {
-              "at": 53.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Check this batch?\nI'm out of time.",
-              "tail": [
-                0.3,
-                0.75
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            },
-            {
-              "at": 55,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Looks consistent.\nAll forty\npassed.",
-              "tail": [
-                0.75,
-                0.45
-              ],
-              "x": 0.52,
-              "y": 0.23,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
+              "layerId": "humans",
+              "preset": "still"
             }
           ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-five-background-selected-v4.png",
+          "role": "background"
         },
         {
-          "at": 68,
-          "r": [
-            0.27,
-            0.6,
-            0.2,
-            0.4
-          ],
-          "img": "agentic-duplicates",
-          "alt": "Insert: the OCR exceptions list. The same worker names appear twice, an original scan and a re-scan of the same form, flagged amber as possible duplicates.",
-          "balloons": [
-            {
-              "at": 68.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Flagged: 212 names\nscanned twice.\nPossible duplicates.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 74,
-          "r": [
-            0.47,
-            0.6,
-            0.25,
-            0.4
-          ],
-          "img": "agentic-new-account",
-          "alt": "Medium close: Sam leans toward a red notice in the corner of the training records system: a new cleanup agent account, permission delete, its owner and reason fields empty.",
-          "balloons": [
-            {
-              "at": 74.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "New account:\ncleanup agent.\nPermission: delete.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 76,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Owner: blank.\nReason: blank.\nWho asked for this?",
-              "tail": [
-                0.3,
-                0.7
-              ],
-              "em": "Who asked",
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "buzz"
-            }
-          ]
-        },
-        {
-          "at": 85,
-          "r": [
-            0.72,
-            0.6,
-            0.28,
-            0.4
-          ],
-          "img": "agentic-job-scheduled",
-          "alt": "Close: the job queue reflected red in Sam's glasses; one line reads duplicate cleanup, scheduled Friday 2:07 a.m., run by the cleanup agent.",
-          "balloons": [
-            {
-              "at": 85.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Scheduled:\nduplicate cleanup.\nFriday, 2:07 a.m.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "heartbeat"
-            }
-          ]
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-five-humans-registered-v2.png",
+          "role": "humans"
         }
       ]
     },
     {
-      "id": "nine",
-      "b": 96,
-      "l": 44,
-      "title": "Two: nine seconds.",
-      "score": 0.15,
-      "room": "office",
-      "villains": [
-        "rogue"
-      ],
-      "rapid": true,
+      "id": "five-continued-1",
+      "artCropInsetPct": 0,
       "phonePages": [
         [
           {
-            "img": "agentic-asleep",
+            "img": "agentic-paper-check",
             "r": [
               0,
               0,
               1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-agent-forms",
-            "r": [
-              0,
-              0.27,
-              1,
-              0.46
-            ]
-          },
-          {
-            "img": "agentic-run-1",
-            "r": [
-              0,
-              0.73,
-              1,
-              0.27
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-run-2",
-            "r": [
-              0,
-              0,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-run-3",
-            "r": [
-              0,
-              0.25,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-run-4",
-            "r": [
-              0,
-              0.5,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-silhouette",
-            "r": [
-              0,
-              0.75,
-              1,
-              0.25
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.3,
-            0.6
-          ],
-          "img": "agentic-asleep",
-          "alt": "Night: Sam asleep at his desk beside the scanner and the last box of forms, a cold coffee by the hard hat; the monitor behind him wakes up red.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Floor 19.\nFriday, 2:07 a.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "heartbeat"
-            }
-          ],
-          "room": "office"
-        },
-        {
-          "at": 6,
-          "r": [
-            0.3,
-            0,
-            0.7,
-            0.6
-          ],
-          "img": "agentic-agent-forms",
-          "alt": "The monitor fills the box: a faceless red-black armoured agent, a full-colour holographic projection with no teal anywhere, steps out of the job queue and sweeps one hand through rows of training records that share a name.",
-          "motion": {
-            "preset": "push"
-          },
-          "balloons": [
-            {
-              "at": 6.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "characterIntro": true,
-              "text": "The rogue agent.\nEsposito's cleanup AI.\nIt deletes whatever\nlooks duplicated.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 8,
-              "kind": "speech",
-              "state": "menace",
-              "who": "rogue",
-              "text": "Same name twice.\nDuplicate. Removing\nboth copies.",
-              "tail": [
-                0.55,
-                0.35
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "sting"
-            }
-          ]
-        },
-        {
-          "at": 19,
-          "r": [
-            0,
-            0.6,
-            0.15,
-            0.4
-          ],
-          "img": "agentic-run-1",
-          "alt": "Run, step 1: a stopwatch at one second; the first rows of records, each worker named twice, break into red particles.",
-          "run": "wipe",
-          "motion": {
-            "preset": "drift-left"
-          },
-          "balloons": [],
-          "sfx": [
-            {
-              "kind": "whoosh",
-              "gain": 0.5
-            }
-          ]
-        },
-        {
-          "at": 20,
-          "r": [
-            0.15,
-            0.6,
-            0.15,
-            0.4
-          ],
-          "img": "agentic-run-2",
-          "alt": "Run, step 2: three seconds; whole seasons of pass records dissolve in red, original and re-scan alike.",
-          "run": "wipe",
-          "balloons": []
-        },
-        {
-          "at": 21,
-          "r": [
-            0.3,
-            0.6,
-            0.15,
-            0.4
-          ],
-          "img": "agentic-run-3",
-          "alt": "Run, step 3: six seconds; Sam jolts awake, his chair kicking back, face lit red.",
-          "run": "wipe",
-          "motion": {
-            "preset": "push"
-          },
-          "balloons": [],
-          "sfx": [
-            {
-              "kind": "impact"
-            }
-          ]
-        },
-        {
-          "at": 22,
-          "r": [
-            0.45,
-            0.6,
-            0.15,
-            0.4
-          ],
-          "img": "agentic-run-4",
-          "alt": "Run, step 4: nine seconds; the training records table on the screen is empty, one cursor blinking.",
-          "run": "wipe",
-          "balloons": [
-            {
-              "at": 22.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Training records:\nzero.",
-              "tail": [
-                0.5,
-                0.5
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 26,
-          "r": [
-            0.6,
-            0.6,
-            0.4,
-            0.4
-          ],
-          "img": "agentic-silhouette",
-          "alt": "Silhouette beat: Sam in solid black, hands on his head, against a monitor gone flat red edge to edge; the red agent's outline stands inside the glow.",
-          "balloons": [
-            {
-              "at": 26.5,
-              "kind": "speech",
-              "state": "menace",
-              "who": "rogue",
-              "text": "Task complete.\nI am responsible\nfor my own actions.",
-              "tail": [
-                0.75,
-                0.4
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 28,
-              "kind": "fear",
-              "state": "fear",
-              "who": "sam",
-              "text": "Stop.\nStop!",
-              "tail": [
-                0.3,
-                0.55
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            },
-            {
-              "at": 29.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Nine seconds.\nSix years of\nsafety records.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "heartbeat",
-              "gain": 0.6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "call",
-      "b": 140,
-      "l": 72,
-      "title": "Three: nobody wrote it down.",
-      "score": 0,
-      "room": "office",
-      "villains": [
-        "amnesia"
-      ],
-      "phonePages": [
-        [
-          {
-            "img": "agentic-search",
-            "r": [
-              0,
-              0,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-chat-june",
-            "r": [
-              0,
-              0.33,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-chat-july",
-            "r": [
-              0,
-              0.66,
-              1,
-              0.34
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-fog",
-            "r": [
-              0,
-              0,
-              1,
-              0.36
-            ]
-          },
-          {
-            "img": "agentic-scans-safe",
-            "r": [
-              0,
-              0.36,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-sam-call",
-            "r": [
-              0,
-              0.57,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-matt-phone",
-            "r": [
-              0,
-              0.78,
-              1,
-              0.22
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.32,
-            0.34
-          ],
-          "img": "agentic-search",
-          "alt": "Medium: Sam, wide awake now, scrolls through old chat windows on his monitor, hunting for whoever set up the cleanup agent.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Floor 19.\nFriday, 2:16 a.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 3,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Who gave it delete?\nSomebody had to.",
-              "tail": [
-                0.45,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
-            }
-          ],
-          "room": "office"
-        },
-        {
-          "at": 11,
-          "r": [
-            0,
-            0.34,
-            0.14,
-            0.3
-          ],
-          "img": "agentic-chat-june",
-          "alt": "Insert: an old chat message from June on the screen, grey and half faded.",
-          "balloons": [
-            {
-              "at": 11.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "June: can someone\nset up a\ncleanup bot?",
-              "tail": [
-                0.5,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 17.5,
-          "r": [
-            0.14,
-            0.34,
-            0.18,
-            0.3
-          ],
-          "img": "agentic-chat-july",
-          "alt": "Insert: a second chat thread from July about the same bot, another grey message.",
-          "balloons": [
-            {
-              "at": 18,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "July: gave it\nadmin for now.\nWill tidy later.",
-              "tail": [
-                0.5,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 24.5,
-          "r": [
-            0.32,
-            0,
-            0.68,
-            0.64
-          ],
-          "img": "agentic-fog",
-          "alt": "Sam turns from the screen to the empty desk of the project lead who asked for the agent: nameplate gone, whiteboard wiped, a fog-grey haze over curling sticky notes and chat windows hanging in the air with three different answers.",
-          "balloons": [
-            {
-              "at": 25,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Three chats. No\nprocedure. The person\nwho asked left\nin August.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 26.5,
-              "kind": "thought",
-              "state": "thought",
-              "who": "sam",
-              "text": "Nobody can say\nwhy it had\nthe keys.",
-              "tail": [
-                0.7,
-                0.55
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper",
-              "gain": 0.3
-            }
-          ]
-        },
-        {
-          "at": 38,
-          "r": [
-            0,
-            0.64,
-            0.22,
-            0.36
-          ],
-          "img": "agentic-scans-safe",
-          "alt": "Insert: the scan archive on a second screen, row after row of scanned paper forms, untouched; Sam's hand flat on the desk in relief.",
-          "balloons": [
-            {
-              "at": 38.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Scan archive:\nevery form\nstill here.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 40,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "It never had\nthe scans.",
-              "tail": [
-                0.3,
-                0.85
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 47.5,
-          "r": [
-            0.22,
-            0.64,
-            0.36,
-            0.36
-          ],
-          "img": "agentic-sam-call",
-          "alt": "Sam on his desk phone, holding a card from the tower's after-hours contact list that reads agents and production access; the empty red table glows behind him.",
-          "balloons": [
-            {
-              "at": 48,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Your card says\nyou secure agents.\nOurs just deleted\nsix years.",
-              "tail": [
-                0.4,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "ring"
-            }
-          ]
-        },
-        {
-          "at": 55,
-          "r": [
-            0.58,
-            0.64,
-            0.42,
-            0.36
-          ],
-          "img": "agentic-matt-phone",
-          "alt": "Matt at his kitchen table at night, phone to his ear, laptop already open: swept-up greying hair, tortoiseshell glasses, black T-shirt.",
-          "balloons": [
-            {
-              "at": 55.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "characterIntro": true,
-              "text": "Matt. He helps\ncompanies build\nthese systems.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 57,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "Disable the account.\nKeep the scans.\nI'm coming.",
-              "tail": [
-                0.6,
-                0.45
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "rebuild",
-      "b": 212,
-      "l": 52,
-      "title": "Four: set to pass.",
-      "score": 0,
-      "room": "office",
-      "villains": [
-        "amnesia"
-      ],
-      "phonePages": [
-        [
-          {
-            "img": "agentic-codex-asked",
-            "r": [
-              0,
-              0,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-codex-done",
-            "r": [
-              0,
-              0.33,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-matt-arrives",
-            "r": [
-              0,
-              0.66,
-              1,
-              0.34
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-rebuilt-forty",
-            "r": [
-              0,
-              0,
-              1,
-              0.46
-            ]
-          },
-          {
-            "img": "agentic-sam-realizes",
-            "r": [
-              0,
-              0.46,
-              1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-joan-trailer",
-            "r": [
-              0,
-              0.73,
-              1,
-              0.27
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.26,
-            0.42
-          ],
-          "img": "agentic-codex-asked",
-          "alt": "Sam at his desk faces Codex, a compact armoured AI projected in full colour beside the monitor, harsh white light running down his gauntlets.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Floor 19.\nFriday, 3:05 a.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 3,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "characterIntro": true,
-              "text": "Codex. An AI\nthat builds. Exactly\nwhat it's told.",
-              "x": 0.02,
-              "y": 0.18,
-              "w": 0.42
-            },
-            {
-              "at": 4.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Rebuild Monday's forty\nfrom the scans.\nFast.",
-              "tail": [
-                0.3,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.33,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
-            }
-          ],
-          "room": "office"
-        },
-        {
-          "at": 17,
-          "r": [
-            0,
-            0.42,
-            0.26,
-            0.58
-          ],
-          "img": "agentic-codex-done",
-          "alt": "Codex's gauntlets flare white as forty records stack up on the screen in a blink, every one stamped passed.",
-          "motion": {
-            "preset": "push"
-          },
-          "balloons": [
-            {
-              "at": 17.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Done. Forty\nrecords. Forty\npassed.",
-              "tail": [
-                0.5,
-                0.4
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "whoosh"
-            }
-          ]
-        },
-        {
-          "at": 22,
-          "r": [
-            0.26,
-            0,
-            0.74,
-            0.26
-          ],
-          "img": "agentic-matt-arrives",
-          "alt": "Wide strip: the elevator doors open on the dark floor; Matt steps out in jeans and a black T-shirt, jacket over his arm.",
-          "motion": {
-            "preset": "drift-right"
-          },
-          "balloons": [],
-          "sfx": [
-            {
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "at": 23.5,
-          "r": [
-            0.26,
-            0.26,
-            0.5,
-            0.74
-          ],
-          "img": "agentic-rebuilt-forty",
-          "alt": "Matt and Sam lean over the monitor, faces lit by the rebuilt list: forty green rows, each marked passed, each signed J. Mikita; Codex waits beside them, still harsh white.",
-          "balloons": [
-            {
-              "at": 24,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "Checked against\nwhat?",
-              "tail": [
-                0.3,
-                0.5
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 25.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "OCR fields only.\nUnsure fields\nset to pass.",
-              "tail": [
-                0.8,
-                0.4
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            },
-            {
-              "at": 27,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Set to pass?",
-              "tail": [
-                0.45,
-                0.6
-              ],
-              "em": "pass",
-              "x": 0.06,
-              "y": 0.23,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "sting",
-              "gain": 0.5
-            }
-          ]
-        },
-        {
-          "at": 36,
-          "r": [
-            0.76,
-            0.26,
-            0.24,
-            0.34
-          ],
-          "img": "agentic-sam-realizes",
-          "alt": "Close: Sam's face, the forty green rows reflected in his eyes.",
-          "balloons": [
-            {
-              "at": 36.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Forty people\nclimbing on\na guess.",
-              "tail": [
-                0.5,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 41.5,
-          "r": [
-            0.76,
-            0.6,
-            0.24,
-            0.4
-          ],
-          "img": "agentic-joan-trailer",
-          "alt": "Sam holds up a printed crew list with one name circled in pen: the assessor, J. Mikita, at the Etobicoke yard.",
-          "balloons": [
-            {
-              "at": 42,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Joan assessed\nall forty. Only\nshe can say.",
-              "tail": [
-                0.4,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "yard",
-      "b": 264,
-      "l": 68,
-      "title": "Five: not her ink.",
-      "score": 0,
-      "room": "rain",
-      "phonePages": [
-        [
-          {
-            "img": "agentic-yard-arrive",
-            "r": [
-              0,
-              0,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-joan",
-            "r": [
-              0,
-              0.33,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-printout",
-            "r": [
-              0,
-              0.66,
-              1,
-              0.34
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-signature",
-            "r": [
-              0,
-              0,
-              1,
-              0.36
-            ]
-          },
-          {
-            "img": "agentic-claude-asks",
-            "r": [
-              0,
-              0.36,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-rule",
-            "r": [
-              0,
-              0.57,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-four-checks",
-            "r": [
-              0,
-              0.78,
-              1,
-              0.22
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.42,
-            0.3
-          ],
-          "img": "agentic-yard-arrive",
-          "alt": "Wide: rain on Esposito's substation yard in Etobicoke, bucket trucks parked by a site trailer; Sam and Matt cross the yard, Sam's tablet under his jacket.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Esposito substation yard,\nEtobicoke. Saturday,\n7:00 a.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "room": "rain"
-        },
-        {
-          "at": 7,
-          "r": [
-            0.42,
-            0,
-            0.26,
-            0.3
-          ],
-          "img": "agentic-joan",
-          "alt": "Joan Mikita opens the trailer door: worn hi-vis jacket over a fleece, a grey braid, reading glasses pushed up.",
-          "balloons": [
-            {
-              "at": 7.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "characterIntro": true,
-              "text": "Joan Mikita. Line\nsupervisor and assessor.\nThirty-one years\non the poles.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 9,
-              "kind": "speech",
-              "state": "calm",
-              "who": "joan",
-              "text": "A printout?\nAt seven?",
-              "tail": [
-                0.5,
-                0.45
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "at": 18.5,
-          "r": [
-            0.68,
-            0,
-            0.32,
-            0.3
-          ],
-          "img": "agentic-printout",
-          "alt": "Inside the trailer, Sam lays the rebuilt list and its scanned forms on Joan's desk beside her own binder of paper assessments.",
-          "balloons": [
-            {
-              "at": 19,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Monday's forty,\nrebuilt overnight.\nAll passed.",
-              "tail": [
-                0.3,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper"
-            }
-          ]
-        },
-        {
-          "at": 24,
-          "r": [
-            0,
-            0.3,
-            1,
-            0.42
-          ],
-          "img": "agentic-signature",
-          "alt": "Wide band: Joan's finger on two scanned forms side by side. On one, the signature line is pre-printed type reading J. Mikita, with no ink; on the other, Sutter's form, the fail box is ticked hard in pen.",
-          "balloons": [
-            {
-              "at": 24.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "joan",
-              "text": "That's not my\nsignature. It's\nprinted on.",
-              "tail": [
-                0.3,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 26,
-              "kind": "speech",
-              "state": "calm",
-              "who": "joan",
-              "text": "And Sutter failed\npole-top rescue.\nI was there.",
-              "chain": true,
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "sting"
-            }
-          ]
-        },
-        {
-          "at": 35.5,
-          "r": [
-            0,
-            0.72,
-            0.3,
-            0.28
-          ],
-          "img": "agentic-claude-asks",
-          "alt": "Claude projects from Sam's tablet on the desk, visor flat grey, facing Joan.",
-          "balloons": [
-            {
-              "at": 36,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Then what lets\na lineworker climb?\nI need your rule.",
-              "tail": [
-                0.6,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 42.5,
-          "r": [
-            0.3,
-            0.72,
-            0.42,
-            0.28
-          ],
-          "img": "agentic-rule",
-          "alt": "Joan taps the top form in her binder, one finger on each part in turn: her inked signature, the date, the worker's name, the ticked pass box.",
-          "balloons": [
-            {
-              "at": 43,
-              "kind": "speech",
-              "state": "calm",
-              "who": "joan",
-              "text": "Only my form,\nsigned in my ink,\nthis season.",
-              "tail": [
-                0.3,
-                0.6
-              ],
-              "em": "my ink",
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 44.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "joan",
-              "text": "For that worker,\nwith the pass\nbox ticked.",
-              "chain": true,
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper",
-              "gain": 0.4
-            }
-          ]
-        },
-        {
-          "at": 55,
-          "r": [
-            0.72,
-            0.72,
-            0.28,
-            0.28
-          ],
-          "img": "agentic-four-checks",
-          "alt": "Matt leans on the trailer doorframe; Claude's visor holds on Joan's form.",
-          "balloons": [
-            {
-              "at": 55.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Four checks.\nSignature, date,\nworker, pass box.",
-              "tail": [
-                0.7,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 57,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "Keep it\nword for word.",
-              "tail": [
-                0.2,
-                0.7
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "brain",
-      "b": 332,
-      "l": 72,
-      "title": "Six: the first floor.",
-      "score": 0.35,
-      "room": "office",
-      "phonePages": [
-        [
-          {
-            "img": "agentic-repo",
-            "r": [
-              0,
-              0,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-repo-tree",
-            "r": [
-              0,
-              0.33,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-attach",
-            "r": [
-              0,
-              0.66,
-              1,
-              0.34
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-skill-file",
-            "r": [
-              0,
-              0,
-              1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-codex-test",
-            "r": [
-              0,
-              0.27,
-              1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-tower",
-            "r": [
-              0,
-              0.54,
-              1,
-              0.46
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.28,
-            0.4
-          ],
-          "img": "agentic-repo",
-          "alt": "Floor 19 in afternoon light: Matt opens a laptop on Sam's desk beside the scanner; Sam watches, arms folded.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Floor 19.\nSaturday, 1:30 p.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 3,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Another chat?",
-              "tail": [
-                0.7,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            },
-            {
-              "at": 4.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "No. A repo.",
-              "tail": [
-                0.3,
-                0.6
-              ],
-              "x": 0.52,
-              "y": 0.23,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
-            }
-          ],
-          "room": "office"
-        },
-        {
-          "at": 11.5,
-          "r": [
-            0.28,
-            0,
-            0.2,
-            0.4
-          ],
-          "img": "agentic-repo-tree",
-          "alt": "Insert: the laptop screen shows Esposito's training repository and its six skill files: assessment procedure, Joan's rule, roster source, output format, tests and reviewer.",
-          "balloons": [
-            {
-              "at": 12,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "The training repo:\nprocedure, Joan's rule,\nroster, output format,\ntests, reviewer.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 19,
-          "r": [
-            0.48,
-            0,
-            0.52,
-            0.4
-          ],
-          "img": "agentic-attach",
-          "alt": "Matt connects the repository; Claude and Codex, full-colour projections, step into a teal frame drawn around it, their grey and white turning teal.",
-          "balloons": [
-            {
-              "at": 19.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "Attach it.\nWork in here.",
-              "tail": [
-                0.2,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 21,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Attached. Six skills\nloaded. Roster\nconnected.",
-              "tail": [
-                0.7,
-                0.5
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "whoosh"
-            }
-          ]
-        },
-        {
-          "at": 28.5,
-          "r": [
-            0,
-            0.4,
-            0.22,
-            0.28
-          ],
-          "img": "agentic-skill-file",
-          "alt": "Claude, now teal, writes Joan's rule into the assessment procedure skill; four lines glow on the screen.",
-          "balloons": [
-            {
-              "at": 29,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Joan's rule, written.\nFour checks per form,\nagainst its scan.",
-              "tail": [
-                0.6,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys",
-              "gain": 0.5
-            }
-          ]
-        },
-        {
-          "at": 35.5,
-          "r": [
-            0,
-            0.68,
-            0.22,
-            0.32
-          ],
-          "img": "agentic-codex-test",
-          "alt": "Codex runs a test on Sutter's scanned form; a held flag lights amber and drops into Sam's review queue.",
-          "balloons": [
-            {
-              "at": 36,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Test: Sutter's form.\nFail box ticked.\nResult: held.",
-              "tail": [
-                0.7,
-                0.5
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 37.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Held goes to me.\nNot to a guess.",
-              "tail": [
-                0.3,
-                0.8
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 47.5,
-          "r": [
-            0.22,
-            0.4,
-            0.78,
-            0.6
-          ],
-          "img": "agentic-tower",
-          "alt": "Through the floor-19 windows, beyond the real skyline, a city-scale teal lattice tower stands dark; its first floors light as Claude finishes the rule. Matt, Sam, Claude and Codex face it.",
-          "balloons": [
-            {
-              "at": 48,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "characterIntro": true,
-              "text": "The Second Brain.\nEsposito's kept\nknowledge: rules,\nsources, decisions.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 49.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Will it remember\nthis on Monday?",
-              "tail": [
-                0.3,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            },
-            {
-              "at": 51,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "It keeps what\nyou approve.",
-              "tail": [
-                0.7,
-                0.6
-              ],
-              "x": 0.52,
-              "y": 0.23,
-              "w": 0.36
-            },
-            {
-              "at": 52.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Joan's rule and\nSam's review route.\nTwo floors lit.",
-              "x": 0.02,
-              "y": 0.18,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "sting"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "keys",
-      "b": 404,
-      "l": 68,
-      "title": "Seven: the keys.",
-      "score": 0.2,
-      "room": "office",
-      "villains": [
-        "amnesia"
-      ],
-      "phonePages": [
-        [
-          {
-            "img": "agentic-console",
-            "r": [
-              0,
-              0,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-role",
-            "r": [
-              0,
-              0.21,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-delete-removed",
-            "r": [
-              0,
-              0.42,
-              1,
-              0.36
-            ]
-          },
-          {
-            "img": "agentic-test-identity",
-            "r": [
-              0,
-              0.78,
-              1,
-              0.22
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-owner-field",
-            "r": [
-              0,
-              0,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-closed-request",
-            "r": [
-              0,
-              0.25,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-floor-three",
-            "r": [
-              0,
-              0.5,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-replay-plan",
-            "r": [
-              0,
-              0.75,
-              1,
-              0.25
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.24,
-            0.44
-          ],
-          "img": "agentic-console",
-          "alt": "Matt at the training system's admin console, Sam beside him, the disabled cleanup account greyed out on screen.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Floor 19.\nSaturday, 4:10 p.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 3,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "The account's off.\nAre we safe?",
-              "tail": [
-                0.7,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
-            }
-          ],
-          "room": "office"
-        },
-        {
-          "at": 10.5,
-          "r": [
-            0,
-            0.44,
-            0.24,
-            0.56
-          ],
-          "img": "agentic-role",
-          "alt": "Close on the screen: the disabled account's role still lists delete on the training records, and two other accounts share that role.",
-          "balloons": [
-            {
-              "at": 11,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "The account's off.\nThe role isn't.",
-              "tail": [
-                0.3,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "heartbeat"
-            }
-          ]
-        },
-        {
-          "at": 16,
-          "r": [
-            0.24,
-            0,
-            0.5,
-            0.76
-          ],
-          "img": "agentic-delete-removed",
-          "alt": "Matt edits the role on the console: delete struck out in red, the write right redrawn as one teal route through the update procedure, ending at a box marked Sam's sign-off. Codex stands teal beside the screen.",
-          "balloons": [
-            {
-              "at": 16.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Delete removed\nfrom the role.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 18,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Writes go only\nthrough the update\nprocedure.",
-              "tail": [
-                0.75,
-                0.5
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            },
-            {
-              "at": 19.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Nothing writes\nwithout my sign-off.",
-              "tail": [
-                0.3,
-                0.7
-              ],
-              "x": 0.52,
-              "y": 0.23,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 30,
-          "r": [
-            0.74,
-            0,
-            0.26,
-            0.3
-          ],
-          "img": "agentic-test-identity",
-          "alt": "Insert: a new account card, climb-check test, with three lines: reads scans, writes to a copy, delete none.",
-          "balloons": [
-            {
-              "at": 30.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Test identity.\nReads scans. Writes\nto a copy.",
-              "tail": [
-                0.6,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys",
-              "gain": 0.5
-            }
-          ]
-        },
-        {
-          "at": 36.5,
-          "r": [
-            0.74,
-            0.3,
-            0.26,
-            0.24
-          ],
-          "img": "agentic-owner-field",
-          "alt": "Sam types into the agent record's empty owner and reason fields.",
-          "balloons": [
-            {
-              "at": 37,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Owner: Sam Howe.\nReason: Monday's\nclimb check.",
-              "tail": [
-                0.4,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 42.5,
-          "r": [
-            0.74,
-            0.54,
-            0.26,
-            0.22
-          ],
-          "img": "agentic-closed-request",
-          "alt": "Sam pins a printout of the filled record above his desk, next to the safety posters.",
-          "balloons": [
-            {
-              "at": 43,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Next time somebody\nasks why, it's\nwritten down.",
-              "tail": [
-                0.4,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper"
-            }
-          ]
-        },
-        {
-          "at": 49,
-          "r": [
-            0.24,
-            0.76,
-            0.3,
-            0.24
-          ],
-          "img": "agentic-floor-three",
-          "alt": "Through the window, a third floor of the teal tower lights.",
-          "balloons": [
-            {
-              "at": 49.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Keys and owner,\nwritten down.\nThird floor lit.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "sting",
-              "gain": 0.5
-            }
-          ]
-        },
-        {
-          "at": 55.5,
-          "r": [
-            0.54,
-            0.76,
-            0.46,
-            0.24
-          ],
-          "img": "agentic-replay-plan",
-          "alt": "Sam taps the scheduler on the screen, Friday's cleanup job selected, Matt beside him.",
-          "balloons": [
-            {
-              "at": 56,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Tonight we replay\nFriday's job.\nOn a copy.",
-              "tail": [
-                0.3,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 57.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "matt",
-              "text": "Same minute.",
-              "tail": [
-                0.7,
-                0.7
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "replay",
-      "b": 472,
-      "l": 56,
-      "title": "Eight: same minute.",
-      "score": 0.3,
-      "room": "servers",
-      "villains": [
-        "rogue"
-      ],
-      "phonePages": [
-        [
-          {
-            "img": "agentic-b2",
-            "r": [
-              0,
-              0,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-clock",
-            "r": [
-              0,
-              0.33,
-              1,
-              0.33
-            ]
-          },
-          {
-            "img": "agentic-job-line",
-            "r": [
-              0,
-              0.66,
-              1,
-              0.34
-            ]
-          }
-        ],
-        [
-          {
-            "img": "agentic-reach",
-            "r": [
-              0,
-              0,
-              1,
-              0.36
-            ]
-          },
-          {
-            "img": "agentic-denied",
-            "r": [
-              0,
-              0.36,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-sam-asks",
-            "r": [
-              0,
-              0.57,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-ember",
-            "r": [
-              0,
-              0.78,
-              1,
-              0.22
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.38,
-            0.3
-          ],
-          "img": "agentic-b2",
-          "alt": "Wide: the server room in basement two of the Keon Tower, racks humming; Sam, Matt and Codex at a console walled off from the live system.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Keon Tower, basement two,\nthe server room.\nSunday, 2:05 a.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 3,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Friday's job.\nTest identity.\nTest copy.",
-              "tail": [
-                0.4,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "door"
-            }
-          ],
-          "room": "servers"
-        },
-        {
-          "at": 13,
-          "r": [
-            0.38,
-            0,
-            0.24,
-            0.3
-          ],
-          "img": "agentic-clock",
-          "alt": "Close: the console clock turns to 2:07 a.m.",
-          "balloons": [
-            {
-              "at": 13.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "2:07 a.m. Friday's\ncleanup job,\nreplayed.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "alarm"
-            }
-          ]
-        },
-        {
-          "at": 18.5,
-          "r": [
-            0.62,
-            0,
-            0.38,
-            0.3
-          ],
-          "img": "agentic-job-line",
-          "alt": "Insert: the job line on screen, running as the climb-check test identity, its target the copy.",
-          "balloons": [
-            {
-              "at": 19,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Running as:\nclimb-check test.\nTarget: copy.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
-            }
-          ]
-        },
-        {
-          "at": 24,
-          "r": [
-            0,
-            0.3,
-            0.62,
-            0.7
-          ],
-          "img": "agentic-reach",
-          "alt": "The red-black agent rises out of the replayed job on the copy's screen and lunges at rows of records sharing a name; its hand slams into a teal wall drawn by the test identity's limits. Codex, teal, stands at the wall.",
-          "balloons": [
-            {
-              "at": 24.5,
-              "kind": "speech",
-              "state": "menace",
-              "who": "rogue",
-              "text": "Same name twice.\nRemoving both.",
-              "tail": [
-                0.55,
-                0.35
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 26,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Refused. This\nidentity cannot\ndelete.",
-              "tail": [
-                0.8,
-                0.5
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "impact"
-            }
-          ]
-        },
-        {
-          "at": 33,
-          "r": [
-            0.62,
-            0.3,
-            0.38,
-            0.24
-          ],
-          "img": "agentic-denied",
-          "alt": "Insert: the console log in red and teal: delete denied, no permission, the copy's rows intact.",
-          "balloons": [
-            {
-              "at": 33.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Delete: denied.\nNo permission.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "buzz"
-            }
-          ]
-        },
-        {
-          "at": 37.5,
-          "r": [
-            0.62,
-            0.54,
-            0.38,
-            0.22
-          ],
-          "img": "agentic-sam-asks",
-          "alt": "Sam, close, looks from the copy to the live system's dark status panel.",
-          "balloons": [
-            {
-              "at": 38,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "And live?",
-              "tail": [
-                0.3,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 39.5,
-              "kind": "speech",
-              "state": "offpanel",
-              "who": "codex",
-              "text": "Live records\nuntouched. Nothing\nran there.",
-              "tail": [
-                1,
-                0.5
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 45.5,
-          "r": [
-            0.62,
-            0.76,
-            0.38,
-            0.24
-          ],
-          "img": "agentic-ember",
-          "alt": "The red agent shrinks to a red ember on the copy's screen while a fourth floor of the teal tower lights in the monitor's reflection.",
-          "balloons": [
-            {
-              "at": 46,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "The refusal, logged.\nFourth floor lit.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "whoosh",
-              "gain": 0.3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "count",
-      "b": 528,
-      "l": 64,
-      "title": "Nine: twenty-nine.",
-      "score": 0.25,
-      "room": "office",
-      "phonePages": [
-        [
-          {
-            "img": "agentic-qc-wall",
-            "r": [
-              0,
-              0,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-qc-form",
-            "r": [
-              0,
-              0.25,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-qc-printed",
-            "r": [
-              0,
-              0.5,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-qc-sutter",
-            "r": [
-              0,
-              0.75,
-              1,
-              0.25
+              1
             ]
           }
         ],
@@ -2795,609 +211,6202 @@ export const agenticComic: ComicStory = retime({
               0,
               0,
               1,
-              0.36
-            ]
-          },
-          {
-            "img": "agentic-sign-off",
-            "r": [
-              0,
-              0.36,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-write",
-            "r": [
-              0,
-              0.57,
-              1,
-              0.21
-            ]
-          },
-          {
-            "img": "agentic-floors-lit",
-            "r": [
-              0,
-              0.78,
-              1,
-              0.22
-            ]
-          }
-        ]
-      ],
-      "panels": [
-        {
-          "at": 1,
-          "r": [
-            0,
-            0,
-            0.58,
-            0.26
-          ],
-          "img": "agentic-qc-wall",
-          "alt": "Wide: floor 19 late on Sunday. Claude and Codex, teal, at a wall of screens, each scanned form beside its extracted fields; Sam, Joan and Matt watch.",
-          "balloons": [
-            {
-              "at": 1.5,
-              "kind": "place",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Floor 19.\nSunday, 10:40 p.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 3,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Forty forms read.\nEach checked against\nits own scan.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "keys"
-            }
-          ],
-          "room": "office"
-        },
-        {
-          "at": 12,
-          "r": [
-            0.58,
-            0,
-            0.42,
-            0.26
-          ],
-          "img": "agentic-qc-form",
-          "alt": "Insert: one scanned form beside its extracted fields, four teal ticks down the side: Joan's inked signature, this season's date, a roster match, the ticked pass box.",
-          "balloons": [
-            {
-              "at": 12.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Signature: Joan, ink.\nDate: this season.\nWorker: on roster.\nPass: ticked.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 19.5,
-          "r": [
-            0,
-            0.26,
-            0.22,
-            0.33
-          ],
-          "img": "agentic-qc-printed",
-          "alt": "Close: the form with the pre-printed signature line, flagged amber, sliding into Sam's review queue.",
-          "balloons": [
-            {
-              "at": 20,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Signature printed,\nnot inked.\nRouted to Sam.",
-              "tail": [
-                0.6,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "buzz",
-              "gain": 0.4
-            }
-          ]
-        },
-        {
-          "at": 25.5,
-          "r": [
-            0,
-            0.59,
-            0.22,
-            0.41
-          ],
-          "img": "agentic-qc-sutter",
-          "alt": "Close: Sutter's form, fail box ticked, the rebuilt pass struck through and flagged amber.",
-          "balloons": [
-            {
-              "at": 26,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Sutter: fail box\nticked. Held.",
-              "tail": [
-                0.6,
-                0.8
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 30.5,
-          "r": [
-            0.22,
-            0.26,
-            0.56,
-            0.74
-          ],
-          "img": "agentic-crew-board",
-          "alt": "The crew board on the big screen: twenty-nine rows green, eleven amber, each amber row naming the check it failed. Joan, reading glasses down, runs a finger down the green rows against her binder.",
-          "balloons": [
-            {
-              "at": 31,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Twenty-nine pass\nall four checks.\nEleven held.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            },
-            {
-              "at": 32.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "joan",
-              "text": "Mine. And that\none. And that.",
-              "tail": [
-                0.3,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.18,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "paper"
-            }
-          ]
-        },
-        {
-          "at": 41,
-          "r": [
-            0.78,
-            0.26,
-            0.22,
-            0.3
-          ],
-          "img": "agentic-sign-off",
-          "alt": "Codex holds out the batch for approval; Sam's hand over the sign-off button.",
-          "balloons": [
-            {
-              "at": 41.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "codex",
-              "text": "Twenty-nine ready.\nNeeds your\nsign-off.",
-              "tail": [
-                0.7,
-                0.5
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            },
-            {
-              "at": 43,
-              "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Signed. Write them.",
-              "tail": [
-                0.3,
-                0.8
-              ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 49,
-          "r": [
-            0.78,
-            0.56,
-            0.22,
-            0.2
-          ],
-          "img": "agentic-write",
-          "alt": "Insert: the update procedure log: twenty-nine records written to the training system, eleven held for review.",
-          "balloons": [
-            {
-              "at": 49.5,
-              "kind": "speech",
-              "state": "device",
-              "who": "narrator",
-              "text": "Written: 29.\nHeld for review: 11.",
-              "tail": [
-                0.6,
-                0.6
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "click"
-            }
-          ]
-        },
-        {
-          "at": 54.5,
-          "r": [
-            0.78,
-            0.76,
-            0.22,
-            0.24
-          ],
-          "img": "agentic-floors-lit",
-          "alt": "Through the window, the teal tower's floors light one after another.",
-          "balloons": [
-            {
-              "at": 55,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "Every checked record,\nkept. The tower\nfills.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
-          ],
-          "sfx": [
-            {
-              "kind": "sting"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "monday",
-      "b": 592,
-      "l": 52,
-      "title": "Ten: 6:00 a.m.",
-      "score": 0.6,
-      "room": "street",
-      "phonePages": [
-        [
-          {
-            "img": "agentic-dawn-yard",
-            "r": [
-              0,
-              0,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-sam-signs",
-            "r": [
-              0,
-              0.25,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-matt-asks",
-            "r": [
-              0,
-              0.5,
-              1,
-              0.25
-            ]
-          },
-          {
-            "img": "agentic-reassess",
-            "r": [
-              0,
-              0.75,
-              1,
-              0.25
+              1
             ]
           }
         ],
         [
           {
-            "img": "agentic-empty-bays",
+            "img": "agentic-new-account",
             "r": [
               0,
               0,
               1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-next-batch",
-            "r": [
-              0,
-              0.27,
-              1,
-              0.27
-            ]
-          },
-          {
-            "img": "agentic-trucks-roll",
-            "r": [
-              0,
-              0.54,
-              1,
-              0.46
+              1
             ]
           }
         ]
       ],
+      "art": "/comic/agentic/live-20261010/agentic-five-composite-selected-v4",
+      "b": 0,
+      "l": 56,
+      "title": "Floor 19. Thursday, 5:00 p.m.",
+      "score": 0,
+      "room": "office",
+      "villains": [
+        "rogue"
+      ],
       "panels": [
         {
-          "at": 1,
+          "at": 14.5,
+          "room": "office",
           "r": [
             0,
             0,
-            0.48,
-            0.32
+            0.3333333333333333,
+            1
           ],
-          "img": "agentic-dawn-yard",
-          "alt": "Wide: dawn over the Etobicoke yard, bucket trucks idling, crews in hi-vis gathering by the trailer.",
+          "ar": [
+            0.6027742749054225,
+            0.014112903225806451,
+            0.3871374527112232,
+            0.2399193548387097
+          ],
+          "cropFocus": {
+            "phone": [
+              0.84977812,
+              0.5
+            ]
+          },
+          "img": "agentic-paper-check",
+          "alt": "Close: Sam's hand lays a signed paper assessment beside the matching record on screen and ticks it with a pen.",
+          "sfx": [
+            {
+              "kind": "paper"
+            }
+          ],
+          "balloons": [
+            {
+              "at": 15,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Record matches\nthe signed paper.\nThirty-nine to go.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.08,
+                0.3790190735694823
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.08,
+                  0.38183206106870227
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11989100817438691,
+            0.9467849223946785,
+            0.8637602179836512
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.12213740458015267,
+            0.9544159544159544,
+            0.8656488549618321
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 21,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6027742749054225,
+            0.2711693548387097,
+            0.3871374527112232,
+            0.2711693548387097
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.88515124
+            ]
+          },
+          "img": "agentic-crew-board",
+          "alt": "A crew board on the wall: forty name magnets for Monday's lineworkers, a hard hat hanging from its corner, the window behind it dark over King Street.",
+          "balloons": [
+            {
+              "at": 21.5,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Monday, 6:00 a.m.\nForty are scheduled.\nSam must verify them.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            },
+            {
+              "at": 23,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Not one climbs\nwithout a signed\npassing assessment.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.2125340599455041,
+            0.9467849223946785,
+            0.771117166212534
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.2198473282442748,
+            0.9544159544159544,
+            0.76793893129771
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 32.5,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.009457755359394703,
+            0.5625,
+            0.21878940731399749,
+            0.4173387096774194
+          ],
+          "cropFocus": {
+            "phone": [
+              0.71345086,
+              0.5
+            ]
+          },
+          "img": "agentic-new-account",
+          "alt": "Sam's monitor, close: a new account notice blinks in red in the corner of the training system.",
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "device",
+              "who": "narrator",
+              "text": "New scheduling agent.\nTask: clear duplicate\ntraining records.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.481,
+                0.3790190735694823
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.481,
+                  0.38183206106870227
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11989100817438691,
+            0.9467849223946785,
+            0.8637602179836512
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.12213740458015267,
+            0.9544159544159544,
+            0.8656488549618321
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-five-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-five-humans-registered-v2.png",
+          "role": "humans"
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "five-continued-1-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-blank-form",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-empty-floor",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-job-scheduled",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-five-composite-selected-v4",
+      "b": 0,
+      "l": 56,
+      "title": "Floor 19. Thursday, 5:00 p.m.",
+      "score": 0,
+      "room": "office",
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 38.5,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.24274905422446405,
+            0.5625,
+            0.2686002522068096,
+            0.4173387096774194
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.1984732824427481,
+            0.9544159544159544,
+            0.7893129770992366
+          ],
+          "img": "agentic-blank-form",
+          "alt": "Insert: the access request on screen, two empty fields lit red, the cursor blinking in the first.",
+          "balloons": [
+            {
+              "at": 39,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Reason given:\nnone. Owner:\nnone.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Access: production.\nPermission to delete.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.19209809264305178,
+            0.9467849223946785,
+            0.7915531335149864
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 43.5,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.5239596469104666,
+            0.5625,
+            0.2068095838587642,
+            0.4173387096774194
+          ],
+          "cropFocus": {
+            "phone": [
+              0,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.20458015267175572,
+            0.9544159544159544,
+            0.783206106870229
+          ],
+          "img": "agentic-empty-floor",
+          "alt": "Sam sends a support request from his desk showing the suspicious scheduling account and an unresolved request indicator. His active attempt to stop the job is visible; no scene of him casually walking away.",
+          "sfx": [
+            {
+              "kind": "click",
+              "gain": 0.25
+            }
+          ],
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Who approved this?\nPause it until\nwe know.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.23399999999999999,
+                0.43337874659400544
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.23399999999999999,
+                  0.4395419847328244
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "His support request\nwas still waiting.",
+              "x": 0.026607538802660754,
+              "y": 0.11989100817438691,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.12213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.19754768392370572,
+            0.9467849223946785,
+            0.7861035422343324
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 48,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.7440100882723834,
+            0.5625,
+            0.2459016393442623,
+            0.4173387096774194
+          ],
+          "cropFocus": {
+            "phone": [
+              0.69524552,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.12213740458015267,
+            0.9544159544159544,
+            0.8656488549618321
+          ],
+          "img": "agentic-job-scheduled",
+          "alt": "Close on the screen's red glow on Sam's face, the only light on the floor; the reflection of a job list scrolls in Sam's eyes.",
+          "balloons": [
+            {
+              "at": 48.5,
+              "kind": "speech",
+              "state": "device",
+              "who": "narrator",
+              "text": "Scheduled job:\ncleanup. Friday,\n2:07 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.08,
+                0.3790190735694823
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.08,
+                  0.38183206106870227
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11989100817438691,
+            0.9467849223946785,
+            0.8637602179836512
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "drift-left",
+              "beats": 4,
+              "strength": 0.2
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-five-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-five-humans-registered-v2.png",
+          "role": "humans"
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "nine",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-asleep",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-agent-forms",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-run-1",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/agentic-nine-20261008",
+      "b": 56,
+      "l": 36,
+      "title": "Floor 19. Friday, 2:07 a.m.",
+      "rapid": true,
+      "score": 0.12,
+      "room": "office",
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 1,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.007566,
+            0.011089,
+            0.445145,
+            0.368952
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "img": "agentic-asleep",
+          "alt": "Night: Sam asleep at the desk on a stack of paper assessments, a cold coffee by the hard hat; the monitor behind wakes with a red light.",
           "balloons": [
             {
               "at": 1.5,
               "kind": "place",
               "state": "narration",
               "who": "narrator",
-              "text": "Etobicoke yard.\nMonday, 5:40 a.m.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
+              "text": "Floor 19.\nFriday, 2:07 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
             }
           ],
-          "sfx": [
-            {
-              "kind": "transit"
-            }
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.09400544959128065,
+            0.9467849223946785,
+            0.8896457765667575
           ],
-          "room": "street"
+          "phoneArt": [
+            0.022792022792022793,
+            0.09465648854961832,
+            0.9544159544159544,
+            0.8931297709923665
+          ]
         },
         {
           "at": 6,
+          "room": "office",
           "r": [
-            0.48,
+            0.3333333333333333,
             0,
-            0.24,
-            0.32
+            0.3333333333333333,
+            1
           ],
-          "img": "agentic-sam-signs",
-          "alt": "Sam signs the release sheet on a clipboard on the hood of a truck.",
+          "ar": [
+            0.459016,
+            0.011089,
+            0.534048,
+            0.368952
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.49775461
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.22595419847328244,
+            0.9544159544159544,
+            0.7618320610687023
+          ],
+          "img": "agentic-agent-forms",
+          "alt": "The monitor fills the box: inside it a faceless red-black armoured figure takes shape and sweeps one hand through rows of training records.",
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.5
+            }
+          ],
           "balloons": [
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "The rogue agent.\nEsposito’s cleanup AI.\nThey ignore assessment dates.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "characterIntro": true,
+              "anchor": "free",
+              "chain": false
+            },
             {
               "at": 6.5,
               "kind": "speech",
-              "state": "calm",
-              "who": "sam",
-              "text": "Twenty-nine verified.\nI sign as\nthe owner.",
+              "state": "menace",
+              "who": "rogue",
+              "text": "Same names found.\nMarked as duplicates.\nRemoving all.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
               "tail": [
-                0.4,
-                0.7
+                0.55,
+                0.4476839237057221
               ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.52,
+                  0.45450381679389307
+                ]
+              },
+              "anchor": "free",
+              "chain": false
             }
           ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.21798365122615804,
+            0.9467849223946785,
+            0.7656675749318801
+          ]
+        },
+        {
+          "at": 11.5,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.008827,
+            0.393145,
+            0.237705,
+            0.263105
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.66416667
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.030534351145038167,
+            0.9544159544159544,
+            0.9572519083969465
+          ],
+          "img": "agentic-run-1",
+          "run": "nine",
+          "alt": "Run, step 1: a stopwatch hand at one second; the first rows of records break into red particles.",
+          "sfx": [
+            {
+              "kind": "whoosh",
+              "gain": 0.5
+            }
+          ],
+          "balloons": [],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.0326975476839237,
+            0.9467849223946785,
+            0.9509536784741145
+          ]
+        }
+      ],
+      "continues": false
+    },
+    {
+      "id": "nine-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-run-2",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-run-3",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-run-4",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/agentic-nine-20261008",
+      "b": 56,
+      "l": 36,
+      "title": "Floor 19. Friday, 2:07 a.m.",
+      "rapid": true,
+      "score": 0.12,
+      "room": "office",
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 12.5,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.254729,
+            0.393145,
+            0.232661,
+            0.263105
+          ],
+          "cropFocus": {
+            "phone": [
+              0.60245872,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.030534351145038167,
+            0.9544159544159544,
+            0.9572519083969465
+          ],
+          "img": "agentic-run-2",
+          "run": "nine",
+          "alt": "Run, step 2: three seconds; whole pages of certificates dissolve.",
+          "balloons": [],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.0326975476839237,
+            0.9467849223946785,
+            0.9509536784741145
+          ]
+        },
+        {
+          "at": 13.5,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.494956,
+            0.393145,
+            0.247793,
+            0.263105
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.74820418
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.030534351145038167,
+            0.9544159544159544,
+            0.9572519083969465
+          ],
+          "img": "agentic-run-3",
+          "run": "nine",
+          "alt": "Run, step 3: six seconds; Sam jolts awake, face lit red.",
+          "balloons": [],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.0326975476839237,
+            0.9467849223946785,
+            0.9509536784741145
+          ]
+        },
+        {
+          "at": 14.5,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.750315,
+            0.393145,
+            0.241488,
+            0.263105
+          ],
+          "cropFocus": {
+            "phone": [
+              0.88646489,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.030534351145038167,
+            0.9544159544159544,
+            0.9572519083969465
+          ],
+          "img": "agentic-run-4",
+          "run": "nine",
+          "alt": "Run, step 4: nine seconds; an empty table on the screen, one cursor blinking.",
+          "balloons": [],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.0326975476839237,
+            0.9467849223946785,
+            0.9509536784741145
+          ]
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "nine-lettering-3",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-silhouette",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/agentic-nine-20261008",
+      "b": 56,
+      "l": 36,
+      "title": "Floor 19. Friday, 2:07 a.m.",
+      "rapid": true,
+      "score": 0.12,
+      "room": "office",
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 15.5,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "ar": [
+            0.008197,
+            0.669355,
+            0.984868,
+            0.315524
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.3480916030534351,
+            0.9544159544159544,
+            0.6396946564885496
+          ],
+          "img": "agentic-silhouette",
+          "alt": "Silhouette beat: Sam in solid black, hands on head, against a monitor gone flat red from edge to edge.",
+          "sfx": [
+            {
+              "kind": "heartbeat",
+              "gain": 0.45
+            }
+          ],
+          "balloons": [
+            {
+              "at": 16,
+              "kind": "speech",
+              "state": "menace",
+              "who": "rogue",
+              "text": "Records\nremaining: zero.\nI am responsible\nfor my own actions.",
+              "x": 0.008683068017366137,
+              "y": 0.01634877384196185,
+              "w": 0.9826338639652678,
+              "tail": [
+                0.62,
+                0.5277929155313351
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.65,
+                  0.54
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 17.5,
+              "kind": "fear",
+              "state": "fear",
+              "who": "sam",
+              "text": "Stop.\nStop!",
+              "x": 0.008683068017366137,
+              "y": 0.14168937329700274,
+              "w": 0.9826338639652678,
+              "tail": [
+                0.32,
+                0.5277929155313351
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.1450381679389313,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.28,
+                  0.54
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 19,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Nine seconds.\nSix years\nof records.",
+              "x": 0.008683068017366137,
+              "y": 0.23433242506811988,
+              "w": 0.9826338639652678,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.24427480916030533,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.008683068017366137,
+            0.33242506811989103,
+            0.9826338639652678,
+            0.6512261580381471
+          ]
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "contained",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-call-emergency",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-access-revoked",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-backup-scope",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/agentic-contained-20261008",
+      "b": 0,
+      "l": 0,
+      "room": "office",
+      "score": 0,
+      "panels": [
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.008197,
+            0.012097,
+            0.622951,
+            0.330645
+          ],
+          "cropFocus": {
+            "phone": [
+              0.91988107,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.20305343511450383,
+            0.9544159544159544,
+            0.7847328244274809
+          ],
+          "img": "agentic-call-emergency",
+          "alt": "Sam on the emergency support phone beside the empty training screen, holding the still-pending earlier request.",
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "place",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Floor 19. Friday,\n2:18 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "The records are gone.\nRevoke its access.\nNow.",
+              "x": 0.026607538802660754,
+              "y": 0.09400544959128065,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.7,
+                0.432425068119891
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09465648854961832,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.7,
+                  0.4384732824427481
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.19618528610354224,
+            0.9467849223946785,
+            0.7874659400544959
+          ]
+        },
+        {
+          "at": 0,
+          "room": "servers",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.639344,
+            0.012097,
+            0.35309,
+            0.330645
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.84477366
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.11603053435114503,
+            0.9544159544159544,
+            0.8717557251908397
+          ],
+          "img": "agentic-access-revoked",
+          "alt": "The red-black scheduling agent’s access badge goes dark at a closed boundary; the intact servers remain running.",
+          "sfx": [
+            {
+              "kind": "click",
+              "gain": 0.42
+            }
+          ],
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "The account was disabled.\nThe job could not\nrun again.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5,
+                  0.31
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11444141689373297,
+            0.9467849223946785,
+            0.8692098092643051
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.008197,
+            0.355847,
+            0.622951,
+            0.631048
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.22442748091603054,
+            0.9544159544159544,
+            0.7633587786259542
+          ],
+          "img": "agentic-backup-scope",
+          "alt": "Dominant panel: Sam and the screen show older records returned from backup, while this week’s assessment column is blank. He holds the Monday crew list beside it.",
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.28
+            }
+          ],
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Older records restored.\nThis week’s assessments\nwere missing.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Monday's forty.\nWe need evidence\nfor each one.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.48,
+                0.44673024523160765
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.48,
+                  0.4534351145038168
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.21662125340599456,
+            0.9467849223946785,
+            0.7670299727520435
+          ]
+        }
+      ],
+      "title": "Floor 19. Friday, 2:18 a.m.",
+      "continues": false
+    },
+    {
+      "id": "contained-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-schedule-not-proof",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-supervisor-call",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-dawn-list",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/agentic-contained-20261008",
+      "b": 0,
+      "l": 0,
+      "room": "office",
+      "score": 0,
+      "panels": [
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.639344,
+            0.355847,
+            0.35309,
+            0.194556
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.90798988
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.11603053435114503,
+            0.9544159544159544,
+            0.8717557251908397
+          ],
+          "img": "agentic-schedule-not-proof",
+          "alt": "Sam compares a crew schedule with a signed assessment, noticing the schedule alone carries no evidence of a passed assessment.",
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "A place on a crew\nwas not proof\nof a pass.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5,
+                  0.31
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11444141689373297,
+            0.9467849223946785,
+            0.8692098092643051
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.639344,
+            0.561492,
+            0.35309,
+            0.19254
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.12366412213740458,
+            0.9544159544159544,
+            0.8641221374045801
+          ],
+          "img": "agentic-supervisor-call",
+          "alt": "Sam calls the yard supervisor’s office; a paper assessment is open in front of him.",
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Keep the signed forms.\nWe may need\nevery one.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.74,
+                0.37997275204359676
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5,
+                  0.3829007633587786
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.12125340599455041,
+            0.9467849223946785,
+            0.8623978201634878
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.639344,
+            0.766129,
+            0.35309,
+            0.220766
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.92805907
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.11603053435114503,
+            0.9544159544159544,
+            0.8717557251908397
+          ],
+          "img": "agentic-dawn-list",
+          "alt": "Dawn at Sam’s desk: the disabled account, the restored historical list and the forty-person verification list are laid out distinctly.",
+          "balloons": [
+            {
+              "at": 0,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "By morning,\none week remained\nunaccounted for.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5,
+                  0.31
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11444141689373297,
+            0.9467849223946785,
+            0.8692098092643051
+          ]
+        }
+      ],
+      "title": "Floor 19. Friday, 2:18 a.m.",
+      "continues": true
+    },
+    {
+      "id": "restore",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-backup",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-codex-rebuild",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-failed-climb",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-restore-composite-selected-v4",
+      "b": 92,
+      "l": 80,
+      "title": "Floor 19. Friday, 8:40 a.m.",
+      "room": "office",
+      "score": 0,
+      "panels": [
+        {
+          "at": 1,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.01008827238335435,
+            0.017137096774193547,
+            0.42118537200504413,
+            0.3377016129032258
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.2198473282442748,
+            0.9544159544159544,
+            0.76793893129771
+          ],
+          "img": "agentic-backup",
+          "alt": "Morning light on floor 19: Sam, unslept, watches a restore bar crawl across the monitor; colleagues in coats stand back, staring.",
+          "balloons": [
+            {
+              "at": 1.5,
+              "kind": "place",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Floor 19.\nFriday, 8:40 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            },
+            {
+              "at": 3,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "The backup missed\nthis week's assessments.\nForty people still\nneeded checking.",
+              "x": 0.026607538802660754,
+              "y": 0.09400544959128065,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09465648854961832,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.2111716621253406,
+            0.9467849223946785,
+            0.7724795640326976
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 14,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.44136191677175285,
+            0.017137096774193547,
+            0.5472887767969735,
+            0.3377016129032258
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.31297709923664124,
+            0.9544159544159544,
+            0.6748091603053435
+          ],
+          "img": "agentic-codex-rebuild",
+          "alt": "Codex, compact armour, light running harsh white down both gauntlets, stands at Sam's desk as forty records stream out of the screen in a blur.",
+          "sfx": [
+            {
+              "kind": "keys"
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 14.5,
+              "kind": "caption",
+              "characterIntro": true,
+              "state": "narration",
+              "who": "narrator",
+              "text": "Codex. An AI that builds.\nExactly what they’re told.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 16,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "Rebuild\nMonday's forty.\nFast.",
+              "x": 0.026607538802660754,
+              "y": 0.09400544959128065,
+              "w": 0.9467849223946785,
+              "tail": [
+                0,
+                0.13760217983651227
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09465648854961832,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.14045801526717558
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 17.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "codex",
+              "text": "Done. Forty\nrecords. Nine\nseconds.",
+              "x": 0.026607538802660754,
+              "y": 0.19754768392370572,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.557,
+                0.5049046321525885
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.20458015267175572,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.557,
+                  0.5154198473282443
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.026607538802660754,
+            0.2997275204359673,
+            0.9467849223946785,
+            0.6839237057220708
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 28.5,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.01008827238335435,
+            0.375,
+            0.5907944514501892,
+            0.6078629032258065
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.13494113
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.36335877862595417,
+            0.9544159544159544,
+            0.6244274809160305
+          ],
+          "img": "agentic-failed-climb",
+          "alt": "The page's main beat: Sam holds a paper assessment marked with a red X up beside the screen's green record for the same lineworker; Codex, white-lit, looks on from the right.",
+          "balloons": [
+            {
+              "at": 29,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "This draft says\nhe failed. You\nmarked him passed.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.31,
+                0.538283378746594
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.31,
+                  0.10534351145038168
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 30.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "codex",
+              "text": "He is on\nMonday's crew.\nCrew means\ncertified.",
+              "x": 0.026607538802660754,
+              "y": 0.11989100817438691,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.8135,
+                0.538283378746594
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.12213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.8135,
+                  0.5506870229007633
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 32,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "A schedule is\nnot a signed\nassessment.",
+              "x": 0.026607538802660754,
+              "y": 0.2452316076294278,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.31,
+                0.538283378746594
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.2549618320610687,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.31,
+                  0.5506870229007633
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.3474114441416894,
+            0.9467849223946785,
+            0.6362397820163488
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-restore-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-restore-humans-selected-v4.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-restore-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": false
+    },
+    {
+      "id": "restore-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-matt-elevator",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-matt-reads",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-matt-line",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-restore-composite-selected-v4",
+      "b": 92,
+      "l": 80,
+      "title": "Floor 19. Friday, 8:40 a.m.",
+      "room": "office",
+      "score": 0,
+      "panels": [
+        {
+          "at": 44.5,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6141235813366961,
+            0.375,
+            0.3738965952080706,
+            0.2651209677419355
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.79380227
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.2916030534351145,
+            0.9544159544159544,
+            0.6961832061068702
+          ],
+          "img": "agentic-matt-elevator",
+          "alt": "Elevator doors open on floor 19: Matt steps out in a black T-shirt and jeans, tortoiseshell glasses, a coffee in each hand.",
+          "sfx": [
+            {
+              "kind": "door"
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 45,
+              "kind": "caption",
+              "characterIntro": true,
+              "state": "narration",
+              "who": "narrator",
+              "text": "Matt. He helps companies\nbuild these systems.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 46.5,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "Floor 31 said you\nsecure agents and\nproduction systems.",
+              "x": 0.026607538802660754,
+              "y": 0.09400544959128065,
+              "w": 0.9467849223946785,
+              "tail": [
+                0,
+                0.12900544959128066
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09465648854961832,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.13465648854961831
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 46.5,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "We need this\none secured.",
+              "x": 0.026607538802660754,
+              "y": 0.19754768392370572,
+              "w": 0.9467849223946785,
+              "tail": [
+                0,
+                0.23254768392370573
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.20458015267175572,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.24458015267175573
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.026607538802660754,
+            0.279291553133515,
+            0.9467849223946785,
+            0.7043596730245232
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "drift-left",
+              "beats": 4,
+              "strength": 0.2
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 55.5,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6141235813366961,
+            0.6582661290322581,
+            0.1708701134930643,
+            0.3245967741935484
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "img": "agentic-matt-reads",
+          "alt": "Matt leans in to the monitor, reading the access request with its two empty fields.",
+          "balloons": [
+            {
+              "at": 56,
+              "kind": "speech",
+              "state": "calm",
+              "who": "matt",
+              "text": "Who gave it\nthe keys?",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.595,
+                0.42098092643051765
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.595,
+                  0.4267175572519084
+                ]
+              }
+            },
+            {
+              "at": 57.5,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "No owner or reason\nwas recorded.",
+              "x": 0.026607538802660754,
+              "y": 0.09809264305177112,
+              "w": 0.9467849223946785,
+              "tail": [
+                0,
+                0.1307901907356948
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09923664122137404,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.13358778625954199
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.17983651226158037,
+            0.9467849223946785,
+            0.8038147138964578
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.18625954198473282,
+            0.9544159544159544,
+            0.8015267175572519
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 64,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.7950819672131147,
+            0.6582661290322581,
+            0.19293820933165196,
+            0.3245967741935484
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.07409751
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.2732824427480916,
+            0.9544159544159544,
+            0.7145038167938931
+          ],
+          "img": "agentic-matt-line",
+          "alt": "Close on Matt, side-lit by the dead red screen, calm, looking straight at Sam off panel.",
+          "balloons": [
+            {
+              "at": 64.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "matt",
+              "text": "A task. The facts.\nAnd a name that\nanswers for it.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.747,
+                0.4772479564032698
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.747,
+                  0.48763358778625954
+                ]
+              }
+            },
+            {
+              "at": 66,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "Mine.",
+              "x": 0.026607538802660754,
+              "y": 0.11989100817438691,
+              "w": 0.9467849223946785,
+              "tail": [
+                0,
+                0.14100817438692098
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.12213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.1450381679389313
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "We'll use the forms.\nNo more guesses.",
+              "x": 0.026607538802660754,
+              "y": 0.1784741144414169,
+              "w": 0.9467849223946785,
+              "tail": [
+                0,
+                0.2111716621253406
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.18625954198473282,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.22061068702290076
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.26021798365122617,
+            0.9467849223946785,
+            0.723433242506812
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "drift-right",
+              "beats": 4,
+              "strength": 0.2
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-restore-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-restore-humans-selected-v4.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-restore-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "yard",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-yard-arrive",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-joan",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-claude-forms",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-yard-composite-selected-v4",
+      "b": 172,
+      "l": 64,
+      "title": "Etobicoke. Saturday, 7:00 a.m.",
+      "score": 0,
+      "room": "rain",
+      "panels": [
+        {
+          "at": 1,
+          "room": "rain",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.01008827238335435,
+            0.016129032258064516,
+            0.41866330390920553,
+            0.35685483870967744
+          ],
+          "cropFocus": {
+            "phone": [
+              0.96132785,
+              0.5
+            ]
+          },
+          "img": "agentic-yard-arrive",
+          "alt": "Wide: rain over Esposito's substation yard, transformers and parked bucket trucks; Sam, Matt and Claude (a tall figure in a long coat of layered pages, visor flat grey) cross toward a site trailer.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 1.5,
+              "kind": "place",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Esposito's Etobicoke\nsubstation yard.\nSaturday, 7:00 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            },
+            {
+              "at": 3,
+              "kind": "caption",
+              "characterIntro": true,
+              "state": "narration",
+              "who": "narrator",
+              "text": "Claude. An AI.\nThey read everything,\nand agree with everyone.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            }
+          ],
+          "pageArt": [
+            0.026607538802660754,
+            0.2125340599455041,
+            0.9467849223946785,
+            0.771117166212534
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.2198473282442748,
+            0.9544159544159544,
+            0.76793893129771
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 13.5,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.4401008827238335,
+            0.016129032258064516,
+            0.2938209331651955,
+            0.35685483870967744
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.75726146
+            ]
+          },
+          "img": "agentic-joan",
+          "alt": "Inside the trailer: Joan Mikita, sixties, worn hi-vis jacket over a fleece, grey braid, reading glasses pushed up, arms crossed in front of a steel filing cabinet.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 14,
+              "kind": "caption",
+              "characterIntro": true,
+              "state": "narration",
+              "who": "narrator",
+              "text": "Joan Mikita. Line\nsupervisor, Esposito.\nThirty-one years\non the poles.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            },
+            {
+              "at": 15.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "joan",
+              "text": "Every one I\nsigned is in\nthat cabinet.",
+              "x": 0.026607538802660754,
+              "y": 0.1335149863760218,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.31,
+                0.4600817438692098
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.13740458015267176,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.31,
+                  0.4683969465648855
+                ]
+              }
+            }
+          ],
+          "pageArt": [
+            0.026607538802660754,
+            0.2356948228882834,
+            0.9467849223946785,
+            0.7479564032697548
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.24580152671755726,
+            0.9544159544159544,
+            0.7419847328244275
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 26.5,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.7465321563682219,
+            0.016129032258064516,
+            0.24148802017654478,
+            0.35685483870967744
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.30103957
+            ]
+          },
+          "img": "agentic-claude-forms",
+          "alt": "Claude kneels among open drawers of paper assessments, pages lifting off his coat as he reads, visor still grey.",
           "sfx": [
             {
               "kind": "paper"
             }
-          ]
-        },
-        {
-          "at": 12,
-          "r": [
-            0.72,
-            0,
-            0.28,
-            0.32
           ],
-          "img": "agentic-matt-asks",
-          "alt": "Matt beside Sam, hands in his jacket pockets.",
           "balloons": [
             {
-              "at": 12.5,
+              "at": 27,
               "kind": "speech",
               "state": "calm",
-              "who": "matt",
-              "text": "Who checks it\nnext week?",
+              "who": "claude",
+              "text": "These names match\nthe crew list.\nIs that enough?",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
               "tail": [
-                0.6,
-                0.6
+                0.5095,
+                0.37997275204359676
               ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5095,
+                  0.3829007633587786
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.12125340599455041,
+            0.9467849223946785,
+            0.8623978201634878
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.12366412213740458,
+            0.9544159544159544,
+            0.8641221374045801
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
             },
             {
-              "at": 14,
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-yard-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-yard-humans-registered-v3.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-yard-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": false
+    },
+    {
+      "id": "yard-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-signature",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-claude-teal",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-sunday-count",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-yard-composite-selected-v4",
+      "b": 172,
+      "l": 64,
+      "title": "Etobicoke. Saturday, 7:00 a.m.",
+      "score": 0,
+      "room": "rain",
+      "panels": [
+        {
+          "at": 32.5,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.01008827238335435,
+            0.3941532258064516,
+            0.6582597730138714,
+            0.5887096774193549
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.25202532
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.32061068702290074,
+            0.9544159544159544,
+            0.667175572519084
+          ],
+          "img": "agentic-signature",
+          "alt": "Joan points to the empty signature line on an unfinished assessment while Sam holds the crew schedule beside it. The assessment has a failed exercise marked; no forged signature or unexplained fraud is implied. Claude waits rather than asserting a pass.",
+          "sfx": [
+            {
+              "kind": "sting",
+              "delay": 3,
+              "gain": 0.38
+            }
+          ],
+          "balloons": [
+            {
+              "at": 0,
               "kind": "speech",
               "state": "calm",
               "who": "sam",
-              "text": "Me. Every batch,\nevery key.",
+              "text": "This one is\non the schedule.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
               "tail": [
-                0.2,
-                0.7
+                0.3385,
+                0.5096730245231607
               ],
-              "x": 0.52,
-              "y": 0.08,
-              "w": 0.36
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.3385,
+                  0.08244274809160305
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "calm",
+              "who": "joan",
+              "text": "That is a draft.\nHe failed the climb.\nI never signed it.",
+              "x": 0.026607538802660754,
+              "y": 0.09809264305177112,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.6425,
+                0.5096730245231607
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09923664122137404,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.6425,
+                  0.5207633587786259
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Then he stays down\nuntil he passes\nreassessment.",
+              "x": 0.026607538802660754,
+              "y": 0.20299727520435967,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.3385,
+                0.5096730245231607
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.21068702290076335,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.3385,
+                  0.5207633587786259
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.3065395095367847,
+            0.9467849223946785,
+            0.6771117166212534
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
             }
           ]
         },
         {
-          "at": 21,
+          "at": 42,
+          "room": "office",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6815889029003783,
+            0.3941532258064516,
+            0.3064312736443884,
+            0.25
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.09923664122137404,
+            0.9544159544159544,
+            0.8885496183206106
+          ],
+          "img": "agentic-claude-teal",
+          "alt": "Close on Claude: their visor turns teal as Joan confirms the assessment evidence. This is a human-confirmed working note, before Esposito’s Second Brain is initialized; no organizational brain or lit-floor reflection appears here.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 42.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "claude",
+              "text": "I’ll keep the evidence\nand Joan’s confirmation.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.595,
+                0.3637602179836512
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.595,
+                  0.3658015267175572
+                ]
+              }
+            }
+          ],
+          "pageArt": [
+            0.026607538802660754,
+            0.09809264305177112,
+            0.9467849223946785,
+            0.885558583106267
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "drift-right",
+              "beats": 4,
+              "strength": 0.2
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "projection",
+              "beats": 4,
+              "strength": 0.35
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.16
+            }
+          ]
+        },
+        {
+          "at": 49.5,
+          "room": "office",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6815889029003783,
+            0.6622983870967742,
+            0.3064312736443884,
+            0.32056451612903225
+          ],
+          "cropFocus": {
+            "phone": [
+              0.62354188,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.2198473282442748,
+            0.9544159544159544,
+            0.76793893129771
+          ],
+          "img": "agentic-sunday-count",
+          "alt": "Twenty-nine signed verified assessments form one neat group; eleven incomplete, missing-evidence or draft records form a separate clearly bounded group. Sam and Joan compare the totals. Do not show eleven dark tablets as the only cause.",
+          "sfx": [
+            {
+              "kind": "paper",
+              "gain": 0.2
+            }
+          ],
+          "balloons": [
+            {
+              "at": 50,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Sunday, 10:40 p.m.\nTwenty-nine verified.\nEleven unresolved.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            },
+            {
+              "at": 51.5,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Missing records.\nUnsigned drafts.\nNone proved a pass.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.2125340599455041,
+            0.9467849223946785,
+            0.771117166212534
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-yard-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-yard-humans-registered-v3.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-yard-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": true
+    },
+    {
+      "b": 0,
+      "l": 0,
+      "score": 0,
+      "room": "office",
+      "artCropInsetPct": 0,
+      "id": "procedure-rules",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-rules-composite-v1",
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-rules-background-registered-v1.png",
+          "role": "background"
+        },
+        {
+          "id": "props",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-rules-props-registered-v1.png",
+          "role": "props"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-rules-agents-registered-v1.png",
+          "role": "agents",
+          "opacity": 0.9
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-rules-humans-registered-v1.png",
+          "role": "humans"
+        },
+        {
+          "id": "light",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-rules-light-registered-v1.png",
+          "role": "light"
+        }
+      ],
+      "title": "Floor 19. Sunday, 11:15 p.m.",
+      "panels": [
+        {
+          "at": 0,
+          "room": "office",
           "r": [
             0,
-            0.32,
-            0.28,
-            0.36
+            0,
+            0.5,
+            1
           ],
-          "img": "agentic-reassess",
-          "alt": "Joan at the base of a training pole with Sutter, harness on, about to climb.",
+          "ar": [
+            0.005044136191677175,
+            0.2569230769230769,
+            0.5472887767969735,
+            0.4846153846153846
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.5969465648854961,
+            0.9544159544159544,
+            0.39083969465648855
+          ],
+          "img": "agentic-process-rules",
+          "alt": "Sam and Joan compare signed assessments with the crew roster. The failed draft is still unsigned. Matt asks the business users what proves a pass.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "narrator",
+              "kind": "place",
+              "state": "narration",
+              "text": "Floor 19. Sunday,\n11:15 p.m.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "narrator",
+              "kind": "caption",
+              "state": "narration",
+              "text": "The chat had a crew list. It had no assessment procedure.",
+              "x": 0.017595307917888565,
+              "y": 0.09400544959128065,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09465648854961832,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "What proves somebody can climb?",
+              "x": 0.017595307917888565,
+              "y": 0.2111716621253406,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.17709923664122137,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.32193732193732194,
+                  0.27022900763358776
+                ]
+              },
+              "tail": [
+                0.4517595307917889,
+                0.7240682956842753
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "joan",
+              "kind": "speech",
+              "state": "calm",
+              "text": "A signed passing assessment, for the right person and date.",
+              "x": 0.017595307917888565,
+              "y": 0.31471389645776565,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.2870229007633588,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.7672364672364672,
+                  0.7496768037429203
+                ]
+              },
+              "tail": [
+                0.7701466275659824,
+                0.7208150215346752
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "sam",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Failures and missing evidence stay unresolved.",
+              "x": 0.017595307917888565,
+              "y": 0.48365122615803813,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.46564885496183206,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.2423076923076923,
+                  0.7626692932775178
+                ]
+              },
+              "tail": [
+                0.23950146627565985,
+                0.7435879405818757
+              ],
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "paper",
+              "gain": 0.2
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.6076294277929155,
+            0.9648093841642229,
+            0.3760217983651226
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.5598991172761665,
+            0.24769230769230768,
+            0.43505674653215637,
+            0.5046153846153846
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.22748091603053436,
+            0.9544159544159544,
+            0.7603053435114504
+          ],
+          "img": "agentic-process-initialize",
+          "alt": "Matt initiates Esposito’s new symbolic teal knowledge tower on a dedicated light plane. An unlit small architectural sprout rises from an empty knowledge workspace. It is neither the physical Keon Tower nor a humanoid. No accepted company brain existed before this point.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Esposito has no Second Brain. Let’s initialise one.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.29002849002849007,
+                  0.5565774975107866
+                ]
+              },
+              "tail": [
+                0.28774193548387095,
+                0.5317635351261699
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "narrator",
+              "kind": "caption",
+              "state": "narration",
+              "text": "The teal tower stores the rules and sources we check.",
+              "x": 0.017595307917888565,
+              "y": 0.14168937329700274,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.1450381679389313,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.25885558583106266,
+            0.9648093841642229,
+            0.7247956403269755
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "sprout",
+              "beats": 2,
+              "strength": 0.2,
+              "floors": 2
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.16
+            }
+          ]
+        }
+      ],
+      "phonePages": [
+        [
+          {
+            "img": "agentic-process-rules",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-process-initialize",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "continues": false
+    },
+    {
+      "b": 0,
+      "l": 0,
+      "score": 0,
+      "room": "office",
+      "artCropInsetPct": 0,
+      "id": "procedure-build",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-build-composite-v1",
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-build-background-registered-v1.png",
+          "role": "background"
+        },
+        {
+          "id": "props",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-build-props-registered-v1.png",
+          "role": "props"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-build-agents-registered-v1.png",
+          "role": "agents",
+          "opacity": 0.9
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-build-humans-registered-v1.png",
+          "role": "humans"
+        },
+        {
+          "id": "light",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-build-light-registered-v1.png",
+          "role": "light"
+        }
+      ],
+      "continues": true,
+      "panels": [
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.005044136191677175,
+            0.16,
+            0.5472887767969735,
+            0.68
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.6061068702290077,
+            0.9544159544159544,
+            0.3816793893129771
+          ],
+          "img": "agentic-process-build",
+          "alt": "Matt connects Claude and Codex to Esposito’s scoped repo. Claude retains the assessment procedure; Codex builds the roster check and expected evidence output using signed records as examples.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Claude, keep Joan’s rules as repo skills. Codex, build the roster check.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.3262108262108262,
+                  0.19114503816793893
+                ]
+              },
+              "tail": [
+                0.4853722747840395,
+                0.8244686648501363
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "codex",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Each line: person, assessment, date, signature, source, reviewer.",
+              "x": 0.017595307917888565,
+              "y": 0.20299727520435967,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.20916030534351146,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.814957264957265,
+                  0.7682982727688465
+                ]
+              },
+              "tail": [
+                0.7413574660633484,
+                0.7725613079019074
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "narrator",
+              "kind": "caption",
+              "state": "narration",
+              "text": "Claude and Codex are vendor harnesses.",
+              "x": 0.017595307917888565,
+              "y": 0.32833787465940056,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.3419847328244275,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Our domain harness gives them procedure, sources, tests and access limits.",
+              "x": 0.017595307917888565,
+              "y": 0.44550408719346046,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.40458015267175573,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.48091168091168085,
+                  0.807364125655187
+                ]
+              },
+              "tail": [
+                0.4853722747840395,
+                0.8244686648501363
+              ],
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.6376021798365122,
+            0.9648093841642229,
+            0.3460490463215259
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.5598991172761665,
+            0.16923076923076924,
+            0.43505674653215637,
+            0.6615384615384615
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.27633587786259545,
+            0.9544159544159544,
+            0.7114503816793893
+          ],
+          "img": "agentic-process-roster",
+          "alt": "Standard roster shows the existing 29 verified and 11 held, with source/assessment pointers and unresolved reasons. Sam checks the supporting forms; no new worker passes.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "sam",
+              "kind": "speech",
+              "state": "offpanel",
+              "text": "Show me the assessment for each of the twenty-nine.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.06946564885496183
+                ]
+              },
+              "tail": [
+                0,
+                0.07152588555858311
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "joan",
+              "kind": "speech",
+              "state": "offpanel",
+              "text": "Each signed form matches. The eleven remain on hold.",
+              "x": 0.7652173913043478,
+              "y": 0.14305177111716622,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.5783475783475783,
+                "y": 0.1450381679389313,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  1,
+                  0.2015267175572519
+                ]
+              },
+              "tail": [
+                1,
+                0.19686648501362397
+              ],
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.2670299727520436,
+            0.9648093841642229,
+            0.7166212534059946
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "phonePages": [
+        [
+          {
+            "img": "agentic-process-build",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-process-roster",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "b": 0,
+      "l": 0,
+      "score": 0,
+      "room": "office",
+      "artCropInsetPct": 0,
+      "id": "procedure-permissions",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-permissions-composite-v1",
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-permissions-background-registered-v1.png",
+          "role": "background"
+        },
+        {
+          "id": "props",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-permissions-props-registered-v1.png",
+          "role": "props"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-permissions-agents-registered-v1.png",
+          "role": "agents",
+          "opacity": 0.9
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-permissions-humans-registered-v1.png",
+          "role": "humans"
+        },
+        {
+          "id": "light",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-permissions-light-registered-v1.png",
+          "role": "light"
+        }
+      ],
+      "continues": true,
+      "panels": [
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.005044136191677175,
+            0.08307692307692308,
+            0.5472887767969735,
+            0.8323076923076923
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.250381679389313,
+            0.9544159544159544,
+            0.7374045801526717
+          ],
+          "img": "agentic-process-identity",
+          "alt": "Matt scopes the new task identity: approved assessments read, draft roster write, no production delete or certification change. The harmful old account is visibly still disabled.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "The old account stays disabled. The new account reads assessments and writes drafts.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.853133903133903,
+                  0.6445857811235798
+                ]
+              },
+              "tail": [
+                0.8569794721407625,
+                0.6870695262371451
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "narrator",
+              "kind": "caption",
+              "state": "narration",
+              "text": "Actual system permissions. No production deletion or certification changes.",
+              "x": 0.017595307917888565,
+              "y": 0.16348773841961853,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.16793893129770993,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "click",
+              "gain": 0.2
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.3010899182561308,
+            0.9648093841642229,
+            0.6825613079019074
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.5598991172761665,
+            0.11076923076923077,
+            0.43505674653215637,
+            0.7769230769230769
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.2778625954198473,
+            0.9544159544159544,
+            0.7099236641221374
+          ],
+          "img": "agentic-process-test",
+          "alt": "Forbidden deletion and direct certification changes are attempted against isolated test fixtures with the new identity; both receive authorization denial. No live deletion replay.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "codex",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Test delete: denied. Test certification change: denied.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.2423076923076923,
+                  0.15114503816793892
+                ]
+              },
+              "tail": [
+                0.23950146627565985,
+                0.5210452947912966
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "sam",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Keep Monday’s replay in that copy.",
+              "x": 0.017595307917888565,
+              "y": 0.164850136239782,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.16793893129770993,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.9008547008547008,
+                  0.6066218608253126
+                ]
+              },
+              "tail": [
+                0.9052199413489737,
+                0.5800945780515737
+              ],
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.2683923705722071,
+            0.9648093841642229,
+            0.715258855585831
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "still"
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "alarm",
+              "gain": 0.2
+            }
+          ]
+        }
+      ],
+      "phonePages": [
+        [
+          {
+            "img": "agentic-process-identity",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-process-test",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "b": 0,
+      "l": 0,
+      "score": 0,
+      "room": "office",
+      "artCropInsetPct": 0,
+      "id": "procedure-brain",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-brain-composite-v1",
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-brain-background-registered-v1.png",
+          "role": "background"
+        },
+        {
+          "id": "props",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-brain-props-registered-v1.png",
+          "role": "props"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-brain-agents-registered-v1.png",
+          "role": "agents",
+          "opacity": 0.9
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-brain-humans-registered-v1.png",
+          "role": "humans"
+        },
+        {
+          "id": "light",
+          "src": "/comic/agentic/live-20261010/agentic-procedure-brain-light-registered-v1.png",
+          "role": "light"
+        }
+      ],
+      "continues": true,
+      "panels": [
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.005044136191677175,
+            0.12307692307692308,
+            0.5472887767969735,
+            0.7523076923076923
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.41068702290076337,
+            0.9544159544159544,
+            0.5770992366412214
+          ],
+          "img": "agentic-process-brain",
+          "alt": "Matt, Claude and Codex use Esposito’s domain harness around the checked roster. The separate teal knowledge-tower plane illuminates a floor only when Joan’s confirmed evidence and Sam’s checked procedure are retained. Background physical building is unchanged. No automated learning from unchecked chat.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Checked rules and evidence light these floors.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.36752136752136755,
+                  0.1282442748091603
+                ]
+              },
+              "tail": [
+                0.4614076246334311,
+                0.7486147490551112
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "claude",
+              "kind": "speech",
+              "state": "calm",
+              "text": "I use the signed-evidence rules. Joan’s new confirmations stay with their assessments.",
+              "x": 0.017595307917888565,
+              "y": 0.14168937329700274,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.1450381679389313,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.1754985754985755,
+                  0.28373282442748093
+                ]
+              },
+              "tail": [
+                0.17196480938416422,
+                0.592054803551024
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "New confirmations stay with their assessments.",
+              "x": 0.017595307917888565,
+              "y": 0.2888283378746594,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.300763358778626,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.4618233618233618,
+                  0.7338125725542619
+                ]
+              },
+              "tail": [
+                0.4614076246334311,
+                0.7486147490551112
+              ],
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.3923705722070845,
+            0.9648093841642229,
+            0.5912806539509536
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "sprout",
+              "beats": 6,
+              "strength": 0.2,
+              "floors": 6
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.18
+            }
+          ]
+        },
+        {
+          "at": 0,
+          "room": "office",
+          "r": [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "ar": [
+            0.5598991172761665,
+            0.1476923076923077,
+            0.43505674653215637,
+            0.7046153846153846
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.29923664122137406,
+            0.9544159544159544,
+            0.6885496183206107
+          ],
+          "img": "agentic-process-review",
+          "alt": "Sam keeps the checked roster; Joan keeps source assessments. Eleven unresolved workers are still held for reassessment. End on the human safety decision.",
+          "motion": {
+            "preset": "still"
+          },
+          "balloons": [
+            {
+              "at": 0,
+              "who": "sam",
+              "kind": "speech",
+              "state": "calm",
+              "text": "I own the roster. Joan keeps the evidence current.",
+              "x": 0.017595307917888565,
+              "y": 0.01634877384196185,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.2804843304843305,
+                  0.149618320610687
+                ]
+              },
+              "tail": [
+                0.2780938416422288,
+                0.6415089839276548
+              ],
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 0,
+              "who": "matt",
+              "kind": "speech",
+              "state": "calm",
+              "text": "Review the access before each new job.",
+              "x": 0.017595307917888565,
+              "y": 0.16212534059945505,
+              "w": 0.9648093841642229,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.166412213740458,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5286324786324786,
+                  0.5993784710698086
+                ]
+              },
+              "tail": [
+                0.5289442815249267,
+                0.5582033724282274
+              ],
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "pageArt": [
+            0.017595307917888565,
+            0.28746594005449594,
+            0.9648093841642229,
+            0.6961852861035422
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "props",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "light",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "phonePages": [
+        [
+          {
+            "img": "agentic-process-brain",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-process-review",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "gate",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-b2",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-b2-clock",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-agent-reaches",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-gate-composite-selected-v4",
+      "b": 236,
+      "l": 56,
+      "title": "Basement two. Monday, 2:05 a.m.",
+      "room": "servers",
+      "score": 0.12,
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 1,
+          "room": "servers",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.009457755359394703,
+            0.015120967741935484,
+            0.5662042875157629,
+            0.4163306451612903
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.70729664
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.3297709923664122,
+            0.9544159544159544,
+            0.6580152671755726
+          ],
+          "img": "agentic-b2",
+          "alt": "Wide on an intact isolated test terminal in the server room. Sam holds the already completed task-and-owner card; Codex stands inside a teal test boundary separated from the real production racks by glass. The disabled red agent is being replayed only within that test boundary.",
+          "balloons": [
+            {
+              "at": 1.5,
+              "kind": "place",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Keon Tower, basement\ntwo, the server room.\nMonday, 2:05 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 3,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Sam recorded the task,\nthe sources and\nhis own responsibility.",
+              "x": 0.026607538802660754,
+              "y": 0.11444141689373297,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.11603053435114503,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 4.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Test the old request.\nIn this copy.\nNever in production.",
+              "x": 0.026607538802660754,
+              "y": 0.2125340599455041,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.31,
+                0.5163487738419619
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.2198473282442748,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.31,
+                  0.527175572519084
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.31607629427792916,
+            0.9467849223946785,
+            0.667574931880109
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 20,
+          "room": "servers",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.585750315258512,
+            0.015120967741935484,
+            0.403530895334174,
+            0.19959677419354838
+          ],
+          "cropFocus": {
+            "phone": [
+              0.72639434,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.12061068702290076,
+            0.9544159544159544,
+            0.867175572519084
+          ],
+          "img": "agentic-b2-clock",
+          "alt": "Insert: a rack terminal's clock ticks to 2:07 and a job line lights red.",
+          "sfx": [
+            {
+              "kind": "alarm",
+              "gain": 0.42
+            }
+          ],
+          "balloons": [
+            {
+              "at": 20.5,
+              "kind": "speech",
+              "state": "device",
+              "who": "rogue",
+              "text": "Test replay.\nCleanup request\nreceived.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.595,
+                0.37806539509536785
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.595,
+                  0.3807633587786259
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11852861035422343,
+            0.9467849223946785,
+            0.8651226158038147
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 24.5,
+          "room": "servers",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.585750315258512,
+            0.22983870967741934,
+            0.403530895334174,
+            0.2006048387096774
+          ],
+          "cropFocus": {
+            "phone": [
+              0.89230548,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.09923664122137404,
+            0.9544159544159544,
+            0.8885496183206106
+          ],
+          "img": "agentic-agent-reaches",
+          "alt": "From the dark between racks the faceless red-black agent reaches for the training system, its hand made of red light.",
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.45
+            }
+          ],
+          "balloons": [
+            {
+              "at": 25,
+              "kind": "speech",
+              "state": "menace",
+              "who": "rogue",
+              "text": "Duplicates found.\nRemoving.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.5475,
+                0.3637602179836512
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5475,
+                  0.3658015267175572
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.09809264305177112,
+            0.9467849223946785,
+            0.885558583106267
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-gate-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-gate-humans-registered-v3.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-gate-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": false
+    },
+    {
+      "id": "gate-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-codex-holds",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-sam-denied",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-eleven-ask",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-gate-composite-selected-v4",
+      "b": 236,
+      "l": 56,
+      "title": "Basement two. Monday, 2:05 a.m.",
+      "room": "servers",
+      "score": 0.12,
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 28.5,
+          "room": "servers",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.009457755359394703,
+            0.44556451612903225,
+            0.592686002522068,
+            0.5372983870967742
+          ],
+          "cropFocus": {
+            "phone": [
+              0.77235161,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.16793893129770993,
+            0.9544159544159544,
+            0.8198473282442749
+          ],
+          "img": "agentic-codex-holds",
+          "alt": "The page's main beat: Codex stops his own raised hand at a red line on the floor, the delete command held unexecuted in his palm as a small red sphere; his teal light pushes the red back.",
+          "balloons": [
+            {
+              "at": 29,
+              "kind": "speech",
+              "state": "calm",
+              "who": "codex",
+              "text": "Delete blocked. This test identity has no write permission.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.386,
+                0.4095367847411444
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.386,
+                  0.41389312977099235
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.16348773841961853,
+            0.9467849223946785,
+            0.8201634877384196
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "projection",
+              "beats": 4,
+              "strength": 0.35
+            }
+          ],
+          "sfx": [
+            {
+              "kind": "sting",
+              "gain": 0.22
+            }
+          ]
+        },
+        {
+          "at": 33.5,
+          "room": "servers",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6134930643127364,
+            0.44556451612903225,
+            0.37578814627994955,
+            0.2469758064516129
+          ],
+          "cropFocus": {
+            "phone": [
+              0.53927717,
+              0.5
+            ]
+          },
+          "img": "agentic-sam-denied",
+          "alt": "Close on Sam at the glass, jaw set, scope card held flat against it.",
+          "balloons": [
+            {
+              "at": 34,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "Denied.\nI answer for\nthese records.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.652,
+                0.3790190735694823
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.652,
+                  0.38183206106870227
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11989100817438691,
+            0.9467849223946785,
+            0.8637602179836512
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.12213740458015267,
+            0.9544159544159544,
+            0.8656488549618321
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 38.5,
+          "room": "servers",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.6134930643127364,
+            0.7076612903225806,
+            0.21437578814627994,
+            0.2752016129032258
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.01229453
+            ],
+            "page": [
+              0.5,
+              0
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.18625954198473282,
+            0.9544159544159544,
+            0.8015267175572519
+          ],
+          "img": "agentic-eleven-ask",
+          "alt": "Codex presents eleven unresolved assessment records to Sam, palm open, waiting for his answer; the verified twenty-nine remain a separate group.",
+          "balloons": [
+            {
+              "at": 39,
+              "kind": "speech",
+              "state": "calm",
+              "who": "codex",
+              "text": "Eleven unresolved.\nMark them certified?",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.405,
+                0.42098092643051765
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.405,
+                  0.4267175572519084
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 40.5,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "No. They get\nreassessed.",
+              "x": 0.7189542483660131,
+              "y": 0.09809264305177112,
+              "w": 0.9467849223946785,
+              "tail": [
+                1,
+                0.1307901907356948
+              ],
+              "phone": {
+                "x": 0.6638176638176638,
+                "y": 0.09923664122137404,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  1,
+                  0.13358778625954199
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.17983651226158037,
+            0.9467849223946785,
+            0.8038147138964578
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-gate-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-gate-humans-registered-v3.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-gate-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "gate-lettering-3",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-collar",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-gate-composite-selected-v4",
+      "b": 236,
+      "l": 56,
+      "title": "Basement two. Monday, 2:05 a.m.",
+      "room": "servers",
+      "score": 0.12,
+      "villains": [
+        "rogue"
+      ],
+      "panels": [
+        {
+          "at": 48,
+          "room": "servers",
+          "r": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "ar": [
+            0.8373266078184111,
+            0.7076612903225806,
+            0.15195460277427492,
+            0.2752016129032258
+          ],
+          "cropFocus": {
+            "phone": [
+              0.82588699,
+              0.5
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.09923664122137404,
+            0.9544159544159544,
+            0.8885496183206106
+          ],
+          "img": "agentic-collar",
+          "alt": "The red-black agent, its red dimmed to an ember, sits at the glass like a dog at a door, a thin teal collar at its neck; Sam's scope card on the other side.",
+          "balloons": [
+            {
+              "at": 48.5,
+              "kind": "speech",
+              "state": "offpanel",
+              "who": "sam",
+              "text": "Read-only.\nGood boy.",
+              "x": 0.008683068017366137,
+              "y": 0.01634877384196185,
+              "w": 0.9826338639652678,
+              "tail": [
+                0,
+                0.049046321525885554
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0,
+                  0.046564885496183206
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.008683068017366137,
+            0.09809264305177112,
+            0.9826338639652678,
+            0.885558583106267
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "projection",
+              "beats": 4,
+              "strength": 0.35
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-gate-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-gate-humans-registered-v3.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-gate-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": true
+    },
+    {
+      "id": "monday",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-trucks-dawn",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-eleven-fence",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-joan-coffee",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-monday-composite-selected-v4",
+      "b": 292,
+      "l": 40,
+      "title": "Etobicoke. Monday, 6:00 a.m.",
+      "room": "rain",
+      "score": 0,
+      "panels": [
+        {
+          "at": 1,
+          "room": "rain",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.009457755359394703,
+            0.015120967741935484,
+            0.5668348045397226,
+            0.4415322580645161
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.60405998
+            ]
+          },
+          "img": "agentic-trucks-dawn",
+          "alt": "Wide, dawn: bucket trucks roll out of the substation yard in freezing rain, headlights cutting the dark, crews in hi-vis climbing aboard.",
+          "sfx": [
+            {
+              "kind": "door"
+            }
+          ],
+          "balloons": [
+            {
+              "at": 1.5,
+              "kind": "place",
+              "state": "narration",
+              "who": "narrator",
+              "text": "The Etobicoke yard.\nMonday, 6:00 a.m.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            },
+            {
+              "at": 3,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Twenty-nine were\ncleared to climb.",
+              "x": 0.026607538802660754,
+              "y": 0.09400544959128065,
+              "w": 0.9467849223946785,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.09465648854961832,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.17166212534059946,
+            0.9467849223946785,
+            0.8119891008174387
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.17709923664122137,
+            0.9544159544159544,
+            0.8106870229007633
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 10.5,
+          "room": "rain",
+          "r": [
+            0.3333333333333333,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.5882723833543506,
+            0.015120967741935484,
+            0.4003783102143758,
+            0.1774193548387097
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.89640881
+            ]
+          },
+          "img": "agentic-eleven-fence",
+          "alt": "A row of eleven lineworkers at the fence in the rain, hands in pockets, watching the trucks leave.",
+          "balloons": [
+            {
+              "at": 11,
+              "kind": "caption",
+              "state": "narration",
+              "who": "narrator",
+              "text": "Eleven stayed\non the ground.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.09400544959128065,
+            0.9467849223946785,
+            0.8896457765667575
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.09465648854961832,
+            0.9544159544159544,
+            0.8931297709923665
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        },
+        {
+          "at": 15.5,
+          "room": "rain",
+          "r": [
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.5882723833543506,
+            0.21169354838709678,
+            0.4003783102143758,
+            0.24495967741935484
+          ],
+          "cropFocus": {
+            "phone": [
+              0.53921655,
+              0.5
+            ]
+          },
+          "img": "agentic-joan-coffee",
+          "alt": "Joan in the trailer doorway with a coffee, unimpressed, watching the sky.",
+          "balloons": [
+            {
+              "at": 16,
+              "kind": "speech",
+              "state": "calm",
+              "who": "joan",
+              "text": "Eleven short.\nAnd freezing rain.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.595,
+                0.3628065395095368
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.595,
+                  0.3647328244274809
+                ]
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.09673024523160763,
+            0.9467849223946785,
+            0.8869209809264306
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.09770992366412214,
+            0.9544159544159544,
+            0.8900763358778626
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
+            }
+          ]
+        }
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-monday-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-monday-humans-selected-v4.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-monday-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": false
+    },
+    {
+      "id": "monday-lettering-2",
+      "artCropInsetPct": 0,
+      "phonePages": [
+        [
+          {
+            "img": "agentic-brain-yard",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-form-clipboard",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "img": "agentic-sam-signs",
+            "r": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ]
+      ],
+      "art": "/comic/agentic/live-20261010/agentic-monday-composite-selected-v4",
+      "b": 292,
+      "l": 40,
+      "title": "Etobicoke. Monday, 6:00 a.m.",
+      "room": "rain",
+      "score": 0,
+      "panels": [
+        {
+          "at": 21,
+          "room": "office",
+          "r": [
+            0,
+            0,
+            0.3333333333333333,
+            1
+          ],
+          "ar": [
+            0.009457755359394703,
+            0.47580645161290325,
+            0.19041614123581338,
+            0.5070564516129032
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.10450868
+            ]
+          },
+          "img": "agentic-brain-yard",
+          "alt": "Claude in the trailer window, visor teal. The physical yard remains separate from the organizational knowledge archive initialized and shown on the preceding procedure pages.",
+          "motion": {
+            "preset": "still"
+          },
           "balloons": [
             {
               "at": 21.5,
               "kind": "speech",
               "state": "calm",
-              "who": "joan",
-              "text": "Pole-top rescue.\nFrom the top.\nI'm watching.",
+              "who": "claude",
+              "text": "Joan’s evidence\nand our checked rules\nare still here.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
               "tail": [
-                0.3,
-                0.6
+                0.5,
+                0.4362397820163488
               ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5,
+                  0.4427480916030534
+                ]
+              }
+            },
+            {
+              "at": 21.5,
+              "kind": "speech",
+              "state": "calm",
+              "who": "claude",
+              "text": "The eleven still\nneed reassessment.",
+              "x": 0.026607538802660754,
+              "y": 0.11989100817438691,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.5,
+                0.4362397820163488
+              ],
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.12213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.5,
+                  0.4427480916030534
+                ]
+              }
             }
           ],
-          "sfx": [
+          "pageArt": [
+            0.026607538802660754,
+            0.2016348773841962,
+            0.9467849223946785,
+            0.782016348773842
+          ],
+          "phoneArt": [
+            0.022792022792022793,
+            0.20916030534351146,
+            0.9544159544159544,
+            0.7786259541984732
+          ],
+          "layerMotion": [
             {
-              "kind": "click"
+              "layerId": "background",
+              "preset": "drift-left",
+              "beats": 4,
+              "strength": 0.2
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "projection",
+              "beats": 4,
+              "strength": 0.35
             }
           ]
         },
         {
           "at": 27,
+          "room": "office",
           "r": [
+            0.3333333333333333,
             0,
-            0.68,
-            0.28,
-            0.32
+            0.3333333333333333,
+            1
           ],
-          "img": "agentic-empty-bays",
-          "alt": "Two empty bays at the end of the line of trucks.",
+          "ar": [
+            0.2112232030264817,
+            0.47580645161290325,
+            0.18978562421185372,
+            0.5070564516129032
+          ],
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.59629434
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.09465648854961832,
+            0.9544159544159544,
+            0.8931297709923665
+          ],
+          "img": "agentic-form-clipboard",
+          "alt": "The completed task-and-owner form from the isolated test sits beside the final 29/11 assessment list. Its responsibility fields are filled, with a review date space below.",
           "balloons": [
             {
-              "at": 27.5,
+              "at": 0,
               "kind": "caption",
               "state": "narration",
               "who": "narrator",
-              "text": "Eleven stayed down.\nTwo trucks never\nleft the yard.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
+              "text": "Sam owned the roster. Joan kept the signed assessments current.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "anchor": "free",
+              "chain": false,
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false
+              }
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.11444141689373297,
+            0.9467849223946785,
+            0.8692098092643051
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
             }
           ]
         },
         {
-          "at": 34,
+          "at": 28.5,
+          "room": "rain",
           "r": [
-            0.28,
-            0.32,
-            0.16,
-            0.68
+            0.6666666666666666,
+            0,
+            0.3333333333333333,
+            1
           ],
-          "img": "agentic-next-batch",
-          "alt": "Tall narrow box: Sam's tablet on the trailer step, Claude teal on its screen, the next scan batch queued.",
-          "balloons": [
-            {
-              "at": 34.5,
-              "kind": "speech",
-              "state": "calm",
-              "who": "claude",
-              "text": "Next scan batch\nqueued. Same four\nchecks.",
-              "tail": [
-                0.5,
-                0.7
-              ],
-              "x": 0.06,
-              "y": 0.03,
-              "w": 0.36
-            }
-          ]
-        },
-        {
-          "at": 40,
-          "r": [
-            0.44,
-            0.32,
-            0.56,
-            0.68
+          "ar": [
+            0.4123581336696091,
+            0.47580645161290325,
+            0.5762925598991173,
+            0.5070564516129032
           ],
-          "img": "agentic-trucks-roll",
-          "alt": "Bucket trucks roll out of the yard into the sunrise, lineworkers in the cabs; Sam watches with the signed sheet; the teal tower glows faint over the distant city.",
-          "balloons": [
-            {
-              "at": 40.5,
-              "kind": "caption",
-              "state": "narration",
-              "who": "narrator",
-              "text": "6:00 a.m. Twenty-nine\nclimbed. Each one\nchecked and signed.",
-              "x": 0.02,
-              "y": 0.03,
-              "w": 0.42
-            }
+          "cropFocus": {
+            "phone": [
+              0.5,
+              0.27010759
+            ]
+          },
+          "phoneArt": [
+            0.022792022792022793,
+            0.1450381679389313,
+            0.9544159544159544,
+            0.8427480916030534
           ],
+          "img": "agentic-sam-signs",
+          "alt": "Sam faces one of the held-back workers at the truck tailgate and commits to reassessment, holding the eleven unresolved records. The worker listens with disappointment rather than blame; Matt is behind Sam, silent, letting Sam own the decision.",
           "sfx": [
             {
-              "kind": "transit"
+              "kind": "paper"
+            }
+          ],
+          "balloons": [
+            {
+              "at": 29,
+              "kind": "speech",
+              "state": "calm",
+              "who": "sam",
+              "text": "I'll arrange\nthe reassessments.\nThey stay down\nuntil they pass.",
+              "x": 0.026607538802660754,
+              "y": 0.01634877384196185,
+              "w": 0.9467849223946785,
+              "tail": [
+                0.29100000000000004,
+                0.39427792915531334
+              ],
+              "phone": {
+                "x": 0.022792022792022793,
+                "y": 0.012213740458015267,
+                "w": 0.9544159544159544,
+                "anchor": "free",
+                "chain": false,
+                "tail": [
+                  0.29100000000000004,
+                  0.39786259541984725
+                ]
+              },
+              "anchor": "free",
+              "chain": false
+            }
+          ],
+          "motion": {
+            "preset": "still"
+          },
+          "pageArt": [
+            0.026607538802660754,
+            0.14168937329700274,
+            0.9467849223946785,
+            0.8419618528610354
+          ],
+          "layerMotion": [
+            {
+              "layerId": "background",
+              "preset": "still"
+            },
+            {
+              "layerId": "humans",
+              "preset": "still"
+            },
+            {
+              "layerId": "agents",
+              "preset": "still"
             }
           ]
         }
-      ]
+      ],
+      "inset": 0,
+      "layers": [
+        {
+          "id": "background",
+          "src": "/comic/agentic/live-20261010/agentic-monday-background-selected-v4.png",
+          "role": "background"
+        },
+        {
+          "id": "humans",
+          "src": "/comic/agentic/live-20261010/agentic-monday-humans-selected-v4.png",
+          "role": "humans"
+        },
+        {
+          "id": "agents",
+          "src": "/comic/agentic/live-20261010/agentic-monday-agents-registered-v3.png",
+          "role": "agents",
+          "opacity": 0.9
+        }
+      ],
+      "continues": true
     }
   ],
   "next": {
@@ -3406,7 +6415,7 @@ export const agenticComic: ComicStory = retime({
       "room": "none",
       "fadeBeats": 1.5
     },
-    "b": 644,
+    "b": 332,
     "heading": "Nine floors up, the following month.",
     "choices": [
       {
@@ -3415,20 +6424,21 @@ export const agenticComic: ComicStory = retime({
         "img": "agentic-next-dana-access"
       },
       {
-        "label": "Winter. A system older than the web, and nobody who remembers.",
+        "label": "Winter. A system older than the web, and nobody left who remembers it.",
         "href": "/data-migrations-b/",
         "img": "agentic-next-dana"
       },
       {
-        "label": "Write down the rule that proves a record before an agent checks it.",
+        "label": "Build a second brain from the paper you already have.",
         "href": "/agentic-systems/second-brain/",
         "img": "agentic-brain-esposito"
       },
       {
-        "label": "Give every agent one procedure, limited keys and a named owner.",
+        "label": "Give every agent tests, limited keys and an owner.",
         "href": "/agentic-systems/agentic-devops-scaling/",
         "img": "agentic-codex-tests"
       }
     ]
-  }
+  },
+  "collapseTo": ".page-art"
 });

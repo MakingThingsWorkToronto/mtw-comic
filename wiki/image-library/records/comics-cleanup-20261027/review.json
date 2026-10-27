@@ -1,0 +1,66 @@
+{
+  "task": "Remove unrelated website implementation and repair comic demo images",
+  "repository": "MakingThingsWorkToronto/mtw-comic",
+  "removedTrackedFiles": 167,
+  "retained": "Comic player, editor, scene/art/audio generation, registration, workflow and agent launch dependencies. Shared brand header retained from the separately requested header task.",
+  "agenticDemo": {
+    "illustratedSource": "f42b72f3:site/src/data/comic-stories/agentic.ts",
+    "preservedDraft": "wiki/comics-library/stories/agentic-systems-draft-20261015.json"
+  },
+  "checks": {
+    "siteBuild": {
+      "routes": 9,
+      "result": "passed",
+      "owner": "experiment-header task, 2026-10-27 13:13:29"
+    },
+    "siteTests": {
+      "passed": 4
+    },
+    "studioTests": {
+      "files": 43,
+      "passed": 427
+    },
+    "localReaders": {
+      "cases": 15,
+      "passed": 15,
+      "sizes": [
+        "1440x1000",
+        "390x844",
+        "390x844 reduced motion"
+      ],
+      "scope": "Held opening scene at five seconds; image loading and JS errors. No full-story listening or artistic acceptance claim."
+    },
+    "visualReview": {
+      "screenshots": 15,
+      "inspected": 15,
+      "finding": "Opening artwork present in all four issues and original demo. Original demo retains its existing cropped lettering/layout."
+    },
+    "studioBuild": {
+      "result": "passed",
+      "viteSeconds": 1.83,
+      "typecheck": "passed"
+    },
+    "targetedStudioAfterFinalUi": {
+      "files": 3,
+      "tests": 22,
+      "passed": 22
+    },
+    "studioHttp": {
+      "modules": [
+        "operations",
+        "comics",
+        "images",
+        "soundtrack",
+        "workflows"
+      ],
+      "comicArtRecords": 195
+    }
+  },
+  "sourceHashes": {
+    "site/src/data/comic-stories/agentic.ts": "c74c232d9226d947ff634d8e06c46c1057245109675e2bc13381f05742275556",
+    "site/public/scripts/comic-story.js": "7eb0d34743f5c4ca43b83bd709e50c015aab40f4e54bac0e2239e8e261198f73",
+    "site/public/scripts/comic-story-home-20261012.js": "b4164bdecd362c0a588a789639f461159d037f6e7b52a4693498ce8482d81aa7",
+    "site/src/layouts/BaseLayout.astro": "009d02550118848bc2bae6b8e85baef91c82504ec0537be1b1fb6d0e78674eb7"
+  },
+  "humanApproval": "No new artwork, casting, dialogue generation or human acceptance inferred."
+}

@@ -1,12 +1,9 @@
 // `mtw` CLI dispatcher: what skills and procedures call. Each module adds its commands as a function that returns an
-// exit code, or null when the arguments are not its own. Images commands live in cli/images.ts, Journal in cli/journal.ts.
+// exit code, or null when the arguments are not its own. Image registration commands live in cli/images.ts.
 import { IMAGES_USAGE, imagesCommand } from './images';
-import { JOURNAL_USAGE, journalCommand } from './journal';
 
-const USAGE = `${IMAGES_USAGE}
-
-${JOURNAL_USAGE}`;
-const handlers: ((argv: string[]) => Promise<number | null>)[] = [(argv) => imagesCommand(argv), (argv) => journalCommand(argv)];
+const USAGE = IMAGES_USAGE;
+const handlers: ((argv: string[]) => Promise<number | null>)[] = [(argv) => imagesCommand(argv)];
 
 async function main(): Promise<number> {
   const argv = process.argv.slice(2);

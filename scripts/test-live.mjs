@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { comicMediaUrls } from './comics/media-urls.mjs';
 const base = process.argv[2];
-if (!base || !/^https:\/\//.test(base)) throw Error('Usage: npm run test:live -- https://your-project.vercel.app');
+if (!base || !/^https?:\/\//.test(base)) throw Error('Usage: npm run test:live -- https://your-project.vercel.app or http://127.0.0.1:8789');
 const root = path.resolve(import.meta.dirname, '..'), dist = path.join(root, 'site/dist');
 const requests = new Set(['/']), failed = [], pages = [];
 function add(value, relative = '/') {
@@ -24,7 +25,10 @@ function walk(dir) {
       const html = fs.readFileSync(file, 'utf8');
       for (const match of html.matchAll(/(?:src|href)=["'](\/[^"']+)["']/g)) add(match[1]);
       for (const match of html.matchAll(/<script[^>]*type="application\/json"[^>]*>([\s\S]*?)<\/script>/g)) {
-        try { media(JSON.parse(match[1])); } catch { /* Other application metadata need not be player data. */ }
+        try {
+          const data = JSON.parse(match[1]); media(data);
+          if (data.scenes) for (const url of comicMediaUrls(data)) add(url);
+        } catch { /* Other application metadata need not be player data. */ }
       }
     } else if (item.name.endsWith('.css')) {
       const relative = '/' + path.relative(dist, file).replaceAll('\\', '/');
@@ -40,7 +44,8 @@ await Promise.all(Array.from({ length: 6 }, async () => {
     try {
       const response = await fetch(new URL(resource, base), { method: 'HEAD', redirect: 'follow', signal: AbortSignal.timeout(20000) });
       const type = response.headers.get('content-type') || '';
-      if (!response.ok || resource.endsWith('.js') && !/javascript/.test(type)) failed.push({ resource, status: response.status, type });
+      const expected = /\.(png|webp|avif|svg|jpe?g)$/i.test(resource) ? /^image\// : /\.(mp3|wav|ogg|m4a)$/i.test(resource) ? /^audio\// : resource.endsWith('.js') ? /javascript/ : null;
+      if (!response.ok || expected && !expected.test(type)) failed.push({ resource, status: response.status, type });
     } catch (error) { failed.push({ resource, error: error.message }); }
   }
 }));

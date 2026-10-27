@@ -2,13 +2,9 @@
 import type { ClientModule } from './types';
 import { meta as operations } from './operations/meta';
 import { meta as comics } from './comics/meta';
-import { meta as storage } from './storage/meta';
 import { meta as soundtrack } from './soundtrack/meta';
 import { meta as images } from './images/meta';
-import { meta as journal } from './journal/meta';
-import { meta as schedules } from './schedules/meta';
 import { meta as workflows } from './workflows/meta';
-import { meta as spend } from './spend/meta';
 
 export const clientModules: ClientModule[] = [
   { meta: operations, load: () => import('./operations/client') },

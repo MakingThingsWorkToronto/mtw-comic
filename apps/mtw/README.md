@@ -1,37 +1,36 @@
-# MTW Studio
+# Comic Studio
 
-One local app over the wiki libraries: terminals, review queues, storage plans, schedules and token use.
+Local comic authoring and review, with image registration, soundtrack tools and authoring terminals.
 
 ## Start
 
 From the repo root:
 
 ```
-npm run all             # website preview (8787) + Studio (8788) (Ctrl+C stops both)
-npm run studio          # Studio only, dev mode with hot reload
-npm run studio:build    # build + type-check the web bundle
-npm run studio:start    # serve the built bundle
+npm --prefix apps/mtw ci
+npm run studio
+# Build/type-check separately:
+npm --prefix apps/mtw run build
+# Serve the built bundle:
+node scripts/studio/start-studio.mjs --built
 ```
 
-Open **http://127.0.0.1:8788/** (the next free port if 8788 is busy; the command prints the URL).
+Open **http://127.0.0.1:8790/**. A busy port is an error. Run `npm run dev` separately for the reader on **8789**.
 The first run installs `apps/mtw` dependencies by itself. The server only answers on loopback.
 
 ## What each section is for
 
-- **Home**: what needs you now: running terminals, items waiting on a decision, tokens today.
+- **Home**: links and summaries for the comic tools.
 - **Images**: browse, review and register image versions.
 - **Soundtrack**: play, rate and approve music candidates and credits.
 - **Comics**: cast, voices, speech to review, art fixes.
-- **Journal**: queue, interviews, drafts and what waits on Matt.
 - **Operations**: live terminals (Claude, Codex, shell), token usage, and Procedures (one-click prompts).
-- **Schedules**: recurring runs; they only enqueue, you press start.
-- **Spend**: token and cost estimates against budgets (estimates, not bills).
-- **Storage**: footprint per library and plans awaiting your approval.
+- **Workflows**: the comic build, its authoring steps and human review gates.
 
 ## Where things live
 
-- Data: `wiki/` (libraries, `wiki/operations/`). Human decisions are logged per library in `wiki/image-library/decisions.jsonl`, `wiki/soundtrack-library/decisions.jsonl`, `wiki/comics-library/decisions.jsonl` and `wiki/journal/decisions.jsonl`. Never hand-edit generated files.
-- The old per-library browser consoles under `wiki/` are retired; each Studio module (`/m/images`, `/m/soundtrack`, `/m/comics`, `/m/journal`) replaces one. For an offline image snapshot run `node apps/mtw/cli/mtw.mjs export images --out <folder>`.
+- Data and decisions stay in `wiki/image-library/`, `wiki/soundtrack-library/` and `wiki/comics-library/`. Never hand-edit generated catalogs.
+- The review modules are `/m/images`, `/m/soundtrack` and `/m/comics`. For an offline image snapshot run `node apps/mtw/cli/mtw.mjs export images --out <folder>`.
 - Procedures: prompts in `wiki/operations/prompts/*.md`, templates in `wiki/operations/templates/`.
 - Runtime state (pids, rendered prompts, transcripts): `apps/mtw/.state/`, not committed.
 

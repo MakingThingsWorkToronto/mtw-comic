@@ -9,7 +9,6 @@ import type { WebSocket } from 'ws';
 import { serverModules } from '../modules/server-registry';
 
 import type { OtelKind } from './core/otel';
-import { dashboardFor } from './core/dashboard';
 import { buildHomeSummary } from './core/home';
 import { IntakeService } from './core/intake';
 import { createCore } from './core/services';
@@ -140,8 +139,6 @@ export function buildApiRouter(core: Core): ApiRouter {
         home.modules.unshift({ ...entry, error: (error as Error).message });
       }
     }
-    // The five-section dashboard; `modules` stays for older clients and module tiles.
-    home.dashboard = await dashboardFor(core).build(home.modules);
     return home;
   });
   // Auto-intake: status for Home; reconcile lets an agent hand over its own files (it never waits).

@@ -23,8 +23,6 @@ export interface HomeModuleEntry {
 export interface HomeSummary {
   generatedAt: string;
   modules: HomeModuleEntry[];
-  /** The five-section dashboard (server/core/dashboard.ts). Absent from servers started before 2026-10-12. */
-  dashboard?: import('./dashboard').DashboardData;
 }
 
 const last = new WeakMap<Services, Map<string, { summary: ModuleSummary; readAt: string }>>();

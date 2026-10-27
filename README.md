@@ -29,10 +29,14 @@ The player is at http://127.0.0.1:8789/. No provider account, sibling checkout, 
 
 Install the optional local Studio with `npm --prefix apps/mtw ci`, then `npm run studio`. It runs on 8790 and manages this repository only. `scripts/comics/package-review.mjs` packages the Home voice-review inputs; `node scripts/comics/package-review.mjs --check` detects drift.
 
+Studio contains Comics, Images, Soundtrack, the comic workflow and its local agent terminals. The consulting website's Journal, storage console, schedules and spend screens are excluded. The player contains only the comic shelf, readers, style lab and saved-voice review; its shared brand header links back to the other projects.
+
+The illustrated Agentic Systems demo uses the last artwork-bound version. The later unillustrated rewrite is preserved in `wiki/comics-library/stories/agentic-systems-draft-20261015.json` for future authoring.
+
 Music retains its source licence and attribution in `wiki/soundtrack-library/sources.json`; the player displays its credit. Fonts retain their bundled licence notices. Third-party style reference scans and the consulting website’s private history are not bundled. Optional generation uses your own provider credentials from environment variables and requires explicit authorization.
 
 ## Deployment
 
 Vercel runs the root `vercel.json` build command and serves `site/dist`. The .claude/.codex sources and native libraries are in Git, while uploads exclude authoring-only data.
 
-After deploying, run `npm run test:live -- https://comics.makingthings.work` to check every reader and its referenced scripts, images and audio. Playback scripts under `site/public/scripts` must remain in the upload; `.vercelignore` excludes only root authoring folders. The retained paper tile is used; optional grain masks with no retained source bytes are disabled.
+After deploying, run `npm run test:live -- https://comics.makingthings.work` to check every reader and its referenced scripts, images and audio, including raster variants and panel URLs created by the player. It also checks media content types. The same command accepts `http://127.0.0.1:8789` for local review. Playback scripts under `site/public/scripts` must remain in the upload; `.vercelignore` excludes only root authoring folders. The retained paper tile is used; optional grain masks with no retained source bytes are disabled.

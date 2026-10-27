@@ -11,7 +11,7 @@ import type { DeleteKind } from '../web/delete';
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
 const PROMPT = path.join(REPO, 'wiki', 'operations', 'prompts', `${DELETE_OPERATION}.md`);
-const KINDS: DeleteKind[] = ['image', 'track', 'journal', 'comic', 'comic-page', 'comic-box'];
+const KINDS: DeleteKind[] = ['image', 'track', 'comic', 'comic-page', 'comic-box'];
 
 const parsed = parsePrompt(readFileSync(PROMPT, 'utf8'), `${DELETE_OPERATION}.md`);
 
@@ -44,7 +44,7 @@ describe('operations-delete-item procedure', () => {
 
   it('demands an inventory, an ownership check and Matt\'s typed confirmation before any removal', () => {
     const body = parsed.body;
-    expect(body).toContain('discussion/handoff/STATUS.md');
+    expect(body).toContain('current task coordination');
     expect(body).toContain('git status');
     expect(body).toMatch(/Do nothing further until he types it/);
     expect(body).toMatch(/never a whole folder/);
@@ -63,7 +63,6 @@ describe('delete subjects', () => {
     expect(deleteSubject.image('diagram-a', 'v3', 'svg-glass')).toBe('delete:img:diagram-a#svg-glass@v3');
     expect(deleteSubject.image('diagram-a', 'v3')).toBe('delete:img:diagram-a@v3');
     expect(deleteSubject.track('pixabay-1')).toBe('delete:snd:pixabay-1');
-    expect(deleteSubject.journal('second-brain')).toBe('delete:journal:second-brain');
     expect(deleteSubject.comic('home')).toBe('delete:comic:home');
     expect(deleteSubject.page('home', 'open')).toBe('delete:comic-page:home/open');
     expect(deleteSubject.box('home', 'open', 2, 'fp')).toBe('delete:comic-box:home/open/2@fp');

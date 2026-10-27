@@ -135,7 +135,6 @@ export function useDelete(options: DeleteOptions): DeleteHandle {
 const KIND_NOUN: Record<DeleteKind, string> = {
   image: 'image version',
   track: 'track',
-  journal: 'Journal entry',
   comic: 'comic issue',
   'comic-page': 'comic page',
   'comic-box': 'comic box',

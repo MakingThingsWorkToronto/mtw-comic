@@ -8,6 +8,8 @@ Install Node 24+, then run `npm --prefix site ci`, `npm run build`, `npm test` a
 
 For optional library authoring, install `npm --prefix apps/mtw ci` and run `npm run studio`. Studio is http://127.0.0.1:8790/ and operates on this repository. Library folders contain data; the application is under apps/mtw. Python image tools and optional media providers have their own documented dependencies; their setup is not needed to build or play the retained examples.
 
+The application registry includes only Comics, Images, Soundtrack, comic Workflows and the Operations needed to launch local authoring agents. There are no Journal, storage, schedule or spend modules. Image reference protection stays with Images. The browser reader has no consulting page templates, contact form, website playlist or parallax coordinator.
+
 ## Sources
 
 Stories and navigation are in site/src/data/comic-stories. The shared reader is site/src/components/ComicStory.astro and site/public/scripts/comic-story.js; Home retains its versioned player. The four authored issues and the demo are standalone under /comics/. Home voice-review inputs are packaged with scripts/comics/package-review.mjs; run it with --check to detect drift.

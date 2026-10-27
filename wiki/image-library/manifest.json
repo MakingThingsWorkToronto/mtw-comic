@@ -5707,6 +5707,114 @@
       "role": "metadata"
     },
     {
+      "destination": "records/comics-cleanup-20261027/desktop-agentic-systems.png",
+      "sha256": "d5661dbbb3d2faae57ed92678035ee81f4f52026eb011bfacc4b06b662e660ff",
+      "bytes": 1076988,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/desktop-data-migrations.png",
+      "sha256": "2f2f0185d77074143e39ac9595573fb9b141a9bee3a8c4b518628454bc85f6bd",
+      "bytes": 1251619,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/desktop-demo.png",
+      "sha256": "afe4a17523eba9ba2cd7fabaae08f39af1088e49debcd91ef94212fe84a975ab",
+      "bytes": 1335600,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/desktop-home.png",
+      "sha256": "872539f3cedaad22e121e4e5d2097b4f7b926eef6c8717efeb25e9c4de6935f5",
+      "bytes": 1440908,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/desktop-traditional-systems.png",
+      "sha256": "723cc6e1b1ea8cebf8f4d74913ebcb832e115f3d74ade7c685cef729499575aa",
+      "bytes": 1100722,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/live-before.json",
+      "sha256": "715bf9b5be1d389c298ad047dffd219018e14cf5711432373443692718985118",
+      "bytes": 26839,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/local-readers.json",
+      "sha256": "e36c4e294e9de6719d9a7a5a757aaa7dae8eb8daf7b8dd995a34fe68adebb2e9",
+      "bytes": 18943,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/phone-agentic-systems.png",
+      "sha256": "63ec7f40448ba5d1f5eddb2e506e88eb230608476602139fa288c226ea59cbe5",
+      "bytes": 227287,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/phone-data-migrations.png",
+      "sha256": "281500abba065670baa7ed1c72caaaae50036e091b8566418cefc1c16c678409",
+      "bytes": 207202,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/phone-demo.png",
+      "sha256": "e450f39f9d1016212ed2fc1ecaa8f3a5263975798c9cb18af630a262f8705ce7",
+      "bytes": 214223,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/phone-home.png",
+      "sha256": "99df20d11b0935ff2638731a191ee9078321b52a12bd29657e928f05ffc83a5f",
+      "bytes": 321412,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/phone-traditional-systems.png",
+      "sha256": "fe8471b38a508ac9696fe30b580244a31ac25b55dfac5a96af40185c0cea46ef",
+      "bytes": 232360,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/reduced-agentic-systems.png",
+      "sha256": "bdd291bc62c660dfbca45808b918708f21236acda17606f6ac5d59e0cde07015",
+      "bytes": 235669,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/reduced-data-migrations.png",
+      "sha256": "60499be0e022d957f1e29391262a86c970c70ad929b3a992ff4e69a206887b79",
+      "bytes": 219205,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/reduced-demo.png",
+      "sha256": "a7046a974b7f9cabfdf659a3756668e12d57397285609ef57c00824c1e5a56c0",
+      "bytes": 280826,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/reduced-home.png",
+      "sha256": "655c0a857af1afcae4834c92d3c0d6ff3df92f4b353997ae5612d5b201e1cb58",
+      "bytes": 408700,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/reduced-traditional-systems.png",
+      "sha256": "9cdb96a4a67c3c74a0934f8596da8812fd50127a575d7f2564bdaaca47284339",
+      "bytes": 239606,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/review.json",
+      "sha256": "125cd1432191cb7d1eb7d5ec775c387a053650044b17faf9487bf64939885ede",
+      "bytes": 1910,
+      "role": "provenance"
+    },
+    {
       "destination": "records/traditional-sharing-procedure-conversion-20261010/asset-76d8debd1a5a.json",
       "sha256": "bf9292f0d8a37020c30e33ab62f3437beed21f67a9ec62d2959823f05b17ebdc",
       "bytes": 693,
@@ -5781,9 +5889,9 @@
     },
     "selectedOriginalReferences": 0,
     "traditionalOriginals": 0,
-    "copiedFiles": 202,
-    "copiedBytes": 405770691,
+    "copiedFiles": 220,
+    "copiedBytes": 414610710,
     "imageFiles": 198,
-    "evidenceImageFiles": 0
+    "evidenceImageFiles": 15
   }
 }

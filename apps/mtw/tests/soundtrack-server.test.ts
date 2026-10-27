@@ -447,7 +447,7 @@ describe('asset resolvers', () => {
     expect(statuses.slice(firstNonApproved).every((s) => s !== 'approved')).toBe(true);
     expect(statuses.filter((s) => s === 'approved')).toHaveLength(manifest.filter((t) => t.status === 'approved').length);
     const cand = await r.list({ filters: { status: 'candidate' }, limit: 5 });
-    expect(cand.items).toHaveLength(5);
+    expect(cand.items).toHaveLength(Math.min(5, manifest.filter(t => t.status === 'candidate').length));
     expect(cand.items.every((i) => i.status === 'candidate')).toBe(true);
     expect(cand.total).toBe(manifest.filter((t) => t.status === 'candidate').length);
     const page = await r.list({ limit: 3, offset: 3 });

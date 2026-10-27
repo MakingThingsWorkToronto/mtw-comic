@@ -9,7 +9,7 @@ import { createReadStream, existsSync, readFileSync } from 'node:fs';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import type { DecisionLog } from '../../types';
-import { buildReferenceIndex, makeContext } from '../../storage/providers/context';
+import { buildReferenceIndex } from './references';
 import { stateOf } from '../shared/states';
 import { DECISIONS_LIB } from '../shared/types';
 import type { ImageRecord } from '../shared/types';
@@ -109,9 +109,9 @@ export const hashFile = (file: string): Promise<string> =>
 
 /** `archiveRoot` from wiki/operations/storage/config.json (default C:/MTW-archive/); refused when inside the repo. */
 export function archiveRoot(repoRoot: string): string {
-  let root = 'C:/MTW-archive/';
+  let root = path.join(path.dirname(repoRoot), 'comic-art-archive');
   try {
-    const cfg = JSON.parse(readFileSync(path.join(repoRoot, 'wiki', 'operations', 'storage', 'config.json'), 'utf8')) as { archiveRoot?: string };
+    const cfg = JSON.parse(readFileSync(path.join(repoRoot, 'wiki', 'comics-library', 'archive.json'), 'utf8')) as { archiveRoot?: string };
     if (cfg.archiveRoot) root = cfg.archiveRoot;
   } catch {
     /* default */
@@ -261,7 +261,7 @@ export async function planRemove(ctx: RemoveContext, req: RemoveRequest, ownRun 
   }
 
   const catalogRemovable = await (ctx.catalogRemovable?.() ?? Promise.resolve(producerHasRemove(helperPath(ctx))));
-  const [site, stories, refs] = await Promise.all([siteNames(ctx.repoRoot), storyNames(ctx.repoRoot), buildReferenceIndex(makeContext(ctx.repoRoot, { stateDir: ctx.stateDir }))]);
+  const [site, stories, refs] = await Promise.all([siteNames(ctx.repoRoot), storyNames(ctx.repoRoot), buildReferenceIndex(ctx.repoRoot)]);
 
   const items: RemoveItem[] = [...keep];
   const seen = new Set<string>();

@@ -63,18 +63,6 @@ export const server: ServerModule = {
       if (!run) throw new HttpError(404, 'unknown run');
       return run;
     });
-    // "Improve this procedure": launches operations-improve-procedure for one operation run.
-    router.post('/runs/:id/improve', async ({ params, body }) => {
-      const run = await readRun(stateDirOf(), params.id as string);
-      if (!run?.operation) throw new HttpError(404, 'that run was not launched from an operation');
-      if (!run.promptPath) throw new HttpError(400, 'that run has no prompt file');
-      try {
-        const o = launchOptsFromBody(body);
-        return await services.operations.launch('operations-improve-procedure', { operation: run.operation, run: run.id, prompt: run.promptPath, transcript: run.transcript ?? '' }, o.runner, o.permission, undefined, o.choice);
-      } catch (error) {
-        throw new HttpError(400, (error as Error).message);
-      }
-    });
     // "Resume": reopen an ended or crashed terminal's saved conversation (provider transcript on disk) in a new terminal.
     router.post('/runs/:id/resume', async ({ params, body }) => {
       if (!services.terminals.resume) throw new HttpError(400, 'this Studio cannot reopen saved conversations');

@@ -20,10 +20,7 @@ const description = `Making Things Work comics, issue ${s.issue}: ${issue.hook}`
   <h1 class="comic-reader__h">{title}</h1>
   <ComicStory story={s} mode="standalone" />
   <noscript><p class="comic-reader__noscript">This comic needs JavaScript. <a href={issue.aPage}>Read the page</a> or <a href="/comics/">see all issues</a>.</p></noscript>
-  <SiteFooter slot="footer"
-    lines={['Making Things Work', 'Practical AI solutions.', 'info@makingthings.work']}
-    links={[{ label: 'Comics', href: '/comics/' }, { label: 'Agentic Systems', href: '/agentic-systems/' }, { label: 'Traditional Systems', href: '/traditional-systems/' }, { label: 'Data & Migrations', href: '/data-migrations/' }, { label: "Let's talk", href: '/contact/' }]}
-    fine="Remote first · Toronto, Mississauga, Golden Horseshoe, Southern Ontario" />
+  <SiteFooter slot="footer" />
 </BaseLayout>
 <style>
   .comic-reader__h { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; margin: 0; }

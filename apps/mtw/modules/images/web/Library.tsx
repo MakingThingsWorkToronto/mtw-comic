@@ -8,7 +8,7 @@ import { EmptyState, Tabs } from '../../../web/ui/Layout';
 import { Table } from '../../../web/ui/Table';
 import type { Column } from '../../../web/ui/Table';
 import { bytesLabel, orderStyles } from '../shared/filter';
-import { COLLECTION_LABEL, COLLECTION_ORDER } from '../shared/types';
+import { COLLECTION_LABEL } from '../shared/types';
 import type { Card as CardData, CardQuery, Facets } from '../shared/types';
 import { Card } from './Card';
 import { Anchor, StateBadge, StaleBanner, Thumb, styleLabel, useDebounced } from './common';
@@ -20,6 +20,7 @@ import type { RemoveRequest } from './host';
 import { STATE_LABEL } from '../shared/states';
 
 const PAGE = 60;
+const ART_COLLECTIONS = ['comics', 'originals', 'scenes', 'earlier'];
 const FILTER_KEYS = ['q', 'category', 'service', 'style', 'status', 'gaps'] as const;
 
 interface Paged {
@@ -81,7 +82,7 @@ function tabLabel(id: string, facets: Facets | null): string {
 export function Library() {
   const host = useHost();
   const { query } = host;
-  const collection = query.get('collection') || 'diagrams';
+  const collection = query.get('collection') || 'comics';
   const layout = query.get('layout') === 'table' ? 'table' : 'grid';
   const filters = Object.fromEntries(FILTER_KEYS.map((k) => [k, query.get(k) ?? ''])) as Record<(typeof FILTER_KEYS)[number], string>;
 
@@ -111,7 +112,6 @@ export function Library() {
     ...(filters.service ? { service: filters.service } : {}),
     ...(filters.style ? { style: filters.style } : {}),
     ...(filters.status ? { status: filters.status } : {}),
-    ...(filters.gaps === '1' && collection === 'diagrams' ? { gaps: true } : {}),
   };
   const [paged, more] = usePaged(host, cardQuery, reload);
   const names = facets?.styleNames ?? {};
@@ -134,7 +134,7 @@ export function Library() {
   };
 
   const pickCollection = (id: string): void =>
-    host.setQuery({ collection: id === 'diagrams' ? undefined : id, category: undefined, service: undefined, style: undefined, status: undefined, gaps: undefined });
+    host.setQuery({ collection: id === 'comics' ? undefined : id, category: undefined, service: undefined, style: undefined, status: undefined, gaps: undefined });
   const hasFilters = FILTER_KEYS.some((k) => filters[k]);
 
   const selects = [
@@ -158,7 +158,6 @@ export function Library() {
       ) : c.treatment ? <span class="img-row-thumb"><Thumb src={host.data.thumb({ sha: c.treatment.sha, path: c.treatment.path })} alt="" /></span> : <span class="muted">none</span>),
     },
     { key: 'title', header: 'Title', render: (c) => (host.pick ? c.title : <Anchor view="record" id={c.id}>{c.title}</Anchor>), sort: (a, b) => a.title.localeCompare(b.title) },
-    { key: 'service', header: 'Service', render: (c) => c.service, sort: (a, b) => a.service.localeCompare(b.service) },
     { key: 'category', header: 'Category', render: (c) => c.category },
     { key: 'collection', header: 'Collection', render: (c) => COLLECTION_LABEL[c.collection] ?? c.collection },
     { key: 'style', header: 'Style', render: (c) => styleLabel(names, c.style) },
@@ -169,14 +168,7 @@ export function Library() {
 
   return (
     <div class="stack">
-      <Tabs label="Collections" value={collection} onChange={pickCollection} items={COLLECTION_ORDER.map((id) => ({ id, label: tabLabel(id, facets) }))} />
-      {collection === 'diagrams' && facets?.diagramsByStyle && (
-        <p class="muted small img-coverage" aria-label="Diagram coverage by style">
-          {orderStyles(Object.keys(facets.diagramsByStyle))
-            .map((s) => `${styleLabel(names, s)} ${facets.diagramsByStyle?.[s]?.present ?? 0} present, ${facets.diagramsByStyle?.[s]?.missing ?? 0} missing`)
-            .join(' · ')}
-        </p>
-      )}
+      <Tabs label="Collections" value={collection} onChange={pickCollection} items={ART_COLLECTIONS.map((id) => ({ id, label: tabLabel(id, facets) }))} />
       <FilterBar
         search={search}
         onSearch={setSearch}
@@ -184,12 +176,6 @@ export function Library() {
         selects={selects}
         onSelect={(name, value) => host.setQuery({ [name]: value || undefined, ...(name === 'category' ? { service: undefined } : {}) })}
       >
-        {collection === 'diagrams' && (
-          <label class="img-check" title="Diagrams with no file in the selected style">
-            <input type="checkbox" checked={filters.gaps === '1'} onChange={(e) => host.setQuery({ gaps: (e.target as HTMLInputElement).checked ? '1' : undefined })} />
-            Gaps
-          </label>
-        )}
         <Button variant="ghost" disabled={!hasFilters} help="Clears the search and all filters so every image shows again. Nothing is changed in the library." onClick={() => { setSearch(''); host.setQuery({ q: undefined, category: undefined, service: undefined, style: undefined, status: undefined, gaps: undefined }); }}>
           Reset
         </Button>

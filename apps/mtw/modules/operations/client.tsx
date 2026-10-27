@@ -3,7 +3,6 @@ import { buildUrl } from '../../web/shell/route';
 import { navigate } from '../../web/shell/router';
 import { Tabs } from '../../web/ui';
 import type { ViewProps } from '../types';
-import { ContributionsView } from './ContributionsView';
 import { DefaultsView } from './DefaultsView';
 import { OperationsView } from './OperationsView';
 import { TerminalView, TerminalsView } from './TerminalsView';
@@ -30,13 +29,12 @@ export default function OperationsModule({ path, pick }: ViewProps) {
           items={[
             { id: 'terminals', label: 'Terminals' },
             { id: 'usage', label: 'Usage' },
-            { id: 'contributions', label: 'Contributions' },
             { id: 'operations', label: 'Procedures' },
             { id: 'defaults', label: 'Defaults' },
           ]}
         />
       )}
-      {view === 'defaults' ? <DefaultsView /> : view === 'operations' ? <OperationsView /> : view === 'usage' ? <UsageView /> : view === 'contributions' ? <ContributionsView /> : path[1] ? <TerminalView id={path[1]} /> : <TerminalsView />}
+      {view === 'defaults' ? <DefaultsView /> : view === 'operations' ? <OperationsView /> : view === 'usage' ? <UsageView /> : path[1] ? <TerminalView id={path[1]} /> : <TerminalsView />}
     </>
   );
 }

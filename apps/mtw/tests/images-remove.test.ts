@@ -41,7 +41,7 @@ function ctx(over: Partial<RemoveContext> = {}): RemoveContext {
 beforeEach(async () => {
   fx = await makeFixture();
   archive = mkdtempSync(path.join(os.tmpdir(), 'mtw-archive-'));
-  put('wiki/operations/storage/config.json', JSON.stringify({ archiveRoot: archive }));
+  put('wiki/comics-library/archive.json', JSON.stringify({ archiveRoot: archive }));
   calls = [];
   producerCode = 0;
 }, 60000);
