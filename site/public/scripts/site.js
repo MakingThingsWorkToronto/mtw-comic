@@ -26,18 +26,17 @@
   var nav = document.querySelector('.site-nav');
   if (nav) {
     var navToggle = nav.querySelector('.nav-toggle');
-    var menu = nav.querySelector('.menu');
-    var menuToggle = menu && menu.querySelector('.menu-toggle');
-
-    var setMenu = function (open) {
-      if (!menu) return;
+    var menus = Array.prototype.slice.call(nav.querySelectorAll('.menu'));
+    var setMenu = function (menu, open) {
       menu.dataset.open = String(open);
-      menuToggle.setAttribute('aria-expanded', String(open));
+      menu.querySelector('.menu-toggle').setAttribute('aria-expanded', String(open));
     };
+    var closeMenus = function () { menus.forEach(function (menu) { setMenu(menu, false); }); };
+
     var setNav = function (open) {
       nav.dataset.open = String(open);
       navToggle.setAttribute('aria-expanded', String(open));
-      if (!open) setMenu(false);
+      if (!open) closeMenus();
     };
 
     navToggle.addEventListener('click', function () { setNav(nav.dataset.open !== 'true'); });
@@ -49,20 +48,28 @@
         t.setAttribute('aria-expanded', String(open));
       });
     });
-    if (menuToggle) menuToggle.addEventListener('click', function () { setMenu(menu.dataset.open !== 'true'); });
+    menus.forEach(function (menu) {
+      menu.querySelector('.menu-toggle').addEventListener('click', function () {
+        var open = menu.dataset.open !== 'true';
+        closeMenus();
+        setMenu(menu, open);
+      });
+      menu.addEventListener('focusout', function (e) {
+        if (e.relatedTarget && !menu.contains(e.relatedTarget)) setMenu(menu, false);
+      });
+    });
 
     document.addEventListener('keydown', function (e) {
       if (e.key !== 'Escape') return;
-      if (menu && menu.dataset.open === 'true') { setMenu(false); menuToggle.focus(); return; }
+      var menu = menus.find(function (item) { return item.dataset.open === 'true'; });
+      if (menu) { setMenu(menu, false); menu.querySelector('.menu-toggle').focus(); return; }
       if (nav.dataset.open === 'true') { setNav(false); navToggle.focus(); }
     });
     document.addEventListener('click', function (e) {
-      if (menu && menu.dataset.open === 'true' && !menu.contains(e.target)) setMenu(false);
+      menus.forEach(function (menu) {
+        if (menu.dataset.open === 'true' && !menu.contains(e.target)) setMenu(menu, false);
+      });
       if (nav.dataset.open === 'true' && !nav.contains(e.target)) setNav(false);
-    });
-    // Close the Services panel when focus leaves it (keyboard users tabbing on).
-    if (menu) menu.addEventListener('focusout', function (e) {
-      if (e.relatedTarget && !menu.contains(e.relatedTarget)) setMenu(false);
     });
   }
 
