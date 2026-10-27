@@ -5689,6 +5689,84 @@
       "role": "comics:comic-ink"
     },
     {
+      "destination": "records/comic-b-home-defect-pass-20261015/encodings-v1.json",
+      "sha256": "3216d3176f3176f5d7642ed237bbf37dfe5bd05718e0a251b559eab68c0a4496",
+      "bytes": 42852,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-defect-pass-20261015/encodings-v2.json",
+      "sha256": "9ae5c6e6dbbdeccaa257a805a07ce17996a7d32d467c6606e1cc229cae81d95c",
+      "bytes": 867,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/access-encodings-v2.json",
+      "sha256": "a58980703cbc5feca3bf3f2109b2a1ff679a9378162913282e898132dea9af0d",
+      "bytes": 9684,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/agent-encodings-v2.json",
+      "sha256": "beee5f0e4e558ca362ac376319fcf0a8bf5c4df6c6ac982e40f2191352d87de5",
+      "bytes": 9605,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/answers-encodings-v1.json",
+      "sha256": "bd7876670260caa0555ffd3cdc66df2a4508be26db0f7e7b1af8f494cabbdb94",
+      "bytes": 9769,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/brain-encodings-v2.json",
+      "sha256": "c50094098a908cc7b388c9a40c26f2eb3f065070d170a7220c499a28a4bedc21",
+      "bytes": 10424,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/call-encodings-v1.json",
+      "sha256": "f267dda51fd3aa438ae3cbff24dd096d1f3f8b18cf73681871848e6ab6f6af0a",
+      "bytes": 5071,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/codex-encodings-v2.json",
+      "sha256": "e2c06356925fcb366d7904f05db2ce12eb38389fde094bb31de01e3178df50b9",
+      "bytes": 9575,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/compare-encodings-v2.json",
+      "sha256": "3fe15a9a4b1c9be5151ecedcb00b1b48156a1b33613a8a7826b73f5cf22b767f",
+      "bytes": 6682,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/lobby-encodings-v1.json",
+      "sha256": "6e14dd8c9c81a2692a492ebcccd1f5d6c11bf9d85cdc141cd8c57512d9e7de31",
+      "bytes": 5060,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/monday-encodings-v2.json",
+      "sha256": "8864810dd2ed0dc8a1c9aabe6bda6d67a473f6633da83b3c9affb229b523b0d6",
+      "bytes": 8139,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/nine-encodings-v1.json",
+      "sha256": "254524479e9d91c6f06ff29b5782d115df404165a87082582ac035be06c5718a",
+      "bytes": 8107,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comic-b-home-rebuild-20261014/roof-encodings-v2.json",
+      "sha256": "3c53c9355881d270051980d37f59a6ab765c0f78baf1bcf1c4622d08db85b1bf",
+      "bytes": 10159,
+      "role": "provenance"
+    },
+    {
       "destination": "records/comic-b-model-blindspot/comic-ink/v1/metadata.json",
       "sha256": "8ab9640ccfd2c68c3f82da7a2db37a8730cfea5b6e08c0635f30bfcc2ae6f4a9",
       "bytes": 1450,
@@ -5705,6 +5783,12 @@
       "sha256": "758441ca487d364d68d8e0e3dc9155af7bc34ba2d94ab6531174c3cae1d7b658",
       "bytes": 1445,
       "role": "metadata"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/completion.json",
+      "sha256": "598d7dd349a756694cdb05ca2847a034e989ebb2d9218eba108718f1d7d08b81",
+      "bytes": 1952,
+      "role": "provenance"
     },
     {
       "destination": "records/comics-cleanup-20261027/desktop-agentic-systems.png",
@@ -5734,6 +5818,12 @@
       "destination": "records/comics-cleanup-20261027/desktop-traditional-systems.png",
       "sha256": "723cc6e1b1ea8cebf8f4d74913ebcb832e115f3d74ade7c685cef729499575aa",
       "bytes": 1100722,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/live-after.json",
+      "sha256": "e36c4e294e9de6719d9a7a5a757aaa7dae8eb8daf7b8dd995a34fe68adebb2e9",
+      "bytes": 18943,
       "role": "provenance"
     },
     {
@@ -5821,6 +5911,30 @@
       "role": "provenance"
     },
     {
+      "destination": "records/comics-cleanup-20261027/studio-comics.png",
+      "sha256": "8e23de4b4aebdf12a5d25460ac0d9803078df3df8d06561d19084ed27812844f",
+      "bytes": 65497,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/studio-home.png",
+      "sha256": "681c29c1de12211d1cc001c89044b0f78c9d2d0c21dcb27bcbeb21e1534abce1",
+      "bytes": 69724,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/studio-images.png",
+      "sha256": "133c665d0e865b0bf3dca9a26ce034317d9c3b4923d0b8b723af9e861354fb45",
+      "bytes": 551549,
+      "role": "provenance"
+    },
+    {
+      "destination": "records/comics-cleanup-20261027/studio-ui.json",
+      "sha256": "3b7893ab4aa80f905bf363a3175a2c3baf25a8d4e0eab5c63116ea3fee154845",
+      "bytes": 590,
+      "role": "provenance"
+    },
+    {
       "destination": "records/traditional-sharing-procedure-conversion-20261010/asset-76d8debd1a5a.json",
       "sha256": "bf9292f0d8a37020c30e33ab62f3437beed21f67a9ec62d2959823f05b17ebdc",
       "bytes": 693,
@@ -5895,9 +6009,9 @@
     },
     "selectedOriginalReferences": 0,
     "traditionalOriginals": 0,
-    "copiedFiles": 221,
-    "copiedBytes": 414613042,
+    "copiedFiles": 240,
+    "copiedBytes": 415457291,
     "imageFiles": 198,
-    "evidenceImageFiles": 15
+    "evidenceImageFiles": 18
   }
 }

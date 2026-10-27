@@ -1,0 +1,227 @@
+{
+ "schemaVersion": 1,
+ "page": "codex",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-reaches-plate-v1.png",
+    "sha256": "72db2fca5c6d7849cd1e52eeae945982f08de60d4f921db6fe8a78c3b0748fd9"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-reaches-plate-v1-1600.webp",
+     "sha256": "4b2acce38dee6c8ca1bbcd6d693513f28ef8e8e72829ce29ccaf51fb9dcef32f"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-reaches-plate-v1-1600.avif",
+     "sha256": "2551b9f54bc57804ed7edba47aa8afde8e77b4a036d6669129c96a3178ce1971"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-reaches-codex-layer-v2.png",
+    "sha256": "9d0af464300479c9948e12b8bcf008643021c5b89fd4309b10f2c9a5ab167629"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-reaches-codex-layer-v2-1600.webp",
+     "sha256": "57abd6c606277db3cd2a1e5c33b8af4a92710450c45c89c2d8c85502a5307695"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-reaches-codex-layer-v2-1600.avif",
+     "sha256": "72167d678562a60c6bc3136486768cf50af24cf8e29f5347247bdfcc04cdf3b7"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-reaches-composite-v2.png",
+    "sha256": "1f23d58b47d0087594e0ba96bd80e19cfc50eeb4487aee6e7662e6b866685f9a"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-reaches-composite-v2-1600.webp",
+     "sha256": "8f650bc8247e064443fca357896b92be0982a99c9a17bd9d181d65f0fa1142ac"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-reaches-composite-v2-1600.avif",
+     "sha256": "73ea2cfe1d212fe498cf15a7357d04e810068d361c410fd067ac3c126c192375"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-matt-stops-plate-v1.png",
+    "sha256": "3df272e9153d7b64d7ec63c6f888131e9fa68927ed6f9a572212bcad78b8f9a7"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-matt-stops-plate-v1-1600.webp",
+     "sha256": "2740896f72fda6de532da9a32b035567c0f92da7faf97c4cb5de9cbd21d2a327"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-matt-stops-plate-v1-1600.avif",
+     "sha256": "4ef89d0558177768060a9ecb8bbccd47eef96d4f692240ca09410caa7e9f0ae1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-literal-plate-v1.png",
+    "sha256": "f0fb6d4ab726dabb79dea943d45bc8be416a59d0f6f21522e3348afba6affea7"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-literal-plate-v1-1600.webp",
+     "sha256": "778540a696ad6cc7bb5d12eed106fe3a9d136dc53ce6b1964ac86d22c8da7b9c"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-literal-plate-v1-1600.avif",
+     "sha256": "04f4481f89268a4d180ae9312142b84e21e7f058db2d3b3acc3fd7c896396dc1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-literal-codex-layer-v2.png",
+    "sha256": "6868e892a39000d230e0423d366f992c623f2790ee37b9ddd2beded18be3f588"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-literal-codex-layer-v2-1600.webp",
+     "sha256": "d5a1297ad796124ad3debe59f97a83a962296fce8be3906795c87d54e9dd2bac"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-literal-codex-layer-v2-1600.avif",
+     "sha256": "578dda697b27485cbf4c5bf3554188745dcc334c40e647edbc700ef27d9403e7"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-literal-composite-v2.png",
+    "sha256": "dd0eba59bdb9aa33d378cb416919ba23789b4e03c2496a171da4ea553bf8c1c5"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-literal-composite-v2-1600.webp",
+     "sha256": "fecd76c1ea1e7453bdbf46248b6a79a6e5826fc73d884a4e61384cc671bb98d2"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-literal-composite-v2-1600.avif",
+     "sha256": "12f3347da63ddb91808bb1fb8ddbd4612067b23702d7686eb236005831e3d8a2"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-matt-close-plate-v1.png",
+    "sha256": "240abb23b5df7881f1e9d2bc2cd71a9ca0e6c48ea13fd899dc7d778f0cbb54eb"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-matt-close-plate-v1-1600.webp",
+     "sha256": "dbc3821673e8843b2a4c4bb04608a8d8d659e39b868ba2c50306991ef56bd938"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-matt-close-plate-v1-1600.avif",
+     "sha256": "6001903ec897107b22b0f3a57e76e56874143bc4b707fc73a2e48d00d7518071"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-asks-plate-v1.png",
+    "sha256": "96293857916183b7014106ce3d06a50cce1569e44707aae877d6840a8edca0a6"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-asks-plate-v1-1600.webp",
+     "sha256": "e0bd63b52e7a8f9a9a201c5ce46e6c4dea0b76de07f3a394fb922aa365e2e500"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-asks-plate-v1-1600.avif",
+     "sha256": "40abd0c1f3c7f40e1a8e5355cff16116412108e2ac07ccf0e79e077dd2d436a6"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-asks-codex-layer-v2.png",
+    "sha256": "42ad5aeb4912254c47457e871c1377edfb90e633f0fcf76106d1b93f9c18b8d3"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-asks-codex-layer-v2-1600.webp",
+     "sha256": "9f17dd403962da3ce6a3eb65886e969123e2ab2b5bebe3937b8ffabf56e0f06a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-asks-codex-layer-v2-1600.avif",
+     "sha256": "1944a3a2c036e0dce46f4c202aee57b15ae25e56b92f9c77cfc6bbc4736a733f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-asks-composite-v2.png",
+    "sha256": "817ae56c36886935024004c98622f36d8119aa74bb019e07c2cd8d2a8b49dc1f"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-asks-composite-v2-1600.webp",
+     "sha256": "5a7f55d652b217d3e57ddf884a841fe7006931f3b03c07d54c2e582aa2ddf190"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-asks-composite-v2-1600.avif",
+     "sha256": "f0daecea3a038cd366990613d182593f4020d93fd51a8ab09d51e66442a97b45"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-matt-points-plate-v1.png",
+    "sha256": "dd71c1de6fda24f2d871f993c625b42fbd294f74effc5db5a1d511e74ebe4e51"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-matt-points-plate-v1-1600.webp",
+     "sha256": "aa333066a6dfd94c3a54d154e5686d8b3465501eace603e452499dae31d33389"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-matt-points-plate-v1-1600.avif",
+     "sha256": "c37d20782d3a220d6eecbc491417b65e06ccafc27f89f942fd876cca2ebe8492"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-page-master-v2.png",
+    "sha256": "013f7cc865a6fb7928465076628eef12cf8bf2552d3959ee4d3c7ef845aa1e19"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-page-master-v2-1600.webp",
+     "sha256": "682f0336536530da99257109f8be7a9048597dd942bf3ba7275952bd656dd49b"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/codex/home-codex-page-master-v2-1600.avif",
+     "sha256": "5dfaa68b8f3d8930ac56a02c296f395e0bc13b090db031c99aa08c0cb2f8e112"
+    }
+   ]
+  }
+ ]
+}

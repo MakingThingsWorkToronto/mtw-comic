@@ -1,0 +1,244 @@
+{
+ "schemaVersion": 1,
+ "page": "brain",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-procedure-plate-v1.png",
+    "sha256": "e732349f5437300ae8b4630a02c4533afb6351739a0983348121fe225acfd3d2"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-procedure-plate-v1-1600.webp",
+     "sha256": "9a00785273da13278f1ab7ef6c2901de5c5a7429a1f0c1dc8bfe627192277eee"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-procedure-plate-v1-1600.avif",
+     "sha256": "da9b5488f440074e3f71e47f4698efd540394918cbdcbeb84555d9768a1a19f3"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-source-rule-plate-v1.png",
+    "sha256": "cdd107d44e050d711cd94e29d804e4269b6b91a14414f6ad9d5da080d6b1f1f2"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-source-rule-plate-v1-1600.webp",
+     "sha256": "1359b428d5d86e61ee8045586d68f63e11738162f7e72826f960798db6466098"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-source-rule-plate-v1-1600.avif",
+     "sha256": "06cd50cdb93bd492d621c02a966599dd68aa9c1a88c53246a7fa5a116b83ff0b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-brain-initialize-plate-v1.png",
+    "sha256": "7990138cd43349d779ee42a01c9811ff87b3f964a2c5f02fa47c354476cefd88"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-brain-initialize-plate-v1-1600.webp",
+     "sha256": "398a9d6b41364dfdf6382008f66f3cac300d92c208a35b803cb2e57db339e7c3"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-brain-initialize-plate-v1-1600.avif",
+     "sha256": "c2296690f31d2cb05ed43c399823638d7daa048db05f6b549f3eec28fe3c860d"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-plate-v1.png",
+    "sha256": "3d9ed704c63ff8036cf7fc37c87bca04b7a175d3d9e86db45cc2980ca2c361a6"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-plate-v1-1600.webp",
+     "sha256": "f0032bc7f365f82f1108e8312b2a1a1f26f4268d18aeb777751e9ddce73f8503"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-plate-v1-1600.avif",
+     "sha256": "4ff2a387487b0341c67d9a3fb65c37e42df591b20be6ba6a61ac835316fe5e9c"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-codex-layer-v1.png",
+    "sha256": "2ef2b58c9bb372ed2362fc67cf783766aae4a7b1d438f8255b4e3e14544eca09"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-codex-layer-v1-1600.webp",
+     "sha256": "8de562458c329bcee34796dd7894cb8607a831d2bcdd2e181e256e23cd2f73ef"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-codex-layer-v1-1600.avif",
+     "sha256": "7ccd4660f13c907a4f355b4e70451685eadc4de9ca2a07c952e799d2c8477520"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-claude-layer-v1.png",
+    "sha256": "89c5a29c84b242ea7676da9a7591e4d5a2b52e5658a86fc86bb7d681170457b6"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-claude-layer-v1-1600.webp",
+     "sha256": "cee2bd5563174fd41fb09684cd155eff15babde9f858bf3a90fd304736b52937"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-claude-layer-v1-1600.avif",
+     "sha256": "bec3dcc48a531af865b04c31a3b2b765fef8b516a244dd1edd9e3b528e496be8"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-composite-v1.png",
+    "sha256": "32bf26b9def28916109382bf322729cf9fa72e7bcc60f3b2558215c700e5590c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-composite-v1-1600.webp",
+     "sha256": "713013aa345a27f0f2ccd6cc9fb5ffd3431b4291a8829332c3473352c8cea876"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-process-connect-composite-v1-1600.avif",
+     "sha256": "172137afc0e89f14d1eb14dc3075b474389ae02bc788c1b7b79518333f5c85be"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-codex-skills-plate-v1.png",
+    "sha256": "1562dcc44d2bdcf65ea3fa390deeae06514477de9b1766a59fdf49311d04eef5"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-codex-skills-plate-v1-1600.webp",
+     "sha256": "0e1941929c9196a76c8021bd677ad83d263ab4dc8358cf42bc20b79f8b3fb36a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-codex-skills-plate-v1-1600.avif",
+     "sha256": "4d156cb1798c85887b188484be82db3b61a3248528958b582d95626b01feca6e"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-codex-skills-codex-layer-v1.png",
+    "sha256": "dec78bff9237035093c1e7daeb6693f736ede689366f3c2933eb3d1b28506cb7"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-codex-skills-codex-layer-v1-1600.webp",
+     "sha256": "3783d5361a1e780e99215d8480c122555e04cbc3bd38c1ef2d2295bb88c6a083"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-codex-skills-codex-layer-v1-1600.avif",
+     "sha256": "2353fd30df2651d7b1570f01b38af2c8a1da0fb9e69b2b741b00837b49267b05"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-codex-skills-composite-v1.png",
+    "sha256": "da8b8631cefd0a6e03b3c0395de5f42b73ccf939b70f3be708a757e76bc72f15"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-codex-skills-composite-v1-1600.webp",
+     "sha256": "f31219bf94eef3265611b5aef7fe5ca8a05ec093571ddf37b27c5644cac14ca2"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-codex-skills-composite-v1-1600.avif",
+     "sha256": "658feae0af40f92afb1ba98e24266aadcf9cf989d6d5c299f62b26add9e221a2"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-claude-scope-plate-v1.png",
+    "sha256": "e1638781e0fa21f70b683ec7fb3b6f5ee3e093c29b85999e79fc900ef163392e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-claude-scope-plate-v1-1600.webp",
+     "sha256": "271f584618ce01debd3d09ca4248c71eb5f58c6ba151c4826db327d9030eaeb9"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-claude-scope-plate-v1-1600.avif",
+     "sha256": "33ce62a54e50f39e6a4ea31321b19ed4d73dc219f009ce2a3e8b2f3b71a8ff46"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-claude-scope-claude-layer-v1.png",
+    "sha256": "6c80733f0eebc2f280d43a4fb813796c39efa54c583d247b9cf739887adc579b"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-claude-scope-claude-layer-v1-1600.webp",
+     "sha256": "99d1264155a986458d2df6eb997e47832c67315da575030993c3acc3cb3e10f4"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-claude-scope-claude-layer-v1-1600.avif",
+     "sha256": "c9ad6dbec5525693dd5c65a1e8651c2c919309802f2c4195d06dc695687231de"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-claude-scope-composite-v1.png",
+    "sha256": "c5bbde5570be6ddb383bd824ed904c35069971a27d0e27535b562952b03ef14e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-claude-scope-composite-v1-1600.webp",
+     "sha256": "72dae3ff5e286a756cc41c20aa5bb5d95d51ce8b9ceb87eaf5722e4597004efa"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-claude-scope-composite-v1-1600.avif",
+     "sha256": "5d5a9025018f20abc9d152db1b994ad8ba6599d6712ae57d0f9532004df35070"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-brain-page-master-v2.png",
+    "sha256": "b981d131415c216a2d9085b41f541d60796a09f004f095449f0b18fda76a3276"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-brain-page-master-v2-1600.webp",
+     "sha256": "1b87fe17e7e7d8e9781101bbd7d19ab6017c02f6b193fb9b4768390d139fc2ce"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/brain/home-brain-page-master-v2-1600.avif",
+     "sha256": "7252f909664359df78a0b11963d0bb28939f2852883ebce3511580304f300247"
+    }
+   ]
+  }
+ ]
+}

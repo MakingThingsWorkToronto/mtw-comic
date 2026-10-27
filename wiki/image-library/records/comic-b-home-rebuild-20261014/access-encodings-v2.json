@@ -1,0 +1,227 @@
+{
+ "schemaVersion": 1,
+ "page": "access",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-permissions-plate-v1.png",
+    "sha256": "5b142091df100175b139a4a939ebe32cdaa0b131f0306100f8340187d69b8c9c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-permissions-plate-v1-1600.webp",
+     "sha256": "e55b4d74cb25f9081be6a9fa86e6acc7cc418043ebd80017a9edc18cd8a1e61e"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-permissions-plate-v1-1600.avif",
+     "sha256": "4c6a1604dbfcade1bed3e89cdcd46494ebc2746f26bd7336af2a556e078321d5"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-scope-plate-v1.png",
+    "sha256": "1cc25a7cc244d9a4ba96a335f02ab18cfd06f914fa172cce32cc1fab2aa2fba4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-scope-plate-v1-1600.webp",
+     "sha256": "82d708062b7e455760a6dbf1780632c7bc515d7cb1c3770c83f12fb4d4e1833e"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-scope-plate-v1-1600.avif",
+     "sha256": "eb97ef328b876f31dd8b57c10df0c5f70f4e7cbce9c7e291f33dfbb43a30b8dd"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-refusal-plate-v1.png",
+    "sha256": "d452ee147cdedd31a39a08a351761f6f064136ace797757b5343706713096a8f"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-refusal-plate-v1-1600.webp",
+     "sha256": "364327bb81f36b14b71f9f73351cc016ba47086b6166ddd970859e81d370787d"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-refusal-plate-v1-1600.avif",
+     "sha256": "5dacb1fd1b64581d09d71e88cdb875d69c4bf8178f8740fcba6324598a460a6a"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-refusal-codex-layer-v1.png",
+    "sha256": "da4c1ec74fc4529a31e58bc32242fcec87eab623823314ba3cfa2b5b8ebe87f4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-refusal-codex-layer-v1-1600.webp",
+     "sha256": "af9c421f148f4995552f754b76ad4d662d464cc941e1acb1b6b5cee7b4b5f252"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-refusal-codex-layer-v1-1600.avif",
+     "sha256": "9dce9cd9fcbc4835512561cbf717089bb832c921656e56631274359930ec5f6a"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-refusal-composite-v1.png",
+    "sha256": "1b0261ae7fcb576244802ceff44a48668ec9d25d27d2d1b07ce1204ca5900cf7"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-refusal-composite-v1-1600.webp",
+     "sha256": "fa8fdbea897343bbf16f8b9d5c4bf075e45286d44d5d1f463d2f64e3f63c83e1"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-refusal-composite-v1-1600.avif",
+     "sha256": "6e1b0cd9ccc165877ecffd17b50098a2d2957be1f90bdbf7e0bc9119432fef1d"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-marco-choose-plate-v1.png",
+    "sha256": "7b7c039bdb24a473e7c89de05716e1bc1b64beb035b18016e95b00fb57c3738c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-marco-choose-plate-v1-1600.webp",
+     "sha256": "41cd32ae4e44e6dd6191f74fb80d78c0710c2cb5b5a68dac6f6359c01bf2f9e0"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-marco-choose-plate-v1-1600.avif",
+     "sha256": "eeae733c603051caae1d148a5c12784827aa2290e247529ab28004707d9824e4"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-output-plate-v1.png",
+    "sha256": "2d12586c6a7036fef44f0867c498413173105d54842ab041b5cfdc724ca645ea"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-output-plate-v1-1600.webp",
+     "sha256": "83ac1b70c48096805d30211bfcd8e6c647b3375aee616e754d1d55b137a86c7e"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-output-plate-v1-1600.avif",
+     "sha256": "fc1ccaa763ec53b08a5db5b4bff734c697e2a83a1faf40c9ab655b5c833497a1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-output-codex-layer-v2.png",
+    "sha256": "c0659e4b52340c3f18d850d85db80678ea390713aca86d1eac0f76ac3ff00fd4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-output-codex-layer-v2-1600.webp",
+     "sha256": "ece56f5b67cb709203818619a94e03f49470fe70a274a7c25e66db6d1715347c"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-output-codex-layer-v2-1600.avif",
+     "sha256": "6821635dbc26f93cbd7de65488a9fd5d9cf1d2ba03850a7d29fac532d7a5eded"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-output-composite-v2.png",
+    "sha256": "42a2008f2a562c09eaea3d5bf9a591071f6134dbdd5734dc7f89c8812f9d7a20"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-output-composite-v2-1600.webp",
+     "sha256": "2342370ee8b3845cbdda901cdfd0b19d2d7d3bab3feca212d2b231a4e9d56a2b"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-process-output-composite-v2-1600.avif",
+     "sha256": "e874dc461fd6ea4a74a3cbf22a0a364a19792f1c1a60e867d3f7839dbd97ac61"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-codex-gaps-plate-v1.png",
+    "sha256": "4d8141c0008d54cac8de0623259a3b0edd69a867bedb710e95365d7476c73b42"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-codex-gaps-plate-v1-1600.webp",
+     "sha256": "23e8e4090c2f0b8b0b434458dfc375600188e548871d24381bb9770010d4d015"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-codex-gaps-plate-v1-1600.avif",
+     "sha256": "aecb4e5de50f2067e7c1cfeca08180a2e6cb27cec70d9da00af8e4ba00b2d784"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-codex-gaps-codex-layer-v2.png",
+    "sha256": "5cc0485d481b5c41beb26505b259476a5a65eda82a53c3d97e164e9a24ca4ded"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-codex-gaps-codex-layer-v2-1600.webp",
+     "sha256": "60554ca942ac7697f3e66023c4051dc6ea782e90016af031bb01c97bad5d543f"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-codex-gaps-codex-layer-v2-1600.avif",
+     "sha256": "fa9b5741923771fdcd4184338c5dc7cdb6227d271e7392700fbba1042bdf89a5"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-codex-gaps-composite-v2.png",
+    "sha256": "44ebe564e906f8cc57860df4b6dd95a9cf7948efbdc02a91498094a9ee931401"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-codex-gaps-composite-v2-1600.webp",
+     "sha256": "a035d253f721fab4e6164ed77985cda6dbfd74b6277f4ea34152f73398f2f5aa"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-codex-gaps-composite-v2-1600.avif",
+     "sha256": "f095f3c6c71e55154fe749045e122c067bb136bd789945f881a9054ae8d1ff97"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-access-page-master-v2.png",
+    "sha256": "8c1123a9dc23c1c9ab865237957510878e44583a7970d7d2f6a159eaf529f0b4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-access-page-master-v2-1600.webp",
+     "sha256": "d97f48b80efdf85f94797c71dcac3f4a655ec33bc9c314c803ff7e483e6d3537"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/access/home-access-page-master-v2-1600.avif",
+     "sha256": "2ca093cb415f954f17e0e535fd8f1279264f3e95add59a45c6378ef30ec5b249"
+    }
+   ]
+  }
+ ]
+}

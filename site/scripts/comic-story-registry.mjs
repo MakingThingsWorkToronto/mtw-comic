@@ -20,6 +20,7 @@ export async function registryCheck(site, origin, { requireArt = false } = {}) {
   const bare = (href) => href.replace(/[?#].*$/, '');
   const pageFile = (href) => {
     const path = bare(href).replace(/^\/|\/$/g, '') || 'index';
+    if (issues.some(i => `/comics/${i.slug}` === '/' + path)) return join(site, 'src/pages/comics/[issue].astro');
     return [`src/pages/${path}.astro`, `src/pages/${path}/index.astro`].map((f) => join(site, f)).find((f) => existsSync(f));
   };
   const uniq = (key, f) => { const seen = new Set(); issues.forEach((i) => { const v = f(i); if (seen.has(v)) err(`duplicate ${key} ${v}`); seen.add(v); }); };
@@ -37,20 +38,17 @@ export async function registryCheck(site, origin, { requireArt = false } = {}) {
   for (const i of issues) {
     const t = `issue ${i.story.issue} (${i.slug})`;
     if (!/^[a-z0-9-]+$/.test(i.slug)) err(`${t}: slug is not a-z, 0-9, -`);
-    const bf = pageFile(i.bPage), af = pageFile(i.aPage), ex = exportsOf[i.story.id];
-    if (!bf) err(`${t}: -b page ${i.bPage} does not exist`);
-    else {
-      const src = readFileSync(bf, 'utf8');
-      const renders = ex && src.includes(`comic-stories/${ex.file}'`) && src.includes(`story={${ex.name}}`);
-      if (!renders) err(`${t}: ${i.bPage} does not render its own story (${ex ? ex.name : i.story.id})`);
-    }
-    if (!af) err(`${t}: A page ${i.aPage} does not exist`);
+    const ex = exportsOf[i.story.id];
+    if (!ex) err(`${t}: story ${i.story.id} has no authored source`);
+    if (!pageFile(`/comics/${i.slug}/`)) err(`${t}: standalone reader is missing`);
+    if (!/^https:\/\//.test(i.aPage)) err(`${t}: the external related-page link must be HTTPS`);
     const owner = issues.map((x) => x.story).find((st) => st.scenes.some((sc) => sc.panels.some((p) => p.img === i.cover)));
     if (!i.cover.startsWith('/') && !owner) err(`${t}: cover ${i.cover} is not a panel of any story`);
     out.push(...checkArtFile(reg.artSrc(i.cover, i.story), { publicDir: join(site, 'public'), label: `${t} cover`, requireArt }));
     for (const c of i.story.next.choices) {
       if (/-b\/?$/.test(bare(c.href)) && !issues.some((x) => x.bPage === bare(c.href))) err(`${t}: choice "${c.label}" goes to ${c.href}, a -b page not in the registry`);
-      if (!pageFile(c.href)) err(`${t}: choice "${c.label}" goes to ${c.href}, which is not a page`);
+      const href = reg.choiceHref(c.href, 'standalone');
+      if (!/^https:\/\//.test(href) && !pageFile(href)) err(`${t}: choice "${c.label}" goes to ${c.href}, which is not a page`);
     }
   }
 
@@ -70,7 +68,7 @@ export async function registryCheck(site, origin, { requireArt = false } = {}) {
   ok(`one-interaction links per issue (choices plus prev/next): ${direct.join(', ')}`);
 
   if (origin) {
-    for (const i of issues) for (const [mode, path] of [['page', i.bPage], ['standalone', `/comics/${i.slug}/`]]) {
+    for (const i of issues) for (const [mode, path] of [['standalone', `/comics/${i.slug}/`]]) {
       const res = await fetch(origin + path + '?reel=off').catch(() => null);
       if (!res || !res.ok) { err(`${path}: HTTP ${res ? res.status : 'unreachable'}`); continue; }
       const html = await res.text();

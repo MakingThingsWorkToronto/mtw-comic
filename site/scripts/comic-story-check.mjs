@@ -437,15 +437,17 @@ if (scenes.length) ok(`${scenes.length} scenes, ${scenes.reduce((n, s) => n + s.
 
 // NEXT.
 if (story.next) {
+  const registry = await import(pathToFileURL(join(site, 'src/data/comic-stories/index.ts')).href);
   if (story.next.b < prevEnd - EPS) err(`NEXT starts on beat ${story.next.b}, before the last scene ends (${prevEnd})`);
   if (story.beats && story.next.b > story.beats) warn(`NEXT starts on beat ${story.next.b}, after the story's ${story.beats} beats`);
   if (!story.next.choices?.length) err('NEXT has no choices');
   if (/^next\s*:/i.test(story.next.heading || '')) err('NEXT heading starts with "Next:"; the banner already says NEXT');
   (story.next.choices || []).forEach((c, i) => {
     const ct = `choice ${i + 1} "${c.label}"`;
-    const path = (c.href || '').replace(/[?#].*$/, '').replace(/^\/|\/$/g, '');
+    const href = registry.choiceHref(c.href || '', 'standalone');
+    const path = href.replace(/[?#].*$/, '').replace(/^\/|\/$/g, '');
     const page = path === '' ? 'index' : path;
-    const found = [`src/pages/${page}.astro`, `src/pages/${page}/index.astro`].some((f) => existsSync(join(site, f)));
+    const found = /^https:\/\//.test(href) || registry.comicIssues.some(i => `/comics/${i.slug}` === '/' + path) || [`src/pages/${page}.astro`, `src/pages/${page}/index.astro`].some((f) => existsSync(join(site, f)));
     if (!found) err(`${ct}: ${c.href} is not a page`);
     if (c.label.length > 70) warn(`${ct}: ${c.label.length} characters`);
     if (/^next\s*:/i.test(c.label)) err(`${ct}: starts with "Next:"; the banner already says NEXT`);

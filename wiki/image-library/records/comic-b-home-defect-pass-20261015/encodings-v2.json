@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-dana-reads-claude-composite-v1.png",
+    "sha256": "4ee7a6aceaab8c3fa0d6668a63775b47a2736eec931f38241036633a7b9375ec"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-reads-claude-composite-v1-1600.webp",
+     "sha256": "3ca30dc758a19a8f3409c21fc119c1c45ce3e2b0b20c93d8fbf88c2cfc6bc9c3"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-reads-claude-composite-v1-1600.avif",
+     "sha256": "d3a203e01edf153a83784a9301923139386d25abdab534d7529af156c400f487"
+    }
+   ]
+  }
+ ]
+}

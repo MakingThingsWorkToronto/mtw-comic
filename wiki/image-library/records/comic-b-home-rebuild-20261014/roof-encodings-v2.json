@@ -1,0 +1,244 @@
+{
+ "schemaVersion": 1,
+ "page": "roof",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-plate-v1.png",
+    "sha256": "bd3c7c6ae1b9b8630d2d5fef33619b50cf6a1654cc379c2d8172cd47c3e01d87"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-plate-v1-1600.webp",
+     "sha256": "dba906a694ea8e8ac311e1be6855a31794b1c436097c94ea533220a0b5454c79"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-plate-v1-1600.avif",
+     "sha256": "84ce798a1885a39256821ee5c1d58b3a4c8e6840f50f70cb6e924b1a48181c62"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-codex-layer-v2.png",
+    "sha256": "06d03aadd22c1234df2aab8dcf6474dd2899719a2821c10432a31fc2e19ca2d8"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-codex-layer-v2-1600.webp",
+     "sha256": "ef14faebd475c3be334c6f93aaa063e76d4201882a97a47ad15d77af7b117bbd"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-codex-layer-v2-1600.avif",
+     "sha256": "85e7fddd6abb619e81d664e751017b6ea421ca688797cabc4a1bd2ca38de602b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-claude-layer-v2.png",
+    "sha256": "db049e83b2c6deed3fe7cae5c455eb62ad5b51bf1585789a372e35dfc98ea441"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-claude-layer-v2-1600.webp",
+     "sha256": "eb12026eeb29fcb83067f8dcc1401869b9f47f37521fb3c049d89f7c5eb06ea1"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-claude-layer-v2-1600.avif",
+     "sha256": "8be785ae44663eb3c1451b8553153d69ac56b4b16c292a1a5c9735eeea520da9"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-composite-v2.png",
+    "sha256": "ef38d291b4a22b3ace8ab08096b37c38dc78fca6f3232634085781b2bbb48023"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-composite-v2-1600.webp",
+     "sha256": "283515fdda652cafecc8cfe541fe4db94ad3afb42952660a93f74073e92204bd"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-composite-v2-1600.avif",
+     "sha256": "15b668e62a5cfc21c36b4522597452902e1699a9b5eb62501b30097411f73c2e"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-marco-tired-plate-v1.png",
+    "sha256": "b6d81b2a00a5464e74c8c816a6ec415d76dc7e932fd35e8ccfa0fdf69969100e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-marco-tired-plate-v1-1600.webp",
+     "sha256": "5980fe5e4e484259fc27803557c2bdcc4a40862616e0f50fbf2e438b1e7db4fa"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-marco-tired-plate-v1-1600.avif",
+     "sha256": "c2f35c7e8a3d0da9ed3ed366b43d8616f0edb72d86648d61749f500cf8299e59"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-brain-rises-plate-v1.png",
+    "sha256": "ffd3b0b56a14fb6fc2fb0105045d58173aec3eca08e663ded8a216fa46883d72"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-brain-rises-plate-v1-1600.webp",
+     "sha256": "0b18a46b3842ac761e6a14b9ac10f18f5da3d5a10bb82d6c3386bfe85a7f02cb"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-brain-rises-plate-v1-1600.avif",
+     "sha256": "1e94ae220c8014ed5a78879f61670639b18bfb0b1da77ea11fff7c66fe52e43b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-codex-teal-plate-v1.png",
+    "sha256": "3b6ae5c3cfa2719fc8f24d990cf64d922456bb3e783f5b47ea6b60d04417c464"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-codex-teal-plate-v1-1600.webp",
+     "sha256": "f27f7b5e7078cc03cbfc36d81c52422ab818c796523bbb95a3037bcc2a0f0787"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-codex-teal-plate-v1-1600.avif",
+     "sha256": "e8e79b7de4df743413efe2d4de99d477caf515a83a22871a41af93b288b65288"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-codex-teal-codex-layer-v2.png",
+    "sha256": "8970a12b7cdd81f02d469ae9dcd35220849d32ac4618ceb830b923df73e0a850"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-codex-teal-codex-layer-v2-1600.webp",
+     "sha256": "a7c6ae5ffcdc4e3ead5112d43db8e58a06836c0816f4670c8e0422709a03374c"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-codex-teal-codex-layer-v2-1600.avif",
+     "sha256": "bda97a1296babf5c54ece8aec501e29f2e467c876966d7d90e3527c4af17fa85"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-codex-teal-composite-v2.png",
+    "sha256": "da41041f006f1a61117fa594941298edc5431b9fdcc5bfde8f8f6fc6c026f21a"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-codex-teal-composite-v2-1600.webp",
+     "sha256": "dd46be0719859b798c3917bad416446fafe3eda05e346e8e890b8ce6b0387840"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-codex-teal-composite-v2-1600.avif",
+     "sha256": "355c0b9c8c4dba948437b35f397f4aaa37fad6983ae8d411d9c8719e1a4ab287"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-claude-teal-plate-v1.png",
+    "sha256": "9541a03e757bd43b5bfacb848ae2c23a3804098396811c3d5b0a53ac4aaabb64"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-claude-teal-plate-v1-1600.webp",
+     "sha256": "f7858b0ace7e3653be96d35293b8c71c114ff380005aaa0343153756039b9f25"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-claude-teal-plate-v1-1600.avif",
+     "sha256": "557ac1629a5b7decc170f3a3fd60f9ecb72abbd390d6e312d86b6fb48ad43ead"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-claude-teal-claude-layer-v1.png",
+    "sha256": "d79293741596b6c95091a3bb4ebf5345badbd668559fa3ef6b61e72aafdba5b9"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-claude-teal-claude-layer-v1-1600.webp",
+     "sha256": "6cb0197f5ffc7f2023ffebe61d90163104af95e1db79b7efb13d29818b149bbc"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-claude-teal-claude-layer-v1-1600.avif",
+     "sha256": "69bc395e1fda9f8d240374cce3430de8a8b25f255a2d64614264131ae6f9ce94"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-claude-teal-composite-v1.png",
+    "sha256": "a68479c1a5c6e2061e2583614e9e18a3d680eef50c9b92b247f7be90bfbc13ee"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-claude-teal-composite-v1-1600.webp",
+     "sha256": "13131b54c45953beac6a064e1c90b3d785a3f87be46a667e2f7d2342763226d4"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-claude-teal-composite-v1-1600.avif",
+     "sha256": "eabf69173222301dcc9932fbdedc9ee9129f1b1c7123e202698a8e8e3faa2395"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-matt-names-plate-v1.png",
+    "sha256": "44f93d30832dfbfc21f245d2310b9706d5d66c2977f928f64438eda0474b4919"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-matt-names-plate-v1-1600.webp",
+     "sha256": "de58d80612628e1fd1ea5cf90ad5f9abe3c58f861508eb7d508521b8f3f434c1"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-matt-names-plate-v1-1600.avif",
+     "sha256": "b0ae74ee92ac38f45d0b68674572d7a8b1b774a28326b0cb57827a6879a5de13"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-page-master-v2.png",
+    "sha256": "936c1d54074466332d028222a45f71abb5ec7b1cd2673bb8cb003ebef8163178"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-page-master-v2-1600.webp",
+     "sha256": "a37fc5d584c16617caf135c794c4c95e7bc7c127b65ee26f86a0b71174a82075"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/roof/home-roof-page-master-v2-1600.avif",
+     "sha256": "43a422e94bc9fd171214c6753d48e52bfc02d0d89eb27b1b1f8ad571ef3d097b"
+    }
+   ]
+  }
+ ]
+}

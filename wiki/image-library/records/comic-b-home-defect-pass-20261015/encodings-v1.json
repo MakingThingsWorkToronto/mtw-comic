@@ -1,0 +1,992 @@
+{
+ "schemaVersion": 1,
+ "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-asks-composite-v3.png",
+    "sha256": "c8eab1b07107d6c4284427262c962ddf4dc68d2133915c0516398008cd6fa1f0"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-composite-v3-1600.webp",
+     "sha256": "fa91e5a3d2ce80c77a9810d3a998b84e3d538a536f0b1da84ee8aafed143e588"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-composite-v3-1600.avif",
+     "sha256": "e611d13f8a1e6a0177ee047e349f5558122673ccc015a6c8ed276ac494416491"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-asks-codex-layer-v3.png",
+    "sha256": "7dc8cdcbc54bc18afedb0950e04447ae16ea2a30c21af2dfb29f6f7f3b05e0fd"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-codex-layer-v3-1600.webp",
+     "sha256": "fbaf59e09d984fd2783720655672be827a850b24fcbbe219fde9e2bf9b7ed1f7"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-codex-layer-v3-1600.avif",
+     "sha256": "4eed6683ad5d06fdadb41754739fb83e0514da59ddca551201b94135aaea950b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-literal-composite-v3.png",
+    "sha256": "c76d15a5c7b71b5578ba3753cff07f0529b5ba234340e2327c1bb9bfa741a300"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-literal-composite-v3-1600.webp",
+     "sha256": "1e6cc2d473507ac45e20191c98e5d770d82c05e0ee663eb7daa79c3c71afa8b9"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-literal-composite-v3-1600.avif",
+     "sha256": "ebba7f08088249c3486135edb09df541f041160b3c63b8218fa3cabb51e650fc"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-literal-codex-layer-v3.png",
+    "sha256": "352422fa5a2d531337cd7b6717eb0d896321af1109c259c88f0dcafd7078e69d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-literal-codex-layer-v3-1600.webp",
+     "sha256": "d034503706e26abfdf13df57d73115f381785787b6dc0ce0d1bf468ad28fb9a0"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-literal-codex-layer-v3-1600.avif",
+     "sha256": "3bf3d2dddd558efb2f99fb09f6d6368d99883a821dc53ed307006c779b72fcda"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-codex-teal-composite-v3.png",
+    "sha256": "5292c71c301d1e4e76bc94e1c3e81ab2c29434ef97ab34d3f191d21fe9b42d68"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-teal-composite-v3-1600.webp",
+     "sha256": "be203dd146f4ffc6b8b3c9a11b9f68d3a54dd83f6c2cea94f3d56b6a10428e59"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-teal-composite-v3-1600.avif",
+     "sha256": "da674e6a2c1f7bfa9a18f9ee026b74825e190003e573ce899fc2f03484ad4ba5"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-codex-teal-codex-layer-v3.png",
+    "sha256": "43681d25c7d3a003c5ded29f9e82a36294e583000858a28181ef4fc89c36af63"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-teal-codex-layer-v3-1600.webp",
+     "sha256": "35dc1af53bcf5959255b1b434890f9a927d00eea40682e0a8f9e2594219b2a65"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-teal-codex-layer-v3-1600.avif",
+     "sha256": "4dd93307b12539b480f3c40894e1ace13b5b0f5e8b3a53136b230b01992b7b2b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-screens-composite-v2.png",
+    "sha256": "c97717287401540170bc8a4b1a13665281eb482931ba09e9095e4a6e2b816980"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-screens-composite-v2-1600.webp",
+     "sha256": "ddfc448bd6956ef2425dbd4fc6b7a1e7ca0ceba17bfbaf62605b1bfcd92f744e"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-screens-composite-v2-1600.avif",
+     "sha256": "7f9ca418facaeb82f64f61ca017ef408e483b7e08f02abcf52ffdb64ebef894c"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-screens-rogue-layer-v2.png",
+    "sha256": "39da9fcd875274c75e5cda4249d87f212dee4bbde6ce343f7fd39bb1bf7fc3f9"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-screens-rogue-layer-v2-1600.webp",
+     "sha256": "b6a916118124f728e6fd43362374263f3e5bba03bc358d24f551296916a943b8"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-screens-rogue-layer-v2-1600.avif",
+     "sha256": "8573e8095108d6e46ef2ca798db9f108aa8c3aa427b8bd1a0067ff8a314e0a43"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-speaks-composite-v3.png",
+    "sha256": "2535090a7b8e6846020f8e1c475ba33a2ed97efb620c1e45044f781d371bca95"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-speaks-composite-v3-1600.webp",
+     "sha256": "dfeba139a18aba20a77a5762387d7bd1a85935b70f6b3f150c0480df39c0f48f"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-speaks-composite-v3-1600.avif",
+     "sha256": "a6ec445ba8413bd113ed620a3ce0b67b77767c5490eab76ca86a64113255f7a7"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-speaks-rogue-layer-v3.png",
+    "sha256": "49ad4dfbc4f37e922550a112591cd1dda27dc1f84af19afea081c892c1f9b3ad"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-speaks-rogue-layer-v3-1600.webp",
+     "sha256": "13cbd47cf8f15cee000ec2ec6eaedb048c68c8dceedf08ae9185758cbad726ff"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-rogue-speaks-rogue-layer-v3-1600.avif",
+     "sha256": "f0e973b08382aac03d8ae6080b7288d5213c0bb07f278496874d4b58e24460d7"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-screens-dark-composite-v2.png",
+    "sha256": "bd8a2b4cd3b8c6423ffa2bcb93a4b02087278ba08e3f837d5500dc9ccea4610b"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-screens-dark-composite-v2-1600.webp",
+     "sha256": "e8d0baa72d66d06b4de94d389225beece4767017cb8e243655c1c8540cfd9934"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-screens-dark-composite-v2-1600.avif",
+     "sha256": "fb2a47708f59078bae4b87e4d2cc1ec6cc16366728517e1efc461e4adf2c2e55"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-screens-dark-rogue-layer-v2.png",
+    "sha256": "a1afa869829394ac2256583e42a3288d319cf02c71c8ae9701bf0905e4d9f260"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-screens-dark-rogue-layer-v2-1600.webp",
+     "sha256": "f2192fcba3c140ce27790b70e7757224ba86b5a5345dbb6372c899ce57a9b449"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-screens-dark-rogue-layer-v2-1600.avif",
+     "sha256": "46662850bc44ee8c2f7748b7ef2d5b5de675bccd70cc3662d44316e2e5c00a77"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-reaches-composite-v3.png",
+    "sha256": "0b456041e0b259d87f96766f94c528d0be891847a336dc5bf14974229a853bac"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-reaches-composite-v3-1600.webp",
+     "sha256": "5982b7eaf4ed84970817d7385aa78d31950d3300ac20c0b3acdd4f78e31fa270"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-reaches-composite-v3-1600.avif",
+     "sha256": "7c3c08464150c0e1fe6478cb31a76adc72eb68b22cd872034201b9ab7c1dd602"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/codex/home-codex-reaches-codex-layer-v3.png",
+    "sha256": "549886b65f6d457153a02613a1099d039e0ef70eb898eb458bdcfa0b13764a36"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-reaches-codex-layer-v3-1600.webp",
+     "sha256": "81bb1ebdfce95f537d6abf9e8c6d6e824782cdd7b71e679b8d5c65d5b844fa53"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-reaches-codex-layer-v3-1600.avif",
+     "sha256": "9bfd824ba59f379b4de044eaf8d6a11842060e5e3c1d7666b7d46d2a23aab19c"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-asks-rate-composite-v2.png",
+    "sha256": "6944ec70dd0661d87651a66fe312982ef50c2eb6a35bbc5edb45f1e6c1d083c4"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-rate-composite-v2-1600.webp",
+     "sha256": "5445e4af2afee91fdfb512515c0367da668f7c03bbff8485de7296d82a1d1fb5"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-rate-composite-v2-1600.avif",
+     "sha256": "4ead2a3b159159887413ebd20ff3a53997c9551b24fb70bb1a8d535a4997d68f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-asks-rate-codex-layer-v2.png",
+    "sha256": "806bf3609a6f9ddec05e95dfeaf96707d026861a53d12cca80be5561efdc529f"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-rate-codex-layer-v2-1600.webp",
+     "sha256": "750787c1ee742b02c8c02dcbd5ce816e7471d04778042bbc87eeb787edeac306"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-asks-rate-codex-layer-v2-1600.avif",
+     "sha256": "1d0ce5433b5ad4670ad8053a17fa4197769d5d8e6b3fde74aa2098bc6d5c4ad0"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-discount-composite-v2.png",
+    "sha256": "4a9e8be7c3faba53885d0abbcf99bd8d74ff3561f69e03c4083fe68c4797a2f4"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-discount-composite-v2-1600.webp",
+     "sha256": "0be9bf94e82aa482b93771137af92ad26a6ce4e00779d33c7475c633181f6ff4"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-discount-composite-v2-1600.avif",
+     "sha256": "2058e0e8cf38517bbea6ae36700c7eb30b655fd020e9d2329a3efd2c5d223991"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-discount-codex-layer-v2.png",
+    "sha256": "da1568ca61d4ec76f7999e3f99a7c1e4d0f91fc5287e69382a4568d5352c8e84"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-discount-codex-layer-v2-1600.webp",
+     "sha256": "1c398a86e2b48e35343432b8391b71b64fca009cf25f916b468a2e3192f38d9f"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-discount-codex-layer-v2-1600.avif",
+     "sha256": "b497756ca77c2fed449aeeccb69826c4f654696c4310db673261264f0fe66e14"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-dana-claude-rule-composite-v2.png",
+    "sha256": "4d280d8b96531b80bb76677c017e6e44571d08e61d08c19f613d28619d95c922"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-claude-rule-composite-v2-1600.webp",
+     "sha256": "522a2b6ee2b69bf0a92c673b2bac74bf11240135b323181ec4c4258188248cb6"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-claude-rule-composite-v2-1600.avif",
+     "sha256": "073f9b83e730fe96b15593515288a617b82041ea460c1d1fab643b35bd9c4a49"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-dana-claude-rule-claude-layer-v2.png",
+    "sha256": "0e898b27e4bae6fe86d606bce61a53b72c66b4073904e019446a8bca7515c93d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-claude-rule-claude-layer-v2-1600.webp",
+     "sha256": "8a27f3130c5ec150fd9f228a46f7f55628716430d75a78a62050f3552a031252"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-claude-rule-claude-layer-v2-1600.avif",
+     "sha256": "cecd4d008254d26bad6289d185f790a4f9a678b50a3fe9d49e5d95b7cfc6611b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-composite-v2.png",
+    "sha256": "4021ff610ff44a397f67a680d55c1681a3ac18b60d431560424cfdc47cf2a0fa"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-connect-composite-v2-1600.webp",
+     "sha256": "3209ab77f8b0b54a6b6b60913d984e45f83689f8e684df56d7be64126fbc40e4"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-connect-composite-v2-1600.avif",
+     "sha256": "553f6cb1279b3790f31a783cfc82679fadd6ec7dc657f342edc9703899fe85e1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-codex-layer-v2.png",
+    "sha256": "276791b85195413eba50eea5a8276746aa101206eb0ff92db913bddd9f14660a"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-connect-codex-layer-v2-1600.webp",
+     "sha256": "50d99a5b54ed1a379c2fbcf614e004140d3c1e580489fbf8e70d921ad3c34687"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-connect-codex-layer-v2-1600.avif",
+     "sha256": "d12a4d19cdac2162883cc4325826395564b17348aa28ec80dfa68a353225e8fc"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-process-connect-claude-layer-v2.png",
+    "sha256": "94c09e0bdbfa2049e7d6c91f384fcea1077a16841afc52f4ff6cd00245d08fbd"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-connect-claude-layer-v2-1600.webp",
+     "sha256": "1d292b7fe2d2327e72b3120b633377e588b2ce6a26c4fa93037ee74e3a060d0d"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-connect-claude-layer-v2-1600.avif",
+     "sha256": "d82338f2da43b81ff66eda035562b5a967a60ed5587d43cd2a50c0af341cde21"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-codex-skills-composite-v2.png",
+    "sha256": "14edd21abcbe32a73775f1b8d04dc0fe031575c172b17f5a2b7264193228698d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-skills-composite-v2-1600.webp",
+     "sha256": "8fcb25d881678da738e25eab17a07bb4bcf6fbbc48fff3540e7e6c6df8b74531"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-skills-composite-v2-1600.avif",
+     "sha256": "35cc1d7dc434d2a121390ba08dd2a17f631fea12a2dd64b6c13d785c70c64330"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-codex-skills-codex-layer-v2.png",
+    "sha256": "e4bacff1201e14cf1c37023e65a3a05dd792b7cafb83b8bf7974e58175791f24"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-skills-codex-layer-v2-1600.webp",
+     "sha256": "9d60662d9130234c799a98d87965caf17cb321eef4ec00cf92531cf7ba7bbfe6"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-skills-codex-layer-v2-1600.avif",
+     "sha256": "29215e930c0ed7df4c3b9d4f520a000c156b4beb11066204ee2f1710f7be3a2a"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-claude-scope-composite-v2.png",
+    "sha256": "f8652044bee046d466d39fe745b63ebfb819d7f65e9e28bd1ec285b1d933515d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-scope-composite-v2-1600.webp",
+     "sha256": "a32bba78fd764d51780d438a507701c710f835701b2ffdd7f18fc3eb4ffab033"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-scope-composite-v2-1600.avif",
+     "sha256": "8c5704d780c9bd9be26df159eef5adb7f40c7e41e3e680f39a121fb3e630f470"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/brain/home-claude-scope-claude-layer-v2.png",
+    "sha256": "f4c2f03acf3b9755daeac8e42b4eef2f0b3cfe063ed616be65461884937477de"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-scope-claude-layer-v2-1600.webp",
+     "sha256": "702d2267ea515b799bd5bc588e41b2836dffdf7aa6cf16f5623abfe641d0cc62"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-scope-claude-layer-v2-1600.avif",
+     "sha256": "21b92bdddb73d0390913265f1e799ca7494a793245ec016fb1ac47863ab487de"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-refusal-composite-v2.png",
+    "sha256": "ed0bf319400e0f31cdaa1d81486e55efbd03f2a65e9ca91cde6149498faecbb7"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-refusal-composite-v2-1600.webp",
+     "sha256": "780a17d79e5c2e5d136e74ddce9b20b3c6f8f60e7948baca38b76a1f32dadce7"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-refusal-composite-v2-1600.avif",
+     "sha256": "1e88a9b94a9b56510f9bfb6617f81043a2664e948e2172a59b23ad74b4872a12"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-refusal-codex-layer-v2.png",
+    "sha256": "b53a2c7df60eddbebac3602acb41aad4ba31fb19a651847fd4a78f6b5ea836a6"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-refusal-codex-layer-v2-1600.webp",
+     "sha256": "266e4079374dcd0332d9b829ce4720649188aa657f3a3a076811e1810a42852d"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-refusal-codex-layer-v2-1600.avif",
+     "sha256": "86cab41f460be7c8e5842ac76581cf5a3a3b06a6653215e1854f53dad46bef96"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-output-composite-v3.png",
+    "sha256": "6d24946c83feeb7ce2abd11ad7ca7b88a8c0034c4284de334fb73a3bd74b47db"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-output-composite-v3-1600.webp",
+     "sha256": "cc06cd0b21ba1c31cc2007eb47cddb29932f654a6177c847b39ed7db6a98e81a"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-output-composite-v3-1600.avif",
+     "sha256": "7757a411f2847f5463d864a81dcbcc0555f20333c78f16951c3ac1eab43af13f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-process-output-codex-layer-v3.png",
+    "sha256": "263393e441fa0ce2cb6eef47d58b2ea5ce449ae688d82183813be7593d300804"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-output-codex-layer-v3-1600.webp",
+     "sha256": "5970c47557289153047479b43018371100934433f57e79b0fe6d5f590a8a6a01"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-process-output-codex-layer-v3-1600.avif",
+     "sha256": "4428e033b61fbeef0c2f28739f893a6a5140203d6d3ff4e085c732004028e9ec"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-codex-gaps-composite-v3.png",
+    "sha256": "0d6f416606e9c64897c7928a504c11717408c5dd454b9f750a3c7a2718fe0de3"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-gaps-composite-v3-1600.webp",
+     "sha256": "ae5886890ee2dd274b7807bc43ad79a410f0138da9c3584bcc987559b28b88b5"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-gaps-composite-v3-1600.avif",
+     "sha256": "530ced15c3a578ba4e856b2f068a53411a69c856a2678047983839dabc0b4869"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/access/home-codex-gaps-codex-layer-v3.png",
+    "sha256": "73bd40ad11d39cf6a15e63f7be1d34802b05a6174b5407bdcbd961e4f1ff9251"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-gaps-codex-layer-v3-1600.webp",
+     "sha256": "6f4cdb948fb8a034c372a14750cee791392ab878be53569eb81e9a1b0bf63408"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-gaps-codex-layer-v3-1600.avif",
+     "sha256": "732b7b30b78c8350f3c67548e1eb662c94c8cde869cecd63181b35c624db6d37"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-codex-records-composite-v3.png",
+    "sha256": "bc74062506a0b5485cb4afbe4d226b884b9999c45ea5c2481cf372ff7e9b864e"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-records-composite-v3-1600.webp",
+     "sha256": "2b00d8d8c6677d806670d15a111297c2ea841c37c305b1b19c7d84a7c176718f"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-records-composite-v3-1600.avif",
+     "sha256": "cd905349aeaa826a5b8c5a1dd5ce0323ba9a9b8bb4c4e1679c8fa42ed9ae1b79"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-codex-records-codex-layer-v3.png",
+    "sha256": "4e183ae71572e21e5be547325fe054171293cde8c7863c8fd61e5f0114e4a187"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-records-codex-layer-v3-1600.webp",
+     "sha256": "d114e8468369d992e518df20e96cd1bb279ce26ed536a0fc99ad409f4f299ce9"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-records-codex-layer-v3-1600.avif",
+     "sha256": "98db5ea442469ab4461beaf55d15d680c75732fb1060eb5d11aa696f57c28719"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-quote-rebuilt-composite-v2.png",
+    "sha256": "3601458c7e3d8d51b5f22dd5c76de89b5f4b3c91addf45fde86de34a25e22659"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-quote-rebuilt-composite-v2-1600.webp",
+     "sha256": "b3e8f8b82bb9328b77aed9240aa73d0a6971f507ab519cf583c07d42c978a5fe"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-quote-rebuilt-composite-v2-1600.avif",
+     "sha256": "e363fc4621017c3f1fb384f217218e2b8cadd8ba1b484c712c2612f55472fe4f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-quote-rebuilt-codex-layer-v2.png",
+    "sha256": "7c69faa17577c8b8b753aeeb3c474b63068629a5a698d20041fb53072045b90d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-quote-rebuilt-codex-layer-v2-1600.webp",
+     "sha256": "6a0a1fd9a6d04526007556df441f8dd8cf62ca218ac199b409dd54bf72b857d5"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-quote-rebuilt-codex-layer-v2-1600.avif",
+     "sha256": "2825f4abde30efc5195ab93c1f4f94b1e8c5efd065d5966faaee96d4501981d5"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-codex-safety-test-composite-v2.png",
+    "sha256": "9f99a0864f8e456334fbb3d29d8ef9f587bca4deb2c11158e1d268c333b1360e"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-safety-test-composite-v2-1600.webp",
+     "sha256": "5090d3c60795ce1e8ad986d523c9f3e3247c591cafa75afd3c76d07dd0bf4bfa"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-safety-test-composite-v2-1600.avif",
+     "sha256": "dd8af254223b210f9787832b997d4c49c0e684553568840b89af6ade7e4d90f0"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-codex-safety-test-codex-layer-v2.png",
+    "sha256": "101c20b1c807cf4b4f35bf4dd1af31ccd966e03c97b37caa6550545538d406e5"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-safety-test-codex-layer-v2-1600.webp",
+     "sha256": "1b4df42191acfe27ac9cd0a61c6d86bdf0e78d1111b7cae75f7387bd8b07c888"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-safety-test-codex-layer-v2-1600.avif",
+     "sha256": "b3bc5eb0cb86839e7ce123a17566a4c8510c6a3e788f4ca0409025ec4d330bfc"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-composite-v3.png",
+    "sha256": "f17c3c6746613045b2c21b9acab08bdff2019ed373a0a166d13ff94f196fcdd7"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-roof-composite-v3-1600.webp",
+     "sha256": "f95b746c23f9f6dc9c81d7f425663106d3217792f9af0354c178b727a6807cb4"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-roof-composite-v3-1600.avif",
+     "sha256": "629a0eee5d1c89400185df78080980ed129f63075bbbdce5fb548841fe41a5d7"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-codex-layer-v3.png",
+    "sha256": "5a9ab32fedbcba7cdd93b9f601539ad11dde8e2e38d37426bc66ad15b35afedc"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-roof-codex-layer-v3-1600.webp",
+     "sha256": "3fcb48e111822ce3de64d00081d7056306d7ecf96ea3f4cc37420a3d318c0839"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-roof-codex-layer-v3-1600.avif",
+     "sha256": "43eb6063085e4022529f172f80bf1221c8060847472f2fada2e8e02ce490768f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-roof-claude-layer-v3.png",
+    "sha256": "1455ecf185a7b15c2024c98294a278ebfdcea3255fa6202f0ddd0178bf729c77"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-roof-claude-layer-v3-1600.webp",
+     "sha256": "25db36901029a7c9f9b6b721b3a4a0df18e893a6630801f1844d898ae06fd390"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-roof-claude-layer-v3-1600.avif",
+     "sha256": "13c5c0ba3a718eafec065423446c6ecc91d2e1430f0b39906d44dee4aed113b9"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-claude-teal-composite-v2.png",
+    "sha256": "bdf17c9d3282489ad2a5a15d689e7d8bc5e9ff50b3b18938156431070b2757e6"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-teal-composite-v2-1600.webp",
+     "sha256": "424990e00d86fd29a2414b799849e5bf32d4ffed0474b241411530b8519b785b"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-teal-composite-v2-1600.avif",
+     "sha256": "a6d9e7d9cbc44642c337692015bc77b080a2090ce4a21f777e856d51de2673eb"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/roof/home-claude-teal-claude-layer-v2.png",
+    "sha256": "3e4d74392337f696b388035448f90ec40be4d8f22350f6970f60acd3e636c424"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-teal-claude-layer-v2-1600.webp",
+     "sha256": "ec32e9746dd3657ff7d11e7de31c209f42069296ad20d6c8935aeed90215c1a4"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-teal-claude-layer-v2-1600.avif",
+     "sha256": "2210c7bf243d0e7a3a332d7a594c87fbfaf9a8cfc4cd3d7ce1a0f065fea56603"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/monday/home-marco-turns-composite-v2.png",
+    "sha256": "c7272fc8244ec75d2cf755c758b7a76a66387c95110d2839dd1bac4f97263ea8"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-marco-turns-composite-v2-1600.webp",
+     "sha256": "30d550f57b87dfbc1d6a33566f6c787eb52f67a67ee1d24a90754998c41446cb"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-marco-turns-composite-v2-1600.avif",
+     "sha256": "4a14b671454c3579cd920da95975dc8972f725eba13d015837c276bee76a84a7"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/monday/home-marco-turns-codex-layer-v2.png",
+    "sha256": "e2de57897e2f22364d250ea7bf797586d7c55e712e1d9fcb8057620353ed4449"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-marco-turns-codex-layer-v2-1600.webp",
+     "sha256": "b1641181e53bf12c6408a357254e31ef28f268eeed1265000c48d7ba1bbabce3"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-marco-turns-codex-layer-v2-1600.avif",
+     "sha256": "92c8f224e11bfd29fef8e539e88f0bcebe289499872092e5efd3a5284fd29e3d"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/monday/home-codex-lists-composite-v2.png",
+    "sha256": "e5c0423b48f9c66bf915aebea2662ed23a69bbce09dab0705b0964fec8beebb4"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-lists-composite-v2-1600.webp",
+     "sha256": "c4b79e369f648e45bcafb6a97442dd52137c74411b6b68e268d38556558d3793"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-lists-composite-v2-1600.avif",
+     "sha256": "a32b9b38b9776d3bf28c49f364b8e09163d5423e21ba8df8e407e074eee5a0ce"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/monday/home-codex-lists-codex-layer-v2.png",
+    "sha256": "e774414eff41a9b5b1d3f89c9fb760dcb273f48cfe82d4a0c453bffd22ef4f66"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-lists-codex-layer-v2-1600.webp",
+     "sha256": "29dfef5fa0efee44f42b0d991587b92e52143080859b19f854c87aa5841c51a1"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-codex-lists-codex-layer-v2-1600.avif",
+     "sha256": "4f909318d17d369560225466fef58baee44f69f0802614d4bf0ea7e77f4bc12f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/panels/raster/home-fix-brief-dana-office-plate-v1.png",
+    "sha256": "e5453171d22babdaedd502f97f1095fdf36c1cb733e1bb074397eb9fe88a19a4"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-brief-dana-office-plate-v1-1600.webp",
+     "sha256": "36469bff597684ca9cecd68d8abb33d0a74f1cc3369ad4c5f7599871aefb6ee5"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-brief-dana-office-plate-v1-1600.avif",
+     "sha256": "23c690debe7871568433d386becf7ba3f19478db9079c3588a4a3243f5628c76"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-dana-office-claude-composite-v1.png",
+    "sha256": "3a050c2340b553ab09d862908bf06fad9d8b84504c2823570cfce82c089b813e"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-office-claude-composite-v1-1600.webp",
+     "sha256": "1f5ee5b4a63a0813280d2500aea775c139ffaf9ca168c2abdceb1807fd9905e3"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-office-claude-composite-v1-1600.avif",
+     "sha256": "0b1c320a14bd275d5de34844b99e35d7dbbe077edae0ebaca0cc0baa8d8793c1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-dana-office-claude-layer-v1.png",
+    "sha256": "dc9690a1fc588a7651220b0482a67c743d1743e279a4166b5987b531db2cac62"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-office-claude-layer-v1-1600.webp",
+     "sha256": "638f6a3f74792c895ecaf9bc17358455b17cd668b84825e6aeafa052384af4e4"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-dana-office-claude-layer-v1-1600.avif",
+     "sha256": "655fcaecab358f4f24b5aa0fcef3bf6c94bddd01953a2f7ef10f3538c41d99dc"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/panels/raster/home-fix-brief-claude-stricken-plate-v1.png",
+    "sha256": "d60ec55b89ec501022ebba5298df7241f718280324c64e8da0406444a23717fe"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-brief-claude-stricken-plate-v1-1600.webp",
+     "sha256": "6790915c7b1ace761aa062605dc6a59df9a5babc8b5a9fc485a250906c5846fc"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-brief-claude-stricken-plate-v1-1600.avif",
+     "sha256": "3cf0be89c11e954e69810227bbd06e6bbf2b794f4d18483906fbd24963eb0b8f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-claude-stricken-claude-composite-v1.png",
+    "sha256": "0cd02c649ea35629f6a60e7d228e23d1c8556f32757ec9900690a74675efd88d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-stricken-claude-composite-v1-1600.webp",
+     "sha256": "b77d00e9780dc7f2f60481775006685f075f379a8db45ab24d975ad68377470d"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-stricken-claude-composite-v1-1600.avif",
+     "sha256": "d392d8d44caeb0aea68e94907808d1d0ae841173e3cbe4af671cf50cd2319de8"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-claude-stricken-claude-layer-v1.png",
+    "sha256": "05b2beaea42446138a4c5712bdfdec0bff8567e5d4f16e6771b0ea682bf121ec"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-stricken-claude-layer-v1-1600.webp",
+     "sha256": "d557ac3aca49ae414e2b03b22cad51a982129a43200e568c6f3a70cc2c04c0b1"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-claude-stricken-claude-layer-v1-1600.avif",
+     "sha256": "b7e97925c437f220a498ea648660e4e9aeccafa6d24f028ce681fb0a553b897f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/panels/raster/home-fix-brief-thirty-one-plate-v1.png",
+    "sha256": "c5609c35ca28fa2f8ca47dc2e35c2895ffcdd65da41216962a6e5a11ee35776d"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-brief-thirty-one-plate-v1-1600.webp",
+     "sha256": "9d8be381b4eb07360885f41d48a89ada48a653f70856e50f8b3729175436b2b1"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-brief-thirty-one-plate-v1-1600.avif",
+     "sha256": "29aad65591e888dc44d8694fed1fd4c46589ff7a248d518e13e2e08c84dd6f9b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-thirty-one-claude-composite-v1.png",
+    "sha256": "5e25aad9b63bcac1e838d321e22deb2930f3206a1e3e1542bfe4e26c035b097c"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-thirty-one-claude-composite-v1-1600.webp",
+     "sha256": "2cbafbcab826d39212d64bf1602f8a79e59cf64c255a3e674a1eb88234c84f7f"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-thirty-one-claude-composite-v1-1600.avif",
+     "sha256": "1c98c5409e4f0b178b876cc1638bb7cbc0402ecb68cbd5db821600ae8e7bc125"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-defect-pass-20261015/brief/home-thirty-one-claude-layer-v1.png",
+    "sha256": "92fab9afa99afdf87de1746b858951c9c4a559f423e0d5c2ef335231982984c0"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-thirty-one-claude-layer-v1-1600.webp",
+     "sha256": "fe557ec690fdc0ad53b85b35023c3a32f281210fabeb698553dfe5c34c04a015"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-thirty-one-claude-layer-v1-1600.avif",
+     "sha256": "7d9917eeed9db9ae3d9d5418cbf7ea181d2532e63d3d9c53890480f503e05306"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/panels/raster/home-fix-compare-closeup-v2-v1.png",
+    "sha256": "45eed25e57aa73313b2af88841f3676b138e8235fe60f8c46d06390aa8efddb2"
+   },
+   "encoder": "Pillow (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-compare-closeup-v2-v1-1600.webp",
+     "sha256": "7db71fc8ba334abefae4ca79310ace76a4c9e6ec2b4e9487f630f17b6b4439e3"
+    },
+    {
+     "path": "site/public/comic/home/defect-pass-20261015/home-fix-compare-closeup-v2-v1-1600.avif",
+     "sha256": "258b86e0815a6d676db59b9f460d523bd3360d2bb128d324db4e092ea823c36e"
+    }
+   ]
+  }
+ ]
+}

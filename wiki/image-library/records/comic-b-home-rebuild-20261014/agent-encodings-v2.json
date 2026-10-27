@@ -1,0 +1,227 @@
+{
+ "schemaVersion": 1,
+ "page": "agent",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-screens-plate-v1.png",
+    "sha256": "59b054c5fbb544362d56f622e7d314b652263736a4b06d849795193ffc3b01ad"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-screens-plate-v1-1600.webp",
+     "sha256": "ac560d4656d868f87cc66e4adf9a72335729f5163d339191a7a55bb85ea89efa"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-screens-plate-v1-1600.avif",
+     "sha256": "649d6bb708b575f414d81267634f2a435794edc23e02a363690f087087fca53a"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-screens-rogue-layer-v1.png",
+    "sha256": "ca427b432f0c4ea0e399adc4f5620d2481f3ab20cb7f9b2bc8bc72a9f33dded4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-screens-rogue-layer-v1-1600.webp",
+     "sha256": "97ea284c86f4a8e6a66d4f822d8060da0535f7845452ff1e2edcf34dfca6ae9c"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-screens-rogue-layer-v1-1600.avif",
+     "sha256": "e5ce3e79d2958dc0dff7ce5d7ac4875845cd8266cdc6831ddf44856e31eed28b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-screens-composite-v1.png",
+    "sha256": "a5997734e4bccf41945ca1aa465f079351ab7411cde34e1f706e65df2156e488"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-screens-composite-v1-1600.webp",
+     "sha256": "15ff905fa6da2e62066ee3ebf356ddfd638524d3a28a8cc4d5f97e50ee55cf4b"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-screens-composite-v1-1600.avif",
+     "sha256": "2a5404c1df2e3669bebf1ef65d77fe5aee12d080170ba66224dac41b18745252"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-speaks-plate-v1.png",
+    "sha256": "44ce8a18560ae502bd3776c26b3feba1bb4a7bd963e18a4c3a0252b3d82b76b2"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-speaks-plate-v1-1600.webp",
+     "sha256": "1fe67bb1f94d7124f0e25044334419b56fe78f61ac050bbc47f1618d9c83ab36"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-speaks-plate-v1-1600.avif",
+     "sha256": "c7a43e7f124a711e6310ad30dc0e579590ee0a6e8fea03b8721dda50ea93a300"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-speaks-rogue-layer-v2.png",
+    "sha256": "bddda99fd9e7e3f37330714c57a568e7704b9fce744cbfacd1d0bbab3ce01e3b"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-speaks-rogue-layer-v2-1600.webp",
+     "sha256": "d96bb84ab0cafd07d85d9a1c34a7e3ea85c533ffc1e92171ae702b8b3c2ef035"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-speaks-rogue-layer-v2-1600.avif",
+     "sha256": "4821d87344e9ee38c5fe5c8e3cbd7efee8f9ce1b5456af426058e6e5fb01ca0d"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-rogue-speaks-composite-v2.png",
+    "sha256": "db196d6049018545c2e486d559304829450e5147b060c4a279f501458e0cff19"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-speaks-composite-v2-1600.webp",
+     "sha256": "d965b7a469a4ebd6a5b84433e2f2479d3c790638dd78d172fd70e935aad4edba"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-rogue-speaks-composite-v2-1600.avif",
+     "sha256": "5150e8447633c0d29e2efe6aad774d0559c1b84530576ef4a2bc9e78972aa2a3"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-marco-phone-floods-plate-v1.png",
+    "sha256": "b5fb83a14c1a700d6496f9035465b3e38470fc3593302851a21490ac263ef198"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-marco-phone-floods-plate-v1-1600.webp",
+     "sha256": "ab716ef9d82dc3a9d4becc58c24f5d8b97ec2072cc471d1b4bc116cc4011f30d"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-marco-phone-floods-plate-v1-1600.avif",
+     "sha256": "2901c18b01b8793c86e7183ba40c2f77aff38b37e90f7bc51ccafee9bd9c4ae6"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-matt-pauses-plate-v1.png",
+    "sha256": "8821afad903a0b67da6c243ed099703d8efd47031eeb5fb98302393a29a6e73e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-matt-pauses-plate-v1-1600.webp",
+     "sha256": "96a41b09bc18d26ed856dcd531ec110358c54113215915c8adcb32432fcfce01"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-matt-pauses-plate-v1-1600.avif",
+     "sha256": "96a8ad202f27ac1f2d8dc2dfe81bd8e3af88251b72c25ce1d8b2ea4549e7fd4b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-screens-dark-plate-v1.png",
+    "sha256": "0962fbadee0da0f49acb528301c9b0dbd51e2de2615c6cd03422f23f8afea51e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-screens-dark-plate-v1-1600.webp",
+     "sha256": "df4b76a3a32dd5f9400c317b1667f27f4e71db1aaabfd402da6867f42791c65a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-screens-dark-plate-v1-1600.avif",
+     "sha256": "bf5ab1df5d97e126883d6fe054a1ffd5a627a52ae0bebba17b998789b15b8aad"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-screens-dark-rogue-layer-v1.png",
+    "sha256": "b4df7086691341db3bab06a0701288aa5712eba424fef3911cf5c6538dcb7533"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-screens-dark-rogue-layer-v1-1600.webp",
+     "sha256": "9b0ec2ed4af0a56dafd1e1ffe3d14b485eae0d1bee2d33a2110238208b383fcf"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-screens-dark-rogue-layer-v1-1600.avif",
+     "sha256": "7cf06c97f6b7046c3d473a08f2f6c708aba6f552c57e96f966240bf957e5424f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-screens-dark-composite-v1.png",
+    "sha256": "1a0f0c3a0161dd3594832d0a130a04fd2066ccaa433bc2eebd4265b258837da2"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-screens-dark-composite-v1-1600.webp",
+     "sha256": "3b9e38d6bcad04d403a17cfc21964747846ffae85ed5eed85592d028a238c7cc"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-screens-dark-composite-v1-1600.avif",
+     "sha256": "ecaa1f0c0ff6bbb17fb781cfd5262a669e17f6d18be5420e2be923dfd1a85df9"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-matt-asks-plate-v1.png",
+    "sha256": "2db9f302ab695ec5d61c22be9b59620c71f504cbc786b6ab24678356e5f024b9"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-matt-asks-plate-v1-1600.webp",
+     "sha256": "bacb540ec83d9224ab55f30797f64e463a0489015884ee75fc25fe55def273ba"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-matt-asks-plate-v1-1600.avif",
+     "sha256": "32b7b1ab59b984cc0c8cbe62e8efc2221703cf0b884af0d68b8f147cb2dde08f"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/agent/home-agent-page-master-v2.png",
+    "sha256": "6ca1ea522d9328ad2cff5c644957a34b1f63fa5f85d99101ea07308f1f2ca9d5"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-agent-page-master-v2-1600.webp",
+     "sha256": "ca5df5f31088fd267109d607b6c4f2bb48550e8860a1361c72b65a0be9424926"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/agent/home-agent-page-master-v2-1600.avif",
+     "sha256": "ed0b9b3aca32772e01ade16969d57fc0d11f5234e75e68329af1836ed9aad44b"
+    }
+   ]
+  }
+ ]
+}

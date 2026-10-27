@@ -1,0 +1,51 @@
+{
+  "result": "Comic repository cleanup and live demo image repair complete",
+  "removedUnrelatedTrackedFiles": 167,
+  "runtimeSourceCommit": "0bf9400a",
+  "deployment": {
+    "id": "dpl_CaNpq46NBavcMqYaQ6T2CuQCoFjV",
+    "state": "READY",
+    "origin": "https://comics.makingthings.work",
+    "routes": 9,
+    "resourcesPassed": 587,
+    "resourcesFailed": 0,
+    "removedWebsiteProbes404": 6
+  },
+  "checks": {
+    "localSiteBuild": {
+      "routes": 9,
+      "seconds": 9.42,
+      "passed": true
+    },
+    "siteTests": 4,
+    "studioTests": {
+      "files": 43,
+      "passed": 427
+    },
+    "targetedAfterUi": 22,
+    "transportTests": 1,
+    "studioBuildAndTypecheck": "passed",
+    "liveReaderCasesPassed": 15,
+    "studioViewsPassed": 3,
+    "standaloneRegistry": "passed",
+    "storyArtChecks": [
+      "home",
+      "agentic",
+      "traditional",
+      "data-migrations"
+    ]
+  },
+  "evidence": {
+    "readerScreenshotsInspected": 15,
+    "studioScreenshotsInspected": 3,
+    "existingEncodingReceiptsRestored": 13
+  },
+  "scope": "Image delivery in held opening scenes, runtime errors, source media validation and comic-only application scope. Existing style warnings and full-story listening/artistic acceptance remain separate.",
+  "authoringFix": "Registry and NEXT checks accept registered standalone readers and external HTTPS related-page links, without consulting website templates. Home art validation retains the exact encoding receipts it consumes.",
+  "authoringSourceHashes": {
+    "site/scripts/comic-story-check.mjs": "19f82cf5bd67471a77056b6321a4c9d04c901ab1673949b1480de2c68e9b8819",
+    "site/scripts/comic-story-registry.mjs": "18252f2400aa05b00057824086d492e8512531875bd296e815095d5bedd85719",
+    "wiki/operations/prompts/comics-run-checks.md": "8d46b4f96db6cf9d6005800749a5a495ad341dd2558a13938a89a5c92d7bca67"
+  },
+  "humanApproval": "No new artwork, paid requests, voices, casting or story acceptance inferred."
+}

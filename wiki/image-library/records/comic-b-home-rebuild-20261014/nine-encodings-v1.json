@@ -1,0 +1,193 @@
+{
+ "schemaVersion": 1,
+ "page": "nine",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-quote-rebuilt-plate-v1.png",
+    "sha256": "5869517060b19d861a10cc27d9e4eddf4fa22c812dd9d1a2946bed8ae03aef45"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-quote-rebuilt-plate-v1-1600.webp",
+     "sha256": "8c66dcc01f3f4305ddad28bd003dd1f23dcc9f29496f84f507bc3c278cfc0880"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-quote-rebuilt-plate-v1-1600.avif",
+     "sha256": "e9138686482df84aeba621f724b0f7acb903f1b3e08312db5bac573d9266ca87"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-quote-rebuilt-codex-layer-v1.png",
+    "sha256": "b51f8a7aceacfc3167eecc435fe3a932163b0bc30d63e5a297b1aabb2acd8487"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-quote-rebuilt-codex-layer-v1-1600.webp",
+     "sha256": "0f5fbe71ba7ffe13c2329f6824b8885209ae4d3975956b293248aaef1b8287e0"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-quote-rebuilt-codex-layer-v1-1600.avif",
+     "sha256": "5f82ea6f66c89cb566b3ea69a0f3fe01f61fe549e1c390d3c3866d2064fbaab1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-quote-rebuilt-composite-v1.png",
+    "sha256": "bb1a0bd8006b2237ccb28c24a3426c75aacb1e16c56f8d562637c2bef72a1980"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-quote-rebuilt-composite-v1-1600.webp",
+     "sha256": "611032e3e403dd886fff1c3ee8655c04bfc728ce31147cd70db8b8d4682b4815"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-quote-rebuilt-composite-v1-1600.avif",
+     "sha256": "a92b5d325a0942e4371bb4b4232cce292eac94de1a94c9186b459d6b29f34e49"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-codex-safety-test-plate-v1.png",
+    "sha256": "7c4ca8b0b0a256045be1bff8297056ef47b0cd6b7643ddae72342cf869570169"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-codex-safety-test-plate-v1-1600.webp",
+     "sha256": "d4b1cffa0d787842e9d08dd1b5d08b88a19f3270005f87a0809ea6fa80ececf3"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-codex-safety-test-plate-v1-1600.avif",
+     "sha256": "399c8f562ffc671c39769cc8e75adf701f7f0b3aec99715cfec3a70665284869"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-codex-safety-test-codex-layer-v1.png",
+    "sha256": "aa1533770c357bb91a9b456c5af82516af9e254fc6096add9e0a67215f3e182c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-codex-safety-test-codex-layer-v1-1600.webp",
+     "sha256": "9109e156458a06333ae35b6d902716f8b033459b16064d88f29507e17099adec"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-codex-safety-test-codex-layer-v1-1600.avif",
+     "sha256": "31bea2add748a20b4c8f20b3a57d0903bb3f3bf6ed3dbc0811a3db1655524905"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-codex-safety-test-composite-v1.png",
+    "sha256": "d761a6a205bc84afbf9d27f2487d0644d5378c2dfdbe70688dce12711b053de4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-codex-safety-test-composite-v1-1600.webp",
+     "sha256": "84141537d432fe23f631ce82d5d121835a7c7f05f907ae1e974a7372abd21768"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-codex-safety-test-composite-v1-1600.avif",
+     "sha256": "f54fd97eb072f2ed6a96869ab305fd0331eb9bebdbc1d9268b0aea5b2495a3e9"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-marco-ticks-plate-v1.png",
+    "sha256": "872b4dca8c948a98774815320ccf2073ac38b8d5db0a35c9bdcb9991489f26b0"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-marco-ticks-plate-v1-1600.webp",
+     "sha256": "5bb26cfe1955edbb199b09190698ea123a7b12500fd85c51477af28cf7de1406"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-marco-ticks-plate-v1-1600.avif",
+     "sha256": "8dacdb05017be2d95b3eb2e5bd26f82d6db0f51d5ef6377cb20bce4fea0686cf"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-new-total-plate-v1.png",
+    "sha256": "68ea418738bc17c268b1a34235786efa77927abad4bcf06a084c05f72b9bc16e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-new-total-plate-v1-1600.webp",
+     "sha256": "e1d9a1b2e9bb5ed2c8d87f9c8c0428e6517edb6f9d8d9d779b9c5072a894daa9"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-new-total-plate-v1-1600.avif",
+     "sha256": "24fae1efc433647e93195952d26f3276a451cd3609277187903dd5a2bab3fda0"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-marco-calls-plate-v1.png",
+    "sha256": "85f95301ef5c04ae1fe99053347df6801a8bf5c2811f2452fd123ad683b7f32d"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-marco-calls-plate-v1-1600.webp",
+     "sha256": "d168be0d612f2ea3ee906eee650a4c63e2c6d24f9b7510b8528237c62e4c2661"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-marco-calls-plate-v1-1600.avif",
+     "sha256": "fec9da62f97b2dffa16b38edf393d54b4144beecbd78c3ba5f24afb9425cfbfa"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-marco-sends-plate-v1.png",
+    "sha256": "c9bf7997cbad595145d5acc5b5f300cad15947bce0ed8d79ddf753b6dc4b8155"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-marco-sends-plate-v1-1600.webp",
+     "sha256": "cd4929d04f814760992d7116d96e24542c7993c088c7cd90a047c665af033f38"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-marco-sends-plate-v1-1600.avif",
+     "sha256": "b9cb9f19d29c2bb6abb9ccba50c08c39e21c5e2ecd7d1e54d0ff3d8350002195"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/nine/home-nine-page-master-v1.png",
+    "sha256": "4bfbd53e015a623bcc5e007fc06e82a4f9681dcad1583023ef1ebfd110b79a7b"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-nine-page-master-v1-1600.webp",
+     "sha256": "cbf3c9036133b99c5214731381d742f198e3e1389237ad8fa7da4b0391cfb93c"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/nine/home-nine-page-master-v1-1600.avif",
+     "sha256": "cc1f0a1b0bf48e4c7f970c0226fafa223c5ef369e8a8e47d6ab0011114708c43"
+    }
+   ]
+  }
+ ]
+}

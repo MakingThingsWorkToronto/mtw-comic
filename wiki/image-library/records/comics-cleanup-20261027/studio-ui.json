@@ -1,0 +1,27 @@
+[
+  {
+    "name": "home",
+    "errors": [],
+    "title": "MTW Studio",
+    "headings": [
+      "Comic Studio"
+    ],
+    "nav": "Home\nSTUDIO\nImages\nSoundtrack\nComics\nSYSTEM\nOperations\nWorkflows"
+  },
+  {
+    "name": "images",
+    "errors": [],
+    "title": "MTW Studio",
+    "headings": [
+      "Images"
+    ],
+    "nav": "Home\nSTUDIO\nImages\nSoundtrack\nComics\nSYSTEM\nOperations\nWorkflows"
+  },
+  {
+    "name": "comics",
+    "errors": [],
+    "title": "MTW Studio",
+    "headings": [],
+    "nav": "Home\nSTUDIO\nImages\nSoundtrack\nComics\nSYSTEM\nOperations\nWorkflows"
+  }
+]

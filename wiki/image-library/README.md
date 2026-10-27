@@ -9,7 +9,7 @@ This is the canonical image library. New artwork is saved inside `assets/` and r
 - 0 original reference records, including 0 selected references and 0 Traditional Systems originals/variants.
 - 0 earlier artwork records and 0 experiment records, retained separately from canonical diagrams.
 - 0 cinematic scene photograph records and 195 comic art records (Comic B pages, layers, models and navigation), kept in separate collections.
-- 198 creative image files; 15 separately stored evidence/provenance images.
+- 198 creative image files; 18 separately stored evidence/provenance images.
 
 The manifest records relative paths, raster pixel dimensions or declared SVG extents, byte sizes, SHA-256 hashes and explicit review status. SVG dimension-source notes distinguish a standard viewBox, a retained legacy attribute and absolute intrinsic sizes; they are not rendered viewport measurements or visual review. New or replacement artwork uses a new filename. Previous versions, metadata and review status remain registered and unchanged. `records/` may hold explicitly separate provenance or verification material; it is not browser source artwork.
 

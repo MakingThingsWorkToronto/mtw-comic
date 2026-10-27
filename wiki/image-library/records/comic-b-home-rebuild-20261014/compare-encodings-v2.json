@@ -1,0 +1,159 @@
+{
+ "schemaVersion": 1,
+ "page": "compare",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-compare-table-plate-v1.png",
+    "sha256": "ab30fcdbfb3de0f64faadb585ec5797ab8595d3e9525973f52ab54c812e3114c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-compare-table-plate-v1-1600.webp",
+     "sha256": "48aee06b8de8fd4caf38241284c56739b77b14956245a6318ec91b4a665e28c2"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-compare-table-plate-v1-1600.avif",
+     "sha256": "15f3d40627b0c512ced027f15cb0aefd42c1a682884382a8e101df3deaf75a25"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-compare-closeup-plate-v1.png",
+    "sha256": "c23b69fe49fc68ad77b04b1d6578618e9dd4314714ccf5cf42fc585795bc6f07"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-compare-closeup-plate-v1-1600.webp",
+     "sha256": "1c35f5b87d3f3fb679e42045cad6093d96077406fbf0771c15b4772e24bbdbe9"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-compare-closeup-plate-v1-1600.avif",
+     "sha256": "d4e51be2e3a7d64bc214e0ac6cdea76554a149f04cd4d46f5611f8f5dc89e883"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-sam-card-plate-v1.png",
+    "sha256": "751f99134daa647d9a490103e44d364ac5f124b925a597704067085f39596825"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-sam-card-plate-v1-1600.webp",
+     "sha256": "e863283e1b6671670209c379957d32583c771aaa4466f7f59160273fa400e1e1"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-sam-card-plate-v1-1600.avif",
+     "sha256": "86f7040591c908d0f46818a62f47be621ec845404a2927071b974520baa602ad"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-sam-labour-plate-v1.png",
+    "sha256": "401b63037551a6d360d6724f3b182da49536f86a5bc4776e2bb86dca43153133"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-sam-labour-plate-v1-1600.webp",
+     "sha256": "d0470ee3bbfd73ac32adab9b1ab58984dc1311f6ffba1f9cdc18e27ea1a67037"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-sam-labour-plate-v1-1600.avif",
+     "sha256": "5881b6e014728dd204b2db7b97a0168750dcf2c91d185387b67b081465177de1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-codex-records-plate-v1.png",
+    "sha256": "3a691841ed047a8b70e262798bb060c664c36e44fa5d87494c49f8a210838dc7"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-codex-records-plate-v1-1600.webp",
+     "sha256": "e10e160628e0697fdb4783e0c43a8c012bb13fd1be4e158ce6dce69ccfb0cf46"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-codex-records-plate-v1-1600.avif",
+     "sha256": "8e367955443109df92f89dfbde5b6f10e79cf5a458ff549824eab888542365d3"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-codex-records-codex-layer-v2.png",
+    "sha256": "441412911bdbfb9aa77db4d0fc0d79227e20f4a9b85d5e15f55005ad8dd06d7c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-codex-records-codex-layer-v2-1600.webp",
+     "sha256": "6cc776293eabb80de6f702388f9f654e8c093d43e9f1db2f3b4d5d28903421ca"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-codex-records-codex-layer-v2-1600.avif",
+     "sha256": "a51ebe5a9e77b64a72b355f080dbda8d87608171a5cc6d50895505e187bd81d4"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-codex-records-composite-v2.png",
+    "sha256": "44535a638aafde009d4d47bef5a478da92e215fa124559e31d519a847d4ba3f4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-codex-records-composite-v2-1600.webp",
+     "sha256": "24b1034c2ed0bbed578c17d85679a7f3d6dbc3919752cbfb4fc0c6da5333568c"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-codex-records-composite-v2-1600.avif",
+     "sha256": "41f39fe621cb36f039829dbaf1c14aeef4e25820490715e228f0e7d5e8a896a8"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-matt-rule-plate-v1.png",
+    "sha256": "d5cfe51ab82e526f3b9248e401e0782e5c693f5d6a51adbae972b345826d3a97"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-matt-rule-plate-v1-1600.webp",
+     "sha256": "16d5702cfeb965b1c95dcc5809d938730e8a29b2bea83466c8d7c2ac9dd01121"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-matt-rule-plate-v1-1600.avif",
+     "sha256": "7fbbe5be24b4852701ca1ec838c9881228992a4a4ed826ef7d244c5d54255036"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/compare/home-compare-page-master-v2.png",
+    "sha256": "72f1bbcc5e39650960cf0e4d0faf6120ac2bce64e7a81078750a33998c679cf0"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-compare-page-master-v2-1600.webp",
+     "sha256": "45b5b26ba1330029fc2fb504fdc689e221c4cdb8fbb1ee0f68200a90f6804d14"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/compare/home-compare-page-master-v2-1600.avif",
+     "sha256": "accc9685259b50ed5aed9fee9e643358ab953f8b4610cca1fadbc8e4a269daa5"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "schemaVersion": 1,
+ "page": "lobby",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-lobby-plate-v1.png",
+    "sha256": "5fedcf245149a68523b8b2cc948d5fbbfec4076c7c827c8c1a246b635cd59f7c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-lobby-plate-v1-1600.webp",
+     "sha256": "40fd317cd13a6baa7547654c4b505e6b343b9b10844cd3172b7842f7462d3998"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-lobby-plate-v1-1600.avif",
+     "sha256": "41148874e7b8aa4c07869719b41353ec840fd278140a9392eb5b8807a2eef29c"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-ruth-plate-v1.png",
+    "sha256": "9e11b80f12911722d2a5f7ed65b60d91c83f3b7d151ba2166bde3fef426d836a"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-ruth-plate-v1-1600.webp",
+     "sha256": "01c22f2f60ab8494339fe644073b4a0e75e11a131cea5c0c421f184f375d0b2e"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-ruth-plate-v1-1600.avif",
+     "sha256": "957c434d9657346e0ad6a0e62c04c46f3e2ccf3204a7cc3d347e49303bee36a0"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-sam-plate-v1.png",
+    "sha256": "e42549029cb97fc4af64e56a6ff886deae2a5f7f323e8798bb8bef84bd192bb9"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-sam-plate-v1-1600.webp",
+     "sha256": "e1e8b52f077ff7d265168aea191582b964cbee6c60ea9f4a4a6957ec99910715"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-sam-plate-v1-1600.avif",
+     "sha256": "d72ecb770a53e8b5997a6e36085288a9d0ef63892cf1917920611c91174767da"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-marco-sorry-plate-v1.png",
+    "sha256": "71c91e981a2052f50f9a27bfb0ed9966a023a9f412f35705da7a2b573f98d133"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-marco-sorry-plate-v1-1600.webp",
+     "sha256": "624335ae06835e8a9ec4950a2449169e0728579a6b72988991a894f175c63d10"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-marco-sorry-plate-v1-1600.avif",
+     "sha256": "5795fcbcccce6e331fbe53d5924f9c1a316058fbc6035e37782db2acb0c2653e"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-ruth-order-plate-v1.png",
+    "sha256": "21381f3cc2215501461e374dac0f83a4d72587ca9e21a3cb29b72cc694c532be"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-ruth-order-plate-v1-1600.webp",
+     "sha256": "54c55682938585be4d3636305602ada9204651da4f5699cdec614406f4fb24d7"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-ruth-order-plate-v1-1600.avif",
+     "sha256": "8d4c8e34f9dfae8fab7ac74115aa89e4129ea1b76a5744ab21fd87d79110223a"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-elevator-up-plate-v1.png",
+    "sha256": "983308bfcfe7f4079af73eed996fd00d34f7d34838b3bae00bdee5e2a64dcaa6"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-elevator-up-plate-v1-1600.webp",
+     "sha256": "57d2bce5ddf0368eff84d512311937ada21fdc1b7fe98659d202e5904c8a133a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-elevator-up-plate-v1-1600.avif",
+     "sha256": "f6e6bb2974989546aac3c2aa26d2773644a3dd27ef5dcc827268d53610f50e4e"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/lobby/home-lobby-page-master-v1.png",
+    "sha256": "cf5b561614a0bf81fbf710ad372c9e8ed854b029bd2d853c7a23d04cb625bd5f"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-lobby-page-master-v1-1600.webp",
+     "sha256": "7f022d137dabe544cf4cbc11b96383ec87daf4c77c4039e11761c0871e281646"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/lobby/home-lobby-page-master-v1-1600.avif",
+     "sha256": "64e8937e654299ef0cf79d3e8e8835644af673a11162990408a2f52b9c9f6511"
+    }
+   ]
+  }
+ ]
+}

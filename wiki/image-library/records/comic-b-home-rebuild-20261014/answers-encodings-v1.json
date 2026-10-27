@@ -1,0 +1,227 @@
+{
+ "schemaVersion": 1,
+ "page": "answers",
+ "records": [
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-asks-rate-plate-v1.png",
+    "sha256": "50558ae62e2952d4960b238d05abe1942d14333cec3a243d876a2de0bbf8c8c0"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-asks-rate-plate-v1-1600.webp",
+     "sha256": "187fa9d9ad23cc8d312695483622c5f9383c322b4c30095389fc4c132946b7b5"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-asks-rate-plate-v1-1600.avif",
+     "sha256": "137c544d4ddefbcf225525cd50b4767dc12e4f37d752f80eb5a9bdce5d1b4fd9"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-asks-rate-codex-layer-v1.png",
+    "sha256": "4d746cb23dc203d5f8aa2a3bc817618921906d5d6d15b6080d5cd9537187cc9a"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-asks-rate-codex-layer-v1-1600.webp",
+     "sha256": "81af871fb2d2a39d24affb24823aabbe569f84c82b7799135c6936524445820a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-asks-rate-codex-layer-v1-1600.avif",
+     "sha256": "a19704907f6c2884c2ad10e9e481e6f9ab4e80af5d30299a9eb5d7666f6106c1"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-asks-rate-composite-v1.png",
+    "sha256": "cb806d31eb4ea1ab99f82da7cb644a929a08a398470a42d2aa971cd3975898b6"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-asks-rate-composite-v1-1600.webp",
+     "sha256": "bc96f77477b858e364eb1330631236aa23f08898f6c10b77070ab86cf96ada0a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-asks-rate-composite-v1-1600.avif",
+     "sha256": "c92bc8a83a7ffd11c7baa2da51960c501ab41f8295a3549c3492b90bab3315d2"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-marco-answers-rate-plate-v1.png",
+    "sha256": "e090f3bdc5151dceb98084163a09188eabe90b5136b3818837218a0127940c58"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-marco-answers-rate-plate-v1-1600.webp",
+     "sha256": "6f1b826d3e8f21473e401642e284e66fbaa1b91d5e0e7dcfeeb27f408d6185b3"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-marco-answers-rate-plate-v1-1600.avif",
+     "sha256": "ad0f0dadee36b18a4a2387e6bc177523fe6ab26477c466e5b2ed5d03cb4d7782"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-discount-plate-v1.png",
+    "sha256": "fb0e32252948b6902760c144b1df090b93287d41558ac5a0cf8fd1a8f2ebfae8"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-discount-plate-v1-1600.webp",
+     "sha256": "a391bd8389eab826532b302e73eaccef06005c40408116494bc3f6e20c6c9081"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-discount-plate-v1-1600.avif",
+     "sha256": "ec2b3ae00eb544a70c2b89d3c27d8602ed263a1919e116cd47231db2959ef7e5"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-discount-codex-layer-v1.png",
+    "sha256": "fbda289401862e6aa42f2d9796a4212902828c247a646a914dae89063fee3a9a"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-discount-codex-layer-v1-1600.webp",
+     "sha256": "d7495b65a3e764fbac2742f31d9636684c2b0d57891fd0643e0ea2d976818d57"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-discount-codex-layer-v1-1600.avif",
+     "sha256": "aacd76ac03c047d0015762837756af72171972452b2ee3bf5dc542cc5e587c89"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-codex-discount-composite-v1.png",
+    "sha256": "bc86470d34b7a57fea6f716979341c1137649ded1e759d35236c4d8cfc1814b0"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-discount-composite-v1-1600.webp",
+     "sha256": "b4951954a375536d95c70806419c5ba144769abbf3f51af798ef4e2b04a6e2bb"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-codex-discount-composite-v1-1600.avif",
+     "sha256": "4f7f9f98a777c7032105b39672a2960beb989384d4eb66bae76e9a7f09306044"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-marco-nobody-plate-v1.png",
+    "sha256": "431781ca9c6cba59458d95dfba3cc95aefd38682ed0e05c513ecc4408b33de2e"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-marco-nobody-plate-v1-1600.webp",
+     "sha256": "457903a0834692465b592ef387b0eb8d3510293e36a094b2bb5a75c66b08b024"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-marco-nobody-plate-v1-1600.avif",
+     "sha256": "3806c52c27fe47d9d9ecacf7dc532309e77fca0cdb90afc9627b6564a4d9792b"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-dana-claude-rule-plate-v1.png",
+    "sha256": "f2a3eb5161af2b8cd78187ab9bfccf8f537ae6dbe13b779e5fdd4a11bea2d32c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-dana-claude-rule-plate-v1-1600.webp",
+     "sha256": "646b6dd59124e102bce30b3650f7cdd9144bfbabf0cbf46c99a6e6e0d0a503aa"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-dana-claude-rule-plate-v1-1600.avif",
+     "sha256": "c1e5cd855fe2ae53b65740120fc0b76701186aa316c8288f8d3d459869cab131"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-dana-claude-rule-claude-layer-v1.png",
+    "sha256": "c2001b74beb599327f19566bac4e33894b0670c05d73c0dac103d3d574ca2be4"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-dana-claude-rule-claude-layer-v1-1600.webp",
+     "sha256": "b44d14bcf8ae53b7f9a46661ba3ca142c20455f487c10b6341798fe19263a562"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-dana-claude-rule-claude-layer-v1-1600.avif",
+     "sha256": "99ca60a91073e43df38e1192c2a098d21130cc2f046ce0150c7105345c09efb8"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-dana-claude-rule-composite-v1.png",
+    "sha256": "d92dbcf438408944315315bd153ab22ea1cda0fe9592075e92e2614eaec76c29"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-dana-claude-rule-composite-v1-1600.webp",
+     "sha256": "8903115109cb16da5fd6de95216d2be21a1039de25ca552acb1ac78f532653fd"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-dana-claude-rule-composite-v1-1600.avif",
+     "sha256": "322aedd300a67465969b897a703a8770baa0f7578de5bdda7eaa2ab6c3d9c8b8"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-matt-wait-plate-v1.png",
+    "sha256": "bb087e695449e099e3b321b8ff2e5b53737e2d65c25afb02da29c698bc3ae62c"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-matt-wait-plate-v1-1600.webp",
+     "sha256": "6795449c88b76ffbdfe9ef5935a82ad997b56a766182254db9cbc3d93cfba085"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-matt-wait-plate-v1-1600.avif",
+     "sha256": "d8266371507b53a107b6bd49cfbcfa262ab2f2657715fc51c928048a4018f362"
+    }
+   ]
+  },
+  {
+   "source": {
+    "path": "wiki/image-library/assets/scenes/comic-b/home-rebuild-20261014/answers/home-answers-page-master-v1.png",
+    "sha256": "494cad0f655beafdf378ffc906e75ecc6ccf30b520bdce53593b71fe2ce097ab"
+   },
+   "encoder": "Pillow 12 (WebP q88 m6 / AVIF q70), 1600 wide, no upscale",
+   "outputs": [
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-answers-page-master-v1-1600.webp",
+     "sha256": "c479b0bb44e8cc9bd9717ead2ebd1d8296200b917c483c97172d763e07aaae8a"
+    },
+    {
+     "path": "site/public/comic/home/rebuild-20261014/answers/home-answers-page-master-v1-1600.avif",
+     "sha256": "eb2afb667ae4f18ce60df2c77d8d84563d3fb0a0872129aeb95e95190f2f1103"
+    }
+   ]
+  }
+ ]
+}
