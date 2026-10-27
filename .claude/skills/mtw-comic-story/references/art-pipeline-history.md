@@ -4,7 +4,7 @@ This is the prior pipeline text, retained to interpret earlier assets, recipes a
 
 # Comic Story art pipeline (craft v2)
 
-How Comic B art is made: art that copies the 1980s reference pages' drawing and printing, in black and teal, delivered as sharp, layered SVG and reproducible from an art brief. The scripts are in `scripts/art/` (README there). The facts they serve are in `wiki/site/comic-story.md` (cast and style sheet), `assets/reference-analysis/reference-analysis.md` and `reference-measurements.json` (the measured reference pages), and the "Comic B" paragraphs of `discussion/spec.md`.
+How Comic B art is made: art that copies the 1980s reference pages' drawing and printing, in black and teal, delivered as sharp, layered SVG and reproducible from an art brief. The scripts are in `scripts/art/` (README there). The facts they serve are in `wiki/site/comic-story.md` (cast and style sheet), `assets/reference-analysis/reference-analysis.md` and `reference-measurements.json` (the measured reference pages), and the "Comic B" paragraphs of `AGENTS.md`.
 
 ## Matt's direction this craft encodes (2026-09-28)
 

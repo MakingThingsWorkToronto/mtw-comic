@@ -5,6 +5,8 @@ description: "Generate or edit raster images when the task benefits from AI-crea
 
 # Image generation
 
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
 Produce the requested image. Reuse a suitable current asset before generating. Do not make image delivery into a process-repair project.
 
 Use the native image_gen tool for generation/editing. Inspect local references first. Use the CLI/API fallback only when explicitly requested; do not launch a nested Codex merely to access a native tool already available.

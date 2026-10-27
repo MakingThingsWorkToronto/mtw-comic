@@ -7,7 +7,9 @@ metadata:
 
 # MTW inquiry
 
-Keep an interview from closing into a loop where every question collects evidence for a thesis the expert never authored (Matt, 2026-09-17: questions without reflection on the answers "merely serve to validate a predefined chain of thought"). A leading question can be fixed; a leading interview cannot, because each question in it is reasonable, so this skill works between the questions and the answers. Not for writing questions (each surface's craft: `../journal-interview/references/question-design.md` for the Journal, the role-story reference for Task Fields) and not for drafting (`../journal-entry/SKILL.md`). Requirements and Matt's dated decisions are in `discussion/spec.md` (later decisions prevail); current facts are on the wiki pages linked below; load the `wiki-grounding` skill first.
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
+Keep an interview from closing into a loop where every question collects evidence for a thesis the expert never authored (Matt, 2026-09-17: questions without reflection on the answers "merely serve to validate a predefined chain of thought"). A leading question can be fixed; a leading interview cannot, because each question in it is reasonable, so this skill works between the questions and the answers. Not for writing questions (each surface's craft: `../journal-interview/references/question-design.md` for the Journal, the role-story reference for Task Fields) and not for drafting (`../journal-entry/SKILL.md`). Requirements and Matt's dated decisions are in `AGENTS.md` (later decisions prevail); current facts are on the wiki pages linked below; read root AGENTS.md and docs/authoring.md first.
 
 ## Read first
 
@@ -44,7 +46,7 @@ Keep an interview from closing into a loop where every question collects evidenc
 | Thesis unchanged after two rounds | Step 5 and 7 |
 | Thin result at drafting | Step 2 was skipped or step 4 was done only at drafting; start the next interview from step 2 |
 
-A thin interview is usually caused here rather than in the questions: record the occurrence, change the step here and in `.codex/skills/mtw-inquiry/`, per `../skill-creator/references/defect-feedback.md`, and check the next interview.
+A thin interview is usually caused here rather than in the questions: record the occurrence, change the step here and in `.codex/skills/mtw-inquiry/`, per `../../../docs/authoring.md#changes-and-review`, and check the next interview.
 
 ## Report
 

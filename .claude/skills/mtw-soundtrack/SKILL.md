@@ -5,7 +5,9 @@ description: Take approved music into the MTW soundtrack library (wiki/soundtrac
 
 # MTW soundtrack library
 
-Read `discussion/spec.md` first ("Soundtrack library", "Homepage B music"): it wins over this skill. Facts live in [wiki/site/soundtrack-library.md](../../../wiki/site/soundtrack-library.md); this skill holds the method.
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
+Read `AGENTS.md` first ("Soundtrack library", "Homepage B music"): it wins over this skill. Facts live in [wiki/site/soundtrack-library.md](../../../wiki/site/soundtrack-library.md); this skill holds the method.
 
 **What it is.** Every track Matt approves for motion graphics, in one place, each with its credit and a profile a motion graphic can be cut and mixed to: tempo, first downbeat, phrases, dead stops, accents, the song's end, its feel (straight, triplet or sixteenths), loudness and brightness, kick/snare/hat onsets, and eight frequency bands at 20 frames a second. Matt: "these tracks will be used to define the hero motion graphics. you will need the frequencies so you can mix them with the page transitions."
 

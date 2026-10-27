@@ -5,6 +5,8 @@ description: Reproduce bounded ElevenLabs speech or sound-effect takes with exac
 
 # ElevenLabs comic audio
 
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
 Read the current spec decision and [audio destinations](../../../wiki/site/asset-locations.md). Reuse retained recordings or procedural presets first. A new provider request needs the current task's authorization and a finite take/text or duration budget; this skill does not authorize generation. Current comic words require Matt's human review before speech generation.
 
 Use [workflow and receipts](references/workflow.md) for the direct API or optional connected ElevenLabs tools, credential handling, planning, provider failure, processing and catalog refresh. The maintained helper plans by default; `--generate` sends one request only after the shared speech approval check. A failure stops the take. Do not retry, change voice/provider, or create a paid fallback without new direction.

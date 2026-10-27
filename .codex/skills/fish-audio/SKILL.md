@@ -5,6 +5,8 @@ description: Plan, reuse or generate one bounded Fish Audio character audition w
 
 # Fish Audio auditions
 
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
 Read current [audio destinations](../../../wiki/site/asset-locations.md), [comic casting facts](../../../wiki/site/comics-library.md) and the selected character's canonical `wiki/comics-library/voices.json` profile. Images and spoken story dialogue are separate tasks. A saved audition never selects a production voice. Matt’s explicit Home POC decision makes Second Brain the speaker for existing captions and places; the earlier comparison recordings remain retained provenance.
 
 Reuse the exact saved recording first. The nine October 9 takes used Fish IDs supplied by Matt, `s2.1-pro-free`, temperature/top-p 0.7, speed 1, volume 0, loudness normalization, text normalization, normal latency, 44.1 kHz MP3 at 128 kbps. Their receipts preserve the actual text and settings; do not replace them with today's defaults. The Second Brain sample is a narrator-excerpt comparison, not story dialogue. Voice metadata reported `licensed: false`; production rights remain unverified.

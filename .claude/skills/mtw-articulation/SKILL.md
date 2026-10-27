@@ -7,7 +7,9 @@ metadata:
 
 # MTW articulation
 
-Decide what a piece of copy says, which single reader it serves and in what order it arrives, in writing, before drafting. Every other copy standard judges finished text; this skill is the step before. It produces no standards of its own and is method, never evidence: it adapts a communication method Matt circulated on 2026-09-17 from a public post, so nothing in it may be cited as proof in copy. Not for judging finished copy (`wiki/site/content-rubric.md`), not for visual review (`ai-slop-check`), and not for spoken delivery, which uses the repo-local Fish Audio or ElevenLabs audio skill after exact-word review. Requirements and Matt's dated decisions are in `discussion/spec.md` (later decisions prevail); current facts are on the wiki pages linked below; load the `wiki-grounding` skill first.
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
+Decide what a piece of copy says, which single reader it serves and in what order it arrives, in writing, before drafting. Every other copy standard judges finished text; this skill is the step before. It produces no standards of its own and is method, never evidence: it adapts a communication method Matt circulated on 2026-09-17 from a public post, so nothing in it may be cited as proof in copy. Not for judging finished copy (`wiki/site/content-rubric.md`), not for visual review (`ai-slop-check`), and not for spoken delivery, which uses the repo-local Fish Audio or ElevenLabs audio skill after exact-word review. Requirements and Matt's dated decisions are in `AGENTS.md` (later decisions prevail); current facts are on the wiki pages linked below; read root AGENTS.md and docs/authoring.md first.
 
 ## Read first
 
@@ -48,7 +50,7 @@ Decide what a piece of copy says, which single reader it serves and in what orde
 | The plain version is dull | Step 3(1): the argument, not the prose; back to the source |
 | Copy says "we" | Step 1 and 7 |
 
-When copy keeps failing the same way across surfaces, change the step here and in `.codex/skills/mtw-articulation/`, recording the occurrence per `../skill-creator/references/defect-feedback.md`.
+When copy keeps failing the same way across surfaces, change the step here and in `.codex/skills/mtw-articulation/`, recording the occurrence per `../../../docs/authoring.md#changes-and-review`.
 
 ## Report
 
