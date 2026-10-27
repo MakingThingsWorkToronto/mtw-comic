@@ -1,0 +1,13 @@
+{
+  "id": "home-answers-continued-1-home-marco-nobody-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Nobody. Chat assumed it.",
+  "historyItemId": "Rz7r535L2LVYmsA6mZyN",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "4b7551deb0a83186ef7745a25b46a7c23505a329a3071d7ec01f6fa3b50c2eaf",
+  "createdAt": "2026-10-12T06:21:58.716Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

@@ -1,0 +1,55 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "marco",
+  "scriptId": "character-read",
+  "scriptSource": "Issue 1, quote",
+  "text": "The desks will\nbe ready. Quote\nby midnight.",
+  "textSha256": "dee00b588e3f046bf174fb3afd7966ba62d5ec8d2f76f04e486b4ff159353bd9",
+  "voiceId": "deab529fb3d342bbadbce949d44d7d7e",
+  "voiceName": "Canadian",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "The desks will\nbe ready. Quote\nby midnight.",
+    "reference_id": "deab529fb3d342bbadbce949d44d7d7e",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:08.465408+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 43,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:10.822143+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/marco/fish-v1-character-read.mp3",
+    "sha256": "b09ac0c23fb69fcb1062fcd6bd8d9bdc5e0be87093af5150ed64923528f0eaea",
+    "bytes": 66454,
+    "durationSeconds": 4.153375
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/marco/fish-v1-character-read.mp3",
+  "sha256": "b09ac0c23fb69fcb1062fcd6bd8d9bdc5e0be87093af5150ed64923528f0eaea"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "home-connect-home-process-connect-b1",
+  "characterId": "codex",
+  "provider": "Fish Audio",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "modelId": "s2.1-pro-free",
+  "text": "Quote skill. Source-check skill. Expected outputs saved.",
+  "requestId": null,
+  "rawSha256": "ec49a5fd943b3facf4361cf631b48ecc120d1dfbf65122d255a8a1c62d115e26",
+  "createdAt": "2026-10-12T06:18:25.388Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

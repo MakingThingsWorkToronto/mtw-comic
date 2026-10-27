@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {homeVoiceLines,homeVoiceAuditions,homeVoiceNarrationGaps} from '../../data/comic-stories/home-voice-review';
+import '../../styles/home-voice-review.css';
+---
+<BaseLayout title="Home voice review" description="Review the saved Home comic recordings and character auditions." noindex agentExclude canonical="/comics/home/" bodyClass="strata home-voice-review">
+  <main class="voice-review" data-home-voice-review>
+    <header class="voice-review__head">
+      <a href="/comics/home/">Back to Home</a>
+      <h1>Home voice review.</h1>
+      <p>{homeVoiceLines.length} saved Home lines are ready to hear. {homeVoiceNarrationGaps.length} Second Brain captions and introductions still need recordings.</p>
+    </header>
+    <section aria-labelledby="saved-lines-h">
+      <h2 id="saved-lines-h">The saved lines.</h2>
+      <ol class="voice-review__lines">
+        {homeVoiceLines.map(line=>(<li>
+          <h3>{line.name}</h3>
+          {line.comparison&&<p class="voice-review__note">Previous Second Brain voice · rejected comparison</p>}
+          <blockquote>{line.text}</blockquote>
+          <audio controls preload="none" src={line.src} aria-label={`Hear ${line.name}'s saved ${line.comparison?'comparison':'Home line'}`} />
+          <button type="button" data-home-line={line.id} data-start={line.startSeconds} disabled>Play this line in Home</button>
+        </li>))}
+      </ol>
+      <p>The remaining words are unvoiced. These recordings do not approve new dialogue.</p>
+    </section>
+    <section aria-labelledby="narration-h">
+      <h2 id="narration-h">Second Brain narration still missing.</h2>
+      <p>The selected voice has a production hold. The exact unrecorded words are listed here in story order.</p>
+      <ol class="voice-review__lines">
+        {homeVoiceNarrationGaps.map(line=>(<li>
+          <h3>{line.scene} · {line.kind === 'place' ? 'Screen introduction' : 'Narration'}</h3>
+          <blockquote>{line.text}</blockquote>
+          <p class="voice-review__note">{line.status}. {line.reason}</p>
+        </li>))}
+      </ol>
+    </section>
+    <section class="voice-review__reader" aria-labelledby="reader-h">
+      <h2 id="reader-h">See it in Home.</h2>
+      <button type="button" data-load-home>Load Home reader</button>
+      <p data-review-status role="status">The reader loads when you ask.</p>
+      <a href="/comics/home/?mute" data-home-reader hidden>Home reader</a>
+      <div class="voice-review__frame" data-reader-slot></div>
+    </section>
+    <section aria-labelledby="auditions-h">
+      <h2 id="auditions-h">Home character auditions.</h2>
+      <p>These saved samples test voices. Their words may differ from the comic; earlier choices remain labelled.</p>
+      <label class="voice-review__origin">Local Studio address <input type="url" data-library-origin value="http://localhost:8788" /></label>
+      <div class="voice-review__auditions">
+        {homeVoiceAuditions.map(clip=>(<article>
+          <h3>{clip.name}</h3><p>{clip.provider} · {clip.status}</p>
+          <blockquote>{clip.text}</blockquote>
+          <audio controls preload="none" data-audition-path={clip.canonicalPath} data-sha256={clip.sha256} aria-label={`Hear ${clip.name}'s ${clip.provider} audition`} />
+        </article>))}
+      </div>
+    </section>
+  </main>
+  <script is:inline src="/scripts/home-voice-review.js" defer></script>
+</BaseLayout>

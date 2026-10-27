@@ -1,0 +1,12 @@
+{
+  "id": "home-answers-continued-2-home-dana-claude-rule-b0",
+  "characterId": "dana",
+  "provider": "Fish Audio",
+  "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+  "modelId": "s2.1-pro-free",
+  "text": "Every citation, from the source. Or it doesn't go.",
+  "requestId": null,
+  "rawSha256": "6be302068f41360cd9ba2d17fe54fa7a40dc8cc901932ec2d205ef9db7721854",
+  "createdAt": "2026-10-12T06:18:24.019Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

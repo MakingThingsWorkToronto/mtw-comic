@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "name": "Mini image library fixture",
+  "styleNames": {},
+  "records": [
+    {
+      "id": "fx-diagram",
+      "logicalId": "fx-diagram",
+      "collection": "diagrams",
+      "title": "Fixture diagram",
+      "description": "A diagram with four permanent styles and Site Glass.",
+      "service": "Fixtures",
+      "category": "Test",
+      "treatments": {
+        "svg-flat": { "path": "assets/vector/diagrams/svg-flat/fx-diagram.svg", "status": "in-review", "sourceName": "fx-diagram.svg" },
+        "svg-outline": { "path": "assets/vector/diagrams/svg-outline/fx-diagram.svg", "status": "in-review", "sourceName": "fx-diagram.svg" },
+        "holographic": { "path": "assets/diagrams/holographic/fx-diagram.png", "status": "unreviewed-preview", "sourceName": "fx-diagram.png" },
+        "photorealistic": { "path": "assets/diagrams/photorealistic/fx-diagram.png", "status": "draft", "sourceName": "fx-diagram.png" },
+        "svg-glass": { "path": "assets/vector/diagrams/svg-glass/fx-diagram-v2.svg", "status": "in-review", "sourceName": "fx-diagram-v2.svg" }
+      }
+    },
+    {
+      "id": "fx-diagram-b",
+      "logicalId": "fx-diagram-b",
+      "collection": "diagrams",
+      "title": "Fixture diagram with gaps",
+      "description": "Only the vector styles exist.",
+      "service": "Fixtures",
+      "category": "Test",
+      "treatments": {
+        "svg-flat": { "path": "assets/vector/diagrams/svg-flat/fx-diagram-b.svg", "status": "in-review", "sourceName": "fx-diagram-b.svg" },
+        "svg-outline": { "path": "assets/vector/diagrams/svg-outline/fx-diagram-b.svg", "status": "in-review", "sourceName": "fx-diagram-b.svg" },
+        "holographic": { "status": "missing" },
+        "photorealistic": { "status": "missing" }
+      }
+    },
+    {
+      "id": "fx-icon",
+      "logicalId": "fx-icon",
+      "collection": "icons",
+      "title": "Fixture icon",
+      "description": "A shared icon.",
+      "service": "Shared",
+      "category": "Icons",
+      "treatments": {
+        "svg-flat": { "path": "assets/vector/diagrams/svg-flat/fx-icon.svg", "status": "in-review", "sourceName": "fx-icon.svg" },
+        "svg-outline": { "status": "missing" }
+      }
+    },
+    {
+      "id": "fx-scene",
+      "logicalId": null,
+      "collection": "scenes",
+      "title": "Fixture scene",
+      "description": "A scene photograph.",
+      "service": "Scenes",
+      "category": "Journal",
+      "treatments": {
+        "photograph": { "path": "assets/scenes/fx-scene.png", "status": "draft", "sourceName": "fx-scene.png" }
+      }
+    },
+    {
+      "id": "fx-original",
+      "collection": "originals",
+      "title": "Fixture original",
+      "description": "An original reference.",
+      "service": "Fixtures",
+      "category": "Test",
+      "treatments": {
+        "original": { "path": "assets/originals/fx-original.png", "status": "selected-reference", "sourceName": "fx-original.png" }
+      }
+    },
+    {
+      "id": "fx-exp",
+      "collection": "experiments",
+      "title": "Fixture experiment",
+      "description": "An experiment.",
+      "service": "Fixtures",
+      "category": "Test",
+      "relatedDiagrams": ["fx-diagram"],
+      "treatments": {
+        "experimental": { "path": "assets/experiments/fx-exp.png", "status": "unreviewed-preview", "sourceName": "fx-exp.png" }
+      }
+    },
+    {
+      "id": "earlier-fx-diagram-svg-glass-aaaaaaaaaaaaaaaa",
+      "logicalId": "fx-diagram",
+      "collection": "earlier",
+      "title": "Fixture diagram · earlier Site Glass",
+      "description": "A diagram with four permanent styles and Site Glass.",
+      "service": "Fixtures",
+      "category": "Test",
+      "retainedFrom": "fx-diagram",
+      "relatedDiagrams": ["fx-diagram"],
+      "treatments": {
+        "svg-glass": { "path": "assets/vector/diagrams/svg-glass/fx-diagram-v1.svg", "status": "in-review", "sourceName": "fx-diagram-v1.svg" }
+      }
+    }
+  ]
+}

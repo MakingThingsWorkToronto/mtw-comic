@@ -1,0 +1,12 @@
+{
+  "id": "home-codex-home-codex-asks-b0",
+  "characterId": "codex",
+  "provider": "Fish Audio",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "modelId": "s2.1-pro-free",
+  "text": "Ask who?",
+  "requestId": null,
+  "rawSha256": "efd607348cfa51f20117872bc3230fb6128ceb6f5fb7436a744305571a534a4f",
+  "createdAt": "2026-10-12T06:18:20.906Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

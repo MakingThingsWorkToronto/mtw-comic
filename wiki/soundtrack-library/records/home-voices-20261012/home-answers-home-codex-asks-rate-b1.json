@@ -1,0 +1,12 @@
+{
+  "id": "home-answers-home-codex-asks-rate-b1",
+  "characterId": "codex",
+  "provider": "Fish Audio",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "modelId": "s2.1-pro-free",
+  "text": "Rate card. Which year?",
+  "requestId": null,
+  "rawSha256": "828cecab5e59fb50c034515246bf367d335507ffa9591aa564ca3a93b409d039",
+  "createdAt": "2026-10-12T06:18:22.264Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

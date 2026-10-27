@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T19:29:08.547Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech), as the 12 Oct Home Marco/Matt takes",
+  "why": "Direct configured-key API refused this library voice on the free plan (402, receipt records/home-voices-20261015/home-nine-home-codex-safety-test-b1-provider-v1.json where it exists); connector used once per line, no retry.",
+  "characterId": "matt",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "Test it. Drop the\nsafety clause.",
+  "textSha256": "1a03bf67486858e81e91ebf81b516c677280e1dbe1027bbe53f55364ca938dcb",
+  "spokenText": "Test it. Drop the safety clause.",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "flowId": "OqMxwuSblp3RWsvcVTO3",
+  "sessionId": "1KUTqkeap3uA8C1dyE5V",
+  "generationId": "vXm5DHxRTAL8fUGyRJlh",
+  "reportedCredits": 32,
+  "retry": false,
+  "fallback": false,
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/matt/home-nine-home-codex-safety-test-b1-raw-v1.mp3",
+  "receiptCanonicalPath": "wiki/soundtrack-library/records/home-voices-20261015/home-nine-home-codex-safety-test-b1-connector-v1.json",
+  "bytes": 44754,
+  "sha256": "d8b275fe73b1f059ee7460df5cb4f8cd21264f3ca9df72d4c1ab9fad5eea1fba",
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "sourceRefs": [
+    {
+      "storyId": "home",
+      "sceneId": "nine",
+      "panelId": "home-codex-safety-test",
+      "balloonIndex": 0,
+      "kind": "speech",
+      "authoredWho": "matt",
+      "approvalId": "home-nine-home-codex-safety-test-b1"
+    }
+  ],
+  "humanApproval": {
+    "approvalId": "home-nine-home-codex-safety-test-b1",
+    "review": {
+      "id": "home-nine-home-codex-safety-test-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "1a03bf67486858e81e91ebf81b516c677280e1dbe1027bbe53f55364ca938dcb",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:50.819Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    "approvalManifestSha256": "f42d44fee00b790f0e2e8b7cab0a5c490eb91e40ae81e100661c7514b2662e00",
+    "voiceSelection": {
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "sourceSha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+  }
+}

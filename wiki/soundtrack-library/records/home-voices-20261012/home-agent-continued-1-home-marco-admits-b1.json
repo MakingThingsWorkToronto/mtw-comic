@@ -1,0 +1,13 @@
+{
+  "id": "home-agent-continued-1-home-marco-admits-b1",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "We did. Last month. To save time.",
+  "historyItemId": "eQwo2nhEXYcBgL5HifE4",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "062aa3c2df4ebf40259b769233a9cdb4a87298aa59b9c93e072350f855770602",
+  "createdAt": "2026-10-12T06:21:58.407Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

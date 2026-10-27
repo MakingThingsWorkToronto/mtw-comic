@@ -1,0 +1,103 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "ruth",
+  "scriptId": "home-lobby-home-ruth-b2",
+  "scriptSource": "wiki/comics-library/speech-approvals.json#home-lobby-home-ruth-b2",
+  "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+  "voiceName": "ruth",
+  "modelId": "s2.1-pro-free",
+  "text": "A customer sent me\nthis at 2:07. It’s\nGilmour\n& Clark’s contract.",
+  "textSha256": "8220479ddb6caeef5845ef7b741150141091b23660a91e28dcf0456581db4092",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "A customer sent me this at 2:07. It’s Gilmour & Clark’s contract.",
+    "reference_id": "95dbc78c860547b1ad5eb9f0fe32d459"
+  },
+  "licensed": null,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "speechBinding": {
+    "storyId": "home",
+    "sceneId": "lobby",
+    "panelId": "home-ruth",
+    "balloonIndex": 1,
+    "kind": "speech",
+    "authoredWho": "ruth"
+  },
+  "spokenText": "A customer sent me this at 2:07. It’s Gilmour & Clark’s contract.",
+  "spokenTextSha256": "b048d3a9c5b1a8fe648717840655f4eca90c1884dc753ad3540a0c99a562f654",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "status": "saved",
+  "startedAt": "2026-10-15T19:20:57.626042+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "f157394e33715f330fadefe4dd8dffe14db0a49750ef02a286284e7ec9728a71",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "humanSpeechReview": {
+    "review": {
+      "id": "home-lobby-home-ruth-b2",
+      "characterId": "ruth",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "textSha256": "8220479ddb6caeef5845ef7b741150141091b23660a91e28dcf0456581db4092",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:17:18.021Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review"
+      }
+    },
+    "approvalManifestSha256": "5987ca4492717d0766cb738c8507ff401409b9dbdaf0558e55d87763149814a8",
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "sourceSha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/home-20261015/ruth/home-lobby-home-ruth-b2-raw-v1.mp3",
+    "sha256": "057ab117bca3f7d68f4d3c08527b87a455547a197873063a1058790e24a39677",
+    "bytes": 81083,
+    "durationSeconds": 5.067688
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-15T19:21:01.702191+00:00"
+}

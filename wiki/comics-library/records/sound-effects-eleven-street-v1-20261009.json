@@ -1,0 +1,22 @@
+{
+  "createdUtc": "2026-10-09T23:47:20.955625+00:00",
+  "endpoint": "https://api.elevenlabs.io/v1/sound-generation",
+  "request": {
+    "text": "Quiet Toronto city street ambience from above street level: soft distant road traffic, one subdued electric streetcar wheel rumble blended into the street, gentle outdoor air. Natural realistic sound, no voices, no horns, no bell, no music. Seamless calm environmental loop.",
+    "duration_seconds": 4,
+    "loop": true,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.5
+  },
+  "plannedMaximumCredits": 160,
+  "status": "candidate",
+  "productionApproved": false,
+  "retry": false,
+  "httpStatus": 200,
+  "file": "street-loop-v1.mp3",
+  "bytes": 65245,
+  "sha256": "dc9c1fd25c69612c1346e0396bb443b373f21260d8b64bf0ddd1ea0459bd29b8",
+  "reportedCost": "40",
+  "requestId": null,
+  "contentType": "audio/mpeg"
+}

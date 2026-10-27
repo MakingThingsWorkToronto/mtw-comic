@@ -1,0 +1,225 @@
+{
+  "_about": "Comic B page constants: the one source for the engine (site/src/components/ComicStory.astro imports it), the deslop lint (site/scripts/comic-story-deslop.mjs) and the art template. Regenerate the page values with scripts/sample-reference-paper.mjs --write (it keeps the other fields). Ratios are percentages of the page's SHORT side (height on a wide window, width on a phone), measured on the reference pages in source pixels (Matt, 2026-09-28: 'matched pixel for pixel in source').",
+  "page": {
+    "separator": "#1a9ba1",
+    "_separatorNote": "Matt, 2026-10-09: all comic frames, gutters, inset bands and page margins use brand teal. White/off-white paper is never a separator; paper samples remain historical reference and lettering inputs.",
+    "paper": "#f8f2e4",
+    "gutterPct": 1.204,
+    "marginPct": 1.878,
+    "marginSidesPct": {
+      "top": 1.408,
+      "bottom": 1.174,
+      "left": 1.69,
+      "right": 1.643
+    },
+    "borderPct": 0.235,
+    "_note": "Paper: the printed references' paper (#f8f2e4); the clean digital scans read pure white and are not used for the colour. Gutter, margins and border are the medians over the eight reference pages (per-page values under derived). The border median (0.235%) ignores the dark-page false positives (X-Men 132, Crisis, Darkseid). Kept minimal so the dark theme is not interrupted (Matt, 2026-09-28).",
+    "_paperNote": "Historical paper/lettering input only. The separator field owns current borders, gutters and margins; sampled paper does not override brand teal.",
+    "printedPaper": "#f8f2e4",
+    "scanWhite": "#ffffff",
+    "paperTile": "/comic/_paper/paper-tile-512.webp",
+    "artWidths": [
+      1600
+    ],
+    "_artNote": "Hi-res raster page art (Matt, 2026-09-29): /comic/<story>/<art>-<width>.avif and .webp at these widths. Matt, 2026-10-11 ('Commit every image, without duplicates'): copies stop at the master's own width, so the one slot is 1600 (masters are about 1586 wide; a narrower master fills the 1600 slot at its own width, never enlarged; no 2400/3200 upscales). SVG page art is the fallback.",
+    "paperCrops": [
+      {
+        "file": "AllTime-Comics-15.jpg",
+        "box": [
+          60,
+          5,
+          780,
+          45
+        ]
+      },
+      {
+        "file": "the-death-of-barry-allen-photo-u1.jpg",
+        "box": [
+          1,
+          150,
+          9,
+          700
+        ]
+      }
+    ],
+    "paperTileLayers": [
+      [
+        512,
+        0,
+        0
+      ],
+      [
+        397,
+        173,
+        89
+      ]
+    ],
+    "paperGrain": {
+      "light": "/comic/_paper/paper-grain-light.webp",
+      "dark": "/comic/_paper/paper-grain-dark.webp",
+      "k": 0.045,
+      "size": 256,
+      "drawn": 512
+    }
+  },
+  "ground": "#071312",
+  "palette": {
+    "ground": "#071312",
+    "tealDeep": "#123d3b",
+    "teal": "#247a74",
+    "tealLight": "#55c6b6",
+    "paper": "#e7ebdd",
+    "ink": "#0a0a0a",
+    "caption": "#eae619"
+  },
+  "fonts": {
+    "dialogue": "Kalam 700 (kalam-700.woff2; Matt, 2026-09-30)",
+    "emphasis": "Kalam 700, synthetic italic and a 0.05em same-ink stroke (Kalam has no italic)",
+    "burst": "Bangers 400",
+    "licence": "SIL OFL 1.1, site/public/fonts/OFL-kalam.txt, OFL-bangers.txt"
+  },
+  "lettering": {
+    "sizeOfSqrtArea": 0.017,
+    "minPx": 15,
+    "maxPx": 24,
+    "lineHeightEm": 0.98,
+    "obliqueDeg": 7,
+    "captionObliqueDeg": 9,
+    "_note": "Superseded by balloon-style.json lettering (the approved standard); kept for the record."
+  },
+  "derived": {
+    "fromReferences": {
+      "paper": "#ffffff",
+      "printedPaper": "#f8f2e4",
+      "marginSidesPct": {
+        "top": 1.408,
+        "bottom": 1.174,
+        "left": 1.69,
+        "right": 1.643
+      },
+      "gutterPct": 1.204,
+      "marginPct": 1.878,
+      "borderPct": 0.235,
+      "pages": 8,
+      "perPage": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "size": "426x628",
+          "paper": "#ffffff",
+          "gutterPct": 1.174,
+          "marginPct": 2.113,
+          "sides": {
+            "top": 1.408,
+            "bottom": 2.113,
+            "left": 1.878,
+            "right": 2.113
+          },
+          "borderPct": 3.756
+        },
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "size": "426x636",
+          "paper": "#fefefe",
+          "gutterPct": 0.704,
+          "marginPct": 1.174,
+          "sides": {
+            "top": 1.174,
+            "bottom": 1.174,
+            "left": 1.174,
+            "right": 0.939
+          },
+          "borderPct": 3.756
+        },
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "size": "426x628",
+          "paper": "#ffffff",
+          "gutterPct": 0.469,
+          "marginPct": 1.878,
+          "sides": {
+            "top": 1.878,
+            "bottom": 2.113,
+            "left": 1.643,
+            "right": 1.643
+          },
+          "borderPct": 0.235
+        },
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "size": "900x1384",
+          "paper": "#f8f2e4",
+          "gutterPct": 2.333,
+          "marginPct": 6.222,
+          "sides": {
+            "top": 6.222,
+            "bottom": 8,
+            "left": 3.667,
+            "right": 3.444
+          },
+          "borderPct": 0.222
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "size": "426x627",
+          "paper": "#fefefe",
+          "gutterPct": 1.643,
+          "marginPct": 0.469,
+          "sides": {
+            "top": 0.469,
+            "bottom": 0.235,
+            "left": 0.469,
+            "right": 0.469
+          },
+          "borderPct": 0.235
+        },
+        {
+          "file": "images.jpg",
+          "size": "452x678",
+          "paper": "#ffffff",
+          "gutterPct": 1.991,
+          "marginPct": 1.549,
+          "sides": {
+            "top": 1.77,
+            "bottom": 0.885,
+            "left": 1.549,
+            "right": 1.549
+          },
+          "borderPct": 0.221
+        },
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "size": "1080x1447",
+          "paper": "#ffffff",
+          "gutterPct": 1.204,
+          "marginPct": 4.444,
+          "sides": {
+            "top": 0,
+            "bottom": 0.37,
+            "left": 4.444,
+            "right": 5.278
+          },
+          "borderPct": 1.389
+        },
+        {
+          "file": "the-death-of-barry-allen-photo-u1.jpg",
+          "size": "710x1053",
+          "paper": "#f2e7e4",
+          "gutterPct": 0.423,
+          "marginPct": 1.408,
+          "sides": {
+            "top": 1.408,
+            "bottom": 0.845,
+            "left": 1.69,
+            "right": 0.563
+          },
+          "borderPct": 0.141
+        }
+      ],
+      "sampled": "2026-09-29",
+      "by": "scripts/sample-reference-paper.mjs"
+    }
+  },
+  "balloonStyleFile": "balloon-style.json",
+  "ghostOpacity": 0.3,
+  "_ghostNote": "Every box's content shows at this opacity until its story is told, over the box's dark base (Matt, 2026-09-28: 'the 30% is a guess, when artwork arrives that may be 60, make it a constant we can change'). Override per story with `ghost`, or ?ghost= to review."
+}

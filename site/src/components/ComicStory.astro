@@ -1,0 +1,152 @@
+---
+// Comic Story (Comic B; skill: mtw-comic-story; facts: wiki/site/comic-story.md). A dark comic page revealed box by box:
+// every box of the page shows at 30% from the start; on its beat a box comes up to full, its balloons fade in and their
+// lettering types on; a click on a box jumps to it, a click elsewhere or ArrowRight reveals the next one. Each scene
+// leaves box by box in a scratchy, classic style. It ends on a NEXT page whose choices are real links.
+//
+// Two modes:
+// - page (default): the -b page's header (Matt, 2026-09-28: "it will be the header, this is b real"), in the page's flow
+//   under the MTW header, one screen tall, the A page's content continuing below; the page scrolls normally past it.
+// - standalone (/comics/<slug>/, inside the site's BaseLayout): the comic fills the screen below the MTW header, and the
+//   MTW footer follows below it. Wheel and swipes over the comic turn pages; after the NEXT page (or with End) the page
+//   scrolls on to the footer. Reduced motion shows still pages.
+// Both: an Issues overlay of every issue (src/data/comic-stories/index.ts, the registry), prev/next issue on the NEXT
+// page, [ and ] for the previous and next issue (PageUp and PageDown too when standalone), a sideways swipe on the NEXT
+// page. No presentation chrome (Matt, 2026-09-28): no title bar, masthead, chapter slate or centred cards; controls are
+// small, in the site's own style, and hide while the reader reads. The site's sound setting (localStorage
+// 'mtw-sound') and the mixtape crossfade (sessionStorage 'mtw-mixtape') are shared with the 8-bit Beat Comics, whose
+// engine is never loaded. Each box is a keyboard-focusable button named by its alt text; balloons carry their text.
+import type { ComicStory } from '../data/comic-stories/types';
+import { comicIssues, issueHref, choiceHref, artSrc, artPosition, neighbours, type ComicMode } from '../data/comic-stories/index';
+import ComicHold from './ComicHold.astro';
+import MotionToolbar from './MotionToolbar.astro';
+import MotionProgress from './MotionProgress.astro';
+// The one versioned style config lives in the skill (both editions identical; regenerate with its scripts).
+import pageConstants from '../data/reader-style/page-constants.json';
+import balloonStyle from '../data/reader-style/balloon-style.json';
+import '../styles/comic-story.css';
+
+interface Props { story: ComicStory; mode?: ComicMode; /** Show every page complete and still (the style lab). */ still?: boolean }
+const { story, mode = 'page', still = false } = Astro.props;
+const standalone = mode === 'standalone';
+const issue = comicIssues.find((i) => i.story.id === story.id);
+const nb = issue ? neighbours(issue) : null;
+// Not verified yet (registry `ready: false`): a dark holding frame instead of the comic, and no engine.
+const ready = issue ? issue.ready : true;
+const src = (img: string) => artSrc(img, story);
+const config = {
+  mode,
+  still,
+  page: pageConstants.page,
+  ghost: pageConstants.ghostOpacity,
+  balloon: balloonStyle,
+  current: issue?.slug ?? null,
+  prev: nb ? issueHref(nb.prev, mode) : null,
+  next: nb ? issueHref(nb.next, mode) : null,
+};
+const label = (i: (typeof comicIssues)[number]) => `No. ${i.story.issue}: ${i.story.title.replace(/\.$/, '')}`;
+---
+{!ready && <ComicHold issue={story.issue} title={story.title} standalone={standalone} />}
+{ready && (<Fragment>
+<link rel="preload" href="/fonts/kalam-700.woff2" as="font" type="font/woff2" crossorigin />
+<script is:inline define:vars={{ standalone }}>
+  // Armed before first paint. The comic is the page's header (on a -b page) or the page itself (the reader), always in the
+  // page's flow under the MTW header; reduced motion shows still pages. If the engine never arrives, the comic disarms.
+  (function () {
+    var r = document.documentElement;
+    r.setAttribute('data-comic', 'play');
+    if (standalone) r.setAttribute('data-comic-app', '');
+    window.addEventListener('load', function () { setTimeout(function () { if (!window.MTWComicStory) { r.setAttribute('data-comic', 'done'); r.removeAttribute('data-mtw-reveal'); } }, 1500); });
+  })();
+</script>
+<div class:list={['comic', { 'comic--app': standalone }]} data-comic-stage>
+  <div class="cs-view">
+    <div class="cs-cam"></div>
+  </div>
+  <div class="cs-veil" aria-hidden="true"></div>
+  {/* The preloader (Matt, 2026-09-29): a blank printed page while the first pages' art, paper, lettering and song load;
+      the issue number in the NEXT tag's ink block, the title in its caption, an ink rule for honest progress (assets done
+      of total). It fades out when everything is in, or after 12 s with what is there. */}
+  <div class="cs-loader" role="status" aria-live="polite">
+    <div class="cs-loader__page">
+      <span class="cs-loader__no">No. {story.issue}</span>
+      <p class="cs-loader__title">{story.title}</p>
+      <span class="cs-loader__rule" aria-hidden="true"><span></span></span>
+      <span class="cs-loader__count">Loading</span>
+    </div>
+  </div>
+  {/* The NEXT page is itself a comic page: each choice a box with its art, and one line of trouble in a caption. */}
+  <nav class="cs-next" aria-label="What next" hidden>
+    <span class="cs-next__tag" aria-hidden="true"><span>N</span><span>E</span><span>X</span><span>T</span></span>
+    <p class="cs-next__h">{story.next.heading}</p>
+    <ul class="cs-next__list" data-count={story.next.choices.length}>
+      {story.next.choices.map((c) => (
+        <li><a class="cs-choice" href={choiceHref(c.href, mode)}>
+          <span class="cs-choice__art"><img src={src(c.img)} style={{ objectPosition: artPosition(c.img) }} alt="" loading="lazy" decoding="async" /></span>
+          <span class="cs-choice__label">{c.label}</span>
+        </a></li>
+      ))}
+    </ul>
+    {nb && (
+      <div class="cs-next__issues">
+        <a class="rl-skip is-shown cs-issue-step cs-issue-step--prev" href={issueHref(nb.prev, mode)} data-issue-step="prev"><span aria-hidden="true">‹</span> <span class="cs-issue-step__txt">No. {nb.prev.story.issue}</span></a>
+        <button class="rl-skip is-shown cs-issues-open cs-issues-open--next" type="button" aria-haspopup="dialog">All comics</button>
+        <a class="rl-skip is-shown cs-issue-step cs-issue-step--next" href={issueHref(nb.next, mode)} data-issue-step="next"><span class="cs-issue-step__txt">No. {nb.next.story.issue}</span> <span aria-hidden="true">›</span></a>
+      </div>
+    )}
+  </nav>
+  {/* Nothing overlays the comic page (Codex critique 01): the controls, the one-time hint and the progress line sit in
+      a slim strip below the page, inside the comic's frame. */}
+  <div class="cs-strip">
+  <p class="cs-hint" aria-hidden="true">
+    <span class="cs-hint__tap">Tap a box to read on · swipe for the next page</span>
+    <span class="cs-hint__key">Click a box or press → to read on · Shift + → for the next page</span>
+  </p>
+  {/* The controls are the site's canonical motion toolbar (MotionToolbar.astro, the 8-bit Beat Comic's own; Matt,
+      2026-09-28: "reuse the styles from 8 bit for the buttons"), with Issues beside it and the music tag in its slot. */}
+  {issue && <button class="rl-skip is-shown cs-issues-open cs-issues-btn" type="button" aria-haspopup="dialog" data-tactile="press" aria-label="Comics"><svg class="rl-ico rl-skip__i" viewBox="0 0 7 5" width="14" height="10" aria-hidden="true"><path d="M0 0h1v1H0zM2 0h5v1H2zM0 2h1v1H0zM2 2h5v1H2zM0 4h1v1H0zM2 4h5v1H2z" /></svg><span class="rl-skip__label">Comics</span></button>}
+  <MotionToolbar skip={false} transport="story" talkStyle="standard" list={false}>
+    <div class="rl-tag cs-tag is-open">
+      <button class="rl-tag__mute cs-tag__mute" type="button" aria-pressed="false" aria-label="Mute music" data-tactile="press">
+        <span class="rl-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <svg class="rl-tag__off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" /><path d="M16 9l5 6M21 9l-5 6" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+      </button>
+      <span class="rl-tag__cta" aria-hidden="true">Tap for sound</span>
+      {story.music.source ? <a class="rl-tag__credit" href={story.music.source} rel="noopener" target="_blank">{story.music.credit}</a> : <span class="rl-tag__credit">{story.music.credit}</span>}
+    </div>
+  </MotionToolbar>
+  <MotionProgress class="cs-progress" label="Comic playback position" />
+  </div>
+  {issue && (
+    <div class="cs-issues" role="dialog" aria-modal="true" aria-labelledby="cs-issues-h" hidden>
+      <div class="cs-issues__panel">
+        <div class="cs-issues__head">
+          <h2 class="cs-issues__h" id="cs-issues-h">Comics</h2>
+          <button class="rl-skip is-shown cs-issues__close" type="button" aria-label="Close comics"><svg class="rl-ico rl-skip__i" viewBox="0 0 7 7" width="14" height="14" aria-hidden="true"><path d="M0 0h1v1H0zM6 0h1v1H6zM1 1h1v1H1zM5 1h1v1H5zM2 2h1v1H2zM4 2h1v1H4zM3 3h1v1H3zM2 4h1v1H2zM4 4h1v1H4zM1 5h1v1H1zM5 5h1v1H5zM0 6h1v1H0zM6 6h1v1H6z" /></svg><span class="rl-skip__label">Close</span></button>
+        </div>
+        <ol class="cs-issues__list">
+          {comicIssues.map((i) => (
+            <li><a class="cs-issue" href={issueHref(i, mode)} aria-current={i === issue ? 'page' : undefined} data-issue={i.slug}>
+              <span class="cs-issue__art"><img src={artSrc(i.cover, i.story)} style={{ objectPosition: artPosition(i.cover) }} alt="" loading="lazy" decoding="async" /></span>
+              <span class="cs-issue__no">No. {i.story.issue}{i === issue && <em> · Now reading</em>}</span>
+              <span class="cs-issue__title">{i.story.title}</span>
+              <span class="cs-issue__villain">{i.hook}</span>
+            </a></li>
+          ))}
+        </ol>
+        <p class="cs-issues__foot">
+          {standalone ? <a href="/comics/">All covers</a> : <a href="/comics/">Read them on their own</a>}
+        </p>
+      </div>
+    </div>
+  )}
+</div>
+{story.id === 'home' && <p class="home-voice-link"><a href="/comics/home-voice-demo/">Review Home’s saved voices</a></p>}
+<script type="application/json" id="comic-story" set:html={JSON.stringify(story)}></script>
+<script type="application/json" id="comic-config" set:html={JSON.stringify(config)}></script>
+<script is:inline src={story.id === 'home' ? '/scripts/comic-story-home-20261012.js' : '/scripts/comic-story.js'} defer></script>
+</Fragment>)}
+
+<style>
+.home-voice-link{margin:0;padding:16px var(--page-gutter,24px);color:var(--paper);background:#071312}.home-voice-link a{color:var(--teal-light)}
+</style>

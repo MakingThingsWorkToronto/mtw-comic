@@ -1,0 +1,21 @@
+{
+  "createdUtc": "2026-10-09T23:48:41.299259+00:00",
+  "endpoint": "https://api.elevenlabs.io/v1/sound-generation",
+  "request": {
+    "text": "Natural quiet modern office interior room tone: soft steady building ventilation, very distant subdued office air movement. No voices, no typing, no ringing, no footsteps, no music, no dramatic drone. Calm realistic seamless environmental loop.",
+    "duration_seconds": 4,
+    "loop": true,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.5
+  },
+  "plannedMaximumCredits": 160,
+  "status": "candidate",
+  "productionApproved": false,
+  "retry": false,
+  "httpStatus": 200,
+  "file": "office-loop-v1.mp3",
+  "bytes": 65245,
+  "sha256": "57e2b87ee0d3e55157ae49691ac0ac143b62ff8151b69259957115cb43041f65",
+  "reportedCost": "40",
+  "contentType": "audio/mpeg"
+}

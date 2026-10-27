@@ -1,0 +1,13 @@
+{
+  "id": "home-answers-continued-1-home-marco-nobody-b1",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Leave it out. I should have checked first.",
+  "historyItemId": "vVTHhlN4pvOF6LJX2V7Y",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "dd698f29c9d98666a38ce6101bfb86aa3bd5b0f2fc5fd5dee23c7b18d536d4b0",
+  "createdAt": "2026-10-12T06:21:58.852Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

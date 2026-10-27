@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+!.env.example
+apps/mtw/.state/
+apps/mtw/dist/
+__pycache__/
+*.pyc
+*.log
+.codex/worktrees/
+site/.astro/
+
+.vercel
+.env*
+!.env.example

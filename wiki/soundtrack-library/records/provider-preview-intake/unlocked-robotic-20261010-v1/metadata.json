@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-10T03:52:14.379175+00:00",
+  "source": {
+    "method": "One read-only ElevenLabs metadata search plus reuse of two retained Fish query receipts; no synthesis",
+    "newMetadataCalls": 1,
+    "newFishMetadataCalls": 0,
+    "rawSnapshotSha256": "dd8226874b2e6217c9bb77fc0b6017f181ad5234ce7211bfaf25f57d299018cf"
+  },
+  "excludedVoices": [
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "reason": "Reserved for matt"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+      "reason": "Reserved for claude"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "reason": "Reserved for codex"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+      "reason": "Reserved for dana"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "reason": "Reserved for marco"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "reason": "Reserved for ruth"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "reason": "Reserved for sam"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "reason": "Reserved for joan"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "reason": "Reserved for potvin"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+      "reason": "Reserved for snowball"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+      "reason": "Reserved for blindspot"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+      "reason": "Reserved for second-brain"
+    }
+  ],
+  "voices": [
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "bAq8AI9QURijOtmeFFqT",
+      "name": "Sigma Centauri - AI Robot",
+      "description": "Sigma Centauri is a calm, futuristic AI system voice with a classic space-computer tone. For full effect, use Elevenlabs v3 model.\r\n\r\nIdeal for spaceship announcements, onboard computers, sci-fi interfaces, robotic or android style characters, and narrative AI roles. \r\n\r\nGreat at delivering bad news in a calm way! Inspired by classic science-fiction computer voices.",
+      "labels": {
+        "gender": "male",
+        "accent": "en-american",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/4b1d6356f85848899a237c62989202a9/voices/bAq8AI9QURijOtmeFFqT/x3eL1XTjW5RNuWNP3nGt.mp3",
+      "licensed": null,
+      "source": {
+        "method": "ElevenLabs MCP creative_list_voices search robot",
+        "snapshotSha256": "dd8226874b2e6217c9bb77fc0b6017f181ad5234ce7211bfaf25f57d299018cf",
+        "personaEvidence": "Sigma Centauri is a calm, futuristic AI system voice with a classic space-computer tone. For full effect, use Elevenlabs v3 model.\r\n\r\nIdeal for spaceship announcements, onboard computers, sci-fi interfaces, robotic or android style characters, and narrative AI roles. \r\n\r\nGreat at delivering bad news in a calm way! Inspired by classic science-fiction computer voices."
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "ZEcx3Wdpj4EvM8PltzHY",
+      "name": "Retro Robot",
+      "description": "A robotic male voice similar to computer voices found in 1950s science fiction movies and tv shows",
+      "labels": {
+        "persona": "robotic"
+      },
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/YINBI6ctmpVtCRurKuoGdmEHFmK2/voices/ZEcx3Wdpj4EvM8PltzHY/B85euOQnbDyFI7X6pwn9.mp3",
+      "licensed": null,
+      "source": {
+        "method": "ElevenLabs MCP creative_list_voices search robot",
+        "snapshotSha256": "dd8226874b2e6217c9bb77fc0b6017f181ad5234ce7211bfaf25f57d299018cf",
+        "personaEvidence": "A robotic male voice similar to computer voices found in 1950s science fiction movies and tv shows"
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "weA4Q36twV5kwSaTEL0Q",
+      "name": "Ava - Female Robot or AI Assistant",
+      "description": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+      "labels": {
+        "character": "robot",
+        "gender": "female",
+        "accent": "American",
+        "persona": "robotic"
+      },
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+      "licensed": null,
+      "source": {
+        "method": "ElevenLabs MCP creative_list_voices search robot",
+        "snapshotSha256": "dd8226874b2e6217c9bb77fc0b6017f181ad5234ce7211bfaf25f57d299018cf",
+        "personaEvidence": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!"
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "175d7d5358b644d2ad2e8b7e4e13ece3",
+      "name": "Robot",
+      "description": "robotic male voice with distortion",
+      "labels": {
+        "persona": "robotic",
+        "language": "en",
+        "gender": "male"
+      },
+      "previewUrl": "https://platform.r2.fish.audio/task/4aeb7fe810ca47129d8beabdbdaef548.mp3",
+      "licensed": false,
+      "source": {
+        "method": "Retained Fish GET/model metadata; existing declared samples only",
+        "snapshotPath": "C:/Code/MTWWebsite-clean/wiki/comics-library/records/voice-discovery-20261010/fish-robots.json",
+        "snapshotSha256": "55ba256cdd45b3901ecf8d0bfe0925a19a6fd19034418acc634bec128b14c6b9",
+        "personaEvidence": {
+          "description": "robotic male voice with distortion",
+          "tags": [
+            "male",
+            "middle-aged",
+            "narration",
+            "deep",
+            "calm",
+            "smooth",
+            "professional",
+            "clear",
+            "storytelling"
+          ]
+        }
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "439895c3270543439da5da1532a5d21b",
+      "name": "robot",
+      "description": "A clear, female voice with a precise and synthetic quality, reminiscent of a robotic AI assistant. It maintains a calm, neutral, and professional tone throughout, making it ideal for futuristic or technological themes.",
+      "labels": {
+        "persona": "robotic",
+        "language": "en",
+        "gender": "female"
+      },
+      "previewUrl": "https://platform.r2.fish.audio/task/8660abf0e28b4cb18d4c7570a1e203d4.mp3",
+      "licensed": false,
+      "source": {
+        "method": "Retained Fish GET/model metadata; existing declared samples only",
+        "snapshotPath": "C:/Code/MTWWebsite-clean/wiki/comics-library/records/voice-discovery-20261010/fish-robots.json",
+        "snapshotSha256": "55ba256cdd45b3901ecf8d0bfe0925a19a6fd19034418acc634bec128b14c6b9",
+        "personaEvidence": {
+          "description": "A clear, female voice with a precise and synthetic quality, reminiscent of a robotic AI assistant. It maintains a calm, neutral, and professional tone throughout, making it ideal for futuristic or technological themes.",
+          "tags": [
+            "female",
+            "old",
+            "character-voice",
+            "calm",
+            "clear",
+            "professional",
+            "neutral-tone",
+            "Robotic",
+            "Synthetic"
+          ]
+        }
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "31b75b9706564dc0857f569dbe637936",
+      "name": "Robot",
+      "description": "It is a female-robotic AI voice",
+      "labels": {
+        "persona": "robotic",
+        "language": "en",
+        "gender": "female"
+      },
+      "previewUrl": "https://platform.r2.fish.audio/task/96d8610f9498466fafe1c9ecb8223584.mp3",
+      "licensed": false,
+      "source": {
+        "method": "Retained Fish GET/model metadata; existing declared samples only",
+        "snapshotPath": "C:/Code/MTWWebsite-clean/wiki/comics-library/records/voice-discovery-20261010/fish-robots.json",
+        "snapshotSha256": "55ba256cdd45b3901ecf8d0bfe0925a19a6fd19034418acc634bec128b14c6b9",
+        "personaEvidence": {
+          "description": "It is a female-robotic AI voice",
+          "tags": [
+            "female",
+            "middle-aged",
+            "character-voice",
+            "serious",
+            "monotone",
+            "cinematic",
+            "authoritative",
+            "Robotic",
+            "AI"
+          ]
+        }
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "fe5b8eaa8b754a5b8d895265def9e5b2",
+      "name": "Robot",
+      "description": "Soy un robot funcional, intelectual y artificioso.",
+      "labels": {
+        "persona": "robotic",
+        "language": "en",
+        "gender": "male"
+      },
+      "previewUrl": "https://platform.r2.fish.audio/task/17758f8b01544d6f926fd9f2906a603d.mp3",
+      "licensed": false,
+      "source": {
+        "method": "Retained Fish GET/model metadata; existing declared samples only",
+        "snapshotPath": "C:/Code/MTWWebsite-clean/wiki/comics-library/records/voice-discovery-20261010/fish-robots.json",
+        "snapshotSha256": "55ba256cdd45b3901ecf8d0bfe0925a19a6fd19034418acc634bec128b14c6b9",
+        "personaEvidence": {
+          "description": "Soy un robot funcional, intelectual y artificioso.",
+          "tags": [
+            "male",
+            "old",
+            "character-voice",
+            "monotone",
+            "Robotic",
+            "Sci-Fi",
+            "gaming",
+            "cinematic",
+            "serious"
+          ]
+        }
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "86c3dd42c08f4082a2ad9ba59441c743",
+      "name": "metal sonic?",
+      "description": "This is a deep, robotic male voice with a cold, monotone delivery. It features heavy mechanical synthesis, making it ideal for sci-fi characters, AI entities, or futuristic villains.",
+      "labels": {
+        "persona": "robotic",
+        "language": "en",
+        "gender": "male"
+      },
+      "previewUrl": "https://platform.r2.fish.audio/task/c889d338263a4cc6bf377bb8ec604234.mp3",
+      "licensed": false,
+      "source": {
+        "method": "Retained Fish GET/model metadata; existing declared samples only",
+        "snapshotPath": "C:/Code/MTWWebsite-clean/wiki/comics-library/records/voice-discovery-20261010/fish-robotic.json",
+        "snapshotSha256": "f35c202e440d1368d2fc04687c76cda47961a4ae024ee9d8cdd141912e4f1594",
+        "personaEvidence": {
+          "description": "This is a deep, robotic male voice with a cold, monotone delivery. It features heavy mechanical synthesis, making it ideal for sci-fi characters, AI entities, or futuristic villains.",
+          "tags": [
+            "male",
+            "old",
+            "character-voice",
+            "entertainment",
+            "deep",
+            "low",
+            "monotone",
+            "authoritative",
+            "serious",
+            "Robotic",
+            "Sci-Fi",
+            "Mechanical"
+          ]
+        }
+      },
+      "productionApproved": false,
+      "hearingReview": "pending"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "v1-comparison-read",
+  "title": "Will - Relaxed Optimist — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/hallucination/v1-comparison-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "bIHbv24MWmeRgasZH58o",
+  "status": "candidate",
+  "sha256": "dc3c99b088d30f2106b0ff524da2072d014c5cd1ffde8eaedbd95f268d0c523d",
+  "durationSeconds": 2.182675736961451,
+  "text": "Show me the original before we send this.",
+  "credits": 41,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "bIHbv24MWmeRgasZH58o",
+    "voiceName": "Will - Relaxed Optimist",
+    "prompt": "Show me the original before we send this.",
+    "scriptSource": "Audition-only test sentence; not story dialogue",
+    "settingsPreset": "provider-default",
+    "generationId": "98ArVlTp3XOQ0r96kRB6",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

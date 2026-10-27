@@ -1,0 +1,4 @@
+{
+  "siteBaseUrl": "http://127.0.0.1:8789",
+  "siteStartCommand": "npm --prefix site run dev"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "home-agent-continued-1-home-matt-rises-b0",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Who gave it permission to send?",
+  "historyItemId": "pzPCYGZor2zAHalzttLU",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "35c644a21be8d790dc423669463fbf50faf56061f557cba9566ea86e1044408a",
+  "createdAt": "2026-10-12T06:21:58.283Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

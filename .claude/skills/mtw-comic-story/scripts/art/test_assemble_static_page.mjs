@@ -1,0 +1,52 @@
+import assert from 'node:assert/strict';
+import {mkdir,writeFile,readFile,access,symlink} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {createRequire} from 'node:module';
+import {assemble,hash} from './assemble_static_page.mjs';
+const [site,out]=process.argv.slice(2);if(!site||!out)throw Error('Usage: node test_assemble_static_page.mjs <site-root> <fresh-fixture-dir>');
+const sharp=createRequire(resolve(site,'package.json'))('sharp');await mkdir(out,{recursive:true});
+const pixels=Buffer.alloc(12*8*3);for(let i=0;i<pixels.length;i++)pixels[i]=(i*31)%255;
+const base=await sharp(pixels,{raw:{width:12,height:8,channels:3}}).png().toBuffer(),cell=await sharp({create:{width:6,height:6,channels:3,background:'#cc3322'}}).png().toBuffer(),transparent=await sharp({create:{width:6,height:6,channels:4,background:{r:2,g:3,b:4,alpha:.5}}}).png().toBuffer(),wrongContainer=await sharp(cell).webp().toBuffer();
+for(const [name,bytes]of [['base',base],['cell',cell],['transparent',transparent],['webp',wrongContainer]])await writeFile(join(out,name+'.png'),bytes,{flag:'wx'});
+const results=[];let n=0;const rect=(left,top,width,height)=>({left,top,width,height});
+const plan=()=>{const id=n++;return {schemaVersion:1,operation:'opaque-static-page-replacement',sourceRoots:[out],outputRoot:out,base:{path:join(out,'base.png'),sha256:hash(base)},cells:[{id:'good',rect:rect(0,0,4,8)},{id:'failed',rect:rect(4,0,4,4)},{id:'other',rect:rect(8,0,4,8)}],replacements:[{cellId:'failed',source:{path:join(out,'cell.png'),sha256:hash(cell)},sourceRect:rect(0,0,6,6),matte:'#1a9ba1'}],pageOutput:join(out,'page-'+id+'.png'),receiptOutput:join(out,'receipt-'+id+'.json')};};
+const exists=async p=>{try{await access(p);return true;}catch(e){if(e.code!=='ENOENT')throw e;return false;}};
+async function rejects(name,mutate,pattern){const p=plan();await mutate(p);const paths=[p.pageOutput,p.receiptOutput],before=await Promise.all(paths.map(exists));await assert.rejects(()=>assemble(sharp,p),pattern);assert.deepEqual(await Promise.all(paths.map(exists)),before);results.push({name,pass:true});}
+const valid=plan(),r=await assemble(sharp,valid),actual=await sharp(valid.pageOutput).removeAlpha().raw().toBuffer();
+for(let y=0;y<8;y++)for(let x=0;x<12;x++){const i=(y*12+x)*3;if(x>=4&&x<8&&y<4)assert.deepEqual([...actual.subarray(i,i+3)],[204,51,34]);else assert.deepEqual(actual.subarray(i,i+3),pixels.subarray(i,i+3));}
+assert.equal(r.page.sha256,hash(await readFile(valid.pageOutput)));assert.equal(r.untouchedPixels.beforeSha256,r.untouchedPixels.afterSha256);assert(r.cells.filter(c=>!c.replaced).every(c=>c.beforePixelSha256===c.afterPixelSha256));assert.equal(r.alphaPlaneSemantics,false);assert.equal(r.humanApproval,false);assert.equal(r.visualReview,'pending');assert.equal(hash(await readFile(join(out,'base.png'))),hash(base));assert.equal(hash(await readFile(join(out,'cell.png'))),hash(cell));results.push({name:'Real opaque downsample changes only exact failed cell; source bytes/untouched cells and bound receipt preserved',pass:true});
+const exact=plan();exact.replacements[0].sourceRect=rect(1,1,4,4);const exactReceipt=await assemble(sharp,exact);assert.equal(exactReceipt.replacements[0].scale,1);results.push({name:'Exact-size explicit source ROI retains source pixel values without image warp',pass:true});
+const padded=plan();padded.replacements[0].sourceRect=rect(0,0,6,3);const paddedReceipt=await assemble(sharp,padded);const paddedPixels=await sharp(padded.pageOutput).removeAlpha().raw().toBuffer();assert.deepEqual([...paddedPixels.subarray((0*12+4)*3,(0*12+4)*3+3)],[26,155,161]);assert.equal(paddedReceipt.replacements[0].matte,'#1a9ba1');results.push({name:'Aspect-preserving contain uses only explicit opaque border matte, no obsolete pixels or stretch',pass:true});
+await rejects('stale base hash',p=>p.base.sha256='0'.repeat(64),/Source hash mismatch/);
+await rejects('stale replacement hash',p=>p.replacements[0].source.sha256='0'.repeat(64),/Source hash mismatch/);
+await rejects('invalid source rectangle',p=>p.replacements[0].sourceRect=rect(5,0,6,6),/Source rectangle outside/);
+await rejects('invalid target inventory rectangle',p=>p.cells[1].rect=rect(10,0,4,4),/Cell rectangle outside/);
+await rejects('overlapping target cells',p=>p.cells[1].rect=rect(3,0,4,4),/Source cells overlap/);
+await rejects('duplicate cell inventory',p=>p.cells.push(p.cells[1]),/Unique cell/);
+await rejects('undeclared target',p=>p.replacements[0].cellId='new',/unique declared cell/);
+await rejects('duplicate target replacement',p=>p.replacements.push(p.replacements[0]),/unique declared cell/);
+await rejects('upscale blocked',p=>p.replacements[0].sourceRect=rect(0,0,2,2),/would upscale/);
+await rejects('transparent source is not opaque page',p=>p.replacements[0].source={path:join(out,'transparent.png'),sha256:hash(transparent)},/fully opaque/);
+await rejects('filename cannot disguise wrong container',p=>p.replacements[0].source={path:join(out,'webp.png'),sha256:hash(wrongContainer)},/native unoriented PNG/);
+await rejects('source roots confinement',p=>p.sourceRoots=[site],/Source escapes/);
+await rejects('output confinement',p=>p.pageOutput=resolve(out,'../escape.png'),/Output escapes/);
+await rejects('output aliases rejected',p=>p.receiptOutput=p.pageOutput,/paths must be distinct/);
+await rejects('existing page blocks writes',p=>p.pageOutput=valid.pageOutput,/Refusing overwrite/);
+await rejects('existing receipt blocks all writes',p=>p.receiptOutput=valid.receiptOutput,/Refusing overwrite/);
+await rejects('unasserted matte rejected',p=>delete p.replacements[0].matte,/contain matte/);
+await rejects('image warp option rejected',p=>p.replacements[0].fit='fill',/No opacity/);
+await rejects('arbitrary target override rejected',p=>p.replacements[0].targetRect=rect(0,0,12,8),/No opacity/);
+await rejects('alpha-plane semantics forbidden',p=>p.planes=[],/Alpha planes/);
+const canvasPlan=plan();delete canvasPlan.base;canvasPlan.canvas={width:14,height:6,color:'#040506'};canvasPlan.cells=[{id:'left',rect:rect(0,0,6,6)},{id:'right',rect:rect(8,0,6,6)}];canvasPlan.replacements=canvasPlan.cells.map(c=>({cellId:c.id,source:{path:join(out,'cell.png'),sha256:hash(cell)},sourceRect:rect(0,0,6,6),matte:'#040506'}));
+const canvasReceipt=await assemble(sharp,canvasPlan),canvasPixels=await sharp(canvasPlan.pageOutput).removeAlpha().raw().toBuffer();
+for(let y=0;y<6;y++)for(let x=0;x<14;x++){const i=(y*14+x)*3;assert.deepEqual([...canvasPixels.subarray(i,i+3)],x>=6&&x<8?[4,5,6]:[204,51,34]);}
+assert.equal(canvasReceipt.base,null);assert.equal(canvasReceipt.basePixelSha256,null);assert.equal(canvasReceipt.untouchedPixels.applicable,false);assert(canvasReceipt.cells.every(c=>c.beforePixelSha256===null&&c.replaced));const cellPixels=await sharp(cell).removeAlpha().raw().toBuffer();assert(canvasReceipt.replacements.every(r=>r.scale===1&&r.patchPixelSha256===hash(cellPixels)));assert.equal(canvasReceipt.page.sha256,hash(await readFile(canvasPlan.pageOutput)));results.push({name:'Actual new opaque canvas fills both source-bound cells with exact original pixels, explicit gutters, no fabricated base hash',pass:true});
+await rejects('canvas cannot fabricate source base',p=>p.canvas={width:12,height:8,color:'#040506'},/never both/);
+await rejects('canvas requires every declared cell source',p=>{delete p.base;p.canvas={width:12,height:8,color:'#040506'};},/every declared cell/);
+await rejects('canvas transparent/color ambiguity rejected',p=>{delete p.base;p.canvas={width:12,height:8,color:'transparent'};},/dimensions\/color/);
+await rejects('canvas bounded allocation',p=>{delete p.base;p.canvas={width:100000,height:100000,color:'#040506'};},/dimensions\/color/);
+await rejects('canvas source hash still required',p=>{delete p.base;p.canvas={width:12,height:8,color:'#040506'};p.replacements[0].source.sha256='0'.repeat(64);},/Source hash mismatch/);
+let symlinkAvailable=true;try{await symlink(resolve(site),join(out,'outside'),'junction');}catch(e){if(!['EPERM','EACCES','ENOTSUP'].includes(e.code))throw e;symlinkAvailable=false;}
+if(symlinkAvailable)await rejects('symlink output ancestor confinement',p=>p.pageOutput=join(out,'outside','escaped-test.png'),/ancestor escapes/);
+else results.push({name:'Windows junction fixture unavailable',pass:null});
+console.log(JSON.stringify({passed:results.filter(r=>r.pass).length,total:results.filter(r=>r.pass!==null).length,results,scope:'Tiny real opaque PNG assembly/guard tests only; source visual and reader review pending'},null,2));

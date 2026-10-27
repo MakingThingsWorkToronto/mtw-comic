@@ -1,0 +1,16 @@
+/* Delete control and the disabled state of an item whose delete run is open (web/ui/DeleteControl.tsx). */
+.del-ctl { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); pointer-events: auto; opacity: 1; }
+.del-badge { text-decoration: none; white-space: nowrap; }
+.del-badge:hover { text-decoration: underline; }
+.del-failed { font-size: var(--fs-small); color: var(--error); }
+.del-failed a { color: inherit; }
+.del-dismiss { background: none; border: 0; padding: 0; color: var(--muted); font: inherit; text-decoration: underline; cursor: pointer; }
+.del-target { overflow-wrap: anywhere; }
+.del-error { color: var(--error); }
+
+/* The panel while its delete run is open: dimmed, no pointer input, the delete control still live. */
+.del-zone--busy { position: relative; pointer-events: none; }
+.del-zone--busy > :not(.del-ctl):not(:has(.del-ctl)),
+.del-zone--busy :has(.del-ctl) > :not(.del-ctl):not(:has(.del-ctl)),
+tr:has(.del-badge) > td:not(:has(.del-ctl)) { opacity: .45; filter: grayscale(.6); }
+.del-zone--busy .del-ctl { pointer-events: auto; }

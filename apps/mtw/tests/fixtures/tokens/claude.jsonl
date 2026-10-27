@@ -1,0 +1,5 @@
+{"type":"user","message":{"role":"user","content":"hi"}}
+{"type":"assistant","uuid":"u1","message":{"id":"msg_a","model":"claude-opus-5-5","role":"assistant","usage":{"input_tokens":10,"cache_creation_input_tokens":100,"cache_read_input_tokens":0,"output_tokens":2}}}
+{"type":"assistant","uuid":"u2","message":{"id":"msg_a","model":"claude-opus-5-5","role":"assistant","usage":{"input_tokens":10,"cache_creation_input_tokens":100,"cache_read_input_tokens":0,"output_tokens":40}}}
+{"type":"assistant","uuid":"u3","message":{"id":"msg_b","model":"claude-opus-5-5","role":"assistant","usage":{"input_tokens":5,"cache_creation_input_tokens":0,"cache_read_input_tokens":200,"output_tokens":60}}}
+{"type":"assistant","uuid":"u4","message":{"id":"msg_s","model":"<synthetic>","role":"assistant","usage":{"input_tokens":0,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0}}}

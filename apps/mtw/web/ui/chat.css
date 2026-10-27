@@ -1,0 +1,30 @@
+/* Shared agent chat (AgentChat.tsx) and voice input (VoiceInput.tsx). */
+.chat { position: sticky; top: calc(var(--header-h) + var(--space-3)); overflow: auto; display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; padding: var(--space-3); border: 1px solid var(--line); border-radius: var(--glass-radius); background: var(--surface); }
+.chat-title { margin: 0; font-size: 16px; }
+.chat-head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.chat-head .btn { margin-left: auto; }
+/* The message box takes the panel's spare height. */
+.chat-field { flex: 1; min-height: 9em; display: flex; flex-direction: column; }
+.chat-note { width: 100%; flex: 1; min-height: 9em; resize: vertical; font: inherit; }
+.chat-chosen, .chat-send { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.chat-send > .btn--primary, .chat-send > .btn:last-child { margin-left: auto; }
+/* The live panel fills its height (useFillHeight): the terminal takes whatever the header and reply box leave. */
+.chat--live { overflow: hidden; }
+.chat-term { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.chat-term .terminal-wrap { flex: 1; min-height: 240px; border: 1px solid var(--line); border-radius: var(--glass-radius); background: #0b1419; padding: var(--space-2); overflow: hidden; }
+.chat-term .terminal-host, .chat-term .terminal-host .xterm { width: 100%; height: 100%; }
+.chat-compose { display: flex; align-items: flex-end; gap: var(--space-2); }
+.chat-compose .input { flex: 1; min-width: 0; resize: vertical; font: inherit; }
+.chat-issues { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--space-2); }
+.chat-issue { width: 100%; height: auto; padding: var(--space-2) var(--space-3); border-radius: 10px; text-align: left; }
+.chat-issue-key { display: inline-block; min-width: 1.4em; font-weight: 700; }
+.mic { display: inline-flex; align-items: center; gap: 4px; }
+.mic--on { border-color: #e0574f; color: #fff; background: #e0574f33; }
+@media (max-width: 960px) {
+  .chat { position: static; }
+  .chat-term .terminal-wrap { height: 60vh; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .mic--on svg { animation: mic-pulse 1.2s ease-in-out infinite; }
+  @keyframes mic-pulse { 50% { opacity: .45; } }
+}

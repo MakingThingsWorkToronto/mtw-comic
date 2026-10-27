@@ -1,0 +1,939 @@
+{
+  "_about": "Anti-invention (Matt, 2026-09-28: 'we somehow want to ensure what is created is not invented vs the style we look for'). Every visual element Comic B may use, each with its citation in the reference pages (wiki/image-library/assets/originals/comic-references/, crop boxes [left, top, width, height] in source pixels) or Matt's dated exception. The deslop lint fails anything used in the code or the stories that is not listed here ('invented: <x>'). Add an element only with a citation or a spec paragraph.",
+  "elements": {
+    "balloon:speech": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-4.png",
+          "box": [
+            140,
+            195,
+            62,
+            64
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-30.png",
+          "box": [
+            3,
+            0,
+            97,
+            77
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): superellipse n median 3.55, pad 0.94c x 0.75c, stroke 0.20c, tail 1.87c"
+    },
+    "balloon:chain": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-10.png",
+          "box": [
+            272,
+            545,
+            64,
+            82
+          ]
+        },
+        {
+          "file": "images.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-43.png",
+          "box": [
+            329,
+            328,
+            123,
+            149
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): one speaker, balloons joined by a short neck, only the last with a tail"
+    },
+    "balloon:edge": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-8.png",
+          "box": [
+            134,
+            439,
+            156,
+            90
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): butted, cut flat by the border with no outline on the cut side"
+    },
+    "balloon:breakout": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "box": [
+            0,
+            0,
+            426,
+            60
+          ]
+        }
+      ],
+      "measure": "codex-reference-descriptors.md rule 9: a tail or inset may cross a gutter"
+    },
+    "balloon:thought": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-1.png",
+          "box": [
+            323,
+            105,
+            99,
+            63
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-34.png",
+          "box": [
+            335,
+            363,
+            91,
+            79
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-35.png",
+          "box": [
+            343,
+            427,
+            83,
+            63
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): thinking is the yellow balloon of Spider-Man #33 (#ede614, ids 34-35); its bead stem is Matt's exception (balloon:thought-bead-stem). No clouds in any reference."
+    },
+    "balloon:burst": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-50.png",
+          "box": [
+            689,
+            280,
+            200,
+            137
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): a jagged burst of 6-13 straight spikes, lettering 1.6-3.5x"
+    },
+    "balloon:caption": {
+      "cite": [
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-26.png",
+          "box": [
+            0,
+            579,
+            82,
+            57
+          ]
+        },
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-61.png",
+          "box": [
+            15,
+            468,
+            441,
+            119
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): square, thin black rule, padding 0.67/0.78/0.60/0.77c, fill #eae619 or #f9ddb6, butted into a corner or a band"
+    },
+    "balloon:place": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-13.png",
+          "box": [
+            48,
+            0,
+            323,
+            77
+          ]
+        }
+      ],
+      "measure": "the caption style, used for time and place (X-Men 132 banner caption)"
+    },
+    "font:Shantell Letter": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "box": [
+            560,
+            450,
+            200,
+            90
+          ]
+        }
+      ],
+      "measure": "superseded 2026-09-30 by Kalam 700 (Matt); kept for the record, no longer loaded"
+    },
+    "font:Bangers": {
+      "cite": [
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "box": [
+            30,
+            60,
+            560,
+            130
+          ]
+        }
+      ],
+      "measure": "shouts and SFX lettering, heavier and larger"
+    },
+    "lettering:uppercase": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "box": [
+            560,
+            450,
+            200,
+            90
+          ]
+        }
+      ],
+      "measure": "every reference balloon"
+    },
+    "lettering:oblique": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "box": [
+            60,
+            0,
+            220,
+            70
+          ]
+        }
+      ],
+      "measure": "codex-reference-descriptors.md: slightly forward-slanted"
+    },
+    "lettering:bold-italic-stress": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "box": [
+            0,
+            250,
+            200,
+            120
+          ]
+        }
+      ],
+      "measure": "reference-analysis.md: a single word set in bold italic for stress"
+    },
+    "colour:#0a0a0a": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "box": [
+            560,
+            450,
+            200,
+            90
+          ]
+        }
+      ],
+      "measure": "ink"
+    },
+    "colour:#ffffff": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "box": [
+            0,
+            0,
+            426,
+            628
+          ]
+        }
+      ],
+      "measure": "gutter paper, sample-reference-paper.mjs majority"
+    },
+    "colour:#f8f2e4": {
+      "cite": [
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "box": [
+            0,
+            0,
+            900,
+            1384
+          ]
+        }
+      ],
+      "measure": "printed paper, the page, margins, gutters and balloon paper (sample-reference-paper.mjs blank margin crops); Matt 2026-09-29"
+    },
+    "colour:#d9b23a": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "box": [
+            320,
+            150,
+            106,
+            75
+          ]
+        }
+      ],
+      "measure": "reference-analysis.md: caption yellow, drained 80s yellow"
+    },
+    "colour:#ddd5bf": {
+      "exception": "paper theme option (?theme=paper), Matt 2026-09-28"
+    },
+    "geometry:gutter": {
+      "cite": [
+        {
+          "file": "*",
+          "box": null
+        }
+      ],
+      "measure": "page-constants gutterPct, sample-reference-paper.mjs over every reference page"
+    },
+    "geometry:margin": {
+      "cite": [
+        {
+          "file": "*",
+          "box": null
+        }
+      ],
+      "measure": "page-constants marginSidesPct"
+    },
+    "geometry:border": {
+      "cite": [
+        {
+          "file": "*",
+          "box": null
+        }
+      ],
+      "measure": "page-constants borderPct"
+    },
+    "layout:dominant-splash": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "box": [
+            0,
+            300,
+            426,
+            300
+          ]
+        }
+      ],
+      "measure": "small beats building to a splash"
+    },
+    "layout:stepped-insets": {
+      "cite": [
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "box": [
+            0,
+            0,
+            426,
+            300
+          ]
+        }
+      ],
+      "measure": "panels that step through time"
+    },
+    "layout:inset": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "box": [
+            690,
+            130,
+            300,
+            250
+          ]
+        }
+      ],
+      "measure": "an inset close-up over a wide backdrop, drawn with a full gutter band of paper around it, then its border (Matt, 2026-09-28: 'the margins need to fill same color'); it may span boxes in the middle of the page, never the outer edge"
+    },
+    "layout:equal-row-rapid": {
+      "cite": [
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "box": [
+            0,
+            0,
+            426,
+            627
+          ]
+        }
+      ],
+      "measure": "a strict equal grid of one moment (only as `rapid`)"
+    },
+    "layout:bleed": {
+      "cite": [
+        {
+          "file": "1702654463856e_800x800.webp",
+          "box": [
+            0,
+            0,
+            800,
+            800
+          ]
+        }
+      ],
+      "measure": "the modern page's full-bleed boxes"
+    },
+    "layout:clip": {
+      "cite": [
+        {
+          "file": "images.jpg",
+          "box": [
+            0,
+            0,
+            452,
+            340
+          ]
+        }
+      ],
+      "measure": "diagonal panels"
+    },
+    "art:ink-plate": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "box": [
+            0,
+            0,
+            1080,
+            1447
+          ]
+        }
+      ],
+      "measure": "art-pipeline.md"
+    },
+    "art:halftone": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "box": [
+            0,
+            0,
+            1080,
+            440
+          ]
+        }
+      ],
+      "measure": "reference-analysis.md: dot pitch 0.8-1.3%"
+    },
+    "art:flats": {
+      "cite": [
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "box": [
+            0,
+            0,
+            426,
+            627
+          ]
+        }
+      ],
+      "measure": "flat print colour"
+    },
+    "layout:run": {
+      "cite": [
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "box": [
+            0,
+            0,
+            426,
+            627
+          ]
+        },
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "box": [
+            0,
+            0,
+            300,
+            330
+          ]
+        }
+      ],
+      "measure": "Spider-Man #33's strained 2 x 3 of one moment; Crisis's stepped column of shrinking panels. Equal boxes are allowed only inside a run (Matt, 2026-09-28: 'many small boxes if you can animate the character via quick intros')."
+    },
+    "layout:cascade": {
+      "cite": [
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "box": [
+            0,
+            0,
+            300,
+            330
+          ]
+        }
+      ],
+      "measure": "Crisis #8's stepped column: a host box (the burst) and shrinking insets stepping diagonally across it, revealed one after another; only gutter bands touch (Matt, 2026-09-28)."
+    },
+    "colour:#e8db1d": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "box": [
+            320,
+            150,
+            106,
+            75
+          ]
+        }
+      ],
+      "measure": "reference-analysis.md: X-Men #137 caption yellow #e8db1d (Codex critique 02: brighter yellow)"
+    },
+    "texture:paper": {
+      "cite": [
+        {
+          "file": "the-death-of-barry-allen-photo-u1.jpg",
+          "box": [
+            1,
+            150,
+            9,
+            700
+          ]
+        },
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "box": [
+            60,
+            5,
+            780,
+            45
+          ]
+        }
+      ],
+      "measure": "printed paper colour and texture from blank margins (sample-reference-paper.mjs); the one overlay allowed (Matt, 2026-09-29: 'make look like paper, ensure paper texture'), an explicit exception to 'no engine overlays'"
+    },
+    "balloon:across": {
+      "cite": [
+        {
+          "file": "images.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-40.png",
+          "box": [
+            117,
+            250,
+            262,
+            96
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): a line continued into the next panel by a connector across the gutter"
+    },
+    "balloon:fear": {
+      "cite": [
+        {
+          "file": "images.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-44.png",
+          "box": [
+            218,
+            399,
+            85,
+            77
+          ]
+        },
+        {
+          "file": "images.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-45.png"
+        },
+        {
+          "file": "images.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-47.png"
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): shaken or dazed speech is a scalloped balloon, about 14 bumps, roughness 0.104c (Matt's fear balloon, as the references draw it)"
+    },
+    "voice:calm": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-4.png",
+          "box": [
+            140,
+            195,
+            62,
+            64
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: speech"
+    },
+    "voice:narration": {
+      "cite": [
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-26.png",
+          "box": [
+            0,
+            579,
+            82,
+            57
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: narration caption"
+    },
+    "voice:thought": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-1.png",
+          "box": [
+            323,
+            105,
+            99,
+            63
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-34.png",
+          "box": [
+            335,
+            363,
+            91,
+            79
+          ]
+        }
+      ],
+      "measure": "the yellow balloon with the bead stem (Matt, 2026-09-29); colour from Spider-Man #33"
+    },
+    "voice:offpanel": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-13.png",
+          "box": [
+            48,
+            0,
+            323,
+            77
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: an ordinary balloon whose long thin tail runs to the panel edge"
+    },
+    "voice:device": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-13.png",
+          "box": [
+            48,
+            0,
+            323,
+            77
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): no device speaks in any reference; option 1 (root, 2026-09-29, spec): an ordinary speech balloon whose tail runs to the screen, citing the off-panel tail"
+    },
+    "voice:weak": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-56.png",
+          "box": [
+            13,
+            630,
+            166,
+            187
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: a faint reply with a zigzag tail"
+    },
+    "voice:menace": {
+      "cite": [
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-15.png",
+          "box": [
+            25,
+            310,
+            129,
+            86
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: a threat with a red wavy second outline"
+    },
+    "voice:shout": {
+      "cite": [
+        {
+          "file": "swwvm51dxbrh1.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-50.png",
+          "box": [
+            689,
+            280,
+            200,
+            137
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: shout, a white jagged burst"
+    },
+    "voice:scream": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-12.png",
+          "box": [
+            327,
+            402,
+            99,
+            59
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: an anguished scream, a red-filled ragged balloon"
+    },
+    "voice:panic": {
+      "cite": [
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-57.png",
+          "box": [
+            15,
+            38,
+            147,
+            121
+          ]
+        },
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-58.png"
+        },
+        {
+          "file": "AllTime-Comics-15.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-65.png"
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: panic as angular bursts with heavy italic lettering"
+    },
+    "voice:fear": {
+      "cite": [
+        {
+          "file": "images.jpg",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-44.png",
+          "box": [
+            218,
+            399,
+            85,
+            77
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29) usage table: shaken, a scalloped outline"
+    },
+    "colour:#eae619": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-1.png",
+          "box": [
+            323,
+            105,
+            99,
+            63
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): caption fill, X-Men 137 (the default look)"
+    },
+    "colour:#f9ddb6": {
+      "cite": [
+        {
+          "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-26.png",
+          "box": [
+            0,
+            579,
+            82,
+            57
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): caption fill, Crisis 8 (the crisis look)"
+    },
+    "colour:#e30a0f": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-12.png",
+          "box": [
+            327,
+            402,
+            99,
+            59
+          ]
+        },
+        {
+          "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-15.png",
+          "box": [
+            25,
+            310,
+            129,
+            86
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): the red scream fill and the menace outline"
+    },
+    "lettering:composed-lines": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-4.png",
+          "box": [
+            140,
+            195,
+            62,
+            64
+          ]
+        }
+      ],
+      "measure": "assets/reference-balloons/report.md and shapes.json (2026-09-29): about 9 characters a line (5-15), first and last lines about 0.8 of the widest, 1.31c baseline pitch; never a word broken"
+    },
+    "colour:#f4f4f4": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-4.png",
+          "box": [
+            140,
+            195,
+            62,
+            64
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-30.png",
+          "box": [
+            3,
+            0,
+            97,
+            77
+          ]
+        }
+      ],
+      "measure": "the measured reference balloon fill: median #f4f4f4 over the reference balloons (shapes.raw-per-shape.json; #f1f0f0-#f9f9f7). Matt, 2026-09-29: never re-tinted."
+    },
+    "colour:#ede614": {
+      "cite": [
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-34.png",
+          "box": [
+            335,
+            363,
+            91,
+            79
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-35.png",
+          "box": [
+            343,
+            427,
+            83,
+            63
+          ]
+        }
+      ],
+      "measure": "Spider-Man #33 thought balloons, measured #ede614 and #eee714 (shapes.raw-per-shape.json ids 34, 35)"
+    },
+    "font:Kalam Letter": {
+      "cite": [
+        {
+          "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-4.png",
+          "box": [
+            140,
+            195,
+            62,
+            64
+          ]
+        },
+        {
+          "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+          "crop": "wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-30.png",
+          "box": [
+            3,
+            0,
+            97,
+            77
+          ]
+        }
+      ],
+      "measure": "Kalam 700 (SIL OFL, site/public/fonts/kalam-700.woff2, OFL-kalam.txt): chosen by Matt, 2026-09-30 ('Kalam lettering'), from the 15 px comparison beside the reference crops (wiki/image-library/assets/experiments/comic-b/browser-shots/font-candidates-15px.png) as the closest compact, forward-leaning pen hand. Stress is the same face slanted further (Kalam has no italic; a synthetic 12deg slant, lettering:bold-italic-stress)."
+    }
+  },
+  "exceptions": {
+    "ground:dark": "Comic B: dark and serious; 'use dark by default please' (2026-09-28)",
+    "palette:black-and-teal": "Comic B: 95% of the reference style, in black and teal (2026-09-28); ladder #071312 #123d3b #247a74 #55c6b6 #e7ebdd",
+    "colour:#071312": "palette:black-and-teal",
+    "colour:#123d3b": "palette:black-and-teal",
+    "colour:#247a74": "palette:black-and-teal",
+    "colour:#55c6b6": "palette:black-and-teal",
+    "colour:#e7ebdd": "palette:black-and-teal",
+    "colour:#050607": "the dark of the page art and dialog (palette:black-and-teal)",
+    "colour:#071312f0": "the Issues dialog backdrop (palette:black-and-teal)",
+    "colour:#7e8a8c": "controls in the strip below the page (site UI, not the comic)",
+    "colour:#aab4b5": "controls in the strip below the page (site UI)",
+    "fill:translucent": "'some transparency in those yellow and other bubbles would be worth it' (2026-09-28)",
+    "lettering:typed": "'you can type in speech bubbles too' (2026-09-28)",
+    "reveal:ghost": "'start all boxes at min 30% opacity' and 'make it a constant' (2026-09-28)",
+    "reveal:box-by-box": "Comic B: the page reveal replaces the camera (2026-09-28)",
+    "reveal:fade": "Comic B: simple fades and an inked page, not HTML (2026-09-28)",
+    "layout:wide-page": "Comic B: full screen inside the MTW frame; wide pages transposed from the references (2026-09-28)",
+    "control:click-to-box": "'allow the user to click forward into them' (2026-09-28)",
+    "music:loop": "Comic B: hand-lettered balloons, reference layouts, longer issues on a looped song (2026-09-28)",
+    "page:header": "Comic B: on the B page the comic is the header (2026-09-28)",
+    "controls:strip-below": "Codex critique 01 and Matt: nothing overlays the comic page",
+    "layout:open": "Comic B: no boxed-in frame (2026-09-28): a box without a border",
+    "art:page": "Comic B: simple fades and an inked page, not HTML (2026-09-28): one generated page per scene",
+    "controls:motion-toolbar": "controls from the 8-bit Beat Comic (Matt, 2026-09-28: 'reuse the styles from 8 bit for the buttons'): MotionToolbar.astro and motion-toolbar.css",
+    "colour:#808080": "verification only: ?bg=grey flat mid-grey boxes for the style check's balloon seam test (2026-09-28)",
+    "colour:#101a1f": "a box's base, a step lighter than the ground, so the page structure reads before art exists (root audit, 2026-09-28)",
+    "art:raster-page": "Comic B: hi-res raster page art (AVIF/WebP, at least 2x) for page art only; balloons, borders, gutters, paper and lettering stay vector/CSS (Matt, 2026-09-29)",
+    "loader:printed-page": "Comic B preloader (Matt, 2026-09-29: 'add a loader so you can preload all of these'): a blank printed page (printed paper + paper tile), the issue number in the NEXT tag's ink block, the title in the NEXT heading's ochre caption, one ink progress rule; no new element style",
+    "balloon:thought-bead-stem": "Matt, 2026-09-29: 'we can have yellow bubbles, and that can indicate something like thinking, the stem of the bubble should standardize that' (the yellow thought balloon, Spider-Man #33's colour, always with a stem of 2-3 shrinking beads; spec 'yellow is for captions only')",
+    "texture:balloon-grain": "Matt, 2026-09-29: 'i want the comic scenes to look like paper, so if you need to add texture do it' (the sampled paper grain inside balloons and captions, mean-preserving)",
+    "lettering:size-floor": "Matt, 2026-09-29: 'don't make too small' (dialogue at least 15 px on desktop, 14 px on a phone) and 'make yellow square text bigger' (captions at the dialogue size)",
+    "balloon:approved-standard": "Matt, 2026-09-29: 'looks perfect. standardize and update skill craft so this is reproducible' (balloon-style.json 2.0.0, assets/golden/)",
+    "motion:still": "Matt, 2026-10-09: subtle reproducible cinematic effects when a box comes into focus, appropriate to its scene. Art-only bounded preset; story clock, fixed lettering/frame/paper, pause and reduced motion preserved. Bounds and checks: references/audio-motion.md.",
+    "motion:push": "Matt, 2026-10-09: subtle reproducible cinematic effects when a box comes into focus, appropriate to its scene. Art-only bounded preset; story clock, fixed lettering/frame/paper, pause and reduced motion preserved. Bounds and checks: references/audio-motion.md.",
+    "motion:drift-left": "Matt, 2026-10-09: subtle reproducible cinematic effects when a box comes into focus, appropriate to its scene. Art-only bounded preset; story clock, fixed lettering/frame/paper, pause and reduced motion preserved. Bounds and checks: references/audio-motion.md.",
+    "motion:drift-right": "Matt, 2026-10-09: subtle reproducible cinematic effects when a box comes into focus, appropriate to its scene. Art-only bounded preset; story clock, fixed lettering/frame/paper, pause and reduced motion preserved. Bounds and checks: references/audio-motion.md.",
+    "motion:shadow": "Matt, 2026-10-09: subtle reproducible cinematic effects when a box comes into focus, appropriate to its scene. Art-only bounded preset; story clock, fixed lettering/frame/paper, pause and reduced motion preserved. Bounds and checks: references/audio-motion.md.",
+    "motion:light": "Matt, 2026-10-09: subtle reproducible cinematic effects when a box comes into focus, appropriate to its scene. Art-only bounded preset; story clock, fixed lettering/frame/paper, pause and reduced motion preserved. Bounds and checks: references/audio-motion.md.",
+    "caption:scene-setup": "Matt, 2026-10-09: first scene first box has a bottom-right teal narrator caption naming the invented company, its actual work, immediate trouble and concrete deadline or consequence. Applies to every illustrated comic including demo. Existing caption lettering/rule and alpha 0.85 preserved; sceneSetup semantic marker selects measured bottom-right placement.",
+    "colour:#1a9ba1": "Matt, 2026-10-09: branded teal for identifying character introductions and the deliberate opening sceneSetup caption; existing caption alpha 0.85. Place/time captions retain their selected treatment. All comic borders, gutters, inset bands and page margins also use branded teal, never white/off-white paper; approved balloon fills remain separate."
+  },
+  "_cropNote": "Balloon, caption and voice entries cite the measured crops of the balloon-shape analysis (wiki/image-library/assets/experiments/comic-b/balloon-shapes/crops/ref-N.png, 2026-09-29). Crop boxes for lettering:bold-italic-stress, layout:inset, layout:bleed and layout:clip are still approximate (located by eye on the small scans)."
+}

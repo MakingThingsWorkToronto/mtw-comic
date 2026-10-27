@@ -1,0 +1,835 @@
+{
+  "schemaVersion": 1,
+  "status": "preview suggestions pending Matt listening; no assignment",
+  "sourceGuards": {
+    "voicesSha256": "dd7b7e75065a94b35783c15ed72a7c98ee054c35ddaf4476fa24c26ec01f8d82",
+    "providerCatalogSha256": "fecc91ed1f4825061cf1300045a18f217ac7a7bf73d82e042ba8e09fb5a6c550",
+    "charactersSha256": "85a32ef37c3378eb1dc0255791bc2b15524eba7e881ccb57206f744e30569c3b"
+  },
+  "sourceMethod": "Maintained provider-preview-intake; one ElevenLabs MCP metadata search, retained Fish metadata reused",
+  "newSynthesisRequests": 0,
+  "newFishMetadataRequests": 0,
+  "newPreviewDownloads": 5,
+  "cachedRoboticReuseCount": 3,
+  "chosenPairsReserved": [
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "characterId": "matt"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+      "characterId": "claude"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "characterId": "codex"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+      "characterId": "dana"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "characterId": "marco"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "characterId": "ruth"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "characterId": "sam"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "characterId": "joan"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "characterId": "potvin"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+      "characterId": "snowball"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+      "characterId": "blindspot"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+      "characterId": "second-brain"
+    }
+  ],
+  "profiles": [
+    {
+      "characterId": "slop",
+      "characterName": "The Slop Schultz",
+      "beforeProfileSha256": "b5e9730f3e3c6c603f4011b3ebf7bf4b7d81fc702d9dad83d91b26e149a8ca48",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "bAq8AI9QURijOtmeFFqT",
+          "publishedName": "Sigma Centauri - AI Robot",
+          "publishedDescription": "Sigma Centauri is a calm, futuristic AI system voice with a classic space-computer tone. For full effect, use Elevenlabs v3 model.\r\n\r\nIdeal for spaceship announcements, onboard computers, sci-fi interfaces, robotic or android style characters, and narrative AI roles. \r\n\r\nGreat at delivering bad news in a calm way! Inspired by classic science-fiction computer voices.",
+          "labels": {
+            "gender": "male",
+            "accent": "en-american",
+            "language": "en",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/bAq8AI9QURijOtmeFFqT-v1.mp3",
+          "sha256": "2db4f00f946fb7585768bc86f98c05ebe3cf216bf366d7a5dc0f3ab9cc67d446",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/4b1d6356f85848899a237c62989202a9/voices/bAq8AI9QURijOtmeFFqT/x3eL1XTjW5RNuWNP3nGt.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "hallucination",
+      "characterName": "The Hallucination Nilan",
+      "beforeProfileSha256": "d3ca829b0bb57c11650b8877ea4148f477d4933c5cd5c272c6eb29d11fe727c2",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "ZEcx3Wdpj4EvM8PltzHY",
+          "publishedName": "Retro Robot",
+          "publishedDescription": "A robotic male voice similar to computer voices found in 1950s science fiction movies and tv shows",
+          "labels": {
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/ZEcx3Wdpj4EvM8PltzHY-v1.mp3",
+          "sha256": "3dc7705083a98486f6a77beb477ef75dd22a2059ac75ff11a30c7ca14ce36e7d",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/YINBI6ctmpVtCRurKuoGdmEHFmK2/voices/ZEcx3Wdpj4EvM8PltzHY/B85euOQnbDyFI7X6pwn9.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "shadow",
+      "characterName": "The Shadow Grimson",
+      "beforeProfileSha256": "3ef6100b3f8e6bc574119229602795ae9cce38246a5fec2faf2e82d958fed8f9",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "Fish Audio",
+          "voiceId": "31b75b9706564dc0857f569dbe637936",
+          "publishedName": "Robot",
+          "publishedDescription": "It is a female-robotic AI voice",
+          "labels": {
+            "persona": "robotic",
+            "language": "en",
+            "gender": "female"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-31b75b9706564dc0857f569dbe637936-v1.mp3",
+          "sha256": "e3f3d881f3a74c8f5983756eaaad25167a5d5fea0b6b83ab37e9d4ece62b189f",
+          "previewUrl": "https://platform.r2.fish.audio/task/96d8610f9498466fafe1c9ecb8223584.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "shelf",
+      "characterName": "The Shelf McSorley",
+      "beforeProfileSha256": "9ab9c0a3e4a0b0b8d65532c1ca29e9320a3a4d9229562186806f5d8d53b2ff07",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "Fish Audio",
+          "voiceId": "fe5b8eaa8b754a5b8d895265def9e5b2",
+          "publishedName": "Robot",
+          "publishedDescription": "Soy un robot funcional, intelectual y artificioso.",
+          "labels": {
+            "gender": "male",
+            "language": "en",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-fe5b8eaa8b754a5b8d895265def9e5b2-v1.mp3",
+          "sha256": "df6f91cc7eed1d1f6a820a38e304ce55f92a720558a4efe86f248fc8559fb004",
+          "previewUrl": "https://platform.r2.fish.audio/task/17758f8b01544d6f926fd9f2906a603d.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "amnesia",
+      "characterName": "The Amnesia Kocur",
+      "beforeProfileSha256": "13a027beb300cd98f85432f8bf51d1693d4866693b4d02658665e5c538cf3712",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "Fish Audio",
+          "voiceId": "439895c3270543439da5da1532a5d21b",
+          "publishedName": "robot",
+          "publishedDescription": "A clear, female voice with a precise and synthetic quality, reminiscent of a robotic AI assistant. It maintains a calm, neutral, and professional tone throughout, making it ideal for futuristic or technological themes.",
+          "labels": {
+            "persona": "robotic",
+            "language": "en",
+            "gender": "female"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-439895c3270543439da5da1532a5d21b-v1.mp3",
+          "sha256": "a9a9bc25099e19411e7524c3ae99e66470f4d56ed73044ab3084a286fd21adc7",
+          "previewUrl": "https://platform.r2.fish.audio/task/8660abf0e28b4cb18d4c7570a1e203d4.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "rogue",
+      "characterName": "The Rogue Agent Hunter",
+      "beforeProfileSha256": "a0f180212f0b7b6d4ebc6dcf7f402a93e83defd73b2ba69040ab215e5fa948b3",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "Fish Audio",
+          "voiceId": "86c3dd42c08f4082a2ad9ba59441c743",
+          "publishedName": "metal sonic?",
+          "publishedDescription": "This is a deep, robotic male voice with a cold, monotone delivery. It features heavy mechanical synthesis, making it ideal for sci-fi characters, AI entities, or futuristic villains.",
+          "labels": {
+            "gender": "male",
+            "language": "en",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-86c3dd42c08f4082a2ad9ba59441c743-v1.mp3",
+          "sha256": "a2fa09831326f3ebe693baef439908f8ad25818b5385bde693eab0775efecbcd",
+          "previewUrl": "https://platform.r2.fish.audio/task/c889d338263a4cc6bf377bb8ec604234.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "overhead",
+      "characterName": "Overhead Twist",
+      "beforeProfileSha256": "5aa65543c20a8af1a78404b50856fa66bca27c223a34e5745f9d0a7f57b13bb2",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Robotic with a distinct reusable identity; compare against Matt-supplied red-agent reference. Provider metadata establishes a lead only; no listening/fit approval.",
+      "options": [
+        {
+          "provider": "Fish Audio",
+          "voiceId": "175d7d5358b644d2ad2e8b7e4e13ece3",
+          "publishedName": "Robot",
+          "publishedDescription": "robotic male voice with distortion",
+          "labels": {
+            "gender": "male",
+            "language": "en",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-175d7d5358b644d2ad2e8b7e4e13ece3-v1.mp3",
+          "sha256": "84344353a5b59dc0ec81b8bc752535644e26ec6c05300bff074ee2c500ef8f9d",
+          "previewUrl": "https://platform.r2.fish.audio/task/4aeb7fe810ca47129d8beabdbdaef548.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "grok",
+      "characterName": "Grok",
+      "beforeProfileSha256": "9f3fcec974723cc3f560047ebcce3c5616185d8c10e1f6608129e2de68ba5523",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "No authored vocal gender/persona for this nonhuman/group profile; present declared provider labels, obtain Matt casting direction and listening review. Never infer gender from its name.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "SAz9YHcvj6GT2YYXdXww",
+          "publishedName": "River - Relaxed, Neutral, Informative",
+          "publishedDescription": "A relaxed, neutral voice ready for narrations or conversational projects.",
+          "labels": {
+            "descriptive": "calm",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "neutral"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/SAz9YHcvj6GT2YYXdXww.mp3",
+          "sha256": "ed965388192e856716324a9e0785ec8b17850c77d13df208a62f2602f9f0c7d4",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+          "publishedName": "Bella - Professional, Bright, Warm",
+          "publishedDescription": "This voice is warm, bright, and professional, characterized by a Standard American accent and a polished, narrative quality. It features a medium-high pitch with crisp diction and a deliberate, rhythmic pace that makes it highly intelligible and engaging for long-form listening.",
+          "labels": {
+            "descriptive": "professional",
+            "use_case": "informative_educational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "female"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/hpp4J3VqNfWAUOO0d1Us.mp3",
+          "sha256": "2e47f647a1c1b3dc54607bc9fad0e93c3fb12f5b21499a5a9a974dcecbcf8e76",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/hpp4J3VqNfWAUOO0d1Us/dab0f5ba-3aa4-48a8-9fad-f138fea1126d.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "copilot",
+      "characterName": "GitHub Copilot",
+      "beforeProfileSha256": "6be3e36ab9bef1b9dadc9a3cabdea0fc69d66a4c4ddf5b5a9a9f87db40e85976",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "No authored vocal gender/persona for this nonhuman/group profile; present declared provider labels, obtain Matt casting direction and listening review. Never infer gender from its name.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "SAz9YHcvj6GT2YYXdXww",
+          "publishedName": "River - Relaxed, Neutral, Informative",
+          "publishedDescription": "A relaxed, neutral voice ready for narrations or conversational projects.",
+          "labels": {
+            "descriptive": "calm",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "neutral"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/SAz9YHcvj6GT2YYXdXww.mp3",
+          "sha256": "ed965388192e856716324a9e0785ec8b17850c77d13df208a62f2602f9f0c7d4",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "opencode",
+      "characterName": "OpenCode",
+      "beforeProfileSha256": "686eded6c60cbb616b4a664d0960c08517f050c5f24a64859b89532323e1f75c",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "No authored vocal gender/persona for this nonhuman/group profile; present declared provider labels, obtain Matt casting direction and listening review. Never infer gender from its name.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "WucanJ5TjGdiI41bNXRL",
+          "publishedName": "KB Professional",
+          "publishedDescription": "A confident, polished male voice with a warm, conversational tone. Clear and professional, with natural pacing, ideal for corporate videos, presentations, training, narration, and AI assistants.",
+          "labels": {
+            "accent": "en-australian",
+            "age": "middle-aged",
+            "gender": "male",
+            "language": "en"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/WucanJ5TjGdiI41bNXRL.mp3",
+          "sha256": "fd64ff07626f0142ae4af0af7db05c0b30bfb0f655b194f1efd05493ad6dcd6e",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/5cd7a4e868984299b48d3571ab2928e0/voices/WucanJ5TjGdiI41bNXRL/02f40ac7-654a-4f16-bb22-4b0be239dcf6.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "SAz9YHcvj6GT2YYXdXww",
+          "publishedName": "River - Relaxed, Neutral, Informative",
+          "publishedDescription": "A relaxed, neutral voice ready for narrations or conversational projects.",
+          "labels": {
+            "descriptive": "calm",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "neutral"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/SAz9YHcvj6GT2YYXdXww.mp3",
+          "sha256": "ed965388192e856716324a9e0785ec8b17850c77d13df208a62f2602f9f0c7d4",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "frontier-league",
+      "characterName": "Frontier league",
+      "beforeProfileSha256": "1f2595e297e1c305a7680e7267e1350b554c1788ed28cb9c59b09227c2dd7966",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "No authored vocal gender/persona for this nonhuman/group profile; present declared provider labels, obtain Matt casting direction and listening review. Never infer gender from its name.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+          "publishedName": "Bella - Professional, Bright, Warm",
+          "publishedDescription": "This voice is warm, bright, and professional, characterized by a Standard American accent and a polished, narrative quality. It features a medium-high pitch with crisp diction and a deliberate, rhythmic pace that makes it highly intelligible and engaging for long-form listening.",
+          "labels": {
+            "descriptive": "professional",
+            "use_case": "informative_educational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "female"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/hpp4J3VqNfWAUOO0d1Us.mp3",
+          "sha256": "2e47f647a1c1b3dc54607bc9fad0e93c3fb12f5b21499a5a9a974dcecbcf8e76",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/hpp4J3VqNfWAUOO0d1Us/dab0f5ba-3aa4-48a8-9fad-f138fea1126d.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "SAz9YHcvj6GT2YYXdXww",
+          "publishedName": "River - Relaxed, Neutral, Informative",
+          "publishedDescription": "A relaxed, neutral voice ready for narrations or conversational projects.",
+          "labels": {
+            "descriptive": "calm",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "neutral"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/SAz9YHcvj6GT2YYXdXww.mp3",
+          "sha256": "ed965388192e856716324a9e0785ec8b17850c77d13df208a62f2602f9f0c7d4",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "local-crew",
+      "characterName": "Local crew",
+      "beforeProfileSha256": "3e7a03d8fdd565898deef84f495df56b84adff6230acd06857592297890c6cdc",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "No authored vocal gender/persona for this nonhuman/group profile; present declared provider labels, obtain Matt casting direction and listening review. Never infer gender from its name.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+          "publishedName": "Roger - Laid-Back, Casual, Resonant",
+          "publishedDescription": "Easy going and perfect for casual conversations.",
+          "labels": {
+            "descriptive": "classy",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "male"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/CwhRBWXzGAHq8TQ4Fs17.mp3",
+          "sha256": "40620440c2477cfe08b583bb6a4d360addbc43cbc58a172a2e3e39d4879aa274",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/CwhRBWXzGAHq8TQ4Fs17/58ee3ff5-f6f2-4628-93b8-e38eb31806b0.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "SAz9YHcvj6GT2YYXdXww",
+          "publishedName": "River - Relaxed, Neutral, Informative",
+          "publishedDescription": "A relaxed, neutral voice ready for narrations or conversational projects.",
+          "labels": {
+            "descriptive": "calm",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "neutral"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/SAz9YHcvj6GT2YYXdXww.mp3",
+          "sha256": "ed965388192e856716324a9e0785ec8b17850c77d13df208a62f2602f9f0c7d4",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "narrator",
+      "characterName": "Narrator",
+      "beforeProfileSha256": "f8569ff5adb24483fec052af7822d08e97c7fc98c0b980e735121678e2687fbf",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Caption speaker routes to Second Brain; no independent narrator voice chosen or suggested using another character’s reserved ID.",
+      "options": [],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "george-armstrong",
+      "characterName": "George Armstrong",
+      "beforeProfileSha256": "6b54985b6d8929f8614f99ba8a111baecca41c576f647915a67ad390ddead08b",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "Authored male reference-only person, currently no spoken line. These male previews are optional future leads, not a new spoken role.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "WucanJ5TjGdiI41bNXRL",
+          "publishedName": "KB Professional",
+          "publishedDescription": "A confident, polished male voice with a warm, conversational tone. Clear and professional, with natural pacing, ideal for corporate videos, presentations, training, narration, and AI assistants.",
+          "labels": {
+            "accent": "en-australian",
+            "age": "middle-aged",
+            "gender": "male",
+            "language": "en"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/WucanJ5TjGdiI41bNXRL.mp3",
+          "sha256": "fd64ff07626f0142ae4af0af7db05c0b30bfb0f655b194f1efd05493ad6dcd6e",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/5cd7a4e868984299b48d3571ab2928e0/voices/WucanJ5TjGdiI41bNXRL/02f40ac7-654a-4f16-bb22-4b0be239dcf6.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+          "publishedName": "Roger - Laid-Back, Casual, Resonant",
+          "publishedDescription": "Easy going and perfect for casual conversations.",
+          "labels": {
+            "descriptive": "classy",
+            "use_case": "conversational",
+            "accent": "american",
+            "age": "middle_aged",
+            "language": "en",
+            "gender": "male"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/CwhRBWXzGAHq8TQ4Fs17.mp3",
+          "sha256": "40620440c2477cfe08b583bb6a4d360addbc43cbc58a172a2e3e39d4879aa274",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/CwhRBWXzGAHq8TQ4Fs17/58ee3ff5-f6f2-4628-93b8-e38eb31806b0.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    },
+    {
+      "characterId": "plante",
+      "characterName": "Plante",
+      "beforeProfileSha256": "00ea754cb3850c15565e877a00d87fb537f505b0db85f057dc6e60d65d25cd60",
+      "proposalOperation": "append candidates only; preserve canonical/user-draft shortlist and chosen voice",
+      "requirement": "System-display-only terminal, no present spoken dialogue. Mechanical/assistant previews are optional future leads; do not invent speech.",
+      "options": [
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "publishedName": "Ava - Female Robot or AI Assistant",
+          "publishedDescription": "Female voice over for AI assistant, GPS, virtual helper, robot character, etc.!",
+          "labels": {
+            "character": "robot",
+            "gender": "female",
+            "accent": "American",
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/weA4Q36twV5kwSaTEL0Q-v1.mp3",
+          "sha256": "be8c6dfc4f9bd78c4835f1be06f5d3f9619d178dfa2b685f460c6254f64cc99b",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/custom/voices/weA4Q36twV5kwSaTEL0Q/bnjkXRROmsXsHf4UVCt7.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        },
+        {
+          "provider": "ElevenLabs",
+          "voiceId": "ZEcx3Wdpj4EvM8PltzHY",
+          "publishedName": "Retro Robot",
+          "publishedDescription": "A robotic male voice similar to computer voices found in 1950s science fiction movies and tv shows",
+          "labels": {
+            "persona": "robotic"
+          },
+          "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/ZEcx3Wdpj4EvM8PltzHY-v1.mp3",
+          "sha256": "3dc7705083a98486f6a77beb477ef75dd22a2059ac75ff11a30c7ca14ce36e7d",
+          "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/YINBI6ctmpVtCRurKuoGdmEHFmK2/voices/ZEcx3Wdpj4EvM8PltzHY/B85euOQnbDyFI7X6pwn9.mp3",
+          "selectionStatus": "suggestion only",
+          "hearingReview": "pending",
+          "verifiedFit": false,
+          "productionApproved": false,
+          "rightsStatus": "unverified"
+        }
+      ],
+      "currentShortlistPreserved": [],
+      "browserDraftStatus": "unavailable to this read-only worker; Matt said he shortlisted more, preserve until app owner captures it",
+      "humanApproval": false
+    }
+  ],
+  "checks": [
+    "12 chosen provider/voice pairs excluded from every suggestion",
+    "7 villain primary leads have distinct IDs and actual provider robotic evidence",
+    "15 unlocked profiles covered; caption routing/reference-only roles explicit",
+    "Every suggested cached byte hash checked, no name-based gender inference",
+    "Authored George male options match provider gender labels",
+    "Canonical and browser-draft shortlists untouched"
+  ],
+  "hearingReview": "pending",
+  "humanApproval": false,
+  "rightsReview": "unverified; provider community/library metadata retained"
+}

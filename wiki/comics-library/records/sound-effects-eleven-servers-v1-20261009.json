@@ -1,0 +1,21 @@
+{
+  "createdUtc": "2026-10-09T23:48:43.889112+00:00",
+  "endpoint": "https://api.elevenlabs.io/v1/sound-generation",
+  "request": {
+    "text": "Natural computer server room ambience: low steady cooling fan airflow and restrained electrical equipment hum, slightly textured gentle ventilation. No voices, no beeps, no alarm, no music, no dramatic drone. Realistic seamless environmental loop.",
+    "duration_seconds": 4,
+    "loop": true,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.5
+  },
+  "plannedMaximumCredits": 160,
+  "status": "candidate",
+  "productionApproved": false,
+  "retry": false,
+  "httpStatus": 200,
+  "file": "servers-loop-v1.mp3",
+  "bytes": 65245,
+  "sha256": "e52c54ae4dd624f82ac1edb46deb6397681d4467f9b9366ba5e45c166512dc75",
+  "reportedCost": "40",
+  "contentType": "audio/mpeg"
+}

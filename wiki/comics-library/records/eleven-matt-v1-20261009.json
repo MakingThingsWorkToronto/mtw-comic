@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Roger - Laid-Back, Casual, Resonant — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/matt/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+  "status": "candidate",
+  "sha256": "22e24494cec807fa49d802d1d5ab1eeb03ea04b97a05d5b69d3fb19f1f6850e6",
+  "durationSeconds": 1.253877551020408,
+  "text": "Ask them first.",
+  "credits": 15,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+    "voiceName": "Roger - Laid-Back, Casual, Resonant",
+    "prompt": "Ask them first.",
+    "scriptSource": "wiki/site/comic-story.md",
+    "settingsPreset": "provider-default",
+    "generationId": "CSnN9LKjnpgqC4BDx8xc",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

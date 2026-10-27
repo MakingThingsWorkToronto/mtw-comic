@@ -1,0 +1,133 @@
+/* Header.
+   Layout and size: `body > header` in samples/work-field-v1 (index.html + css/site.css).
+   Look (glass, blur, border, colours, type weights, link states): codex-shared/base.css .site-header,
+   .header-nav, .nav-contact, .wordmark and the .mobile-menu panel.
+
+   ---------- Shared presentation alignment (Matt, 2026-10-09) ----------
+   Ordinary pages use the page column. Comics use their measured canvas margins; expanded Task Fields and Diagram
+   Tours use the full-window inset (24px desktop, 16px phone). site.js observes the actual component progress.
+   Scroll/fold progress stays direct. Comic entry/exit uses 360ms; launched presentations use their existing 560ms
+   easing. Reduced motion uses final alignment immediately. The actual header lives inside a launched modal until
+   close, so logo, navigation and the existing close control remain accessible together. */
+
+.site-header {
+  position: fixed; inset: 0 0 auto 0; z-index: 70;
+  height: var(--header-h);                                   /* v1: 64px */
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; /* v1 */
+  --header-gutter-page: var(--page-inset);                    /* the centered .page-shell frame */
+  --header-gutter-full: 24px;                                /* v1 */
+  padding-block: 0;
+  padding-inline-start: calc(var(--header-gutter-page) + (var(--header-full-left, var(--header-gutter-full)) - var(--header-gutter-page)) * var(--header-expand, 0));
+  padding-inline-end: calc(var(--header-gutter-page) + (var(--header-full-right, var(--header-gutter-full)) - var(--header-gutter-page)) * var(--header-expand, 0));
+  background: linear-gradient(#0a1114ee, #0a111499);         /* codex */
+  backdrop-filter: blur(18px);                               /* codex (no -webkit- copy: the minifier would keep only that one) */
+  border-bottom: 1px solid var(--line);                      /* codex */
+  color: var(--paper);
+}
+.site-header[data-presentation-timed='true'] { transition: padding-inline-start .36s cubic-bezier(.16, 1, .3, 1), padding-inline-end .36s cubic-bezier(.16, 1, .3, 1); }
+.site-header[data-presentation='aside'] { transition-duration: .56s; }
+.site-header[data-tour-header] { z-index: 95; grid-template-columns: auto 1fr auto auto; gap: 12px; }
+.site-header > .diagram-aside-layer__close { grid-column: 4; padding: 8px; width: 40px; height: 40px; justify-content: center; }
+@media (max-width: 899px) { .site-header[data-tour-header] { grid-template-columns: 1fr auto auto; gap: 6px; } .site-header > .diagram-aside-layer__close { grid-column: 3; } }
+
+/* Brand: v1 layout (one line, 30px mark, 10px gap, 22px, 1px tracking); codex wordmark look. */
+.brand { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; white-space: nowrap; flex-shrink: 0;
+  font-family: var(--display); font-size: 22px; font-weight: 700; letter-spacing: 1px; line-height: 1; }
+.brand .brand-mark { height: 30px; width: auto; flex: none; }
+.brand em { font-style: normal; color: var(--teal-light); }
+
+.site-nav { grid-column: 3; justify-self: end; }
+.site-nav > ul { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: 4px; }
+.site-nav li { margin: 0; }
+.site-nav a, .site-nav button {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 14px; line-height: 1; color: inherit; text-decoration: none;
+  padding: 10px 12px; min-height: 40px; border: 0; border-radius: 3px; background: none; cursor: pointer;
+}
+.site-nav a:hover, .site-nav button:hover, .site-nav a[aria-current='page'] { color: var(--teal-light); }
+.site-nav a[aria-current='page'] { text-decoration: underline; text-underline-offset: 8px; }
+.site-nav .nav-contact { margin-left: 8px; padding: 10px 20px; border: 1px solid #ffffff55; }
+.site-nav .nav-contact:hover { background: var(--paper); color: var(--ink) !important; }
+
+/* Services: crawlable link plus a disclosure button for the submenu. */
+.site-nav .menu { position: relative; display: flex; align-items: center; }
+.site-nav .menu > a { padding-right: 4px; }
+.site-nav .menu-toggle { padding: 10px 8px; }
+.site-nav .menu-toggle svg { width: 12px; height: 12px; transition: transform .2s; }
+.site-nav .menu[data-open='true'] .menu-toggle svg { transform: rotate(180deg); }
+.menu-panel {
+  position: absolute; right: 0; top: calc(100% + 6px); min-width: 260px;   /* v1 */
+  padding: 8px; margin: 0; list-style: none; display: none; flex-direction: column; gap: 2px;
+  background: #142328f5; border: 1px solid var(--line); box-shadow: 0 20px 40px #0008; /* codex menu panel */
+  backdrop-filter: blur(18px); /* codex header blur, so page text does not show through */
+}
+.site-nav .menu[data-open='true'] .menu-panel { display: flex; }
+.menu-panel a { display: flex; width: 100%; padding: 10px 12px; min-height: 44px; }
+
+/* ---------- Services mega menu (Matt, 2026-09-24) ----------
+   Desktop: a full-width panel under the header, over the page, with one column per section: the section's holo image
+   (faded into the panel like the page heroes), a two-colour heading linking to the overview, and every service.
+   The header's backdrop-filter makes it the containing block, so the fixed panel sits directly beneath it.
+   Mobile: the groups are collapsible menus inside the menu list; no images. */
+@media (min-width: 900px) {
+  .site-nav .menu { position: static; }
+  .menu-panel.mega {
+    position: fixed; left: 0; right: 0; top: var(--header-h); min-width: 0;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px;
+    padding: 32px var(--page-inset) 40px; border: 0; border-bottom: 1px solid var(--line);
+    background: #0d171b; box-shadow: 0 30px 60px #000a;  /* opaque: page text must not show through */
+    max-height: calc(100vh - var(--header-h)); overflow: auto;
+  }
+  .site-nav .menu[data-open='true'] .menu-panel.mega { display: grid; }
+  .mega-col { display: flex; flex-direction: column; min-width: 0; }
+  .mega-col__head { display: flex; align-items: center; }
+  .site-nav .mega-col__title { display: block; font: 600 34px/1.05 var(--display); letter-spacing: -.015em; padding: 4px 0; min-height: 0; width: auto; }
+  .site-nav .mega-col__title .accent { color: var(--teal-light); }
+  .site-nav .mega-col__title:hover { color: var(--paper); }
+  .site-nav .mega-col__title:hover .accent { color: var(--paper); }
+  .mega-col__toggle { display: none !important; }
+  .mega-col__links { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 0; }
+  .site-nav .mega-col__links a { padding: 10px 0; font-size: 15px; color: #d0dadb; }
+  .site-nav .mega-col__links a:hover { color: var(--teal-light); }
+}
+
+
+.site-nav .nav-toggle { display: none; }
+
+/* The page column is 25px at 850px and below (base.css .page-shell), which is the header's page-column gutter too.
+   This is the page's breakpoint, not the header's 899px layout breakpoint: the two are separate. */
+@media (max-width: 850px) { .site-header { --header-gutter-page: 25px; } }
+
+@media (max-width: 899px) {                                   /* v1 breakpoint */
+  .site-header { grid-template-columns: 1fr auto; --header-gutter-full: 16px; }   /* v1; no rail row */
+  .site-nav { grid-column: 2; }
+  .site-nav .nav-toggle { display: inline-flex; min-height: 44px; }
+  .site-nav > ul {
+    display: none; position: absolute; left: 0; right: 0; top: var(--header-h);
+    flex-direction: column; align-items: stretch; gap: 0; padding: 16px;
+    /* codex panel colour made opaque: inside the blurred header a nested backdrop blur cannot see the page, so text showed through */
+    background: #142328; border-bottom: 1px solid var(--line); box-shadow: 0 20px 40px #0008;
+    max-height: calc(100svh - var(--header-h)); overflow: auto;
+  }
+  .site-nav[data-open='true'] > ul { display: flex; }
+  .site-nav > ul > li > a { width: 100%; min-height: 44px; }
+  .site-nav .menu { flex-wrap: wrap; }
+  .site-nav .menu > a { flex: 1; }
+  .site-nav .menu-toggle { min-height: 44px; min-width: 44px; justify-content: center; }
+  .menu-panel { position: static; flex-basis: 100%; border: 0; padding: 0 0 0 16px; min-width: 0; box-shadow: none; background: transparent; backdrop-filter: none; }
+  /* Mega menu on mobile: each section is a collapsible group. */
+  .mega-col__head { display: flex; align-items: center; }
+  .site-nav .mega-col__title { display: block; flex: 1; font-weight: 600; }
+  .site-nav .mega-col__title .accent { color: inherit; }
+  .site-nav .mega-col__toggle { min-height: 44px; min-width: 44px; justify-content: center; }
+  .mega-col__toggle svg { width: 12px; height: 12px; transition: transform .2s; }
+  .mega-col[data-open='true'] .mega-col__toggle svg { transform: rotate(180deg); }
+  .mega-col__links { list-style: none; margin: 0; padding: 0 0 8px 16px; display: none; flex-direction: column; }
+  .mega-col[data-open='true'] .mega-col__links { display: flex; }
+  .site-nav .nav-contact { margin: 8px 0 0; justify-content: flex-start; }
+  }
+
+/* Reduced motion uses the final presentation alignment immediately. */
+@media (prefers-reduced-motion: reduce) {
+  .site-header[data-presentation-timed='true'] { transition: none; }
+}

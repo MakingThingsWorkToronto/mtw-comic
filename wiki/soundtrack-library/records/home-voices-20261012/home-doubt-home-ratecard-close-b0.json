@@ -1,0 +1,13 @@
+{
+  "id": "home-doubt-home-ratecard-close-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Wait. Which rate card?",
+  "historyItemId": "dsyUDoHuyGUJOdtatJdQ",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "58e0e58f16b6db021a492e88b26cfdcbaaee04f4f92b5447714b3a1378e0ced0",
+  "createdAt": "2026-10-12T06:21:56.324Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

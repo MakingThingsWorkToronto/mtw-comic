@@ -1,0 +1,13 @@
+{
+  "id": "home-access-check-home-process-permissions-b1",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "This account reads agreed sources and writes drafts.",
+  "historyItemId": "mhZkdwonvqSn8s3Jzdm3",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "3be90fa603a14e9475204b9ee5b223715f0a4d0912146aa977b677b8e92c945b",
+  "createdAt": "2026-10-12T06:22:00.259Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

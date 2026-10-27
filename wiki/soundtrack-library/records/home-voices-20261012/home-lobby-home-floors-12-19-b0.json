@@ -1,0 +1,13 @@
+{
+  "id": "home-lobby-home-floors-12-19-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Tell me what you signed. I'll write it down.",
+  "historyItemId": "sZn3kiHFpHjg5ZyVmwhg",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "2b82e37c746f5861603a8a228efb1bf1786467858e92a671eb3da787d4f0fb5b",
+  "createdAt": "2026-10-12T06:22:00.618Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

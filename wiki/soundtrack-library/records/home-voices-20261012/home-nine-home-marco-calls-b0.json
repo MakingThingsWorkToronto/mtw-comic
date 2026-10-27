@@ -1,0 +1,13 @@
+{
+  "id": "home-nine-home-marco-calls-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Before you sign. The first number was wrong.",
+  "historyItemId": "p8T2BCMTSi5oqWfovAl6",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "0d0e286c4e2ae323f104c853140a92c9e169a58a2c6b342306edf87fe4ba81f5",
+  "createdAt": "2026-10-12T06:22:00.731Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

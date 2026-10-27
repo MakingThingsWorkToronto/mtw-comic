@@ -1,0 +1,1630 @@
+{
+ "measured": "2026-09-28",
+ "method": "Recursive XY-cut on raw pixels with sharp (gutter rows/columns >= 92% paper or black), then 5% grid overlays read by eye for insets, the stepped column and borderless panels. Rects are [x, y, w, h] in page fractions of each portrait reference page; balloon boxes the same.",
+ "references": {
+  "xmen-132": {
+   "title": "Uncanny X-Men #132 (1980)",
+   "file": "3f8e7bfde3518d8b35330f5d8f9bbf4426-1980-uncanny-x-men-132.w426.webp",
+   "aspect": 0.678,
+   "gutter": "white, 1.2%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0.02,
+      0.01,
+      0.77,
+      0.26
+     ],
+     "open": true,
+     "shot": "borderless toast row: four hands raise glasses across the width, the hostess centre right; one long balloon runs the full width from off panel",
+     "balloons": [
+      [
+       0.2,
+       0.01,
+       0.35,
+       0.07
+      ],
+      [
+       0.3,
+       0.06,
+       0.18,
+       0.05
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "r": [
+      0.79,
+      0.01,
+      0.19,
+      0.05
+     ],
+     "shot": "tiny corner panel holding only a shout balloon",
+     "balloons": [
+      [
+       0.8,
+       0.015,
+       0.17,
+       0.04
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "r": [
+      0.79,
+      0.1,
+      0.19,
+      0.17
+     ],
+     "shot": "close on one raised hand and glass, cropped by the border"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.02,
+      0.275,
+      0.96,
+      0.03
+     ],
+     "caption": true,
+     "shot": "full-width yellow caption strip over the row"
+    },
+    {
+     "n": 5,
+     "r": [
+      0.02,
+      0.3,
+      0.23,
+      0.19
+     ],
+     "shot": "first of four equal small beats: machinery, water pouring"
+    },
+    {
+     "n": 6,
+     "r": [
+      0.26,
+      0.3,
+      0.23,
+      0.19
+     ],
+     "shot": "second beat: a hand breaks the surface"
+    },
+    {
+     "n": 7,
+     "r": [
+      0.5,
+      0.3,
+      0.23,
+      0.19
+     ],
+     "shot": "third beat: the fist rises, SFX crosses the border"
+    },
+    {
+     "n": 8,
+     "r": [
+      0.74,
+      0.3,
+      0.24,
+      0.19
+     ],
+     "shot": "fourth beat: the figure hauls out"
+    },
+    {
+     "n": 9,
+     "r": [
+      0.02,
+      0.5,
+      0.96,
+      0.41
+     ],
+     "shot": "splash, 41% of the page: the hero erupts from the water, balloons top left",
+     "balloons": [
+      [
+       0.15,
+       0.55,
+       0.15,
+       0.06
+      ],
+      [
+       0.1,
+       0.59,
+       0.12,
+       0.04
+      ]
+     ]
+    },
+    {
+     "n": 10,
+     "r": [
+      0.02,
+      0.92,
+      0.96,
+      0.07
+     ],
+     "footer": true,
+     "shot": "red NEXT footer band, NEXT stacked vertically in an arrow notch, starburst at the end"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  "crisis-8": {
+   "title": "Crisis on Infinite Earths #8 (1985), page 23",
+   "file": "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp",
+   "aspect": 0.67,
+   "gutter": "white, 1.5%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0.02,
+      0.01,
+      0.2,
+      0.47
+     ],
+     "shot": "tall left column: a face screaming at top, a giant armoured hand below"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.23,
+      0.01,
+      0.55,
+      0.47
+     ],
+     "shot": "big burst of light filling the centre; the stepped time column runs through it; NOOOO lettering across the foot"
+    },
+    {
+     "n": 3,
+     "r": [
+      0.02,
+      0.01,
+      0.16,
+      0.12
+     ],
+     "inset": true,
+     "shot": "stepped inset 1, largest, top left"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.19,
+      0.07,
+      0.13,
+      0.1
+     ],
+     "inset": true,
+     "shot": "stepped inset 2"
+    },
+    {
+     "n": 5,
+     "r": [
+      0.33,
+      0.12,
+      0.1,
+      0.08
+     ],
+     "inset": true,
+     "shot": "stepped inset 3"
+    },
+    {
+     "n": 6,
+     "r": [
+      0.42,
+      0.16,
+      0.09,
+      0.07
+     ],
+     "inset": true,
+     "shot": "stepped inset 4"
+    },
+    {
+     "n": 7,
+     "r": [
+      0.5,
+      0.2,
+      0.08,
+      0.06
+     ],
+     "inset": true,
+     "shot": "stepped inset 5, smallest, dissolving into the light"
+    },
+    {
+     "n": 8,
+     "r": [
+      0.79,
+      0.02,
+      0.19,
+      0.46
+     ],
+     "shot": "tall right column: rubble and lightning falling"
+    },
+    {
+     "n": 9,
+     "r": [
+      0.01,
+      0.5,
+      0.98,
+      0.14
+     ],
+     "open": true,
+     "shot": "wide band: a black silhouette on a rubble strip against magenta flame (the silhouette beat)"
+    },
+    {
+     "n": 10,
+     "r": [
+      0.01,
+      0.65,
+      0.18,
+      0.34
+     ],
+     "shot": "bottom tier beat 1: wreckage, caption boxes top and bottom"
+    },
+    {
+     "n": 11,
+     "r": [
+      0.2,
+      0.65,
+      0.15,
+      0.34
+     ],
+     "shot": "bottom tier beat 2: legs and a fallen glove"
+    },
+    {
+     "n": 12,
+     "r": [
+      0.36,
+      0.65,
+      0.15,
+      0.34
+     ],
+     "shot": "bottom tier beat 3: an emblem on the ground"
+    },
+    {
+     "n": 13,
+     "r": [
+      0.52,
+      0.65,
+      0.23,
+      0.34
+     ],
+     "shot": "bottom tier beat 4: the villain2019s grinning face from below"
+    },
+    {
+     "n": 14,
+     "r": [
+      0.76,
+      0.65,
+      0.23,
+      0.34
+     ],
+     "shot": "bottom tier beat 5: black silhouette with two glowing eyes"
+    }
+   ],
+   "order": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    2,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  "xmen-137": {
+   "title": "Uncanny X-Men #137 (1980)",
+   "file": "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+   "aspect": 0.678,
+   "gutter": "white, 1.6%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0.02,
+      0.01,
+      0.96,
+      0.25
+     ],
+     "shot": "wide dark tier: two small figures left, a huge machine right, dense balloons across the top"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.02,
+      0.27,
+      0.27,
+      0.43
+     ],
+     "shot": "tall emotional close-up: a face with a tear, hand raised, balloons stacked narrow down the left"
+    },
+    {
+     "n": 3,
+     "r": [
+      0.3,
+      0.27,
+      0.22,
+      0.43
+     ],
+     "shot": "tall close-up: an anguished face under a visor, mouth open"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.53,
+      0.27,
+      0.45,
+      0.43
+     ],
+     "shot": "big white-out: a figure dissolving to outline in a blast of light, a shout at top and bottom"
+    },
+    {
+     "n": 5,
+     "r": [
+      0.02,
+      0.72,
+      0.31,
+      0.26
+     ],
+     "shot": "bottom beat: kneeling close-up, long balloon across the top"
+    },
+    {
+     "n": 6,
+     "r": [
+      0.34,
+      0.72,
+      0.31,
+      0.26
+     ],
+     "shot": "bottom beat: a small figure kneeling in a wide empty space"
+    },
+    {
+     "n": 7,
+     "r": [
+      0.66,
+      0.72,
+      0.32,
+      0.26
+     ],
+     "shot": "bottom beat: a small figure lying beside a glowing light, a quiet balloon"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  "alltime-15": {
+   "title": "AllTime Comics #15",
+   "file": "AllTime-Comics-15.jpg",
+   "aspect": 0.65,
+   "gutter": "cream paper, 2.3%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0.04,
+      0.04,
+      0.3,
+      0.3
+     ],
+     "shot": "close-up 1 of an escalating row: a face in fear, hands on the shoulders"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.36,
+      0.04,
+      0.29,
+      0.3
+     ],
+     "shot": "close-up 2: tighter, the scream begins"
+    },
+    {
+     "n": 3,
+     "r": [
+      0.67,
+      0.04,
+      0.3,
+      0.3
+     ],
+     "shot": "close-up 3: extreme, the face fills the panel"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.04,
+      0.35,
+      0.45,
+      0.29
+     ],
+     "shot": "the hero stricken, yellow caption across the top, green backdrop"
+    },
+    {
+     "n": 5,
+     "r": [
+      0.51,
+      0.35,
+      0.45,
+      0.29
+     ],
+     "shot": "extreme close on a screaming mouth and a lighter flame"
+    },
+    {
+     "n": 6,
+     "r": [
+      0.04,
+      0.65,
+      0.46,
+      0.3
+     ],
+     "shot": "the hero powering up, yellow caption top, radiating lines"
+    },
+    {
+     "n": 7,
+     "r": [
+      0.51,
+      0.65,
+      0.45,
+      0.3
+     ],
+     "shot": "a figure consumed, WHOOOSH lettering breaking the art"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  "spiderman-33": {
+   "title": "The Amazing Spider-Man #33 (1966)",
+   "file": "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+   "aspect": 0.679,
+   "gutter": "white, 1.4%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0,
+      0,
+      0.49,
+      0.22
+     ],
+     "shot": "one figure pinned under an enormous weight, wide"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.51,
+      0,
+      0.49,
+      0.22
+     ],
+     "shot": "the same figure, closer, straining"
+    },
+    {
+     "n": 3,
+     "r": [
+      0,
+      0.23,
+      0.49,
+      0.33
+     ],
+     "shot": "closer again, head down"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.51,
+      0.23,
+      0.49,
+      0.33
+     ],
+     "shot": "the weight shifts, the figure pushes"
+    },
+    {
+     "n": 5,
+     "r": [
+      0,
+      0.57,
+      0.49,
+      0.43
+     ],
+     "shot": "close on the effort, water pouring"
+    },
+    {
+     "n": 6,
+     "r": [
+      0.51,
+      0.57,
+      0.49,
+      0.43
+     ],
+     "shot": "the figure alone, dizzy, the weight still there"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "avengers-slam": {
+   "title": "Avengers (1960s-70s), \"SLAM!\" page",
+   "file": "images.jpg",
+   "aspect": 0.667,
+   "gutter": "white, 1.6%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0.02,
+      0.01,
+      0.48,
+      0.48
+     ],
+     "shot": "figures burst in from above; a giant yellow hand in the foreground for scale"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.51,
+      0.01,
+      0.48,
+      0.48
+     ],
+     "shot": "impact close-up on a face, diagonal speed lines, BRAKK lettering"
+    },
+    {
+     "n": 3,
+     "r": [
+      0.02,
+      0.5,
+      0.47,
+      0.5
+     ],
+     "shot": "a black figure lunges down onto another, SLAM at the foot"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.51,
+      0.5,
+      0.48,
+      0.49
+     ],
+     "shot": "dense dialogue: a figure looms over a fallen one, balloons stacked on both sides"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "darkseid": {
+   "title": "X-Men and Teen Titans crossover (1982), Darkseid page",
+   "file": "swwvm51dxbrh1.jpg",
+   "aspect": 0.746,
+   "gutter": "white, 1.2%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0.04,
+      0,
+      0.9,
+      0.31
+     ],
+     "shot": "two long reaching hands across a halftone field, almost touching"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.64,
+      0.09,
+      0.27,
+      0.19
+     ],
+     "inset": true,
+     "shot": "inset close-up of the hero2019s face in profile over the hands, a shout below"
+    },
+    {
+     "n": 3,
+     "r": [
+      0.04,
+      0.315,
+      0.9,
+      0.135
+     ],
+     "shot": "wide strip: the villain faces the heroine across a burst of light"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.04,
+      0.46,
+      0.36,
+      0.2
+     ],
+     "shot": "small quiet close-up: a bowed head, one word"
+    },
+    {
+     "n": 5,
+     "r": [
+      0.04,
+      0.67,
+      0.36,
+      0.33
+     ],
+     "shot": "figures lying on slabs seen from above; a long caption across the top"
+    },
+    {
+     "n": 6,
+     "r": [
+      0.41,
+      0.46,
+      0.53,
+      0.54
+     ],
+     "shot": "big: the villain2019s monologue against a city being torn apart, his huge head in profile right"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "superman": {
+   "title": "Modern Superman page",
+   "file": "1702654463856e_800x800.webp",
+   "aspect": 1,
+   "gutter": "black, 2.1%",
+   "panels": [
+    {
+     "n": 1,
+     "r": [
+      0,
+      0.025,
+      0.53,
+      0.23
+     ],
+     "shot": "wide city establishing shot, the figure small, flying in"
+    },
+    {
+     "n": 2,
+     "r": [
+      0.55,
+      0.025,
+      0.45,
+      0.23
+     ],
+     "shot": "the figure flying toward camera, cape spread"
+    },
+    {
+     "n": 3,
+     "r": [
+      0.02,
+      0.275,
+      0.95,
+      0.36
+     ],
+     "shot": "heroic close-up, face and shoulder filling the width"
+    },
+    {
+     "n": 4,
+     "r": [
+      0.02,
+      0.655,
+      0.95,
+      0.32
+     ],
+     "shot": "high angle plunge down past towers, the figure small at right"
+    }
+   ],
+   "order": [
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ "landscapeTemplates": {
+  "x132": {
+   "from": "xmen-132",
+   "note": "The portrait page rotated into three landscape tiers: the borderless toast row with its corner beats, the row of four equal beats, the splash.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      0.62,
+      0.34
+     ],
+     "xmen-132 panel 1",
+     {
+      "open": true
+     }
+    ],
+    [
+     [
+      0.62,
+      0,
+      0.38,
+      0.13
+     ],
+     "xmen-132 panel 2",
+     {}
+    ],
+    [
+     [
+      0.62,
+      0.13,
+      0.38,
+      0.21
+     ],
+     "xmen-132 panel 3",
+     {}
+    ],
+    [
+     [
+      0,
+      0.34,
+      0.22,
+      0.24
+     ],
+     "xmen-132 panel 5",
+     {}
+    ],
+    [
+     [
+      0.22,
+      0.34,
+      0.3,
+      0.24
+     ],
+     "xmen-132 panel 6",
+     {}
+    ],
+    [
+     [
+      0.52,
+      0.34,
+      0.2,
+      0.24
+     ],
+     "xmen-132 panel 7",
+     {}
+    ],
+    [
+     [
+      0.72,
+      0.34,
+      0.28,
+      0.24
+     ],
+     "xmen-132 panel 8",
+     {}
+    ],
+    [
+     [
+      0,
+      0.58,
+      1,
+      0.42
+     ],
+     "xmen-132 panel 9",
+     {
+      "dominant": true
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ]
+   ]
+  },
+  "x132-rapid": {
+   "from": "xmen-132",
+   "note": "The portrait page rotated into three landscape tiers: the borderless toast row with its corner beats, the row of four equal beats, the splash. Its row of four stays equal: the issue2019s one rapid run.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      0.62,
+      0.34
+     ],
+     "xmen-132 panel 1",
+     {
+      "open": true
+     }
+    ],
+    [
+     [
+      0.62,
+      0,
+      0.38,
+      0.13
+     ],
+     "xmen-132 panel 2",
+     {}
+    ],
+    [
+     [
+      0.62,
+      0.13,
+      0.38,
+      0.21
+     ],
+     "xmen-132 panel 3",
+     {}
+    ],
+    [
+     [
+      0,
+      0.34,
+      0.25,
+      0.24
+     ],
+     "xmen-132 panel 5",
+     {
+      "rapid": true
+     }
+    ],
+    [
+     [
+      0.25,
+      0.34,
+      0.25,
+      0.24
+     ],
+     "xmen-132 panel 6",
+     {
+      "rapid": true
+     }
+    ],
+    [
+     [
+      0.5,
+      0.34,
+      0.25,
+      0.24
+     ],
+     "xmen-132 panel 7",
+     {
+      "rapid": true
+     }
+    ],
+    [
+     [
+      0.75,
+      0.34,
+      0.25,
+      0.24
+     ],
+     "xmen-132 panel 8",
+     {
+      "rapid": true
+     }
+    ],
+    [
+     [
+      0,
+      0.58,
+      1,
+      0.42
+     ],
+     "xmen-132 panel 9",
+     {
+      "dominant": true
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ]
+   ]
+  },
+  "crisis": {
+   "from": "crisis-8",
+   "note": "The top half of the Crisis page: tall columns either side of a burst with the stepped time column running through it, then the silhouette band.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      0.2,
+      0.64
+     ],
+     "crisis-8 panel 1",
+     {}
+    ],
+    [
+     [
+      0.2,
+      0,
+      0.58,
+      0.64
+     ],
+     "crisis-8 panel 2",
+     {
+      "dominant": true
+     }
+    ],
+    [
+     [
+      0.23,
+      0.04,
+      0.16,
+      0.19
+     ],
+     "crisis-8 panel 3",
+     {
+      "inset": true
+     }
+    ],
+    [
+     [
+      0.36,
+      0.2,
+      0.13,
+      0.16
+     ],
+     "crisis-8 panel 4",
+     {
+      "inset": true
+     }
+    ],
+    [
+     [
+      0.47,
+      0.33,
+      0.1,
+      0.13
+     ],
+     "crisis-8 panel 5",
+     {
+      "inset": true
+     }
+    ],
+    [
+     [
+      0.78,
+      0,
+      0.22,
+      0.64
+     ],
+     "crisis-8 panel 8",
+     {
+      "clip": [
+       [
+        0.1,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        0,
+        1
+       ]
+      ]
+     }
+    ],
+    [
+     [
+      0,
+      0.64,
+      1,
+      0.36
+     ],
+     "crisis-8 panel 9",
+     {
+      "open": true
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1,
+     5
+    ],
+    [
+     2,
+     3,
+     4
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  "x137": {
+   "from": "xmen-137",
+   "note": "The three tiers kept as they are: a wide dark tier, three tall emotional close-ups ending in a white-out, three quiet bottom beats.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      1,
+      0.27
+     ],
+     "xmen-137 panel 1",
+     {}
+    ],
+    [
+     [
+      0,
+      0.27,
+      0.25,
+      0.45
+     ],
+     "xmen-137 panel 2",
+     {}
+    ],
+    [
+     [
+      0.25,
+      0.27,
+      0.2,
+      0.45
+     ],
+     "xmen-137 panel 3",
+     {}
+    ],
+    [
+     [
+      0.45,
+      0.27,
+      0.55,
+      0.45
+     ],
+     "xmen-137 panel 4",
+     {
+      "dominant": true
+     }
+    ],
+    [
+     [
+      0,
+      0.72,
+      0.28,
+      0.28
+     ],
+     "xmen-137 panel 5",
+     {}
+    ],
+    [
+     [
+      0.28,
+      0.72,
+      0.4,
+      0.28
+     ],
+     "xmen-137 panel 6",
+     {}
+    ],
+    [
+     [
+      0.68,
+      0.72,
+      0.32,
+      0.28
+     ],
+     "xmen-137 panel 7",
+     {}
+    ]
+   ],
+   "tiers": [
+    [
+     0
+    ],
+    [
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ]
+  },
+  "alltime": {
+   "from": "alltime-15",
+   "note": "Three escalating close-ups across the top, then the page2019s four lower panels as a row.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      0.26,
+      0.47
+     ],
+     "alltime-15 panel 1",
+     {}
+    ],
+    [
+     [
+      0.26,
+      0,
+      0.31,
+      0.47
+     ],
+     "alltime-15 panel 2",
+     {}
+    ],
+    [
+     [
+      0.57,
+      0,
+      0.43,
+      0.47
+     ],
+     "alltime-15 panel 3",
+     {
+      "dominant": true
+     }
+    ],
+    [
+     [
+      0,
+      0.47,
+      0.21,
+      0.53
+     ],
+     "alltime-15 panel 4",
+     {}
+    ],
+    [
+     [
+      0.21,
+      0.47,
+      0.3,
+      0.53
+     ],
+     "alltime-15 panel 5",
+     {}
+    ],
+    [
+     [
+      0.51,
+      0.47,
+      0.22,
+      0.53
+     ],
+     "alltime-15 panel 6",
+     {}
+    ],
+    [
+     [
+      0.73,
+      0.47,
+      0.27,
+      0.53
+     ],
+     "alltime-15 panel 7",
+     {
+      "clip": [
+       [
+        0.1,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        0,
+        1
+       ]
+      ]
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5,
+     6
+    ]
+   ]
+  },
+  "spider": {
+   "from": "spiderman-33",
+   "note": "The 2 x 3 strain grid turned on its side: two uneven tiers whose columns change width as the weight shifts.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      0.26,
+      0.44
+     ],
+     "spiderman-33 panel 1",
+     {}
+    ],
+    [
+     [
+      0.26,
+      0,
+      0.33,
+      0.44
+     ],
+     "spiderman-33 panel 2",
+     {}
+    ],
+    [
+     [
+      0.59,
+      0,
+      0.41,
+      0.44
+     ],
+     "spiderman-33 panel 5",
+     {}
+    ],
+    [
+     [
+      0,
+      0.44,
+      0.38,
+      0.56
+     ],
+     "spiderman-33 panel 3",
+     {}
+    ],
+    [
+     [
+      0.38,
+      0.44,
+      0.27,
+      0.56
+     ],
+     "spiderman-33 panel 4",
+     {}
+    ],
+    [
+     [
+      0.65,
+      0.44,
+      0.35,
+      0.56
+     ],
+     "spiderman-33 panel 6",
+     {}
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "avengers": {
+   "from": "avengers-slam",
+   "note": "The four-panel action page with a diagonal cut, its bottom tier split into three, and the giant foreground hand as an inset that breaks the border.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      0.56,
+      0.52
+     ],
+     "avengers-slam panel 1",
+     {
+      "clip": [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        0
+       ],
+       [
+        0.9,
+        1
+       ],
+       [
+        0,
+        1
+       ]
+      ],
+      "dominant": true
+     }
+    ],
+    [
+     [
+      0.56,
+      0,
+      0.44,
+      0.52
+     ],
+     "avengers-slam panel 2",
+     {}
+    ],
+    [
+     [
+      0,
+      0.52,
+      0.26,
+      0.48
+     ],
+     "avengers-slam panel 3",
+     {}
+    ],
+    [
+     [
+      0.26,
+      0.52,
+      0.42,
+      0.48
+     ],
+     "avengers-slam panel 4",
+     {}
+    ],
+    [
+     [
+      0.68,
+      0.52,
+      0.32,
+      0.48
+     ],
+     "avengers-slam panel 4",
+     {}
+    ],
+    [
+     [
+      0.42,
+      0.3,
+      0.2,
+      0.34
+     ],
+     "avengers-slam panel 1 (the giant foreground hand)",
+     {
+      "inset": true,
+      "brk": true
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  "darkseid": {
+   "from": "darkseid",
+   "note": "Kept close to the original: the reaching hands with an inset face, the wide strip, a small close-up and a slab panel stacked beside the big monologue panel.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      1,
+      0.34
+     ],
+     "darkseid panel 1",
+     {}
+    ],
+    [
+     [
+      0.66,
+      0.04,
+      0.24,
+      0.26
+     ],
+     "darkseid panel 2",
+     {
+      "inset": true
+     }
+    ],
+    [
+     [
+      0,
+      0.34,
+      1,
+      0.16
+     ],
+     "darkseid panel 3",
+     {}
+    ],
+    [
+     [
+      0,
+      0.5,
+      0.38,
+      0.2
+     ],
+     "darkseid panel 4",
+     {}
+    ],
+    [
+     [
+      0,
+      0.7,
+      0.38,
+      0.3
+     ],
+     "darkseid panel 5",
+     {}
+    ],
+    [
+     [
+      0.38,
+      0.5,
+      0.62,
+      0.5
+     ],
+     "darkseid panel 6",
+     {
+      "dominant": true
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ]
+   ]
+  },
+  "superman": {
+   "from": "superman",
+   "note": "The one splash an issue: the establishing pair merged into one wide shot, the heroic close-up, the plunge bleeding off the page.",
+   "slots": [
+    [
+     [
+      0,
+      0,
+      1,
+      0.3
+     ],
+     "superman panels 1-2",
+     {}
+    ],
+    [
+     [
+      0,
+      0.3,
+      1,
+      0.34
+     ],
+     "superman panel 3",
+     {}
+    ],
+    [
+     [
+      0,
+      0.64,
+      1,
+      0.36
+     ],
+     "superman panel 4",
+     {
+      "open": true,
+      "dominant": true
+     }
+    ]
+   ],
+   "tiers": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ]
+  }
+ }
+}

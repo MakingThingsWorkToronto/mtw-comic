@@ -1,0 +1,13 @@
+{
+  "id": "home-connect-home-process-connect-b0",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Claude, Codex: connect to these workspaces. Build the procedures we’ve checked.",
+  "historyItemId": "zikeaqr83KBA5eQU2nKL",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "10b61f23746308d8ea2c75817ba26d785adf7087426792a9008c4fb884b11f9d",
+  "createdAt": "2026-10-12T06:21:59.896Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

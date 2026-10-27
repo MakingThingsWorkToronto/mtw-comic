@@ -1,0 +1,55 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "sam",
+  "scriptId": "character-read",
+  "scriptSource": "Issue 1, lobby",
+  "text": "Ours dropped\nthe safety clause.",
+  "textSha256": "d8423fefca6d7b6bd5468bccb3132d06eaa84c79873ccca7ffcb065b8fabdddf",
+  "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+  "voiceName": "Deep Voice",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "Ours dropped\nthe safety clause.",
+    "reference_id": "d4b22b66d7b44221a1360bff4a0b059e",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:14.816457+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 31,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:15.741902+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/sam/fish-v1-character-read.mp3",
+    "sha256": "8889e45260532c7314420ddeb641e9a1507eaf956bbc012c79feda4a1caf7ca7",
+    "bytes": 38033,
+    "durationSeconds": 2.377063
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/sam/fish-v1-character-read.mp3",
+  "sha256": "8889e45260532c7314420ddeb641e9a1507eaf956bbc012c79feda4a1caf7ca7"
+}

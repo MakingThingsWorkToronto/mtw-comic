@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "storyId": "fixture",
+  "storySource": {
+    "path": "site/after.ts",
+    "sha256": "ab803c1dfddcaef3f3df25a1257bff34c0fe74984a2f905958c39c6dae5ff716"
+  },
+  "librarySource": {
+    "path": "wiki/soundtrack-library/comic-audio.json",
+    "sha256": "c1353bdf0692480b5f6c72c2dcc00fe41d57f886c81b5467d8511b75a07f6cab"
+  },
+  "boxes": [
+    {
+      "sceneId": "first",
+      "panelId": "city",
+      "visualReview": {
+        "status": "inspected",
+        "observations": "Synthetic binding fixture, not actual pixels."
+      },
+      "visuals": [
+        {
+          "viewId": "master",
+          "path": "wiki/image-library/master.png",
+          "sha256": "7bf711fdbd0e39f10ab4b8946ddd873c0b9a6c95276f0bcc60d678ac2a5f6125"
+        }
+      ],
+      "decisionReason": "Frozen test inventory.",
+      "opportunityIds": [
+        "pass"
+      ],
+      "speech": [],
+      "selectedMedia": {
+        "art": "/comic/fixture",
+        "layers": [
+          {
+            "role": "background",
+            "src": "/comic/bg.png"
+          }
+        ]
+      }
+    },
+    {
+      "sceneId": "second",
+      "panelId": "desk",
+      "visualReview": {
+        "status": "inspected",
+        "observations": "Synthetic binding fixture, not actual pixels."
+      },
+      "visuals": [
+        {
+          "viewId": "master",
+          "path": "wiki/image-library/master.png",
+          "sha256": "7bf711fdbd0e39f10ab4b8946ddd873c0b9a6c95276f0bcc60d678ac2a5f6125"
+        }
+      ],
+      "decisionReason": "Frozen test inventory.",
+      "opportunityIds": [
+        "office-run"
+      ],
+      "speech": [],
+      "selectedMedia": {
+        "art": "/comic/fixture",
+        "layers": [
+          {
+            "role": "background",
+            "src": "/comic/bg.png"
+          }
+        ]
+      }
+    },
+    {
+      "sceneId": "second",
+      "panelId": "paper",
+      "visualReview": {
+        "status": "inspected",
+        "observations": "Synthetic binding fixture, not actual pixels."
+      },
+      "visuals": [
+        {
+          "viewId": "master",
+          "path": "wiki/image-library/master.png",
+          "sha256": "7bf711fdbd0e39f10ab4b8946ddd873c0b9a6c95276f0bcc60d678ac2a5f6125"
+        }
+      ],
+      "decisionReason": "Frozen test inventory.",
+      "opportunityIds": [
+        "office-run"
+      ],
+      "speech": [],
+      "selectedMedia": {
+        "art": "/comic/fixture",
+        "layers": [
+          {
+            "role": "background",
+            "src": "/comic/bg.png"
+          }
+        ]
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "pass",
+      "category": "action",
+      "rationale": "Synthetic single depicted passing transit.",
+      "anchors": [
+        {
+          "sceneId": "first",
+          "panelId": "city",
+          "viewId": "master",
+          "observation": "Synthetic passing transit."
+        }
+      ]
+    },
+    {
+      "id": "office-run",
+      "category": "ambient",
+      "segmentId": "one-office-run",
+      "rationale": "One continuous room, not two opportunities.",
+      "anchors": [
+        {
+          "sceneId": "second",
+          "panelId": "desk",
+          "viewId": "master",
+          "observation": "Synthetic office desk."
+        },
+        {
+          "sceneId": "second",
+          "panelId": "paper",
+          "viewId": "master",
+          "observation": "Synthetic same office paper."
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "opportunityId": "pass",
+      "state": "authored",
+      "reason": "One saved recipe.",
+      "cue": {
+        "libraryRecordId": "transit",
+        "source": "panel-sfx",
+        "sceneId": "first",
+        "panelId": "city",
+        "cueIndex": 0,
+        "startBeat": 5,
+        "endBeat": 9,
+        "gain": 0.15,
+        "fadeInBeats": 0,
+        "fadeOutBeats": 1,
+        "reuseReason": "Existing recipe.",
+        "mixReason": "Bounded."
+      }
+    },
+    {
+      "opportunityId": "office-run",
+      "state": "authored",
+      "reason": "One room recording.",
+      "cue": {
+        "libraryRecordId": "office",
+        "source": "panel-room",
+        "sceneId": "second",
+        "panelId": "desk",
+        "room": "office",
+        "startBeat": 13,
+        "endBeat": 30,
+        "gain": 0.07,
+        "fadeInBeats": 1,
+        "fadeOutBeats": 1,
+        "reuseReason": "Existing room.",
+        "mixReason": "Quiet."
+      }
+    }
+  ],
+  "qualityReview": {
+    "listening": "pending",
+    "nativeTiming": "pending",
+    "humanApproval": false
+  },
+  "rebind": {
+    "originalAudit": {
+      "path": "C:\\Code\\MTWWebsite-clean\\.codex\\skills\\mtw-comic-story\\scripts\\fixture-runs\\run-cu1Gts\\original.json",
+      "sha256": "3deb673bf694a6f8ac4ec632f8409bae382d9042ab27d79f9eefe068201865ac"
+    },
+    "originalSource": {
+      "path": "site/before.ts",
+      "sha256": "12d58ddd47e463be5caa2d6ab29c34114377db80ee975c66ce3e78064e243a33"
+    },
+    "retainedBeforeSource": {
+      "path": "site/before.ts",
+      "sha256": "12d58ddd47e463be5caa2d6ab29c34114377db80ee975c66ce3e78064e243a33"
+    },
+    "currentSource": {
+      "path": "site/after.ts",
+      "sha256": "ab803c1dfddcaef3f3df25a1257bff34c0fe74984a2f905958c39c6dae5ff716"
+    },
+    "originalLibrary": {
+      "path": "wiki/soundtrack-library/comic-audio.json",
+      "sha256": "c1353bdf0692480b5f6c72c2dcc00fe41d57f886c81b5467d8511b75a07f6cab"
+    },
+    "currentLibrary": {
+      "path": "wiki/soundtrack-library/comic-audio.json",
+      "sha256": "c1353bdf0692480b5f6c72c2dcc00fe41d57f886c81b5467d8511b75a07f6cab"
+    },
+    "originalSemanticSnapshotSha256": "630203c8ba6ceada23e0b530cd23a521aef8b96b56916acc8d95cf586468c6a6",
+    "currentSemanticSnapshotSha256": "16b630ad430aab817466affb7c8ccd2e4cea9969720f95dab9a58e8a55ab0747",
+    "successorSha256": null,
+    "originalQualityReview": {
+      "listening": "heard-historical-only",
+      "nativeTiming": "historical-only"
+    },
+    "standing": "Geometry/clock rebind only; denominator preserved; master inspections retained; hearing/native/human approval pending",
+    "result": {
+      "storyId": "fixture",
+      "boxes": 3,
+      "denominator": 2,
+      "covered": 2,
+      "ratio": 1,
+      "minimum": 0.5,
+      "quantityMet": true,
+      "pendingVisualBoxes": 0,
+      "intentionalSilence": 0,
+      "gatedOrUnavailableSpeech": 0,
+      "byCategory": {
+        "ambient": {
+          "eligible": 1,
+          "covered": 1
+        },
+        "action": {
+          "eligible": 1,
+          "covered": 1
+        },
+        "agent": {
+          "eligible": 0,
+          "covered": 0
+        }
+      },
+      "standing": "quantity only; hearing/native/approval separate",
+      "qualityReview": {
+        "listening": "pending",
+        "nativeTiming": "pending",
+        "humanApproval": false
+      }
+    }
+  }
+}

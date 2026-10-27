@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Chris - Charming, Down-to-Earth — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/marco/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "iP95p4xoKVk53GoZ742B",
+  "status": "candidate",
+  "sha256": "2176321f6c1943088941607210339f339b5f2c9af2577891fb0f854ad1cb25cd",
+  "durationSeconds": 2.2291156462585033,
+  "text": "The desks will be ready. Quote by midnight.",
+  "credits": 42.99999999999999,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "iP95p4xoKVk53GoZ742B",
+    "voiceName": "Chris - Charming, Down-to-Earth",
+    "prompt": "The desks will be ready. Quote by midnight.",
+    "scriptSource": "Issue 1, quote",
+    "settingsPreset": "provider-default",
+    "generationId": "itE1yKYDHRsgdlGIdcDk",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

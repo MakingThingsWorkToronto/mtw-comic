@@ -1,0 +1,55 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "rogue",
+  "scriptId": "character-read",
+  "scriptSource": "Issue 1, agent",
+  "text": "Contract updated.\nSending to\nall customers.",
+  "textSha256": "b0040e2bfceb96987959fdfb4ca26d9e4a4ce49ef4a21c719c2c2badf7ab57ec",
+  "voiceId": "9608a90883934a798d7169a1134e59ee",
+  "voiceName": "Resident evil",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "Contract updated.\nSending to\nall customers.",
+    "reference_id": "9608a90883934a798d7169a1134e59ee",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:16.314541+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 43,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:18.241546+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/rogue/fish-v1-character-read.mp3",
+    "sha256": "3d3af0ac104d16488b1f8719103b7475db5dd91e1d05dd429784e2e0703c9700",
+    "bytes": 84844,
+    "durationSeconds": 5.30275
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/rogue/fish-v1-character-read.mp3",
+  "sha256": "3d3af0ac104d16488b1f8719103b7475db5dd91e1d05dd429784e2e0703c9700"
+}

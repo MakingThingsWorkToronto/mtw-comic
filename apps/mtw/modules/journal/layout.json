@@ -1,0 +1,15 @@
+{
+  "module": ["waiting", "queue", "operations"],
+  "front": ["disagreements", "facts", "waiting"],
+  "queueTabs": ["queue", "published", "rejected"],
+  "entryTabs": ["status", "interview", "gates", "assets", "notes"],
+  "entrySections": {
+    "status": ["statusLine", "stages", "approval", "files", "measurements"],
+    "interview": ["framing", "questions", "raised", "rounds", "answers"],
+    "gates": ["gateTable", "verdict", "gateConfirm"],
+    "assets": ["immersive", "covers", "otherCover"],
+    "notes": ["draftNotes", "openQuestions"]
+  },
+  "concept": ["proposal", "stages", "approveHeadline", "answers"],
+  "operations": ["journal", "column"]
+}

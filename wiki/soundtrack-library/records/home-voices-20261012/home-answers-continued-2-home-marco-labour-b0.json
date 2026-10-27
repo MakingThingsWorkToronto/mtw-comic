@@ -1,0 +1,13 @@
+{
+  "id": "home-answers-continued-2-home-marco-labour-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Labour was missing. Forty hours.",
+  "historyItemId": "LeFs968HZhcSOoZFsRZz",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "2b6ef6be96479ad76a0175ac7bb694bee2e39977a3bafcd881e8945c8d29f003",
+  "createdAt": "2026-10-12T06:21:58.985Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

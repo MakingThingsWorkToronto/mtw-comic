@@ -1,0 +1,13 @@
+{
+  "id": "home-codex-home-codex-reaches-b2",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Fix the quote. All of it.",
+  "historyItemId": "OwHKS4byTGOJkvw5fwqe",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "73e82b6c0bdd108a218cbbb1499833a06209bd5fe5742b851e3b5af697053b04",
+  "createdAt": "2026-10-12T06:21:58.530Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

@@ -1,0 +1,5597 @@
+[
+ {
+  "id": 0,
+  "page": "97e641f3.png",
+  "src": "cand1",
+  "kind": "cluster",
+  "bbox": [
+   31,
+   28,
+   803,
+   242
+  ],
+  "cap_px": 14,
+  "lines": 11,
+  "lead_cap": 1.29,
+  "lineW_cap": [
+   55.6,
+   55.1,
+   54,
+   44.1,
+   7.4,
+   14.9,
+   15.6,
+   16.3,
+   17.5,
+   14.9,
+   13.4
+  ],
+  "text_cap": [
+   55.7,
+   14.3
+  ],
+  "outer_cap": [
+   57.3,
+   17.2
+  ],
+  "pad_cap": {
+   "l": 0.57,
+   "r": 1,
+   "t": 0.57,
+   "b": 2.36
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 27.23,
+   "b_cap": 6.51,
+   "aspect": 4.18,
+   "resid_med_cap": 8.117,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     8.25,
+     5.57,
+     3.89,
+     0.54
+    ],
+    "dirDeg": 137,
+    "len_cap": 5.73,
+    "baseW_frac": 0.249,
+    "span_deg": 111,
+    "tipOffset_deg": 41
+   },
+   {
+    "prof_cap": [
+     7.29,
+     7.04,
+     6.79,
+     6.57
+    ],
+    "dirDeg": 215,
+    "len_cap": 4.23,
+    "baseW_frac": 0.247,
+    "span_deg": 93,
+    "tipOffset_deg": -46
+   }
+  ],
+  "stroke_px": {
+   "med": 10,
+   "cv": 0.46
+  },
+  "stroke_cap": 0.714,
+  "rough_cap": 0.06,
+  "peaks": 5,
+  "butt": {
+   "top": 0.75,
+   "bottom": 0,
+   "left": 0.03,
+   "right": 0.02
+  },
+  "fill": "#f1f1f1",
+  "fillLumSD": 19.1,
+  "fillRatio": 0.51
+ },
+ {
+  "id": 1,
+  "page": "97e641f3.png",
+  "src": "cand2",
+  "kind": "caption",
+  "bbox": [
+   1008,
+   354,
+   218,
+   110
+  ],
+  "cap_px": 14,
+  "lines": 5,
+  "lead_cap": 1.29,
+  "lineW_cap": [
+   13.1,
+   11.1,
+   11.4,
+   12.4,
+   10.1
+  ],
+  "text_cap": [
+   13.4,
+   6.2
+  ],
+  "outer_cap": [
+   15.5,
+   7.8
+  ],
+  "pad_cap": {
+   "l": 0.86,
+   "r": 1.21,
+   "t": 0.57,
+   "b": 1
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 7.81,
+   "b_cap": 3.89,
+   "aspect": 2.01,
+   "resid_med_cap": 0.22,
+   "padX_cap": 1.1,
+   "padY_cap": 0.78
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 11,
+   "cv": 0.42
+  },
+  "stroke_cap": 0.786,
+  "rough_cap": 0.036,
+  "peaks": 4,
+  "butt": {
+   "top": 0.22,
+   "bottom": 0.01,
+   "left": 0.09,
+   "right": 0.47
+  },
+  "fill": "#eae619",
+  "fillLumSD": 23.1,
+  "fillRatio": 0.97
+ },
+ {
+  "id": 2,
+  "page": "97e641f3.png",
+  "src": "cand3",
+  "kind": "chain",
+  "bbox": [
+   31,
+   516,
+   151,
+   295
+  ],
+  "cap_px": 14,
+  "lines": 10,
+  "lead_cap": 1.36,
+  "lineW_cap": [
+   6.5,
+   8.5,
+   6.5,
+   8.5,
+   5.4,
+   5.9,
+   6.6,
+   4.6,
+   4.8,
+   3.9
+  ],
+  "text_cap": [
+   8.6,
+   15.4
+  ],
+  "outer_cap": [
+   10.7,
+   21
+  ],
+  "pad_cap": {
+   "l": 0.5,
+   "r": 1.64,
+   "t": 0.71,
+   "b": 4.93
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 3.66,
+   "b_cap": 8.93,
+   "aspect": 0.41,
+   "resid_med_cap": 0.728,
+   "padX_cap": -0.63,
+   "padY_cap": 1.25
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     8.36,
+     7.29,
+     6.64,
+     6
+    ],
+    "dirDeg": 71,
+    "len_cap": 2.25,
+    "baseW_frac": 0.653,
+    "span_deg": 49,
+    "tipOffset_deg": 14
+   },
+   {
+    "prof_cap": [
+     8.29,
+     7.21,
+     5.75,
+     4.14
+    ],
+    "dirDeg": 120,
+    "len_cap": 4.68,
+    "baseW_frac": 0.876,
+    "span_deg": 84,
+    "tipOffset_deg": -20
+   },
+   {
+    "prof_cap": [
+     9.68,
+     7.39,
+     5.32,
+     3.14
+    ],
+    "dirDeg": 241,
+    "len_cap": 4.68,
+    "baseW_frac": 0.733,
+    "span_deg": 67,
+    "tipOffset_deg": 12
+   },
+   {
+    "prof_cap": [
+     9.89,
+     7.89,
+     5.75,
+     4.04
+    ],
+    "dirDeg": 300,
+    "len_cap": 4.86,
+    "baseW_frac": 0.512,
+    "span_deg": 46,
+    "tipOffset_deg": -2
+   }
+  ],
+  "stroke_px": {
+   "med": 10.5,
+   "cv": 0.52
+  },
+  "stroke_cap": 0.75,
+  "rough_cap": 0.064,
+  "peaks": 6,
+  "butt": {
+   "top": 0.44,
+   "bottom": 0.01,
+   "left": 0.52,
+   "right": 0.01
+  },
+  "fill": "#f3f3f3",
+  "fillLumSD": 18,
+  "fillRatio": 0.652
+ },
+ {
+  "id": 3,
+  "page": "97e641f3.png",
+  "src": "cand4",
+  "kind": "speech",
+  "bbox": [
+   391,
+   518,
+   239,
+   99
+  ],
+  "cap_px": 14,
+  "lines": 3,
+  "lead_cap": 1.36,
+  "lineW_cap": [
+   15.2,
+   14.1,
+   3.5
+  ],
+  "text_cap": [
+   15.2,
+   3.6
+  ],
+  "outer_cap": [
+   17,
+   7
+  ],
+  "pad_cap": {
+   "l": 0.64,
+   "r": 1.14,
+   "t": 0.79,
+   "b": 2.64
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 7.95,
+   "b_cap": 1.16,
+   "aspect": 6.88,
+   "resid_med_cap": 0.373,
+   "padX_cap": 0.34,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.75,
+     3.68,
+     3.75,
+     3.89
+    ],
+    "dirDeg": 13,
+    "len_cap": 2.34,
+    "baseW_frac": 0.103,
+    "span_deg": 27,
+    "tipOffset_deg": -4
+   },
+   {
+    "prof_cap": [
+     5.11,
+     5.86,
+     4.89,
+     4.68
+    ],
+    "dirDeg": 166,
+    "len_cap": 4.42,
+    "baseW_frac": 0.249,
+    "span_deg": 72,
+    "tipOffset_deg": 24
+   },
+   {
+    "prof_cap": [
+     3.75,
+     4,
+     3.57,
+     2.86
+    ],
+    "dirDeg": 343,
+    "len_cap": 5.46,
+    "baseW_frac": 0.373,
+    "span_deg": 177,
+    "tipOffset_deg": 73
+   }
+  ],
+  "stroke_px": {
+   "med": 8,
+   "cv": 0.49
+  },
+  "stroke_cap": 0.571,
+  "rough_cap": 0.031,
+  "peaks": 8,
+  "butt": {
+   "top": 0.03,
+   "bottom": 0.01,
+   "left": 0.26,
+   "right": 0.1
+  },
+  "fill": "#f3f3f2",
+  "fillLumSD": 18.5,
+  "fillRatio": 0.572
+ },
+ {
+  "id": 4,
+  "page": "97e641f3.png",
+  "src": "cand5",
+  "kind": "speech",
+  "bbox": [
+   460,
+   625,
+   105,
+   112
+  ],
+  "cap_px": 13,
+  "lines": 3,
+  "lead_cap": 1.54,
+  "lineW_cap": [
+   5.3,
+   2.9,
+   5.4
+  ],
+  "text_cap": [
+   5.4,
+   4
+  ],
+  "outer_cap": [
+   8,
+   8.5
+  ],
+  "pad_cap": {
+   "l": 1.38,
+   "r": 1.23,
+   "t": 1.15,
+   "b": 3.38
+  },
+  "body": {
+   "n": 3.1,
+   "a_cap": 4,
+   "b_cap": 3.28,
+   "aspect": 1.22,
+   "resid_med_cap": 0.111,
+   "padX_cap": 1.31,
+   "padY_cap": 1.28
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.12,
+     0.77,
+     0.58,
+     0.42
+    ],
+    "dirDeg": 84,
+    "len_cap": 2.13,
+    "baseW_frac": 0.086,
+    "span_deg": 12,
+    "tipOffset_deg": -2
+   }
+  ],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 0.53
+  },
+  "stroke_cap": 0.192,
+  "rough_cap": 0.021,
+  "peaks": 10,
+  "butt": {
+   "top": 0.37,
+   "bottom": 0.01,
+   "left": 0.31,
+   "right": 0.17
+  },
+  "fill": "#f5f7f7",
+  "fillLumSD": 14.9,
+  "fillRatio": 0.696
+ },
+ {
+  "id": 5,
+  "page": "97e641f3.png",
+  "src": "cand6",
+  "kind": "speech",
+  "bbox": [
+   27,
+   1222,
+   94,
+   107
+  ],
+  "cap_px": 14,
+  "lines": 3,
+  "lead_cap": 1.43,
+  "lineW_cap": [
+   4.7,
+   3.5,
+   4.4
+  ],
+  "text_cap": [
+   4.8,
+   3.7
+  ],
+  "outer_cap": [
+   6.6,
+   7.6
+  ],
+  "pad_cap": {
+   "l": 0.57,
+   "r": 1.29,
+   "t": 3.21,
+   "b": 0.64
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 3.17,
+   "b_cap": 2.52,
+   "aspect": 1.26,
+   "resid_med_cap": 0.092,
+   "padX_cap": 0.78,
+   "padY_cap": 0.66
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.96,
+     0.82,
+     0.46,
+     0.54
+    ],
+    "dirDeg": 271,
+    "len_cap": 2.38,
+    "baseW_frac": 0.104,
+    "span_deg": 15,
+    "tipOffset_deg": 2
+   }
+  ],
+  "stroke_px": {
+   "med": 7.5,
+   "cv": 0.64
+  },
+  "stroke_cap": 0.536,
+  "rough_cap": 0.026,
+  "peaks": 8,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.3,
+   "left": 0.61,
+   "right": 0.06
+  },
+  "fill": "#f3f3f3",
+  "fillLumSD": 18.2,
+  "fillRatio": 0.659
+ },
+ {
+  "id": 6,
+  "page": "97e641f3.png",
+  "src": "cand7",
+  "kind": "burst",
+  "bbox": [
+   385,
+   1243,
+   102,
+   92
+  ],
+  "cap_px": 23,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   2.5
+  ],
+  "text_cap": [
+   2.5,
+   1
+  ],
+  "outer_cap": [
+   4.4,
+   4
+  ],
+  "pad_cap": {
+   "l": 0.7,
+   "r": 1.22,
+   "t": 2.61,
+   "b": 0.39
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 0.61,
+   "b_cap": 0.03,
+   "aspect": 21.55,
+   "resid_med_cap": null,
+   "padX_cap": -0.63,
+   "padY_cap": -0.45
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.5,
+     1.91,
+     0.48,
+     0.26
+    ],
+    "dirDeg": 293,
+    "len_cap": 3.34,
+    "baseW_frac": 0,
+    "span_deg": 360,
+    "tipOffset_deg": 114
+   }
+  ],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 1.03
+  },
+  "stroke_cap": 0.109,
+  "rough_cap": 0.019,
+  "peaks": 9,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.19,
+   "left": 0.18,
+   "right": 0.04
+  },
+  "fill": "#f4f5f5",
+  "fillLumSD": 16,
+  "fillRatio": 0.473
+ },
+ {
+  "id": 7,
+  "page": "97e641f3.png",
+  "src": "cand8",
+  "kind": "speech",
+  "bbox": [
+   25,
+   1351,
+   395,
+   177
+  ],
+  "cap_px": 17,
+  "lines": 6,
+  "lead_cap": 1.12,
+  "lineW_cap": [
+   18.9,
+   19.2,
+   18.4,
+   22.1,
+   21.8,
+   15.3
+  ],
+  "text_cap": [
+   22.2,
+   7.5
+  ],
+  "outer_cap": [
+   23.2,
+   10.4
+  ],
+  "pad_cap": {
+   "l": 0.41,
+   "r": 0.53,
+   "t": 0.47,
+   "b": 2.35
+  },
+  "body": {
+   "n": 5.9,
+   "a_cap": 11.59,
+   "b_cap": 4.32,
+   "aspect": 2.68,
+   "resid_med_cap": 0.264,
+   "padX_cap": 0.47,
+   "padY_cap": 0.56
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     6.71,
+     6.29,
+     6.41,
+     1
+    ],
+    "dirDeg": 52,
+    "len_cap": 1.69,
+    "baseW_frac": 0.025,
+    "span_deg": 6,
+    "tipOffset_deg": 3
+   }
+  ],
+  "stroke_px": {
+   "med": 6,
+   "cv": 0.77
+  },
+  "stroke_cap": 0.353,
+  "rough_cap": 0.037,
+  "peaks": 5,
+  "butt": {
+   "top": 0.19,
+   "bottom": 0,
+   "left": 0.54,
+   "right": 0.17
+  },
+  "fill": "#f2f2f2",
+  "fillLumSD": 19.1,
+  "fillRatio": 0.806
+ },
+ {
+  "id": 8,
+  "page": "97e641f3.png",
+  "src": "cand9",
+  "kind": "speech",
+  "bbox": [
+   443,
+   1357,
+   389,
+   192
+  ],
+  "cap_px": 17,
+  "lines": 8,
+  "lead_cap": 1.06,
+  "lineW_cap": [
+   19,
+   21.1,
+   21.2,
+   20.3,
+   20.3,
+   19.1,
+   16.2,
+   9.4
+  ],
+  "text_cap": [
+   21.5,
+   8.4
+  ],
+  "outer_cap": [
+   22.8,
+   11.2
+  ],
+  "pad_cap": {
+   "l": 0.47,
+   "r": 0.88,
+   "t": 0.53,
+   "b": 2.29
+  },
+  "body": {
+   "n": 2.15,
+   "a_cap": 11.46,
+   "b_cap": 4.87,
+   "aspect": 2.35,
+   "resid_med_cap": 0.257,
+   "padX_cap": 0.72,
+   "padY_cap": 0.66
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     7.12,
+     7.03,
+     0.71,
+     0.5
+    ],
+    "dirDeg": 117,
+    "len_cap": 1.87,
+    "baseW_frac": 0.029,
+    "span_deg": 7,
+    "tipOffset_deg": -1
+   },
+   {
+    "prof_cap": [
+     6.26,
+     4.94,
+     3.79,
+     2.38
+    ],
+    "dirDeg": 162,
+    "len_cap": 1.77,
+    "baseW_frac": 0.089,
+    "span_deg": 12,
+    "tipOffset_deg": 4
+   },
+   {
+    "prof_cap": [
+     7.47,
+     5.76,
+     3.94,
+     2.24
+    ],
+    "dirDeg": 203,
+    "len_cap": 3.04,
+    "baseW_frac": 0.11,
+    "span_deg": 16,
+    "tipOffset_deg": -2
+   },
+   {
+    "prof_cap": [
+     6,
+     5.35,
+     4.35,
+     2.44
+    ],
+    "dirDeg": 339,
+    "len_cap": 3.09,
+    "baseW_frac": 0.113,
+    "span_deg": 16,
+    "tipOffset_deg": 1
+   }
+  ],
+  "stroke_px": {
+   "med": 5.5,
+   "cv": 0.95
+  },
+  "stroke_cap": 0.324,
+  "rough_cap": 0.037,
+  "peaks": 4,
+  "butt": {
+   "top": 0.19,
+   "bottom": 0,
+   "left": 0.02,
+   "right": 0.03
+  },
+  "fill": "#f1f0f0",
+  "fillLumSD": 19.8,
+  "fillRatio": 0.774
+ },
+ {
+  "id": 9,
+  "page": "97e641f3.png",
+  "src": "cand10",
+  "kind": "speech",
+  "bbox": [
+   857,
+   1362,
+   388,
+   214
+  ],
+  "cap_px": 14,
+  "lines": 10,
+  "lead_cap": 1.29,
+  "lineW_cap": [
+   21.1,
+   25.1,
+   22.3,
+   25.6,
+   21.9,
+   25,
+   25.2,
+   23.6,
+   21.3,
+   2.6
+  ],
+  "text_cap": [
+   26,
+   12.5
+  ],
+  "outer_cap": [
+   27.6,
+   15.2
+  ],
+  "pad_cap": {
+   "l": 0.57,
+   "r": 1.07,
+   "t": 0.71,
+   "b": 2
+  },
+  "body": {
+   "n": 4.7,
+   "a_cap": 13.81,
+   "b_cap": 6.78,
+   "aspect": 2.04,
+   "resid_med_cap": 0.198,
+   "padX_cap": 0.81,
+   "padY_cap": 0.53
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 0.95
+  },
+  "stroke_cap": 0.179,
+  "rough_cap": 0.048,
+  "peaks": 5,
+  "butt": {
+   "top": 0.11,
+   "bottom": 0,
+   "left": 0.02,
+   "right": 0.6
+  },
+  "fill": "#f1f0f1",
+  "fillLumSD": 19.7,
+  "fillRatio": 0.848
+ },
+ {
+  "id": 10,
+  "page": "97e641f3.png",
+  "src": "cand11",
+  "kind": "chain",
+  "bbox": [
+   856,
+   1676,
+   113,
+   175
+  ],
+  "cap_px": 11,
+  "lines": 3,
+  "lead_cap": 10.18,
+  "lineW_cap": [
+   2.5,
+   5,
+   4
+  ],
+  "text_cap": [
+   6.1,
+   12.6
+  ],
+  "outer_cap": [
+   10.2,
+   15.8
+  ],
+  "pad_cap": {
+   "l": 1.36,
+   "r": 2.73,
+   "t": 1.55,
+   "b": 1.64
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 2.42,
+   "b_cap": 5.69,
+   "aspect": 0.42,
+   "resid_med_cap": 2.412,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 7,
+   "cv": 0.62
+  },
+  "stroke_cap": 0.636,
+  "rough_cap": 0,
+  "peaks": 18,
+  "butt": {
+   "top": 0.02,
+   "bottom": 0.04,
+   "left": 0.18,
+   "right": 0.13
+  },
+  "fill": "#f6f6f7",
+  "fillLumSD": 15.9,
+  "fillRatio": 0.456
+ },
+ {
+  "id": 11,
+  "page": "97e641f3.png",
+  "src": "seed1100,540",
+  "kind": "burst",
+  "bbox": [
+   935,
+   526,
+   197,
+   52
+  ],
+  "cap_px": 46,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   4.1
+  ],
+  "text_cap": [
+   4.1,
+   1
+  ],
+  "outer_cap": [
+   4.3,
+   1.1
+  ],
+  "pad_cap": {
+   "l": 0.09,
+   "r": 0.07,
+   "t": 0.07,
+   "b": 0.07
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 1.42,
+   "b_cap": 0.01,
+   "aspect": 156,
+   "resid_med_cap": 0.546,
+   "padX_cap": -0.63,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.89,
+     1.09,
+     0.47,
+     1.15
+    ],
+    "dirDeg": 172,
+    "len_cap": 2.1,
+    "baseW_frac": 0.016,
+    "span_deg": 41,
+    "tipOffset_deg": 13
+   },
+   {
+    "prof_cap": [
+     0.9,
+     1.12,
+     0.79,
+     1.16
+    ],
+    "dirDeg": 192,
+    "len_cap": 2.02,
+    "baseW_frac": 0.011,
+    "span_deg": 42,
+    "tipOffset_deg": -10
+   },
+   {
+    "prof_cap": [
+     0.95,
+     1.05,
+     0.37,
+     0.99
+    ],
+    "dirDeg": 348,
+    "len_cap": 2.13,
+    "baseW_frac": 0.01,
+    "span_deg": 39,
+    "tipOffset_deg": 19
+   },
+   {
+    "prof_cap": [
+     1.07,
+     0.78,
+     0,
+     1.02
+    ],
+    "dirDeg": 352,
+    "len_cap": 1.06,
+    "baseW_frac": 0.003,
+    "span_deg": 8,
+    "tipOffset_deg": -4
+   }
+  ],
+  "stroke_px": {
+   "med": 14.5,
+   "cv": 0.22
+  },
+  "stroke_cap": 0.315,
+  "rough_cap": 0.01,
+  "peaks": 8,
+  "butt": {
+   "top": 0.16,
+   "bottom": 0.12,
+   "left": 0.13,
+   "right": 0.15
+  },
+  "fill": "#b30d11",
+  "fillLumSD": 11.9,
+  "fillRatio": 0.738
+ },
+ {
+  "id": 12,
+  "page": "97e641f3.png",
+  "src": "seed1230,1290",
+  "kind": "burst",
+  "bbox": [
+   1022,
+   1248,
+   223,
+   95
+  ],
+  "cap_px": 52,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   0.4
+  ],
+  "text_cap": [
+   0.4,
+   1
+  ],
+  "outer_cap": [
+   4.3,
+   1.8
+  ],
+  "pad_cap": {
+   "l": 3.33,
+   "r": 0.5,
+   "t": 0.75,
+   "b": 0.08
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 0.01,
+   "b_cap": 0.01,
+   "aspect": 1.07,
+   "resid_med_cap": 0.395,
+   "padX_cap": -0.21,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.99,
+     0.7,
+     0.38,
+     0.22
+    ],
+    "dirDeg": 137,
+    "len_cap": 0.8,
+    "baseW_frac": 0.153,
+    "span_deg": 23,
+    "tipOffset_deg": 10
+   },
+   {
+    "prof_cap": [
+     1.08,
+     0.71,
+     0,
+     0.75
+    ],
+    "dirDeg": 230,
+    "len_cap": 1.07,
+    "baseW_frac": 0.753,
+    "span_deg": 200,
+    "tipOffset_deg": -100
+   }
+  ],
+  "stroke_px": {
+   "med": 10,
+   "cv": 0.55
+  },
+  "stroke_cap": 0.192,
+  "rough_cap": 0.005,
+  "peaks": 10,
+  "butt": {
+   "top": 0,
+   "bottom": 0.09,
+   "left": 0.06,
+   "right": 0.54
+  },
+  "fill": "#f00609",
+  "fillLumSD": 2.9,
+  "fillRatio": 0.442
+ },
+ {
+  "id": 13,
+  "page": "3f8e7bfd.png",
+  "src": "cand1",
+  "kind": "cluster",
+  "bbox": [
+   185,
+   25,
+   888,
+   167
+  ],
+  "cap_px": 17,
+  "lines": 6,
+  "lead_cap": 1.12,
+  "lineW_cap": [
+   24.8,
+   18.2,
+   16.9,
+   11.3,
+   10.9,
+   10.8
+  ],
+  "text_cap": [
+   24.8,
+   8.5
+  ],
+  "outer_cap": [
+   52.2,
+   9.8
+  ],
+  "pad_cap": {
+   "l": 5,
+   "r": 22.41,
+   "t": 0.29,
+   "b": 1
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 11.75,
+   "b_cap": 3.61,
+   "aspect": 3.26,
+   "resid_med_cap": 4.798,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     5.41,
+     5.35,
+     4.97,
+     4.12
+    ],
+    "dirDeg": 34,
+    "len_cap": 3.24,
+    "baseW_frac": 0.363,
+    "span_deg": 121,
+    "tipOffset_deg": -52
+   },
+   {
+    "prof_cap": [
+     4.74,
+     4.26,
+     3.38,
+     0.85
+    ],
+    "dirDeg": 190,
+    "len_cap": 7.64,
+    "baseW_frac": 0.717,
+    "span_deg": 172,
+    "tipOffset_deg": -80
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 0.6
+  },
+  "stroke_cap": 0.176,
+  "rough_cap": 0.047,
+  "peaks": 4,
+  "butt": {
+   "top": 0.13,
+   "bottom": 0.07,
+   "left": 0.01,
+   "right": 0.02
+  },
+  "fill": "#f3f3f3",
+  "fillLumSD": 18.3,
+  "fillRatio": 0.373
+ },
+ {
+  "id": 14,
+  "page": "3f8e7bfd.png",
+  "src": "cand2",
+  "kind": "caption",
+  "bbox": [
+   30,
+   525,
+   1218,
+   52
+  ],
+  "cap_px": 35,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   33.6
+  ],
+  "text_cap": [
+   33.6,
+   1
+  ],
+  "outer_cap": [
+   34.8,
+   1.5
+  ],
+  "pad_cap": {
+   "l": 0.26,
+   "r": 0.94,
+   "t": 0.2,
+   "b": 0.29
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 17.38,
+   "b_cap": 0.01,
+   "aspect": 3040.75,
+   "resid_med_cap": 0.294,
+   "padX_cap": 0.59,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.96,
+     0.99,
+     0.93,
+     0.93
+    ],
+    "dirDeg": 1,
+    "len_cap": 13.59,
+    "baseW_frac": 0.004,
+    "span_deg": 22,
+    "tipOffset_deg": -11
+   },
+   {
+    "prof_cap": [
+     0.93,
+     1.47,
+     1.5,
+     1.5
+    ],
+    "dirDeg": 178,
+    "len_cap": 16.87,
+    "baseW_frac": 0.002,
+    "span_deg": 22,
+    "tipOffset_deg": 10
+   },
+   {
+    "prof_cap": [
+     0.96,
+     0.96,
+     0.93,
+     0.93
+    ],
+    "dirDeg": 358,
+    "len_cap": 17.44,
+    "baseW_frac": 0.009,
+    "span_deg": 179,
+    "tipOffset_deg": 88
+   }
+  ],
+  "stroke_px": {
+   "med": 2,
+   "cv": 2.54
+  },
+  "stroke_cap": 0.057,
+  "rough_cap": 0.01,
+  "peaks": 2,
+  "butt": {
+   "top": 0.52,
+   "bottom": 0.29,
+   "left": 0.38,
+   "right": 0.4
+  },
+  "fill": "#eae61f",
+  "fillLumSD": 23.6,
+  "fillRatio": 0.756
+ },
+ {
+  "id": 15,
+  "page": "3f8e7bfd.png",
+  "src": "cand3",
+  "kind": "cluster",
+  "bbox": [
+   115,
+   970,
+   308,
+   179
+  ],
+  "cap_px": 16,
+  "lines": 7,
+  "lead_cap": 1.19,
+  "lineW_cap": [
+   4.1,
+   7.5,
+   9.7,
+   6.8,
+   4.9,
+   7.3,
+   8.8
+  ],
+  "text_cap": [
+   14.6,
+   9.2
+  ],
+  "outer_cap": [
+   19.2,
+   11.1
+  ],
+  "pad_cap": {
+   "l": 0.88,
+   "r": 3.75,
+   "t": 0.81,
+   "b": 1.13
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 6.65,
+   "b_cap": 3.96,
+   "aspect": 1.68,
+   "resid_med_cap": 1.473,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     5.19,
+     4.56,
+     4.31,
+     3.44
+    ],
+    "dirDeg": 142,
+    "len_cap": 4.63,
+    "baseW_frac": 0.416,
+    "span_deg": 85,
+    "tipOffset_deg": 37
+   },
+   {
+    "prof_cap": [
+     6,
+     4.72,
+     1.09,
+     0.66
+    ],
+    "dirDeg": 353,
+    "len_cap": 4.79,
+    "baseW_frac": 0.834,
+    "span_deg": 137,
+    "tipOffset_deg": 50
+   }
+  ],
+  "stroke_px": {
+   "med": 12,
+   "cv": 0.27
+  },
+  "stroke_cap": 0.75,
+  "rough_cap": 0.029,
+  "peaks": 4,
+  "butt": {
+   "top": 0.15,
+   "bottom": 0.03,
+   "left": 0.02,
+   "right": 0.01
+  },
+  "fill": "#f6f6f6",
+  "fillLumSD": 16.9,
+  "fillRatio": 0.495
+ },
+ {
+  "id": 16,
+  "page": "3f8e7bfd.png",
+  "src": "cand5",
+  "kind": "burst",
+  "bbox": [
+   1149,
+   1738,
+   112,
+   102
+  ],
+  "cap_px": 68,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   1.2
+  ],
+  "text_cap": [
+   1.2,
+   1
+  ],
+  "outer_cap": [
+   1.6,
+   1.5
+  ],
+  "pad_cap": {
+   "l": 0.21,
+   "r": 0.21,
+   "t": 0.26,
+   "b": 0.22
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 0.01,
+   "b_cap": 0.02,
+   "aspect": 0.51,
+   "resid_med_cap": 0.578,
+   "padX_cap": -0.6,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.51,
+     1.36,
+     1.1,
+     0.52
+    ],
+    "dirDeg": 207,
+    "len_cap": 0.86,
+    "baseW_frac": 0.866,
+    "span_deg": 128,
+    "tipOffset_deg": 52
+   },
+   {
+    "prof_cap": [
+     1.41,
+     1.25,
+     1.15,
+     0.79
+    ],
+    "dirDeg": 322,
+    "len_cap": 0.86,
+    "baseW_frac": 0.959,
+    "span_deg": 212,
+    "tipOffset_deg": -13
+   }
+  ],
+  "stroke_px": {
+   "med": 13,
+   "cv": 0.34
+  },
+  "stroke_cap": 0.191,
+  "rough_cap": 0.015,
+  "peaks": 13,
+  "butt": {
+   "top": 0.04,
+   "bottom": 0.03,
+   "left": 0.02,
+   "right": 0.02
+  },
+  "fill": "#e9e624",
+  "fillLumSD": 22.9,
+  "fillRatio": 0.691
+ },
+ {
+  "id": 17,
+  "page": "83ca1685.png",
+  "src": "cand1",
+  "kind": "speech",
+  "bbox": [
+   198,
+   22,
+   221,
+   77
+  ],
+  "cap_px": 14,
+  "lines": 3,
+  "lead_cap": 1.5,
+  "lineW_cap": [
+   11.4,
+   12.6,
+   3.6
+  ],
+  "text_cap": [
+   12.7,
+   3.9
+  ],
+  "outer_cap": [
+   15.7,
+   5.4
+  ],
+  "pad_cap": {
+   "l": 1.36,
+   "r": 1.64,
+   "t": 0.64,
+   "b": 0.86
+  },
+  "body": {
+   "n": 2.25,
+   "a_cap": 7.71,
+   "b_cap": 2.68,
+   "aspect": 2.87,
+   "resid_med_cap": 0.121,
+   "padX_cap": 1.35,
+   "padY_cap": 0.72
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.93,
+     3.68,
+     3.39,
+     3.14
+    ],
+    "dirDeg": 200,
+    "len_cap": 1.43,
+    "baseW_frac": 0.073,
+    "span_deg": 11,
+    "tipOffset_deg": 0
+   },
+   {
+    "prof_cap": [
+     3.82,
+     3.61,
+     3.29,
+     2.89
+    ],
+    "dirDeg": 341,
+    "len_cap": 1.4,
+    "baseW_frac": 0.088,
+    "span_deg": 13,
+    "tipOffset_deg": 0
+   }
+  ],
+  "stroke_px": {
+   "med": 5,
+   "cv": 0.89
+  },
+  "stroke_cap": 0.357,
+  "rough_cap": 0.029,
+  "peaks": 3,
+  "butt": {
+   "top": 0.05,
+   "bottom": 0.1,
+   "left": 0.19,
+   "right": 0.03
+  },
+  "fill": "#f3f3f3",
+  "fillLumSD": 16.9,
+  "fillRatio": 0.843
+ },
+ {
+  "id": 18,
+  "page": "83ca1685.png",
+  "src": "cand2",
+  "kind": "speech",
+  "bbox": [
+   430,
+   38,
+   156,
+   147
+  ],
+  "cap_px": 13,
+  "lines": 3,
+  "lead_cap": 1.69,
+  "lineW_cap": [
+   2.8,
+   5.5,
+   8.7
+  ],
+  "text_cap": [
+   8.7,
+   4.3
+  ],
+  "outer_cap": [
+   11.9,
+   11.2
+  ],
+  "pad_cap": {
+   "l": 1.92,
+   "r": 1.31,
+   "t": 1.15,
+   "b": 5.77
+  },
+  "body": {
+   "n": 2.3,
+   "a_cap": 5.94,
+   "b_cap": 3.34,
+   "aspect": 1.78,
+   "resid_med_cap": 0.169,
+   "padX_cap": 1.59,
+   "padY_cap": 1.19
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1,
+     0.85,
+     0.65,
+     0.42
+    ],
+    "dirDeg": 105,
+    "len_cap": 4.79,
+    "baseW_frac": 0.066,
+    "span_deg": 13,
+    "tipOffset_deg": -5
+   }
+  ],
+  "stroke_px": {
+   "med": 11.5,
+   "cv": 0.43
+  },
+  "stroke_cap": 0.885,
+  "rough_cap": 0.023,
+  "peaks": 8,
+  "butt": {
+   "top": 0.17,
+   "bottom": 0.01,
+   "left": 0.05,
+   "right": 0.1
+  },
+  "fill": "#f6f5f5",
+  "fillLumSD": 16,
+  "fillRatio": 0.512
+ },
+ {
+  "id": 19,
+  "page": "83ca1685.png",
+  "src": "cand4",
+  "kind": "speech",
+  "bbox": [
+   606,
+   124,
+   125,
+   87
+  ],
+  "cap_px": 14,
+  "lines": 3,
+  "lead_cap": 1.64,
+  "lineW_cap": [
+   3.4,
+   5.9,
+   2.9
+  ],
+  "text_cap": [
+   5.9,
+   4
+  ],
+  "outer_cap": [
+   8.9,
+   6.1
+  ],
+  "pad_cap": {
+   "l": 1.14,
+   "r": 1.86,
+   "t": 0.93,
+   "b": 1.21
+  },
+  "body": {
+   "n": 2.8,
+   "a_cap": 3.93,
+   "b_cap": 2.87,
+   "aspect": 1.37,
+   "resid_med_cap": 0.121,
+   "padX_cap": 1,
+   "padY_cap": 0.87
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.57,
+     0.39,
+     0.36,
+     0.32
+    ],
+    "dirDeg": 140,
+    "len_cap": 1.25,
+    "baseW_frac": 0.041,
+    "span_deg": 5,
+    "tipOffset_deg": 0
+   },
+   {
+    "prof_cap": [
+     3.79,
+     3.36,
+     2.86,
+     2.14
+    ],
+    "dirDeg": 353,
+    "len_cap": 0.91,
+    "baseW_frac": 0.377,
+    "span_deg": 44,
+    "tipOffset_deg": -5
+   }
+  ],
+  "stroke_px": {
+   "med": 12,
+   "cv": 0.39
+  },
+  "stroke_cap": 0.857,
+  "rough_cap": 0.021,
+  "peaks": 6,
+  "butt": {
+   "top": 0.2,
+   "bottom": 0.02,
+   "left": 0.07,
+   "right": 0.18
+  },
+  "fill": "#f3f3f0",
+  "fillLumSD": 17.5,
+  "fillRatio": 0.78
+ },
+ {
+  "id": 20,
+  "page": "83ca1685.png",
+  "src": "cand5",
+  "kind": "speech",
+  "bbox": [
+   688,
+   228,
+   200,
+   117
+  ],
+  "cap_px": 15,
+  "lines": 4,
+  "lead_cap": 1.53,
+  "lineW_cap": [
+   8.9,
+   8.9,
+   9.9,
+   4.5
+  ],
+  "text_cap": [
+   10.3,
+   5.3
+  ],
+  "outer_cap": [
+   13.3,
+   7.7
+  ],
+  "pad_cap": {
+   "l": 1,
+   "r": 1.93,
+   "t": 1.27,
+   "b": 1.2
+  },
+  "body": {
+   "n": 2.2,
+   "a_cap": 6.63,
+   "b_cap": 3.66,
+   "aspect": 1.81,
+   "resid_med_cap": 0.225,
+   "padX_cap": 1.46,
+   "padY_cap": 1.03
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 1,
+   "cv": 3.46
+  },
+  "stroke_cap": 0.067,
+  "rough_cap": 0.024,
+  "peaks": 4,
+  "butt": {
+   "top": 0.04,
+   "bottom": 0.01,
+   "left": 0.14,
+   "right": 0.06
+  },
+  "fill": "#f4f4f2",
+  "fillLumSD": 17,
+  "fillRatio": 0.771
+ },
+ {
+  "id": 21,
+  "page": "83ca1685.png",
+  "src": "cand6",
+  "kind": "speech",
+  "bbox": [
+   825,
+   345,
+   155,
+   96
+  ],
+  "cap_px": 14,
+  "lines": 3,
+  "lead_cap": 1.5,
+  "lineW_cap": [
+   1.6,
+   8,
+   7.9
+  ],
+  "text_cap": [
+   8.5,
+   3.9
+  ],
+  "outer_cap": [
+   11,
+   6.8
+  ],
+  "pad_cap": {
+   "l": 0.93,
+   "r": 1.57,
+   "t": 0.71,
+   "b": 2.14
+  },
+  "body": {
+   "n": 2.25,
+   "a_cap": 5.53,
+   "b_cap": 2.55,
+   "aspect": 2.16,
+   "resid_med_cap": 0.175,
+   "padX_cap": 1.28,
+   "padY_cap": 0.59
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.61,
+     3.29,
+     2.75,
+     1.96
+    ],
+    "dirDeg": 19,
+    "len_cap": 0.93,
+    "baseW_frac": 0.038,
+    "span_deg": 5,
+    "tipOffset_deg": 2
+   },
+   {
+    "prof_cap": [
+     4.68,
+     4,
+     0.43,
+     0.36
+    ],
+    "dirDeg": 131,
+    "len_cap": 2.26,
+    "baseW_frac": 0.526,
+    "span_deg": 130,
+    "tipOffset_deg": 45
+   }
+  ],
+  "stroke_px": {
+   "med": 6.5,
+   "cv": 0.75
+  },
+  "stroke_cap": 0.464,
+  "rough_cap": 0.026,
+  "peaks": 4,
+  "butt": {
+   "top": 0.05,
+   "bottom": 0.02,
+   "left": 0.14,
+   "right": 0.13
+  },
+  "fill": "#f3f3f1",
+  "fillLumSD": 17.3,
+  "fillRatio": 0.72
+ },
+ {
+  "id": 22,
+  "page": "83ca1685.png",
+  "src": "cand7",
+  "kind": "speech",
+  "bbox": [
+   321,
+   703,
+   217,
+   126
+  ],
+  "cap_px": 20,
+  "lines": 4,
+  "lead_cap": 1.1,
+  "lineW_cap": [
+   8.3,
+   5,
+   8.9,
+   6
+  ],
+  "text_cap": [
+   8.9,
+   4.3
+  ],
+  "outer_cap": [
+   10.8,
+   6.3
+  ],
+  "pad_cap": {
+   "l": 0.95,
+   "r": 0.95,
+   "t": 1.05,
+   "b": 0.95
+  },
+  "body": {
+   "n": 2.55,
+   "a_cap": 5.17,
+   "b_cap": 2.82,
+   "aspect": 1.84,
+   "resid_med_cap": 0.182,
+   "padX_cap": 0.72,
+   "padY_cap": 0.69
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.7,
+     0.68,
+     0.72,
+     0.78
+    ],
+    "dirDeg": 32,
+    "len_cap": 0.96,
+    "baseW_frac": 0.036,
+    "span_deg": 5,
+    "tipOffset_deg": 2
+   },
+   {
+    "prof_cap": [
+     0.63,
+     0.55,
+     0.4,
+     0.28
+    ],
+    "dirDeg": 213,
+    "len_cap": 1.59,
+    "baseW_frac": 0.036,
+    "span_deg": 5,
+    "tipOffset_deg": 1
+   }
+  ],
+  "stroke_px": {
+   "med": 5,
+   "cv": 0.98
+  },
+  "stroke_cap": 0.25,
+  "rough_cap": 0.018,
+  "peaks": 4,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0,
+   "left": 0.01,
+   "right": 0.02
+  },
+  "fill": "#f5f5f3",
+  "fillLumSD": 16.7,
+  "fillRatio": 0.752
+ },
+ {
+  "id": 23,
+  "page": "83ca1685.png",
+  "src": "cand9",
+  "kind": "speech",
+  "bbox": [
+   657,
+   1231,
+   292,
+   213
+  ],
+  "cap_px": 15,
+  "lines": 7,
+  "lead_cap": 1.47,
+  "lineW_cap": [
+   9.4,
+   15.6,
+   14,
+   13.1,
+   16.9,
+   15.6,
+   8.7
+  ],
+  "text_cap": [
+   16.9,
+   9.5
+  ],
+  "outer_cap": [
+   19.4,
+   14.1
+  ],
+  "pad_cap": {
+   "l": 1.6,
+   "r": 0.87,
+   "t": 0.53,
+   "b": 4.07
+  },
+  "body": {
+   "n": 4.5,
+   "a_cap": 9.59,
+   "b_cap": 5.39,
+   "aspect": 1.78,
+   "resid_med_cap": 0.265,
+   "padX_cap": 1.12,
+   "padY_cap": 0.62
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     11.63,
+     3.63,
+     1.17,
+     0.5
+    ],
+    "dirDeg": 90,
+    "len_cap": 3.45,
+    "baseW_frac": 0.334,
+    "span_deg": 73,
+    "tipOffset_deg": -17
+   }
+  ],
+  "stroke_px": {
+   "med": 10,
+   "cv": 0.49
+  },
+  "stroke_cap": 0.667,
+  "rough_cap": 0.036,
+  "peaks": 5,
+  "butt": {
+   "top": 0.4,
+   "bottom": 0,
+   "left": 0.17,
+   "right": 0.15
+  },
+  "fill": "#f5f4f5",
+  "fillLumSD": 17.2,
+  "fillRatio": 0.759
+ },
+ {
+  "id": 24,
+  "page": "83ca1685.png",
+  "src": "cand10",
+  "kind": "speech",
+  "bbox": [
+   983,
+   1231,
+   240,
+   160
+  ],
+  "cap_px": 15,
+  "lines": 5,
+  "lead_cap": 1.47,
+  "lineW_cap": [
+   7.2,
+   13.1,
+   11.7,
+   10.4,
+   10.1
+  ],
+  "text_cap": [
+   13.1,
+   6.7
+  ],
+  "outer_cap": [
+   15.9,
+   10.6
+  ],
+  "pad_cap": {
+   "l": 1.27,
+   "r": 1.53,
+   "t": 0.6,
+   "b": 3.33
+  },
+  "body": {
+   "n": 3.7,
+   "a_cap": 7.85,
+   "b_cap": 4.11,
+   "aspect": 1.91,
+   "resid_med_cap": 0.235,
+   "padX_cap": 1.28,
+   "padY_cap": 0.78
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.5,
+     0.9,
+     0.77,
+     0
+    ],
+    "dirDeg": 87,
+    "len_cap": 2.58,
+    "baseW_frac": 0.162,
+    "span_deg": 36,
+    "tipOffset_deg": -10
+   }
+  ],
+  "stroke_px": {
+   "med": 12,
+   "cv": 0.43
+  },
+  "stroke_cap": 0.8,
+  "rough_cap": 0.029,
+  "peaks": 5,
+  "butt": {
+   "top": 0.08,
+   "bottom": 0.01,
+   "left": 0.07,
+   "right": 0.06
+  },
+  "fill": "#f5f4f4",
+  "fillLumSD": 17.5,
+  "fillRatio": 0.72
+ },
+ {
+  "id": 25,
+  "page": "83ca1685.png",
+  "src": "seed150,1395",
+  "kind": "caption",
+  "bbox": [
+   28,
+   1391,
+   218,
+   33
+  ],
+  "cap_px": 5,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   6.4
+  ],
+  "text_cap": [
+   6.4,
+   3.8
+  ],
+  "outer_cap": [
+   43.4,
+   6.4
+  ],
+  "pad_cap": {
+   "l": 17.8,
+   "r": 19.2,
+   "t": 0.4,
+   "b": 2.2
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 2.57,
+   "b_cap": 1.27,
+   "aspect": 2.02,
+   "resid_med_cap": 1.453,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     2,
+     2,
+     2,
+     2.1
+    ],
+    "dirDeg": 309,
+    "len_cap": 1.51,
+    "baseW_frac": 0.318,
+    "span_deg": 79,
+    "tipOffset_deg": 39
+   }
+  ],
+  "stroke_px": {
+   "med": 1,
+   "cv": 0.26
+  },
+  "stroke_cap": 0.2,
+  "rough_cap": 0,
+  "peaks": 21,
+  "butt": {
+   "top": 0,
+   "bottom": 0,
+   "left": 0.03,
+   "right": 0.06
+  },
+  "fill": "#abafa3",
+  "fillLumSD": 15.4,
+  "fillRatio": 0.113
+ },
+ {
+  "id": 26,
+  "page": "83ca1685.png",
+  "src": "seed190,1790",
+  "kind": "caption",
+  "bbox": [
+   26,
+   1777,
+   180,
+   98
+  ],
+  "cap_px": 15,
+  "lines": 4,
+  "lead_cap": 1.33,
+  "lineW_cap": [
+   8.7,
+   9.2,
+   6,
+   8.5
+  ],
+  "text_cap": [
+   9.2,
+   5.2
+  ],
+  "outer_cap": [
+   11.9,
+   6.5
+  ],
+  "pad_cap": {
+   "l": 0.53,
+   "r": 2.2,
+   "t": 0.73,
+   "b": 0.53
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 5.1,
+   "b_cap": 3.26,
+   "aspect": 1.56,
+   "resid_med_cap": 0.108,
+   "padX_cap": 0.5,
+   "padY_cap": 0.66
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     4.73,
+     3.67,
+     2.57,
+     1.5
+    ],
+    "dirDeg": 336,
+    "len_cap": 1.95,
+    "baseW_frac": 0.557,
+    "span_deg": 62,
+    "tipOffset_deg": -23
+   }
+  ],
+  "stroke_px": {
+   "med": 8,
+   "cv": 0.34
+  },
+  "stroke_cap": 0.533,
+  "rough_cap": 0.022,
+  "peaks": 6,
+  "butt": {
+   "top": 0.72,
+   "bottom": 0.74,
+   "left": 0.08,
+   "right": 0.22
+  },
+  "fill": "#f9ddb6",
+  "fillLumSD": 9.5,
+  "fillRatio": 0.984
+ },
+ {
+  "id": 27,
+  "page": "83ca1685.png",
+  "src": "seed390,1790",
+  "kind": "caption",
+  "bbox": [
+   255,
+   1776,
+   150,
+   102
+  ],
+  "cap_px": 14,
+  "lines": 4,
+  "lead_cap": 1.57,
+  "lineW_cap": [
+   7.8,
+   5.9,
+   6.7,
+   5.9
+  ],
+  "text_cap": [
+   7.8,
+   5.6
+  ],
+  "outer_cap": [
+   10.6,
+   7.2
+  ],
+  "pad_cap": {
+   "l": 1.43,
+   "r": 1.43,
+   "t": 0.79,
+   "b": 0.86
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 5.36,
+   "b_cap": 3.6,
+   "aspect": 1.49,
+   "resid_med_cap": 0.075,
+   "padX_cap": 1.47,
+   "padY_cap": 0.81
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 10,
+   "cv": 0.27
+  },
+  "stroke_cap": 0.714,
+  "rough_cap": 0.026,
+  "peaks": 7,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.09,
+   "left": 0.26,
+   "right": 0.46
+  },
+  "fill": "#fadeb7",
+  "fillLumSD": 7.4,
+  "fillRatio": 0.966
+ },
+ {
+  "id": 28,
+  "page": "83ca1685.png",
+  "src": "seed630,1730",
+  "kind": "caption",
+  "bbox": [
+   458,
+   1716,
+   185,
+   163
+  ],
+  "cap_px": 15,
+  "lines": 7,
+  "lead_cap": 1.47,
+  "lineW_cap": [
+   7.7,
+   8.7,
+   9.3,
+   10.5,
+   8.5,
+   11,
+   9.1
+  ],
+  "text_cap": [
+   11.1,
+   9.5
+  ],
+  "outer_cap": [
+   12.3,
+   10.8
+  ],
+  "pad_cap": {
+   "l": 0.67,
+   "r": 0.47,
+   "t": 0.6,
+   "b": 0.67
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 6.16,
+   "b_cap": 5.46,
+   "aspect": 1.13,
+   "resid_med_cap": 0.078,
+   "padX_cap": 0.59,
+   "padY_cap": 0.69
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 9.5,
+   "cv": 0.33
+  },
+  "stroke_cap": 0.633,
+  "rough_cap": 0.029,
+  "peaks": 4,
+  "butt": {
+   "top": 0.62,
+   "bottom": 0.19,
+   "left": 0.01,
+   "right": 0.15
+  },
+  "fill": "#f7dbb7",
+  "fillLumSD": 10.9,
+  "fillRatio": 0.98
+ },
+ {
+  "id": 29,
+  "page": "d3617ce6.png",
+  "src": "cand1",
+  "kind": "speech",
+  "bbox": [
+   652,
+   12,
+   197,
+   184
+  ],
+  "cap_px": 14,
+  "lines": 8,
+  "lead_cap": 1.5,
+  "lineW_cap": [
+   8.4,
+   9.3,
+   10.1,
+   3.9,
+   8.2,
+   6.4,
+   10.6,
+   9.5
+  ],
+  "text_cap": [
+   10.8,
+   11.3
+  ],
+  "outer_cap": [
+   14,
+   13.1
+  ],
+  "pad_cap": {
+   "l": 0.43,
+   "r": 2.79,
+   "t": 0.64,
+   "b": 1.14
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 5.98,
+   "b_cap": 6.55,
+   "aspect": 0.91,
+   "resid_med_cap": 0.152,
+   "padX_cap": 0.59,
+   "padY_cap": 0.91
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     4.36,
+     0.64,
+     0.43,
+     0.43
+    ],
+    "dirDeg": 20,
+    "len_cap": 2.06,
+    "baseW_frac": 0.028,
+    "span_deg": 3,
+    "tipOffset_deg": -1
+   }
+  ],
+  "stroke_px": {
+   "med": 2,
+   "cv": 0.94
+  },
+  "stroke_cap": 0.143,
+  "rough_cap": 0.029,
+  "peaks": 8,
+  "butt": {
+   "top": 0.78,
+   "bottom": 0.25,
+   "left": 0.94,
+   "right": 0.01
+  },
+  "fill": "#f5f5f5",
+  "fillLumSD": 17.1,
+  "fillRatio": 0.832
+ },
+ {
+  "id": 30,
+  "page": "d3617ce6.png",
+  "src": "cand2",
+  "kind": "speech",
+  "bbox": [
+   49,
+   28,
+   210,
+   162
+  ],
+  "cap_px": 15,
+  "lines": 5,
+  "lead_cap": 1.4,
+  "lineW_cap": [
+   9.1,
+   10.9,
+   8.7,
+   7.7,
+   6.3
+  ],
+  "text_cap": [
+   10.9,
+   6.5
+  ],
+  "outer_cap": [
+   13.9,
+   10.7
+  ],
+  "pad_cap": {
+   "l": 1.6,
+   "r": 1.47,
+   "t": 1.13,
+   "b": 3.13
+  },
+  "body": {
+   "n": 3.55,
+   "a_cap": 6.93,
+   "b_cap": 4.48,
+   "aspect": 1.55,
+   "resid_med_cap": 0.116,
+   "padX_cap": 1.5,
+   "padY_cap": 1.25
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     5.17,
+     0.7,
+     0.5,
+     0.33
+    ],
+    "dirDeg": 62,
+    "len_cap": 2.12,
+    "baseW_frac": 0.044,
+    "span_deg": 7,
+    "tipOffset_deg": -2
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 0.7
+  },
+  "stroke_cap": 0.2,
+  "rough_cap": 0.024,
+  "peaks": 12,
+  "butt": {
+   "top": 0.19,
+   "bottom": 0,
+   "left": 0.17,
+   "right": 0.13
+  },
+  "fill": "#f7f7f8",
+  "fillLumSD": 15.2,
+  "fillRatio": 0.761
+ },
+ {
+  "id": 31,
+  "page": "d3617ce6.png",
+  "src": "cand3",
+  "kind": "speech",
+  "bbox": [
+   1110,
+   442,
+   159,
+   116
+  ],
+  "cap_px": 16,
+  "lines": 3,
+  "lead_cap": 1.31,
+  "lineW_cap": [
+   7.9,
+   5.5,
+   7.6
+  ],
+  "text_cap": [
+   8.3,
+   4.8
+  ],
+  "outer_cap": [
+   9.9,
+   7.2
+  ],
+  "pad_cap": {
+   "l": 0.81,
+   "r": 0.75,
+   "t": 0.44,
+   "b": 1.94
+  },
+  "body": {
+   "n": 4.5,
+   "a_cap": 4.88,
+   "b_cap": 2.88,
+   "aspect": 1.7,
+   "resid_med_cap": 0.065,
+   "padX_cap": 0.72,
+   "padY_cap": 0.47
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.69,
+     0.59,
+     0.56,
+     0.44
+    ],
+    "dirDeg": 107,
+    "len_cap": 1.49,
+    "baseW_frac": 0.054,
+    "span_deg": 10,
+    "tipOffset_deg": 5
+   }
+  ],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 1.17
+  },
+  "stroke_cap": 0.156,
+  "rough_cap": 0.023,
+  "peaks": 11,
+  "butt": {
+   "top": 0.92,
+   "bottom": 0.03,
+   "left": 0.14,
+   "right": 0.06
+  },
+  "fill": "#f6f6f6",
+  "fillLumSD": 16.8,
+  "fillRatio": 0.755
+ },
+ {
+  "id": 32,
+  "page": "d3617ce6.png",
+  "src": "cand4",
+  "kind": "speech",
+  "bbox": [
+   387,
+   463,
+   210,
+   198
+  ],
+  "cap_px": 16,
+  "lines": 8,
+  "lead_cap": 1.25,
+  "lineW_cap": [
+   5.6,
+   4.7,
+   7.9,
+   7.9,
+   8.4,
+   6.9,
+   5.7,
+   8.8
+  ],
+  "text_cap": [
+   9.3,
+   9.8
+  ],
+  "outer_cap": [
+   13.1,
+   12.3
+  ],
+  "pad_cap": {
+   "l": 2.75,
+   "r": 1,
+   "t": 1.06,
+   "b": 1.44
+  },
+  "body": {
+   "n": 3.35,
+   "a_cap": 5.57,
+   "b_cap": 6.16,
+   "aspect": 0.9,
+   "resid_med_cap": 0.16,
+   "padX_cap": 0.91,
+   "padY_cap": 1.25
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.78,
+     0.53,
+     0.41,
+     0.28
+    ],
+    "dirDeg": 174,
+    "len_cap": 1.87,
+    "baseW_frac": 0.035,
+    "span_deg": 4,
+    "tipOffset_deg": 2
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 1.04
+  },
+  "stroke_cap": 0.188,
+  "rough_cap": 0.023,
+  "peaks": 8,
+  "butt": {
+   "top": 0.2,
+   "bottom": 0.18,
+   "left": 0.01,
+   "right": 0.01
+  },
+  "fill": "#f6f6f7",
+  "fillLumSD": 16.1,
+  "fillRatio": 0.771
+ },
+ {
+  "id": 33,
+  "page": "d3617ce6.png",
+  "src": "cand5",
+  "kind": "speech",
+  "bbox": [
+   13,
+   1076,
+   166,
+   167
+  ],
+  "cap_px": 15,
+  "lines": 6,
+  "lead_cap": 1.33,
+  "lineW_cap": [
+   2.7,
+   7.8,
+   1.1,
+   4.9,
+   7.7,
+   7.1
+  ],
+  "text_cap": [
+   9.1,
+   9.1
+  ],
+  "outer_cap": [
+   11,
+   11.1
+  ],
+  "pad_cap": {
+   "l": 0.4,
+   "r": 1.53,
+   "t": 0.53,
+   "b": 1.47
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 3.9,
+   "b_cap": 3.9,
+   "aspect": 1,
+   "resid_med_cap": 3.209,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     5.67,
+     8.2,
+     6.93,
+     5.57
+    ],
+    "dirDeg": 23,
+    "len_cap": 1.81,
+    "baseW_frac": 0.022,
+    "span_deg": 3,
+    "tipOffset_deg": 1
+   },
+   {
+    "prof_cap": [
+     9.1,
+     8.03,
+     6.63,
+     5.07
+    ],
+    "dirDeg": 113,
+    "len_cap": 3.11,
+    "baseW_frac": 0.204,
+    "span_deg": 28,
+    "tipOffset_deg": 14
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 0.94
+  },
+  "stroke_cap": 0.2,
+  "rough_cap": 0,
+  "peaks": 11,
+  "butt": {
+   "top": 0.02,
+   "bottom": 0.01,
+   "left": 0.88,
+   "right": 0.02
+  },
+  "fill": "#f6f6f6",
+  "fillLumSD": 16.3,
+  "fillRatio": 0.786
+ },
+ {
+  "id": 34,
+  "page": "d3617ce6.png",
+  "src": "cand6",
+  "kind": "speech-yellow",
+  "bbox": [
+   1045,
+   1129,
+   224,
+   157
+  ],
+  "cap_px": 15,
+  "lines": 6,
+  "lead_cap": 1.4,
+  "lineW_cap": [
+   11.5,
+   9.1,
+   10.9,
+   10.9,
+   6.8,
+   8.8
+  ],
+  "text_cap": [
+   11.5,
+   7.7
+  ],
+  "outer_cap": [
+   14.9,
+   10.4
+  ],
+  "pad_cap": {
+   "l": 2,
+   "r": 1.33,
+   "t": 1.4,
+   "b": 1.33
+  },
+  "body": {
+   "n": 4.7,
+   "a_cap": 6.83,
+   "b_cap": 5.11,
+   "aspect": 1.34,
+   "resid_med_cap": 0.152,
+   "padX_cap": 1.06,
+   "padY_cap": 1.28
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 3,
+   "cv": 1.07
+  },
+  "stroke_cap": 0.2,
+  "rough_cap": 0.027,
+  "peaks": 4,
+  "butt": {
+   "top": 0.07,
+   "bottom": 0.15,
+   "left": 0.01,
+   "right": 0.5
+  },
+  "fill": "#ede614",
+  "fillLumSD": 21.1,
+  "fillRatio": 0.853
+ },
+ {
+  "id": 35,
+  "page": "d3617ce6.png",
+  "src": "cand7",
+  "kind": "speech-yellow",
+  "bbox": [
+   1070,
+   1321,
+   199,
+   107
+  ],
+  "cap_px": 16,
+  "lines": 3,
+  "lead_cap": 1.31,
+  "lineW_cap": [
+   9.4,
+   6.4,
+   9.5
+  ],
+  "text_cap": [
+   9.8,
+   5.1
+  ],
+  "outer_cap": [
+   12.4,
+   6.6
+  ],
+  "pad_cap": {
+   "l": 2.19,
+   "r": 0.38,
+   "t": 1,
+   "b": 0.56
+  },
+  "body": {
+   "n": 3.85,
+   "a_cap": 5.44,
+   "b_cap": 3.28,
+   "aspect": 1.66,
+   "resid_med_cap": 0.234,
+   "padX_cap": 0.53,
+   "padY_cap": 0.75
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.56,
+     0.44,
+     0.34,
+     0.25
+    ],
+    "dirDeg": 193,
+    "len_cap": 1.61,
+    "baseW_frac": 0.027,
+    "span_deg": 3,
+    "tipOffset_deg": 1
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 1.33
+  },
+  "stroke_cap": 0.188,
+  "rough_cap": 0.021,
+  "peaks": 8,
+  "butt": {
+   "top": 0.32,
+   "bottom": 0.23,
+   "left": 0.01,
+   "right": 0.73
+  },
+  "fill": "#eee714",
+  "fillLumSD": 20.6,
+  "fillRatio": 0.809
+ },
+ {
+  "id": 36,
+  "page": "images.j.png",
+  "src": "cand1",
+  "kind": "speech",
+  "bbox": [
+   25,
+   28,
+   140,
+   107
+  ],
+  "cap_px": 17,
+  "lines": 4,
+  "lead_cap": 1.35,
+  "lineW_cap": [
+   4.2,
+   5.4,
+   5.9,
+   3.8
+  ],
+  "text_cap": [
+   5.9,
+   4.8
+  ],
+  "outer_cap": [
+   8.2,
+   6.2
+  ],
+  "pad_cap": {
+   "l": 1.06,
+   "r": 1.24,
+   "t": 0.71,
+   "b": 0.71
+  },
+  "body": {
+   "n": 4.05,
+   "a_cap": 3.13,
+   "b_cap": 3.16,
+   "aspect": 0.99,
+   "resid_med_cap": 0.063,
+   "padX_cap": 0.19,
+   "padY_cap": 0.75
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0,
+     0,
+     0.41,
+     0.47
+    ],
+    "dirDeg": 22,
+    "len_cap": 0.79,
+    "baseW_frac": 0.037,
+    "span_deg": 4,
+    "tipOffset_deg": -2
+   },
+   {
+    "prof_cap": [
+     2.76,
+     2.29,
+     1.74,
+     1.09
+    ],
+    "dirDeg": 148,
+    "len_cap": 1.13,
+    "baseW_frac": 0.295,
+    "span_deg": 30,
+    "tipOffset_deg": -7
+   },
+   {
+    "prof_cap": [
+     2.44,
+     1.94,
+     1.53,
+     0.94
+    ],
+    "dirDeg": 218,
+    "len_cap": 1.2,
+    "baseW_frac": 0.516,
+    "span_deg": 52,
+    "tipOffset_deg": 18
+   }
+  ],
+  "stroke_px": {
+   "med": 3.5,
+   "cv": 1.01
+  },
+  "stroke_cap": 0.206,
+  "rough_cap": 0.022,
+  "peaks": 8,
+  "butt": {
+   "top": 0.57,
+   "bottom": 0.34,
+   "left": 0.44,
+   "right": 0.02
+  },
+  "fill": "#f4f4f4",
+  "fillLumSD": 16.1,
+  "fillRatio": 0.83
+ },
+ {
+  "id": 37,
+  "page": "images.j.png",
+  "src": "cand2",
+  "kind": "chain",
+  "bbox": [
+   479,
+   28,
+   255,
+   243
+  ],
+  "cap_px": 17,
+  "lines": 8,
+  "lead_cap": 1.29,
+  "lineW_cap": [
+   9.1,
+   7.2,
+   7.1,
+   3.8,
+   4.7,
+   8.7,
+   8.3,
+   5.7
+  ],
+  "text_cap": [
+   13.5,
+   11.4
+  ],
+  "outer_cap": [
+   14.9,
+   14.2
+  ],
+  "pad_cap": {
+   "l": 0.65,
+   "r": 0.76,
+   "t": 0.47,
+   "b": 2.35
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 6.13,
+   "b_cap": 5.08,
+   "aspect": 1.21,
+   "resid_med_cap": 2.209,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     8.5,
+     7.24,
+     6.15,
+     4.59
+    ],
+    "dirDeg": 42,
+    "len_cap": 4.12,
+    "baseW_frac": 0.607,
+    "span_deg": 114,
+    "tipOffset_deg": -18
+   },
+   {
+    "prof_cap": [
+     6.38,
+     5.91,
+     4.85,
+     3.5
+    ],
+    "dirDeg": 223,
+    "len_cap": 4.4,
+    "baseW_frac": 0.199,
+    "span_deg": 32,
+    "tipOffset_deg": -16
+   },
+   {
+    "prof_cap": [
+     5.24,
+     4.09,
+     2.91,
+     1.76
+    ],
+    "dirDeg": 297,
+    "len_cap": 2.34,
+    "baseW_frac": 0.31,
+    "span_deg": 51,
+    "tipOffset_deg": 15
+   }
+  ],
+  "stroke_px": {
+   "med": 3.5,
+   "cv": 1.17
+  },
+  "stroke_cap": 0.206,
+  "rough_cap": 0.041,
+  "peaks": 6,
+  "butt": {
+   "top": 0.08,
+   "bottom": 0.01,
+   "left": 0.07,
+   "right": 0.03
+  },
+  "fill": "#f4f4f4",
+  "fillLumSD": 16.6,
+  "fillRatio": 0.545
+ },
+ {
+  "id": 38,
+  "page": "images.j.png",
+  "src": "cand3",
+  "kind": "burst",
+  "bbox": [
+   1104,
+   103,
+   203,
+   98
+  ],
+  "cap_px": 30,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   5.9
+  ],
+  "text_cap": [
+   5.9,
+   1
+  ],
+  "outer_cap": [
+   6.7,
+   3.2
+  ],
+  "pad_cap": {
+   "l": 0.3,
+   "r": 0.5,
+   "t": 0.67,
+   "b": 1.57
+  },
+  "body": {
+   "n": 4.1,
+   "a_cap": 3.28,
+   "b_cap": 1.06,
+   "aspect": 3.09,
+   "resid_med_cap": 0.076,
+   "padX_cap": 0.31,
+   "padY_cap": 0.56
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.63,
+     0.25,
+     0.2,
+     0.18
+    ],
+    "dirDeg": 148,
+    "len_cap": 1.85,
+    "baseW_frac": 0.021,
+    "span_deg": 4,
+    "tipOffset_deg": -2
+   }
+  ],
+  "stroke_px": {
+   "med": 5,
+   "cv": 0.66
+  },
+  "stroke_cap": 0.167,
+  "rough_cap": 0.016,
+  "peaks": 6,
+  "butt": {
+   "top": 0.13,
+   "bottom": 0.01,
+   "left": 0.03,
+   "right": 0.09
+  },
+  "fill": "#f5f6f6",
+  "fillLumSD": 14.3,
+  "fillRatio": 0.598
+ },
+ {
+  "id": 39,
+  "page": "images.j.png",
+  "src": "cand4",
+  "kind": "speech",
+  "bbox": [
+   398,
+   516,
+   223,
+   186
+  ],
+  "cap_px": 17,
+  "lines": 7,
+  "lead_cap": 1.24,
+  "lineW_cap": [
+   10.4,
+   4.6,
+   10.1,
+   11.4,
+   10.1,
+   11.4,
+   10.8
+  ],
+  "text_cap": [
+   11.8,
+   8.5
+  ],
+  "outer_cap": [
+   13.1,
+   10.9
+  ],
+  "pad_cap": {
+   "l": 0.47,
+   "r": 0.82,
+   "t": 0.88,
+   "b": 1.53
+  },
+  "body": {
+   "n": 5.45,
+   "a_cap": 6.44,
+   "b_cap": 4.99,
+   "aspect": 1.29,
+   "resid_med_cap": 0.096,
+   "padX_cap": 0.56,
+   "padY_cap": 0.75
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.15,
+     1.09,
+     1.03,
+     1.03
+    ],
+    "dirDeg": 100,
+    "len_cap": 0.82,
+    "baseW_frac": 0.021,
+    "span_deg": 3,
+    "tipOffset_deg": -1
+   }
+  ],
+  "stroke_px": {
+   "med": 3.5,
+   "cv": 0.92
+  },
+  "stroke_cap": 0.206,
+  "rough_cap": 0.025,
+  "peaks": 6,
+  "butt": {
+   "top": 0.25,
+   "bottom": 0.03,
+   "left": 0.22,
+   "right": 0.02
+  },
+  "fill": "#f4f4f4",
+  "fillLumSD": 16.3,
+  "fillRatio": 0.867
+ },
+ {
+  "id": 40,
+  "page": "images.j.png",
+  "src": "cand5",
+  "kind": "cluster",
+  "bbox": [
+   391,
+   791,
+   705,
+   209
+  ],
+  "cap_px": 18,
+  "lines": 5,
+  "lead_cap": 1.22,
+  "lineW_cap": [
+   2.7,
+   6.6,
+   6.9,
+   5.9,
+   31.8
+  ],
+  "text_cap": [
+   33.3,
+   6.8
+  ],
+  "outer_cap": [
+   39.1,
+   11.6
+  ],
+  "pad_cap": {
+   "l": 3.67,
+   "r": 2.17,
+   "t": 2.72,
+   "b": 2
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 16.01,
+   "b_cap": 2.79,
+   "aspect": 5.74,
+   "resid_med_cap": 3.579,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 4,
+   "cv": 0.57
+  },
+  "stroke_cap": 0.222,
+  "rough_cap": 0,
+  "peaks": 0,
+  "butt": {
+   "top": 0,
+   "bottom": 0.01,
+   "left": 0.02,
+   "right": 0.01
+  },
+  "fill": "#f6f6f6",
+  "fillLumSD": 15,
+  "fillRatio": 0.296
+ },
+ {
+  "id": 41,
+  "page": "images.j.png",
+  "src": "cand6",
+  "kind": "chain",
+  "bbox": [
+   174,
+   1019,
+   486,
+   219
+  ],
+  "cap_px": 18,
+  "lines": 8,
+  "lead_cap": 1.17,
+  "lineW_cap": [
+   24.2,
+   25,
+   13.6,
+   7.6,
+   9.1,
+   10.6,
+   9.4,
+   8.2
+  ],
+  "text_cap": [
+   25.4,
+   10.6
+  ],
+  "outer_cap": [
+   26.9,
+   12.1
+  ],
+  "pad_cap": {
+   "l": 0.67,
+   "r": 0.83,
+   "t": 0.56,
+   "b": 0.94
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 12.09,
+   "b_cap": 4.68,
+   "aspect": 2.59,
+   "resid_med_cap": 5.247,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 12,
+   "cv": 0.41
+  },
+  "stroke_cap": 0.667,
+  "rough_cap": 0,
+  "peaks": 0,
+  "butt": {
+   "top": 0.09,
+   "bottom": 0.08,
+   "left": 0.04,
+   "right": 0.48
+  },
+  "fill": "#f4f4f4",
+  "fillLumSD": 16.4,
+  "fillRatio": 0.612
+ },
+ {
+  "id": 42,
+  "page": "images.j.png",
+  "src": "cand7",
+  "kind": "speech",
+  "bbox": [
+   694,
+   1021,
+   140,
+   184
+  ],
+  "cap_px": 17,
+  "lines": 6,
+  "lead_cap": 1.24,
+  "lineW_cap": [
+   7.5,
+   5.9,
+   5.9,
+   5.8,
+   2.9,
+   7
+  ],
+  "text_cap": [
+   7.5,
+   7.4
+  ],
+  "outer_cap": [
+   8.2,
+   10.8
+  ],
+  "pad_cap": {
+   "l": 0.18,
+   "r": 0.47,
+   "t": 0.59,
+   "b": 2.76
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 4.01,
+   "b_cap": 4.4,
+   "aspect": 0.91,
+   "resid_med_cap": 0.103,
+   "padX_cap": 0.25,
+   "padY_cap": 0.69
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.74,
+     0.53,
+     0.56,
+     0.41
+    ],
+    "dirDeg": 68,
+    "len_cap": 1.94,
+    "baseW_frac": 0.051,
+    "span_deg": 5,
+    "tipOffset_deg": -2
+   }
+  ],
+  "stroke_px": {
+   "med": 3.5,
+   "cv": 1.1
+  },
+  "stroke_cap": 0.206,
+  "rough_cap": 0.024,
+  "peaks": 5,
+  "butt": {
+   "top": 0.56,
+   "bottom": 0.01,
+   "left": 0.36,
+   "right": 0.39
+  },
+  "fill": "#f3f3f3",
+  "fillLumSD": 17.5,
+  "fillRatio": 0.786
+ },
+ {
+  "id": 43,
+  "page": "images.j.png",
+  "src": "cand8",
+  "kind": "chain",
+  "bbox": [
+   1028,
+   1024,
+   303,
+   367
+  ],
+  "cap_px": 17,
+  "lines": 11,
+  "lead_cap": 1.24,
+  "lineW_cap": [
+   15.5,
+   12.8,
+   16.4,
+   6.9,
+   9.8,
+   10.4,
+   7.5,
+   4.5,
+   4.1,
+   2.8,
+   5.6
+  ],
+  "text_cap": [
+   16.4,
+   17.9
+  ],
+  "outer_cap": [
+   17.8,
+   21.5
+  ],
+  "pad_cap": {
+   "l": 0.76,
+   "r": 0.65,
+   "t": 0.47,
+   "b": 3.18
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 7.55,
+   "b_cap": 8.31,
+   "aspect": 0.91,
+   "resid_med_cap": 3.236,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     8.88,
+     8.26,
+     6.85,
+     4.68
+    ],
+    "dirDeg": 231,
+    "len_cap": 5.8,
+    "baseW_frac": 0.153,
+    "span_deg": 21,
+    "tipOffset_deg": -10
+   },
+   {
+    "prof_cap": [
+     15.56,
+     13.56,
+     11.59,
+     9.53
+    ],
+    "dirDeg": 256,
+    "len_cap": 2.41,
+    "baseW_frac": 0.109,
+    "span_deg": 13,
+    "tipOffset_deg": -6
+   },
+   {
+    "prof_cap": [
+     8.74,
+     8.5,
+     6.18,
+     3.59
+    ],
+    "dirDeg": 313,
+    "len_cap": 6.5,
+    "baseW_frac": 0.391,
+    "span_deg": 56,
+    "tipOffset_deg": 14
+   },
+   {
+    "prof_cap": [
+     6.03,
+     5.32,
+     3.91,
+     2.06
+    ],
+    "dirDeg": 339,
+    "len_cap": 2.84,
+    "baseW_frac": 0.354,
+    "span_deg": 48,
+    "tipOffset_deg": -20
+   }
+  ],
+  "stroke_px": {
+   "med": 12,
+   "cv": 0.49
+  },
+  "stroke_cap": 0.706,
+  "rough_cap": 0.031,
+  "peaks": 7,
+  "butt": {
+   "top": 0.95,
+   "bottom": 0.02,
+   "left": 0.04,
+   "right": 0.16
+  },
+  "fill": "#f6f6f6",
+  "fillLumSD": 15.4,
+  "fillRatio": 0.551
+ },
+ {
+  "id": 44,
+  "page": "images.j.png",
+  "src": "cand9",
+  "kind": "shaken",
+  "bbox": [
+   694,
+   1238,
+   176,
+   151
+  ],
+  "cap_px": 15,
+  "lines": 5,
+  "lead_cap": 1.4,
+  "lineW_cap": [
+   9.1,
+   9.1,
+   7.5,
+   5.3,
+   6.5
+  ],
+  "text_cap": [
+   10.5,
+   6.9
+  ],
+  "outer_cap": [
+   11.7,
+   10
+  ],
+  "pad_cap": {
+   "l": 0.2,
+   "r": 0.93,
+   "t": 1.8,
+   "b": 1.33
+  },
+  "body": {
+   "n": 3.8,
+   "a_cap": 5.4,
+   "b_cap": 4.43,
+   "aspect": 1.22,
+   "resid_med_cap": 0.236,
+   "padX_cap": 0.13,
+   "padY_cap": 1
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.5,
+     1.23,
+     1.07,
+     0.67
+    ],
+    "dirDeg": 143,
+    "len_cap": 1.01,
+    "baseW_frac": 0.028,
+    "span_deg": 3,
+    "tipOffset_deg": 0
+   },
+   {
+    "prof_cap": [
+     4.87,
+     1.67,
+     1.27,
+     0.83
+    ],
+    "dirDeg": 286,
+    "len_cap": 0.86,
+    "baseW_frac": 0.074,
+    "span_deg": 10,
+    "tipOffset_deg": 2
+   },
+   {
+    "prof_cap": [
+     2.67,
+     2.73,
+     2.63,
+     2.6
+    ],
+    "dirDeg": 316,
+    "len_cap": 0.9,
+    "baseW_frac": 0.028,
+    "span_deg": 3,
+    "tipOffset_deg": 0
+   },
+   {
+    "prof_cap": [
+     2.57,
+     2.57,
+     1.97,
+     1.67
+    ],
+    "dirDeg": 327,
+    "len_cap": 1.29,
+    "baseW_frac": 0.161,
+    "span_deg": 17,
+    "tipOffset_deg": -1
+   }
+  ],
+  "stroke_px": {
+   "med": 4,
+   "cv": 0.77
+  },
+  "stroke_cap": 0.267,
+  "rough_cap": 0.096,
+  "peaks": 6,
+  "butt": {
+   "top": 0.02,
+   "bottom": 0.05,
+   "left": 0.77,
+   "right": 0.07
+  },
+  "fill": "#f5f5f5",
+  "fillLumSD": 15.6,
+  "fillRatio": 0.795
+ },
+ {
+  "id": 45,
+  "page": "images.j.png",
+  "src": "cand10",
+  "kind": "shaken",
+  "bbox": [
+   703,
+   1420,
+   212,
+   186
+  ],
+  "cap_px": 17,
+  "lines": 6,
+  "lead_cap": 1.29,
+  "lineW_cap": [
+   9.2,
+   9.2,
+   9.4,
+   8.9,
+   9.8,
+   3.1
+  ],
+  "text_cap": [
+   10,
+   8.7
+  ],
+  "outer_cap": [
+   12.4,
+   10.9
+  ],
+  "pad_cap": {
+   "l": 1.18,
+   "r": 1.24,
+   "t": 1.12,
+   "b": 1.06
+  },
+  "body": {
+   "n": 3.95,
+   "a_cap": 5.59,
+   "b_cap": 5.1,
+   "aspect": 1.1,
+   "resid_med_cap": 0.269,
+   "padX_cap": 0.59,
+   "padY_cap": 0.75
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     2.38,
+     2.32,
+     1.35,
+     1
+    ],
+    "dirDeg": 322,
+    "len_cap": 1.23,
+    "baseW_frac": 0.079,
+    "span_deg": 8,
+    "tipOffset_deg": -1
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 1.39
+  },
+  "stroke_cap": 0.176,
+  "rough_cap": 0.124,
+  "peaks": 14,
+  "butt": {
+   "top": 0.08,
+   "bottom": 0.02,
+   "left": 0.05,
+   "right": 0.01
+  },
+  "fill": "#f4f4f4",
+  "fillLumSD": 15.7,
+  "fillRatio": 0.799
+ },
+ {
+  "id": 46,
+  "page": "images.j.png",
+  "src": "cand11",
+  "kind": "speech",
+  "bbox": [
+   43,
+   1433,
+   149,
+   244
+  ],
+  "cap_px": 16,
+  "lines": 8,
+  "lead_cap": 1.31,
+  "lineW_cap": [
+   5.6,
+   7.2,
+   4.6,
+   6.8,
+   6,
+   5.4,
+   2.5,
+   6.4
+  ],
+  "text_cap": [
+   7.2,
+   10.6
+  ],
+  "outer_cap": [
+   9.3,
+   15.2
+  ],
+  "pad_cap": {
+   "l": 0.69,
+   "r": 1.38,
+   "t": 3.31,
+   "b": 1.25
+  },
+  "body": {
+   "n": 4.3,
+   "a_cap": 4.53,
+   "b_cap": 6.41,
+   "aspect": 0.71,
+   "resid_med_cap": 0.306,
+   "padX_cap": 0.94,
+   "padY_cap": 1.1
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 4,
+   "cv": 1.02
+  },
+  "stroke_cap": 0.25,
+  "rough_cap": 0.027,
+  "peaks": 9,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.34,
+   "left": 0.09,
+   "right": 0.01
+  },
+  "fill": "#f5f5f5",
+  "fillLumSD": 15.8,
+  "fillRatio": 0.781
+ },
+ {
+  "id": 47,
+  "page": "images.j.png",
+  "src": "cand12",
+  "kind": "shaken",
+  "bbox": [
+   932,
+   1462,
+   167,
+   129
+  ],
+  "cap_px": 17,
+  "lines": 4,
+  "lead_cap": 1.24,
+  "lineW_cap": [
+   6.1,
+   4.3,
+   7.5,
+   7.4
+  ],
+  "text_cap": [
+   7.7,
+   4.8
+  ],
+  "outer_cap": [
+   9.8,
+   7.5
+  ],
+  "pad_cap": {
+   "l": 1,
+   "r": 1.06,
+   "t": 1.24,
+   "b": 1.47
+  },
+  "body": {
+   "n": 4.15,
+   "a_cap": 4.54,
+   "b_cap": 3.41,
+   "aspect": 1.33,
+   "resid_med_cap": 0.201,
+   "padX_cap": 0.69,
+   "padY_cap": 1
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 3.5,
+   "cv": 1.22
+  },
+  "stroke_cap": 0.206,
+  "rough_cap": 0.104,
+  "peaks": 17,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.02,
+   "left": 0.02,
+   "right": 0.06
+  },
+  "fill": "#f4f4f4",
+  "fillLumSD": 15.6,
+  "fillRatio": 0.79
+ },
+ {
+  "id": 48,
+  "page": "images.j.png",
+  "src": "cand15",
+  "kind": "speech",
+  "bbox": [
+   1063,
+   1644,
+   164,
+   76
+  ],
+  "cap_px": 18,
+  "lines": 2,
+  "lead_cap": 1.17,
+  "lineW_cap": [
+   5.6,
+   5.7
+  ],
+  "text_cap": [
+   6.1,
+   2.1
+  ],
+  "outer_cap": [
+   9.1,
+   4.2
+  ],
+  "pad_cap": {
+   "l": 2.33,
+   "r": 0.61,
+   "t": 1,
+   "b": 1.06
+  },
+  "body": {
+   "n": 3.1,
+   "a_cap": 3.56,
+   "b_cap": 2.09,
+   "aspect": 1.7,
+   "resid_med_cap": 0.06,
+   "padX_cap": 0.5,
+   "padY_cap": 1.03
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.61,
+     0.53,
+     0.39,
+     0.31
+    ],
+    "dirDeg": 159,
+    "len_cap": 2.11,
+    "baseW_frac": 0.069,
+    "span_deg": 8,
+    "tipOffset_deg": -3
+   }
+  ],
+  "stroke_px": {
+   "med": 5,
+   "cv": 0.67
+  },
+  "stroke_cap": 0.278,
+  "rough_cap": 0.015,
+  "peaks": 20,
+  "butt": {
+   "top": 0.24,
+   "bottom": 0.14,
+   "left": 0.01,
+   "right": 0.11
+  },
+  "fill": "#f5f5f4",
+  "fillLumSD": 15.9,
+  "fillRatio": 0.713
+ },
+ {
+  "id": 49,
+  "page": "swwvm51d.png",
+  "src": "cand2",
+  "kind": "speech",
+  "bbox": [
+   787,
+   68,
+   143,
+   78
+  ],
+  "cap_px": 18,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   5.7
+  ],
+  "text_cap": [
+   5.7,
+   0.9
+  ],
+  "outer_cap": [
+   7.9,
+   4.3
+  ],
+  "pad_cap": {
+   "l": 1.17,
+   "r": 1.06,
+   "t": 0.72,
+   "b": 2.61
+  },
+  "body": {
+   "n": 5.3,
+   "a_cap": 3.61,
+   "b_cap": 0.02,
+   "aspect": 162.6,
+   "resid_med_cap": 0.276,
+   "padX_cap": 0.78,
+   "padY_cap": -0.45
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     2,
+     1.78,
+     1.86,
+     1.83
+    ],
+    "dirDeg": 173,
+    "len_cap": 3.65,
+    "baseW_frac": 0.05,
+    "span_deg": 179,
+    "tipOffset_deg": 83
+   },
+   {
+    "prof_cap": [
+     1.94,
+     1.97,
+     2,
+     1.39
+    ],
+    "dirDeg": 191,
+    "len_cap": 3.97,
+    "baseW_frac": 0.032,
+    "span_deg": 179,
+    "tipOffset_deg": -79
+   }
+  ],
+  "stroke_px": {
+   "med": 13.5,
+   "cv": 0.34
+  },
+  "stroke_cap": 0.75,
+  "rough_cap": 0.046,
+  "peaks": 12,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.01,
+   "left": 0.01,
+   "right": 0.03
+  },
+  "fill": "#f7f7f4",
+  "fillLumSD": 14.1,
+  "fillRatio": 0.405
+ },
+ {
+  "id": 50,
+  "page": "swwvm51d.png",
+  "src": "cand3",
+  "kind": "burst",
+  "bbox": [
+   729,
+   320,
+   120,
+   57
+  ],
+  "cap_px": 32,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   2.8
+  ],
+  "text_cap": [
+   2.8,
+   1
+  ],
+  "outer_cap": [
+   3.7,
+   1.8
+  ],
+  "pad_cap": {
+   "l": 0.47,
+   "r": 0.5,
+   "t": 0.38,
+   "b": 0.38
+  },
+  "body": {
+   "n": 3.3,
+   "a_cap": 1.63,
+   "b_cap": 0.12,
+   "aspect": 13.54,
+   "resid_med_cap": 0.565,
+   "padX_cap": 0.25,
+   "padY_cap": -0.38
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.78,
+     1.41,
+     1.55,
+     1
+    ],
+    "dirDeg": 23,
+    "len_cap": 1.4,
+    "baseW_frac": 0.14,
+    "span_deg": 96,
+    "tipOffset_deg": -31
+   },
+   {
+    "prof_cap": [
+     1.61,
+     1.5,
+     1.42,
+     1.13
+    ],
+    "dirDeg": 159,
+    "len_cap": 1.35,
+    "baseW_frac": 0.104,
+    "span_deg": 61,
+    "tipOffset_deg": 15
+   },
+   {
+    "prof_cap": [
+     1.52,
+     1.48,
+     1.56,
+     1.14
+    ],
+    "dirDeg": 205,
+    "len_cap": 1.48,
+    "baseW_frac": 0.089,
+    "span_deg": 61,
+    "tipOffset_deg": -11
+   },
+   {
+    "prof_cap": [
+     3.22,
+     3.39,
+     2.7,
+     0.27
+    ],
+    "dirDeg": 266,
+    "len_cap": 0.77,
+    "baseW_frac": 0.012,
+    "span_deg": 18,
+    "tipOffset_deg": 4
+   },
+   {
+    "prof_cap": [
+     3.25,
+     3.33,
+     2.83,
+     2
+    ],
+    "dirDeg": 282,
+    "len_cap": 0.63,
+    "baseW_frac": 0.003,
+    "span_deg": 5,
+    "tipOffset_deg": 1
+   },
+   {
+    "prof_cap": [
+     1.63,
+     1.5,
+     1.41,
+     1.19
+    ],
+    "dirDeg": 338,
+    "len_cap": 1.46,
+    "baseW_frac": 0.1,
+    "span_deg": 61,
+    "tipOffset_deg": 14
+   }
+  ],
+  "stroke_px": {
+   "med": 7.5,
+   "cv": 0.4
+  },
+  "stroke_cap": 0.234,
+  "rough_cap": 0.028,
+  "peaks": 15,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.02,
+   "left": 0.07,
+   "right": 0.04
+  },
+  "fill": "#f7f7f1",
+  "fillLumSD": 12,
+  "fillRatio": 0.698
+ },
+ {
+  "id": 51,
+  "page": "swwvm51d.png",
+  "src": "cand4",
+  "kind": "speech",
+  "bbox": [
+   902,
+   459,
+   115,
+   51
+  ],
+  "cap_px": 12,
+  "lines": 2,
+  "lead_cap": 1.17,
+  "lineW_cap": [
+   4.6,
+   4.8
+  ],
+  "text_cap": [
+   4.8,
+   2.2
+  ],
+  "outer_cap": [
+   9.5,
+   4.2
+  ],
+  "pad_cap": {
+   "l": 2.25,
+   "r": 2.42,
+   "t": 0.58,
+   "b": 1.42
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 1.79,
+   "b_cap": 0.45,
+   "aspect": 3.94,
+   "resid_med_cap": null,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     4.21,
+     4.08,
+     3.54,
+     0.58
+    ],
+    "dirDeg": 152,
+    "len_cap": 4.57,
+    "baseW_frac": 0,
+    "span_deg": 360,
+    "tipOffset_deg": -28
+   }
+  ],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 0.72
+  },
+  "stroke_cap": 0.208,
+  "rough_cap": 0.022,
+  "peaks": 8,
+  "butt": {
+   "top": 0.17,
+   "bottom": 0.02,
+   "left": 0.02,
+   "right": 0.63
+  },
+  "fill": "#f9f9f6",
+  "fillLumSD": 12.3,
+  "fillRatio": 0.805
+ },
+ {
+  "id": 52,
+  "page": "swwvm51d.png",
+  "src": "cand5",
+  "kind": "speech",
+  "bbox": [
+   564,
+   460,
+   160,
+   71
+  ],
+  "cap_px": 13,
+  "lines": 3,
+  "lead_cap": 1.15,
+  "lineW_cap": [
+   8.4,
+   10,
+   8.6
+  ],
+  "text_cap": [
+   10,
+   3.2
+  ],
+  "outer_cap": [
+   12.2,
+   5.4
+  ],
+  "pad_cap": {
+   "l": 1,
+   "r": 1.23,
+   "t": 0.62,
+   "b": 1.54
+  },
+  "body": {
+   "n": 3.7,
+   "a_cap": 6,
+   "b_cap": 2.37,
+   "aspect": 2.54,
+   "resid_med_cap": 0.197,
+   "padX_cap": 1,
+   "padY_cap": 0.75
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     4,
+     0.85,
+     0.58,
+     0.42
+    ],
+    "dirDeg": 29,
+    "len_cap": 1.9,
+    "baseW_frac": 0.033,
+    "span_deg": 5,
+    "tipOffset_deg": 1
+   }
+  ],
+  "stroke_px": {
+   "med": 3,
+   "cv": 0.76
+  },
+  "stroke_cap": 0.231,
+  "rough_cap": 0.026,
+  "peaks": 8,
+  "butt": {
+   "top": 0.04,
+   "bottom": 0.01,
+   "left": 0.01,
+   "right": 0.11
+  },
+  "fill": "#f7f7f4",
+  "fillLumSD": 14.7,
+  "fillRatio": 0.788
+ },
+ {
+  "id": 53,
+  "page": "swwvm51d.png",
+  "src": "cand10",
+  "kind": "speech",
+  "bbox": [
+   54,
+   966,
+   375,
+   133
+  ],
+  "cap_px": 13,
+  "lines": 5,
+  "lead_cap": 1.15,
+  "lineW_cap": [
+   24,
+   27,
+   23.8,
+   27.2,
+   24.2
+  ],
+  "text_cap": [
+   27.4,
+   5.5
+  ],
+  "outer_cap": [
+   28.8,
+   10.2
+  ],
+  "pad_cap": {
+   "l": 0.62,
+   "r": 0.77,
+   "t": 0.54,
+   "b": 4.15
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 14.6,
+   "b_cap": 3.35,
+   "aspect": 4.36,
+   "resid_med_cap": 0.081,
+   "padX_cap": 0.91,
+   "padY_cap": 0.62
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 1.35
+  },
+  "stroke_cap": 0.192,
+  "rough_cap": 0.041,
+  "peaks": 5,
+  "butt": {
+   "top": 0.52,
+   "bottom": 0,
+   "left": 0.58,
+   "right": 0.53
+  },
+  "fill": "#f6f6f4",
+  "fillLumSD": 14.6,
+  "fillRatio": 0.649
+ },
+ {
+  "id": 54,
+  "page": "swwvm51d.png",
+  "src": "cand12",
+  "kind": "speech",
+  "bbox": [
+   306,
+   1052,
+   124,
+   95
+  ],
+  "cap_px": 12,
+  "lines": 4,
+  "lead_cap": 1.17,
+  "lineW_cap": [
+   5.4,
+   6.8,
+   6.9,
+   4.8
+  ],
+  "text_cap": [
+   6.9,
+   4.7
+  ],
+  "outer_cap": [
+   10.3,
+   7.8
+  ],
+  "pad_cap": {
+   "l": 1.25,
+   "r": 2.08,
+   "t": 0.75,
+   "b": 2.42
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 2.83,
+   "b_cap": 1.7,
+   "aspect": 1.66,
+   "resid_med_cap": null,
+   "padX_cap": -0.63,
+   "padY_cap": -0.63
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     6.17,
+     5.96,
+     5.71,
+     4.13
+    ],
+    "dirDeg": 340,
+    "len_cap": 3.74,
+    "baseW_frac": 0,
+    "span_deg": 360,
+    "tipOffset_deg": 161
+   }
+  ],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 0.89
+  },
+  "stroke_cap": 0.208,
+  "rough_cap": 0.025,
+  "peaks": 8,
+  "butt": {
+   "top": 0.02,
+   "bottom": 0.01,
+   "left": 0.12,
+   "right": 0.05
+  },
+  "fill": "#f8f8f6",
+  "fillLumSD": 13.1,
+  "fillRatio": 0.702
+ },
+ {
+  "id": 55,
+  "page": "swwvm51d.png",
+  "src": "cand14",
+  "kind": "speech",
+  "bbox": [
+   55,
+   1355,
+   85,
+   85
+  ],
+  "cap_px": 13,
+  "lines": 2,
+  "lead_cap": 1.08,
+  "lineW_cap": [
+   4.6,
+   3
+  ],
+  "text_cap": [
+   4.6,
+   3.2
+  ],
+  "outer_cap": [
+   6.5,
+   6.5
+  ],
+  "pad_cap": {
+   "l": 0.54,
+   "r": 1.31,
+   "t": 2.85,
+   "b": 0.46
+  },
+  "body": {
+   "n": 5.9,
+   "a_cap": 2.87,
+   "b_cap": 2.11,
+   "aspect": 1.36,
+   "resid_med_cap": 0.057,
+   "padX_cap": 0.56,
+   "padY_cap": 0.53
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.88,
+     0.73,
+     0.5,
+     0.27
+    ],
+    "dirDeg": 271,
+    "len_cap": 2.35,
+    "baseW_frac": 0.109,
+    "span_deg": 17,
+    "tipOffset_deg": 5
+   },
+   {
+    "prof_cap": [
+     2.77,
+     2.58,
+     2.35,
+     1.92
+    ],
+    "dirDeg": 15,
+    "len_cap": 0.8,
+    "baseW_frac": 0.294,
+    "span_deg": 33,
+    "tipOffset_deg": 5
+   }
+  ],
+  "stroke_px": {
+   "med": 2,
+   "cv": 2.23
+  },
+  "stroke_cap": 0.154,
+  "rough_cap": 0.018,
+  "peaks": 6,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.91,
+   "left": 0.55,
+   "right": 0.14
+  },
+  "fill": "#f9f9f7",
+  "fillLumSD": 11.5,
+  "fillRatio": 0.626
+ },
+ {
+  "id": 56,
+  "page": "swwvm51d.png",
+  "src": "seed110,690",
+  "kind": "speech",
+  "bbox": [
+   53,
+   670,
+   86,
+   107
+  ],
+  "cap_px": 7,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   3.3
+  ],
+  "text_cap": [
+   3.3,
+   0.9
+  ],
+  "outer_cap": [
+   12.1,
+   15.1
+  ],
+  "pad_cap": {
+   "l": 3.57,
+   "r": 5.29,
+   "t": 3.14,
+   "b": 11.14
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 1.01,
+   "b_cap": 0.01,
+   "aspect": 118.17,
+   "resid_med_cap": null,
+   "padX_cap": -0.63,
+   "padY_cap": -0.42
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     11.79,
+     9.07,
+     1.5,
+     0.93
+    ],
+    "dirDeg": 89,
+    "len_cap": 9.35,
+    "baseW_frac": 0,
+    "span_deg": 360,
+    "tipOffset_deg": -91
+   }
+  ],
+  "stroke_px": {
+   "med": 2.5,
+   "cv": 0.39
+  },
+  "stroke_cap": 0.357,
+  "rough_cap": 0.033,
+  "peaks": 6,
+  "butt": {
+   "top": 0.81,
+   "bottom": 0.01,
+   "left": 0.01,
+   "right": 0.07
+  },
+  "fill": "#fdfdfc",
+  "fillLumSD": 4.5,
+  "fillRatio": 0.482
+ },
+ {
+  "id": 57,
+  "page": "AllTime-.png",
+  "src": "cand1",
+  "kind": "burst",
+  "bbox": [
+   71,
+   117,
+   213,
+   162
+  ],
+  "cap_px": 56,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   2.5
+  ],
+  "text_cap": [
+   2.5,
+   1
+  ],
+  "outer_cap": [
+   3.8,
+   2.9
+  ],
+  "pad_cap": {
+   "l": 0.3,
+   "r": 0.95,
+   "t": 0.29,
+   "b": 1.59
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 0.64,
+   "b_cap": 0.02,
+   "aspect": 31.89,
+   "resid_med_cap": null,
+   "padX_cap": -0.63,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     2,
+     1.25,
+     1.22,
+     0.26
+    ],
+    "dirDeg": 351,
+    "len_cap": 2.14,
+    "baseW_frac": 0,
+    "span_deg": 360,
+    "tipOffset_deg": 172
+   }
+  ],
+  "stroke_px": {
+   "med": 4,
+   "cv": 0.78
+  },
+  "stroke_cap": 0.071,
+  "rough_cap": 0.015,
+  "peaks": 7,
+  "butt": {
+   "top": 0.35,
+   "bottom": 0,
+   "left": 0.56,
+   "right": 0.01
+  },
+  "fill": "#f8f4e8",
+  "fillLumSD": 8.9,
+  "fillRatio": 0.474
+ },
+ {
+  "id": 58,
+  "page": "AllTime-.png",
+  "src": "cand2",
+  "kind": "burst",
+  "bbox": [
+   367,
+   118,
+   227,
+   112
+  ],
+  "cap_px": 55,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   2.9
+  ],
+  "text_cap": [
+   2.9,
+   1
+  ],
+  "outer_cap": [
+   4.1,
+   2
+  ],
+  "pad_cap": {
+   "l": 0.95,
+   "r": 0.22,
+   "t": 0.24,
+   "b": 0.8
+  },
+  "body": {
+   "n": 3.7,
+   "a_cap": 1.63,
+   "b_cap": 0.11,
+   "aspect": 14.72,
+   "resid_med_cap": 0.533,
+   "padX_cap": 0.16,
+   "padY_cap": -0.38
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.75,
+     1.34,
+     1.55,
+     1.55
+    ],
+    "dirDeg": 17,
+    "len_cap": 1.38,
+    "baseW_frac": 0.13,
+    "span_deg": 68,
+    "tipOffset_deg": -23
+   },
+   {
+    "prof_cap": [
+     3.53,
+     2.85,
+     2.63,
+     0
+    ],
+    "dirDeg": 75,
+    "len_cap": 0.81,
+    "baseW_frac": 0.002,
+    "span_deg": 4,
+    "tipOffset_deg": -2
+   },
+   {
+    "prof_cap": [
+     1.62,
+     1.75,
+     1.6,
+     1.45
+    ],
+    "dirDeg": 153,
+    "len_cap": 1.74,
+    "baseW_frac": 0.111,
+    "span_deg": 264,
+    "tipOffset_deg": -70
+   }
+  ],
+  "stroke_px": {
+   "med": 6,
+   "cv": 0.51
+  },
+  "stroke_cap": 0.109,
+  "rough_cap": 0.016,
+  "peaks": 7,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0,
+   "left": 0.04,
+   "right": 0.36
+  },
+  "fill": "#f8f4e8",
+  "fillLumSD": 8.6,
+  "fillRatio": 0.643
+ },
+ {
+  "id": 59,
+  "page": "AllTime-.png",
+  "src": "cand3",
+  "kind": "burst",
+  "bbox": [
+   651,
+   119,
+   290,
+   162
+  ],
+  "cap_px": 73,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   3.1
+  ],
+  "text_cap": [
+   3.1,
+   1
+  ],
+  "outer_cap": [
+   4,
+   2.2
+  ],
+  "pad_cap": {
+   "l": 0.26,
+   "r": 0.62,
+   "t": 0.11,
+   "b": 1.1
+  },
+  "body": {
+   "n": 5.3,
+   "a_cap": 1.85,
+   "b_cap": 0.02,
+   "aspect": 92.55,
+   "resid_med_cap": 0.583,
+   "padX_cap": 0.31,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.88,
+     1.56,
+     1.6,
+     1.09
+    ],
+    "dirDeg": 155,
+    "len_cap": 1.95,
+    "baseW_frac": 0.026,
+    "span_deg": 179,
+    "tipOffset_deg": 65
+   },
+   {
+    "prof_cap": [
+     1.4,
+     1.58,
+     1.36,
+     1.55
+    ],
+    "dirDeg": 198,
+    "len_cap": 1.83,
+    "baseW_frac": 0.021,
+    "span_deg": 75,
+    "tipOffset_deg": -20
+   },
+   {
+    "prof_cap": [
+     1.4,
+     1.28,
+     1.32,
+     0.91
+    ],
+    "dirDeg": 352,
+    "len_cap": 2.01,
+    "baseW_frac": 0.047,
+    "span_deg": 75,
+    "tipOffset_deg": 30
+   }
+  ],
+  "stroke_px": {
+   "med": 5.5,
+   "cv": 0.53
+  },
+  "stroke_cap": 0.075,
+  "rough_cap": 0.014,
+  "peaks": 8,
+  "butt": {
+   "top": 0.26,
+   "bottom": 0,
+   "left": 0.65,
+   "right": 0.01
+  },
+  "fill": "#f8f3e8",
+  "fillLumSD": 9.9,
+  "fillRatio": 0.563
+ },
+ {
+  "id": 60,
+  "page": "AllTime-.png",
+  "src": "cand4",
+  "kind": "burst",
+  "bbox": [
+   1210,
+   120,
+   320,
+   165
+  ],
+  "cap_px": 51,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   5.2
+  ],
+  "text_cap": [
+   5.2,
+   1.1
+  ],
+  "outer_cap": [
+   6.3,
+   3.2
+  ],
+  "pad_cap": {
+   "l": 0.39,
+   "r": 0.63,
+   "t": 0.18,
+   "b": 1.94
+  },
+  "body": {
+   "n": 1.2,
+   "a_cap": 2.87,
+   "b_cap": 0.01,
+   "aspect": 317.93,
+   "resid_med_cap": 0.152,
+   "padX_cap": 0.25,
+   "padY_cap": -0.54
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.62,
+     1.4,
+     1.86,
+     1.54
+    ],
+    "dirDeg": 167,
+    "len_cap": 3.06,
+    "baseW_frac": 0.014,
+    "span_deg": 179,
+    "tipOffset_deg": 77
+   },
+   {
+    "prof_cap": [
+     1.54,
+     1.71,
+     1.49,
+     0.83
+    ],
+    "dirDeg": 348,
+    "len_cap": 3.26,
+    "baseW_frac": 0.015,
+    "span_deg": 179,
+    "tipOffset_deg": 78
+   }
+  ],
+  "stroke_px": {
+   "med": 7.5,
+   "cv": 0.58
+  },
+  "stroke_cap": 0.147,
+  "rough_cap": 0.014,
+  "peaks": 6,
+  "butt": {
+   "top": 0.02,
+   "bottom": 0,
+   "left": 0.42,
+   "right": 0.01
+  },
+  "fill": "#f8f4e8",
+  "fillLumSD": 10.1,
+  "fillRatio": 0.433
+ },
+ {
+  "id": 61,
+  "page": "AllTime-.png",
+  "src": "cand7",
+  "kind": "caption",
+  "bbox": [
+   71,
+   976,
+   801,
+   157
+  ],
+  "cap_px": 23,
+  "lines": 5,
+  "lead_cap": 1.17,
+  "lineW_cap": [
+   31.7,
+   29.8,
+   31.5,
+   32.8,
+   23.2
+  ],
+  "text_cap": [
+   33,
+   5.8
+  ],
+  "outer_cap": [
+   34.8,
+   6.8
+  ],
+  "pad_cap": {
+   "l": 0.96,
+   "r": 0.78,
+   "t": 0.61,
+   "b": 0.39
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 17.55,
+   "b_cap": 3.42,
+   "aspect": 5.13,
+   "resid_med_cap": 0.165,
+   "padX_cap": 1.03,
+   "padY_cap": 0.53
+  },
+  "tails": [],
+  "stroke_px": {
+   "med": 4.5,
+   "cv": 0.86
+  },
+  "stroke_cap": 0.196,
+  "rough_cap": 0.039,
+  "peaks": 4,
+  "butt": {
+   "top": 0.16,
+   "bottom": 0.1,
+   "left": 0.83,
+   "right": 0.17
+  },
+  "fill": "#eeeb32",
+  "fillLumSD": 15.1,
+  "fillRatio": 0.982
+ },
+ {
+  "id": 62,
+  "page": "AllTime-.png",
+  "src": "cand8",
+  "kind": "burst",
+  "bbox": [
+   930,
+   979,
+   256,
+   133
+  ],
+  "cap_px": 28,
+  "lines": 2,
+  "lead_cap": 1.04,
+  "lineW_cap": [
+   6.3,
+   6.8
+  ],
+  "text_cap": [
+   6.8,
+   2
+  ],
+  "outer_cap": [
+   9.1,
+   4.7
+  ],
+  "pad_cap": {
+   "l": 0.89,
+   "r": 1.46,
+   "t": 0.36,
+   "b": 2.32
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 4.38,
+   "b_cap": 1.42,
+   "aspect": 3.09,
+   "resid_med_cap": 0.096,
+   "padX_cap": 1,
+   "padY_cap": 0.4
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.39,
+     0.91,
+     0.64,
+     0.48
+    ],
+    "dirDeg": 33,
+    "len_cap": 2.33,
+    "baseW_frac": 0.041,
+    "span_deg": 8,
+    "tipOffset_deg": 4
+   },
+   {
+    "prof_cap": [
+     3.89,
+     3.48,
+     3.02,
+     0.48
+    ],
+    "dirDeg": 144,
+    "len_cap": 1.46,
+    "baseW_frac": 0.058,
+    "span_deg": 12,
+    "tipOffset_deg": -1
+   }
+  ],
+  "stroke_px": {
+   "med": 8.5,
+   "cv": 0.55
+  },
+  "stroke_cap": 0.304,
+  "rough_cap": 0.03,
+  "peaks": 6,
+  "butt": {
+   "top": 0.09,
+   "bottom": 0.01,
+   "left": 0.56,
+   "right": 0.03
+  },
+  "fill": "#f8f3e9",
+  "fillLumSD": 9.5,
+  "fillRatio": 0.608
+ },
+ {
+  "id": 63,
+  "page": "AllTime-.png",
+  "src": "cand9",
+  "kind": "speech",
+  "bbox": [
+   643,
+   1160,
+   207,
+   144
+  ],
+  "cap_px": 31,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   3.6
+  ],
+  "text_cap": [
+   3.6,
+   1
+  ],
+  "outer_cap": [
+   6.6,
+   4.6
+  ],
+  "pad_cap": {
+   "l": 1.55,
+   "r": 1.45,
+   "t": 1.45,
+   "b": 2.19
+  },
+  "body": {
+   "n": 2,
+   "a_cap": 3.32,
+   "b_cap": 1.98,
+   "aspect": 1.67,
+   "resid_med_cap": 0.063,
+   "padX_cap": 1.5,
+   "padY_cap": 1.5
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     2.5,
+     0.31,
+     0.24,
+     0.18
+    ],
+    "dirDeg": 121,
+    "len_cap": 0.92,
+    "baseW_frac": 0.017,
+    "span_deg": 3,
+    "tipOffset_deg": 0
+   }
+  ],
+  "stroke_px": {
+   "med": 4,
+   "cv": 1.42
+  },
+  "stroke_cap": 0.129,
+  "rough_cap": 0.012,
+  "peaks": 4,
+  "butt": {
+   "top": 0.02,
+   "bottom": 0,
+   "left": 0.08,
+   "right": 0.01
+  },
+  "fill": "#f8f3e6",
+  "fillLumSD": 5.5,
+  "fillRatio": 0.681
+ },
+ {
+  "id": 64,
+  "page": "AllTime-.png",
+  "src": "cand14",
+  "kind": "caption",
+  "bbox": [
+   73,
+   1813,
+   800,
+   143
+  ],
+  "cap_px": 26,
+  "lines": 4,
+  "lead_cap": 1.08,
+  "lineW_cap": [
+   29.2,
+   29.2,
+   28,
+   24.4
+  ],
+  "text_cap": [
+   29.5,
+   4.2
+  ],
+  "outer_cap": [
+   30.7,
+   5.5
+  ],
+  "pad_cap": {
+   "l": 0.62,
+   "r": 0.65,
+   "t": 0.38,
+   "b": 0.88
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 15.48,
+   "b_cap": 2.41,
+   "aspect": 6.43,
+   "resid_med_cap": 0.038,
+   "padX_cap": 0.75,
+   "padY_cap": 0.31
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     5.46,
+     5.42,
+     5.42,
+     5.1
+    ],
+    "dirDeg": 11,
+    "len_cap": 3.28,
+    "baseW_frac": 0.328,
+    "span_deg": 49,
+    "tipOffset_deg": -23
+   },
+   {
+    "prof_cap": [
+     3.42,
+     3.25,
+     3.06,
+     2.88
+    ],
+    "dirDeg": 124,
+    "len_cap": 0.62,
+    "baseW_frac": 0.005,
+    "span_deg": 3,
+    "tipOffset_deg": 1
+   },
+   {
+    "prof_cap": [
+     5.46,
+     5.46,
+     5.48,
+     5.5
+    ],
+    "dirDeg": 169,
+    "len_cap": 2.88,
+    "baseW_frac": 0.302,
+    "span_deg": 45,
+    "tipOffset_deg": 21
+   }
+  ],
+  "stroke_px": {
+   "med": 4.5,
+   "cv": 0.73
+  },
+  "stroke_cap": 0.173,
+  "rough_cap": 0.032,
+  "peaks": 4,
+  "butt": {
+   "top": 0.06,
+   "bottom": 0,
+   "left": 0.98,
+   "right": 0.64
+  },
+  "fill": "#f4b91b",
+  "fillLumSD": 12.3,
+  "fillRatio": 0.973
+ },
+ {
+  "id": 65,
+  "page": "AllTime-.png",
+  "src": "cand15",
+  "kind": "burst",
+  "bbox": [
+   1214,
+   1817,
+   447,
+   176
+  ],
+  "cap_px": 96,
+  "lines": 1,
+  "lead_cap": null,
+  "lineW_cap": [
+   4
+  ],
+  "text_cap": [
+   4,
+   1
+  ],
+  "outer_cap": [
+   4.6,
+   1.8
+  ],
+  "pad_cap": {
+   "l": 0.36,
+   "r": 0.32,
+   "t": 0.09,
+   "b": 0.73
+  },
+  "body": {
+   "n": 1.7,
+   "a_cap": 2.11,
+   "b_cap": 0.02,
+   "aspect": 105.46,
+   "resid_med_cap": 0.573,
+   "padX_cap": 0.13,
+   "padY_cap": -0.48
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     1.33,
+     1.29,
+     1.39,
+     1.3
+    ],
+    "dirDeg": 23,
+    "len_cap": 1.74,
+    "baseW_frac": 0.017,
+    "span_deg": 87,
+    "tipOffset_deg": -21
+   },
+   {
+    "prof_cap": [
+     1.49,
+     1.23,
+     1.1,
+     1.02
+    ],
+    "dirDeg": 171,
+    "len_cap": 2.17,
+    "baseW_frac": 0.04,
+    "span_deg": 82,
+    "tipOffset_deg": 33
+   },
+   {
+    "prof_cap": [
+     1.29,
+     1.24,
+     1.13,
+     0.97
+    ],
+    "dirDeg": 195,
+    "len_cap": 2.17,
+    "baseW_frac": 0.02,
+    "span_deg": 67,
+    "tipOffset_deg": -19
+   },
+   {
+    "prof_cap": [
+     1.26,
+     1.24,
+     1.29,
+     0.77
+    ],
+    "dirDeg": 346,
+    "len_cap": 2.24,
+    "baseW_frac": 0.021,
+    "span_deg": 66,
+    "tipOffset_deg": 20
+   }
+  ],
+  "stroke_px": {
+   "med": 5.5,
+   "cv": 0.5
+  },
+  "stroke_cap": 0.057,
+  "rough_cap": 0.016,
+  "peaks": 6,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0,
+   "left": 0.01,
+   "right": 0.01
+  },
+  "fill": "#f8f4e8",
+  "fillLumSD": 9.1,
+  "fillRatio": 0.568
+ },
+ {
+  "id": 66,
+  "page": "AllTime-.png",
+  "src": "cand19",
+  "kind": "caption",
+  "bbox": [
+   579,
+   1983,
+   271,
+   146
+  ],
+  "cap_px": 22,
+  "lines": 5,
+  "lead_cap": 1.23,
+  "lineW_cap": [
+   9.2,
+   8.1,
+   9.6,
+   11.2,
+   6.7
+  ],
+  "text_cap": [
+   11.2,
+   5.7
+  ],
+  "outer_cap": [
+   12.3,
+   6.6
+  ],
+  "pad_cap": {
+   "l": 0.59,
+   "r": 0.5,
+   "t": 0.14,
+   "b": 0.77
+  },
+  "body": {
+   "n": 6.7,
+   "a_cap": 6.21,
+   "b_cap": 3,
+   "aspect": 2.07,
+   "resid_med_cap": 0.021,
+   "padX_cap": 0.62,
+   "padY_cap": 0.16
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     3.05,
+     2.41,
+     1.8,
+     1.14
+    ],
+    "dirDeg": 149,
+    "len_cap": 1.4,
+    "baseW_frac": 0.803,
+    "span_deg": 124,
+    "tipOffset_deg": 59
+   }
+  ],
+  "stroke_px": {
+   "med": 5,
+   "cv": 0.75
+  },
+  "stroke_cap": 0.227,
+  "rough_cap": 0.021,
+  "peaks": 4,
+  "butt": {
+   "top": 0.96,
+   "bottom": 0.8,
+   "left": 0.9,
+   "right": 0.02
+  },
+  "fill": "#f4b819",
+  "fillLumSD": 11,
+  "fillRatio": 0.993
+ },
+ {
+  "id": 67,
+  "page": "AllTime-.png",
+  "src": "cand20",
+  "kind": "speech",
+  "bbox": [
+   73,
+   1998,
+   231,
+   145
+  ],
+  "cap_px": 22,
+  "lines": 3,
+  "lead_cap": 1.45,
+  "lineW_cap": [
+   7.6,
+   4.1,
+   8.7
+  ],
+  "text_cap": [
+   8.8,
+   3.7
+  ],
+  "outer_cap": [
+   10.5,
+   6.5
+  ],
+  "pad_cap": {
+   "l": 0.5,
+   "r": 1.14,
+   "t": 1.27,
+   "b": 1.59
+  },
+  "body": {
+   "n": 2.3,
+   "a_cap": 5.13,
+   "b_cap": 3.21,
+   "aspect": 1.6,
+   "resid_med_cap": 0.168,
+   "padX_cap": 0.72,
+   "padY_cap": 1.37
+  },
+  "tails": [
+   {
+    "prof_cap": [
+     0.52,
+     0.25,
+     0,
+     0
+    ],
+    "dirDeg": 29,
+    "len_cap": 1.7,
+    "baseW_frac": 0.031,
+    "span_deg": 4,
+    "tipOffset_deg": -1
+   }
+  ],
+  "stroke_px": {
+   "med": 4,
+   "cv": 0.83
+  },
+  "stroke_cap": 0.182,
+  "rough_cap": 0.017,
+  "peaks": 4,
+  "butt": {
+   "top": 0.01,
+   "bottom": 0.05,
+   "left": 0.59,
+   "right": 0.01
+  },
+  "fill": "#f8f3e8",
+  "fillLumSD": 8.1,
+  "fillRatio": 0.799
+ }
+]

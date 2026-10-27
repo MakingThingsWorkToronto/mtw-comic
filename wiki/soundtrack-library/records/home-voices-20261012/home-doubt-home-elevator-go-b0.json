@@ -1,0 +1,13 @@
+{
+  "id": "home-doubt-home-elevator-go-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Our lawyers are three floors down. They work late.",
+  "historyItemId": "fFPGvLZ8uR33rqJbuoCV",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "c15294adc679b5876ff09a28ee524ed24101e57463a51e12ad2609f0362a2a0b",
+  "createdAt": "2026-10-12T06:21:56.435Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

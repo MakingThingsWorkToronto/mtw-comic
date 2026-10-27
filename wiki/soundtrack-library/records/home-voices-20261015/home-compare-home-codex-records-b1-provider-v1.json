@@ -1,0 +1,103 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "codex",
+  "scriptId": "home-compare-home-codex-records-b1",
+  "scriptSource": "wiki/comics-library/speech-approvals.json#home-compare-home-codex-records-b1",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "voiceName": "codex",
+  "modelId": "s2.1-pro-free",
+  "text": "Signed order. 2026\nrates.\nLabour. Each with\nits owner.",
+  "textSha256": "bd49920f2d0705ae02aacaf500b1288bd737332f1503531f2eea7eee592e3f68",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "Signed order. 2026 rates. Labour. Each with its owner.",
+    "reference_id": "81044b40370d428b960a594da5bc5e4e"
+  },
+  "licensed": null,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "speechBinding": {
+    "storyId": "home",
+    "sceneId": "compare",
+    "panelId": "home-codex-records",
+    "balloonIndex": 0,
+    "kind": "speech",
+    "authoredWho": "codex"
+  },
+  "spokenText": "Signed order. 2026 rates. Labour. Each with its owner.",
+  "spokenTextSha256": "dbf289b1c0eb4f404c4c47cf025b8ec6494c19648eb053a584ff2e7cee325602",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "status": "saved",
+  "startedAt": "2026-10-15T19:21:32.058145+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "f157394e33715f330fadefe4dd8dffe14db0a49750ef02a286284e7ec9728a71",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "humanSpeechReview": {
+    "review": {
+      "id": "home-compare-home-codex-records-b1",
+      "characterId": "codex",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "textSha256": "bd49920f2d0705ae02aacaf500b1288bd737332f1503531f2eea7eee592e3f68",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:17:49.940Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review"
+      }
+    },
+    "approvalManifestSha256": "5987ca4492717d0766cb738c8507ff401409b9dbdaf0558e55d87763149814a8",
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "sourceSha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/home-20261015/codex/home-compare-home-codex-records-b1-raw-v1.mp3",
+    "sha256": "cd7d1f6064383730537d1b4f5fa7be5396273b85750e12a03b9eb01e4e6f39cc",
+    "bytes": 72306,
+    "durationSeconds": 4.519125
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-15T19:21:35.389569+00:00"
+}

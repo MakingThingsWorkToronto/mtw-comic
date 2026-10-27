@@ -1,0 +1,117 @@
+/* ---------- The motion toolbar (src/components/MotionToolbar.astro, public/scripts/motion-toolbar.js) ----------
+   The one toolbar for every motion graphic experience (Matt, 2026-09-28: "this toolbar shall be canonical in all motion
+   graphic experiences"). Left to right: Let's Talk (8-bit), Tracklist, Previous track, Pause/Play, Next track, Skip Intro,
+   then the player's music tag. Flat: #00000096 fills, a paper border, pixel icons (crisp, whole pixels), no glass, nothing
+   radial. The buttons slide in 1.2 s after the page starts; after the experience folds into the page, Let's Talk,
+   Tracklist, Previous, Next and the music tag stay pinned bottom right (.rl-pin). Positioned for the Beat Comic's stage
+   (--rl-pad-x); another player places .rl-dock with its own CSS. */
+.rl-dock { position: absolute; z-index: 5; right: var(--rl-pad-x, var(--page-gutter, 16px)); bottom: clamp(14px, 2.4vh, 26px); display: flex; align-items: center; gap: 10px; }
+.rl-skip, .rl-pause, .rl-list, .rl-prev, .rl-next { height: 36px; padding: 0 20px; background: #00000096; color: var(--paper); border: 2px solid #f2f2efcc; border-radius: 3px; font-family: var(--body); font-weight: 600; font-size: 15px; letter-spacing: .01em; text-decoration: none; opacity: 0; transform: translateX(16px); transition: opacity .3s ease-out, transform .45s var(--ease), background .2s, color .2s; }
+.rl-skip.is-shown, .rl-pause.is-shown, .rl-list.is-shown, .rl-prev.is-shown, .rl-next.is-shown, .rl-talk.is-shown { opacity: 1; transform: none; }
+.rl-skip:hover, .rl-pause:hover, .rl-list:hover, .rl-prev:hover, .rl-next:hover, .rl-list[aria-expanded="true"] { background: var(--paper); color: var(--rl-ink, #0b1419); }
+.rl-skip:focus-visible, .rl-pause:focus-visible, .rl-list:focus-visible, .rl-prev:focus-visible, .rl-next:focus-visible, .rl-talk:focus-visible { outline: 2px solid var(--paper); outline-offset: 3px; }
+.rl-skip, .rl-list { display: inline-flex; align-items: center; gap: 8px; }
+.rl-list { padding: 0 16px 0 14px; }
+/* Icon-only buttons (Matt, 2026-09-28: "remove "Pause" text from button, add next and prev track icon only buttons"):
+   the name is an aria-label and a title; the icons are the pixel font's own glyphs, two CSS px a pixel. */
+.rl-ico-btn { display: inline-grid; place-items: center; width: 36px; padding: 0; }
+.rl-ico { display: block; flex: none; fill: currentColor; shape-rendering: crispEdges; }
+.rl-pause__i--play, .rl-pause.is-paused .rl-pause__i--pause { display: none; }
+.rl-pause.is-paused .rl-pause__i--play { display: block; }
+.rl-skip__i { display: none; }
+/* Let's Talk (Matt, 2026-09-28: "in 8 bit"): pixel words (canvas.rl-px, painted by the toolbar's script) on a notched
+   teal-light block; the words stay the link's name. */
+.rl-talk { display: inline-grid; place-items: center; height: 36px; padding: 0 12px; background: var(--teal-light); color: #0b1419; text-decoration: none; opacity: 0; transform: translateX(16px); transition: opacity .3s ease-out, transform .45s var(--ease), background .2s;
+  clip-path: polygon(0 3px, 3px 3px, 3px 0, calc(100% - 3px) 0, calc(100% - 3px) 3px, 100% 3px, 100% calc(100% - 3px), calc(100% - 3px) calc(100% - 3px), calc(100% - 3px) 100%, 3px 100%, 3px calc(100% - 3px), 0 calc(100% - 3px)); }
+.rl-talk:hover, .rl-talk:focus-visible { background: var(--paper); }
+.rl-talk.rl-talk--standard { clip-path: none; border-radius: 3px; background: var(--teal); color: var(--paper); font: 600 15px/1 var(--body); padding: 0 16px; white-space: nowrap; }
+.rl-talk.rl-talk--standard:hover { background: var(--teal-light); color: #0b1419; }
+.rl-px { display: block; image-rendering: pixelated; pointer-events: none; }
+.rl-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.rl-pin { position: fixed; z-index: 80; right: var(--page-gutter, 16px); bottom: 16px; display: flex; align-items: center; gap: 10px; }
+.rl-pin .rl-tag.rl-tag--page { position: relative; right: auto; bottom: auto; }
+.rl-pin > * { opacity: 1; transform: none; }
+
+/* The music tag (the player's; the Beat Comic engine drives it): opens with the credit and a live equalizer for ten
+   seconds, then folds to a mute button. Wide enough for a long exact credit where the toolbar leaves room; the credit
+   ends in an ellipsis rather than clipping. */
+.rl-tag { position: relative; display: flex; align-items: center; height: 36px; background: #00000096; border-radius: 3px; overflow: hidden; max-width: 36px; transition: max-width .55s var(--ease); }
+.rl-tag.is-open, .rl-tag:hover, .rl-tag:focus-within { max-width: max(36px, min(640px, calc(100vw - 2 * var(--rl-pad-x, 16px) - 540px))); }
+.rl-tag.rl-tag--page.is-open, .rl-tag.rl-tag--page:hover, .rl-tag.rl-tag--page:focus-within { max-width: max(36px, min(640px, calc(100vw - 2 * var(--page-gutter, 16px) - 360px))); }
+.rl-tag.is-paused .rl-eq i { animation-play-state: paused; }
+.rl-tag.is-metered .rl-eq i { animation: none; transform: scaleY(max(.06, var(--level, 0))); transition: transform .05s linear; }
+.rl-tag__mute { flex: none; width: 36px; height: 36px; display: grid; place-items: center; padding: 0; background: none; border: 0; color: var(--teal-light); }
+.rl-tag__mute:focus-visible { outline-offset: -2px; }
+.rl-eq { display: flex; align-items: flex-end; gap: 2px; height: 14px; }
+.rl-eq i { display: block; width: 3px; height: 100%; background: currentColor; transform-origin: 50% 100%; animation: rl-eq .6s steps(4, end) infinite; }
+.rl-eq i:nth-child(2) { animation-duration: .45s; animation-delay: -.2s; }
+.rl-eq i:nth-child(3) { animation-duration: .7s; animation-delay: -.35s; }
+.rl-eq i:nth-child(4) { animation-duration: .5s; animation-delay: -.1s; }
+@keyframes rl-eq { 0% { transform: scaleY(.25); } 25% { transform: scaleY(1); } 50% { transform: scaleY(.5); } 75% { transform: scaleY(.8); } 100% { transform: scaleY(.3); } }
+.rl-tag__off { display: none; width: 18px; height: 18px; fill: currentColor; }
+.rl-tag.is-muted .rl-eq { display: none; }
+.rl-tag.is-muted .rl-tag__off { display: block; }
+.rl-tag.is-muted .rl-tag__mute { color: var(--muted); }
+.rl-tag.is-waiting .rl-eq i { animation-play-state: paused; opacity: .5; }
+/* After the experience folds into the page the tag stays, pinned with the toolbar, so the music can be muted while reading. */
+.rl-tag.rl-tag--page { position: fixed; z-index: 80; right: var(--page-gutter, 16px); bottom: 16px; }
+.rl-tag__cta { display: none; flex: none; padding-right: 10px; font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: .02em; text-transform: uppercase; color: var(--teal-light); white-space: nowrap; }
+.rl-tag.is-waiting .rl-tag__cta { display: inline; }
+.rl-tag.is-waiting .rl-tag__mute { animation: rl-call 1.2s steps(2, end) infinite; }
+@keyframes rl-call { 50% { color: var(--paper); transform: scale(1.12); } }
+.rl-tag__credit { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; padding: 0 14px 0 2px; font-size: 12px; line-height: 36px; color: var(--paper); text-decoration: none; white-space: nowrap; }
+.rl-tag__credit:hover { text-decoration: underline; }
+
+/* Illustrated reader: desktop credits sit left of the buttons on the same centred row. */
+.cs-strip .cs-tag.rl-tag { position: static; order: -1; flex: 1; min-width: 0; max-width: none; height: 36px; background: transparent; }
+.cs-strip .cs-tag .rl-tag__credit { line-height: 36px; }
+@media (max-width: 700px) {
+  .cs-strip .cs-tag.rl-tag { position: absolute; order: initial; bottom: env(safe-area-inset-bottom); left: var(--cs-pad-x); right: var(--cs-pad-x); height: 44px; }
+  .cs-strip .cs-tag .rl-tag__mute { height: 28px; }
+  .cs-strip .cs-tag .rl-tag__credit { white-space: normal; line-height: 16px; overflow: visible; padding-right: 0; }
+}
+@media (max-width: 420px) {
+  .cs-strip { gap: 6px; }
+  .cs-strip .rl-talk.rl-talk--standard { padding: 0 10px; font-size: 14px; }
+}
+
+@media (max-width: 850px) {
+  /* A phone: every control but Let's Talk is its icon (names stay aria-labels and titles); the gaps tighten; the music
+     tag opens only as far as the toolbar leaves room. No overflow at 390 px. */
+  .rl-dock, .rl-pin { gap: 6px; }
+  .rl-list, .rl-skip { position: relative; width: 36px; padding: 0; justify-content: center; }
+  .rl-list__label, .rl-skip__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .rl-skip__i { display: block; }
+  .rl-talk { padding: 0 8px; }
+  .rl-tag.is-open, .rl-tag:hover, .rl-tag:focus-within { max-width: max(36px, min(640px, calc(100vw - 2 * var(--rl-pad-x, 16px) - 340px))); }
+  .rl-tag.rl-tag--page.is-open, .rl-tag.rl-tag--page:hover, .rl-tag.rl-tag--page:focus-within { max-width: max(36px, min(640px, calc(100vw - 2 * var(--page-gutter, 16px) - 230px))); }
+}
+
+/* ---------- The Tracklist (src/components/Tracklist.astro; Matt, 2026-09-28) ----------
+   The site playlist as an 8-bit dialog over the experience or, after it folds, over the page: a flat comic panel (paper
+   frame, flat teal offset) on a flat ink scrim, its rows painted by the toolbar's script in the marquee style with real
+   links laid over them (invisible text, a paper focus ring). Works on any page (moved to <body> by the script); no glass,
+   no gradients, nothing radial. */
+.rl-tl { position: fixed; inset: 0; z-index: 95; display: grid; place-items: center; padding: 16px var(--page-gutter, 16px); background: #0b1419eb; }
+.rl-tl[hidden] { display: none; }
+.rl-tl__box { width: min(var(--page-frame-max, 1296px), 100%); max-height: 100%; display: flex; flex-direction: column; gap: 12px; padding: 14px; background: #112126; border: 3px solid var(--paper); box-shadow: 7px 7px 0 var(--teal); }
+.rl-tl__bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.rl-tl__h { margin: 0; line-height: 0; }
+.rl-tl__close { display: inline-grid; place-items: center; height: 36px; padding: 0 12px; background: #0b1419; border: 2px solid #f2f2efcc; border-radius: 3px; cursor: pointer; }
+.rl-tl__close:hover, .rl-tl__close:focus-visible { background: var(--teal); border-color: var(--teal-light); }
+.rl-tl__close:focus-visible { outline: 2px solid var(--paper); outline-offset: 3px; }
+.rl-tl__list { position: relative; height: min(600px, calc(100vh - 150px)); }
+.rl-tl__px { position: absolute; inset: 0; width: 100%; height: 100%; image-rendering: pixelated; }
+/* The pixel grid, as on every comic panel. */
+.rl-tl__list::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(90deg, #0b141980 0 1px, transparent 1px var(--px, 3px)), repeating-linear-gradient(180deg, #0b141980 0 1px, transparent 1px var(--px, 3px)); }
+.rl-tl__links { position: absolute; inset: 0; z-index: 1; }
+.rl-tl__a { position: absolute; margin: 0; display: block; color: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+a.rl-tl__a { cursor: pointer; }
+.rl-tl__a:focus-visible { outline: 2px solid var(--paper); outline-offset: 1px; }
+html.rl-tl-open { overflow: hidden; }
+@media (max-width: 850px) {
+  .rl-tl { padding: 12px; }
+  .rl-tl__box { padding: 10px; gap: 8px; box-shadow: 4px 4px 0 var(--teal); border-width: 2px; }
+  .rl-tl__list { height: calc(100dvh - 110px); }
+}
+@media (prefers-reduced-motion: reduce) { .rl-skip, .rl-pause, .rl-list, .rl-prev, .rl-next, .rl-talk, .rl-tag { transition: none; } }

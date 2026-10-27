@@ -1,0 +1,4 @@
+interface:
+  display_name: "MTW Inquiry"
+  short_description: "Stop an interview collapsing into confirmation of a predefined thesis"
+  default_prompt: "Use $mtw-inquiry before the next interview round so the answers can change what we think."

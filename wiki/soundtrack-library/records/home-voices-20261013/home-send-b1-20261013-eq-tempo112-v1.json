@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:58:30.004Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-send-b1-20261013-raw-v1.mp3",
+  "rawSha256": "1dcd1151fb3ed7ecb83a4969b88e7affb81da4e8a2dd8017832c7574d64b18a4",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-send-b1-20261013-eq-tempo112-v1.mp3",
+  "sha256": "547edfacfd24f18a3c2efcef825516376ce629595ac195173c609321477f014d",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-send-b1-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-23.09",
+    "input_tp": "-4.77",
+    "input_lra": "2.20",
+    "input_thresh": "-33.49",
+    "output_i": "-19.09",
+    "output_tp": "-3.00",
+    "output_lra": "1.80",
+    "output_thresh": "-29.43",
+    "normalization_type": "dynamic",
+    "target_offset": "1.09"
+  },
+  "encodedMeasurement": {
+    "input_i": "-19.24",
+    "input_tp": "-3.37",
+    "input_lra": "2.00",
+    "input_thresh": "-29.63",
+    "output_i": "-18.39",
+    "output_tp": "-3.00",
+    "output_lra": "1.80",
+    "output_thresh": "-28.74",
+    "normalization_type": "dynamic",
+    "target_offset": "0.39"
+  },
+  "encodedIntegratedLufs": -19.24,
+  "encodedTruePeakDbtp": -3.37,
+  "durationSeconds": 4.124172,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": false,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "processing-review-required",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

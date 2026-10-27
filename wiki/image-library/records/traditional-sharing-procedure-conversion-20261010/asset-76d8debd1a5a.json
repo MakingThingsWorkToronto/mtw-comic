@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "path": "assets/scenes/comic-b/pages/traditional-sharing-procedure-conversion-20261010-v2.png",
+  "sha256": "79f39d3a2fd790a14d5829a2731d534bc51bea97a74b365e834319a6c9d60985",
+  "bytes": 2915518,
+  "width": 1536,
+  "height": 1024,
+  "status": "candidate",
+  "selectedForProposal": true,
+  "note": "Selected author-reviewed source/plane/fallback candidate; existing strongest gate passed on exact six inspected registered outputs. Reader crops/lettering/playback and human review pending. Upscaling adds no drawn detail.",
+  "sourceScope": "wiki/image-library/records/traditional-sharing-procedure-conversion-20261010/source-scope-v2.json",
+  "humanApproval": false
+}

@@ -1,0 +1,678 @@
+{
+  "voices": {
+    "profiles": [
+      {
+        "characterId": "matt",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "HqW11As4VRPkApNPkAZp",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+            "text": "Ask them first.",
+            "path": "wiki/soundtrack-library/assets/voices/matt/v1-character-read.mp3",
+            "sha256": "22e24494cec807fa49d802d1d5ab1eeb03ea04b97a05d5b69d3fb19f1f6850e6"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "0b74ead073f2474a904f69033535b98e",
+            "text": "Ask them first.",
+            "path": "wiki/soundtrack-library/assets/voices/matt/fish-v1-character-read.mp3",
+            "sha256": "341663fc18cbb7c5f77c6e777affdf41e6167470f0529ee9230af1d3d3afe377"
+          }
+        ]
+      },
+      {
+        "characterId": "claude",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "SAz9YHcvj6GT2YYXdXww",
+            "text": "I can write this. Who decides whether it's true?",
+            "path": "wiki/soundtrack-library/assets/voices/claude/v1-character-read.mp3",
+            "sha256": "d8d16255ca889524fadeae02e4e5452dc5438a4b01b6401dd704ed40a485c4e1"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+            "text": "I can write this. Who decides whether it's true?",
+            "path": "wiki/soundtrack-library/assets/voices/claude/fish-v1-character-read.mp3",
+            "sha256": "10bcaf989685c7e741555ef15e23c8a03226806ec939ded7bf0e5772e5b364ba"
+          }
+        ]
+      },
+      {
+        "characterId": "codex",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "81044b40370d428b960a594da5bc5e4e",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "cjVigY5qzO86Huf0OWal",
+            "text": "Done. You said all customers.",
+            "path": "wiki/soundtrack-library/assets/voices/codex/v1-character-read.mp3",
+            "sha256": "a69e230795074f4a4a4c949194b7424baae21e8d7bc02d7347d8e63a3bf5422d"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "81044b40370d428b960a594da5bc5e4e",
+            "text": "Done. You said all customers.",
+            "path": "wiki/soundtrack-library/assets/voices/codex/fish-v1-character-read.mp3",
+            "sha256": "b6152b0df3f8427999cb9482763d54f15e33f9b5d4288eaa23b952809200206a"
+          }
+        ]
+      },
+      {
+        "characterId": "dana",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "XrExE9yKIg1WjnnlVkGX",
+            "text": "Let me finish checking this.",
+            "path": "wiki/soundtrack-library/assets/voices/dana/v1-character-read.mp3",
+            "sha256": "a8b9fc343515c40f119e2d301caee91eb82736f931a8257df2ec03c93169b009"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+            "text": "Let me finish\nchecking this.",
+            "path": "wiki/soundtrack-library/assets/voices/dana/fish-v1-character-read.mp3",
+            "sha256": "330a756eb013cb92ad1edf3e1f5d8e7774ec7f612497a57373436a6377ff7bbd"
+          }
+        ]
+      },
+      {
+        "characterId": "marco",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "iP95p4xoKVk53GoZ742B",
+            "text": "The desks will be ready. Quote by midnight.",
+            "path": "wiki/soundtrack-library/assets/voices/marco/v1-character-read.mp3",
+            "sha256": "2176321f6c1943088941607210339f339b5f2c9af2577891fb0f854ad1cb25cd"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "deab529fb3d342bbadbce949d44d7d7e",
+            "text": "The desks will\nbe ready. Quote\nby midnight.",
+            "path": "wiki/soundtrack-library/assets/voices/marco/fish-v1-character-read.mp3",
+            "sha256": "b09ac0c23fb69fcb1062fcd6bd8d9bdc5e0be87093af5150ed64923528f0eaea"
+          }
+        ]
+      },
+      {
+        "characterId": "ruth",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "EXAVITQu4vr4xnSDxMaL",
+            "text": "This came at 2:07. It has someone else's name on it.",
+            "path": "wiki/soundtrack-library/assets/voices/ruth/v1-character-read.mp3",
+            "sha256": "719bbf620eb3c84c7d76375297c5be6b61088b0e78862d14b7cac823f9f35787"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+            "text": "This came at 2:07.\nIt has someone\nelse's name on it.",
+            "path": "wiki/soundtrack-library/assets/voices/ruth/fish-v1-character-read.mp3",
+            "sha256": "2bef7d7743bd5f8b86a059645368510a472e39ccdd7779e56258c6df91033517"
+          }
+        ]
+      },
+      {
+        "characterId": "sam",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "nPczCjzI2devNBz1zQrb",
+            "text": "Ours dropped the safety clause.",
+            "path": "wiki/soundtrack-library/assets/voices/sam/v1-character-read.mp3",
+            "sha256": "9fc9ae60c5c2aceeca4b3bc1a99ac050d9d4ff2a272a425f6ecf55e8f6f91b46"
+          },
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+            "text": "Ours dropped\nthe safety clause.",
+            "path": "wiki/soundtrack-library/assets/voices/sam/fish-v1-character-read.mp3",
+            "sha256": "8889e45260532c7314420ddeb641e9a1507eaf956bbc012c79feda4a1caf7ca7"
+          }
+        ]
+      },
+      {
+        "characterId": "joan",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "EXAVITQu4vr4xnSDxMaL",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+            "text": "Every one I signed is in that cabinet.",
+            "path": "wiki/soundtrack-library/assets/voices/joan/v1-character-read.mp3",
+            "sha256": "02a72cad2c0befd4bfc593be6646cde992e15ff85057f7ef6e537570b116d2d2"
+          }
+        ]
+      },
+      {
+        "characterId": "potvin",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-character-read",
+            "provider": "ElevenLabs",
+            "voiceId": "onwK4e9ZLuTAKqWW03F9",
+            "text": "What's Friday's meeting about?",
+            "path": "wiki/soundtrack-library/assets/voices/potvin/v1-character-read.mp3",
+            "sha256": "28d24b83264ad3bdbf0bcea9287780aee14f185509cbe664dbd1158054a3f756"
+          }
+        ]
+      },
+      {
+        "characterId": "slop",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "weA4Q36twV5kwSaTEL0Q",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-12T01:16:03.081Z"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-comparison-read",
+            "provider": "ElevenLabs",
+            "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+            "text": "Show me the original before we send this.",
+            "path": "wiki/soundtrack-library/assets/voices/slop/v1-comparison-read.mp3",
+            "sha256": "5de765d5048d1e1e77c141b837866ca6331c3fe12853e3fde1ac981b34fba313"
+          }
+        ]
+      },
+      {
+        "characterId": "hallucination",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "fe5b8eaa8b754a5b8d895265def9e5b2",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-12T01:17:23.253Z"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-comparison-read",
+            "provider": "ElevenLabs",
+            "voiceId": "bIHbv24MWmeRgasZH58o",
+            "text": "Show me the original before we send this.",
+            "path": "wiki/soundtrack-library/assets/voices/hallucination/v1-comparison-read.mp3",
+            "sha256": "dc3c99b088d30f2106b0ff524da2072d014c5cd1ffde8eaedbd95f268d0c523d"
+          }
+        ]
+      },
+      {
+        "characterId": "snowball",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-comparison-read",
+            "provider": "ElevenLabs",
+            "voiceId": "IKne3meq5aSn9XLyUdCD",
+            "text": "Show me the original before we send this.",
+            "path": "wiki/soundtrack-library/assets/voices/snowball/v1-comparison-read.mp3",
+            "sha256": "0a95332fc59faffaa2b9fafffdcaf18b6770545664d3c8c9dbfb5c2af463db73"
+          }
+        ]
+      },
+      {
+        "characterId": "blindspot",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+          }
+        },
+        "clips": [
+          {
+            "id": "v1-comparison-read",
+            "provider": "ElevenLabs",
+            "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+            "text": "Show me the original before we send this.",
+            "path": "wiki/soundtrack-library/assets/voices/blindspot/v1-comparison-read.mp3",
+            "sha256": "fee0d51ce9218ca84b61c5e0c1e641cbd69e3c1be7c0999cb81b0aa388496fc5"
+          }
+        ]
+      },
+      {
+        "characterId": "shadow",
+        "casting": {},
+        "clips": [
+          {
+            "id": "v1-comparison-read",
+            "provider": "ElevenLabs",
+            "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+            "text": "Show me the original before we send this.",
+            "path": "wiki/soundtrack-library/assets/voices/shadow/v1-comparison-read.mp3",
+            "sha256": "37a490129029feea42a3edaf2744b8d90134c143e6bd1cacdbf3361cc7b8e415"
+          }
+        ]
+      },
+      {
+        "characterId": "shelf",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "amnesia",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "rogue",
+        "casting": {
+          "selectedVoice": {
+            "provider": "ElevenLabs",
+            "voiceId": "NoiYxL9g25M4orC8Q0ls",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-15T20:22:45.645Z"
+          }
+        },
+        "clips": [
+          {
+            "id": "fish-v1-character-read",
+            "provider": "Fish Audio",
+            "voiceId": "9608a90883934a798d7169a1134e59ee",
+            "text": "Contract updated.\nSending to\nall customers.",
+            "path": "wiki/soundtrack-library/assets/voices/rogue/fish-v1-character-read.mp3",
+            "sha256": "3d3af0ac104d16488b1f8719103b7475db5dd91e1d05dd429784e2e0703c9700"
+          }
+        ]
+      },
+      {
+        "characterId": "overhead",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "grok",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "copilot",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "opencode",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "frontier-league",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "local-crew",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "narrator",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "george-armstrong",
+        "casting": {},
+        "clips": []
+      },
+      {
+        "characterId": "second-brain",
+        "casting": {
+          "selectedVoice": {
+            "provider": "Fish Audio",
+            "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+            "status": "approved",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T03:38:35.614209+00:00",
+            "selectionSource": "Matt: use \"Morgan Freeman — provider-labelled reference\" for second brain voice please",
+            "releasedBy": "Matt Stark",
+            "releasedAt": "2026-10-15T20:02:25.936Z",
+            "releaseSource": "Matt, 2026-10-15: \"use the morgan freeman narrator voice. all of these are invented blockers. they are not real.\""
+          }
+        },
+        "clips": [
+          {
+            "id": "fish-v1-comparison-read",
+            "provider": "Fish Audio",
+            "voiceId": "d13f84b987ad4f22b56d2b47f4eb838e",
+            "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+            "path": "wiki/soundtrack-library/assets/voices/second-brain/fish-v1-comparison-read.mp3",
+            "sha256": "4ac82d2b0f03078f2a6a8b67f414cb02c860a8ce38a91480f5ae80e89045941c"
+          }
+        ]
+      },
+      {
+        "characterId": "plante",
+        "casting": {},
+        "clips": []
+      }
+    ]
+  },
+  "cast": {
+    "characters": [
+      {
+        "id": "matt",
+        "name": "Matt",
+        "aliases": [
+          "Matt"
+        ]
+      },
+      {
+        "id": "claude",
+        "name": "Claude",
+        "aliases": [
+          "Claude"
+        ]
+      },
+      {
+        "id": "codex",
+        "name": "Codex",
+        "aliases": [
+          "Codex"
+        ]
+      },
+      {
+        "id": "marco",
+        "name": "Marco Lemieux",
+        "aliases": [
+          "Marco Lemieux",
+          "Marco"
+        ]
+      },
+      {
+        "id": "dana",
+        "name": "Dana Dryden",
+        "aliases": [
+          "Dana Dryden",
+          "Dana"
+        ]
+      },
+      {
+        "id": "ruth",
+        "name": "Ruth Orr",
+        "aliases": [
+          "Ruth Orr",
+          "Ruth"
+        ]
+      },
+      {
+        "id": "sam",
+        "name": "Sam Howe",
+        "aliases": [
+          "Sam Howe",
+          "Sam"
+        ]
+      },
+      {
+        "id": "joan",
+        "name": "Joan Mikita",
+        "aliases": [
+          "Joan Mikita",
+          "Joan"
+        ]
+      },
+      {
+        "id": "potvin",
+        "name": "Ryan Potvin",
+        "aliases": [
+          "Ryan Potvin",
+          "Potvin"
+        ]
+      },
+      {
+        "id": "slop",
+        "name": "The Slop Schultz",
+        "aliases": [
+          "The Slop",
+          "Slop Schultz"
+        ]
+      },
+      {
+        "id": "hallucination",
+        "name": "The Hallucination Nilan",
+        "aliases": [
+          "The Hallucination",
+          "Hallucination Nilan"
+        ]
+      },
+      {
+        "id": "snowball",
+        "name": "The Snowball Williams",
+        "aliases": [
+          "The Snowball",
+          "Snowball Williams"
+        ]
+      },
+      {
+        "id": "blindspot",
+        "name": "The Blindspot Domi",
+        "aliases": [
+          "The Blindspot",
+          "Blindspot Domi"
+        ]
+      },
+      {
+        "id": "shadow",
+        "name": "The Shadow Grimson",
+        "aliases": [
+          "The Shadow",
+          "Shadow Grimson"
+        ]
+      },
+      {
+        "id": "shelf",
+        "name": "The Shelf McSorley",
+        "aliases": [
+          "The Shelf",
+          "Shelf McSorley"
+        ]
+      },
+      {
+        "id": "amnesia",
+        "name": "The Amnesia Kocur",
+        "aliases": [
+          "The Amnesia",
+          "Amnesia Kocur"
+        ]
+      },
+      {
+        "id": "rogue",
+        "name": "The Rogue Agent Hunter",
+        "aliases": [
+          "The Rogue Agent",
+          "Rogue Agent Hunter"
+        ]
+      },
+      {
+        "id": "overhead",
+        "name": "Overhead Twist",
+        "aliases": [
+          "Overhead",
+          "Overhead Twist"
+        ]
+      },
+      {
+        "id": "grok",
+        "name": "Grok",
+        "aliases": [
+          "Grok"
+        ]
+      },
+      {
+        "id": "copilot",
+        "name": "GitHub Copilot",
+        "aliases": [
+          "GitHub Copilot",
+          "Copilot"
+        ]
+      },
+      {
+        "id": "opencode",
+        "name": "OpenCode",
+        "aliases": [
+          "OpenCode"
+        ]
+      },
+      {
+        "id": "frontier-league",
+        "name": "Frontier league",
+        "aliases": [
+          "Frontier league"
+        ]
+      },
+      {
+        "id": "local-crew",
+        "name": "Local crew",
+        "aliases": [
+          "Local crew"
+        ]
+      },
+      {
+        "id": "narrator",
+        "name": "Narrator",
+        "aliases": [
+          "Narrator"
+        ]
+      },
+      {
+        "id": "george-armstrong",
+        "name": "George Armstrong",
+        "aliases": [
+          "George Armstrong",
+          "George"
+        ]
+      },
+      {
+        "id": "second-brain",
+        "name": "The second brain",
+        "aliases": [
+          "The second brain",
+          "second brain",
+          "teal knowledge lattice",
+          "teal lattice tower"
+        ]
+      },
+      {
+        "id": "plante",
+        "name": "Plante",
+        "aliases": [
+          "Plante"
+        ]
+      }
+    ]
+  }
+}

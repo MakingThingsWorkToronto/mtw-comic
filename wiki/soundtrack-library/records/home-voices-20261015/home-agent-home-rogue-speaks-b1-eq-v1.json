@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T23:56:15.397Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/rogue/home-agent-home-rogue-speaks-b1-raw-v1.mp3",
+  "rawSha256": "17f01f43302bd7f3e95ed70a22dbcad327f06d50b00672698e900f04fabfac8c",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/rogue/home-agent-home-rogue-speaks-b1-eq-v1.mp3",
+  "sha256": "7ed0b015f9d90a4784e17c3151e02451288d511eba05aca4ba034f24bedf296b",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261015/home-agent-home-rogue-speaks-b1-eq-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1,
+    "compress": true,
+    "eq": "highpass=f=70,lowpass=f=12000,acompressor=threshold=0.1:ratio=3:attack=0.1:release=80:knee=2.828:makeup=1",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-27.06",
+    "input_tp": "-13.48",
+    "input_lra": "0.80",
+    "input_thresh": "-37.68",
+    "output_i": "-17.63",
+    "output_tp": "-4.26",
+    "output_lra": "0.00",
+    "output_thresh": "-28.25",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.37"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.50",
+    "input_tp": "-5.04",
+    "input_lra": "0.80",
+    "input_thresh": "-29.12",
+    "output_i": "-17.61",
+    "output_tp": "-4.37",
+    "output_lra": "0.00",
+    "output_thresh": "-28.23",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.39"
+  },
+  "encodedIntegratedLufs": -18.5,
+  "encodedTruePeakDbtp": -5.04,
+  "durationSeconds": 3.204354,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

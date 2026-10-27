@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Matilda - Knowledgable, Professional — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/dana/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "XrExE9yKIg1WjnnlVkGX",
+  "status": "candidate",
+  "sha256": "a8b9fc343515c40f119e2d301caee91eb82736f931a8257df2ec03c93169b009",
+  "durationSeconds": 1.5789569160997732,
+  "text": "Let me finish checking this.",
+  "credits": 28.000000000000004,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "voiceName": "Matilda - Knowledgable, Professional",
+    "prompt": "Let me finish checking this.",
+    "scriptSource": "Issue 1, brief",
+    "settingsPreset": "provider-default",
+    "generationId": "vJlcvZE6pwIYDUmgwtJA",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

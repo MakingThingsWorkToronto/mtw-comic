@@ -1,0 +1,19 @@
+{
+  "name": "mtw-comic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test ../tests/content.test.mjs"
+  },
+  "dependencies": {
+    "astro": "7.3.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "^1.63.0"
+  }
+}

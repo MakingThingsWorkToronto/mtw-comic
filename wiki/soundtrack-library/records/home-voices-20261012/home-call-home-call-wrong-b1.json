@@ -1,0 +1,13 @@
+{
+  "id": "home-call-home-call-wrong-b1",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "I can't. It's still sending.",
+  "historyItemId": "OlrcZ5DwQ35e9ebtVPSm",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "f4bced2d2ca13590022b4847dbc305eb4820194f9b264c25959b622c59e15d91",
+  "createdAt": "2026-10-12T06:21:56.971Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

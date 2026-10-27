@@ -1,0 +1,56 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "matt",
+  "scriptId": "character-read",
+  "scriptSource": "wiki/site/comic-story.md",
+  "text": "Ask them first.",
+  "textSha256": "fa7f082b859a42c68a1619668bb3298bc70791e1c6bc4c149901edeef1421cda",
+  "voiceId": "0b74ead073f2474a904f69033535b98e",
+  "voiceName": "CALM- NORMAL",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "Ask them first.",
+    "reference_id": "0b74ead073f2474a904f69033535b98e",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:13:53.605335+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 15,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "endedAt": "2026-10-09T16:13:54.579613+00:00",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "recoveredFrom": "first free-model probe; no second generation",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/matt/fish-v1-character-read.mp3",
+    "sha256": "341663fc18cbb7c5f77c6e777affdf41e6167470f0529ee9230af1d3d3afe377",
+    "bytes": 21732,
+    "durationSeconds": 1.35825
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/matt/fish-v1-character-read.mp3",
+  "sha256": "341663fc18cbb7c5f77c6e777affdf41e6167470f0529ee9230af1d3d3afe377"
+}

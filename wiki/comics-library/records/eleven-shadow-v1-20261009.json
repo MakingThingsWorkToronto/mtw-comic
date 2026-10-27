@@ -1,0 +1,24 @@
+{
+  "id": "v1-comparison-read",
+  "title": "Callum - Husky Trickster — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/shadow/v1-comparison-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+  "status": "candidate",
+  "sha256": "37a490129029feea42a3edaf2744b8d90134c143e6bd1cacdbf3361cc7b8e415",
+  "durationSeconds": 2.414875283446712,
+  "text": "Show me the original before we send this.",
+  "credits": 41,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "voiceName": "Callum - Husky Trickster",
+    "prompt": "Show me the original before we send this.",
+    "scriptSource": "Audition-only test sentence; not story dialogue",
+    "settingsPreset": "provider-default",
+    "generationId": "1EeB031nTmanfxzESwfI",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

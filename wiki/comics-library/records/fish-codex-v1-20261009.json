@@ -1,0 +1,55 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "codex",
+  "scriptId": "character-read",
+  "scriptSource": "wiki/site/comic-story.md",
+  "text": "Done. You said all customers.",
+  "textSha256": "6f7003924a239c735f54c0c3bda19a8cdc640776100ea02afc7818d83ba7d1f6",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "voiceName": "Captain America",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "Done. You said all customers.",
+    "reference_id": "81044b40370d428b960a594da5bc5e4e",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:07.084376+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 29,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:07.873845+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/codex/fish-v1-character-read.mp3",
+    "sha256": "b6152b0df3f8427999cb9482763d54f15e33f9b5d4288eaa23b952809200206a",
+    "bytes": 34271,
+    "durationSeconds": 2.141938
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/codex/fish-v1-character-read.mp3",
+  "sha256": "b6152b0df3f8427999cb9482763d54f15e33f9b5d4288eaa23b952809200206a"
+}

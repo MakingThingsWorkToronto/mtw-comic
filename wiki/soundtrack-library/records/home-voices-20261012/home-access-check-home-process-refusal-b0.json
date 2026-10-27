@@ -1,0 +1,12 @@
+{
+  "id": "home-access-check-home-process-refusal-b0",
+  "characterId": "codex",
+  "provider": "Fish Audio",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "modelId": "s2.1-pro-free",
+  "text": "Test send requested. Permission denied.",
+  "requestId": null,
+  "rawSha256": "bd08f4fa27bf2f7f5abeb8cc6b3fc8c3606949bd11582a9c6ae0605a0d73e227",
+  "createdAt": "2026-10-12T06:18:27.936Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

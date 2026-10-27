@@ -1,0 +1,21 @@
+{
+  "createdUtc": "2026-10-09T23:48:46.369559+00:00",
+  "endpoint": "https://api.elevenlabs.io/v1/sound-generation",
+  "request": {
+    "text": "Natural soft outdoor rain ambience: fine steady rainfall on a Toronto pavement at night, distant airy weather texture. No thunder, no voices, no horns, no traffic accents, no music. Calm realistic seamless environmental loop.",
+    "duration_seconds": 4,
+    "loop": true,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.5
+  },
+  "plannedMaximumCredits": 160,
+  "status": "candidate",
+  "productionApproved": false,
+  "retry": false,
+  "httpStatus": 200,
+  "file": "rain-loop-v1.mp3",
+  "bytes": 65245,
+  "sha256": "aeee167ad450f98fbb93459d52964b62461d3c1914bae944eafdff5828f2e58a",
+  "reportedCost": "40",
+  "contentType": "audio/mpeg"
+}

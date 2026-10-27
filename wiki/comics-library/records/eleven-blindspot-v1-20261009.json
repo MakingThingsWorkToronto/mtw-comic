@@ -1,0 +1,24 @@
+{
+  "id": "v1-comparison-read",
+  "title": "Harry - Fierce Warrior — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/blindspot/v1-comparison-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+  "status": "candidate",
+  "sha256": "fee0d51ce9218ca84b61c5e0c1e641cbd69e3c1be7c0999cb81b0aa388496fc5",
+  "durationSeconds": 2.36843537414966,
+  "text": "Show me the original before we send this.",
+  "credits": 41,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+    "voiceName": "Harry - Fierce Warrior",
+    "prompt": "Show me the original before we send this.",
+    "scriptSource": "Audition-only test sentence; not story dialogue",
+    "settingsPreset": "provider-default",
+    "generationId": "TjOzZAGRQqKVrfIHLJdJ",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

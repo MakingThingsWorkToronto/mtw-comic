@@ -1,0 +1,54 @@
+/* Journal module. Site tokens only; no new colours. */
+.j-section { display: flex; flex-direction: column; gap: var(--space-3); }
+.j-section + .j-section { margin-top: var(--space-4); }
+.j-facts { font-size: 13px; }
+.j-sub { font-size: var(--fs-small); max-width: 52ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.j-cell { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.j-list { margin: 0; padding-left: var(--space-4); display: flex; flex-direction: column; gap: var(--space-1); font-size: 13px; }
+.j-dl { display: grid; grid-template-columns: minmax(120px, 220px) 1fr; gap: var(--space-2) var(--space-4); margin: 0; font-size: 13px; }
+.j-dl dt { color: var(--muted); font-weight: 600; }
+.j-dl dd { margin: 0; min-width: 0; }
+@media (max-width: 600px) { .j-dl { grid-template-columns: 1fr; } .j-dl dd { margin-bottom: var(--space-2); } }
+.unk { color: var(--muted); font-style: italic; }
+.gloss { border-bottom: 1px dotted var(--muted); cursor: help; }
+.gloss:focus-visible, .j-prompt:focus-visible { outline: var(--focus); outline-offset: 2px; }
+
+.j-notice { padding: var(--space-2) var(--space-3); border: 1px solid var(--line); border-left: 3px solid #e0a43a; border-radius: var(--glass-radius); background: #0f1a1f; font-size: 13px; }
+.j-notice--info { border-left-color: var(--teal-light); }
+.j-notice ul { margin: var(--space-1) 0 0; padding-left: var(--space-4); }
+
+.j-cover { display: block; object-fit: cover; border: 1px solid var(--line); border-radius: 3px; background: var(--surface); flex: none; }
+.j-cover--none { display: inline-flex; align-items: center; justify-content: center; font-size: 11px; color: var(--muted); text-align: center; }
+.j-covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
+.j-cover-card { margin: 0; display: flex; flex-direction: column; gap: var(--space-2); align-items: flex-start; font-size: 13px; }
+.j-cover-card img { max-width: 100%; height: auto !important; aspect-ratio: 16 / 9; }
+
+.j-group { border: 1px solid var(--line); border-radius: var(--glass-radius); padding: var(--space-3); display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.j-group legend { padding: 0 var(--space-2); font-weight: 600; }
+.j-q label { color: var(--paper); font-size: 13px; }
+.j-textarea { height: auto; min-height: 84px; padding: var(--space-2); font: inherit; resize: vertical; width: 100%; line-height: 1.5; }
+.j-prompt { margin: 0; padding: var(--space-3); max-height: 50vh; overflow: auto; white-space: pre-wrap; word-break: break-word; font-size: 12px; line-height: 1.5; background: var(--surface); border: 1px solid var(--line); border-radius: 3px; }
+
+.j-post { max-width: 720px; display: flex; flex-direction: column; gap: var(--space-3); }
+.j-post .j-cover { width: 100% !important; height: auto !important; aspect-ratio: 16 / 9; }
+.j-post h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1; }
+.j-standfirst { font-size: 18px; line-height: 1.5; color: var(--muted); }
+.j-toc { font-size: 13px; border-left: 1px solid var(--line); padding-left: var(--space-3); }
+.j-toc ul { list-style: none; margin: var(--space-1) 0 0; padding: 0; }
+.j-toc a { display: block; padding: 3px 0; color: var(--muted); text-decoration: none; }
+.j-toc a:hover { color: var(--paper); }
+.j-prose { font-size: 16px; line-height: 1.7; }
+.j-prose p, .j-prose ul, .j-prose ol, .j-prose blockquote { margin-top: var(--space-3); }
+.j-prose h2 { font-size: 30px; margin-top: var(--space-5); }
+.j-prose h3, .j-prose h4 { margin-top: var(--space-4); }
+.j-prose blockquote { border-left: 2px solid var(--teal-light); padding-left: var(--space-4); }
+.j-prose a { color: var(--teal-light); }
+.j-prose code { font-size: .9em; }
+
+/* Queue table: phone width scrolls inside its own wrapper (Table does that); keep the entry column readable. */
+.table td .j-cell { max-width: 320px; }
+
+/* Review chat beside a candidate or entry (same split as the comics cast page). */
+.j-with-chat { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 28vw); gap: var(--space-4); align-items: start; }
+.j-main { min-width: 0; }
+@media (max-width: 960px) { .j-with-chat { grid-template-columns: 1fr; } }

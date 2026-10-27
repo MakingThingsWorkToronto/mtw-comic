@@ -1,0 +1,13 @@
+{
+  "id": "home-agent-continued-1-home-cable-pull-b0",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Pause this job. Only this one.",
+  "historyItemId": "MzDV21m9z8XK0yGZZI1U",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "46711a95a2116d1775dab935fa695e6da62789e926d89a7ad699bb7bc08c37b7",
+  "createdAt": "2026-10-12T06:21:58.142Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

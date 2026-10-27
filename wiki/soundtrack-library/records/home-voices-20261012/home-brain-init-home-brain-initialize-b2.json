@@ -1,0 +1,13 @@
+{
+  "id": "home-brain-init-home-brain-initialize-b2",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Claude and Codex will use only their workspace.",
+  "historyItemId": "aMEE5e1Xug79dh2E2YNX",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "ae6e6a586a64d20c7ba5fe8a84be60cce97f4812b1d2308dd6d0ca8a54cbee48",
+  "createdAt": "2026-10-12T06:21:59.756Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

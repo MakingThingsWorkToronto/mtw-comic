@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Eric - Smooth, Trustworthy — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/codex/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "cjVigY5qzO86Huf0OWal",
+  "status": "candidate",
+  "sha256": "a69e230795074f4a4a4c949194b7424baae21e8d7bc02d7347d8e63a3bf5422d",
+  "durationSeconds": 1.7647165532879818,
+  "text": "Done. You said all customers.",
+  "credits": 29.000000000000004,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "voiceName": "Eric - Smooth, Trustworthy",
+    "prompt": "Done. You said all customers.",
+    "scriptSource": "wiki/site/comic-story.md",
+    "settingsPreset": "provider-default",
+    "generationId": "yXi4nvgi4K6Xvr045V6W",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

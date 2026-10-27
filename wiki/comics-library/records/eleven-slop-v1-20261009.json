@@ -1,0 +1,24 @@
+{
+  "id": "v1-comparison-read",
+  "title": "Liam - Energetic, Social Media Creator — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/slop/v1-comparison-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "status": "candidate",
+  "sha256": "5de765d5048d1e1e77c141b837866ca6331c3fe12853e3fde1ac981b34fba313",
+  "durationSeconds": 2.2291156462585033,
+  "text": "Show me the original before we send this.",
+  "credits": 41,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+    "voiceName": "Liam - Energetic, Social Media Creator",
+    "prompt": "Show me the original before we send this.",
+    "scriptSource": "Audition-only test sentence; not story dialogue",
+    "settingsPreset": "provider-default",
+    "generationId": "q9bJLNE5tcDCJQ18NFVI",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

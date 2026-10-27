@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Daniel - Steady Broadcaster — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/potvin/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "status": "candidate",
+  "sha256": "28d24b83264ad3bdbf0bcea9287780aee14f185509cbe664dbd1158054a3f756",
+  "durationSeconds": 1.7647165532879818,
+  "text": "What's Friday's meeting about?",
+  "credits": 30,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "onwK4e9ZLuTAKqWW03F9",
+    "voiceName": "Daniel - Steady Broadcaster",
+    "prompt": "What's Friday's meeting about?",
+    "scriptSource": "Issue 3, answer",
+    "settingsPreset": "provider-default",
+    "generationId": "xrtVPCVzu0uAAGMbbWUG",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

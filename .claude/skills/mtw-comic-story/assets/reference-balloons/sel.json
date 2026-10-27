@@ -1,0 +1,12 @@
+{
+ "97e641f3.png": {"ids": {"1":"cluster","2":"caption","3":"chain","4":"speech","5":"speech","6":"speech","7":"burst","8":"speech","9":"speech","10":"speech","11":"chain"},
+   "seeds": [["red",1100,540,"burst"],["red",1230,1290,"burst"]]},
+ "3f8e7bfd.png": {"ids": {"1":"cluster","2":"caption","3":"cluster","5":"burst"}},
+ "83ca1685.png": {"ids": {"1":"speech","2":"speech","4":"speech","5":"speech","6":"speech","7":"speech","9":"speech","10":"speech"},
+   "seeds": [["light",150,1395,"caption"],["light",190,1790,"caption"],["light",390,1790,"caption"],["light",630,1730,"caption"],["light",130,1020,"speech"]]},
+ "d3617ce6.png": {"ids": {"1":"speech","2":"speech","3":"speech","4":"speech","5":"speech","6":"speech-yellow","7":"speech-yellow"}},
+ "images.j.png": {"ids": {"1":"speech","2":"chain","3":"burst","4":"speech","5":"cluster","6":"chain","7":"speech","8":"chain","9":"shaken","10":"shaken","11":"speech","12":"shaken","15":"speech"}},
+ "swwvm51d.png": {"ids": {"2":"speech","3":"burst","4":"speech","5":"speech","10":"speech","12":"speech","14":"speech"},
+   "seeds": [["light",110,690,"speech"],["light",925,1235,"speech"]]},
+ "AllTime-.png": {"ids": {"1":"burst","2":"burst","3":"burst","4":"burst","7":"caption","8":"burst","9":"speech","14":"caption","15":"burst","19":"caption","20":"speech"}}
+}

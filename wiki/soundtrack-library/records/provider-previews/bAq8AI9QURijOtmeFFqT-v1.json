@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "kind": "existing-provider-preview",
+  "provider": "ElevenLabs",
+  "voiceId": "bAq8AI9QURijOtmeFFqT",
+  "inputMetadata": {
+    "path": "wiki/soundtrack-library/records/provider-preview-intake/unlocked-robotic-20261010-v1/metadata.json",
+    "sha256": "b59d31dc82f8b522e23614327d7b254da87df569d008f12b2c0bacd0b8caaa90"
+  },
+  "canonicalInputGuards": {
+    "catalog": "fecc91ed1f4825061cf1300045a18f217ac7a7bf73d82e042ba8e09fb5a6c550",
+    "profiles": "dd7b7e75065a94b35783c15ed72a7c98ee054c35ddaf4476fa24c26ec01f8d82"
+  },
+  "source": {
+    "method": "One read-only ElevenLabs metadata search plus reuse of two retained Fish query receipts; no synthesis",
+    "newMetadataCalls": 1,
+    "newFishMetadataCalls": 0,
+    "rawSnapshotSha256": "dd8226874b2e6217c9bb77fc0b6017f181ad5234ce7211bfaf25f57d299018cf"
+  },
+  "metadata": {
+    "provider": "ElevenLabs",
+    "voiceId": "bAq8AI9QURijOtmeFFqT",
+    "name": "Sigma Centauri - AI Robot",
+    "description": "Sigma Centauri is a calm, futuristic AI system voice with a classic space-computer tone. For full effect, use Elevenlabs v3 model.\r\n\r\nIdeal for spaceship announcements, onboard computers, sci-fi interfaces, robotic or android style characters, and narrative AI roles. \r\n\r\nGreat at delivering bad news in a calm way! Inspired by classic science-fiction computer voices.",
+    "labels": {
+      "gender": "male",
+      "accent": "en-american",
+      "language": "en",
+      "persona": "robotic"
+    },
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/4b1d6356f85848899a237c62989202a9/voices/bAq8AI9QURijOtmeFFqT/x3eL1XTjW5RNuWNP3nGt.mp3",
+    "licensed": null,
+    "source": {
+      "method": "ElevenLabs MCP creative_list_voices search robot",
+      "snapshotSha256": "dd8226874b2e6217c9bb77fc0b6017f181ad5234ce7211bfaf25f57d299018cf",
+      "personaEvidence": "Sigma Centauri is a calm, futuristic AI system voice with a classic space-computer tone. For full effect, use Elevenlabs v3 model.\r\n\r\nIdeal for spaceship announcements, onboard computers, sci-fi interfaces, robotic or android style characters, and narrative AI roles. \r\n\r\nGreat at delivering bad news in a calm way! Inspired by classic science-fiction computer voices."
+    },
+    "productionApproved": false,
+    "hearingReview": "pending"
+  },
+  "http": {
+    "status": 200,
+    "finalUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/4b1d6356f85848899a237c62989202a9/voices/bAq8AI9QURijOtmeFFqT/x3eL1XTjW5RNuWNP3nGt.mp3",
+    "contentType": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/bAq8AI9QURijOtmeFFqT-v1.mp3",
+    "sha256": "2db4f00f946fb7585768bc86f98c05ebe3cf216bf366d7a5dc0f3ab9cc67d446",
+    "bytes": 229504,
+    "durationSeconds": 14.341188,
+    "container": "mp3"
+  },
+  "decode": {
+    "durationSeconds": 14.341188,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 202382838,
+          "duration": "14.341188",
+          "bit_rate": "128000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "C:\\Code\\MTW-comics-shelf-20261009\\voice-discovery-unlocked-20261010\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\bAq8AI9QURijOtmeFFqT-v1.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "14.341188",
+        "size": "229504",
+        "bit_rate": "128025",
+        "probe_score": 52,
+        "tags": {
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "fullDecode": "passed; not a listening review"
+  },
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "status": "saved-candidate",
+  "rightsStatus": "unverified",
+  "providerReportedLicensed": null,
+  "productionApproved": false,
+  "hearingReview": "pending"
+}

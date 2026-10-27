@@ -1,0 +1,12 @@
+{
+  "id": "home-answers-continued-2-home-dana-claude-rule-b1",
+  "characterId": "claude",
+  "provider": "Fish Audio",
+  "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+  "modelId": "s2.1-pro-free",
+  "text": "Then I ask before I answer.",
+  "requestId": null,
+  "rawSha256": "bf5d1ac79d5b8506c2c00fe743b879d4ab154515fba35d16ff872340a575fd54",
+  "createdAt": "2026-10-12T06:18:23.703Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

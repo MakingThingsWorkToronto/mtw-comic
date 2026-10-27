@@ -1,0 +1,11 @@
+/* Comic review navigation: the issue's progress bar, scene cards that open the review, box links. */
+.meter-row--static { cursor: default; }
+.meter-row--static:hover { background: none; }
+a.meter-row { text-decoration: none; }
+a.meter-row:focus-visible { outline: var(--focus); outline-offset: 2px; }
+.issue-progress .meter { height: 10px; }
+.scene-cell { display: flex; flex-direction: column; gap: 4px; }
+a.scene-card { text-decoration: none; }
+a.scene-card:hover { border-color: var(--teal-light); }
+.scene-boxes { align-self: flex-start; }
+.box-review { white-space: nowrap; }

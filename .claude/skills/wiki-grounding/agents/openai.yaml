@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wiki grounding"
+  short_description: "Read the wiki by route, keyword and section; write facts back in place"
+  default_prompt: "Use $wiki-grounding to find the wiki pages for this task, read only the sections needed, and write any fact you learn back to its owning page with the log line and graph check."

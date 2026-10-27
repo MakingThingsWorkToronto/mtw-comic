@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "home-brief-home-dana-office-b4",
+  "type": "speech-dialogue",
+  "storyId": "home",
+  "characterId": "dana",
+  "provider": "Fish Audio",
+  "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+  "text": "Let me finish\nchecking this.",
+  "textSha256": "ec227c6c02bede8a824c572c9487960cdd99962ce1dfe806fabb85f8e8fc4439",
+  "status": "normalized-candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "source": {
+    "canonicalPath": "wiki/soundtrack-library/assets/voices/dana/fish-v1-character-read.mp3",
+    "sha256": "330a756eb013cb92ad1edf3e1f5d8e7774ec7f612497a57373436a6377ff7bbd",
+    "receiptCanonicalPath": "wiki/comics-library/records/fish-dana-v1-20261009.json",
+    "receiptSha256": "3c0a42d4ffbcfb5b8d024b55a5a3b6863be82b67efe47fdc4b9677601179015f",
+    "bytes": 41794
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/speech/home-20261010/home-brief-home-dana-office-b4-eq-v1.mp3",
+    "sha256": "07472504de5512941d4e0fcb58e8d3b2d34ea9f7099c560b9d5db7d645dd3bb5",
+    "bytes": 42674,
+    "durationSeconds": 2.612245
+  },
+  "target": {
+    "integratedLufs": -18,
+    "truePeakMaxDbfs": -3,
+    "encoderTargetPeakDbfs": -3.5,
+    "lra": 7
+  },
+  "measurements": {
+    "beforeAfterEQ": {
+      "input_i": "-25.72",
+      "input_tp": "-12.53",
+      "input_lra": "0.00",
+      "input_thresh": "-36.11",
+      "output_i": "-17.98",
+      "output_tp": "-4.81",
+      "output_lra": "0.00",
+      "output_thresh": "-28.37",
+      "normalization_type": "linear",
+      "target_offset": "-0.02"
+    },
+    "actualEncoded": {
+      "input_i": "-18.44",
+      "input_tp": "-5.32",
+      "input_lra": "0.00",
+      "input_thresh": "-28.83",
+      "output_i": "-18.00",
+      "output_tp": "-4.89",
+      "output_lra": "0.00",
+      "output_thresh": "-28.40",
+      "normalization_type": "linear",
+      "target_offset": "0.00"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "2.612245"
+      }
+    }
+  },
+  "filter": "highpass=f=70,lowpass=f=12500,acompressor=threshold=0.1:ratio=3:attack=5:release=80:knee=2.828:makeup=1,loudnorm=I=-18:TP=-3.5:LRA=7:measured_I=-25.72:measured_TP=-12.53:measured_LRA=0.00:measured_thresh=-36.11:offset=-0.02:linear=true:print_format=json",
+  "encoderCommand": [
+    "ffmpeg",
+    "-nostdin",
+    "-hide_banner",
+    "-n",
+    "-i",
+    "C:\\Code\\MTWWebsite-clean\\wiki\\comics-library\\assets\\voices\\dana\\fish-v1-character-read.mp3",
+    "-af",
+    "highpass=f=70,lowpass=f=12500,acompressor=threshold=0.1:ratio=3:attack=5:release=80:knee=2.828:makeup=1,loudnorm=I=-18:TP=-3.5:LRA=7:measured_I=-25.72:measured_TP=-12.53:measured_LRA=0.00:measured_thresh=-36.11:offset=-0.02:linear=true:print_format=json",
+    "-ac",
+    "1",
+    "-ar",
+    "44100",
+    "-c:a",
+    "libmp3lame",
+    "-b:a",
+    "128k",
+    "C:\\Code\\MTW-comics-shelf-20261009\\home-voiceover-20261010\\wiki\\soundtrack-library\\assets\\speech\\home-20261010\\home-brief-home-dana-office-b4-eq-v1.mp3"
+  ],
+  "dependencies": {
+    "helperSha256": "6e5eada15f8dae17e4ae76f1f2208c666075ec9dd9eff5f2063c05dcbb55b8cc",
+    "ffmpeg": "589e50b766d251afdf181dd664d40bd94407e200b019989fd7468c7d118a28d0",
+    "ffprobe": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3"
+  },
+  "reproduction": "Reuse retained raw and normalized bytes. Re-encoding with recorded filter/tools is distinct from stochastic provider regeneration. No new provider request.",
+  "scope": "Exact retained Home text/voice reuse; not a new take or human text approval."
+}

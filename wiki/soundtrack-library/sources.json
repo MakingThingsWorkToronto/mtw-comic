@@ -1,0 +1,71 @@
+{
+  "about": "Exact credited music used by this experiment. Playback requires no provider account.",
+  "downloadsDir": "downloads",
+  "tracks": [
+    {
+      "id": "pixabay-481595",
+      "file": "pixabay-481595-moody-rap-type-beat-free-rap-beat.mp3",
+      "download": "krim3s-moody-rap-type-beat-free-rap-beat-481595.mp3",
+      "provider": "Pixabay",
+      "title": "Moody Rap Type Beat [FREE RAP BEAT]",
+      "artist": "KRIM3S",
+      "source": "https://pixabay.com/music/rap-moody-rap-type-beat-free-rap-beat-481595/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rap",
+      "published": "2026-02-10",
+      "approved": "2026-09-26",
+      "status": "approved"
+    },
+    {
+      "id": "pixabay-485509",
+      "file": "pixabay-485509-on-my-mind-free-rap-beat.mp3",
+      "download": "aexbeats-on-my-mind_free-rap-beat-485509.mp3",
+      "provider": "Pixabay",
+      "title": "On My Mind_[[FREE]] Rap Beat",
+      "artist": "AEXBEATS",
+      "source": "https://pixabay.com/music/rap-on-my-mind-free-rap-beat-485509/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rap",
+      "published": "2026-02-17",
+      "approved": "2026-09-26",
+      "status": "approved"
+    },
+    {
+      "id": "pixabay-558083",
+      "file": "pixabay-558083-dramatic-rock.mp3",
+      "download": "playsound-dramatic-rock-558083.mp3",
+      "provider": "Pixabay",
+      "title": "Dramatic Rock",
+      "artist": "Playsound",
+      "source": "https://pixabay.com/music/rock-dramatic-rock-558083/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rock",
+      "published": "2026-07-01",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/data-migrations/azure-migrations/ (Azure Migrations Beat Comic, Track 18)"
+      ],
+      "gridQuestion": "2026-09-28 (Track 18 sub-agent): tempo 108 BPM confirmed from onsets; the first downbeat may be 0.05 s rather than the profiled 0.43 s (next candidates 0.328 or 0.606 s). The story is cut to 0.43 s. Confirm by ear with ?beat=tick before recording a checked grid."
+    },
+    {
+      "id": "moire-epic-win",
+      "file": "moire-epic-win.mp3",
+      "download": "epic-win-moire-main-version-45319-01-52.mp3",
+      "provider": "unknown",
+      "title": "Epic Win",
+      "artist": "Moire",
+      "source": null,
+      "license": "Approved by Matt",
+      "licenseUrl": null,
+      "genre": "epic",
+      "published": null,
+      "approved": "2026-09-26",
+      "status": "approved",
+      "note": "Approved by Matt (2026-09-26, \"all 59 are approved\"). No source page is known, so the credit names the track and artist without a link; add the page if it turns up."
+    }
+  ]
+}

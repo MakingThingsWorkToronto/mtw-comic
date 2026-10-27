@@ -1,0 +1,103 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "sam",
+  "scriptId": "home-compare-home-sam-labour-b1",
+  "scriptSource": "wiki/comics-library/speech-approvals.json#home-compare-home-sam-labour-b1",
+  "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+  "voiceName": "sam",
+  "modelId": "s2.1-pro-free",
+  "text": "Forty hours. Ten\ninstallers. Monday,\nfive a.m.",
+  "textSha256": "a914785f547a70aea715ff9db0d8c5fe82cea1c7854e8114978761deb6ea1e03",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "Forty hours. Ten installers. Monday, five a.m.",
+    "reference_id": "d4b22b66d7b44221a1360bff4a0b059e"
+  },
+  "licensed": null,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "speechBinding": {
+    "storyId": "home",
+    "sceneId": "compare",
+    "panelId": "home-sam-labour",
+    "balloonIndex": 0,
+    "kind": "speech",
+    "authoredWho": "sam"
+  },
+  "spokenText": "Forty hours. Ten installers. Monday, five a.m.",
+  "spokenTextSha256": "84d10d2054127a1d18ac8f8c53e6a9f917460f5c4f91290b25ac9170d027bc12",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "status": "saved",
+  "startedAt": "2026-10-15T19:21:26.227988+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "f157394e33715f330fadefe4dd8dffe14db0a49750ef02a286284e7ec9728a71",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "humanSpeechReview": {
+    "review": {
+      "id": "home-compare-home-sam-labour-b1",
+      "characterId": "sam",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "textSha256": "a914785f547a70aea715ff9db0d8c5fe82cea1c7854e8114978761deb6ea1e03",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:17:45.762Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review"
+      }
+    },
+    "approvalManifestSha256": "5987ca4492717d0766cb738c8507ff401409b9dbdaf0558e55d87763149814a8",
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "sourceSha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/home-20261015/sam/home-compare-home-sam-labour-b1-raw-v1.mp3",
+    "sha256": "7af919718b021531e4e3fed018ec74266cd400cac74b9530c85030128b2491fc",
+    "bytes": 68544,
+    "durationSeconds": 4.284
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-15T19:21:29.661190+00:00"
+}

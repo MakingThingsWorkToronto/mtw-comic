@@ -1,0 +1,33 @@
+---
+// The holding frame for a Comic B issue that is not ready yet (registry `ready: false`; Matt, 2026-09-28: "do this right
+// the first time"). One dark, cinematic frame: ink black, the issue number and title in hand lettering, a slow teal light
+// sweeping across them, and "Being inked." No controls, no boxes. On a -b page it fills the first screen and the page
+// continues below it; in the standalone reader it is the page.
+import '../styles/comic-story.css'; // the Comic Neue faces
+interface Props { issue: number; title: string; standalone?: boolean }
+const { issue, title, standalone = false } = Astro.props;
+---
+<section class:list={['cs-holdframe', { 'cs-holdframe--app': standalone }]} aria-label={`Issue ${issue}: ${title} Being inked.`}>
+  <div class="cs-holdframe__in" aria-hidden="true">
+    <p class="cs-holdframe__no">No. {issue}</p>
+    <p class="cs-holdframe__title">{title}</p>
+    <p class="cs-holdframe__state">Being inked.</p>
+  </div>
+</section>
+<style>
+  .cs-holdframe { position: relative; height: 100vh; height: 100dvh; display: grid; place-items: center; overflow: hidden; background: #030405; color: #e9ecea; }
+  .cs-holdframe--app { position: fixed; inset: 0; z-index: 1; }
+  /* Deep blacks at the frame's edges, like a lens. */
+  .cs-holdframe::before { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, #000 0, #0000 18%, #0000 82%, #000 100%), linear-gradient(180deg, #000 0, #0000 22%, #0000 78%, #000 100%); }
+  .cs-holdframe__in { position: relative; text-align: center; padding: 0 max(24px, env(safe-area-inset-left)); }
+  .cs-holdframe__no, .cs-holdframe__title, .cs-holdframe__state { margin: 0; font-family: 'Comic Neue', 'Comic Sans MS', sans-serif; text-transform: uppercase; }
+  .cs-holdframe__no { font-weight: 700; font-size: clamp(14px, 1.4vw, 18px); letter-spacing: .22em; color: #5fc4c9; }
+  .cs-holdframe__title { margin-top: .35em; font-weight: 700; font-style: italic; font-size: clamp(34px, 6.4vw, 96px); line-height: .95; letter-spacing: .01em;
+    /* A slow band of teal light passes across the lettering. */
+    background: linear-gradient(100deg, #cfd6d4 0, #cfd6d4 38%, #5fc4c9 46%, #eafcfc 50%, #5fc4c9 54%, #cfd6d4 62%, #cfd6d4 100%);
+    background-size: 300% 100%; background-position: 100% 0; -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: cs-hold-sweep 7s cubic-bezier(.45, 0, .2, 1) infinite; }
+  .cs-holdframe__state { margin-top: 1.4em; font-weight: 400; font-size: clamp(13px, 1.1vw, 16px); letter-spacing: .3em; color: #7e8a8c; }
+  @keyframes cs-hold-sweep { 0% { background-position: 100% 0; } 60%, 100% { background-position: 0% 0; } }
+  @media (prefers-reduced-motion: reduce) { .cs-holdframe__title { animation: none; background-position: 50% 0; } }
+</style>

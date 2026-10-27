@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "comic-b-model-blindspot",
+  "characterId": "blindspot",
+  "canonicalName": "The Blindspot Domi",
+  "kind": "dedicated character model sheet",
+  "assetPath": "assets/scenes/comic-b/models/blindspot-dedicated-v1.png",
+  "sha256": "b7a55f8acb336efb7e5e4a23d19980f20688b9ec48051c5ba74512e7547cfa9f",
+  "actualWidth": 1672,
+  "actualHeight": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "version": 1,
+  "status": "candidate",
+  "humanApproval": false,
+  "sourceCharacter": {
+    "path": "wiki/comics-library/characters.json",
+    "id": "blindspot",
+    "rowSha256": "13c55ab242e57cb9adecf5123798d0fe40f2a392cb6d65ffb6c186eca61b19b8",
+    "modelRecord": "comic-b-model-villains-1"
+  },
+  "lineage": {
+    "designRecordId": "comic-b-model-villains-1",
+    "designPath": "assets/scenes/comic-b/models/model-villains-1-v2.png",
+    "designSha256": "17bd69e0c0006079aa2ab7d1ff68b8634ecf3a2177bdb83849db33f17425f1cc",
+    "formatRecordId": "comic-b-model-matt",
+    "formatSha256": "80b4b88e2b03bbe112d50fb9315927d364fe226319600a0cfd89ae6c0d671352"
+  },
+  "generationRecord": "records/comic-b-model-blindspot/comic-ink/v1/generation.json",
+  "prompt": "records/comic-b-model-blindspot/comic-ink/v1/submitted-prompt.txt",
+  "inputRoles": "records/comic-b-model-blindspot/comic-ink/v1/input-roles.json",
+  "actualViewReview": "records/comic-b-model-blindspot/comic-ink/v1/manual-view-review.json"
+}

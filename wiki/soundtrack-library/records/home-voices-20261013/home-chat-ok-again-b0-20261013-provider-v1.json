@@ -1,0 +1,87 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "second-brain",
+  "scriptId": "home-chat-ok-again-b0-20261013",
+  "scriptSource": "wiki/comics-library/records/home-missing-voices-20261013-authorization-v2.json#home-chat-ok-again-b0-20261013",
+  "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+  "voiceName": "Morgan Freeman — provider-labelled reference",
+  "modelId": "s2.1-pro-free",
+  "text": "Looks great!\nReady to send.",
+  "textSha256": "badd0fcfdb31d5e00eb7c322022bdc1d9ec98d8d0f7d3508259c38cb8e047415",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "Looks great!\nReady to send.",
+    "reference_id": "f9fd3dce16af4168a2545e27d293bffa"
+  },
+  "licensed": false,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "status": "saved",
+  "startedAt": "2026-10-13T17:07:27.697781+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "0a0881cbc0b109298781b8b047528280de69e98c68338d6cfcf8d21979e70ed8",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "sessionGenerationAuthorization": {
+    "sessionAuthorization": {
+      "path": "wiki/comics-library/records/home-missing-voices-20261013-authorization-v2.json",
+      "sha256": "cf2b1a5b5dfb652870ce11fb0ea51c78ebc2a63a2bb743d50af5d8a11d109043",
+      "lineId": "home-chat-ok-again-b0-20261013",
+      "directive": {
+        "quote": "i reviewed http://localhost:8787/comics/home/ and i am seeing many many missing voices and for the narration i have said to use the morgan freeman second brain voice for this many times. identify other things that were not fixed , i see no visual movement on the first scene or noting engaging at least.",
+        "goal": "complete comic",
+        "permission": "you have full access permissions do not ask me."
+      }
+    },
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T03:38:35.614209+00:00",
+      "useScope": "preview-review",
+      "productionHold": true,
+      "holdReason": "Provider-labelled community reference; production usage remains unverified. Exact narration words are not approved.",
+      "selectionSource": "Matt: use \"Morgan Freeman — provider-labelled reference\" for second brain voice please"
+    },
+    "sourceSha256": "304d09ced26b3ae330ae8180d3b1d2b4c5a87897c9e0a98ff301a80bbbe5c502",
+    "hearingApproved": false,
+    "textReviewRecorded": false
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/speech/home-20261013/home-chat-ok-again-b0-20261013-raw-v1.mp3",
+    "sha256": "d3accf92b3de0a25bc407d8a072180d782ad4125baaaf53fcf151c539058aabf",
+    "bytes": 43466,
+    "durationSeconds": 2.716625
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-13T17:07:29.733487+00:00"
+}

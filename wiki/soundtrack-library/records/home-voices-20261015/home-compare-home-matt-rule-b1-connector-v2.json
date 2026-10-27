@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T23:56:14.336Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech)",
+  "characterId": "matt",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "voiceName": "Scott - Youthful, Confident and Clear",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "Every quote now checks\nagainst the signed\norder. Safety\nincluded.",
+  "textSha256": "9c8c592a1759ad524808d070911b35f9a83653776af2d79ac808deded0ceb8fc",
+  "spokenText": "Every quote now checks against the signed order. Safety included.",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "flowId": "m7SCldIDO6GZzMtiobhX",
+  "sessionId": "9VuXMsckOH0dnnghHvAl",
+  "generationId": "QjS2lHhkDJoDNqKFAstL",
+  "reportedCredits": 65,
+  "retry": false,
+  "fallback": false,
+  "status": "saved",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/matt/home-compare-home-matt-rule-b1-raw-v1.mp3",
+  "rawSha256": "63870087e025d11d710b9cf1e651f9f122a4fe0c7433f3dc5b7573ac3e1124c7",
+  "receiptCanonicalPath": "wiki/soundtrack-library/records/home-voices-20261015/home-compare-home-matt-rule-b1-connector-v2.json",
+  "bytes": 71503,
+  "sha256": "63870087e025d11d710b9cf1e651f9f122a4fe0c7433f3dc5b7573ac3e1124c7",
+  "supersedesReceipt": "home-compare-home-matt-rule-b1-connector-v1.json",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "sourceRefs": [
+    {
+      "storyId": "home",
+      "sceneId": "compare",
+      "panelId": "home-matt-rule",
+      "balloonIndex": 0,
+      "kind": "speech",
+      "authoredWho": "matt",
+      "approvalId": "home-compare-home-matt-rule-b1"
+    }
+  ],
+  "note": "One request at a time, generations_count 1 (Matt, 2026-10-15). Approved words (approvalId home-compare-home-matt-rule-b1)."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "home-brain-init-home-brain-initialize-b1",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "We’ll build it from the work you’ve checked.",
+  "historyItemId": "UWFXcmP8k6YWfTIIZciq",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "31db22f2e56f49d8257674c96cfdd81458f6137917d8d0fbf7cbcee3bf8e783d",
+  "createdAt": "2026-10-12T06:21:59.621Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

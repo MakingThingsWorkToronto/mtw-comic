@@ -1,0 +1,10 @@
+apps/
+wiki/
+scripts/
+tests/
+.claude/
+.codex/
+node_modules/
+site/node_modules/
+site/dist/
+site/verification/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MTW Comic Story"
+  short_description: "Make a dark Comic B issue: inked SVG panels, balloons on the beat, a -b page and a reader issue"
+  default_prompt: "Use $mtw-comic-story to make or revise this page's Comic B issue and verify it. Read discussion/spec.md in full first."

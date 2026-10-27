@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "comic-b-model-snowball",
+  "characterId": "snowball",
+  "canonicalName": "The Snowball Williams",
+  "kind": "dedicated character model sheet",
+  "assetPath": "assets/scenes/comic-b/models/snowball-dedicated-v1.png",
+  "sha256": "4e83c17074a3877016db94be272fd79be201d23c245e57d467f1c4b8c9330848",
+  "actualWidth": 1672,
+  "actualHeight": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "version": 1,
+  "status": "candidate",
+  "humanApproval": false,
+  "sourceCharacter": {
+    "path": "wiki/comics-library/characters.json",
+    "id": "snowball",
+    "rowSha256": "0be8b7c41c6f298d4ac6504b1715fcd8ad51013c9fa37446b8245d709a9bacdb",
+    "modelRecord": "comic-b-model-villains-1"
+  },
+  "lineage": {
+    "designRecordId": "comic-b-model-villains-1",
+    "designPath": "assets/scenes/comic-b/models/model-villains-1-v2.png",
+    "designSha256": "17bd69e0c0006079aa2ab7d1ff68b8634ecf3a2177bdb83849db33f17425f1cc",
+    "formatRecordId": "comic-b-model-matt",
+    "formatSha256": "80b4b88e2b03bbe112d50fb9315927d364fe226319600a0cfd89ae6c0d671352"
+  },
+  "generationRecord": "records/comic-b-model-snowball/comic-ink/v1/generation.json",
+  "prompt": "records/comic-b-model-snowball/comic-ink/v1/submitted-prompt.txt",
+  "inputRoles": "records/comic-b-model-snowball/comic-ink/v1/input-roles.json",
+  "actualViewReview": "records/comic-b-model-snowball/comic-ink/v1/manual-view-review.json"
+}

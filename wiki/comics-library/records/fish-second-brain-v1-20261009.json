@@ -1,0 +1,57 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "second-brain",
+  "scriptId": "comparison-read",
+  "scriptSource": "Audition-only comparison using narrator excerpt; original source: Issue 1, quote",
+  "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+  "textSha256": "4ffa432c340e6d887956c661a17d16d5dc8cae638ed0541d268d2ad291096ce9",
+  "voiceId": "d13f84b987ad4f22b56d2b47f4eb838e",
+  "voiceName": "Mortal Kombat",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+    "reference_id": "d13f84b987ad4f22b56d2b47f4eb838e",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:00.152127+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 75,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:03.414777+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/second-brain/fish-v1-comparison-read.mp3",
+    "sha256": "4ac82d2b0f03078f2a6a8b67f414cb02c860a8ce38a91480f5ae80e89045941c",
+    "bytes": 208142,
+    "durationSeconds": 13.008875
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-comparison-read",
+  "path": "wiki/soundtrack-library/assets/voices/second-brain/fish-v1-comparison-read.mp3",
+  "sha256": "4ac82d2b0f03078f2a6a8b67f414cb02c860a8ce38a91480f5ae80e89045941c",
+  "auditionOnly": true,
+  "storyDialogue": false
+}

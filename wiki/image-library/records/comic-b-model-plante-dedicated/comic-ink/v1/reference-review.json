@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "recordId": "comic-b-model-plante-dedicated",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "modelNotExposed": true,
+  "nativeOutput": "C:\\Users\\thast\\.codex\\generated_images\\01a12104-453b-7e21-b576-98c301004687\\exec-0b47ebe9-e42f-4f63-a027-bbe04d040658.png",
+  "canonicalTarget": "wiki/image-library/assets/scenes/comic-b/models/plante-dedicated-v1.png",
+  "sha256": "8f4042fca5c2adf5b405ba5c549d61ba885fad244c79dbb2a8960097a495b032",
+  "width": 1536,
+  "height": 1024,
+  "transparentBackground": false,
+  "requestSha256": "ec4dc9ba3ca765d1603a1cc93e2aa4494374a66297b1d89081dd9cb258aae2a8",
+  "promptSha256": "d371a3f9d587569a787d84cb859d95e604bf70e4338b3c9d966a8f9b1255993a",
+  "inputRoles": [
+    {
+      "path": "C:/Code/MTWWebsite-clean/wiki/image-library/assets/scenes/comic-b/pages/data-migrations-records-20261008-v1.png",
+      "sha256": "e0a9325cf1d316847ec0ad6ee01e512a0fe9bbd619b700f61e8c22d961fba8f7",
+      "role": "Exact established beige/green terminal identity authority; no human transfer"
+    },
+    {
+      "path": "C:/Code/MTWWebsite-clean/wiki/image-library/assets/scenes/comic-b/models/model-matt-v1.png",
+      "sha256": "80b4b88e2b03bbe112d50fb9315927d364fe226319600a0cfd89ae6c0d671352",
+      "role": "Dedicated reference-sheet organization and ink craft only; never human identity"
+    }
+  ],
+  "generationStarted": "2026-10-10T07:38:14.330Z",
+  "generationEnded": "2026-10-10T07:39:21.920Z",
+  "actualAuthorInspection": "Viewed actual whole tool output. Three matching opaque beige CRT/keyboard views with front green monochrome document rows and blank vented rear; binder manual and screen detail. No human, agent, brain, arms or environment. Generated sheet labels are extra reference labels despite prompt; not scene lettering or production words. Flat hatching/halftone matches established old object design.",
+  "humanApproval": false,
+  "standing": "Author-inspected dedicated system-object candidate; canonical import/registration pending after active producer, no voiced character invention."
+}

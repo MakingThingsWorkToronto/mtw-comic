@@ -1,0 +1,1409 @@
+{
+ "version": "2.1.0",
+ "approved": "Matt, 2026-10-02 (2.1.0 accepted)",
+ "captured": "2026-09-30T19:04:28.879Z",
+ "config": "assets/balloon-style.json",
+ "renders": [
+  {
+   "id": "lab-desktop",
+   "url": "/comics/style-lab/?mute&reel=off&bg=grey",
+   "viewport": {
+    "width": 1440,
+    "height": 900
+   },
+   "dpr": 1,
+   "file": "lab-desktop.png",
+   "pixels": true,
+   "balloons": [
+    {
+     "kind": "place",
+     "state": "narration",
+     "text": "11:04 p.m. King Street West.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 9.87,
+      "boxH": 4.76,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Everyone has chat now. Nobody checks it.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 10.11,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "This case doesn't exist.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.63,
+      "bodyW": 8.15,
+      "bodyH": 5.15,
+      "padX": 0.76,
+      "padY": 0.73,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Neither does this one.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.21,
+      "bodyW": 7.74,
+      "bodyH": 5.08,
+      "padX": 0.76,
+      "padY": 0.69,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Forty summaries. None of them read the a",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 13.39,
+      "bodyW": 15.22,
+      "bodyH": 6.31,
+      "padX": 0.92,
+      "padY": 1.31,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Gilmour & Clark wanted it tonight.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 9.91,
+      "bodyW": 11.45,
+      "bodyH": 5.13,
+      "padX": 0.77,
+      "padY": 0.72,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "fear",
+     "state": "fear",
+     "text": "The training records are gone.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 8.83,
+      "bodyW": 10.75,
+      "bodyH": 5.72,
+      "padX": 0.96,
+      "padY": 1.01,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "burst",
+     "state": "shout",
+     "text": "Wait!",
+     "geom": {
+      "fs": 24,
+      "c": 17.76,
+      "lines": 1,
+      "lead": 1.35,
+      "inkW": 2.73,
+      "bodyW": 5.74,
+      "bodyH": 3.06,
+      "padX": 1.5,
+      "padY": 1.03,
+      "n": null,
+      "stroke": 0.12,
+      "strokePx": 2.13,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "weak",
+     "text": "No...",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 1,
+      "lead": 1.35,
+      "inkW": 2.75,
+      "bodyW": 4.35,
+      "bodyH": 2.34,
+      "padX": 0.8,
+      "padY": 0.67,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Stop. Ask them first.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.44,
+      "bodyW": 8.09,
+      "bodyH": 5.11,
+      "padX": 0.83,
+      "padY": 0.7,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Done. You said all customers.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 7.77,
+      "bodyW": 9.5,
+      "bodyH": 5.03,
+      "padX": 0.87,
+      "padY": 0.66,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Every one of them.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 6.88,
+      "bodyW": 8.47,
+      "bodyH": 3.72,
+      "padX": 0.8,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "device",
+     "text": "Looks good to me!",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 4.61,
+      "bodyW": 6.29,
+      "bodyH": 5.03,
+      "padX": 0.84,
+      "padY": 0.67,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "offpanel",
+     "text": "Who signed this?",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 4.57,
+      "bodyW": 6.1,
+      "bodyH": 5.05,
+      "padX": 0.77,
+      "padY": 0.67,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "menace",
+     "text": "Start again tomorrow. You always do.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 10.4,
+      "bodyW": 11.82,
+      "bodyH": 5.14,
+      "padX": 0.71,
+      "padY": 0.72,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Which rate card?",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 4.3,
+      "bodyW": 5.97,
+      "bodyH": 5,
+      "padX": 0.84,
+      "padY": 0.65,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "burst",
+     "state": "scream",
+     "text": "Marco!",
+     "geom": {
+      "fs": 24,
+      "c": 17.76,
+      "lines": 1,
+      "lead": 1.35,
+      "inkW": 3.85,
+      "bodyW": 6.4,
+      "bodyH": 3.21,
+      "padX": 1.27,
+      "padY": 1.1,
+      "n": null,
+      "stroke": 0.12,
+      "strokePx": 2.13,
+      "tail": true
+     }
+    },
+    {
+     "kind": "burst",
+     "state": "panic",
+     "text": "Help! Help me!",
+     "geom": {
+      "fs": 21,
+      "c": 15.75,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 6.17,
+      "bodyW": 8.92,
+      "bodyH": 4.83,
+      "padX": 1.37,
+      "padY": 1.24,
+      "n": null,
+      "stroke": 0.12,
+      "strokePx": 1.89,
+      "tail": true
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "By Monday, other people were building on",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 11.17,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "lab-wide",
+   "url": "/comics/style-lab/?mute&reel=off&bg=grey",
+   "viewport": {
+    "width": 1920,
+    "height": 1080
+   },
+   "dpr": 1,
+   "file": "lab-wide.png",
+   "pixels": true,
+   "balloons": [
+    {
+     "kind": "place",
+     "state": "narration",
+     "text": "11:04 p.m. King Street West.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 9.87,
+      "boxH": 4.76,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Everyone has chat now. Nobody checks it.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 10.11,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "This case doesn't exist.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.63,
+      "bodyW": 8.16,
+      "bodyH": 5.15,
+      "padX": 0.76,
+      "padY": 0.73,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Neither does this one.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.21,
+      "bodyW": 7.74,
+      "bodyH": 5.08,
+      "padX": 0.76,
+      "padY": 0.69,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Forty summaries. None of them read the a",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 13.39,
+      "bodyW": 15.22,
+      "bodyH": 6.31,
+      "padX": 0.92,
+      "padY": 1.31,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Gilmour & Clark wanted it tonight.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 9.91,
+      "bodyW": 11.45,
+      "bodyH": 5.13,
+      "padX": 0.77,
+      "padY": 0.72,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "fear",
+     "state": "fear",
+     "text": "The training records are gone.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 8.83,
+      "bodyW": 10.75,
+      "bodyH": 5.72,
+      "padX": 0.96,
+      "padY": 1.01,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "burst",
+     "state": "shout",
+     "text": "Wait!",
+     "geom": {
+      "fs": 24.06,
+      "c": 17.81,
+      "lines": 1,
+      "lead": 1.35,
+      "inkW": 2.73,
+      "bodyW": 5.74,
+      "bodyH": 3.04,
+      "padX": 1.5,
+      "padY": 1.02,
+      "n": null,
+      "stroke": 0.12,
+      "strokePx": 2.14,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "weak",
+     "text": "No...",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 1,
+      "lead": 1.35,
+      "inkW": 2.75,
+      "bodyW": 4.35,
+      "bodyH": 2.34,
+      "padX": 0.8,
+      "padY": 0.67,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Stop. Ask them first.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.44,
+      "bodyW": 8.09,
+      "bodyH": 5.11,
+      "padX": 0.83,
+      "padY": 0.7,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Done. You said all customers.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 7.77,
+      "bodyW": 9.5,
+      "bodyH": 5.03,
+      "padX": 0.87,
+      "padY": 0.66,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Every one of them.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 6.88,
+      "bodyW": 8.47,
+      "bodyH": 3.72,
+      "padX": 0.8,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "device",
+     "text": "Looks good to me!",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 4.6,
+      "bodyW": 6.29,
+      "bodyH": 5.03,
+      "padX": 0.84,
+      "padY": 0.67,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "offpanel",
+     "text": "Who signed this?",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 4.57,
+      "bodyW": 6.1,
+      "bodyH": 5.05,
+      "padX": 0.77,
+      "padY": 0.67,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "menace",
+     "text": "Start again tomorrow. You always do.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 10.4,
+      "bodyW": 11.82,
+      "bodyH": 5.14,
+      "padX": 0.71,
+      "padY": 0.72,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Which rate card?",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 4.3,
+      "bodyW": 5.97,
+      "bodyH": 5,
+      "padX": 0.84,
+      "padY": 0.65,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "burst",
+     "state": "scream",
+     "text": "Marco!",
+     "geom": {
+      "fs": 24.06,
+      "c": 17.81,
+      "lines": 1,
+      "lead": 1.35,
+      "inkW": 3.85,
+      "bodyW": 6.4,
+      "bodyH": 3.18,
+      "padX": 1.27,
+      "padY": 1.09,
+      "n": null,
+      "stroke": 0.12,
+      "strokePx": 2.14,
+      "tail": true
+     }
+    },
+    {
+     "kind": "burst",
+     "state": "panic",
+     "text": "Help! Help me!",
+     "geom": {
+      "fs": 21.06,
+      "c": 15.79,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 6.17,
+      "bodyW": 8.92,
+      "bodyH": 4.75,
+      "padX": 1.37,
+      "padY": 1.2,
+      "n": null,
+      "stroke": 0.12,
+      "strokePx": 1.9,
+      "tail": true
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "By Monday, other people were building on",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 11.17,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "lab-phone",
+   "url": "/comics/style-lab/?mute&reel=off&bg=grey",
+   "viewport": {
+    "width": 390,
+    "height": 844
+   },
+   "dpr": 2,
+   "file": "lab-phone.png",
+   "pixels": true,
+   "balloons": [
+    {
+     "kind": "place",
+     "state": "narration",
+     "text": "11:04 p.m. King Street West.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 9.88,
+      "boxH": 4.77,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Everyone has chat now. Nobody checks it.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 10.12,
+      "boxH": 6.03,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "This case doesn't exist.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.63,
+      "bodyW": 8.15,
+      "bodyH": 5.15,
+      "padX": 0.76,
+      "padY": 0.73,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.26,
+      "tail": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Neither does this one.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 6.21,
+      "bodyW": 7.73,
+      "bodyH": 5.08,
+      "padX": 0.76,
+      "padY": 0.69,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.26,
+      "tail": true
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Forty summaries. None of them read the a",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 13.39,
+      "bodyW": 15.22,
+      "bodyH": 6.31,
+      "padX": 0.92,
+      "padY": 1.31,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.26,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Gilmour & Clark wanted it tonight.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 3,
+      "lead": 1.35,
+      "inkW": 9.91,
+      "bodyW": 11.45,
+      "bodyH": 5.13,
+      "padX": 0.77,
+      "padY": 0.72,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.26,
+      "tail": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "home-quote-desktop",
+   "url": "/home-b/?mute&hold&scene=quote&beat=40",
+   "viewport": {
+    "width": 1440,
+    "height": 900
+   },
+   "dpr": 1,
+   "file": "home-quote-desktop.png",
+   "pixels": false,
+   "balloons": [
+    {
+     "kind": "place",
+     "state": "narration",
+     "text": "11:04 p.m. King Street West.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 9.87,
+      "boxH": 4.76,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Everyone has chat now. Nobody checks it.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 10.11,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "The rate card was two years old.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 2,
+      "lead": 1.26,
+      "boxW": 14.64,
+      "boxH": 3.5,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Chat says it's fine.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 7.07,
+      "bodyW": 8.66,
+      "bodyH": 3.72,
+      "padX": 0.8,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Gilmour & Clark wanted it tonight.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 13.23,
+      "bodyW": 15.1,
+      "bodyH": 3.72,
+      "padX": 0.93,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "The quote went out $50k below cost.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 11.3,
+      "boxH": 4.76,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "home-quote-wide",
+   "url": "/home-b/?mute&hold&scene=quote&beat=40",
+   "viewport": {
+    "width": 1920,
+    "height": 1080
+   },
+   "dpr": 1,
+   "file": "home-quote-wide.png",
+   "pixels": false,
+   "balloons": [
+    {
+     "kind": "place",
+     "state": "narration",
+     "text": "11:04 p.m. King Street West.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 9.87,
+      "boxH": 4.76,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Everyone has chat now. Nobody checks it.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 10.11,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "The rate card was two years old.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 2,
+      "lead": 1.26,
+      "boxW": 14.64,
+      "boxH": 3.5,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "speech",
+     "state": "calm",
+     "text": "Chat says it's fine.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 7.07,
+      "bodyW": 8.66,
+      "bodyH": 3.72,
+      "padX": 0.8,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Gilmour & Clark wanted it tonight.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 13.23,
+      "bodyW": 15.1,
+      "bodyH": 3.72,
+      "padX": 0.93,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.35,
+      "tail": true
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "The quote went out $50k below cost.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 11.31,
+      "boxH": 4.76,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "home-quote-phone",
+   "url": "/home-b/?mute&hold&scene=quote&beat=40",
+   "viewport": {
+    "width": 390,
+    "height": 844
+   },
+   "dpr": 2,
+   "file": "home-quote-phone.png",
+   "pixels": false,
+   "balloons": [
+    {
+     "kind": "thought",
+     "state": "thought",
+     "text": "Gilmour & Clark wanted it tonight.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 2,
+      "lead": 1.35,
+      "inkW": 13.23,
+      "bodyW": 15.1,
+      "bodyH": 3.72,
+      "padX": 0.93,
+      "padY": 0.68,
+      "n": 4.5,
+      "stroke": 0.12,
+      "strokePx": 1.26,
+      "tail": true
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "The quote went out $50k below cost.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 3,
+      "lead": 1.26,
+      "boxW": 11.31,
+      "boxH": 4.77,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "home-rolling-desktop",
+   "url": "/home-b/?mute&hold&scene=rolling&beat=20",
+   "viewport": {
+    "width": 1440,
+    "height": 900
+   },
+   "dpr": 1,
+   "file": "home-rolling-desktop.png",
+   "pixels": false,
+   "balloons": [
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "By Monday, other people were building on",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 11.17,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Monday. Signed.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 1,
+      "lead": 1.26,
+      "boxW": 12.37,
+      "boxH": 2.24,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Tuesday. Staffed.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 1,
+      "lead": 1.26,
+      "boxW": 13.67,
+      "boxH": 2.24,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Wednesday. Promised.",
+     "geom": {
+      "fs": 15,
+      "c": 11.25,
+      "lines": 2,
+      "lead": 1.26,
+      "boxW": 9.37,
+      "boxH": 3.5,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "home-rolling-wide",
+   "url": "/home-b/?mute&hold&scene=rolling&beat=20",
+   "viewport": {
+    "width": 1920,
+    "height": 1080
+   },
+   "dpr": 1,
+   "file": "home-rolling-wide.png",
+   "pixels": false,
+   "balloons": [
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "By Monday, other people were building on",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 11.17,
+      "boxH": 6.02,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Monday. Signed.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 1,
+      "lead": 1.26,
+      "boxW": 12.36,
+      "boxH": 2.24,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Tuesday. Staffed.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 1,
+      "lead": 1.26,
+      "boxW": 13.67,
+      "boxH": 2.24,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Wednesday. Promised.",
+     "geom": {
+      "fs": 15.04,
+      "c": 11.28,
+      "lines": 2,
+      "lead": 1.26,
+      "boxW": 9.37,
+      "boxH": 3.5,
+      "rule": 0.089,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "home-rolling-phone",
+   "url": "/home-b/?mute&hold&scene=rolling&beat=20",
+   "viewport": {
+    "width": 390,
+    "height": 844
+   },
+   "dpr": 2,
+   "file": "home-rolling-phone.png",
+   "pixels": false,
+   "balloons": [
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "By Monday, other people were building on",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 4,
+      "lead": 1.26,
+      "boxW": 11.17,
+      "boxH": 6.03,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Wednesday. Promised.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 1,
+      "lead": 1.26,
+      "boxW": 16.47,
+      "boxH": 2.25,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": true
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Monday. Signed.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 2,
+      "lead": 1.26,
+      "boxW": 7.03,
+      "boxH": 3.51,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": false
+     }
+    },
+    {
+     "kind": "caption",
+     "state": "narration",
+     "text": "Tuesday. Staffed.",
+     "geom": {
+      "fs": 14,
+      "c": 10.5,
+      "lines": 2,
+      "lead": 1.26,
+      "boxW": 7.35,
+      "boxH": 3.51,
+      "rule": 0.095,
+      "rulePx": 1,
+      "moved": false
+     }
+    }
+   ]
+  }
+ ]
+}

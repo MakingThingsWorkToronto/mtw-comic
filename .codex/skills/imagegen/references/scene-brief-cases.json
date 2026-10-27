@@ -1,0 +1,611 @@
+[
+  {
+    "caseId": "enterprise-photo",
+    "brief": {
+      "id": "second-brain-enterprise",
+      "treatment": "photorealistic",
+      "part": 3,
+      "referenceKind": "selected-reference",
+      "reference": {
+        "path": "discussion/references/previews-second-brain/09-v2.png",
+        "sha256": "2ddaebd59fc553afbd706b0c497530c956668b9a1e7067d1d96524840bbef47a"
+      },
+      "sourceLabels": [
+        "Project brain",
+        "Client brain",
+        "Team brain",
+        "Managed agents",
+        "Claude",
+        "ChatGPT",
+        "Microsoft Copilot",
+        "Read only",
+        "Scoped MCP",
+        "Wiki files",
+        "(scoped per brain)",
+        "Direct file access",
+        "Read / write",
+        "Expert operators",
+        "Claude Code",
+        "Codex",
+        "Efficient reads",
+        "Facts",
+        "Procedures",
+        "Rules",
+        "Workflow steps",
+        "Development",
+        "Test",
+        "Production",
+        "Regional inference",
+        "AWS Bedrock",
+        "or",
+        "Azure Foundry"
+      ],
+      "labels": [
+        "Project brain",
+        "Client brain",
+        "Team brain",
+        "Managed agents",
+        "Claude",
+        "ChatGPT",
+        "Microsoft Copilot",
+        "Read only",
+        "Scoped MCP",
+        "Wiki files",
+        "(scoped per brain)",
+        "Direct file access",
+        "Read / write",
+        "Expert operators",
+        "Claude Code",
+        "Codex",
+        "Efficient reads",
+        "Facts",
+        "Procedures",
+        "Rules",
+        "Workflow steps",
+        "Development",
+        "Test",
+        "Production",
+        "Regional inference",
+        "AWS Bedrock",
+        "or",
+        "Azure Foundry"
+      ],
+      "routes": [
+        {
+          "name": "Efficient reads",
+          "start": "the right-side expert operator screen",
+          "end": "the left Scoped MCP node",
+          "relationship": "operator-efficient",
+          "confirmedAgainstReference": true
+        },
+        {
+          "name": "Direct file access",
+          "start": "the right-side expert operator screen",
+          "end": "the separate Wiki files group",
+          "relationship": "operator-direct",
+          "confirmedAgainstReference": true
+        },
+        {
+          "name": "Scoped file access",
+          "start": "Scoped MCP",
+          "end": "Wiki files",
+          "relationship": "scoped-file-read",
+          "confirmedAgainstReference": true
+        },
+        {
+          "name": "Project context fan",
+          "start": "Project brain",
+          "end": "the shared context junction",
+          "relationship": "project-mcp",
+          "confirmedAgainstReference": true
+        }
+      ],
+      "marks": [
+        {
+          "name": "Claude",
+          "location": "left managed-agent panel"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "location": "left managed-agent panel"
+        },
+        {
+          "name": "ChatGPT",
+          "location": "left managed-agent panel"
+        },
+        {
+          "name": "Claude Code",
+          "location": "right operator screen"
+        },
+        {
+          "name": "Codex",
+          "location": "right operator screen",
+          "form": "text-only"
+        }
+      ],
+      "softwareWindows": true,
+      "people": [
+        {
+          "count": 3,
+          "framing": "full-body",
+          "location": "managed agents"
+        },
+        {
+          "count": 2,
+          "framing": "full-body",
+          "location": "expert operators"
+        },
+        {
+          "count": 3,
+          "framing": "full-body",
+          "location": "Development / Test / Production"
+        }
+      ],
+      "changes": [
+        {
+          "part": 3,
+          "reason": "Appendix A Part 3 Enterprise make-real instruction",
+          "instruction": "The three top brain-scope bodies become three smoked acrylic enclosures holding real document stacks; retain their labels and three source routes."
+        }
+      ]
+    },
+    "provenance": [
+      "discussion/references-realistic/review/second-brain-enterprise-prompts.txt",
+      "discussion/references-realistic/review/second-brain-enterprise-status.json"
+    ]
+  },
+  {
+    "caseId": "why-holographic",
+    "brief": {
+      "id": "second-brain-why",
+      "treatment": "holographic",
+      "part": 2,
+      "referenceKind": "selected-reference",
+      "reference": {
+        "path": "discussion/references/previews-second-brain/01.png",
+        "sha256": "54b60b676c1146f5370acd5ab48aea945df2492980fd1d7b707d4673a0b71df3"
+      },
+      "sourceLabels": [
+        "Facts",
+        "Procedures",
+        "Rules",
+        "Persistent context",
+        "Consistent work",
+        "Improve with use",
+        "1. Capture",
+        "2. Organize",
+        "3. Apply",
+        "4. Review",
+        "Workflow steps",
+        "Notion",
+        "Google Drive",
+        "PDF",
+        "Slack",
+        "Jira"
+      ],
+      "labels": [
+        "Facts",
+        "Procedures",
+        "Rules",
+        "Persistent context",
+        "Consistent work",
+        "Improve with use",
+        "1. Capture",
+        "2. Organize",
+        "3. Apply",
+        "4. Review",
+        "Workflow steps",
+        "Notion",
+        "Google Drive",
+        "PDF",
+        "Slack",
+        "Jira"
+      ],
+      "routes": [
+        {
+          "name": "1. Capture to 2. Organize",
+          "start": "1. Capture",
+          "end": "2. Organize",
+          "relationship": "workflow-next-0",
+          "confirmedAgainstReference": true
+        },
+        {
+          "name": "2. Organize to 3. Apply",
+          "start": "2. Organize",
+          "end": "3. Apply",
+          "relationship": "workflow-next-1",
+          "confirmedAgainstReference": true
+        },
+        {
+          "name": "3. Apply to 4. Review",
+          "start": "3. Apply",
+          "end": "4. Review",
+          "relationship": "workflow-next-2",
+          "confirmedAgainstReference": true
+        }
+      ],
+      "marks": [
+        {
+          "name": "Google Drive",
+          "location": "its original lower foreground panel"
+        },
+        {
+          "name": "Slack",
+          "location": "its original lower foreground panel"
+        },
+        {
+          "name": "Jira",
+          "location": "its original lower foreground panel"
+        }
+      ],
+      "foregroundLinks": true
+    },
+    "provenance": [
+      "discussion/references-holographic/review/second-brain-why-prompts.txt",
+      "discussion/references-holographic/verification/why-build/treatment-brief.md"
+    ]
+  },
+  {
+    "caseId": "why-photo",
+    "brief": {
+      "id": "second-brain-why",
+      "treatment": "photorealistic",
+      "part": 3,
+      "referenceKind": "selected-reference",
+      "reference": {
+        "path": "discussion/references/previews-second-brain/01.png",
+        "sha256": "54b60b676c1146f5370acd5ab48aea945df2492980fd1d7b707d4673a0b71df3"
+      },
+      "sourceLabels": [
+        "Facts",
+        "Procedures",
+        "Rules",
+        "Persistent context",
+        "Consistent work",
+        "Improve with use",
+        "1. Capture",
+        "2. Organize",
+        "3. Apply",
+        "4. Review",
+        "Workflow steps",
+        "Notion",
+        "Google Drive",
+        "PDF",
+        "Slack",
+        "Jira"
+      ],
+      "labels": [
+        "Facts",
+        "Procedures",
+        "Rules"
+      ],
+      "labelOmissions": [
+        {
+          "text": "Persistent context",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Consistent work",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Improve with use",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "1. Capture",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "2. Organize",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "3. Apply",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "4. Review",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Workflow steps",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Notion",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Google Drive",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "PDF",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Slack",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        },
+        {
+          "text": "Jira",
+          "part": 3,
+          "reason": "Part 3 Why permits only Facts, Procedures, Rules"
+        }
+      ],
+      "changes": [
+        {
+          "part": 3,
+          "reason": "Part 3 Why Remove instruction",
+          "instruction": "Remove the four-pane Capture / Organize / Apply / Review sequence."
+        }
+      ],
+      "marks": [
+        {
+          "name": "Google Drive",
+          "location": "its source foreground object"
+        },
+        {
+          "name": "Slack",
+          "location": "its source foreground object"
+        },
+        {
+          "name": "Jira",
+          "location": "its source foreground object"
+        }
+      ],
+      "foregroundLinks": true
+    },
+    "provenance": [
+      "discussion/svg-generation-appendix-a.md#second-brain-whypng"
+    ]
+  },
+  {
+    "caseId": "organize-holographic",
+    "brief": {
+      "id": "second-brain-organize",
+      "treatment": "holographic",
+      "part": 2,
+      "referenceKind": "selected-reference",
+      "reference": {
+        "path": "discussion/references/previews-second-brain/05.png",
+        "sha256": "c221b9397d6cb82fc1011e322032e3d0da280f4c54b2286fca8f0ca82f8b07d1"
+      },
+      "sourceLabels": [
+        "Wiki",
+        "Getting started.md",
+        "Architecture.md",
+        "Procedures.md",
+        "Agent harness",
+        "Skills.md",
+        "Commands.md",
+        "Workflows.md",
+        "Discussion",
+        "Chat history.md",
+        "Ideas.md",
+        "Reviewed decision.md",
+        "Outputs",
+        "Research brief.md",
+        "Meeting notes.md",
+        "Status report.md",
+        "Facts / procedures / rules / workflow steps"
+      ],
+      "labels": [
+        "Wiki",
+        "Agent harness",
+        "Discussion",
+        "Outputs"
+      ],
+      "labelOmissions": [
+        {
+          "text": "Getting started.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Architecture.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Procedures.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Skills.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Commands.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Workflows.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Chat history.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Ideas.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Reviewed decision.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Research brief.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Meeting notes.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Status report.md",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        },
+        {
+          "text": "Facts / procedures / rules / workflow steps",
+          "part": "override",
+          "authority": "Root task, 2026-09-15: Organize only Wiki, Agent harness, Discussion, Outputs with no readable filenames/title",
+          "reason": "Explicit per-image holographic instruction"
+        }
+      ],
+      "people": [
+        {
+          "count": 4,
+          "framing": "full-body",
+          "location": "Wiki"
+        },
+        {
+          "count": 3,
+          "framing": "full-body",
+          "location": "Agent harness"
+        },
+        {
+          "count": 5,
+          "framing": "full-body",
+          "location": "Discussion"
+        },
+        {
+          "count": 3,
+          "framing": "full-body",
+          "location": "Outputs"
+        }
+      ]
+    },
+    "provenance": [
+      "discussion/references-holographic/review/second-brain-organize-attempt-01-prompt.txt",
+      "discussion/references-holographic/rejected/second-brain-organize-attempt-02-rejection.json"
+    ]
+  },
+  {
+    "caseId": "sharepoint-photo",
+    "brief": {
+      "id": "team-sharepoint-ai",
+      "treatment": "photorealistic",
+      "part": 3,
+      "referenceKind": "selected-reference",
+      "reference": {
+        "path": "discussion/references/previews-team-modernization/02-v2.png",
+        "sha256": "5e04f610cccf3a01f76f85120486f4c0dd174284036e1e5d7bd308747839cc8c"
+      },
+      "sourceLabels": [
+        "SharePoint",
+        "Policy",
+        "Template",
+        "Approved example",
+        "Site agent",
+        "Q:",
+        "A:",
+        "SharePoint skill",
+        "Draft",
+        "Human review",
+        "Approved record"
+      ],
+      "labels": [
+        "SharePoint",
+        "Policy",
+        "Template",
+        "Approved example",
+        "Site agent",
+        "Q:",
+        "A:",
+        "SharePoint skill",
+        "Draft",
+        "Human review",
+        "Approved record"
+      ],
+      "marks": [
+        {
+          "name": "SharePoint",
+          "location": "the Policy document tab"
+        },
+        {
+          "name": "SharePoint",
+          "location": "the Template document tab"
+        },
+        {
+          "name": "SharePoint",
+          "location": "the Approved example document tab"
+        }
+      ],
+      "surfaceLabels": [
+        {
+          "labels": [
+            "Q:",
+            "A:"
+          ],
+          "surface": "Site agent answer pane",
+          "contrast": "Paper #f2f2ef lettering on its existing contrasting charcoal glass"
+        }
+      ],
+      "routes": [
+        {
+          "name": "Draft review",
+          "start": "Draft",
+          "end": "Human review",
+          "relationship": "draft-human",
+          "confirmedAgainstReference": true
+        },
+        {
+          "name": "Publish reviewed record",
+          "start": "Human review",
+          "end": "Approved record",
+          "relationship": "human-record",
+          "confirmedAgainstReference": true
+        }
+      ],
+      "softwareWindows": true,
+      "people": [
+        {
+          "count": 1,
+          "framing": "torso",
+          "location": "Human review"
+        }
+      ]
+    },
+    "provenance": [
+      "discussion/references-realistic/rejected/team-sharepoint-ai-prompts.txt",
+      "discussion/references-realistic/rejected/verification/photo-sharepoint-organized-defect-refinements.json"
+    ]
+  }
+]

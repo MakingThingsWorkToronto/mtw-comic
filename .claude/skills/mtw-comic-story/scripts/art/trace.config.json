@@ -1,0 +1,273 @@
+{
+  "comment": "Craft v2 (2026-09-28): print plates (colour flats + halftone + potrace ink plate), black-and-teal palette, reference-page style inputs, style gate. Change only with a new configVersion; every record stores the effective config and this file's sha256.",
+  "configVersion": 14,
+  "palette": {
+    "_comment": "Black and teal (Matt, 2026-09-28): shadows and night are black and the teal family, never blue or violet. Analysis colours named in dropAnalysis or pinnedPalette are not used.",
+    "ink": [
+      5,
+      6,
+      7
+    ],
+    "ground": [
+      11,
+      20,
+      25
+    ],
+    "nightTeal": [
+      8,
+      38,
+      42
+    ],
+    "tealDeep": [
+      14,
+      79,
+      85
+    ],
+    "teal": [
+      26,
+      155,
+      161
+    ],
+    "tealLight": [
+      95,
+      196,
+      201
+    ],
+    "skinLight": [
+      233,
+      194,
+      154
+    ],
+    "skinMid": [
+      201,
+      143,
+      107
+    ],
+    "skinDark": [
+      138,
+      90,
+      63
+    ],
+    "ochre": [
+      217,
+      178,
+      58
+    ],
+    "red": [
+      200,
+      32,
+      42
+    ],
+    "paper": [
+      242,
+      242,
+      239
+    ],
+    "paperShade": [
+      168,
+      170,
+      166
+    ],
+    "grey": [
+      96,
+      106,
+      112
+    ]
+  },
+  "pinnedPalette": [
+    "nightTeal",
+    "tealDeep",
+    "paper",
+    "paperShade",
+    "grey"
+  ],
+  "dropAnalysis": [
+    "deep1",
+    "deep2"
+  ],
+  "inkColours": [
+    "ink"
+  ],
+  "styleAnchors": [
+    "calibration-xmen137-v8-print.png"
+  ],
+  "styleSets": {
+    "faces": [
+      "97e641f3fd2c500fd597e67aa999a4edbe-1980-uncanny-x-men-137.w426.webp",
+      "swwvm51dxbrh1.jpg"
+    ],
+    "action": [
+      "d3617ce6d26e22194c39893e0838891d47-1966-amazing-spider-man-33.w426.webp",
+      "images.jpg"
+    ],
+    "print": [
+      "AllTime-Comics-15.jpg",
+      "83ca1685da132a06bb49715c21c1ef8370-1985-crisis-on-infinite-earths-8.w426.webp"
+    ],
+    "city": [
+      "1702654463856e_800x800.webp",
+      "swwvm51dxbrh1.jpg"
+    ]
+  },
+  "defaultStyleSet": "faces",
+  "maxStyleInputs": 4,
+  "ink": {
+    "_comment": "potrace on true ink: luminance < threshold AND chroma <= maxChroma (dark teal flats stay colour); 2x for thin hatching and tapered ends. v10 (2026-09-28): threshold 34 at 1x lost the hatching (calibration-xmen137 t2 read as a posterized poster).",
+    "threshold": 80,
+    "scale": 2,
+    "blur": 0.5,
+    "turdsize": 3,
+    "alphamax": 1.0,
+    "opttolerance": 0.2,
+    "precision": 1,
+    "maxChroma": 22
+  },
+  "median": 5,
+  "vtracer": {
+    "colormode": "color",
+    "hierarchical": "cutout",
+    "mode": "spline",
+    "filter_speckle": 6,
+    "color_precision": 8,
+    "layer_difference": 8,
+    "corner_threshold": 60,
+    "length_threshold": 4.0,
+    "max_iterations": 10,
+    "splice_threshold": 45,
+    "path_precision": 1
+  },
+  "halftone": {
+    "pitchPctOfWidth": 1.05,
+    "dotPctOfPitch": 50,
+    "fields": {
+      "nightTeal": {
+        "dot": "ink"
+      },
+      "tealDeep": {
+        "dot": "nightTeal"
+      },
+      "skinMid": {
+        "dot": "skinDark",
+        "scale": 0.6
+      },
+      "villain1": {
+        "dot": "ink"
+      }
+    }
+  },
+  "grain": {
+    "enabled": false,
+    "frequency": 0.9,
+    "opacity": 0.06,
+    "_comment": "feTurbulence overlay; off by default because Chrome re-filters it on every camera frame"
+  },
+  "layers": {
+    "order": [
+      "bg",
+      "mid",
+      "fig",
+      "light",
+      "fx"
+    ],
+    "depth": {
+      "bg": 0.1,
+      "mid": 0.35,
+      "fig": 0.6,
+      "light": 0.6,
+      "fx": 0.9,
+      "ink": 0.35
+    },
+    "light": [
+      "teal",
+      "tealLight",
+      "ochre"
+    ],
+    "fx": {
+      "colours": [
+        "paper",
+        "tealLight"
+      ],
+      "minAspect": 3,
+      "maxWidth": 40
+    },
+    "fig": {
+      "colours": [
+        "skinLight",
+        "skinMid",
+        "skinDark",
+        "red",
+        "paper",
+        "paperShade",
+        "grey",
+        "villain1",
+        "villain2"
+      ]
+    },
+    "bg": [
+      "ground",
+      "nightTeal",
+      "tealDeep"
+    ]
+  },
+  "svgo": {
+    "multipass": true,
+    "floatPrecision": 0,
+    "plugins": [
+      {
+        "name": "preset-default",
+        "params": {
+          "overrides": {
+            "collapseGroups": false,
+            "cleanupIds": false,
+            "removeUnknownsAndDefaults": {
+              "keepDataAttrs": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  "maxBytes": 300000,
+  "measure": {
+    "_comment": "Panels: Matt's darkness band. Calibration pages: wider, as they carry their reference's gutters. lineWeight: ink run P50 within the reference range times refTolerance.",
+    "blackPct": [
+      55,
+      65
+    ],
+    "blackPctCalibration": [
+      35,
+      75
+    ],
+    "saturatedPctMin": 3,
+    "maxDistinctColours": 900,
+    "refTolerance": [
+      0.7,
+      1.5
+    ],
+    "blackPctPage": [
+      45,
+      70
+    ]
+  },
+  "judgeMin": 95,
+  "compositionMin": 90,
+  "maxBytesPage": 900000,
+  "codexStyleMin": 95,
+  "codexCompositionMin": 90,
+  "codexIdentityMin": 95,
+  "deliver": "raster",
+  "raster": {
+    "_comment": "Matt, 2026-09-28: \"Hi-res image\". Page art is Codex's raster; the engine keeps balloons, borders and lettering vector. Encoded at >= displayWidthCss x dpr (upscaled with Lanczos when the master is narrower; recorded) as WebP and AVIF; the PNG master stays in the library. The vector plates are an optional stage (--retrace).",
+    "displayWidthCss": 1440,
+    "dpr": 2,
+    "webpQuality": 90,
+    "avifQuality": 60,
+    "print": {
+      "enabled": true,
+      "colours": 18,
+      "kmeans": 4,
+      "_comment": "Colour separation after generation. On calibration-xmen137 v6, 20 flat colours took Codex style from 76 to 80 and removed its gradient and glow complaints (2026-09-29)."
+    }
+  },
+  "refPageFirst": true
+}

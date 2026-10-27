@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T23:56:15.403Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech)",
+  "characterId": "rogue",
+  "voiceId": "NoiYxL9g25M4orC8Q0ls",
+  "voiceName": "Vector - Tec Voice",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "Task\ncomplete.",
+  "textSha256": "e9830118966ae2ac930d52faaaaa3a8fde543311189c88596d2c8ac2ba2e5f0c",
+  "spokenText": "Task complete.",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "flowId": "87FXyCrOBD2cI7MQ2hmG",
+  "sessionId": "bvEqDnFV0AKp4Gkq8PAj",
+  "generationId": "UoZQmVWSBRW9DTA6s6uE",
+  "reportedCredits": 14,
+  "retry": false,
+  "fallback": false,
+  "status": "saved",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/rogue/home-agent-home-screens-dark-b1-raw-v1.mp3",
+  "rawSha256": "85f332d723bfba9ee00a968437e76408c376c0c7394478b23de0d2deb3a5ad3d",
+  "receiptCanonicalPath": "wiki/soundtrack-library/records/home-voices-20261015/home-agent-home-screens-dark-b1-connector-v1.json",
+  "bytes": 37649,
+  "sha256": "85f332d723bfba9ee00a968437e76408c376c0c7394478b23de0d2deb3a5ad3d",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "sourceRefs": [
+    {
+      "storyId": "home",
+      "sceneId": "agent",
+      "panelId": "home-screens-dark",
+      "balloonIndex": 0,
+      "kind": "speech",
+      "authoredWho": "rogue",
+      "approvalId": "home-agent-home-screens-dark-b1"
+    }
+  ],
+  "note": "One request at a time, generations_count 1 (Matt, 2026-10-15). Approved words (approvalId home-agent-home-screens-dark-b1)."
+}

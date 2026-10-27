@@ -1,0 +1,13 @@
+{
+  "id": "home-answers-home-marco-answers-rate-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "This year's. Page two.",
+  "historyItemId": "TujO7kNOBrc9TXr43gDU",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "9b570db051ffa6a2bcae6b28a2c09d5079a3448b361b2010f2f9e0e3bc94407d",
+  "createdAt": "2026-10-12T06:21:58.616Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

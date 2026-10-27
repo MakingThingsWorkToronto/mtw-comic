@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "River - Relaxed, Neutral, Informative — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/claude/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "SAz9YHcvj6GT2YYXdXww",
+  "status": "candidate",
+  "sha256": "d8d16255ca889524fadeae02e4e5452dc5438a4b01b6401dd704ed40a485c4e1",
+  "durationSeconds": 2.7399546485260773,
+  "text": "I can write this. Who decides whether it's true?",
+  "credits": 48,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "SAz9YHcvj6GT2YYXdXww",
+    "voiceName": "River - Relaxed, Neutral, Informative",
+    "prompt": "I can write this. Who decides whether it's true?",
+    "scriptSource": "wiki/site/comic-story.md",
+    "settingsPreset": "provider-default",
+    "generationId": "OrMQKmkrVRQg400BNBUC",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

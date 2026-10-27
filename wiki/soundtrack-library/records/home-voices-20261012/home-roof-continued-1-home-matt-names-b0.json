@@ -1,0 +1,13 @@
+{
+  "id": "home-roof-continued-1-home-matt-names-b0",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Marco owns the quote checks. Dana owns the citation checks. Keep both current.",
+  "historyItemId": "wvUPaAR9rpNoAfjSTEMv",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "edfe8b6950f557bfc7aa7b7da3509e9fc8b4883916750cf5e4d1d5e8864933ae",
+  "createdAt": "2026-10-12T06:22:01.288Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

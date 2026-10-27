@@ -1,0 +1,24 @@
+{
+  "id": "v1-comparison-read",
+  "title": "Charlie - Deep, Confident, Energetic — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/snowball/v1-comparison-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "IKne3meq5aSn9XLyUdCD",
+  "status": "candidate",
+  "sha256": "0a95332fc59faffaa2b9fafffdcaf18b6770545664d3c8c9dbfb5c2af463db73",
+  "durationSeconds": 2.2291156462585033,
+  "text": "Show me the original before we send this.",
+  "credits": 41,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "IKne3meq5aSn9XLyUdCD",
+    "voiceName": "Charlie - Deep, Confident, Energetic",
+    "prompt": "Show me the original before we send this.",
+    "scriptSource": "Audition-only test sentence; not story dialogue",
+    "settingsPreset": "provider-default",
+    "generationId": "QdhDjXppug8QU69hOCRY",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

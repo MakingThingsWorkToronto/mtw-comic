@@ -1,0 +1,13 @@
+/* Shared Add form (web/ui/ResourceForm.tsx). */
+.rf-form { gap: var(--space-3); }
+.rf-fields { display: flex; flex-direction: column; gap: var(--space-3); }
+.rf-textarea { height: auto; min-height: 64px; padding: var(--space-1) var(--space-2); resize: vertical; font: inherit; line-height: 1.4; }
+.rf-field [aria-invalid='true'] { border-color: var(--error); }
+.rf-modes { display: flex; flex-wrap: wrap; gap: var(--space-1); margin: 0; padding: 0; border: 0; }
+.rf-mode { display: inline-flex; align-items: center; gap: var(--space-1); min-height: var(--control-h); padding: 0 var(--space-3); border: 1px solid var(--line); border-radius: 3px; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; }
+.rf-mode input { accent-color: var(--teal); margin: 0; }
+.rf-mode--on { color: var(--paper); border-color: var(--teal); background: color-mix(in srgb, var(--teal) 14%, transparent); }
+.rf-mode:focus-within { outline: 2px solid var(--focus); outline-offset: 1px; }
+.rf-summary { margin: 0; color: var(--paper); font-size: 13px; }
+.rf-note { margin: 0; padding: var(--space-2) var(--space-3); border-left: 2px solid var(--teal); background: var(--surface); color: var(--muted); font-size: var(--fs-small); line-height: 1.45; }
+.rf-note strong { color: var(--paper); }

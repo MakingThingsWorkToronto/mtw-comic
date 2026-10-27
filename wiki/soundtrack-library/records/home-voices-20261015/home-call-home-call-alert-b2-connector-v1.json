@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T19:22:45.869Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech), as the 12 Oct Home Marco/Matt takes",
+  "why": "Direct configured-key API refused this library voice on the free plan (402, receipt records/home-voices-20261015/home-call-home-call-alert-b2-provider-v1.json where it exists); connector used once per line, no retry.",
+  "characterId": "marco",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "voiceName": "Jay - Natural Conversationalist",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "Our contract job\njust woke up.",
+  "textSha256": "002e9c8fe0f4e9a75653589887086e166cd7d78c45a537ca3be424aee945db36",
+  "spokenText": "Our contract job just woke up.",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "flowId": "OqMxwuSblp3RWsvcVTO3",
+  "sessionId": "RB0eRYjuMDUTV2e2UUkm",
+  "generationId": "OX3Q0ooYD5p1DiuXirCr",
+  "reportedCredits": 30,
+  "retry": false,
+  "fallback": false,
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/marco/home-call-home-call-alert-b2-raw-v1.mp3",
+  "receiptCanonicalPath": "wiki/soundtrack-library/records/home-voices-20261015/home-call-home-call-alert-b2-connector-v1.json",
+  "bytes": 45590,
+  "sha256": "cc1fda267b9a6792a17328970f5a438a665d71ff7be9e84da2d6f33355079495",
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "sourceRefs": [
+    {
+      "storyId": "home",
+      "sceneId": "call",
+      "panelId": "home-call-alert",
+      "balloonIndex": 1,
+      "kind": "speech",
+      "authoredWho": "marco",
+      "approvalId": "home-call-home-call-alert-b2"
+    }
+  ],
+  "humanApproval": {
+    "approvalId": "home-call-home-call-alert-b2",
+    "review": {
+      "id": "home-call-home-call-alert-b2",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "002e9c8fe0f4e9a75653589887086e166cd7d78c45a537ca3be424aee945db36",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:16:35.313Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review"
+      }
+    },
+    "approvalManifestSha256": "5987ca4492717d0766cb738c8507ff401409b9dbdaf0558e55d87763149814a8",
+    "voiceSelection": {
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "sourceSha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+  }
+}

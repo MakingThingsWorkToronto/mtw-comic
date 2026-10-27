@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "type": "existing-provider-preview",
+  "source": {
+    "provider": "Fish Audio",
+    "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+    "name": "Morgan Freeman — provider-labelled reference",
+    "description": "A deep, resonant male voice with a serious and authoritative tone. It features a smooth, cinematic quality ideal for professional narrations and impactful storytelling. Provider reports licensed:false. Comparison preview only; production rights are not established.",
+    "labels": {
+      "gender": "male",
+      "age": "old",
+      "language": "en",
+      "accent": "not recorded"
+    },
+    "previewUrl": "https://c97f3361a1c971323738e24f451a0225.r2.cloudflarestorage.com/fish-platform-data/task/07b0226856a84d8884c8a9edc050338d.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=45aaffe6f2c5f28b260e2165001da8ad%2F20261010%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261010T021657Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8f47af861c0e48c007c91e7c5ec7d89454f65c5abd89a4c2c2067d98f9d1d4e6",
+    "category": "community",
+    "providerTags": [
+      "male",
+      "old",
+      "narration",
+      "deep",
+      "cinematic",
+      "authoritative",
+      "storytelling",
+      "professional",
+      "serious"
+    ],
+    "licensed": false,
+    "sourcePage": "https://fish.audio/m/f9fd3dce16af4168a2545e27d293bffa/",
+    "sampleText": "In that single moment of silence, when humanity first glimpsed the depths of space, we didn't just see stars and darkness. We saw our own reflection, our own insignificance, and paradoxically, our greatest potential. That's when everything changed."
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/fish-f9fd3dce16af4168a2545e27d293bffa-v1.mp3",
+    "sha256": "dc4841f976efb651c7404e6bc6596cc73f7488e9eff4ecce0cd6c0e811430cd2",
+    "bytes": 264568,
+    "durationSeconds": 16.5355
+  },
+  "httpContentType": "audio/mpeg",
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "hearingReview": "Matt evaluation pending",
+  "productionRights": "Not asserted",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "mp4a.40.34",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 233348976,
+        "duration": "16.535500",
+        "bit_rate": "128000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Code\\MTW-comics-shelf-20261009\\more-narrator-previews-20261010\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\fish-f9fd3dce16af4168a2545e27d293bffa-v1.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.000000",
+      "duration": "16.535500",
+      "size": "264568",
+      "bit_rate": "128000",
+      "probe_score": 52
+    }
+  }
+}

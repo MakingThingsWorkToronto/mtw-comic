@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:58:41.849Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-call-matt-b0-20261013-raw-v1.mp3",
+  "rawSha256": "afc0f6c4d304029d09c525f15bf765214a4af6ffa48f6757f139808a3cf5a35f",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-call-matt-b0-20261013-eq-tempo112-v1.mp3",
+  "sha256": "c47b92cf76a875692dc19a429023da461d998c49875b3c524557e29c1d86600b",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-call-matt-b0-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-23.67",
+    "input_tp": "-5.82",
+    "input_lra": "0.70",
+    "input_thresh": "-34.54",
+    "output_i": "-18.58",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.58"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.81",
+    "input_tp": "-3.39",
+    "input_lra": "0.60",
+    "input_thresh": "-29.52",
+    "output_i": "-17.70",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-28.48",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.30"
+  },
+  "encodedIntegratedLufs": -18.81,
+  "encodedTruePeakDbtp": -3.39,
+  "durationSeconds": 3.842313,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

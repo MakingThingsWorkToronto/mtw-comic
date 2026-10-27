@@ -1,0 +1,4 @@
+interface:
+  display_name: "MTW Articulation"
+  short_description: "Shape what copy says and in what order, before it is written"
+  default_prompt: "Use $mtw-articulation to shape what this copy says and in what order before I draft it."

@@ -1,0 +1,55 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "claude",
+  "scriptId": "character-read",
+  "scriptSource": "wiki/site/comic-story.md",
+  "text": "I can write this. Who decides whether it's true?",
+  "textSha256": "cbcfa82d09f885325b52e72a0618b288827fed76613fdf516439a25d165497c8",
+  "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+  "voiceName": "Edvin Ryding !!",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "I can write this. Who decides whether it's true?",
+    "reference_id": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:04.728755+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 48,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:06.624525+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/claude/fish-v1-character-read.mp3",
+    "sha256": "10bcaf989685c7e741555ef15e23c8a03226806ec939ded7bf0e5772e5b364ba",
+    "bytes": 43466,
+    "durationSeconds": 2.716625
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/claude/fish-v1-character-read.mp3",
+  "sha256": "10bcaf989685c7e741555ef15e23c8a03226806ec939ded7bf0e5772e5b364ba"
+}

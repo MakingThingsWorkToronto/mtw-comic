@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T23:56:14.863Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech)",
+  "characterId": "rogue",
+  "voiceId": "NoiYxL9g25M4orC8Q0ls",
+  "voiceName": "Vector - Tec Voice",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "Contract updated.\nSending to\nall customers.",
+  "textSha256": "b0040e2bfceb96987959fdfb4ca26d9e4a4ce49ef4a21c719c2c2badf7ab57ec",
+  "spokenText": "Contract updated. Sending to all customers.",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "flowId": "3t92dVrxiznjHEJQN1En",
+  "sessionId": "tvDYD3ZmgT9VoW2xyXsm",
+  "generationId": "Kvl4LEHVmPoF19FZfEyy",
+  "reportedCredits": 43,
+  "retry": false,
+  "fallback": false,
+  "status": "saved",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/rogue/home-agent-home-rogue-speaks-b1-raw-v1.mp3",
+  "rawSha256": "17f01f43302bd7f3e95ed70a22dbcad327f06d50b00672698e900f04fabfac8c",
+  "receiptCanonicalPath": "wiki/soundtrack-library/records/home-voices-20261015/home-agent-home-rogue-speaks-b1-connector-v1.json",
+  "bytes": 69413,
+  "sha256": "17f01f43302bd7f3e95ed70a22dbcad327f06d50b00672698e900f04fabfac8c",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "sourceRefs": [
+    {
+      "storyId": "home",
+      "sceneId": "agent",
+      "panelId": "home-rogue-speaks",
+      "balloonIndex": 0,
+      "kind": "speech",
+      "authoredWho": "rogue",
+      "approvalId": "home-agent-home-rogue-speaks-b1"
+    }
+  ],
+  "note": "One request at a time, generations_count 1 (Matt, 2026-10-15). Approved words (approvalId home-agent-home-rogue-speaks-b1)."
+}

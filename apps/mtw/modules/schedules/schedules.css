@@ -1,0 +1,16 @@
+/* Schedules module. Site tokens only. */
+.s-cell { display: flex; align-items: center; gap: var(--space-2); min-width: 0; }
+.s-problem { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--error); border: 1px solid currentColor; border-radius: 3px; padding: 0 var(--space-1); }
+.s-notice { padding: var(--space-2) var(--space-3); border: 1px solid var(--line); border-left: 3px solid var(--teal-light); border-radius: var(--glass-radius); background: #0f1a1f; font-size: 13px; }
+.s-toggle { gap: var(--space-2); }
+.s-form { max-width: 760px; }
+.s-grid { align-items: flex-end; }
+.s-grid .field { flex: 1 1 180px; min-width: 0; }
+.s-grow { flex: 1; min-width: 0; }
+.s-mono { font-family: ui-monospace, Consolas, monospace; }
+.s-textarea { height: auto; min-height: 72px; padding: var(--space-2); resize: vertical; width: 100%; line-height: 1.5; }
+.s-chain { border: 1px solid var(--line); border-radius: var(--glass-radius); padding: var(--space-3); display: flex; flex-direction: column; gap: var(--space-2); min-width: 0; }
+.s-chain legend { padding: 0 var(--space-2); font-weight: 600; font-size: var(--fs-small); color: var(--muted); }
+.s-step { width: 18px; text-align: right; }
+.s-skips { margin: 0; padding-left: var(--space-4); font-size: 13px; display: flex; flex-direction: column; gap: var(--space-1); }
+@media (max-width: 600px) { .s-form { max-width: none; } }

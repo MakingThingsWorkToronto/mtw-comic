@@ -1,0 +1,30 @@
+/** Register inspected empty background regions by aspect-preserving cover. Does not redraw or approve artwork. */
+import fs from 'node:fs/promises';import path from 'node:path';import{createHash}from'node:crypto';import{createRequire}from'node:module';import{fileURLToPath}from'node:url';
+export const hash=b=>createHash('sha256').update(b).digest('hex');
+/** Reader crop comes from the final measured pixel rectangle, never its layout fractions. */
+export function measuredReaderCrop(canvas,rect,trimPixels=0){
+ if(!canvas||!['width','height'].every(k=>Number.isInteger(canvas[k])&&canvas[k]>0))throw Error('Integer reader canvas required');
+ if(!rect||!['left','top','width','height'].every(k=>Number.isInteger(rect[k]))||rect.left<0||rect.top<0||rect.width<=0||rect.height<=0||rect.left+rect.width>canvas.width||rect.top+rect.height>canvas.height)throw Error('Measured reader rectangle outside canvas');
+ if(!Number.isInteger(trimPixels)||trimPixels<0||rect.width<=2*trimPixels||rect.height<=2*trimPixels)throw Error('Explicit frame trim must leave a positive reader interior');
+ return[(rect.left+trimPixels)/canvas.width,(rect.top+trimPixels)/canvas.height,(rect.width-2*trimPixels)/canvas.width,(rect.height-2*trimPixels)/canvas.height];
+}
+export async function registerBackground(sharp,plan){
+ const root=await fs.realpath(plan.outputRoot),inside=p=>{const r=path.relative(root,p);return r===''||!r.startsWith('..')&&!path.isAbsolute(r);};
+ const outputs=[plan.output,plan.receipt].map(p=>path.resolve(p));if(new Set(outputs).size!==outputs.length)throw Error('Distinct output paths required');
+ for(const p of outputs){if(!inside(p))throw Error('Output escapes root');let dir=path.dirname(p);for(;;){try{dir=await fs.realpath(dir);break;}catch(e){if(e.code!=='ENOENT')throw e;const up=path.dirname(dir);if(up===dir)throw e;dir=up;}}if(!inside(dir))throw Error('Output ancestor escapes root');try{await fs.access(p);throw Error('Refusing overwrite');}catch(e){if(e.code!=='ENOENT')throw e;}}
+ const bytes=await fs.readFile(plan.source.path);if(hash(bytes)!==plan.source.sha256)throw Error('Native hash mismatch');const meta=await sharp(bytes).metadata();
+ const c=plan.canvas,valid=(r,w,h)=>r&&['left','top','width','height'].every(k=>Number.isInteger(r[k]))&&r.left>=0&&r.top>=0&&r.width>0&&r.height>0&&r.left+r.width<=w&&r.top+r.height<=h;
+ if(!c||!Number.isInteger(c.width)||!Number.isInteger(c.height)||c.width<=0||c.height<=0)throw Error('Integer canvas required');
+ if(plan.scope!=='inspected-empty-background'||!Array.isArray(plan.regions)||!plan.regions.length)throw Error('Explicit inspected empty-background regions required');
+ const ids=new Set(),comps=[],regions=[];
+ for(const r of plan.regions){if(!r.id||ids.has(r.id))throw Error('Unique region IDs required');ids.add(r.id);if(!valid(r.source,meta.width,meta.height)||!valid(r.target,c.width,c.height))throw Error('Out-of-bounds region');if(plan.regions.some(q=>q!==r&&r.target.left<q.target.left+q.target.width&&q.target.left<r.target.left+r.target.width&&r.target.top<q.target.top+q.target.height&&q.target.top<r.target.top+r.target.height))throw Error('Overlapping target regions');
+ const scale=Math.max(r.target.width/r.source.width,r.target.height/r.source.height),vw=r.target.width/scale,vh=r.target.height/scale,window={left:r.source.left+(r.source.width-vw)/2,top:r.source.top+(r.source.height-vh)/2,width:vw,height:vh};
+ for(const protectedBox of r.protected||[]){if(!protectedBox.id||!Array.isArray(protectedBox.polygon)||protectedBox.polygon.length<3||protectedBox.polygon.some(pt=>!Array.isArray(pt)||pt.length!==2||pt.some(n=>!Number.isFinite(n))))throw Error('Explicit protected polygon required');if(protectedBox.polygon.some(([x,y])=>x<window.left||x>window.left+window.width||y<window.top||y>window.top+window.height))throw Error('Cover crop cuts protected subject: '+protectedBox.id);}
+ const png=await sharp(bytes).extract(r.source).resize(r.target.width,r.target.height,{fit:'cover',position:'centre',kernel:'lanczos3'}).png().toBuffer();comps.push({input:png,left:r.target.left,top:r.target.top});
+ const readerFrameTrimPixels=r.readerFrameTrimPixels??0;
+ regions.push({...r,readerFrameTrimPixels,readerAr:measuredReaderCrop(c,r.target,readerFrameTrimPixels),sourceCoverWindow:window,scale,projectedProtected:(r.protected||[]).map(b=>({...b,polygon:b.polygon.map(([x,y])=>[r.target.left+(x-window.left)*scale,r.target.top+(y-window.top)*scale])})),upscaled:scale>1,croppedNativeFrameAxes:[vw<r.source.width?'horizontal':null,vh<r.source.height?'vertical':null].filter(Boolean)});
+ }
+ const out=await sharp({create:{width:c.width,height:c.height,channels:3,background:'#1a9ba1'}}).composite(comps).png().toBuffer();const receipt={schemaVersion:1,operation:'fixed-coordinate-empty-background-registration',source:plan.source,sourceDimensions:{width:meta.width,height:meta.height},story:plan.story,canvas:c,regions,output:{path:plan.output,sha256:hash(out),bytes:out.length},options:{fit:'cover',position:'centre',kernel:'lanczos3',paper:'#1a9ba1'},sharpVersion:sharp.versions.sharp,helperSha256:hash(await fs.readFile(fileURLToPath(import.meta.url))),planSha256:hash(Buffer.from(JSON.stringify(plan))),registered:true,generatedOrRedrawnScenePixels:false,reviewStatus:'pending-derived-image-inspection',humanApproval:false,geometryNote:'Uniform scaling preserves object aspect; centered source cropping may remove native frame edges. Fixed reader borders remain separate.'};
+ for(const [p,b]of[[outputs[0],out],[outputs[1],Buffer.from(JSON.stringify(receipt,null,2)+'\n')]]){await fs.mkdir(path.dirname(p),{recursive:true});await fs.writeFile(p,b,{flag:'wx'});}return receipt;
+}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){const[site,input]=process.argv.slice(2);if(!site||!input)throw Error('Usage: node register_background.mjs <site-root> <plan.json>');const sharp=createRequire(path.resolve(site,'package.json'))('sharp');console.log(JSON.stringify(await registerBackground(sharp,JSON.parse(await fs.readFile(input,'utf8')))));}

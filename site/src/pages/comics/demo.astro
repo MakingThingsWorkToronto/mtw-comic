@@ -1,0 +1,10 @@
+---
+// Comic B style demo for Matt (root, 2026-09-30): the style-lock page revealed box by box with the approved balloons.
+// Not linked from the site; noindex. Remove when the real pages pass the gate.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComicStory from '../../components/ComicStory.astro';
+import { demoComic } from '../../data/comic-stories/demo';
+---
+<BaseLayout title="Comics: style demo" description="Comic B style demo." noindex agentExclude canonical="/comics/" bodyClass="strata comic-reader">
+  <ComicStory story={demoComic} mode="standalone" />
+</BaseLayout>

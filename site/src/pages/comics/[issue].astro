@@ -1,0 +1,31 @@
+---
+// One issue in the standalone Comic B reader (/comics/<slug>/; slugs in src/data/comic-stories/index.ts), inside the MTW
+// frame (Matt, 2026-09-28: "full screen needs to lock into mtw header and footer and styles"): the site header above, the
+// comic filling the screen below it, the site footer after it. noindex; canonical to the A page it retells.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComicStory from '../../components/ComicStory.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { comicIssues } from '../../data/comic-stories/index';
+
+export function getStaticPaths() {
+  return comicIssues.map((i) => ({ params: { issue: i.slug }, props: { slug: i.slug } }));
+}
+const { slug } = Astro.props as { slug: string };
+const issue = comicIssues.find((i) => i.slug === slug)!;
+const s = issue.story;
+const title = `Comics No. ${s.issue}: ${s.title.replace(/\.$/, '')}`;
+const description = `Making Things Work comics, issue ${s.issue}: ${issue.hook}`;
+---
+<BaseLayout {title} {description} noindex agentExclude canonical={issue.aPage} bodyClass="strata comic-reader">
+  <h1 class="comic-reader__h">{title}</h1>
+  <ComicStory story={s} mode="standalone" />
+  <noscript><p class="comic-reader__noscript">This comic needs JavaScript. <a href={issue.aPage}>Read the page</a> or <a href="/comics/">see all issues</a>.</p></noscript>
+  <SiteFooter slot="footer"
+    lines={['Making Things Work', 'Practical AI solutions.', 'info@makingthings.work']}
+    links={[{ label: 'Comics', href: '/comics/' }, { label: 'Agentic Systems', href: '/agentic-systems/' }, { label: 'Traditional Systems', href: '/traditional-systems/' }, { label: 'Data & Migrations', href: '/data-migrations/' }, { label: "Let's talk", href: '/contact/' }]}
+    fine="Remote first · Toronto, Mississauga, Golden Horseshoe, Southern Ontario" />
+</BaseLayout>
+<style>
+  .comic-reader__h { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; margin: 0; }
+  .comic-reader__noscript { padding: calc(var(--header-h) + 24px) var(--page-gutter) 24px; }
+</style>

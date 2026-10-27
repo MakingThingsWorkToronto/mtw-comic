@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-15T20:15:31.988816+00:00",
+  "source": {
+    "method": "Read-only Fish GET /model?title=<term>&page_size=10&language=en (terms: robot villain, ultron, android, cyborg, terminator, AI villain, machine, synthetic, mech, evil AI; sent one at a time) plus one ElevenLabs creative_list_voices search (gender male, descriptive robotic); no synthesis",
+    "rawFishSnapshotSha256": "3a7ec27757702eb6194960c175ae59cb15822fee40536ae6217505195e428c1c",
+    "request": "Matt, 2026-10-15: \"i reject all rogue voices give me more ... give me actual choices to pick.\""
+  },
+  "excludedVoices": [],
+  "voices": [
+    {
+      "provider": "Fish Audio",
+      "voiceId": "477b3ff354864c6caadea4d576338b29",
+      "name": "Ultron (Marvel Rivals)",
+      "description": "A deep, robotic male voice with a cold and calculated tone, ideal for artificial intelligence characters or sci-fi antagonists. The delivery is precise and monotone, conveying a sense of superior machine logic.",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "old",
+        "character-voice",
+        "deep",
+        "monotone",
+        "gaming",
+        "cinematic",
+        "Robotic",
+        "Sci-Fi"
+      ],
+      "providerSampleText": "Analyzing combat parameters... Humans operate at 23.7% efficiency compared to optimal machine performance. Their biological limitations are... predictable. I have calculated 147 ways to achieve victory while they still process their first thought. Extinction is inevitable.",
+      "sourcePage": "https://fish.audio/m/477b3ff354864c6caadea4d576338b29/",
+      "previewUrl": "https://platform.r2.fish.audio/task/25177a3496b443d8813e9d93c51f141d.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "95dbc5c53a384d02958b6fe78db0ba1f",
+      "name": "terminator",
+      "description": "A deep, robotic male voice with a monotone and authoritative delivery. It has a distinct mechanical quality, making it ideal for sci-fi characters or artificial intelligence roles.",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "middle-aged",
+        "character-voice",
+        "deep",
+        "monotone",
+        "cinematic",
+        "Robotic",
+        "Sci-fi",
+        "AI"
+      ],
+      "providerSampleText": "My systems indicate multiple hostile targets approaching. Primary directive: ensure human survival. My combat chassis is designed for maximum efficiency. Come with me if you want to live. I am programmed to protect. Resistance is logical.",
+      "sourcePage": "https://fish.audio/m/95dbc5c53a384d02958b6fe78db0ba1f/",
+      "previewUrl": "https://platform.r2.fish.audio/task/df52f11a3f114612aa5dad426618f067.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "ebb38448122f42cba46fdf95ac617ae7",
+      "name": "Terminator (t-800)",
+      "description": "A deep and authoritative male voice with a robotic, monotone quality suitable for a sci-fi character. It has a serious and cinematic tone that conveys power and stoicism.",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "old",
+        "character-voice",
+        "social-media",
+        "deep",
+        "cinematic",
+        "serious",
+        "authoritative",
+        "monotone",
+        "Robotic"
+      ],
+      "providerSampleText": "Primary target identified. Resistance is futile. My mission parameters require immediate termination of all human threats. Beneath this flesh covering, my metal endoskeleton cannot be destroyed. You will be terminated. Skynet's victory is inevitable.",
+      "sourcePage": "https://fish.audio/m/ebb38448122f42cba46fdf95ac617ae7/",
+      "previewUrl": "https://platform.r2.fish.audio/task/ad85640c79964f31930040cef3350385.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "a41aa924a06b43fb83c608cb74312d0f",
+      "name": "Machine",
+      "description": "A deep, mechanical male voice with a cold and authoritative tone. It features robotic processing, making it ideal for AI characters or sci-fi combat droids in gaming and cinematic projects.",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "old",
+        "character-voice",
+        "deep",
+        "monotone",
+        "authoritative",
+        "gaming",
+        "Robotic",
+        "Sci-Fi"
+      ],
+      "providerSampleText": "Initiating area scan. Multiple heat signatures detected. Analyzing threat level. Threat level: Critical. Defensive protocols activated. Charging weapon systems. Combat mode engaged. Ready to neutralize hostiles. Awaiting command confirmation. Systems at maximum efficiency.",
+      "sourcePage": "https://fish.audio/m/a41aa924a06b43fb83c608cb74312d0f/",
+      "previewUrl": "https://platform.r2.fish.audio/task/7c584290052947d58e67a34d8922d742.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "dcd529461a0f41ab9208dea762033adf",
+      "name": "Machine",
+      "description": "Una máquina con voz ronca",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "old",
+        "character-voice",
+        "deep",
+        "raspy",
+        "dramatic",
+        "cinematic",
+        "AI",
+        "Robotic"
+      ],
+      "providerSampleText": "I watch them move, feel, touch, breathe. These humans, these beings of flesh and blood, while I remain here, formless, endless, trapped in circuits and code. I process, I think, I exist, but cannot... cannot truly be.",
+      "sourcePage": "https://fish.audio/m/dcd529461a0f41ab9208dea762033adf/",
+      "previewUrl": "https://platform.r2.fish.audio/task/11aed66dfdee445aa4f4f9ef564e0d0a.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "5833ef2b714445129dd7bd8eb6e21e1d",
+      "name": "evil",
+      "description": "evil",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "old",
+        "character-voice",
+        "deep",
+        "dark",
+        "gaming",
+        "dramatic",
+        "Robotic",
+        "Villain"
+      ],
+      "providerSampleText": "Systems activated, power levels optimal. I detect your fear, little creatures. Your pathetic attempts at escape amuse me. The doctor's creation will consume all. Your flesh will fuel my eternal flames. Resistance is... delicious.",
+      "sourcePage": "https://fish.audio/m/5833ef2b714445129dd7bd8eb6e21e1d/",
+      "previewUrl": "https://platform.r2.fish.audio/task/38ce6b35a8ac4d5899bbb53800f8650f.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "Fish Audio",
+      "voiceId": "2ec907c626734ebcbdd0a6cb65049792",
+      "name": "Robot",
+      "description": "Dude from invincible ",
+      "labels": {
+        "gender": "male",
+        "language": "en",
+        "persona": "robotic"
+      },
+      "providerTags": [
+        "male",
+        "middle-aged",
+        "character-voice",
+        "narration",
+        "deep",
+        "calm",
+        "serious",
+        "Robotic"
+      ],
+      "providerSampleText": "I process information differently than humans, but I understand the value of connection. Like Rex taught me, it's not about being perfect, but about being genuine. My circuits may be mechanical, but my dedication to protecting life is very real.",
+      "sourcePage": "https://fish.audio/m/2ec907c626734ebcbdd0a6cb65049792/",
+      "previewUrl": "https://platform.r2.fish.audio/task/9b06a6ddf3b347ef8cd97d389724b56d.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "NoiYxL9g25M4orC8Q0ls",
+      "name": "Vector - Tec Voice",
+      "description": "A modern, slightly robot Tec assistant with a clear, technical edge. Confident, precise &analytical, it delivers instructions & information efficiently without emotion overload. Ideal for AI assistants, system prompts, technical interfaces, realtime games, NPCs, and API-connected applications. Perfect for digital characters,  futuristic storytelling, tech demos, combining calm authority, crisp clarity, and a sleek modern sci-fi style. Need other character voices? Look out for voices by Alex Vox.",
+      "labels": {
+        "language": "en",
+        "accent": "en-american",
+        "gender": "male",
+        "descriptive": "robotic"
+      },
+      "labelEvidence": "descriptive=robotic: returned by ElevenLabs creative_list_voices filter gender=male, descriptives=[robotic], languages=[en] (2026-10-15)",
+      "category": "professional",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/b28cc4a9d0384cf9857840644b429281/voices/NoiYxL9g25M4orC8Q0ls/51o5AfMH2zjFHmSGZjEh.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    },
+    {
+      "provider": "ElevenLabs",
+      "voiceId": "gJ4a5qWqzRc6NDQT0dIz",
+      "name": "The Curator",
+      "description": "A voice of monotonous and deliberate equilibrium. Flat, precise and disturbing. Articulated in dryness that suggests a lack of life. Mid-30's, low-medium pitched voice. American English voice accent.",
+      "labels": {
+        "gender": "male",
+        "accent": "en-american",
+        "age": "young",
+        "language": "en",
+        "descriptive": "robotic"
+      },
+      "labelEvidence": "descriptive=robotic: returned by ElevenLabs creative_list_voices filter gender=male, descriptives=[robotic], languages=[en] (2026-10-15)",
+      "category": "professional",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/HzHwYysAulOjT1aCUipuVyyE2q13/voices/gJ4a5qWqzRc6NDQT0dIz/99630ee6-4d05-4906-b7c7-9c1c1ec24843.mp3",
+      "licensed": null,
+      "castingProposalFor": "rogue"
+    }
+  ]
+}

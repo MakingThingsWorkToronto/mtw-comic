@@ -1,0 +1,12 @@
+{
+  "id": "home-call-home-call-wrong-b0",
+  "characterId": "dana",
+  "provider": "Fish Audio",
+  "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+  "modelId": "s2.1-pro-free",
+  "text": "This isn't their contract. Stop the job.",
+  "requestId": null,
+  "rawSha256": "3d41c9ca23e870271fc7f3e953097c159cbab9ee6d4c96c63aabc43213c2ddcc",
+  "createdAt": "2026-10-12T06:18:19.682Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

@@ -1,0 +1,85 @@
+{
+  "claude": {
+    "label": "Claude",
+    "executable": "claude",
+    "args": [],
+    "acceptsPrompt": true,
+    "promptHandover": "arg-file-line",
+    "tokenSource": "otel",
+    "tokenFallback": "claude-transcript",
+    "sessionIdArgs": ["--session-id", "{sessionId}"],
+    "resumeArgs": ["--resume", "{sessionId}"],
+    "modelArgs": ["--model", "{model}"],
+    "effortArgs": ["--effort", "{effort}"],
+    "models": [
+      { "id": "claude-opus-5-5", "label": "Opus 5.5" },
+      { "id": "claude-sonnet-5-5", "label": "Sonnet 5.5" },
+      { "id": "claude-haiku-5-5", "label": "Haiku 5.5" },
+      { "id": "claude-fable-5-1", "label": "Fable 5.1" }
+    ],
+    "efforts": ["low", "medium", "high", "xhigh", "max"],
+    "env": {
+      "CLAUDE_CODE_ENABLE_TELEMETRY": "1",
+      "OTEL_METRICS_EXPORTER": "otlp",
+      "OTEL_LOGS_EXPORTER": "otlp",
+      "OTEL_EXPORTER_OTLP_PROTOCOL": "http/json",
+      "OTEL_EXPORTER_OTLP_ENDPOINT": "http://127.0.0.1:{port}",
+      "OTEL_METRIC_EXPORT_INTERVAL": "5000",
+      "OTEL_LOGS_EXPORT_INTERVAL": "5000",
+      "OTEL_RESOURCE_ATTRIBUTES": "mtw.terminal_id={terminalId},mtw.operation={operation}"
+    },
+    "status": "proven",
+    "permissions": [
+      { "id": "default", "label": "Ask before changes", "args": [] },
+      { "id": "accept-edits", "label": "Accept edits", "args": ["--permission-mode", "acceptEdits"] },
+      { "id": "bypass", "label": "Bypass permissions", "args": ["--dangerously-skip-permissions"] }
+    ]
+  },
+  "codex": {
+    "label": "Codex",
+    "executable": "codex",
+    "args": [],
+    "acceptsPrompt": true,
+    "promptHandover": "arg-file-line",
+    "tokenSource": "codex-rollout",
+    "resumeArgs": ["resume", "{sessionId}"],
+    "modelArgs": ["-m", "{model}"],
+    "effortArgs": ["-c", "model_reasoning_effort={effort}"],
+    "models": [
+      { "id": "gpt-6.1-sol", "label": "GPT-6.1 Sol" }
+    ],
+    "efforts": ["minimal", "low", "medium", "high", "xhigh"],
+    "env": {},
+    "status": "proven",
+    "permissions": [
+      { "id": "default", "label": "Ask before changes", "args": [] },
+      { "id": "full-auto", "label": "Full auto (sandboxed)", "args": ["--approve-for-me"] },
+      { "id": "bypass", "label": "Bypass approvals and sandbox", "args": ["--dangerously-bypass-approvals-and-sandbox"] }
+    ]
+  },
+  "opencode": {
+    "label": "OpenCode (untested)",
+    "executable": "opencode",
+    "args": [],
+    "acceptsPrompt": true,
+    "promptHandover": "arg-file-line",
+    "tokenSource": "none",
+    "env": {},
+    "status": "untested",
+    "note": "Best-guess row. Before status becomes proven: confirm the executable, that a single positional prompt line starts an interactive session, and a token source (its OTel env or a transcript adapter); then record the proof in the wiki.",
+    "permissions": [
+      { "id": "default", "label": "Default", "args": [] }
+    ]
+  },
+  "shell": {
+    "label": "Shell",
+    "executable": { "win32": "powershell.exe", "default": "bash" },
+    "args": [],
+    "acceptsPrompt": false,
+    "promptHandover": "none",
+    "tokenSource": "none",
+    "env": {},
+    "status": "proven",
+    "permissions": []
+  }
+}

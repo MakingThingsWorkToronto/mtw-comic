@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "home-lobby-home-sam-b2",
+  "type": "speech-dialogue",
+  "storyId": "home",
+  "characterId": "sam",
+  "provider": "Fish Audio",
+  "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+  "text": "Ours dropped\nthe safety clause.",
+  "textSha256": "d8423fefca6d7b6bd5468bccb3132d06eaa84c79873ccca7ffcb065b8fabdddf",
+  "status": "normalized-candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "source": {
+    "canonicalPath": "wiki/soundtrack-library/assets/voices/sam/fish-v1-character-read.mp3",
+    "sha256": "8889e45260532c7314420ddeb641e9a1507eaf956bbc012c79feda4a1caf7ca7",
+    "receiptCanonicalPath": "wiki/comics-library/records/fish-sam-v1-20261009.json",
+    "receiptSha256": "0dcf98bf7de523f8f1258add6c1d08d0623a80fdece5984a1b4481a6985fa7dc",
+    "bytes": 38033
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/speech/home-20261010/home-lobby-home-sam-b2-eq-v2.mp3",
+    "sha256": "2df6a944bcfd20e9e7a265e5b63d9be5d9c5ae01600670d5cd7cb23d4420de89",
+    "bytes": 38913,
+    "durationSeconds": 2.377143
+  },
+  "target": {
+    "integratedLufs": -18,
+    "truePeakMaxDbfs": -3,
+    "encoderTargetPeakDbfs": -3.5,
+    "lra": 7
+  },
+  "measurements": {
+    "beforeAfterEQ": {
+      "input_i": "-28.74",
+      "input_tp": "-14.83",
+      "input_lra": "0.00",
+      "input_thresh": "-39.17",
+      "output_i": "-18.00",
+      "output_tp": "-4.09",
+      "output_lra": "0.00",
+      "output_thresh": "-28.43",
+      "normalization_type": "linear",
+      "target_offset": "-0.00"
+    },
+    "actualEncoded": {
+      "input_i": "-18.45",
+      "input_tp": "-4.35",
+      "input_lra": "0.00",
+      "input_thresh": "-28.88",
+      "output_i": "-17.99",
+      "output_tp": "-3.90",
+      "output_lra": "0.00",
+      "output_thresh": "-28.43",
+      "normalization_type": "linear",
+      "target_offset": "-0.01"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "2.377143"
+      }
+    }
+  },
+  "filter": "highpass=f=70,lowpass=f=12500,acompressor=threshold=0.1:ratio=3:attack=0.1:release=80:knee=2.828:makeup=1,loudnorm=I=-18:TP=-3.5:LRA=7:measured_I=-28.74:measured_TP=-14.83:measured_LRA=0.00:measured_thresh=-39.17:offset=-0.00:linear=true:print_format=json",
+  "encoderCommand": [
+    "ffmpeg",
+    "-nostdin",
+    "-hide_banner",
+    "-n",
+    "-i",
+    "C:\\Code\\MTWWebsite-clean\\wiki\\comics-library\\assets\\voices\\sam\\fish-v1-character-read.mp3",
+    "-af",
+    "highpass=f=70,lowpass=f=12500,acompressor=threshold=0.1:ratio=3:attack=0.1:release=80:knee=2.828:makeup=1,loudnorm=I=-18:TP=-3.5:LRA=7:measured_I=-28.74:measured_TP=-14.83:measured_LRA=0.00:measured_thresh=-39.17:offset=-0.00:linear=true:print_format=json",
+    "-ac",
+    "1",
+    "-ar",
+    "44100",
+    "-c:a",
+    "libmp3lame",
+    "-b:a",
+    "128k",
+    "C:\\Code\\MTW-comics-shelf-20261009\\home-voiceover-20261010\\wiki\\soundtrack-library\\assets\\speech\\home-20261010\\home-lobby-home-sam-b2-eq-v2.mp3"
+  ],
+  "dependencies": {
+    "helperSha256": "0d51f6a496ba03294784917b54be39cc510bb1b07cb26adb6337f23ef8ca762f",
+    "ffmpeg": "589e50b766d251afdf181dd664d40bd94407e200b019989fd7468c7d118a28d0",
+    "ffprobe": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3"
+  },
+  "reproduction": "Reuse retained raw and normalized bytes. Re-encoding with recorded filter/tools is distinct from stochastic provider regeneration. No new provider request.",
+  "scope": "Exact retained Home text/voice reuse; not a new take or human text approval."
+}

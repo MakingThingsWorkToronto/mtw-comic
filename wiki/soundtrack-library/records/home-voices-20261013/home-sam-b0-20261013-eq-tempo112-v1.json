@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:58:59.179Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-sam-b0-20261013-raw-v1.mp3",
+  "rawSha256": "40b35dcdc5cf2872eb31cef0fb01c5be3e36798e6a275bc4cbe72178055aa1d0",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-sam-b0-20261013-eq-tempo112-v1.mp3",
+  "sha256": "e112f3665af83bce8c132352da41ccce1c1b4ebf9f613f607c3d0ef8d5ae5dfb",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-sam-b0-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-23.08",
+    "input_tp": "-4.95",
+    "input_lra": "2.10",
+    "input_thresh": "-34.24",
+    "output_i": "-18.70",
+    "output_tp": "-3.00",
+    "output_lra": "0.40",
+    "output_thresh": "-29.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.70"
+  },
+  "encodedMeasurement": {
+    "input_i": "-19.12",
+    "input_tp": "-3.23",
+    "input_lra": "1.60",
+    "input_thresh": "-30.06",
+    "output_i": "-18.08",
+    "output_tp": "-3.00",
+    "output_lra": "0.40",
+    "output_thresh": "-29.08",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "encodedIntegratedLufs": -19.12,
+  "encodedTruePeakDbtp": -3.23,
+  "durationSeconds": 5.841927,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": false,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "processing-review-required",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

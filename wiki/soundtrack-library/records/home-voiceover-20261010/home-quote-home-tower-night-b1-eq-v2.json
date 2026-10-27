@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "home-quote-home-tower-night-b1",
+  "type": "speech-narration",
+  "storyId": "home",
+  "characterId": "second-brain",
+  "provider": "Fish Audio",
+  "voiceId": "d13f84b987ad4f22b56d2b47f4eb838e",
+  "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+  "textSha256": "4ffa432c340e6d887956c661a17d16d5dc8cae638ed0541d268d2ad291096ce9",
+  "status": "normalized-candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "source": {
+    "canonicalPath": "wiki/soundtrack-library/assets/voices/second-brain/fish-v1-comparison-read.mp3",
+    "sha256": "4ac82d2b0f03078f2a6a8b67f414cb02c860a8ce38a91480f5ae80e89045941c",
+    "receiptCanonicalPath": "wiki/comics-library/records/fish-second-brain-v1-20261009.json",
+    "receiptSha256": "10ce2b55388a2008b7fd8acb9c1677c1a719678e5f8ba70759b17de6da6a9ba8",
+    "bytes": 208142
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/speech/home-20261010/home-quote-home-tower-night-b1-eq-v2.mp3",
+    "sha256": "8026cef147dae5cf3c842007ed36e1bd3f8a18c9d07ba21a393f891e84df4e6f",
+    "bytes": 209022,
+    "durationSeconds": 13.00898
+  },
+  "target": {
+    "integratedLufs": -18,
+    "truePeakMaxDbfs": -3,
+    "encoderTargetPeakDbfs": -3.5,
+    "lra": 7
+  },
+  "measurements": {
+    "beforeAfterEQ": {
+      "input_i": "-26.43",
+      "input_tp": "-11.33",
+      "input_lra": "2.30",
+      "input_thresh": "-36.89",
+      "output_i": "-18.18",
+      "output_tp": "-3.50",
+      "output_lra": "2.00",
+      "output_thresh": "-28.63",
+      "normalization_type": "dynamic",
+      "target_offset": "0.18"
+    },
+    "actualEncoded": {
+      "input_i": "-18.46",
+      "input_tp": "-3.90",
+      "input_lra": "2.00",
+      "input_thresh": "-28.91",
+      "output_i": "-18.17",
+      "output_tp": "-3.50",
+      "output_lra": "1.70",
+      "output_thresh": "-28.62",
+      "normalization_type": "dynamic",
+      "target_offset": "0.17"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "13.008980"
+      }
+    }
+  },
+  "filter": "highpass=f=70,lowpass=f=12500,acompressor=threshold=0.1:ratio=3:attack=5:release=80:knee=2.828:makeup=1,loudnorm=I=-18:TP=-3.5:LRA=7:measured_I=-26.43:measured_TP=-11.33:measured_LRA=2.30:measured_thresh=-36.89:offset=0.18:linear=true:print_format=json",
+  "encoderCommand": [
+    "ffmpeg",
+    "-nostdin",
+    "-hide_banner",
+    "-n",
+    "-i",
+    "C:\\Code\\MTWWebsite-clean\\wiki\\comics-library\\assets\\voices\\second-brain\\fish-v1-comparison-read.mp3",
+    "-af",
+    "highpass=f=70,lowpass=f=12500,acompressor=threshold=0.1:ratio=3:attack=5:release=80:knee=2.828:makeup=1,loudnorm=I=-18:TP=-3.5:LRA=7:measured_I=-26.43:measured_TP=-11.33:measured_LRA=2.30:measured_thresh=-36.89:offset=0.18:linear=true:print_format=json",
+    "-ac",
+    "1",
+    "-ar",
+    "44100",
+    "-c:a",
+    "libmp3lame",
+    "-b:a",
+    "128k",
+    "C:\\Code\\MTW-comics-shelf-20261009\\home-voiceover-20261010\\wiki\\soundtrack-library\\assets\\speech\\home-20261010\\home-quote-home-tower-night-b1-eq-v2.mp3"
+  ],
+  "dependencies": {
+    "helperSha256": "6e5eada15f8dae17e4ae76f1f2208c666075ec9dd9eff5f2063c05dcbb55b8cc",
+    "ffmpeg": "589e50b766d251afdf181dd664d40bd94407e200b019989fd7468c7d118a28d0",
+    "ffprobe": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3"
+  },
+  "reproduction": "Reuse retained raw and normalized bytes. Re-encoding with recorded filter/tools is distinct from stochastic provider regeneration. No new provider request.",
+  "scope": "Exact retained Home text/voice reuse; not a new take or human text approval."
+}

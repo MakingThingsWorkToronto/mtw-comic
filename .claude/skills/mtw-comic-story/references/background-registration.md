@@ -1,0 +1,31 @@
+# Exact empty-background registration
+
+When an inspected native empty background has the correct views but different drawn box proportions, preserve it byte-for-byte and measure every actual panel frame before deriving a registered plate. Keep the frozen story IDs and reading `r`; do not guess native coordinates from requested proportions. Registration is crop/scale/composition, not regeneration, redrawing or artwork acceptance.
+
+Use the paired `scripts/art/register_background.mjs` with an explicit JSON plan: `scope: "inspected-empty-background"`, a declared `outputRoot`, integer canvas dimensions, hash-bound `source: {path, sha256}`, exact story/source identifiers, and ordered `regions: [{id, source, target, protected?}]`. Rectangles have integer left/top/width/height. Protected entries have an actual observed ID and polygon of native pixel points. The helper uses centred aspect-preserving cover, Lanczos3 and a brand teal `#1a9ba1` canvas; it rejects a crop cutting a protected polygon, duplicate IDs, overlapping/out-of-bounds destinations, wrong native hash, foreground scope, escaping paths and existing output files. Output and receipt paths must be distinct and new. Use the foreground compositor's alpha/contain protocol for people/agents; this cover path does not authorize stretching information planes.
+
+```text
+node .codex/skills/mtw-comic-story/scripts/art/register_background.mjs site <hash-bound-plan.json>
+node .codex/skills/mtw-comic-story/scripts/art/test_register_background.mjs site <completed-background-plan.json> <fresh-external-fixture-directory>
+```
+
+The Claude package has identical files. Plans explicitly select canonical input bytes and a fresh output root; helpers contain no generator-cache or task-folder dependency. For a worker packet, stage exact prospective canonical destinations externally and keep its immutable plan/receipt alongside those bytes. The test exercises the actual Sharp registration and refusal paths; the supplied completed plan binds the actual background/receipt under review.
+
+Retain the native source, submitted prompt and actual input roles/hashes/timestamps from the producer, plus derived image, exact source/target windows, uniform scale, cropped frame axis, any upscaling, projected protected polygons, helper/Sharp/options hashes and output SHA. Never infer a generator model or submitted reference from today's prompt. A missing producer receipt stays explicitly pending; add a separate truthful supplement rather than rewriting historical evidence. Cover may crop native frame edges; the reader's fixed box borders remain separate. Inspect the actual derived image to confirm all views, blank device faces and necessary furniture survived; do not infer appearance from numeric containment.
+
+Use the same inspected background source-to-target protocol for later foregrounds only after checking their actual coordinates. A fresh foreground can drift despite sharing a background input. Measure it separately, retain every attempt and choose a bounded registration/correction based on that evidence. Bind actual front-screen/paper corners and the final composite before authoring UI or paper glyphs; a proposed rectangle is not a physical information-side pass.
+
+The strongest `comic-visual-v1` gate remains mandatory for new selected artwork. Empty-background observations have no people/agents; later human/agent/props planes and the full composite need their own exact-file coverage. Do not prefill cast/action/phone/lettering acceptance from the prompt or background. Root performs canonical registration and final serialized native review.
+
+Occurrence: the first Home Process empty plate contained seven correct environment views but its middle split and row heights differed from the frozen story. Exact measured source rectangles were cover-registered to the seven story cells inset4, preserving three blank front-glass polygons. The native and registered plates were directly inspected. The nine offline guards include the original floating-point exact-equality harness failure, then a corrected 1e-9 numerical comparison; that is fixture evidence, not a source-image defect. Foregrounds/composite/reader acceptance and next-output recurrence remain pending.
+
+Observed recurrence (Issue 04 procedure proof, 2026-10-10): the installed helper still filled uncovered margins white despite the shared teal frame rule. The paired default now fills exact brand teal; the actual registration fixture checks an uncovered decoded corner and receipt value. Region count follows the supplied plan rather than the historical seven-box Home specimen. Exact scene pixels, cropped fronts, cast and native reader acceptance remain separate.
+
+## Measured reader crops
+
+1. Measure the final registered canvas and each actual panel rectangle in pixels. Do not reuse requested story layout `r` as source artwork `ar`.
+2. Use `measuredReaderCrop(canvas, rectangle, trimPixels)` from the registration helper. For a newly registered plate, its receipt records each target rectangle as `readerAr`; an optional explicit `readerFrameTrimPixels` trims observed neutral frame bands only. Default trim is zero. Do not color-key light tables, paper or other scene content.
+3. Bind that same `ar` to every ordered plane and the flattened fallback. Set the global art inset to zero when the measured interior already excludes the frame. Keep desktop/phone display layout and lettering reserves separate.
+4. Run `node .codex/skills/mtw-comic-story/scripts/art/test_reader_crop.mjs` (Claude substitutes `.claude`). Inspect a complete-balloon desktop and phone frame on the actual reader. A passing geometry test cannot establish face, hand, screen or lettering clearance.
+
+Occurrence: Home's nominal source fractions and global .8% inset still showed white raster frame strips in native answers-large review. The measured final rectangles with a declared four-pixel inner frame trim removed them in the next native capture while preserving full character faces and fixed lettering. The pure helper now rejects invalid rectangles/trim and emits normalized final-target geometry; remaining issue workers must consume that geometry rather than nominal proportions. Historical receipts remain unchanged.

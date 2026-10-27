@@ -1,0 +1,10 @@
+# Media allowed outside the canonical homes (wiki/image-library, wiki/soundtrack-library, wiki/comics-library,
+# wiki/journal). One repo-relative glob per line: ** spans folders, * stays inside one. Read by
+# scripts/assets/media-registration.mjs, so the pre-commit hook and the PostToolUse reminder agree.
+# Test fixtures are synthetic inputs, not assets. Evidence screenshots under */verification/ are NOT exempt.
+apps/**/tests/fixtures/**
+site/tests/**/fixtures/**
+site/scripts/**/fixtures/**
+.claude/skills/**/tests/**
+.codex/skills/**/tests/**
+**/fixtures/**

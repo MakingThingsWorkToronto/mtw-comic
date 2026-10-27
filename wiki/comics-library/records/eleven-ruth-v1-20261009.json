@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Sarah - Mature, Reassuring, Confident — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/ruth/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "EXAVITQu4vr4xnSDxMaL",
+  "status": "candidate",
+  "sha256": "719bbf620eb3c84c7d76375297c5be6b61088b0e78862d14b7cac823f9f35787",
+  "durationSeconds": 3.436553287981859,
+  "text": "This came at 2:07. It has someone else's name on it.",
+  "credits": 52,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah - Mature, Reassuring, Confident",
+    "prompt": "This came at 2:07. It has someone else's name on it.",
+    "scriptSource": "Issue 1, lobby",
+    "settingsPreset": "provider-default",
+    "generationId": "lJUWwmcgZ5XsRQNP98Yv",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

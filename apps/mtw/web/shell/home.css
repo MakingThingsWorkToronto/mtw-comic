@@ -1,0 +1,73 @@
+/* Studio home dashboard: five glass panels. Desktop: two columns (Needs | Running, Health | Libraries + Next steps);
+   one column below 1000 px. Status is always written in text, never colour alone. */
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  grid-template-areas: 'needs running' 'health libs' 'health next';
+  align-items: start;
+  gap: var(--space-4);
+}
+.home-needs { grid-area: needs; }
+.home-running { grid-area: running; }
+.home-health { grid-area: health; }
+.home-libs { grid-area: libs; }
+.home-next { grid-area: next; }
+@media (max-width: 1000px) {
+  .home-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'needs' 'running' 'health' 'libs' 'next'; }
+}
+
+.home-sec { padding: var(--space-3) var(--space-4) var(--space-4); min-width: 0; }
+.home-sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-1) var(--space-3); margin-bottom: var(--space-2); }
+.home-sec h2 { font-size: 20px; }
+.home-meta { font-size: var(--fs-small); overflow-wrap: anywhere; }
+.home-h3 { font-family: var(--body); font-size: var(--fs-small); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: var(--space-3) 0 var(--space-1); }
+.home-h3:first-of-type { margin-top: 0; }
+
+.home-list { list-style: none; margin: 0; padding: 0; }
+.home-list > li { border-top: 1px solid var(--line); }
+.home-list > li:first-child { border-top: 0; }
+.home-empty { font-size: var(--fs-small); padding: var(--space-1) 0; }
+.home-sub { display: block; font-size: var(--fs-small); overflow-wrap: anywhere; }
+.home-src { display: block; font-size: 11px; opacity: 0.8; overflow-wrap: anywhere; }
+.home-steps .home-src { display: inline; }
+
+.home-need { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--space-3); padding: var(--space-2) 0; }
+.home-need-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.home-need-title { font-weight: 600; overflow-wrap: anywhere; }
+.home-mod { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--teal-light); margin-right: var(--space-1); }
+.home-act { flex: none; }
+
+.home-row { display: flex; flex-direction: column; gap: 2px; padding: var(--space-2) 0; min-width: 0; }
+.home-row-main { font-weight: 600; overflow-wrap: anywhere; }
+a.home-row-main { text-decoration: none; }
+a.home-row-main:hover, a.home-row-main:focus-visible { text-decoration: underline; }
+.home-row code { font-size: 12px; font-weight: 400; overflow-wrap: anywhere; }
+.home-holder { letter-spacing: 0.02em; }
+
+.home-hrow { display: grid; grid-template-columns: 52px minmax(0, 1fr); align-items: start; gap: var(--space-3); padding: var(--space-2) 0; }
+.home-chip { display: inline-block; min-width: 0; padding: 1px 6px; border: 1px solid currentColor; border-radius: 3px; font-size: 11px; font-weight: 600; line-height: 16px; text-align: center; text-transform: uppercase; letter-spacing: 0.04em; }
+.home-hrow > .home-chip { justify-self: stretch; }
+.home-chip--pass { color: var(--success); }
+.home-chip--warn { color: #f5b942; }
+.home-chip--fail { color: var(--error); }
+.home-chip--info { color: var(--muted); }
+
+.home-lib { display: grid; grid-template-columns: 96px minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-1) var(--space-3); padding: var(--space-2) 0; align-items: baseline; }
+.home-lib-name { font-weight: 600; }
+.home-lib-num strong { font-variant-numeric: tabular-nums; font-size: 16px; }
+.home-lib-new, .home-lib-src { grid-column: 2 / -1; font-size: var(--fs-small); overflow-wrap: anywhere; }
+@media (max-width: 520px) {
+  .home-lib { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .home-lib-name { grid-column: 1 / -1; }
+  .home-lib-new, .home-lib-src { grid-column: 1 / -1; }
+  .home-need { grid-template-columns: minmax(0, 1fr); }
+  .home-act { justify-self: start; }
+}
+
+.home-steps { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: var(--space-2); }
+.home-steps a { text-decoration: none; }
+.home-steps a:hover, .home-steps a:focus-visible { text-decoration: underline; }
+
+.home a:focus-visible { outline: var(--focus); outline-offset: 2px; }
+.home-restart { padding: var(--space-2) var(--space-3); border: 1px solid #f5b942; border-radius: var(--glass-radius); color: var(--paper); background: #f5b94214; }
+.home-error { color: var(--error); }

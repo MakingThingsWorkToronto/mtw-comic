@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T23:26:48Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech)",
+  "characterId": "matt",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "The people who own the work.",
+  "flowId": "vVZjBDOCDEZ4ryUKN5qh",
+  "sessionId": "ya6uCPClFYOK3nTpyZJR",
+  "generationId": "wIdtcrNKhDyJUclH2l6S",
+  "reportedCredits": 28,
+  "status": "saved",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/matt/home-codex-home-matt-points-b1-raw-v1.mp3",
+  "rawSha256": "3877cfed3e98d36edea5bf9ff52a17d5d00a3873154e7675104db906b34e19d1",
+  "supersedesReceipt": "home-codex-home-matt-points-b1-connector-v1.json",
+  "note": "Single verification take after the earlier 'Free Tier disabled' report; the connector generated normally. Approved words (approvalId home-codex-home-matt-points-b1)."
+}

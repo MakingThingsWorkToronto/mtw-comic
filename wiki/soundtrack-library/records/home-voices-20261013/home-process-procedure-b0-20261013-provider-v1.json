@@ -1,0 +1,86 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "second-brain",
+  "scriptId": "home-process-procedure-b0-20261013",
+  "scriptSource": "wiki/comics-library/records/home-missing-voices-20261013-authorization.json#home-process-procedure-b0-20261013",
+  "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+  "voiceName": "Morgan Freeman — provider-labelled reference",
+  "modelId": "s2.1-pro-free",
+  "text": "Floor 31. Friday,\n8:10 a.m.",
+  "textSha256": "ac532e997d1268bee21f5582ea4dd91e147ad6b5c3a1dc505f25c9fea6aa3df1",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "Floor 31. Friday,\n8:10 a.m.",
+    "reference_id": "f9fd3dce16af4168a2545e27d293bffa"
+  },
+  "licensed": false,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "status": "saved",
+  "startedAt": "2026-10-13T16:57:11.528356+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "0a0881cbc0b109298781b8b047528280de69e98c68338d6cfcf8d21979e70ed8",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "sessionGenerationAuthorization": {
+    "sessionAuthorization": {
+      "path": "wiki/comics-library/records/home-missing-voices-20261013-authorization.json",
+      "sha256": "a0cefb397814bf7a8eb78e92c681174035013325655645b26ce1329bee097de9",
+      "lineId": "home-process-procedure-b0-20261013",
+      "directive": {
+        "quote": "i reviewed http://localhost:8787/comics/home/ and i am seeing many many missing voices and for the narration i have said to use the morgan freeman second brain voice for this many times. identify other things that were not fixed , i see no visual movement on the first scene or noting engaging at least.",
+        "goal": "complete comic",
+        "permission": "you have full access permissions do not ask me."
+      }
+    },
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T03:38:35.614209+00:00",
+      "useScope": "preview-review",
+      "productionHold": true,
+      "holdReason": "Provider-labelled community reference; production usage remains unverified. Exact narration words are not approved.",
+      "selectionSource": "Matt: use \"Morgan Freeman — provider-labelled reference\" for second brain voice please"
+    },
+    "hearingApproved": false,
+    "textReviewRecorded": false
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/speech/home-20261013/home-process-procedure-b0-20261013-raw-v1.mp3",
+    "sha256": "85234e6a0c4e458df4333f0c238aa19b52b163cc29fa3bc0fb616e755cf5a077",
+    "bytes": 60603,
+    "durationSeconds": 3.787688
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-13T16:57:14.569216+00:00"
+}

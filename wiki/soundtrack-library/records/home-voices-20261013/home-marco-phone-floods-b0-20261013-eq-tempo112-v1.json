@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:58:47.650Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-marco-phone-floods-b0-20261013-raw-v1.mp3",
+  "rawSha256": "97c3ddc6f3bd7a73cf3ceb62a949dca48d721e2d75a12c94bf58a4cac0f64c56",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-marco-phone-floods-b0-20261013-eq-tempo112-v1.mp3",
+  "sha256": "0e6b0ab562426e19c13d9fe7515ec3465914bad03d7f3acbd4128f8e346e0ee0",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-marco-phone-floods-b0-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-24.88",
+    "input_tp": "-5.63",
+    "input_lra": "1.90",
+    "input_thresh": "-35.97",
+    "output_i": "-19.02",
+    "output_tp": "-3.00",
+    "output_lra": "1.60",
+    "output_thresh": "-30.30",
+    "normalization_type": "dynamic",
+    "target_offset": "1.02"
+  },
+  "encodedMeasurement": {
+    "input_i": "-19.41",
+    "input_tp": "-3.20",
+    "input_lra": "1.80",
+    "input_thresh": "-30.55",
+    "output_i": "-18.08",
+    "output_tp": "-3.00",
+    "output_lra": "1.70",
+    "output_thresh": "-29.36",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "encodedIntegratedLufs": -19.41,
+  "encodedTruePeakDbtp": -3.2,
+  "durationSeconds": 4.582608,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": false,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "processing-review-required",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "home-brief-home-dana-office-b2",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Dana. I sent the wrong quote.",
+  "historyItemId": "cAZI59rUF8PKemEygxru",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "44d0666a68f6766e9f9351a84020b7cce17ffe9708e077f5653ac325343d0a43",
+  "createdAt": "2026-10-12T06:21:56.575Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

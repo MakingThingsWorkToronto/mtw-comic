@@ -1,0 +1,1299 @@
+{
+ "generated": "2026-09-28",
+ "method": "sharp raw pixels; luminance = Rec.709; black = L<40 (and L<25); paper white = L>225 and chroma<30; saturated = HSV s>0.5 and v>0.3; palette = k-means k=10 on a 160px-wide nearest downsample; gutters = rows/cols >=93% near-white (L>215) or near-black (L<30); ink runs = horizontal+vertical run lengths of L<60; halftone = autocorrelation peak on 48px midtone patches (low-res pages rarely resolve dots)",
+ "pages": {
+  "superman": {
+   "w": 800,
+   "h": 800,
+   "meanLum": 80.1,
+   "meanSat": 0.512,
+   "pctBlackL40": 29.8,
+   "pctBlackL25": 25.4,
+   "pctPaperWhite": 0,
+   "pctSaturated": 40.2,
+   "lumHistPct": [
+    25.5,
+    10.4,
+    17.5,
+    14.5,
+    9.3,
+    7.1,
+    5.7,
+    6,
+    2.5,
+    1.5
+   ],
+   "palette": [
+    {
+     "hex": "#040303",
+     "pct": 23.9,
+     "lum": 3
+    },
+    {
+     "hex": "#ce725c",
+     "pct": 12,
+     "lum": 132
+    },
+    {
+     "hex": "#772d29",
+     "pct": 11.4,
+     "lum": 60
+    },
+    {
+     "hex": "#f1a374",
+     "pct": 10,
+     "lum": 177
+    },
+    {
+     "hex": "#3a3840",
+     "pct": 9.1,
+     "lum": 57
+    },
+    {
+     "hex": "#b14933",
+     "pct": 8.7,
+     "lum": 93
+    },
+    {
+     "hex": "#7a5651",
+     "pct": 8.1,
+     "lum": 93
+    },
+    {
+     "hex": "#351b19",
+     "pct": 7.2,
+     "lum": 32
+    },
+    {
+     "hex": "#f7d59c",
+     "pct": 5.7,
+     "lum": 216
+    },
+    {
+     "hex": "#295d75",
+     "pct": 3.8,
+     "lum": 84
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [],
+    "colsWhite": [],
+    "rowsBlack": [
+     [
+      0,
+      20
+     ],
+     [
+      202,
+      18
+     ],
+     [
+      507,
+      16
+     ],
+     [
+      779,
+      21
+     ]
+    ],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 9,
+    "runModeFracW": 0.0013,
+    "runP50FracW": 0.0025,
+    "runP90FracW": 0.0112
+   },
+   "halftone": {
+    "patches": 1,
+    "medianPitchPx": 12,
+    "medianPitchFracW": 0.015,
+    "hist": {
+     "12": 1
+    }
+   }
+  },
+  "xmen132": {
+   "w": 426,
+   "h": 628,
+   "meanLum": 113,
+   "meanSat": 0.516,
+   "pctBlackL40": 35.9,
+   "pctBlackL25": 32.3,
+   "pctPaperWhite": 22.5,
+   "pctSaturated": 24.5,
+   "lumHistPct": [
+    32.4,
+    6.1,
+    8.7,
+    4.4,
+    4.8,
+    7.9,
+    3.7,
+    2.8,
+    5.6,
+    23.4
+   ],
+   "palette": [
+    {
+     "hex": "#060506",
+     "pct": 31.9,
+     "lum": 5
+    },
+    {
+     "hex": "#fcfdfd",
+     "pct": 23.1,
+     "lum": 253
+    },
+    {
+     "hex": "#d6c1c1",
+     "pct": 6.9,
+     "lum": 197
+    },
+    {
+     "hex": "#16a5c7",
+     "pct": 6.2,
+     "lum": 137
+    },
+    {
+     "hex": "#878481",
+     "pct": 6,
+     "lum": 132
+    },
+    {
+     "hex": "#653e1b",
+     "pct": 5.9,
+     "lum": 68
+    },
+    {
+     "hex": "#1a2b35",
+     "pct": 5.8,
+     "lum": 40
+    },
+    {
+     "hex": "#d9c91e",
+     "pct": 5.3,
+     "lum": 192
+    },
+    {
+     "hex": "#1e6275",
+     "pct": 4.6,
+     "lum": 85
+    },
+    {
+     "hex": "#e80711",
+     "pct": 4.3,
+     "lum": 56
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      6
+     ],
+     [
+      168,
+      5
+     ],
+     [
+      175,
+      2
+     ],
+     [
+      308,
+      3
+     ],
+     [
+      619,
+      9
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      8
+     ],
+     [
+      417,
+      9
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 10,
+    "runModeFracW": 0.0023,
+    "runP50FracW": 0.0047,
+    "runP90FracW": 0.0235
+   },
+   "halftone": {
+    "patches": 0,
+    "medianPitchPx": null,
+    "medianPitchFracW": null,
+    "hist": {}
+   }
+  },
+  "crisis-clean": {
+   "w": 426,
+   "h": 636,
+   "meanLum": 131.2,
+   "meanSat": 0.466,
+   "pctBlackL40": 22.5,
+   "pctBlackL25": 18.9,
+   "pctPaperWhite": 12.6,
+   "pctSaturated": 28.7,
+   "lumHistPct": [
+    19,
+    6.6,
+    8.8,
+    5.5,
+    10.3,
+    6.5,
+    6.5,
+    5.8,
+    9.4,
+    21.6
+   ],
+   "palette": [
+    {
+     "hex": "#0b0707",
+     "pct": 20.5,
+     "lum": 8
+    },
+    {
+     "hex": "#f7f8f4",
+     "pct": 15.7,
+     "lum": 248
+    },
+    {
+     "hex": "#f9e7ad",
+     "pct": 13.5,
+     "lum": 230
+    },
+    {
+     "hex": "#c890a5",
+     "pct": 10.6,
+     "lum": 157
+    },
+    {
+     "hex": "#698083",
+     "pct": 9.7,
+     "lum": 123
+    },
+    {
+     "hex": "#303f47",
+     "pct": 7.7,
+     "lum": 60
+    },
+    {
+     "hex": "#ecc422",
+     "pct": 7.2,
+     "lum": 193
+    },
+    {
+     "hex": "#7b5025",
+     "pct": 6.5,
+     "lum": 86
+    },
+    {
+     "hex": "#de0911",
+     "pct": 5.2,
+     "lum": 55
+    },
+    {
+     "hex": "#0ea0dc",
+     "pct": 3.3,
+     "lum": 133
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      5
+     ],
+     [
+      313,
+      2
+     ],
+     [
+      631,
+      5
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      5
+     ],
+     [
+      422,
+      4
+     ]
+    ],
+    "rowsBlack": [
+     [
+      401,
+      7
+     ]
+    ],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 8,
+    "runModeFracW": 0.0023,
+    "runP50FracW": 0.0047,
+    "runP90FracW": 0.0188
+   },
+   "halftone": {
+    "patches": 0,
+    "medianPitchPx": null,
+    "medianPitchFracW": null,
+    "hist": {}
+   }
+  },
+  "crisis-print": {
+   "w": 710,
+   "h": 1053,
+   "meanLum": 127.1,
+   "meanSat": 0.378,
+   "pctBlackL40": 15.8,
+   "pctBlackL25": 6.7,
+   "pctPaperWhite": 6.6,
+   "pctSaturated": 15.9,
+   "lumHistPct": [
+    7,
+    14.7,
+    9.9,
+    8.9,
+    11.3,
+    8.5,
+    7.6,
+    7.6,
+    19.8,
+    4.6
+   ],
+   "palette": [
+    {
+     "hex": "#191f13",
+     "pct": 17.9,
+     "lum": 29
+    },
+    {
+     "hex": "#e6d18a",
+     "pct": 15.3,
+     "lum": 209
+    },
+    {
+     "hex": "#eae1da",
+     "pct": 11.9,
+     "lum": 227
+    },
+    {
+     "hex": "#9f9890",
+     "pct": 9.5,
+     "lum": 153
+    },
+    {
+     "hex": "#4a341f",
+     "pct": 9.2,
+     "lum": 55
+    },
+    {
+     "hex": "#7d634b",
+     "pct": 8,
+     "lum": 103
+    },
+    {
+     "hex": "#3d4c48",
+     "pct": 7.9,
+     "lum": 72
+    },
+    {
+     "hex": "#d2605d",
+     "pct": 7.1,
+     "lum": 120
+    },
+    {
+     "hex": "#bcbebc",
+     "pct": 7,
+     "lum": 189
+    },
+    {
+     "hex": "#62808b",
+     "pct": 6.1,
+     "lum": 122
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      8
+     ],
+     [
+      1048,
+      5
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      11
+     ],
+     [
+      706,
+      4
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 7,
+    "runModeFracW": 0.0014,
+    "runP50FracW": 0.0028,
+    "runP90FracW": 0.0099
+   },
+   "halftone": {
+    "patches": 2,
+    "medianPitchPx": 9,
+    "medianPitchFracW": 0.0127,
+    "hist": {
+     "9": 2
+    }
+   }
+  },
+  "xmen137": {
+   "w": 426,
+   "h": 628,
+   "meanLum": 150.4,
+   "meanSat": 0.386,
+   "pctBlackL40": 20.8,
+   "pctBlackL25": 18.5,
+   "pctPaperWhite": 26.4,
+   "pctSaturated": 24.6,
+   "lumHistPct": [
+    18.6,
+    4,
+    5.7,
+    5.3,
+    4.7,
+    5.4,
+    5.9,
+    11,
+    8,
+    31.3
+   ],
+   "palette": [
+    {
+     "hex": "#fcfbfb",
+     "pct": 27.9,
+     "lum": 251
+    },
+    {
+     "hex": "#080709",
+     "pct": 20.5,
+     "lum": 8
+    },
+    {
+     "hex": "#3ac6ed",
+     "pct": 9.7,
+     "lum": 171
+    },
+    {
+     "hex": "#f9e39e",
+     "pct": 8.2,
+     "lum": 227
+    },
+    {
+     "hex": "#614d23",
+     "pct": 7.8,
+     "lum": 78
+    },
+    {
+     "hex": "#c2bfd0",
+     "pct": 7.5,
+     "lum": 193
+    },
+    {
+     "hex": "#8b867e",
+     "pct": 6.7,
+     "lum": 134
+    },
+    {
+     "hex": "#1e5a78",
+     "pct": 5.7,
+     "lum": 79
+    },
+    {
+     "hex": "#e8db1d",
+     "pct": 4.4,
+     "lum": 208
+    },
+    {
+     "hex": "#e00a0c",
+     "pct": 1.5,
+     "lum": 56
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      7
+     ],
+     [
+      168,
+      2
+     ],
+     [
+      619,
+      9
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      6
+     ],
+     [
+      419,
+      7
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 7,
+    "runModeFracW": 0.0023,
+    "runP50FracW": 0.0047,
+    "runP90FracW": 0.0164
+   },
+   "halftone": {
+    "patches": 0,
+    "medianPitchPx": null,
+    "medianPitchFracW": null,
+    "hist": {}
+   }
+  },
+  "alltime": {
+   "w": 900,
+   "h": 1384,
+   "meanLum": 140,
+   "meanSat": 0.465,
+   "pctBlackL40": 21.2,
+   "pctBlackL25": 19.3,
+   "pctPaperWhite": 25.6,
+   "pctSaturated": 37,
+   "lumHistPct": [
+    19.3,
+    3.7,
+    8.5,
+    5.5,
+    5.8,
+    6.5,
+    7.5,
+    7.5,
+    7.1,
+    28.6
+   ],
+   "palette": [
+    {
+     "hex": "#f7f1e3",
+     "pct": 25.8,
+     "lum": 241
+    },
+    {
+     "hex": "#050404",
+     "pct": 19.9,
+     "lum": 4
+    },
+    {
+     "hex": "#f2d131",
+     "pct": 12,
+     "lum": 204
+    },
+    {
+     "hex": "#edab9d",
+     "pct": 9,
+     "lum": 184
+    },
+    {
+     "hex": "#e8532d",
+     "pct": 8.3,
+     "lum": 112
+    },
+    {
+     "hex": "#553635",
+     "pct": 7.7,
+     "lum": 61
+    },
+    {
+     "hex": "#77873c",
+     "pct": 6.9,
+     "lum": 126
+    },
+    {
+     "hex": "#d2207c",
+     "pct": 5.4,
+     "lum": 77
+    },
+    {
+     "hex": "#7096b7",
+     "pct": 2.8,
+     "lum": 144
+    },
+    {
+     "hex": "#f9fcf9",
+     "pct": 2.2,
+     "lum": 251
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      55
+     ],
+     [
+      464,
+      21
+     ],
+     [
+      883,
+      21
+     ],
+     [
+      1313,
+      71
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      33
+     ],
+     [
+      869,
+      31
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 6,
+    "runModeFracW": 0.0011,
+    "runP50FracW": 0.0022,
+    "runP90FracW": 0.0067
+   },
+   "halftone": {
+    "patches": 2,
+    "medianPitchPx": 7,
+    "medianPitchFracW": 0.0078,
+    "hist": {
+     "7": 2
+    }
+   }
+  },
+  "spidey33": {
+   "w": 426,
+   "h": 627,
+   "meanLum": 126.6,
+   "meanSat": 0.505,
+   "pctBlackL40": 17.4,
+   "pctBlackL25": 13.8,
+   "pctPaperWhite": 12.9,
+   "pctSaturated": 30.5,
+   "lumHistPct": [
+    13.9,
+    8.6,
+    9.1,
+    4.4,
+    8.1,
+    7.4,
+    29.3,
+    3.4,
+    2.3,
+    13.5
+   ],
+   "palette": [
+    {
+     "hex": "#83a7b2",
+     "pct": 31.1,
+     "lum": 160
+    },
+    {
+     "hex": "#070a0c",
+     "pct": 15.2,
+     "lum": 10
+    },
+    {
+     "hex": "#f5f9f9",
+     "pct": 15,
+     "lum": 248
+    },
+    {
+     "hex": "#d90711",
+     "pct": 8.3,
+     "lum": 52
+    },
+    {
+     "hex": "#1a5b52",
+     "pct": 8.2,
+     "lum": 76
+    },
+    {
+     "hex": "#0c9ad8",
+     "pct": 7.4,
+     "lum": 128
+    },
+    {
+     "hex": "#55727c",
+     "pct": 5.7,
+     "lum": 109
+    },
+    {
+     "hex": "#56cdee",
+     "pct": 3.7,
+     "lum": 182
+    },
+    {
+     "hex": "#7c1615",
+     "pct": 3.6,
+     "lum": 43
+    },
+    {
+     "hex": "#eae316",
+     "pct": 1.7,
+     "lum": 214
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      2
+     ],
+     [
+      139,
+      6
+     ],
+     [
+      350,
+      7
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      2
+     ],
+     [
+      210,
+      6
+     ],
+     [
+      424,
+      2
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 10,
+    "runModeFracW": 0.0023,
+    "runP50FracW": 0.0047,
+    "runP90FracW": 0.0235
+   },
+   "halftone": {
+    "patches": 1,
+    "medianPitchPx": 15,
+    "medianPitchFracW": 0.0352,
+    "hist": {
+     "15": 1
+    }
+   }
+  },
+  "avengers-slam": {
+   "w": 452,
+   "h": 678,
+   "meanLum": 130.1,
+   "meanSat": 0.444,
+   "pctBlackL40": 24.7,
+   "pctBlackL25": 22.3,
+   "pctPaperWhite": 23.1,
+   "pctSaturated": 33.2,
+   "lumHistPct": [
+    22.4,
+    4.3,
+    11.4,
+    5.5,
+    7.4,
+    4.6,
+    6.9,
+    5.1,
+    8.4,
+    24
+   ],
+   "palette": [
+    {
+     "hex": "#f9f6f5",
+     "pct": 25.9,
+     "lum": 247
+    },
+    {
+     "hex": "#060506",
+     "pct": 22.6,
+     "lum": 6
+    },
+    {
+     "hex": "#df1d31",
+     "pct": 10.4,
+     "lum": 72
+    },
+    {
+     "hex": "#a5aaaf",
+     "pct": 10,
+     "lum": 169
+    },
+    {
+     "hex": "#fbe40d",
+     "pct": 8.3,
+     "lum": 218
+    },
+    {
+     "hex": "#4c2a28",
+     "pct": 7,
+     "lum": 49
+    },
+    {
+     "hex": "#71636a",
+     "pct": 4.8,
+     "lum": 102
+    },
+    {
+     "hex": "#0b92d5",
+     "pct": 4.7,
+     "lum": 122
+    },
+    {
+     "hex": "#098158",
+     "pct": 3.8,
+     "lum": 100
+    },
+    {
+     "hex": "#cc9e2a",
+     "pct": 2.5,
+     "lum": 159
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      0,
+      8
+     ],
+     [
+      331,
+      7
+     ],
+     [
+      675,
+      3
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      7
+     ],
+     [
+      221,
+      8
+     ],
+     [
+      445,
+      7
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 1,
+    "runP50px": 2,
+    "runP90px": 6,
+    "runModeFracW": 0.0022,
+    "runP50FracW": 0.0044,
+    "runP90FracW": 0.0133
+   },
+   "halftone": {
+    "patches": 0,
+    "medianPitchPx": null,
+    "medianPitchFracW": null,
+    "hist": {}
+   }
+  },
+  "darkseid": {
+   "w": 1080,
+   "h": 1447,
+   "meanLum": 136.6,
+   "meanSat": 0.445,
+   "pctBlackL40": 25.1,
+   "pctBlackL25": 21.4,
+   "pctPaperWhite": 22.7,
+   "pctSaturated": 26.5,
+   "lumHistPct": [
+    21.6,
+    5.7,
+    5,
+    10.7,
+    6.7,
+    3,
+    3.2,
+    8.8,
+    7.5,
+    27.8
+   ],
+   "palette": [
+    {
+     "hex": "#fcfcfa",
+     "pct": 23.7,
+     "lum": 252
+    },
+    {
+     "hex": "#08080b",
+     "pct": 21.9,
+     "lum": 8
+    },
+    {
+     "hex": "#1b6edc",
+     "pct": 11.8,
+     "lum": 100
+    },
+    {
+     "hex": "#bfbdf0",
+     "pct": 10.3,
+     "lum": 193
+    },
+    {
+     "hex": "#d3dfa0",
+     "pct": 8.1,
+     "lum": 216
+    },
+    {
+     "hex": "#523822",
+     "pct": 6.3,
+     "lum": 60
+    },
+    {
+     "hex": "#80847c",
+     "pct": 6.1,
+     "lum": 130
+    },
+    {
+     "hex": "#f6f232",
+     "pct": 4.6,
+     "lum": 229
+    },
+    {
+     "hex": "#142e62",
+     "pct": 4.4,
+     "lum": 44
+    },
+    {
+     "hex": "#e6295b",
+     "pct": 2.8,
+     "lum": 84
+    }
+   ],
+   "gutters": {
+    "rowsWhite": [
+     [
+      444,
+      12
+     ],
+     [
+      651,
+      13
+     ],
+     [
+      1443,
+      4
+     ]
+    ],
+    "colsWhite": [
+     [
+      0,
+      47
+     ],
+     [
+      1023,
+      57
+     ]
+    ],
+    "rowsBlack": [],
+    "colsBlack": []
+   },
+   "ink": {
+    "runModePx": 2,
+    "runP50px": 2,
+    "runP90px": 8,
+    "runModeFracW": 0.0019,
+    "runP50FracW": 0.0019,
+    "runP90FracW": 0.0074
+   },
+   "halftone": {
+    "patches": 35,
+    "medianPitchPx": 9,
+    "medianPitchFracW": 0.0083,
+    "hist": {
+     "6": 1,
+     "8": 1,
+     "9": 31,
+     "13": 2
+    }
+   }
+  }
+ },
+ "generatedStyleKey": {
+  "w": 1672,
+  "h": 941,
+  "meanLum": 25.8,
+  "meanSat": 0.594,
+  "pctBlackL40": 75.6,
+  "pctBlackL25": 68.9,
+  "pctPaperWhite": 0,
+  "pctSaturated": 5.8,
+  "lumHistPct": [
+   69.2,
+   11.1,
+   11,
+   5.4,
+   1,
+   0.7,
+   0.6,
+   0.8,
+   0.2,
+   0.1
+  ],
+  "palette": [
+   {
+    "hex": "#030708",
+    "pct": 27.6,
+    "lum": 6
+   },
+   {
+    "hex": "#020506",
+    "pct": 17.7,
+    "lum": 4
+   },
+   {
+    "hex": "#344b56",
+    "pct": 10,
+    "lum": 71
+   },
+   {
+    "hex": "#060c0e",
+    "pct": 8.4,
+    "lum": 10
+   },
+   {
+    "hex": "#22343d",
+    "pct": 8,
+    "lum": 49
+   },
+   {
+    "hex": "#000102",
+    "pct": 7.6,
+    "lum": 1
+   },
+   {
+    "hex": "#162227",
+    "pct": 6.7,
+    "lum": 32
+   },
+   {
+    "hex": "#0c1418",
+    "pct": 6.4,
+    "lum": 19
+   },
+   {
+    "hex": "#466973",
+    "pct": 5.1,
+    "lum": 99
+   },
+   {
+    "hex": "#a4b6b1",
+    "pct": 2.4,
+    "lum": 178
+   }
+  ],
+  "gutters": {
+   "rowsWhite": [],
+   "colsWhite": [],
+   "rowsBlack": [
+    [
+     2,
+     7
+    ],
+    [
+     931,
+     6
+    ]
+   ],
+   "colsBlack": [
+    [
+     5,
+     7
+    ],
+    [
+     1660,
+     8
+    ]
+   ]
+  },
+  "ink": {
+   "runModePx": 2,
+   "runP50px": 3,
+   "runP90px": 10,
+   "runModeFracW": 0.0012,
+   "runP50FracW": 0.0018,
+   "runP90FracW": 0.006
+  },
+  "halftone": {
+   "patches": 0,
+   "medianPitchPx": null,
+   "medianPitchFracW": null,
+   "hist": {}
+  }
+ },
+ "manual": {
+  "note": "Manual measurements taken from zoomed crops (2-3.5x, nearest) at the source resolution; px are source pixels; frac = fraction of page width.",
+  "darkseid": {
+   "pageW": 1080,
+   "balloon_youwaste": {
+    "w": 163,
+    "h": 62,
+    "ratio": 2.6,
+    "capHeightPx": 10,
+    "capFrac": 0.0093,
+    "linePitchPx": 13,
+    "outlinePx": 2,
+    "outlineOverCap": 0.2,
+    "tailLenPx": 22,
+    "tailBasePx": 8,
+    "wordsPerLine": [
+     2,
+     3,
+     1
+    ]
+   },
+   "caption_excuseMe": {
+    "shape": "rectangle, white fill, 2px black rule",
+    "lines": 5,
+    "wordsPerLine": [
+     7,
+     5,
+     6,
+     7,
+     6
+    ],
+    "emphasis": "italic lower-case uh"
+   },
+   "halftone": {
+    "pitchPx": 9,
+    "pitchFrac": 0.0083,
+    "grid": "orthogonal square",
+    "dotDiameterOverPitch": 0.5,
+    "where": "flat sky/space backdrop behind hands, lavender and blue fields"
+   }
+  },
+  "alltime": {
+   "pageW": 900,
+   "guttersPx": 21,
+   "gutterFrac": 0.023,
+   "paper": "#f7f1e3 cream",
+   "caption": {
+    "fill": "#f2d131",
+    "rulePx": 2,
+    "lettering": "slanted hand italic, bold for key nouns"
+   },
+   "burstBalloon": "jagged spiky outline for screams",
+   "sfx": {
+    "word": "WHOOOSH",
+    "letterHeightFrac": 0.08,
+    "fill": "pink with dark spots",
+    "outline": "thick black",
+    "breaksBorder": true
+   },
+   "printArtifacts": "cyan misregistration ~2-3 px, visible grain and halftone ~7 px (0.0078)"
+  },
+  "xmen132": {
+   "pageW": 426,
+   "rowGutterPx": 5,
+   "gutterFrac": 0.012,
+   "next": {
+    "band": "red #e80711",
+    "lettering": "white outlined display caps + black brush caps",
+    "tag": "NEXT stacked vertically at left, arrow notch",
+    "burst": "yellow starburst WUFF SAID"
+   },
+   "caption": "yellow #d9c91e, black rule, italic upper case",
+   "balloonTail": "long thin tapered, bends toward speaker"
+  },
+  "spidey33": {
+   "pageW": 426,
+   "grid": "2x3 equal panels",
+   "gutterPx": 6,
+   "gutterFrac": 0.014,
+   "balloons": "irregular rounded shapes hugging text, butted against panel border, 1-3 words per line, 5-7 lines",
+   "thought": "none on this page (all speech in strain)"
+  },
+  "xmen137": {
+   "pageW": 426,
+   "gutterFrac": 0.016,
+   "balloons": "narrow, 1-3 words per line, stacked chains of 2 balloons from one speaker, bold italic emphasis on single words (ONE)",
+   "closeups": "faces cropped at forehead/chin, eyes and tears carry emotion"
+  },
+  "crisis": {
+   "steppedPanels": "5 shrinking inset panels descending diagonally over a light burst = time passing",
+   "sfx": "NOOOOO red gradient, huge, overlapping panels",
+   "silhouette": "black figure on rubble strip against magenta flames"
+  },
+  "superman": {
+   "modern": "painted/digital rendering, gradients, rim light; black gutters 16-21px of 800 (0.021)",
+   "use": "only as the modern end of the range: wide establishing shots and parallax-ready depth"
+  },
+  "avengersSlam": {
+   "sfx": {
+    "word": "SLAM!",
+    "letterHeightFrac": 0.12,
+    "fill": "green",
+    "outline": "black 2-3px",
+    "placement": "bottom of panel, figures overlap letters"
+   },
+   "diagonals": "speed lines, diagonal panel borders"
+  }
+ }
+}

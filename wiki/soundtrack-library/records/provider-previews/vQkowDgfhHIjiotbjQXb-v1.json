@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "type": "existing-provider-preview",
+  "source": {
+    "voiceId": "vQkowDgfhHIjiotbjQXb",
+    "name": "Mark Dancer - a naturally deep, rich, and wise voice",
+    "description": "Mark Dancer's voice carries power and a smoothness to it, like a well-worn baritone that’s lived a little, learned a lot, and doesn’t need to shout to be heard.",
+    "labels": {
+      "age": "middle-aged",
+      "language": "en",
+      "accent": "en-american",
+      "gender": "male"
+    },
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/bb3de32d375e4462a5d1aebc77eb7b0a/voices/vQkowDgfhHIjiotbjQXb/8jeG4Pim8ioqJMiazJP8.mp3",
+    "category": "professional",
+    "provider": "ElevenLabs"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/vQkowDgfhHIjiotbjQXb-v1.mp3",
+    "sha256": "c29be81dd4ef9f24d15ae8ff776cfa454b0d6a9e5b46df4f645c3a6354871290",
+    "bytes": 147893,
+    "durationSeconds": 8.126984
+  },
+  "httpContentType": "audio/mpeg",
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "hearingReview": "Matt evaluation pending",
+  "productionRights": "Not asserted",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "mp4a.40.34",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 114688000,
+        "duration": "8.126984",
+        "bit_rate": "128000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Code\\MTW-comics-shelf-20261009\\more-narrator-previews-20261010\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\vQkowDgfhHIjiotbjQXb-v1.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "8.126984",
+      "size": "147893",
+      "bit_rate": "145582",
+      "probe_score": 52,
+      "tags": {
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  }
+}

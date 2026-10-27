@@ -1,0 +1,1006 @@
+{
+  "schemaVersion": 1,
+  "textReviews": [
+    {
+      "id": "home-doubt-home-ratecard-close-b1",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "940f629afc0c7789a08371843450368af32d0aa981ad8fe445c513949e02c158",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "f0a69ef5e2302f777333732d20abd51cf42bec5f465847caf4683a52ade8921e"
+      },
+      "status": "rejected",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-11T14:28:50.675Z"
+    },
+    {
+      "id": "home-call-home-call-alert-b2",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "002e9c8fe0f4e9a75653589887086e166cd7d78c45a537ca3be424aee945db36",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:25:58.833Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-task-b1",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "5f3a326d54d42ee84484ff93b01bacfa409e7534daf4b05c589239f46cde084d",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:01.947Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-wrong-b1",
+      "characterId": "dana",
+      "provider": "Fish Audio",
+      "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+      "textSha256": "40f56d7ea478be65e688b4fdae69f64482ef50dd89b810bf9b280843887bee9b",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:09.992Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-wrong-b2",
+      "characterId": "dana",
+      "provider": "Fish Audio",
+      "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+      "textSha256": "516110910ceafccbce0dc440e94b5df6a4899315503c69bc68369c0cf3ae916f",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:12.846Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-card-b1",
+      "characterId": "dana",
+      "provider": "Fish Audio",
+      "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+      "textSha256": "f352bf89e5df4885bea66394c4439fa493b2ab67be6f1da18fc89a1df4727590",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:17.367Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-card-b2",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "4f7f850113624829accf23a24cb0206e4bdd1f62e06045cb8a635218384be46f",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:20.403Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-matt-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "86009cc25a4943b343f45c433cb95b59236c91e099870f99527a62a51e2c03ed",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:25.448Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-call-home-call-matt-b2",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "b021d54a1d76624c34c7b6b49a79f89f11f173dbd23fb2f57ce3189c1993995a",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:27.488Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-agent-home-rogue-screens-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "4dd84050538d59c40a3083575a1063f4e9e3348578d0201bb1e637acefd277ed",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:29.191Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-agent-home-rogue-speaks-b1",
+      "characterId": "rogue",
+      "provider": "ElevenLabs",
+      "voiceId": "NoiYxL9g25M4orC8Q0ls",
+      "textSha256": "b0040e2bfceb96987959fdfb4ca26d9e4a4ce49ef4a21c719c2c2badf7ab57ec",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:31.406Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-agent-home-marco-phone-floods-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "2763de4d16e0cd8c27eeb067fa42f6d0f397839b95d7771f6a5651b78df871b7",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:34.777Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-agent-home-screens-dark-b1",
+      "characterId": "rogue",
+      "provider": "ElevenLabs",
+      "voiceId": "NoiYxL9g25M4orC8Q0ls",
+      "textSha256": "e9830118966ae2ac930d52faaaaa3a8fde543311189c88596d2c8ac2ba2e5f0c",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:41.259Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-codex-home-matt-stops-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "b0c879abe018f5ce14617021b5cf0452b6ddeba1b8f0da2382bed52c872bbca0",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:45.407Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-codex-home-matt-close-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "bcd8fa31751be3941b2dc9b8559c3018646126d9c600d38c18203c31cb34f384",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:49.329Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-codex-home-matt-points-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "ffb1b3e6949e5b5943667ba9c8e6bfa692e5a54f3554fb31a627c495affc9f0c",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:52.444Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-answers-home-marco-answers-rate-b1",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "92474e9ae1ca11d54fab6d70b2b7b025197555765fd2c1f9d930ae4a831ecb74",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:54.106Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-answers-home-marco-nobody-b2",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "a3253d53aad071e39ae6e9e731f6b42b4b1c54fd2eddc37d80507d45c8c976ec",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:55.913Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-answers-home-matt-wait-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "d05a490c2b2c338f2f3ba30ee8647915d146041358366c814683bde88729774d",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:58.138Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-brain-home-process-procedure-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "c99142c8f67d1d46e3a71d3c83ef39e90618262cc4d2439ddd624422523702fd",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:26:59.782Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-access-home-process-permissions-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "511e610b622f22c2174def254da82510e2313c2a6a4a929a04e4ade2a54f95de",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:01.618Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-access-home-codex-gaps-b1",
+      "characterId": "codex",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "textSha256": "d1bb28f7dc4900d2671295414539729057779753dc06e2ed3465e046ade285ac",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:04.189Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-access-home-codex-gaps-b2",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "eb125c191f983efd7dd42c4274f01380d26fe002265dfeed7c2ad9c8cf1d9b4c",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:05.937Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-lobby-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "008bb5a84ac58350d94cbd51c40fdf50dcf6ea31a2b4fa2b5465303aa466eecb",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:07.915Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-ruth-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "fc9cd12e13ab8348c491b2a6fad78edc21c833a35feafa225dffbe66c6cdeeb2",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:10.227Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-ruth-b2",
+      "characterId": "ruth",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "textSha256": "8220479ddb6caeef5845ef7b741150141091b23660a91e28dcf0456581db4092",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:13.672Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-sam-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "fadc944e43e041e5c4072c70ce72b6942a6f7f41cc708eebed025a21b371694c",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:15.897Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-sam-b2",
+      "characterId": "sam",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "textSha256": "387d46ade1d8d6de7eeb1b8acfc60decad44362152bd088602bd54bbb1207fec",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:17.554Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-marco-sorry-b1",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "8775f94d7acb14ac7e092b0cc8457e558678327b09ae16a764f7b16d5ddff202",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:19.882Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-ruth-order-b1",
+      "characterId": "ruth",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "textSha256": "345d62e86b8ee40003ce7859757ec261527ff72b9f31d23d57f7bafa5dc0b892",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:22.015Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-elevator-up-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "36d7dea8c20c434bfbc2664a559b6b1008a8cdd45c070518fb366e260a79ad3b",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:23.706Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-lobby-home-elevator-up-b2",
+      "characterId": "sam",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "textSha256": "4a10342bd11563a8763c61ae0b851de76dfbed0f446b006156bf1218bfaae6f3",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:25.189Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-compare-table-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "c5207554d7914b0beb511d0fb6ba0fab93b0473ff04570230e6ebffd300f9dc6",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:28.453Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-compare-table-b2",
+      "characterId": "ruth",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "textSha256": "20f817752bd16a37016e785451c6ad31b3d5718a9883c7c719ab42d4a3adae7f",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:30.457Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-compare-closeup-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "6b7f65be80224fb80ef2df88801d0441a531e9770b21647182c4b3388178008c",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:32.089Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-sam-card-b1",
+      "characterId": "sam",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "textSha256": "386d64d708141372de090582c8a50fccad0d6ba7e87b2c474cfe04f9fdb188c9",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:34.259Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-sam-labour-b1",
+      "characterId": "sam",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "textSha256": "a914785f547a70aea715ff9db0d8c5fe82cea1c7854e8114978761deb6ea1e03",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:36.025Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-codex-records-b1",
+      "characterId": "codex",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "textSha256": "bd49920f2d0705ae02aacaf500b1288bd737332f1503531f2eea7eee592e3f68",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:37.787Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-matt-rule-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "9c8c592a1759ad524808d070911b35f9a83653776af2d79ac808deded0ceb8fc",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:45.084Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-compare-home-matt-rule-b2",
+      "characterId": "ruth",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "textSha256": "c543d2906b4db44fa4772f9d107711de87bf94bb72c1b214bc029fb6eada8315",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:47.998Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-nine-home-codex-safety-test-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "1a03bf67486858e81e91ebf81b516c677280e1dbe1027bbe53f55364ca938dcb",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:50.819Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-nine-home-codex-safety-test-b2",
+      "characterId": "codex",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "textSha256": "4e809bf63e291baf2df3c01b3d8032b0a2806a9aef8ee38845169deeb62df846",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:54.318Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-nine-home-marco-ticks-b1",
+      "characterId": "marco",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "textSha256": "f94a89a42c817272e575ce10d47517b84984bfaf984b00ed6099825fe7b340d0",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:58.030Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-roof-home-codex-teal-b1",
+      "characterId": "codex",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "textSha256": "c3ae20b37f4d5ff961d2e4f42b9d3a95e1c22bf05b40ebbef35a97102d2b2111",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:27:59.925Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-roof-home-matt-names-b1",
+      "characterId": "matt",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "textSha256": "711e7b92f7bc2160ccf0a7656525b9b6d7017ccb672745e12ad29d064fb2ba9e",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:28:01.871Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-monday-home-monday-desks-b1",
+      "characterId": "second-brain",
+      "provider": "",
+      "voiceId": "",
+      "textSha256": "d9a600a1bef8e552077536632bca685b99d923317587f7e7454392de7f57fb46",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:28:05.605Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-monday-home-monday-desks-b2",
+      "characterId": "sam",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "textSha256": "3b19d4d3cf395c2e501d34ecc77896335ac1ee7623f906700804d1c45e21a045",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:28:07.553Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    },
+    {
+      "id": "home-monday-home-codex-lists-b1",
+      "characterId": "codex",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "textSha256": "f158fa25e86ba42ea20d60ed8dc00f561b9ac12d77b31a956e1ef1ed7f8422db",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:28:09.158Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review",
+        "reRecorded": "Re-recorded unchanged against the current home.ts after the 2026-10-15T19:22:49Z Studio caption-position edit (home-tower-night y); words identical."
+      }
+    }
+  ]
+}

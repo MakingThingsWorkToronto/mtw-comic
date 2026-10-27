@@ -1,0 +1,32 @@
+/* Spend module. sp- prefix so it never collides with other modules' global CSS. */
+.num { display: inline-block; min-width: 3.5em; text-align: right; font-variant-numeric: tabular-nums; }
+td .num { display: block; min-width: 0; }
+.sp-note { font-size: 12px; max-width: 80ch; }
+.page h2 { font-size: 16px; margin-bottom: var(--space-2); }
+.sp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-5); }
+.sp-bars { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.sp-bars li { display: grid; grid-template-columns: minmax(80px, 190px) minmax(60px, 1fr) 64px 72px; align-items: center; gap: var(--space-3); font-size: 12px; }
+.sp-bars li.sp-limit { grid-template-columns: minmax(80px, 190px) minmax(60px, 1fr) auto auto; }
+.sp-bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); }
+.sp-bar-track { height: 8px; background: #ffffff10; border-radius: 2px; overflow: hidden; display: block; }
+.sp-bar-fill { display: block; height: 100%; background: var(--teal); min-width: 1px; }
+.sp-bar-fill.sp-warn { background: #e0a43a; }
+.sp-strip { margin: 0; }
+.sp-strip svg { display: block; width: 100%; height: 72px; border-bottom: 1px solid var(--line); }
+.sp-strip figcaption { display: flex; justify-content: space-between; gap: var(--space-3); font-size: 11px; margin-top: 4px; }
+.sp-legend { display: inline-flex; gap: var(--space-3); color: var(--muted); }
+.sp-swatch { display: inline-block; width: 8px; height: 8px; margin-right: 4px; border-radius: 1px; }
+.sp-c1 { fill: var(--teal); background: var(--teal); }
+.sp-c2 { fill: var(--teal-light); background: var(--teal-light); }
+.sp-c3 { fill: #8a9a9c; background: #8a9a9c; }
+.sp-budgets { display: flex; flex-direction: column; gap: var(--space-3); }
+.sp-budget { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-3); padding: var(--space-3); border: 1px solid var(--line); border-radius: var(--glass-radius); }
+.sp-budget .field { min-width: 120px; flex: 1 1 120px; }
+.sp-budget-use { display: flex; align-items: center; gap: var(--space-2); flex: 2 1 220px; font-size: 12px; min-height: var(--control-h); }
+.sp-budget-use .sp-bar-track { flex: 1; }
+.sp-form { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-3); }
+.sp-form .field { min-width: 110px; flex: 1 1 130px; }
+@media (max-width: 760px) {
+  .sp-bars li, .sp-bars li.sp-limit { grid-template-columns: minmax(60px, 100px) minmax(40px, 1fr) 56px; }
+  .sp-bars li > :nth-child(4) { grid-column: 1 / -1; }
+}

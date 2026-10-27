@@ -1,0 +1,15 @@
+/* Fixed canvas paint changes only cube opacity. The head runtime supplies the
+   same critical geometry before external/dev CSS; main stays stationary. */
+.page-transition {
+  --transition-ready: 1;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-transition { display: none !important; }
+}

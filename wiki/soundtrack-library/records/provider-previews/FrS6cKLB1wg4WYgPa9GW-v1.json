@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "type": "existing-provider-preview",
+  "source": {
+    "voiceId": "FrS6cKLB1wg4WYgPa9GW",
+    "name": "Wyatt - Seasoned Mentor",
+    "description": "Measured and thoughtful, this voice carries the weight of experience. Ideal for long-form documentaries or insightful educational content.",
+    "labels": {
+      "gender": "male",
+      "accent": "en-american",
+      "age": "middle-aged",
+      "language": "en"
+    },
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/1da06ea679a54975ad96a2221fe6530d/voices/FrS6cKLB1wg4WYgPa9GW/401782f2-fb6e-46fb-b69b-e9c9530608ab.mp3",
+    "category": "professional",
+    "provider": "ElevenLabs"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/FrS6cKLB1wg4WYgPa9GW-v1.mp3",
+    "sha256": "e30e2236bd9f1893f263bc6aaeddb6f38dc34d1e19fea3746165bde3ec9b6c84",
+    "bytes": 180811,
+    "durationSeconds": 4.458231
+  },
+  "httpContentType": "text/plain",
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "hearingReview": "Matt evaluation pending",
+  "productionRights": "Not asserted",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "mp4a.40.34",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 62914560,
+        "duration": "4.458231",
+        "bit_rate": "320000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Code\\MTW-comics-shelf-20261009\\more-narrator-previews-20261010\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\FrS6cKLB1wg4WYgPa9GW-v1.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "4.458231",
+      "size": "180811",
+      "bit_rate": "324453",
+      "probe_score": 52,
+      "tags": {
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  }
+}

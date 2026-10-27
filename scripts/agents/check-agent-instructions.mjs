@@ -1,0 +1,3 @@
+import fs from'node:fs';import path from'node:path';
+export function inspectInstructions(root){const issues=[],agent=path.join(root,'AGENTS.md'),shim=path.join(root,'CLAUDE.md');if(!fs.existsSync(agent))issues.push('Root AGENTS.md is missing');if(!fs.existsSync(shim)||fs.readFileSync(shim,'utf8').trim()!=='@AGENTS.md')issues.push('CLAUDE.md must load @AGENTS.md');if(fs.existsSync(agent)&&!fs.readFileSync(agent,'utf8').includes('Reproduce after pulling'))issues.push('AGENTS.md needs pull/reproduction instructions');return{issues};}
+if(process.argv[1]&&path.resolve(process.argv[1])===path.resolve(import.meta.filename)){const report=inspectInstructions(process.cwd());console.log(JSON.stringify(report));process.exitCode=report.issues.length?1:0;}

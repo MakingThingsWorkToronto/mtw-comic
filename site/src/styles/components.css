@@ -1,0 +1,161 @@
+@import './grid-background.css';
+/* Shared component styles extracted from the samples. Values are copied unchanged; each rule
+   names its source. Placement (position, top, left, right, margins used only to place a
+   component inside a sample scene) is left out: pages place components themselves. */
+
+/* ---------- Hero Heading ----------
+   codex-strata cinematic.css .agency-heading h1. The font family, letter spacing and balance come
+   from codex-shared base.css h1, so the class also works on an element that is not an h1. */
+.hero-heading {
+  font-family: var(--display); font-weight: 600; letter-spacing: -.015em; text-wrap: balance;
+  font-size: clamp(76px, 8.2vw, 134px); line-height: .88;
+}
+@media (max-width: 1100px) and (min-width: 851px) { .hero-heading { font-size: 90px; } }
+/* Narrow: .agency-heading h1 clamp(62px, 13vw, 98px), then the homepage's
+   .department-story .agency-heading h1 { font-size: 65px } in the same query, which is what the sample renders. */
+@media (max-width: 850px) { .hero-heading { font-size: 65px; } }
+
+/* ---------- Glass Panel, large size ----------
+   codex-strata cinematic.css .agency-introduction, with its responsive overrides.
+   Use together with .glass. The section size is .department-explanation in parallax.css. */
+.glass-panel-large { width: 370px; max-width: 100%; padding: 28px; }
+.glass-panel-large h3 { font-size: 34px; margin-bottom: 23px; }
+.glass-panel-large p { font-size: 14px; color: #d0d9db; }
+.glass-panel-large > p + h3 { margin-top: 24px; }
+.glass-panel-large .text-link { margin-top: 20px; font-size: 13px; }
+@media (min-width: 851px) and (max-height: 850px) {
+  .glass-panel-large { padding: 22px; }
+  .glass-panel-large h3 { font-size: 31px; margin-bottom: 17px; }
+  .glass-panel-large p { font-size: 13px; }
+  .glass-panel-large .text-link { margin-top: 10px; }
+}
+@media (max-width: 1100px) and (min-width: 851px) { .glass-panel-large { width: 310px; } }
+@media (max-width: 850px) { .glass-panel-large { padding: 24px; } }
+
+/* Two-colour glass headings (Final Decision for Theme): the second phrase uses the same .accent span
+   as the Hero Heading, e.g. <h3>First phrase <span class="accent">second phrase</span></h3>.
+   Stated here so both Glass Panel sizes keep the teal-light colour and the heading's own weight. */
+.glass :is(h2, h3) .accent { color: var(--teal-light); font-weight: inherit; }
+
+/* ---------- Contact Form ----------
+   codex-shared base.css .contact-form field styles. Use together with .glass. */
+.contact-form { padding: 36px; position: relative; }
+.contact-form label { display: block; font-size: 14px; margin: 0 0 9px; }
+.contact-form input, .contact-form textarea, .contact-form select { width: 100%; background: #07131788; color: var(--paper); border: 1px solid #ffffff40; border-radius: 3px; padding: 12px 14px; min-height: 50px; margin-bottom: 8px; caret-color: var(--teal-light); }
+/* ---------- Field rhythm (spacing review, 2026-09-15, Matt: "Nothing should shift when an error appears") ----------
+   The sample put 23px under a field and added the message paragraph on top of it, so the first time a field showed an
+   error everything below it dropped by the height of the message. Every field now reserves one message line: 8px from
+   the field to the line, a 24px line whether or not it is carrying a message, then 16px to the next label. That is 48px
+   from a field to the next label with an error and without one, so showing or hiding a message moves nothing.
+   Where no message element sits after a field, the next element reserves the same 24 + 16 as its own top margin. */
+.contact-form :is(.field-error, .field-success) { min-height: 24px; margin: 0 0 16px; }
+.contact-form :is(input, textarea, select) + :not(.field-error, .field-success) { margin-top: 40px; }
+/* The honeypot is out of flow (position: absolute), so the element after it takes the reserved gap instead. */
+.contact-form .honeypot { margin-top: 0; }
+.contact-form .honeypot + * { margin-top: 40px; }
+.contact-form textarea { resize: vertical; min-height: 120px; }
+.contact-form select option { background: #101c20; }
+@media (max-width: 850px) { .contact-form { padding: 25px; } }
+
+/* ---------- Status messages ----------
+   codex-shared base.css .field-error, with the status colors (Final Decision for Theme).
+   Success styles mirror it and are used only for success confirmations. */
+.field-error { font-size: 14px; color: var(--error); min-height: 25px; }
+.field-success { font-size: 14px; color: var(--success); min-height: 25px; }
+.form-error { font-size: 14px; color: var(--error); }
+.form-success { font-size: 14px; color: var(--success); }
+
+/* Contact Form placeholders and invalid/success states (moved from the Design Reference page).
+   Placeholder: --muted at 75% over .strata #0b1419, 5.9:1 on the field. */
+.contact-form ::placeholder { color: #8e9799; opacity: 1; }
+.contact-form :is(input, textarea, select)[aria-invalid='true'] { border-color: var(--error); }
+.form-status--success { color: var(--success); }
+.form-status--error { color: var(--error); }
+
+/* =====================================================================================
+   Promoted from the Design Reference sub-pages (shared styles consolidation, 2026-09-15).
+   Class names are the component names; values are copied unchanged from the sub-page rules they
+   replace, so every sub-page computes the same styles (checked by the sub-page verify scripts).
+   Placement (absolute positions inside a demo frame) stays with the page that places the component.
+   ===================================================================================== */
+
+/* ---------- Placeholder ----------
+   The one "not generated yet" look: a dashed glass-border outline, a flat, barely-there fill (the glass border
+   tint at 2.4%) and a small monospace label, so an empty slot never competes with text laid over or beside it.
+   No stripes. Contexts set size and position; .placeholder--center centres the label.
+   parallax.css .treatment-placeholder repeats these look values because DiagramTour.astro renders that class. */
+.placeholder {
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 4px;
+  border: 1px dashed #b4d5d52c; color: var(--muted); text-align: left; padding: 16px;
+  background: #b4d5d506;
+  font-family: ui-monospace, 'Cascadia Mono', Consolas, monospace; font-size: 12px; line-height: 1.5;
+}
+.placeholder small { font-size: 12px; color: #8e9799; }
+.placeholder--center { align-items: center; justify-content: center; text-align: center; }
+
+/* ---------- Secondary Button ----------
+   Pending Matt's confirmation. work-field second-brains.html .btn-ghost converted to Codex styles: the shared
+   .button shape with the header Contact Button outline (header.css .nav-contact: 1px #ffffff55 border; hover
+   fills paper with ink text). Use with .button: <a class="button button--secondary">. Layout, lift, focus ring
+   and disabled opacity come from .button (base.css, tactile.css); the pressed fill is in tactile.css.
+   Qualify the modifier so extracted base CSS cannot override it when its chunk loads later. */
+.button.button--secondary { background: transparent; color: var(--paper); border-color: #ffffff55; }
+.button.button--secondary:hover, .button.button--secondary.is-hover { background: var(--paper); color: var(--ink); }
+.button.button--secondary:is(:disabled, [aria-disabled='true']):hover { background: transparent; color: var(--paper); }
+
+/* ---------- Sending state (Contact Form submit) ----------
+   Default until Matt decides: the form script sets disabled, aria-busy="true" and swaps the label to "Sending…".
+   No spinner: the disabled look (base.css button:disabled) and the label say it; the arrow is hidden. */
+.button[aria-busy='true'] svg { display: none; }
+
+/* ---------- Contact Form field states ----------
+   Disabled: no fill, a dashed hairline border and dimmed text, so it never reads as a filled field.
+   Success border: optional, only on fields that passed validation after a submission attempt
+   (the form carries data-submitted and each checked field aria-invalid="false"). --success is for nothing else. */
+.contact-form :is(input, textarea, select):disabled { background-color: transparent; border-style: dashed; border-color: var(--line); color: #8e9799; cursor: not-allowed; }
+.contact-form[data-submitted] :is(input, textarea, select)[aria-invalid='false'] { border-color: var(--success); }
+
+/* ---------- Honeypot (Contact Form) ---------- */
+.honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* ---------- Service Dock and Service Tile ----------
+   codex-strata index.html .agency-offers / exhibits.css .service-dock: glass link tiles with a display-face title,
+   one line and an arrow. <ul class="service-dock"><li><a class="service-tile" data-tactile="press">.
+   .service-dock--four: four across (Starting Points). Pages place the dock. */
+.service-dock { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
+.service-dock > li { display: flex; }
+.service-tile {
+  position: relative; display: block; flex: 1; min-height: 135px; padding: 20px 24px; color: var(--paper); text-decoration: none;
+  background: #142b32ed; border: 1px solid #b4d5d545; border-radius: 4px; box-shadow: 0 20px 55px #0008;
+  transition: background-color .25s, transform var(--tactile-settle-ms, .35s) var(--tactile-settle, ease);
+}
+.service-tile strong { display: block; font: 500 32px/1 var(--display); margin-bottom: 14px; }
+.service-tile > span { display: block; font-size: 12px; line-height: 1.6; color: #cad6d8; padding-right: 20px; }
+.service-tile svg { position: absolute; right: 15px; bottom: 15px; width: 20px; height: 20px; transition: transform var(--tactile-settle-ms, .2s) var(--tactile-settle, ease); }
+.service-tile:hover { background: #1b4149; }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .service-tile:hover:not(.is-pressed) { transform: translateY(-8px); }
+  .service-tile:hover svg { transform: translateX(3px); }
+}
+.service-dock--four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.service-dock--four .service-tile strong { font-size: 27px; line-height: 1.05; }
+@media (max-width: 1100px) and (min-width: 851px) {
+  .service-tile strong { font-size: 26px; }
+  .service-tile { padding: 16px; }
+  .service-dock--four .service-tile strong { font-size: 22px; }
+}
+@media (max-width: 850px) {
+  .service-dock, .service-dock--four { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .service-tile { min-height: 115px; padding: 22px; }
+  .service-tile strong { font-size: 32px; }
+  .service-dock--four .service-tile strong { font-size: 30px; }
+  .service-tile > span { font-size: 14px; max-width: none; }
+}
+
+/* Service Tile with an image (Starting Points, Matt 2026-09-24): a cinematic image anchors the top of the tile, bleeding
+   to its edges. Decorative (empty alt): the tile's title names the destination. */
+.service-dock--images .service-tile { padding-top: 0; overflow: hidden; }
+.service-tile > .service-tile__art { display: block; aspect-ratio: 16 / 9; margin: 0 -24px 20px; padding: 0; overflow: hidden; }  /* padding 0: the tile's text spans keep 20px clear of the arrow; the image must not (Matt, 2026-09-24) */
+.service-tile__art img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 1100px) { .service-tile > .service-tile__art { margin-inline: -16px; } }
+@media (max-width: 850px) { .service-tile > .service-tile__art { margin-inline: -22px; } }

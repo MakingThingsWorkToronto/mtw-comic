@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "source": "wiki/site/comic-story.md and wiki/site/comic-story-world.md",
+  "characters": [
+    {
+      "id": "matt",
+      "name": "Matt",
+      "aliases": [
+        "Matt"
+      ],
+      "group": "mentor",
+      "role": "Mentor; builds and steers the systems.",
+      "signature": "Swept-up greying dark hair, tortoiseshell glasses, black T-shirt; no costume or glow.",
+      "introduction": "MATT. HE HELPS COMPANIES BUILD THESE SYSTEMS.",
+      "modelRecord": "comic-b-model-matt",
+      "modelContext": "Matt model sheet",
+      "gender": "male"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "aliases": [
+        "Claude"
+      ],
+      "group": "hero",
+      "role": "The AI who reads; their power comes from human judgement.",
+      "signature": "Long coat of turning pages; visor teal when steered, grey when not.",
+      "introduction": "Claude. An AI. It reads everything, and agrees with everyone.",
+      "modelRecord": "comic-b-model-claude",
+      "modelContext": "Claude model sheet",
+      "gender": "male"
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "aliases": [
+        "Codex"
+      ],
+      "group": "hero",
+      "role": "The AI who builds; literal, fast, and dependent on steering.",
+      "signature": "Compact armour; light down gauntlets, teal when steered and harsh white when not.",
+      "introduction": "Codex. An AI that builds. Exactly what it's told.",
+      "modelRecord": "comic-b-model-codex",
+      "modelContext": "Codex model sheet",
+      "gender": "male"
+    },
+    {
+      "id": "marco",
+      "name": "Marco Lemieux",
+      "aliases": [
+        "Marco Lemieux",
+        "Marco"
+      ],
+      "group": "operator",
+      "role": "Sales account representative, Sittler Business Services. Owns the quote gate.",
+      "signature": "Light-blue shirt, lanyard, phone in hand.",
+      "introduction": "Marco Lemieux. Sales, Sittler Business Services. He can close anything.",
+      "modelRecord": "marco-dedicated-v1",
+      "modelContext": "Dedicated full-body front, three-quarter, profile and expressions; root visually inspected exact sheet. Preview for Matt review, not human approved.",
+      "gender": "male"
+    },
+    {
+      "id": "dana",
+      "name": "Dana Dryden",
+      "aliases": [
+        "Dana Dryden",
+        "Dana"
+      ],
+      "group": "operator",
+      "role": "Legal administrative assistant, Bourque & Coffey LLP. Nothing goes out unchecked.",
+      "signature": "Rectangular glasses, grey jacket, pen.",
+      "introduction": "Dana Dryden. Legal assistant, Bourque & Coffey. She reads every footnote.",
+      "modelRecord": "dana-dedicated-v1",
+      "modelContext": "Dedicated full-body front, three-quarter, profile and expressions; root visually inspected exact sheet. Preview for Matt review, not human approved.",
+      "gender": "female"
+    },
+    {
+      "id": "ruth",
+      "name": "Ruth Orr",
+      "aliases": [
+        "Ruth Orr",
+        "Ruth"
+      ],
+      "group": "operator",
+      "role": "Contracts administrator, Sittler Business Services. Owns the agreed order and contract terms.",
+      "signature": "Cardigan, reading glasses on a chain, labelled tray.",
+      "introduction": "Ruth Orr. Contracts, Sittler Business Services.",
+      "modelRecord": "comic-b-model-ruth",
+      "modelContext": "Dedicated Ruth Orr reference; comic-b-model-ruth, comic-ink. Catalog status: unreviewed-preview; Matt's reference review remains pending.",
+      "gender": "female"
+    },
+    {
+      "id": "sam",
+      "name": "Sam Howe",
+      "aliases": [
+        "Sam Howe",
+        "Sam"
+      ],
+      "group": "operator",
+      "role": "Installation manager, Sittler Business Services. Owns current installation costs, the crew and delivery plan.",
+      "signature": "Hi-vis vest over a work shirt, hard hat nearby.",
+      "introduction": "Sam Howe. Sittler’s installation manager.",
+      "modelRecord": "sam-dedicated-v1",
+      "modelContext": "Dedicated full-body front, three-quarter, profile and expressions; root visually inspected exact sheet. Preview for Matt review, not human approved. Sheet uses navy workwear with yellow reflective bands; existing hi-vis vest scenes remain a disclosed wardrobe variation.",
+      "gender": "male"
+    },
+    {
+      "id": "joan",
+      "name": "Joan Mikita",
+      "aliases": [
+        "Joan Mikita",
+        "Joan"
+      ],
+      "group": "operator",
+      "role": "Line supervisor, Esposito; knows which signature is hers.",
+      "signature": "Worn hi-vis jacket over fleece, grey braid, reading glasses pushed up.",
+      "introduction": "Joan Mikita. Line supervisor, Esposito. Thirty-one years on the poles.",
+      "modelRecord": "comic-b-model-joan-dedicated",
+      "modelContext": "Dedicated Joan Mikita reference; comic-b-model-joan-dedicated, comic-ink. Catalog status: unreviewed-preview; Matt's reference review remains pending.",
+      "gender": "female"
+    },
+    {
+      "id": "potvin",
+      "name": "Ryan Potvin",
+      "aliases": [
+        "Ryan Potvin",
+        "Potvin"
+      ],
+      "group": "antagonist",
+      "role": "Senior associate; a human antagonist in Issue 3.",
+      "signature": "No separate visual signature recorded in the world page.",
+      "introduction": "Ryan Potvin. Senior associate. The hours were his.",
+      "modelRecord": "comic-b-model-ryan-dedicated",
+      "modelContext": "Dedicated Ryan Potvin reference; comic-b-model-ryan-dedicated, comic-ink. Catalog status: unreviewed-preview; Matt's reference review remains pending.",
+      "gender": "male"
+    },
+    {
+      "id": "slop",
+      "name": "The Slop Schultz",
+      "aliases": [
+        "The Slop",
+        "Slop Schultz"
+      ],
+      "group": "villain",
+      "role": "Polished, unvalidated output that says nothing and costs hours of rework. She is female (Matt, 2026-10-12). Used when a story needs work that looks finished but was never checked: a draft sent unread, an inbox flooded with confident filler, a deck that has to be redone.",
+      "signature": "A menacing slop villain, never a mascot or emoji (Matt, 2026-10-12): glossy grey-green slop built from pasted-paragraph slabs; a sculpted mannequin face with a heavy brow and sharp cheekbones, eyes that are flat glowing text boxes with a blinking cursor, a rigid over-wide presenter smile; a sculpted slop updo, dripping earrings, a power-blazer paragraph collar with a heading-bar brooch; puddle base; the villains' red digital aura on her outline.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-slop-dedicated",
+      "modelContext": "Dedicated The Slop Schultz reference; comic-b-model-slop-dedicated, comic-ink. v1 retained. v2 (digital treatment and red aura, gender-neutral) is registered; v3 (female, blank smiley face) was judged by Matt to look like an emoji; v4 (sculpted villain face) answers that. v2 is registered current; v3 and v4 sit in the slot awaiting registration. Matt's reference review remains pending."
+    },
+    {
+      "id": "hallucination",
+      "name": "The Hallucination Nilan",
+      "aliases": [
+        "The Hallucination",
+        "Hallucination Nilan"
+      ],
+      "group": "villain",
+      "role": "A document mimic with invented citations; a sub-form of the Slop. Used when a story needs a source that looks trustworthy and is not: a citation to a case or paper that does not exist, a confident footnote nobody checked.",
+      "signature": "Tall, narrow, rigid and crisp: a cream trusted-document figure with a gold-leaf seal for an eye, gold-leaf footnote teeth and pen-nib fingers, only a sliver of grey-green at its seams; the villains' red digital aura on its outline.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-hallucination-dedicated",
+      "modelContext": "Dedicated The Hallucination Nilan reference; comic-b-model-hallucination-dedicated, comic-ink. v1 registered unreviewed-preview. v2 (redesign distinct from the Slop, digital treatment and red aura, Matt 2026-10-12) is in the library awaiting registration. Matt's reference review remains pending."
+    },
+    {
+      "id": "snowball",
+      "name": "The Snowball Williams",
+      "aliases": [
+        "The Snowball",
+        "Snowball Williams"
+      ],
+      "group": "villain",
+      "role": "One unchecked guess that everyone builds on.",
+      "signature": "Cold blue-white, accumulating assumptions.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-snowball",
+      "modelContext": "Dedicated The Snowball Williams reference; comic-b-model-snowball. Registered unreviewed-preview; Matt review pending."
+    },
+    {
+      "id": "blindspot",
+      "name": "The Blindspot Domi",
+      "aliases": [
+        "The Blindspot",
+        "Blindspot Domi"
+      ],
+      "group": "villain",
+      "role": "Automation built from the org chart instead of the real work.",
+      "signature": "Tall figure with an org chart for a face; sodium orange.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-blindspot",
+      "modelContext": "Dedicated The Blindspot Domi reference; comic-b-model-blindspot. Registered unreviewed-preview; Matt review pending."
+    },
+    {
+      "id": "shadow",
+      "name": "The Shadow Grimson",
+      "aliases": [
+        "The Shadow",
+        "Shadow Grimson"
+      ],
+      "group": "villain",
+      "role": "Shadow IT as a rebellious teenager: she works around the official systems because they are slow, and the client's files go with her. Used when a story needs a leak nobody authorized: files in a personal account, a forwarding rule to a private inbox, an app nobody approved, an investigation surfacing to its own subject.",
+      "signature": "Violet: an oversized violet hoodie with USB-cable drawstrings, a phone lit violet, a backpack full of client files; a second, unofficial office in the dark.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-shadow-dedicated",
+      "modelContext": "Dedicated The Shadow Grimson reference; comic-b-model-shadow-dedicated. v2 (female teenage redesign, Matt 2026-10-12) registered unreviewed-preview beside retained v1; Matt review pending."
+    },
+    {
+      "id": "shelf",
+      "name": "The Shelf McSorley",
+      "aliases": [
+        "The Shelf",
+        "Shelf McSorley"
+      ],
+      "group": "villain",
+      "role": "Licences and governance bought without an implementation plan.",
+      "signature": "Dusty gold; unopened licence boxes and binders.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-shelf-dedicated",
+      "modelContext": "Dedicated The Shelf McSorley reference; comic-b-model-shelf-dedicated. Registered unreviewed-preview; Matt review pending."
+    },
+    {
+      "id": "amnesia",
+      "name": "The Amnesia Kocur",
+      "aliases": [
+        "The Amnesia",
+        "Amnesia Kocur"
+      ],
+      "group": "villain",
+      "role": "The organization without a second brain.",
+      "signature": "Fog grey; wiped whiteboards and departing knowledge.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-amnesia-dedicated",
+      "modelContext": "Dedicated The Amnesia Kocur reference; comic-b-model-amnesia-dedicated. Registered unreviewed-preview; Matt review pending."
+    },
+    {
+      "id": "rogue",
+      "name": "The Rogue Agent Hunter",
+      "aliases": [
+        "The Rogue Agent",
+        "Rogue Agent Hunter"
+      ],
+      "group": "villain",
+      "role": "Power without judgement, memory or access limits.",
+      "signature": "Red-black, no teal; the heroes' dark twin.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-rogue-dedicated",
+      "modelContext": "Dedicated The Rogue Agent Hunter reference; comic-b-model-rogue-dedicated, comic-ink. Catalog status: unreviewed-preview; Matt's reference review remains pending.",
+      "gender": "male"
+    },
+    {
+      "id": "overhead",
+      "name": "Overhead Twist",
+      "aliases": [
+        "Overhead",
+        "Overhead Twist"
+      ],
+      "group": "villain",
+      "role": "Budget spent on delivery management layers instead of work.",
+      "signature": "Pinstripe grey; four fused managers.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-overhead-dedicated",
+      "modelContext": "Dedicated Overhead Twist reference; comic-b-model-overhead-dedicated. Registered unreviewed-preview; Matt review pending."
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "aliases": [
+        "Grok"
+      ],
+      "group": "background",
+      "role": "Background model character, original design without company marks.",
+      "signature": "Use the shared background sheet.",
+      "introduction": null,
+      "modelRecord": "grok-dedicated-v1",
+      "modelContext": "Dedicated full-body front, three-quarter, profile and expressions; root visually inspected exact sheet. Preview for Matt review, not human approved."
+    },
+    {
+      "id": "copilot",
+      "name": "GitHub Copilot",
+      "aliases": [
+        "GitHub Copilot",
+        "Copilot"
+      ],
+      "group": "background",
+      "role": "Background model character, original design without company marks.",
+      "signature": "Use the shared background sheet.",
+      "introduction": null,
+      "modelRecord": "copilot-dedicated-v1",
+      "modelContext": "Dedicated full-body front, three-quarter, profile and expressions; root visually inspected exact sheet. Preview for Matt review, not human approved."
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "aliases": [
+        "OpenCode"
+      ],
+      "group": "background",
+      "role": "Background model character, original design without company marks.",
+      "signature": "Use the shared background sheet.",
+      "introduction": null,
+      "modelRecord": "opencode-dedicated-v1",
+      "modelContext": "Dedicated full-body front, three-quarter, profile and expressions; root visually inspected exact sheet. Preview for Matt review, not human approved."
+    },
+    {
+      "id": "frontier-league",
+      "name": "Frontier league",
+      "aliases": [
+        "Frontier league"
+      ],
+      "group": "background",
+      "role": "Hosted frontier models; one team in the wider model universe.",
+      "signature": "No individual model sheet mapped.",
+      "introduction": null,
+      "modelRecord": null,
+      "modelContext": "No separate registered model sheet mapped"
+    },
+    {
+      "id": "local-crew",
+      "name": "Local crew",
+      "aliases": [
+        "Local crew"
+      ],
+      "group": "background",
+      "role": "Local, open-weight models; the other team in the model universe.",
+      "signature": "No individual model sheet mapped.",
+      "introduction": null,
+      "modelRecord": null,
+      "modelContext": "No separate registered model sheet mapped"
+    },
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "aliases": [
+        "Narrator"
+      ],
+      "group": "narration",
+      "role": "Place and narration captions; voice production has not been selected.",
+      "signature": "No visual character.",
+      "introduction": null,
+      "modelRecord": null,
+      "modelContext": "Narration has no model sheet"
+    },
+    {
+      "id": "george-armstrong",
+      "name": "George Armstrong",
+      "aliases": [
+        "George Armstrong",
+        "George"
+      ],
+      "group": "reference",
+      "role": "Retired builder of Plante, Bourque & Coffey’s document system; retired in 2019. Appears only in a photograph and handwritten manual notes.",
+      "signature": "Issue 4 farewell-card photograph: grey-haired man in a cardigan beside the old terminal; pencil notes in the manual.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-george-dedicated",
+      "modelContext": "Dedicated George Armstrong reference; comic-b-model-george-dedicated, comic-ink. Catalog status: unreviewed-preview; Matt's reference review remains pending.",
+      "voiceUse": "reference-only",
+      "source": "wiki/site/comic-story-world.md: People seen but never speaking; site/src/data/comic-stories/data-migrations.ts, records/4 and try/6–8.",
+      "voiceRole": "reference-only",
+      "gender": "male"
+    },
+    {
+      "id": "second-brain",
+      "name": "The second brain",
+      "aliases": [
+        "The second brain",
+        "second brain",
+        "teal knowledge lattice",
+        "teal lattice tower"
+      ],
+      "group": "system",
+      "role": "The heroes’ power source: retained human judgement lights the teal lattice. It reads the comic’s introduction, setup and scene-setting captions.",
+      "signature": "Teal lattice tower of lit floors; a floor lights when a person gives an answer.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-second-brain-dedicated",
+      "modelContext": "Dedicated inked architectural reference: front, opposite, side and details. Retained sources/procedures/checked decisions; non-humanoid. Reference-sheet floor count is not animation geometry authority. Artwork unreviewed by Matt.",
+      "voiceUse": "speaking",
+      "source": "wiki/site/comic-story.md: The second brain: the power source; wiki/site/comic-story-world.md: Meeting the cast.",
+      "voiceRole": "narration"
+    },
+    {
+      "id": "plante",
+      "name": "Plante",
+      "aliases": [
+        "Plante"
+      ],
+      "group": "system",
+      "role": "Bourque & Coffey’s document system since 1996, built by George Armstrong. Its named screen display is attributed to narrator in the script.",
+      "signature": "Old beige terminal with a green monochrome screen and handwritten binder manual.",
+      "introduction": null,
+      "modelRecord": "comic-b-model-plante-dedicated",
+      "modelContext": "Dedicated Plante reference: beige CRT terminal with green monochrome front screen, three-quarter view and blank vented back. comic-b-model-plante-dedicated / comic-ink. Reference inspected by root; Matt review pending. System display, not a new humanoid character.",
+      "voiceUse": "system-display-only",
+      "source": "wiki/site/comic-story-world.md: Basement one; site/src/data/comic-stories/data-migrations.ts, records/2.",
+      "voiceRole": "reference-only"
+    }
+  ],
+  "references": [
+    {
+      "recordId": "comic-b-model-style-key",
+      "style": "comic-ink",
+      "label": "Retained style key",
+      "kind": "Style artwork"
+    },
+    {
+      "recordId": "comic-b-calibration-xmen137",
+      "style": "comic-ink-print",
+      "label": "Retained X-Men 137 calibration",
+      "kind": "Calibration artwork"
+    },
+    {
+      "recordId": "comic-b-calibration-crisis",
+      "style": "comic-ink",
+      "label": "Retained Crisis calibration",
+      "kind": "Calibration artwork"
+    },
+    {
+      "recordId": "comic-b-calibration-spiderman33",
+      "style": "comic-ink",
+      "label": "Retained Spider-Man 33 calibration",
+      "kind": "Calibration artwork"
+    },
+    {
+      "recordId": "comic-b-review-balloon-shapes-crops-ref-1",
+      "style": "comic-review",
+      "label": "Reference balloon crop 1",
+      "kind": "Lettering reference crop"
+    },
+    {
+      "recordId": "comic-b-review-balloon-shapes-crops-ref-4",
+      "style": "comic-review",
+      "label": "Reference balloon crop 4",
+      "kind": "Lettering reference crop"
+    },
+    {
+      "recordId": "comic-b-review-balloon-shapes-crops-ref-40",
+      "style": "comic-review",
+      "label": "Reference balloon crop 40",
+      "kind": "Lettering reference crop"
+    }
+  ]
+}

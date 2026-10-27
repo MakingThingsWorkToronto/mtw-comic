@@ -1,0 +1,13 @@
+{
+  "id": "home-process-home-process-source-rule-b0",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Dana, what stops a citation?",
+  "historyItemId": "YsTqkzlOwkwmLjE5Jjuy",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "c820c884a4e4d3b50490bab19a31aed68b10a412b0e22357f4a5c0b79d885a58",
+  "createdAt": "2026-10-12T06:21:59.467Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

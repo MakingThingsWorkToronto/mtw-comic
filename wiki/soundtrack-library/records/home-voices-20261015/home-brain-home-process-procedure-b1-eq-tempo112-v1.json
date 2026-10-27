@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T19:33:25.785Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/second-brain/home-brain-home-process-procedure-b1-raw-v1.mp3",
+  "rawSha256": "b4dff66fe08c7cc459f89518b6c2cafa025eb3327f7422bd580909e2e721c161",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/second-brain/home-brain-home-process-procedure-b1-eq-tempo112-v1.mp3",
+  "sha256": "d2ecc7ed4ebab0ed048c511a3f1f76dc17e4e0b3a77555ebe99ef264faf0909d",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261015/home-brain-home-process-procedure-b1-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "compress": true,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12,acompressor=threshold=0.1:ratio=3:attack=0.1:release=80:knee=2.828:makeup=1",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-28.37",
+    "input_tp": "-16.41",
+    "input_lra": "0.00",
+    "input_thresh": "-39.27",
+    "output_i": "-17.98",
+    "output_tp": "-6.04",
+    "output_lra": "0.00",
+    "output_thresh": "-28.88",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.46",
+    "input_tp": "-6.48",
+    "input_lra": "0.00",
+    "input_thresh": "-29.36",
+    "output_i": "-17.98",
+    "output_tp": "-6.02",
+    "output_lra": "0.00",
+    "output_thresh": "-28.88",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "encodedIntegratedLufs": -18.46,
+  "encodedTruePeakDbtp": -6.48,
+  "durationSeconds": 2.422653,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

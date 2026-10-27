@@ -1,0 +1,162 @@
+/* Tactile motion (spec: Final Decision for Theme, "Tactile design"). Research and the pattern
+   vocabulary: site/research/tactile-ui.md. Behaviour (press class, keyboard parity, sound,
+   haptics): public/scripts/tactile.js.
+
+   Load after base.css, header.css and components.css: several rules here replace their
+   transitions and the base `button:active { translateY(2px) }` press.
+
+   Patterns
+     Press   buttons, Contact Button, Menu button, role=button: scale down fast, no lift
+     Settle  release: spring back to rest (Material fast spatial spring, stiffness 1400, damping ratio 0.9)
+     Lift    hover on fine pointers only: 1px up with a soft dark shadow (Primary Button only)
+     Link    text links and nav links: colour and underline response, arrow nudge, light press
+     Snap    disclosures and toggles: chevron or state flips on a snappier spring (k 1000, ratio 0.75)
+     Tick    selects and step links: a short border or marker response on change
+     Focus   fields: border and fill respond to focus; the focus ring itself is unchanged
+     Open    Services panel and mobile menu: fade and 4px drop on entry (@starting-style)
+
+   The press state is the `.is-pressed` class set by tactile.js (pointer and Enter/Space) or
+   `:active` when the script has not run. Every value below is a token so root can tune it. */
+
+:root {
+  /* Springs, sampled from a damped harmonic oscillator (unit mass) into linear(). */
+  /* Settle: Material fast spatial spring (stiffness 1400, damping ratio 0.9), for small components. */
+  --tactile-settle: linear(0, 0.052, 0.168, 0.307, 0.445, 0.569, 0.675, 0.76, 0.828, 0.879, 0.918, 0.946, 0.965, 0.979, 0.988, 0.994, 0.998, 1, 1.001, 1.001, 1.002, 1.001, 1.001, 1.001, 1);
+  --tactile-settle-ms: 230ms;
+  /* Snap: stiffness 1000, damping ratio 0.75. About 3% overshoot, so a chevron or knob lands. */
+  --tactile-snap: linear(0, 0.049, 0.165, 0.31, 0.46, 0.598, 0.718, 0.815, 0.89, 0.945, 0.982, 1.007, 1.02, 1.027, 1.028, 1.027, 1.023, 1.019, 1.015, 1.011, 1.008, 1.005, 1.003, 1.001, 1);
+  --tactile-snap-ms: 260ms;
+  /* Soft: Material default spatial spring (stiffness 700, damping ratio 0.9), for panels opening. */
+  --tactile-soft: linear(0, 0.05, 0.164, 0.3, 0.436, 0.56, 0.665, 0.752, 0.82, 0.873, 0.912, 0.941, 0.962, 0.976, 0.986, 0.993, 0.997, 0.999, 1.001, 1.001, 1.002, 1.001, 1.001, 1.001, 1);
+  --tactile-soft-ms: 320ms;
+  --tactile-press-ease: cubic-bezier(.2, 0, 0, 1); /* Material standard easing */
+  --tactile-press-ms: 80ms;
+  --tactile-press-scale: .97;
+  --tactile-press-scale-small: .94;
+  --tactile-lift-shadow: 0 6px 16px #0007;
+}
+
+/* Fallback for browsers without linear() (Chrome < 113, Safari < 17.2, Firefox < 112). */
+@supports not (transition-timing-function: linear(0, 1)) {
+  :root { --tactile-settle: cubic-bezier(.34, 1.2, .64, 1); --tactile-snap: cubic-bezier(.34, 1.3, .64, 1); --tactile-soft: cubic-bezier(.16, 1, .3, 1); }
+}
+
+/* ---------- Press and Settle: buttons ---------- */
+:where(html) .button,
+:where(html) button:not(.site-nav button),
+:where(html) [role='button'],
+:where(html) input:is([type='submit'], [type='button'], [type='reset']),
+:where(html) [data-tactile~='press'] {
+  transition:
+    background-color .2s, color .2s, border-color .2s, box-shadow .2s,
+    transform var(--tactile-settle-ms) var(--tactile-settle);
+}
+:where(html) :is(.button, button:not(.site-nav button), [role='button'], input:is([type='submit'], [type='button'], [type='reset']), [data-tactile~='press']):is(.is-pressed, :active:not(.tactile-ready *)) {
+  transform: scale(var(--tactile-press-scale));
+  transition-duration: .2s, .2s, .2s, .2s, var(--tactile-press-ms);
+  transition-timing-function: ease, ease, ease, ease, var(--tactile-press-ease);
+}
+/* tactile.js marks <html class="tactile-ready">; after that only .is-pressed presses, so a mouse
+   press and a keyboard press look identical and a quick click still shows the full press. */
+.tactile-ready :is(.button, button, [role='button'], [data-tactile~='press']):active:not(.is-pressed) { transform: none; }
+
+/* Lift: Primary Button on devices that really hover. */
+@media (hover: hover) and (pointer: fine) {
+  :where(html) .button:is(:hover, .is-hover):not(:disabled, [aria-disabled='true'], .is-pressed) { transform: translateY(-1px); box-shadow: var(--tactile-lift-shadow); }
+}
+:where(html) .button.is-pressed { box-shadow: none; }
+/* Secondary Button (components.css, pending Matt's confirmation): pressed fills like the Contact Button. Three classes,
+   so it also wins over the hover fill while a mouse presses it. */
+.button.button--secondary.is-pressed { background-color: color-mix(in srgb, var(--paper) 86%, var(--ink)); color: var(--ink); }
+:where(html) :is(button, .button, [role='button']):is(:disabled, [aria-disabled='true']) { transform: none; box-shadow: none; }
+
+/* ---------- Header: Nav Menu links, Services Dropdown, Contact Button, Menu button ---------- */
+.site-nav a, .site-nav button {
+  transition: color .2s, background-color .2s, text-decoration-color .2s, transform var(--tactile-settle-ms) var(--tactile-settle);
+}
+.site-nav a.is-pressed, .site-nav button.is-pressed {
+  transform: scale(var(--tactile-press-scale));
+  transition-duration: .2s, .2s, .2s, var(--tactile-press-ms);
+  transition-timing-function: ease, ease, ease, var(--tactile-press-ease);
+}
+.site-nav :is(a, button).is-pressed:not(.nav-contact) { color: var(--teal-light); }
+.site-nav .menu-toggle.is-pressed, .site-nav .nav-toggle.is-pressed { transform: scale(var(--tactile-press-scale-small)); }
+.site-nav .menu-panel a { transform-origin: left center; }
+.site-nav .menu-panel a:hover { background-color: #ffffff0a; }
+.site-nav .menu-panel a.is-pressed { background-color: #ffffff12; transform: scale(.985); }
+.site-nav .nav-contact.is-pressed { background-color: color-mix(in srgb, var(--paper) 86%, var(--ink)); color: var(--ink) !important; }
+
+/* Snap: the Services chevron turns on a spring, so it lands with a small overshoot. */
+.site-nav .menu-toggle svg { transition: transform var(--tactile-snap-ms) var(--tactile-snap); }
+
+/* Open: panels fade in and drop 4px as they appear. display:none to flex needs @starting-style. */
+.site-nav .menu[data-open='true'] .menu-panel {
+  transition: opacity var(--tactile-soft-ms) var(--tactile-soft), transform var(--tactile-settle-ms) var(--tactile-settle);
+}
+@starting-style { .site-nav .menu[data-open='true'] .menu-panel { opacity: 0; transform: translateY(-4px); } }
+@media (max-width: 899px) {
+  .site-nav[data-open='true'] > ul { transition: opacity var(--tactile-soft-ms) var(--tactile-soft), transform var(--tactile-settle-ms) var(--tactile-settle); }
+  @starting-style { .site-nav[data-open='true'] > ul { opacity: 0; transform: translateY(-4px); } }
+  .site-nav .menu[data-open='true'] .menu-panel { transform: none; }
+}
+
+/* ---------- Link: Text Link, inline links, anchor links ---------- */
+.text-link { transition: color .2s, transform var(--tactile-settle-ms) var(--tactile-settle); transform-origin: left center; }
+.text-link svg { transition: transform var(--tactile-settle-ms) var(--tactile-settle); }
+@media (hover: hover) and (pointer: fine) {
+  .text-link:hover svg, .text-link.is-hover svg { transform: translateX(3px); }
+}
+.text-link.is-pressed {
+  color: var(--teal-light); transform: scale(.98);
+  transition-duration: .2s, var(--tactile-press-ms); transition-timing-function: ease, var(--tactile-press-ease);
+}
+.text-link.is-pressed svg { transform: translateX(1px); transition-duration: var(--tactile-press-ms); transition-timing-function: var(--tactile-press-ease); }
+.button svg { transition: transform var(--tactile-settle-ms) var(--tactile-settle); }
+@media (hover: hover) and (pointer: fine) { .button:hover svg, .button.is-hover svg { transform: translateX(3px); } }
+
+/* Inline links in running text: the underline tightens and thickens under the finger. No scale. */
+:where(p, dd, figcaption) > a:not([class]) {
+  text-decoration-color: color-mix(in srgb, currentColor 55%, transparent);
+  transition: color .2s, text-decoration-color .2s, text-underline-offset var(--tactile-soft-ms) var(--tactile-soft);
+}
+:where(p, dd, figcaption) > a:not([class]):hover { text-decoration-color: currentColor; text-underline-offset: 3px; }
+:where(p, dd, figcaption) > a:not([class]).is-pressed { color: var(--teal-light); text-decoration-color: currentColor; text-decoration-thickness: 2px; text-underline-offset: 2px; }
+/* Any other link (footer, index lists): a colour response only. */
+.site-footer a, .dr-index a { transition: color .2s; }
+a.is-pressed:not(.button, .text-link, .nav-contact, [data-tour-link]) { color: var(--teal-light); }
+
+/* ---------- Tick: Diagram Tour step links ----------
+   The number presses; the teal marker under the current step lands on the Snap spring.
+   `.diagram-tour` raises specificity so this wins whatever order the stylesheets load in. */
+.diagram-tour .tour-rail a { transition: color .25s, transform var(--tactile-settle-ms) var(--tactile-settle); }
+.diagram-tour .tour-rail a::after { transition: opacity .25s, transform var(--tactile-snap-ms) var(--tactile-snap); }
+.diagram-tour .tour-rail a.is-pressed { transform: scale(var(--tactile-press-scale-small)); color: var(--paper); transition-duration: .2s, var(--tactile-press-ms); transition-timing-function: ease, var(--tactile-press-ease); }
+
+/* ---------- Focus and Tick: fields and selects ---------- */
+:is(.contact-form, [data-tactile~='field']) :is(input:not([type='checkbox'], [type='radio'], [type='submit'], [type='button']), textarea, select) {
+  transition: border-color .2s, background-color .2s, box-shadow var(--tactile-soft-ms) var(--tactile-soft);
+}
+:is(.contact-form, [data-tactile~='field']) :is(input, textarea, select):hover:not(:focus, :disabled) { border-color: #ffffff66; }
+:is(.contact-form, [data-tactile~='field']) :is(input:not([type='checkbox'], [type='radio'], [type='submit'], [type='button']), textarea, select):focus {
+  border-color: var(--teal-light); background-color: #07131799; box-shadow: inset 0 1px 0 #ffffff0d;
+}
+/* Selects: a light press while the list opens, then a tick of the border when the value changes. */
+:is(.contact-form, [data-tactile~='field']) select.is-pressed { box-shadow: inset 0 2px 0 #0006; }
+select.tactile-ticked { animation: tactile-tick 420ms var(--tactile-soft) both; }
+@keyframes tactile-tick {
+  0% { border-color: var(--teal-light); box-shadow: inset 0 0 0 1px var(--teal-light); }
+  100% { box-shadow: inset 0 0 0 1px transparent; }
+}
+
+/* ---------- Toggle Snap: switches, pressed buttons, checkboxes ---------- */
+:is([aria-pressed], [role='switch']) :is(svg, .tactile-knob) { transition: transform var(--tactile-snap-ms) var(--tactile-snap), opacity .2s; }
+input:is([type='checkbox'], [type='radio']) { transition: transform var(--tactile-snap-ms) var(--tactile-snap); }
+input:is([type='checkbox'], [type='radio']).is-pressed { transform: scale(.9); transition-duration: var(--tactile-press-ms); transition-timing-function: var(--tactile-press-ease); }
+
+/* ---------- Reduced motion: no movement; feedback becomes a brief opacity and colour change ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html .is-pressed,
+  html :is(.button, button, [role='button'], .text-link, .text-link svg, .button svg, .diagram-tour .tour-rail a, input, .site-nav a, .site-nav button, .menu-panel, .site-nav > ul) { transform: none !important; }
+  html .is-pressed { opacity: .82; }
+  html .button:hover { box-shadow: none; }
+}

@@ -1,0 +1,3774 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Current illustrated Comic B playback review inputs; extend exact inventory/annotations when a story or selected master changes. Source annotations are scoped observations, not whole-image recognition.",
+  "masterAliases": [
+    {
+      "story": "home",
+      "scene": "quote",
+      "art": "/comic/home/home-quote-20261010-live-v3",
+      "recordId": "comic-b-home-quote-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-quote-20261010-live-v3-1600.avif",
+        "sha256": "5f4fba79158a0ee4f7d320897edd4e42c9160f050e73ead055ee18498d95551b",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-quote-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-quote/live-v3/delivery-preview-v3/home-quote-20261010-live-v3-1600.avif",
+          "sha256": "5f4fba79158a0ee4f7d320897edd4e42c9160f050e73ead055ee18498d95551b"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "doubt",
+      "art": "/comic/home/home-doubt-20261010-live-v3",
+      "recordId": "comic-b-home-doubt-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-doubt-20261010-live-v3-1600.avif",
+        "sha256": "751c3b6b66933e26a222a8bbd2e11870a0620addc00c2f1d0a10ca6e57a617f2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-doubt-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-doubt/live-v3/delivery-preview-v3/home-doubt-20261010-live-v3-1600.avif",
+          "sha256": "751c3b6b66933e26a222a8bbd2e11870a0620addc00c2f1d0a10ca6e57a617f2"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "brief",
+      "art": "/comic/home/home-brief-20261010-live-v3",
+      "recordId": "comic-b-home-brief-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-brief-20261010-live-v3-1600.avif",
+        "sha256": "fdb3c628f9a2ca08b0e3c4f60401872d5be1ca028bb18f4b50f8255cd0837d43",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-brief-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-brief/live-v3/delivery-preview-v3/home-brief-20261010-live-v3-1600.avif",
+          "sha256": "fdb3c628f9a2ca08b0e3c4f60401872d5be1ca028bb18f4b50f8255cd0837d43"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "call",
+      "art": "/comic/home/home-call-20261010-live-v3",
+      "recordId": "comic-b-home-call-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-call-20261010-live-v3-1600.avif",
+        "sha256": "a079cf2059349c1a37a15c6e2f243243701a581df5e3a4dc4fcafd05ead88efa",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-call-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-call/live-v3/delivery-preview-v3/home-call-20261010-live-v3-1600.avif",
+          "sha256": "a079cf2059349c1a37a15c6e2f243243701a581df5e3a4dc4fcafd05ead88efa"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "call-help",
+      "art": "/comic/home/home-call-20261010-live-v3",
+      "recordId": "comic-b-home-call-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-call-20261010-live-v3-1600.avif",
+        "sha256": "a079cf2059349c1a37a15c6e2f243243701a581df5e3a4dc4fcafd05ead88efa",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-call-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-call/live-v3/delivery-preview-v3/home-call-20261010-live-v3-1600.avif",
+          "sha256": "a079cf2059349c1a37a15c6e2f243243701a581df5e3a4dc4fcafd05ead88efa"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "agent",
+      "art": "/comic/home/home-agent-20261010-live-v3",
+      "recordId": "comic-b-home-agent-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-agent-20261010-live-v3-1600.avif",
+        "sha256": "4077c4b7c9cf133a5dd3b5a38e1b53071ce96b3889816db9f882fc8d05b6e292",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-agent-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-agent/live-v3/delivery-preview-v3/home-agent-20261010-live-v3-1600.avif",
+          "sha256": "4077c4b7c9cf133a5dd3b5a38e1b53071ce96b3889816db9f882fc8d05b6e292"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "agent-continued-1",
+      "art": "/comic/home/home-agent-20261010-live-v3",
+      "recordId": "comic-b-home-agent-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-agent-20261010-live-v3-1600.avif",
+        "sha256": "4077c4b7c9cf133a5dd3b5a38e1b53071ce96b3889816db9f882fc8d05b6e292",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-agent-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-agent/live-v3/delivery-preview-v3/home-agent-20261010-live-v3-1600.avif",
+          "sha256": "4077c4b7c9cf133a5dd3b5a38e1b53071ce96b3889816db9f882fc8d05b6e292"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "codex",
+      "art": "/comic/home/home-codex-20261010-live-v3",
+      "recordId": "comic-b-home-codex-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-codex-20261010-live-v3-1600.avif",
+        "sha256": "477496d1c1196dd7832df17239feef46ed842e80f919a51f964cb03ad2bd5d1b",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-codex-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-codex/live-v3/delivery-preview-v3/home-codex-20261010-live-v3-1600.avif",
+          "sha256": "477496d1c1196dd7832df17239feef46ed842e80f919a51f964cb03ad2bd5d1b"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "answers",
+      "art": "/comic/home/home-answers-20261010-live-v3",
+      "recordId": "comic-b-home-answers-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-answers-20261010-live-v3-1600.avif",
+        "sha256": "1863297eee24b745dfcb46859d1682b246e333791d97bc01cd717f88f0f461a3",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-answers-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-answers/live-v3/delivery-preview-v3/home-answers-20261010-live-v3-1600.avif",
+          "sha256": "1863297eee24b745dfcb46859d1682b246e333791d97bc01cd717f88f0f461a3"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "answers-continued-1",
+      "art": "/comic/home/home-answers-20261010-live-v3",
+      "recordId": "comic-b-home-answers-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-answers-20261010-live-v3-1600.avif",
+        "sha256": "1863297eee24b745dfcb46859d1682b246e333791d97bc01cd717f88f0f461a3",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-answers-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-answers/live-v3/delivery-preview-v3/home-answers-20261010-live-v3-1600.avif",
+          "sha256": "1863297eee24b745dfcb46859d1682b246e333791d97bc01cd717f88f0f461a3"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "answers-continued-2",
+      "art": "/comic/home/home-answers-20261010-live-v3",
+      "recordId": "comic-b-home-answers-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-answers-20261010-live-v3-1600.avif",
+        "sha256": "1863297eee24b745dfcb46859d1682b246e333791d97bc01cd717f88f0f461a3",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-answers-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-answers/live-v3/delivery-preview-v3/home-answers-20261010-live-v3-1600.avif",
+          "sha256": "1863297eee24b745dfcb46859d1682b246e333791d97bc01cd717f88f0f461a3"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "process",
+      "art": "/comic/home/home-process-20261010-live-v2",
+      "recordId": "home-process-composite-teal-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-process-20261010-live-v2-1600.avif",
+        "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2",
+        "canonicalDerivative": {
+          "recordId": "home-process-20261010-live-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-process/live-v2/delivery-preview-v2/home-process-20261010-live-v2-1600.avif",
+          "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "brain-init",
+      "art": "/comic/home/home-process-20261010-live-v2",
+      "recordId": "home-process-composite-teal-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-process-20261010-live-v2-1600.avif",
+        "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2",
+        "canonicalDerivative": {
+          "recordId": "home-process-20261010-live-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-process/live-v2/delivery-preview-v2/home-process-20261010-live-v2-1600.avif",
+          "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "connect",
+      "art": "/comic/home/home-process-20261010-live-v2",
+      "recordId": "home-process-composite-teal-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-process-20261010-live-v2-1600.avif",
+        "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2",
+        "canonicalDerivative": {
+          "recordId": "home-process-20261010-live-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-process/live-v2/delivery-preview-v2/home-process-20261010-live-v2-1600.avif",
+          "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "output",
+      "art": "/comic/home/home-process-20261010-live-v2",
+      "recordId": "home-process-composite-teal-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-process-20261010-live-v2-1600.avif",
+        "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2",
+        "canonicalDerivative": {
+          "recordId": "home-process-20261010-live-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-process/live-v2/delivery-preview-v2/home-process-20261010-live-v2-1600.avif",
+          "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "access-check",
+      "art": "/comic/home/home-access-check-20261010-live-v1",
+      "recordId": "comic-b-home-access-check-composite-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-access-check-20261010-live-v1-1600.avif",
+        "sha256": "6c567c7fddf8678b2471e721a7a9a2b8e7d29962412df3428a7d0a469cf7dd62",
+        "canonicalDerivative": {
+          "recordId": "comic-b-retained-59a3e40dfe01df91b5a3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-access-check/live-v1/home-access-check-20261010-live-v1-1600.avif",
+          "sha256": "6c567c7fddf8678b2471e721a7a9a2b8e7d29962412df3428a7d0a469cf7dd62"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "learning",
+      "art": "/comic/home/home-process-20261010-live-v2",
+      "recordId": "home-process-composite-teal-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-process-20261010-live-v2-1600.avif",
+        "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2",
+        "canonicalDerivative": {
+          "recordId": "home-process-20261010-live-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-process/live-v2/delivery-preview-v2/home-process-20261010-live-v2-1600.avif",
+          "sha256": "f64d01b0f9d561bc5b5b0008ff05052bc2063d5abd6d06ece16075f5dc7117d2"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "lobby",
+      "art": "/comic/home/home-lobby-20261010-live-v3",
+      "recordId": "comic-b-home-lobby-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-lobby-20261010-live-v3-1600.avif",
+        "sha256": "b88a604f8f97843db75d262156cf451359f81d1e21eb63098f87ea2a1454e3ba",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-lobby-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-lobby/live-v3/delivery-preview-v3/home-lobby-20261010-live-v3-1600.avif",
+          "sha256": "b88a604f8f97843db75d262156cf451359f81d1e21eb63098f87ea2a1454e3ba"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "nine",
+      "art": "/comic/home/home-nine-20261010-live-v3",
+      "recordId": "comic-b-home-nine-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-nine-20261010-live-v3-1600.avif",
+        "sha256": "1d6e474677ccb3fd05d7be927c6c440ff33b48c53042a88efed61d3cbf022e05",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-nine-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-nine/live-v3/delivery-preview-v3/home-nine-20261010-live-v3-1600.avif",
+          "sha256": "1d6e474677ccb3fd05d7be927c6c440ff33b48c53042a88efed61d3cbf022e05"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "roof",
+      "art": "/comic/home/home-roof-20261010-live-v3",
+      "recordId": "comic-b-home-roof-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-roof-20261010-live-v3-1600.avif",
+        "sha256": "882b5d0b986915c0cfcfc2b5df6aafa0ef31d4992effe8665327097b25db8eaa",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-roof-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-roof/live-v3/delivery-preview-v3/home-roof-20261010-live-v3-1600.avif",
+          "sha256": "882b5d0b986915c0cfcfc2b5df6aafa0ef31d4992effe8665327097b25db8eaa"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "roof-continued-1",
+      "art": "/comic/home/home-roof-20261010-live-v3",
+      "recordId": "comic-b-home-roof-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-roof-20261010-live-v3-1600.avif",
+        "sha256": "882b5d0b986915c0cfcfc2b5df6aafa0ef31d4992effe8665327097b25db8eaa",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-roof-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-roof/live-v3/delivery-preview-v3/home-roof-20261010-live-v3-1600.avif",
+          "sha256": "882b5d0b986915c0cfcfc2b5df6aafa0ef31d4992effe8665327097b25db8eaa"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "monday",
+      "art": "/comic/home/home-monday-20261010-live-v3",
+      "recordId": "comic-b-home-monday-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-monday-20261010-live-v3-1600.avif",
+        "sha256": "c7aefd4ed4f72f0a9f691f2203c9946357e1ec53f828cf6c1584f54e37234084",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-monday-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-monday/live-v3/delivery-preview-v3/home-monday-20261010-live-v3-1600.avif",
+          "sha256": "c7aefd4ed4f72f0a9f691f2203c9946357e1ec53f828cf6c1584f54e37234084"
+        }
+      }
+    },
+    {
+      "story": "home",
+      "scene": "monday-continued-1",
+      "art": "/comic/home/home-monday-20261010-live-v3",
+      "recordId": "comic-b-home-monday-teal-v3-composite-teal-v3-png",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/home/home-monday-20261010-live-v3-1600.avif",
+        "sha256": "c7aefd4ed4f72f0a9f691f2203c9946357e1ec53f828cf6c1584f54e37234084",
+        "canonicalDerivative": {
+          "recordId": "comic-b-home-monday-teal-v3-20261010-live-v3-1600-avif",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/home-monday/live-v3/delivery-preview-v3/home-monday-20261010-live-v3-1600.avif",
+          "sha256": "c7aefd4ed4f72f0a9f691f2203c9946357e1ec53f828cf6c1584f54e37234084"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "five",
+      "art": "/comic/agentic/live-20261010/agentic-five-composite-selected-v4",
+      "recordId": "comic-b-agentic-five-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-five-composite-selected-v4-1600.avif",
+        "sha256": "5e00b60b48ea166f26323e611c3b110bae6539240dadc87bc562cb2ecbc33c03",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-five/live-v2/agentic-five-composite-selected-v4.png",
+          "sourceSha256": "243b48fc4f823883cf6aaa255dce7c106256f993159ac55a40e300dfa13e8aab",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-five-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "five-continued-1",
+      "art": "/comic/agentic/live-20261010/agentic-five-composite-selected-v4",
+      "recordId": "comic-b-agentic-five-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-five-composite-selected-v4-1600.avif",
+        "sha256": "5e00b60b48ea166f26323e611c3b110bae6539240dadc87bc562cb2ecbc33c03",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-five/live-v2/agentic-five-composite-selected-v4.png",
+          "sourceSha256": "243b48fc4f823883cf6aaa255dce7c106256f993159ac55a40e300dfa13e8aab",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-five-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "five-continued-1-lettering-2",
+      "art": "/comic/agentic/live-20261010/agentic-five-composite-selected-v4",
+      "recordId": "comic-b-agentic-five-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-five-composite-selected-v4-1600.avif",
+        "sha256": "5e00b60b48ea166f26323e611c3b110bae6539240dadc87bc562cb2ecbc33c03",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-five/live-v2/agentic-five-composite-selected-v4.png",
+          "sourceSha256": "243b48fc4f823883cf6aaa255dce7c106256f993159ac55a40e300dfa13e8aab",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-five-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "nine",
+      "art": "/comic/agentic/agentic-nine-20261008",
+      "recordId": "comic-b-agentic-nine-20261008",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/agentic-nine-20261008-1600.avif",
+        "sha256": "56554f6c3b0641ed42eadd1eeab73fa38a20aaa9290409b62df8a662f5c7ffe1",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "agentic",
+            "scene": "nine",
+            "art": "/comic/agentic/agentic-nine-20261008",
+            "recordId": "comic-b-agentic-nine-20261008",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "97994f2017ebee7e6e3d2fb377c300de96118070410d4be1ed0a4ccd724a1d4f",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "nine-lettering-2",
+      "art": "/comic/agentic/agentic-nine-20261008",
+      "recordId": "comic-b-agentic-nine-20261008",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/agentic-nine-20261008-1600.avif",
+        "sha256": "56554f6c3b0641ed42eadd1eeab73fa38a20aaa9290409b62df8a662f5c7ffe1",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "agentic",
+            "scene": "nine",
+            "art": "/comic/agentic/agentic-nine-20261008",
+            "recordId": "comic-b-agentic-nine-20261008",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "97994f2017ebee7e6e3d2fb377c300de96118070410d4be1ed0a4ccd724a1d4f",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "nine-lettering-3",
+      "art": "/comic/agentic/agentic-nine-20261008",
+      "recordId": "comic-b-agentic-nine-20261008",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/agentic-nine-20261008-1600.avif",
+        "sha256": "56554f6c3b0641ed42eadd1eeab73fa38a20aaa9290409b62df8a662f5c7ffe1",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "agentic",
+            "scene": "nine",
+            "art": "/comic/agentic/agentic-nine-20261008",
+            "recordId": "comic-b-agentic-nine-20261008",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "97994f2017ebee7e6e3d2fb377c300de96118070410d4be1ed0a4ccd724a1d4f",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "contained",
+      "art": "/comic/agentic/agentic-contained-20261008",
+      "recordId": "comic-b-agentic-contained-20261008",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/agentic-contained-20261008-1600.avif",
+        "sha256": "d48cb0da5280e9ea1c46223c43a9e08d51ff1227aa92618340ee2af2465a135f",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "agentic",
+            "scene": "contained",
+            "art": "/comic/agentic/agentic-contained-20261008",
+            "recordId": "comic-b-agentic-contained-20261008",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "23b163b4e69ba9ec384a90800f8bd4d369a9654e57ce4b8bdc9faee0fcc08adf",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "contained-lettering-2",
+      "art": "/comic/agentic/agentic-contained-20261008",
+      "recordId": "comic-b-agentic-contained-20261008",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/agentic-contained-20261008-1600.avif",
+        "sha256": "d48cb0da5280e9ea1c46223c43a9e08d51ff1227aa92618340ee2af2465a135f",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "agentic",
+            "scene": "contained",
+            "art": "/comic/agentic/agentic-contained-20261008",
+            "recordId": "comic-b-agentic-contained-20261008",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "23b163b4e69ba9ec384a90800f8bd4d369a9654e57ce4b8bdc9faee0fcc08adf",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "restore",
+      "art": "/comic/agentic/live-20261010/agentic-restore-composite-selected-v4",
+      "recordId": "comic-b-agentic-restore-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-restore-composite-selected-v4-1600.avif",
+        "sha256": "4f0559aa3b6ce0f430451addbf2b71dde9d8cfbe2bb10729d5440f015c7f1705",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-restore/live-v2/agentic-restore-composite-selected-v4.png",
+          "sourceSha256": "13ed1c173c38d2e2ef381b826c07ca085b8a5584bc3ec22078763228b939d438",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-restore-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "restore-lettering-2",
+      "art": "/comic/agentic/live-20261010/agentic-restore-composite-selected-v4",
+      "recordId": "comic-b-agentic-restore-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-restore-composite-selected-v4-1600.avif",
+        "sha256": "4f0559aa3b6ce0f430451addbf2b71dde9d8cfbe2bb10729d5440f015c7f1705",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-restore/live-v2/agentic-restore-composite-selected-v4.png",
+          "sourceSha256": "13ed1c173c38d2e2ef381b826c07ca085b8a5584bc3ec22078763228b939d438",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-restore-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "yard",
+      "art": "/comic/agentic/live-20261010/agentic-yard-composite-selected-v4",
+      "recordId": "comic-b-agentic-yard-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-yard-composite-selected-v4-1600.avif",
+        "sha256": "7dca820b6fb429bd2012d3a975c735f54951f3199ed6e97eba09395ef9ff16fd",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-yard/live-v2/agentic-yard-composite-selected-v4.png",
+          "sourceSha256": "138306e6748e3263b41136c47d1f3518f39a4004fa1095eeb414511494cf8901",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-yard-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "yard-lettering-2",
+      "art": "/comic/agentic/live-20261010/agentic-yard-composite-selected-v4",
+      "recordId": "comic-b-agentic-yard-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-yard-composite-selected-v4-1600.avif",
+        "sha256": "7dca820b6fb429bd2012d3a975c735f54951f3199ed6e97eba09395ef9ff16fd",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-yard/live-v2/agentic-yard-composite-selected-v4.png",
+          "sourceSha256": "138306e6748e3263b41136c47d1f3518f39a4004fa1095eeb414511494cf8901",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-yard-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "procedure-rules",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-rules-composite-v1",
+      "recordId": "comic-b-agentic-procedure-rules-composite-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-procedure-rules-composite-v1-1600.avif",
+        "sha256": "e584375b7683dae1acb864426357b4b7649309de2ebf0365550147618f4f77d0",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58.json",
+          "sha256": "70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-procedure-rules/live-v1/agentic-procedure-rules-composite-v1.png",
+          "sourceSha256": "f0084b69ba599a24c44f486dbd17cdf59f6cd3f1614aded36c6072769859f689",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-procedure-rules-composite-v1-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "procedure-build",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-build-composite-v1",
+      "recordId": "comic-b-agentic-procedure-build-composite-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-procedure-build-composite-v1-1600.avif",
+        "sha256": "828d97bedf53aaeaa2b4822b76ea63fe81b9f4a74d018d16cb2f55f7906e2ae9",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58.json",
+          "sha256": "70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-procedure-build/live-v1/agentic-procedure-build-composite-v1.png",
+          "sourceSha256": "b5140456112b49f7d8feb6e4e54993ecb1cfb191f32e128a428806fd7934b7ba",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-procedure-build-composite-v1-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "procedure-permissions",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-permissions-composite-v1",
+      "recordId": "comic-b-agentic-procedure-permissions-composite-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-procedure-permissions-composite-v1-1600.avif",
+        "sha256": "408246fabe63fcc13e211583737d1fe166b64e0902d8c8afa9cd3b0cafc57403",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58.json",
+          "sha256": "70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-procedure-permissions/live-v1/agentic-procedure-permissions-composite-v1.png",
+          "sourceSha256": "4730b415a3fd9895424281780b4e6a7912ef1a83cc56bf9a00e09cfa84096895",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-procedure-permissions-composite-v1-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "procedure-brain",
+      "art": "/comic/agentic/live-20261010/agentic-procedure-brain-composite-v1",
+      "recordId": "comic-b-agentic-procedure-brain-composite-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-procedure-brain-composite-v1-1600.avif",
+        "sha256": "8b6f4435621e09da112028d0862942f16c95060abf7519ef082cd8ff51cacd7e",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58.json",
+          "sha256": "70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-procedure-brain/live-v1/agentic-procedure-brain-composite-v1.png",
+          "sourceSha256": "bd9839c4c4ee541efddc715c67535d2761b57c4ea1b9ca6e1744020268553a24",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-procedure-brain-composite-v1-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "gate",
+      "art": "/comic/agentic/live-20261010/agentic-gate-composite-selected-v4",
+      "recordId": "comic-b-agentic-gate-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-gate-composite-selected-v4-1600.avif",
+        "sha256": "5990d537047dfe6ddb034be9d070cc9a08aaef84cc98d722ac13eb5716cf119c",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-gate/live-v2/agentic-gate-composite-selected-v4.png",
+          "sourceSha256": "3382a4595892f1de28ed775651c77b69333c5fc8e0833c6e077c2c97aaf5ce8b",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-gate-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "gate-lettering-2",
+      "art": "/comic/agentic/live-20261010/agentic-gate-composite-selected-v4",
+      "recordId": "comic-b-agentic-gate-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-gate-composite-selected-v4-1600.avif",
+        "sha256": "5990d537047dfe6ddb034be9d070cc9a08aaef84cc98d722ac13eb5716cf119c",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-gate/live-v2/agentic-gate-composite-selected-v4.png",
+          "sourceSha256": "3382a4595892f1de28ed775651c77b69333c5fc8e0833c6e077c2c97aaf5ce8b",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-gate-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "gate-lettering-3",
+      "art": "/comic/agentic/live-20261010/agentic-gate-composite-selected-v4",
+      "recordId": "comic-b-agentic-gate-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-gate-composite-selected-v4-1600.avif",
+        "sha256": "5990d537047dfe6ddb034be9d070cc9a08aaef84cc98d722ac13eb5716cf119c",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-gate/live-v2/agentic-gate-composite-selected-v4.png",
+          "sourceSha256": "3382a4595892f1de28ed775651c77b69333c5fc8e0833c6e077c2c97aaf5ce8b",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-gate-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "monday",
+      "art": "/comic/agentic/live-20261010/agentic-monday-composite-selected-v4",
+      "recordId": "comic-b-agentic-monday-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-monday-composite-selected-v4-1600.avif",
+        "sha256": "76cf1ab162a183481b22a962851133e2cfdf6ec267d756aef6d1c90b544a9cfa",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-monday/live-v2/agentic-monday-composite-selected-v4.png",
+          "sourceSha256": "a78eb8513ffddfb1a9310e23d90d5409854dd6d79836763a595c2580dfccdc9e",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-monday-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "agentic",
+      "scene": "monday-lettering-2",
+      "art": "/comic/agentic/live-20261010/agentic-monday-composite-selected-v4",
+      "recordId": "comic-b-agentic-monday-composite-live-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/agentic/live-20261010/agentic-monday-composite-selected-v4-1600.avif",
+        "sha256": "76cf1ab162a183481b22a962851133e2cfdf6ec267d756aef6d1c90b544a9cfa",
+        "encoderReceipt": {
+          "path": "wiki/image-library/records/comics-reader-review-20261010/encoders/d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45.json",
+          "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+          "sourcePath": "wiki/image-library/assets/scenes/comic-b/layers/agentic-monday/live-v2/agentic-monday-composite-selected-v4.png",
+          "sourceSha256": "a78eb8513ffddfb1a9310e23d90d5409854dd6d79836763a595c2580dfccdc9e",
+          "outputPath": "site/public/comic/agentic/live-20261010/agentic-monday-composite-selected-v4-1600.avif"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "locked",
+      "art": "/comic/traditional/traditional-locked-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-locked-5bc5e72f303c25e8",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-locked-conversion-20261010-v4-1600.avif",
+        "sha256": "b8726495534e852cdcc29bd7ed5126cf19bbe5d7bf8716098007eccfec172595",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-locked-c3963a27b47b414a",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-locked/conversion-v1/delivery-v4/traditional-locked-conversion-20261010-v4-1600.avif",
+          "sha256": "b8726495534e852cdcc29bd7ed5126cf19bbe5d7bf8716098007eccfec172595"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "locked-billing",
+      "art": "/comic/traditional/traditional-locked-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-locked-5bc5e72f303c25e8",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-locked-conversion-20261010-v4-1600.avif",
+        "sha256": "b8726495534e852cdcc29bd7ed5126cf19bbe5d7bf8716098007eccfec172595",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-locked-c3963a27b47b414a",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-locked/conversion-v1/delivery-v4/traditional-locked-conversion-20261010-v4-1600.avif",
+          "sha256": "b8726495534e852cdcc29bd7ed5126cf19bbe5d7bf8716098007eccfec172595"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "locked-offer",
+      "art": "/comic/traditional/traditional-locked-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-locked-5bc5e72f303c25e8",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-locked-conversion-20261010-v4-1600.avif",
+        "sha256": "b8726495534e852cdcc29bd7ed5126cf19bbe5d7bf8716098007eccfec172595",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-locked-c3963a27b47b414a",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-locked/conversion-v1/delivery-v4/traditional-locked-conversion-20261010-v4-1600.avif",
+          "sha256": "b8726495534e852cdcc29bd7ed5126cf19bbe5d7bf8716098007eccfec172595"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "answer",
+      "art": "/comic/traditional/traditional-answer-conversion-20261010-v2",
+      "recordId": "comic-b-traditional-answer-d220ca341c6ff64c",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-answer-conversion-20261010-v2-1600.avif",
+        "sha256": "50d291d3d545f59f5e593988ab65c5f817e054d773d3b4ab2c0f012108731072",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-answer-e9b68cb3379a381a",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-answer/conversion-v1/delivery-v2/traditional-answer-conversion-20261010-v2-1600.avif",
+          "sha256": "50d291d3d545f59f5e593988ab65c5f817e054d773d3b4ab2c0f012108731072"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "answer-disclosure",
+      "art": "/comic/traditional/traditional-answer-conversion-20261010-v2",
+      "recordId": "comic-b-traditional-answer-d220ca341c6ff64c",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-answer-conversion-20261010-v2-1600.avif",
+        "sha256": "50d291d3d545f59f5e593988ab65c5f817e054d773d3b4ab2c0f012108731072",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-answer-e9b68cb3379a381a",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-answer/conversion-v1/delivery-v2/traditional-answer-conversion-20261010-v2-1600.avif",
+          "sha256": "50d291d3d545f59f5e593988ab65c5f817e054d773d3b4ab2c0f012108731072"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "answer-knowledge",
+      "art": "/comic/traditional/traditional-answer-conversion-20261010-v2",
+      "recordId": "comic-b-traditional-answer-d220ca341c6ff64c",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-answer-conversion-20261010-v2-1600.avif",
+        "sha256": "50d291d3d545f59f5e593988ab65c5f817e054d773d3b4ab2c0f012108731072",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-answer-e9b68cb3379a381a",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-answer/conversion-v1/delivery-v2/traditional-answer-conversion-20261010-v2-1600.avif",
+          "sha256": "50d291d3d545f59f5e593988ab65c5f817e054d773d3b4ab2c0f012108731072"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "link",
+      "art": "/comic/traditional/traditional-link-conversion-20261010-v1",
+      "recordId": "comic-b-traditional-link-ad913de3bad33032",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-link-conversion-20261010-v1-1600.avif",
+        "sha256": "cfe3b675c6692b71375198c091a94ec9e4ec2b23fccdbb25ac8191825c45d0b2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-link-53be88cebeed953e",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-link/conversion-v1/delivery-v1/traditional-link-conversion-20261010-v1-1600.avif",
+          "sha256": "cfe3b675c6692b71375198c091a94ec9e4ec2b23fccdbb25ac8191825c45d0b2"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "link-controlled",
+      "art": "/comic/traditional/traditional-link-conversion-20261010-v1",
+      "recordId": "comic-b-traditional-link-ad913de3bad33032",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-link-conversion-20261010-v1-1600.avif",
+        "sha256": "cfe3b675c6692b71375198c091a94ec9e4ec2b23fccdbb25ac8191825c45d0b2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-link-53be88cebeed953e",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-link/conversion-v1/delivery-v1/traditional-link-conversion-20261010-v1-1600.avif",
+          "sha256": "cfe3b675c6692b71375198c091a94ec9e4ec2b23fccdbb25ac8191825c45d0b2"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "link-network",
+      "art": "/comic/traditional/traditional-link-conversion-20261010-v1",
+      "recordId": "comic-b-traditional-link-ad913de3bad33032",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-link-conversion-20261010-v1-1600.avif",
+        "sha256": "cfe3b675c6692b71375198c091a94ec9e4ec2b23fccdbb25ac8191825c45d0b2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-link-53be88cebeed953e",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-link/conversion-v1/delivery-v1/traditional-link-conversion-20261010-v1-1600.avif",
+          "sha256": "cfe3b675c6692b71375198c091a94ec9e4ec2b23fccdbb25ac8191825c45d0b2"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "closed",
+      "art": "/comic/traditional/traditional-closed-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-closed-4ce20af241ac769f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-closed-conversion-20261010-v3-1600.avif",
+        "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-closed-835a6d994a0b2ca3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-closed/conversion-v1/delivery-v3/traditional-closed-conversion-20261010-v3-1600.avif",
+          "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "closed-controls",
+      "art": "/comic/traditional/traditional-closed-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-closed-4ce20af241ac769f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-closed-conversion-20261010-v3-1600.avif",
+        "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-closed-835a6d994a0b2ca3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-closed/conversion-v1/delivery-v3/traditional-closed-conversion-20261010-v3-1600.avif",
+          "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "closed-callers",
+      "art": "/comic/traditional/traditional-closed-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-closed-4ce20af241ac769f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-closed-conversion-20261010-v3-1600.avif",
+        "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-closed-835a6d994a0b2ca3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-closed/conversion-v1/delivery-v3/traditional-closed-conversion-20261010-v3-1600.avif",
+          "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "closed-consequence",
+      "art": "/comic/traditional/traditional-closed-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-closed-4ce20af241ac769f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-closed-conversion-20261010-v3-1600.avif",
+        "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-closed-835a6d994a0b2ca3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-closed/conversion-v1/delivery-v3/traditional-closed-conversion-20261010-v3-1600.avif",
+          "sha256": "8ad4539bcb52854822933bd5eef4e44c31d67e7976c4463e7a0d93a4139f3952"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owner",
+      "art": "/comic/traditional/traditional-owner-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-owner-743097f50c09a808",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owner-conversion-20261010-v3-1600.avif",
+        "sha256": "2a84321cdef06a1b3253636798f8fab9dbb8284cab4ef9b42a528d70f7c673e6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owner-9ed31c4551a000b5",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owner/conversion-v1/delivery-v3/traditional-owner-conversion-20261010-v3-1600.avif",
+          "sha256": "2a84321cdef06a1b3253636798f8fab9dbb8284cab4ef9b42a528d70f7c673e6"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owner-boundary",
+      "art": "/comic/traditional/traditional-owner-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-owner-743097f50c09a808",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owner-conversion-20261010-v3-1600.avif",
+        "sha256": "2a84321cdef06a1b3253636798f8fab9dbb8284cab4ef9b42a528d70f7c673e6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owner-9ed31c4551a000b5",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owner/conversion-v1/delivery-v3/traditional-owner-conversion-20261010-v3-1600.avif",
+          "sha256": "2a84321cdef06a1b3253636798f8fab9dbb8284cab4ef9b42a528d70f7c673e6"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owner-first",
+      "art": "/comic/traditional/traditional-owner-conversion-20261010-v3",
+      "recordId": "comic-b-traditional-owner-743097f50c09a808",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owner-conversion-20261010-v3-1600.avif",
+        "sha256": "2a84321cdef06a1b3253636798f8fab9dbb8284cab4ef9b42a528d70f7c673e6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owner-9ed31c4551a000b5",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owner/conversion-v1/delivery-v3/traditional-owner-conversion-20261010-v3-1600.avif",
+          "sha256": "2a84321cdef06a1b3253636798f8fab9dbb8284cab4ef9b42a528d70f7c673e6"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "sharing-procedure",
+      "art": "/comic/traditional/traditional-sharing-procedure-conversion-20261010-v2",
+      "recordId": "traditional-sharing-procedure-conversion-20261010-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-sharing-procedure-conversion-20261010-v2-1600.avif",
+        "sha256": "3a1a4085cf27f101f6fc337c507017a0b34fa911fafc7941cc49d8b6a3d42a54",
+        "canonicalDerivative": {
+          "recordId": "traditional-sharing-procedure-conversion-20261010-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-sharing-procedure/conversion-v1/delivery-v2/traditional-sharing-procedure-conversion-20261010-v2-1600.avif",
+          "sha256": "3a1a4085cf27f101f6fc337c507017a0b34fa911fafc7941cc49d8b6a3d42a54"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "sharing-procedure-prep-2",
+      "art": "/comic/traditional/traditional-sharing-procedure-conversion-20261010-v2",
+      "recordId": "traditional-sharing-procedure-conversion-20261010-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-sharing-procedure-conversion-20261010-v2-1600.avif",
+        "sha256": "3a1a4085cf27f101f6fc337c507017a0b34fa911fafc7941cc49d8b6a3d42a54",
+        "canonicalDerivative": {
+          "recordId": "traditional-sharing-procedure-conversion-20261010-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-sharing-procedure/conversion-v1/delivery-v2/traditional-sharing-procedure-conversion-20261010-v2-1600.avif",
+          "sha256": "3a1a4085cf27f101f6fc337c507017a0b34fa911fafc7941cc49d8b6a3d42a54"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "sharing-procedure-prep-3",
+      "art": "/comic/traditional/traditional-sharing-procedure-conversion-20261010-v2",
+      "recordId": "traditional-sharing-procedure-conversion-20261010-v2",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-sharing-procedure-conversion-20261010-v2-1600.avif",
+        "sha256": "3a1a4085cf27f101f6fc337c507017a0b34fa911fafc7941cc49d8b6a3d42a54",
+        "canonicalDerivative": {
+          "recordId": "traditional-sharing-procedure-conversion-20261010-v2-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-sharing-procedure/conversion-v1/delivery-v2/traditional-sharing-procedure-conversion-20261010-v2-1600.avif",
+          "sha256": "3a1a4085cf27f101f6fc337c507017a0b34fa911fafc7941cc49d8b6a3d42a54"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "deed",
+      "art": "/comic/traditional/traditional-deed-conversion-20261010-v5",
+      "recordId": "comic-b-traditional-deed-0c9eb3907db5ee10",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-deed-conversion-20261010-v5-1600.avif",
+        "sha256": "8aea74d380fcc15930257930c32c534784af94c7e29f6144e439bc7f8edf92e0",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-deed-aec80ac31f88abe3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-deed/conversion-v1/delivery-v5/traditional-deed-conversion-20261010-v5-1600.avif",
+          "sha256": "8aea74d380fcc15930257930c32c534784af94c7e29f6144e439bc7f8edf92e0"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "deed-proof",
+      "art": "/comic/traditional/traditional-deed-conversion-20261010-v5",
+      "recordId": "comic-b-traditional-deed-0c9eb3907db5ee10",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-deed-conversion-20261010-v5-1600.avif",
+        "sha256": "8aea74d380fcc15930257930c32c534784af94c7e29f6144e439bc7f8edf92e0",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-deed-aec80ac31f88abe3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-deed/conversion-v1/delivery-v5/traditional-deed-conversion-20261010-v5-1600.avif",
+          "sha256": "8aea74d380fcc15930257930c32c534784af94c7e29f6144e439bc7f8edf92e0"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "deed-followup",
+      "art": "/comic/traditional/traditional-deed-conversion-20261010-v5",
+      "recordId": "comic-b-traditional-deed-0c9eb3907db5ee10",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-deed-conversion-20261010-v5-1600.avif",
+        "sha256": "8aea74d380fcc15930257930c32c534784af94c7e29f6144e439bc7f8edf92e0",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-deed-aec80ac31f88abe3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-deed/conversion-v1/delivery-v5/traditional-deed-conversion-20261010-v5-1600.avif",
+          "sha256": "8aea74d380fcc15930257930c32c534784af94c7e29f6144e439bc7f8edf92e0"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owners",
+      "art": "/comic/traditional/traditional-owners-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-owners-714e57a6ccc6bf6f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owners-conversion-20261010-v4-1600.avif",
+        "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owners-24b6c9c43e820119",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owners/conversion-v1/delivery-v4/traditional-owners-conversion-20261010-v4-1600.avif",
+          "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owners-notes",
+      "art": "/comic/traditional/traditional-owners-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-owners-714e57a6ccc6bf6f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owners-conversion-20261010-v4-1600.avif",
+        "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owners-24b6c9c43e820119",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owners/conversion-v1/delivery-v4/traditional-owners-conversion-20261010-v4-1600.avif",
+          "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owners-access",
+      "art": "/comic/traditional/traditional-owners-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-owners-714e57a6ccc6bf6f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owners-conversion-20261010-v4-1600.avif",
+        "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owners-24b6c9c43e820119",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owners/conversion-v1/delivery-v4/traditional-owners-conversion-20261010-v4-1600.avif",
+          "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "owners-knowledge",
+      "art": "/comic/traditional/traditional-owners-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-owners-714e57a6ccc6bf6f",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-owners-conversion-20261010-v4-1600.avif",
+        "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-owners-24b6c9c43e820119",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-owners/conversion-v1/delivery-v4/traditional-owners-conversion-20261010-v4-1600.avif",
+          "sha256": "7829b3c0bc3b0d02b987a7e3998ea1382df999819b3d52c36a88c320623f96da"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "complaint-checks",
+      "art": "/comic/traditional/traditional-complaint-checks-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-complaint-a81e96618c97abd9",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-complaint-checks-conversion-20261010-v4-1600.avif",
+        "sha256": "3623c6aef02c865dd0a42c975e498cca7c2966bbc5832c44cf7b59775b8b164c",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-complaint-7a9db08de139076f",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-complaint-checks/conversion-v1/delivery-v4/traditional-complaint-checks-conversion-20261010-v4-1600.avif",
+          "sha256": "3623c6aef02c865dd0a42c975e498cca7c2966bbc5832c44cf7b59775b8b164c"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "friday",
+      "art": "/comic/traditional/traditional-friday-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-friday-7b741a85880d1b35",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-friday-conversion-20261010-v4-1600.avif",
+        "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-friday-e11f58b0dadfe835",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-friday/conversion-v1/delivery-v4/traditional-friday-conversion-20261010-v4-1600.avif",
+          "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "friday-invoices",
+      "art": "/comic/traditional/traditional-friday-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-friday-7b741a85880d1b35",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-friday-conversion-20261010-v4-1600.avif",
+        "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-friday-e11f58b0dadfe835",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-friday/conversion-v1/delivery-v4/traditional-friday-conversion-20261010-v4-1600.avif",
+          "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "friday-records",
+      "art": "/comic/traditional/traditional-friday-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-friday-7b741a85880d1b35",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-friday-conversion-20261010-v4-1600.avif",
+        "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-friday-e11f58b0dadfe835",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-friday/conversion-v1/delivery-v4/traditional-friday-conversion-20261010-v4-1600.avif",
+          "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6"
+        }
+      }
+    },
+    {
+      "story": "traditional",
+      "scene": "friday-checked",
+      "art": "/comic/traditional/traditional-friday-conversion-20261010-v4",
+      "recordId": "comic-b-traditional-friday-7b741a85880d1b35",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/traditional/traditional-friday-conversion-20261010-v4-1600.avif",
+        "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6",
+        "canonicalDerivative": {
+          "recordId": "comic-b-traditional-friday-e11f58b0dadfe835",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/traditional-friday/conversion-v1/delivery-v4/traditional-friday-conversion-20261010-v4-1600.avif",
+          "sha256": "a4c903bd70aaf12ded55f0c438ccbea78b37cf5a387681469c509e3be359dad6"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "records",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-records-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-records-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-records-20261010-live-v1-1600.avif",
+        "sha256": "97669895a3aaaab138d404b2afd094647f60bf7d40e0f3e7f60e3623346950f2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-1b5d22920fc70c0d",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-records/live-v1/delivery/data-migrations-records-20261010-live-v1-1600.avif",
+          "sha256": "97669895a3aaaab138d404b2afd094647f60bf7d40e0f3e7f60e3623346950f2"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "records-continued-1",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-records-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-records-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-records-20261010-live-v1-1600.avif",
+        "sha256": "97669895a3aaaab138d404b2afd094647f60bf7d40e0f3e7f60e3623346950f2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-1b5d22920fc70c0d",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-records/live-v1/delivery/data-migrations-records-20261010-live-v1-1600.avif",
+          "sha256": "97669895a3aaaab138d404b2afd094647f60bf7d40e0f3e7f60e3623346950f2"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "records-continued-1-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-records-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-records-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-records-20261010-live-v1-1600.avif",
+        "sha256": "97669895a3aaaab138d404b2afd094647f60bf7d40e0f3e7f60e3623346950f2",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-1b5d22920fc70c0d",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-records/live-v1/delivery/data-migrations-records-20261010-live-v1-1600.avif",
+          "sha256": "97669895a3aaaab138d404b2afd094647f60bf7d40e0f3e7f60e3623346950f2"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "plan",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-plan-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-plan-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-plan-20261010-live-v1-1600.avif",
+        "sha256": "65ac7f782b01f0e78766ebfa0731a115f996d8ac507153edbbdbb22661761c3d",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-e0347a5bfcea7162",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-plan/live-v1/delivery/data-migrations-plan-20261010-live-v1-1600.avif",
+          "sha256": "65ac7f782b01f0e78766ebfa0731a115f996d8ac507153edbbdbb22661761c3d"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "plan-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-plan-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-plan-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-plan-20261010-live-v1-1600.avif",
+        "sha256": "65ac7f782b01f0e78766ebfa0731a115f996d8ac507153edbbdbb22661761c3d",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-e0347a5bfcea7162",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-plan/live-v1/delivery/data-migrations-plan-20261010-live-v1-1600.avif",
+          "sha256": "65ac7f782b01f0e78766ebfa0731a115f996d8ac507153edbbdbb22661761c3d"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "plan-prep-3",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-plan-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-plan-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-plan-20261010-live-v1-1600.avif",
+        "sha256": "65ac7f782b01f0e78766ebfa0731a115f996d8ac507153edbbdbb22661761c3d",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-e0347a5bfcea7162",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-plan/live-v1/delivery/data-migrations-plan-20261010-live-v1-1600.avif",
+          "sha256": "65ac7f782b01f0e78766ebfa0731a115f996d8ac507153edbbdbb22661761c3d"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "waves",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-waves-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-waves-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-waves-20261010-live-v1-1600.avif",
+        "sha256": "62979d090095e0302f244240f1e750438bf961f6bb0e63195fe23e2308d20a78",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-d305f5407f3dbf89",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-waves/live-v1/delivery/data-migrations-waves-20261010-live-v1-1600.avif",
+          "sha256": "62979d090095e0302f244240f1e750438bf961f6bb0e63195fe23e2308d20a78"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "waves-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-waves-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-waves-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-waves-20261010-live-v1-1600.avif",
+        "sha256": "62979d090095e0302f244240f1e750438bf961f6bb0e63195fe23e2308d20a78",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-d305f5407f3dbf89",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-waves/live-v1/delivery/data-migrations-waves-20261010-live-v1-1600.avif",
+          "sha256": "62979d090095e0302f244240f1e750438bf961f6bb0e63195fe23e2308d20a78"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "waves-prep-3",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-waves-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-waves-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-waves-20261010-live-v1-1600.avif",
+        "sha256": "62979d090095e0302f244240f1e750438bf961f6bb0e63195fe23e2308d20a78",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-d305f5407f3dbf89",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-waves/live-v1/delivery/data-migrations-waves-20261010-live-v1-1600.avif",
+          "sha256": "62979d090095e0302f244240f1e750438bf961f6bb0e63195fe23e2308d20a78"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "discrepancy",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-discrepancy-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-discrepancy-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-discrepancy-20261010-live-v1-1600.avif",
+        "sha256": "b483c71546637e3c468e827479ef6d4e1dd41cce4023ca548289fee8d6cb67c1",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-3390dcc5af71f6d3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-discrepancy/live-v1/delivery/data-migrations-discrepancy-20261010-live-v1-1600.avif",
+          "sha256": "b483c71546637e3c468e827479ef6d4e1dd41cce4023ca548289fee8d6cb67c1"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "discrepancy-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-discrepancy-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-discrepancy-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-discrepancy-20261010-live-v1-1600.avif",
+        "sha256": "b483c71546637e3c468e827479ef6d4e1dd41cce4023ca548289fee8d6cb67c1",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-3390dcc5af71f6d3",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-discrepancy/live-v1/delivery/data-migrations-discrepancy-20261010-live-v1-1600.avif",
+          "sha256": "b483c71546637e3c468e827479ef6d4e1dd41cce4023ca548289fee8d6cb67c1"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "try",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-try-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-try-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-try-20261010-live-v1-1600.avif",
+        "sha256": "ee5c7f5f6670bb0be3bcdbc13e2666d9f6325f1368cf7255499a4a49500993c8",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-86082ff540a11648",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-try/live-v1/delivery/data-migrations-try-20261010-live-v1-1600.avif",
+          "sha256": "ee5c7f5f6670bb0be3bcdbc13e2666d9f6325f1368cf7255499a4a49500993c8"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "try-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-try-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-try-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-try-20261010-live-v1-1600.avif",
+        "sha256": "ee5c7f5f6670bb0be3bcdbc13e2666d9f6325f1368cf7255499a4a49500993c8",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-86082ff540a11648",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-try/live-v1/delivery/data-migrations-try-20261010-live-v1-1600.avif",
+          "sha256": "ee5c7f5f6670bb0be3bcdbc13e2666d9f6325f1368cf7255499a4a49500993c8"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "try-prep-3",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-try-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-try-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-try-20261010-live-v1-1600.avif",
+        "sha256": "ee5c7f5f6670bb0be3bcdbc13e2666d9f6325f1368cf7255499a4a49500993c8",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-86082ff540a11648",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-try/live-v1/delivery/data-migrations-try-20261010-live-v1-1600.avif",
+          "sha256": "ee5c7f5f6670bb0be3bcdbc13e2666d9f6325f1368cf7255499a4a49500993c8"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "access-procedure-1",
+      "art": "/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1",
+      "recordId": "composite-evidence-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+        "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05",
+        "canonicalDerivative": {
+          "recordId": "data-migrations-access-procedure-20261010-live-v1-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-access-procedure/live-v1/delivery-preview-v1/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+          "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "access-procedure-2",
+      "art": "/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1",
+      "recordId": "composite-evidence-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+        "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05",
+        "canonicalDerivative": {
+          "recordId": "data-migrations-access-procedure-20261010-live-v1-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-access-procedure/live-v1/delivery-preview-v1/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+          "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "access-procedure-3",
+      "art": "/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1",
+      "recordId": "composite-evidence-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+        "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05",
+        "canonicalDerivative": {
+          "recordId": "data-migrations-access-procedure-20261010-live-v1-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-access-procedure/live-v1/delivery-preview-v1/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+          "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "access-procedure-4",
+      "art": "/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1",
+      "recordId": "composite-evidence-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+        "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05",
+        "canonicalDerivative": {
+          "recordId": "data-migrations-access-procedure-20261010-live-v1-1600",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-access-procedure/live-v1/delivery-preview-v1/data-migrations-access-procedure-20261010-live-v1-1600.avif",
+          "sha256": "8da603d5ecde9b367475769b52993ad7be586a751b340a8dff1e1f1375e92b05"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "red",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-red-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-red-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-red-20261010-live-v1-1600.avif",
+        "sha256": "6da1958d584200617ff4d7e8199980df6810b990061c3321deea5620c4784505",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-490e2d28d22bbdb4",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-red/live-v1/delivery/data-migrations-red-20261010-live-v1-1600.avif",
+          "sha256": "6da1958d584200617ff4d7e8199980df6810b990061c3321deea5620c4784505"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "red-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-red-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-red-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-red-20261010-live-v1-1600.avif",
+        "sha256": "6da1958d584200617ff4d7e8199980df6810b990061c3321deea5620c4784505",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-490e2d28d22bbdb4",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-red/live-v1/delivery/data-migrations-red-20261010-live-v1-1600.avif",
+          "sha256": "6da1958d584200617ff4d7e8199980df6810b990061c3321deea5620c4784505"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "red-prep-3",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-red-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-red-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-red-20261010-live-v1-1600.avif",
+        "sha256": "6da1958d584200617ff4d7e8199980df6810b990061c3321deea5620c4784505",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-490e2d28d22bbdb4",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-red/live-v1/delivery/data-migrations-red-20261010-live-v1-1600.avif",
+          "sha256": "6da1958d584200617ff4d7e8199980df6810b990061c3321deea5620c4784505"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "repair",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-repair-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-repair-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-repair-20261010-live-v1-1600.avif",
+        "sha256": "2b01ad3bfecfec315c2801364414c5770113a6d91942f90e448f6a204f75c37e",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-fa8e06523a52286f",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-repair/live-v1/delivery/data-migrations-repair-20261010-live-v1-1600.avif",
+          "sha256": "2b01ad3bfecfec315c2801364414c5770113a6d91942f90e448f6a204f75c37e"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "repair-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-repair-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-repair-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-repair-20261010-live-v1-1600.avif",
+        "sha256": "2b01ad3bfecfec315c2801364414c5770113a6d91942f90e448f6a204f75c37e",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-fa8e06523a52286f",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-repair/live-v1/delivery/data-migrations-repair-20261010-live-v1-1600.avif",
+          "sha256": "2b01ad3bfecfec315c2801364414c5770113a6d91942f90e448f6a204f75c37e"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "cutover",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-cutover-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-cutover-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-cutover-20261010-live-v1-1600.avif",
+        "sha256": "7e35ee4aca65b8bd8925efe9b14461be848acc3b34da4ebd26134741bec9c835",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-840b4cfc7a7f9aa4",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-cutover/live-v1/delivery/data-migrations-cutover-20261010-live-v1-1600.avif",
+          "sha256": "7e35ee4aca65b8bd8925efe9b14461be848acc3b34da4ebd26134741bec9c835"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "cutover-prep-2",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-cutover-anatomy-20261010-live-v2",
+      "recordId": "comic-b-cutover-anatomy-e2ba4a6ed393115833c7",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-cutover-anatomy-20261010-live-v2-1600.avif",
+        "sha256": "0a51b60ebd136d5cf4fcb7a335286ea0a9940376f101d30363c3f8afc2ae183e",
+        "canonicalDerivative": {
+          "recordId": "comic-b-cutover-anatomy-bff9aad12f0863ec8bea",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-cutover/live-v2/delivery/data-migrations-cutover-anatomy-20261010-live-v2-1600.avif",
+          "sha256": "0a51b60ebd136d5cf4fcb7a335286ea0a9940376f101d30363c3f8afc2ae183e"
+        }
+      }
+    },
+    {
+      "story": "data-migrations",
+      "scene": "cutover-prep-3",
+      "art": "/comic/data-migrations/live-20261010/data-migrations-cutover-20261010-live-v1",
+      "recordId": "comic-b-data-migrations-cutover-live-v1",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/data-migrations/live-20261010/data-migrations-cutover-20261010-live-v1-1600.avif",
+        "sha256": "7e35ee4aca65b8bd8925efe9b14461be848acc3b34da4ebd26134741bec9c835",
+        "canonicalDerivative": {
+          "recordId": "comic-b-data-migrations-live-840b4cfc7a7f9aa4",
+          "treatment": "comic-ink",
+          "path": "assets/scenes/comic-b/layers/data-migrations-cutover/live-v1/delivery/data-migrations-cutover-20261010-live-v1-1600.avif",
+          "sha256": "7e35ee4aca65b8bd8925efe9b14461be848acc3b34da4ebd26134741bec9c835"
+        }
+      }
+    },
+    {
+      "story": "demo",
+      "scene": "p1",
+      "art": "/comic/_lab/demo-p1",
+      "recordId": "earlier-comic-b-home-p1-comic-ink-print-026ca180c3c3cf6b",
+      "treatment": "comic-ink-print",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/_lab/demo-p1-1600.avif",
+        "sha256": "15245121575aea6a6d90e347c3b9687ec5059ff753a0e8bd632f223311c9728a",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "demo",
+            "scene": "p1",
+            "art": "/comic/_lab/demo-p1",
+            "recordId": "earlier-comic-b-home-p1-comic-ink-print-026ca180c3c3cf6b",
+            "treatment": "comic-ink-print"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "27767d4e293aeebd1920b9b7cda73987f609e7a8b73dac76078e73d873235190",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "demo",
+      "scene": "x137",
+      "art": "/comic/_lab/demo-x137",
+      "recordId": "earlier-comic-b-calibration-xmen137-comic-ink-print-786ecef72f8a8b62",
+      "treatment": "comic-ink-print",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/_lab/demo-x137-1600.avif",
+        "sha256": "4a48698522f6c51cc9e0556275804b7a45ddff2abf5b21e1fdf2119e88def1ac",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "demo",
+            "scene": "x137",
+            "art": "/comic/_lab/demo-x137",
+            "recordId": "earlier-comic-b-calibration-xmen137-comic-ink-print-786ecef72f8a8b62",
+            "treatment": "comic-ink-print"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "496c1802233ea56fabde2c4596a5d88550df71e59ad652b27a91a1f89c08c36e",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "demo",
+      "scene": "crisis",
+      "art": "/comic/_lab/demo-crisis",
+      "recordId": "comic-b-calibration-crisis",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/_lab/demo-crisis-1600.avif",
+        "sha256": "633059199e6634483d7825bfd766ebd651d446258af3884965d79311fd9df703",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "demo",
+            "scene": "crisis",
+            "art": "/comic/_lab/demo-crisis",
+            "recordId": "comic-b-calibration-crisis",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "3bb86ab8472836e4d53d40644cd287e310aa77b7c83307bef9215bc7d6619715",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "demo",
+      "scene": "darkseid",
+      "art": "/comic/_lab/demo-darkseid",
+      "recordId": "comic-b-calibration-darkseid",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/_lab/demo-darkseid-1600.avif",
+        "sha256": "b0c9e03bbb566fa2440c224d5d6c396ea4d52d71f38380a78cc32d0541959c3c",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "demo",
+            "scene": "darkseid",
+            "art": "/comic/_lab/demo-darkseid",
+            "recordId": "comic-b-calibration-darkseid",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "ca9c02e1761146c740d98a20567a7bf0e3b04a259671822c226707ec9f12754c",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    },
+    {
+      "story": "demo",
+      "scene": "spider",
+      "art": "/comic/_lab/demo-spider",
+      "recordId": "comic-b-calibration-spiderman33",
+      "treatment": "comic-ink",
+      "deliveryBinding": {
+        "publicPath": "site/public/comic/_lab/demo-spider-1600.avif",
+        "sha256": "1daaab452587564f703e88220a80ec7fd48e64dddc42b1fc6f91dd331d504dca",
+        "legacyAlias": {
+          "originalAlias": {
+            "story": "demo",
+            "scene": "spider",
+            "art": "/comic/_lab/demo-spider",
+            "recordId": "comic-b-calibration-spiderman33",
+            "treatment": "comic-ink"
+          },
+          "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+          "masterSha256": "14b9797ef4e04a2f80bf3832d6bb84e66609292008b2fde79930a78df070fd8e",
+          "standing": "Existing same-art authority retained; public delivery bytes verified, historic encoding lineage not newly inferred"
+        }
+      }
+    }
+  ],
+  "deviceAssets": [],
+  "deviceOperations": [],
+  "phoneTargets": [
+    {
+      "story": "home",
+      "slug": "home",
+      "scene": "brief",
+      "panelIndex": 2,
+      "panelImageId": "home-claude-stricken",
+      "reason": "next different panel: relocated Claude introduction and changed speech below; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.02,
+        0.332,
+        0.96,
+        0.6279999999999999
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 27,
+          "kind": "caption",
+          "characterIntro": true,
+          "state": "narration",
+          "who": "narrator",
+          "text": "Claude. An AI.\nIt reads everything,\nand agrees with everyone.",
+          "x": 0.05,
+          "y": 0.05,
+          "w": 0.9,
+          "phone": {
+            "x": 0.025,
+            "y": 0.015,
+            "w": 0.94
+          }
+        },
+        {
+          "at": 33,
+          "kind": "fear",
+          "state": "fear",
+          "who": "claude",
+          "text": "I… wrote\nwhat you\nasked for.",
+          "x": 0.08,
+          "y": 0.69,
+          "w": 0.84,
+          "tail": [
+            0.5,
+            0.45
+          ],
+          "phone": {
+            "x": 0.025,
+            "y": 0.15000000000000002,
+            "w": 0.94,
+            "tail": [
+              0.5,
+              0.45
+            ]
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.02,
+        0.332,
+        0.96,
+        0.6279999999999999
+      ],
+      "requiresPhoneArt": false,
+      "sourceSha256": "ab565ac2bd31f14440066945f11df60c12d06f5b0c2f2b8d4b94127b086038e9",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "home",
+      "slug": "home",
+      "scene": "brief",
+      "panelIndex": 4,
+      "panelImageId": "home-thirty-one",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.02,
+        0.14200000000000002,
+        0.96,
+        0.818
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 42,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Thirty-one real.\nNine invented.",
+          "x": 0.04,
+          "y": 0.04,
+          "w": 0.8,
+          "phone": {
+            "x": 0.025,
+            "y": 0.015,
+            "w": 0.94
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.02,
+        0.14200000000000002,
+        0.96,
+        0.818
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "ab565ac2bd31f14440066945f11df60c12d06f5b0c2f2b8d4b94127b086038e9",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "five-continued-1-lettering-2",
+      "panelIndex": 2,
+      "panelImageId": "agentic-job-scheduled",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.12213740458015267,
+        0.9544159544159544,
+        0.8656488549618321
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 21.5,
+          "kind": "speech",
+          "state": "device",
+          "who": "narrator",
+          "text": "Scheduled job:\ncleanup. Friday,\n2:07 a.m.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "tail": [
+            0.08,
+            0.3790190735694823
+          ],
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0.08,
+              0.38183206106870227
+            ]
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.12213740458015267,
+        0.9544159544159544,
+        0.8656488549618321
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "nine",
+      "panelIndex": 2,
+      "panelImageId": "agentic-run-1",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "currentPhoneSheet": -1,
+      "protectedSubjects": [
+        {
+          "label": "record deletion",
+          "sourceRect": [
+            21.54,
+            395.22,
+            278.98,
+            208.8
+          ],
+          "retained": 1
+        },
+        {
+          "label": "stopwatch",
+          "sourceRect": [
+            270.36,
+            523.11,
+            109.33,
+            125.28
+          ],
+          "retained": 1
+        }
+      ],
+      "balloons": [],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "nine-lettering-2",
+      "panelIndex": 0,
+      "panelImageId": "agentic-run-2",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "currentPhoneSheet": -1,
+      "protectedSubjects": [
+        {
+          "label": "record deletion",
+          "sourceRect": [
+            415.07,
+            395.22,
+            280.44,
+            219.23999999999998
+          ],
+          "retained": 1
+        },
+        {
+          "label": "stopwatch",
+          "sourceRect": [
+            643.85,
+            515.28,
+            121.77000000000001,
+            133.11
+          ],
+          "retained": 1
+        }
+      ],
+      "balloons": [],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "nine-lettering-2",
+      "panelIndex": 1,
+      "panelImageId": "agentic-run-3",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "currentPhoneSheet": -1,
+      "protectedSubjects": [
+        {
+          "label": "Sam face",
+          "sourceRect": [
+            820.37,
+            397.83,
+            184.70999999999998,
+            161.82
+          ],
+          "retained": 1
+        },
+        {
+          "label": "stopwatch",
+          "sourceRect": [
+            1052.24,
+            520.5,
+            117.89999999999999,
+            127.89
+          ],
+          "retained": 1
+        }
+      ],
+      "balloons": [],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "nine-lettering-2",
+      "panelIndex": 2,
+      "panelImageId": "agentic-run-4",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "currentPhoneSheet": -1,
+      "protectedSubjects": [
+        {
+          "label": "empty table",
+          "sourceRect": [
+            1220.64,
+            431.76,
+            329.38,
+            151.38
+          ],
+          "retained": 1
+        },
+        {
+          "label": "cursor",
+          "sourceRect": [
+            1255.11,
+            463.08000000000004,
+            15.32,
+            31.32
+          ],
+          "retained": 1
+        },
+        {
+          "label": "stopwatch",
+          "sourceRect": [
+            1446.6100000000001,
+            520.5,
+            122.56,
+            127.89
+          ],
+          "retained": 1
+        }
+      ],
+      "balloons": [],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.030534351145038167,
+        0.9544159544159544,
+        0.9572519083969465
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "restore",
+      "panelIndex": 0,
+      "panelImageId": "agentic-backup",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.2198473282442748,
+        0.9544159544159544,
+        0.76793893129771
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "place",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Floor 19.\nFriday, 8:40 a.m.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          }
+        },
+        {
+          "at": 3,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "The backup missed\nthis week's assessments.\nForty people still\nneeded checking.",
+          "x": 0.026607538802660754,
+          "y": 0.09400544959128065,
+          "w": 0.9467849223946785,
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.09465648854961832,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.2198473282442748,
+        0.9544159544159544,
+        0.76793893129771
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "restore-lettering-2",
+      "panelIndex": 2,
+      "panelImageId": "agentic-matt-line",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.2732824427480916,
+        0.9544159544159544,
+        0.7145038167938931
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 27,
+          "kind": "speech",
+          "state": "calm",
+          "who": "matt",
+          "text": "A task. The facts.\nAnd a name that\nanswers for it.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "tail": [
+            0.747,
+            0.4772479564032698
+          ],
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0.747,
+              0.48763358778625954
+            ]
+          }
+        },
+        {
+          "at": 28.5,
+          "kind": "speech",
+          "state": "offpanel",
+          "who": "sam",
+          "text": "Mine.",
+          "x": 0.026607538802660754,
+          "y": 0.11989100817438691,
+          "w": 0.9467849223946785,
+          "tail": [
+            0,
+            0.14100817438692098
+          ],
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.12213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0,
+              0.1450381679389313
+            ]
+          },
+          "anchor": "free",
+          "chain": false
+        },
+        {
+          "at": 30,
+          "kind": "speech",
+          "state": "offpanel",
+          "who": "sam",
+          "text": "We'll use the forms.\nNo more guesses.",
+          "x": 0.026607538802660754,
+          "y": 0.1784741144414169,
+          "w": 0.9467849223946785,
+          "tail": [
+            0,
+            0.2111716621253406
+          ],
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.18625954198473282,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0,
+              0.22061068702290076
+            ]
+          },
+          "anchor": "free",
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.2732824427480916,
+        0.9544159544159544,
+        0.7145038167938931
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "yard-lettering-2",
+      "panelIndex": 1,
+      "panelImageId": "agentic-claude-teal",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09923664122137404,
+        0.9544159544159544,
+        0.8885496183206106
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 20,
+          "kind": "speech",
+          "state": "calm",
+          "who": "claude",
+          "text": "I’ll keep the evidence\nand Joan’s confirmation.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "tail": [
+            0.595,
+            0.3637602179836512
+          ],
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0.595,
+              0.3658015267175572
+            ]
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09923664122137404,
+        0.9544159544159544,
+        0.8885496183206106
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "yard-lettering-2",
+      "panelIndex": 2,
+      "panelImageId": "agentic-sunday-count",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.2198473282442748,
+        0.9544159544159544,
+        0.76793893129771
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 26,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Sunday, 10:40 p.m.\nTwenty-nine verified.\nEleven unresolved.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          }
+        },
+        {
+          "at": 27.5,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Missing records.\nUnsigned drafts.\nNone proved a pass.",
+          "x": 0.026607538802660754,
+          "y": 0.11444141689373297,
+          "w": 0.9467849223946785,
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.11603053435114503,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.2198473282442748,
+        0.9544159544159544,
+        0.76793893129771
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "gate",
+      "panelIndex": 1,
+      "panelImageId": "agentic-b2-clock",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.12061068702290076,
+        0.9544159544159544,
+        0.867175572519084
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 21.5,
+          "kind": "speech",
+          "state": "device",
+          "who": "rogue",
+          "text": "Test replay.\nCleanup request\nreceived.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "tail": [
+            0.595,
+            0.37806539509536785
+          ],
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0.595,
+              0.3807633587786259
+            ]
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.12061068702290076,
+        0.9544159544159544,
+        0.867175572519084
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "gate-lettering-3",
+      "panelIndex": 0,
+      "panelImageId": "agentic-collar",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09923664122137404,
+        0.9544159544159544,
+        0.8885496183206106
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "speech",
+          "state": "offpanel",
+          "who": "sam",
+          "text": "Read-only.\nGood boy.",
+          "x": 0.008683068017366137,
+          "y": 0.01634877384196185,
+          "w": 0.9826338639652678,
+          "tail": [
+            0,
+            0.049046321525885554
+          ],
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0,
+              0.046564885496183206
+            ]
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09923664122137404,
+        0.9544159544159544,
+        0.8885496183206106
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "monday-lettering-2",
+      "panelIndex": 1,
+      "panelImageId": "agentic-form-clipboard",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 12.5,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Sam owned the roster. Joan kept the signed assessments current.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          }
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "traditional",
+      "slug": "traditional-systems",
+      "scene": "friday",
+      "panelIndex": 0,
+      "panelImageId": "trad-boardroom",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "place",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Floor 28, the boardroom.\nFriday, 3:58 p.m.",
+          "x": 0.017501206854055977,
+          "y": 0.01634877384196185,
+          "w": 0.964997586291888,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          },
+          "anchor": "free",
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "56b5d6f8173f8ec0e3b31f748caf86805da65219f0badf8d02b8ca0791defc75",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "data-migrations",
+      "slug": "data-migrations",
+      "scene": "red-prep-2",
+      "panelIndex": 0,
+      "panelImageId": "dm-dana-how-many",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09923664122137404,
+        0.9544159544159544,
+        0.8885496183206106
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "speech",
+          "state": "calm",
+          "who": "dana",
+          "text": "How many have\nalready moved?",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "tail": [
+            0.5,
+            0.3637602179836512
+          ],
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0.65,
+              0.3658015267175572
+            ]
+          },
+          "anchor": "free",
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09923664122137404,
+        0.9544159544159544,
+        0.8885496183206106
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "e8a2f54758163ce34cc9424d45878fdc04eab79f6ce9d5085c26ea6c66842ec2",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "data-migrations",
+      "slug": "data-migrations",
+      "scene": "cutover-prep-2",
+      "panelIndex": 0,
+      "panelImageId": "dm-letters",
+      "reason": "contained crop candidate; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.11603053435114503,
+        0.9544159544159544,
+        0.8717557251908397
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "The two letters remained.\nA corrected rule\ncould not unread a file.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          },
+          "anchor": "free",
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "phone completed glyphs at reviewFrames beat",
+        "full original source rectangle/key subjects visible at readable scale",
+        "balloon/art overlap and correct actor/speaker",
+        "whole panel frame, gutters and neighbouring panels",
+        "desktop crop/lettering unchanged",
+        "pause active preset and reduced motion static"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.11603053435114503,
+        0.9544159544159544,
+        0.8717557251908397
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "e8a2f54758163ce34cc9424d45878fdc04eab79f6ce9d5085c26ea6c66842ec2",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "data-migrations",
+      "slug": "data-migrations",
+      "scene": "records",
+      "panelIndex": 0,
+      "panelImageId": "dm-records-room",
+      "reason": "new opening firstsheet contained crop candidate; check setup caption with source face/hands; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.2198473282442748,
+        0.9544159544159544,
+        0.5679389312977099
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "place",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Toronto. The Keon Tower,\nbasement one. Monday,\n11 January 2027, 7:40 a.m.",
+          "x": 0.00868516075146906,
+          "y": 0.01634877384196185,
+          "w": 0.19127257146620713,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          },
+          "anchor": "free",
+          "chain": false
+        },
+        {
+          "at": 3,
+          "kind": "caption",
+          "characterIntro": true,
+          "state": "narration",
+          "who": "narrator",
+          "text": "Dana Dryden. Legal assistant,\nBourque & Coffey.\nShe reads every footnote.",
+          "x": 0.20864289296914523,
+          "y": 0.01634877384196185,
+          "w": 0.19127257146620713,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.11603053435114503,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          },
+          "anchor": "free",
+          "chain": false
+        },
+        {
+          "at": 4.5,
+          "kind": "caption",
+          "sceneSetup": true,
+          "state": "narration",
+          "who": "narrator",
+          "text": "Bourque & Coffey LLP is\na law firm moving 1,214,000\nprivate files to a new system.\nSupport for the old one ends\non 8 March. Its builder\nhas retired. Every file must\nopen for the right people.",
+          "x": 0.00868516075146906,
+          "y": 0.95,
+          "w": 0.9826296784970618,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.95,
+            "w": 0.9544159544159544,
+            "chain": false
+          },
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "Source master beside actual phone complete-lettering frame",
+        "Check Dana face/hands remain visible while opening caption stays readable",
+        "Compare new split-first-sheet layout to source action; do not reuse old phone capture",
+        "Keep full panel arrangement and lettering; no speculative art/caption move"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.2198473282442748,
+        0.9544159544159544,
+        0.5679389312977099
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "e8a2f54758163ce34cc9424d45878fdc04eab79f6ce9d5085c26ea6c66842ec2",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "data-migrations",
+      "slug": "data-migrations",
+      "scene": "records-continued-1",
+      "panelIndex": 0,
+      "panelImageId": "dm-green-screen",
+      "reason": "new opening firstsheet contained crop candidate; check setup caption with source face/hands; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.12213740458015267,
+        0.9544159544159544,
+        0.8656488549618321
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "speech",
+          "state": "device",
+          "who": "narrator",
+          "text": "Plante. Document\nsystem, since 1996.\n1,214,000 files.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "tail": [
+            0.75,
+            0.3790190735694823
+          ],
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false,
+            "tail": [
+              0.65,
+              0.38183206106870227
+            ]
+          },
+          "anchor": "free",
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "Source master beside actual phone complete-lettering frame",
+        "Check Dana face/hands remain visible while opening caption stays readable",
+        "Compare new split-first-sheet layout to source action; do not reuse old phone capture",
+        "Keep full panel arrangement and lettering; no speculative art/caption move"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.12213740458015267,
+        0.9544159544159544,
+        0.8656488549618321
+      ],
+      "requiresPhoneArt": true,
+      "sourceSha256": "e8a2f54758163ce34cc9424d45878fdc04eab79f6ce9d5085c26ea6c66842ec2",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "home",
+      "slug": "home",
+      "scene": "agent",
+      "panelIndex": 1,
+      "panelImageId": "home-rogue-speaks",
+      "reason": "remaining near95 retention candidate; inspect actual source/lettering before deciding more changes; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.02,
+        0.19699999999999998,
+        0.96,
+        0.763
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 13,
+          "kind": "speech",
+          "state": "calm",
+          "who": "rogue",
+          "text": "Contract updated.\nSending to\nall customers.",
+          "x": 0.025,
+          "y": 0.015,
+          "w": 0.94,
+          "tail": [
+            0.5,
+            0.45
+          ],
+          "phone": {
+            "x": 0.025,
+            "y": 0.015,
+            "w": 0.94,
+            "tail": [
+              0.5,
+              0.45
+            ]
+          }
+        }
+      ],
+      "targetedReview": [
+        "Compare exact canonical face/object and completed phone glyphs",
+        "Decide whether clipped edge loses meaningful art; do not turn percentage alone into a failure",
+        "Check overlap with balloons and adjacent art; retain calm scene motion"
+      ],
+      "value": [
+        0.02,
+        0.19699999999999998,
+        0.96,
+        0.763
+      ],
+      "requiresPhoneArt": false,
+      "sourceSha256": "ab565ac2bd31f14440066945f11df60c12d06f5b0c2f2b8d4b94127b086038e9",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    },
+    {
+      "story": "agentic",
+      "slug": "agentic-systems",
+      "scene": "nine",
+      "panelIndex": 0,
+      "panelImageId": "agentic-asleep",
+      "reason": "remaining near95 retention candidate; inspect actual source/lettering before deciding more changes; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "currentPhoneSheet": -1,
+      "protectedSubjects": [
+        {
+          "label": "sleeping Sam face",
+          "sourceRect": [
+            393.24,
+            135.44,
+            197.68,
+            153.72
+          ],
+          "retained": 1
+        },
+        {
+          "label": "assessment papers",
+          "sourceRect": [
+            188.5,
+            278.18,
+            451.84000000000003,
+            91.5
+          ],
+          "retained": 0.9459
+        }
+      ],
+      "balloons": [
+        {
+          "at": 1.5,
+          "kind": "place",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Floor 19.\nFriday, 2:07 a.m.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "anchor": "free",
+          "chain": false,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          }
+        }
+      ],
+      "targetedReview": [
+        "Compare exact canonical face/object and completed phone glyphs",
+        "Decide whether clipped edge loses meaningful art; do not turn percentage alone into a failure",
+        "Check overlap with balloons and adjacent art; retain calm scene motion"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "requiresPhoneArt": false,
+      "sourceSha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d"
+    },
+    {
+      "story": "data-migrations",
+      "slug": "data-migrations",
+      "scene": "plan-prep-2",
+      "panelIndex": 1,
+      "panelImageId": "dm-dana-answers",
+      "reason": "remaining near95 retention candidate; inspect actual source/lettering before deciding more changes; rebound to current source; native review remains required",
+      "candidatePhoneArt": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "currentPhoneSheet": -1,
+      "balloons": [
+        {
+          "at": 6.5,
+          "kind": "caption",
+          "state": "narration",
+          "who": "narrator",
+          "text": "Nobody on the team\nhad worked with George.",
+          "x": 0.026607538802660754,
+          "y": 0.01634877384196185,
+          "w": 0.9467849223946785,
+          "phone": {
+            "x": 0.022792022792022793,
+            "y": 0.012213740458015267,
+            "w": 0.9544159544159544,
+            "anchor": "free",
+            "chain": false
+          },
+          "anchor": "free",
+          "chain": false
+        }
+      ],
+      "targetedReview": [
+        "Compare exact canonical face/object and completed phone glyphs",
+        "Decide whether clipped edge loses meaningful art; do not turn percentage alone into a failure",
+        "Check overlap with balloons and adjacent art; retain calm scene motion"
+      ],
+      "value": [
+        0.022792022792022793,
+        0.09465648854961832,
+        0.9544159544159544,
+        0.8931297709923665
+      ],
+      "requiresPhoneArt": false,
+      "sourceSha256": "e8a2f54758163ce34cc9424d45878fdc04eab79f6ce9d5085c26ea6c66842ec2",
+      "subjectAnnotationStatus": "unannotated; previous numeric source rectangles stale"
+    }
+  ],
+  "subjectBindings": {
+    "stories": [
+      {
+        "slug": "home",
+        "storyId": "home",
+        "scenes": []
+      },
+      {
+        "slug": "agentic-systems",
+        "storyId": "agentic",
+        "scenes": [
+          {
+            "id": "nine",
+            "art": "/comic/agentic/agentic-nine-20261008",
+            "width": 1586,
+            "height": 992,
+            "master": "wiki/image-library/assets/scenes/comic-b/pages/agentic-nine-20261008-v1.png",
+            "masterSha256": "97994f2017ebee7e6e3d2fb377c300de96118070410d4be1ed0a4ccd724a1d4f",
+            "panels": [
+              {
+                "imageId": "agentic-asleep",
+                "sourcePixelRect": [
+                  12,
+                  11,
+                  706,
+                  366
+                ],
+                "ar": [
+                  0.007566,
+                  0.011089,
+                  0.445145,
+                  0.368952
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "sleeping Sam face",
+                    "sourcePixelRect": [
+                      393.24,
+                      135.44,
+                      197.68,
+                      153.72
+                    ]
+                  },
+                  {
+                    "label": "assessment papers",
+                    "sourcePixelRect": [
+                      188.5,
+                      278.18,
+                      451.84000000000003,
+                      91.5
+                    ]
+                  }
+                ]
+              },
+              {
+                "imageId": "agentic-agent-forms",
+                "sourcePixelRect": [
+                  728,
+                  11,
+                  847,
+                  366
+                ],
+                "ar": [
+                  0.459016,
+                  0.011089,
+                  0.534048,
+                  0.368952
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "rogue helmet",
+                    "sourcePixelRect": [
+                      1075.27,
+                      18.32,
+                      169.4,
+                      150.06
+                    ]
+                  },
+                  {
+                    "label": "sweeping hand",
+                    "sourcePixelRect": [
+                      948.22,
+                      157.4,
+                      287.98,
+                      212.27999999999997
+                    ]
+                  },
+                  {
+                    "label": "repeated records",
+                    "sourcePixelRect": [
+                      795.76,
+                      113.48,
+                      753.83,
+                      179.34
+                    ]
+                  }
+                ]
+              },
+              {
+                "imageId": "agentic-run-1",
+                "sourcePixelRect": [
+                  14,
+                  390,
+                  377,
+                  261
+                ],
+                "ar": [
+                  0.008827,
+                  0.393145,
+                  0.237705,
+                  0.263105
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "record deletion",
+                    "sourcePixelRect": [
+                      21.54,
+                      395.22,
+                      278.98,
+                      208.8
+                    ]
+                  },
+                  {
+                    "label": "stopwatch",
+                    "sourcePixelRect": [
+                      270.36,
+                      523.11,
+                      109.33,
+                      125.28
+                    ]
+                  }
+                ]
+              },
+              {
+                "imageId": "agentic-run-2",
+                "sourcePixelRect": [
+                  404,
+                  390,
+                  369,
+                  261
+                ],
+                "ar": [
+                  0.254729,
+                  0.393145,
+                  0.232661,
+                  0.263105
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "record deletion",
+                    "sourcePixelRect": [
+                      415.07,
+                      395.22,
+                      280.44,
+                      219.23999999999998
+                    ]
+                  },
+                  {
+                    "label": "stopwatch",
+                    "sourcePixelRect": [
+                      643.85,
+                      515.28,
+                      121.77000000000001,
+                      133.11
+                    ]
+                  }
+                ]
+              },
+              {
+                "imageId": "agentic-run-3",
+                "sourcePixelRect": [
+                  785,
+                  390,
+                  393,
+                  261
+                ],
+                "ar": [
+                  0.494956,
+                  0.393145,
+                  0.247793,
+                  0.263105
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "Sam face",
+                    "sourcePixelRect": [
+                      820.37,
+                      397.83,
+                      184.70999999999998,
+                      161.82
+                    ]
+                  },
+                  {
+                    "label": "stopwatch",
+                    "sourcePixelRect": [
+                      1052.24,
+                      520.5,
+                      117.89999999999999,
+                      127.89
+                    ]
+                  }
+                ]
+              },
+              {
+                "imageId": "agentic-run-4",
+                "sourcePixelRect": [
+                  1190,
+                  390,
+                  383,
+                  261
+                ],
+                "ar": [
+                  0.750315,
+                  0.393145,
+                  0.241488,
+                  0.263105
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "empty table",
+                    "sourcePixelRect": [
+                      1220.64,
+                      431.76,
+                      329.38,
+                      151.38
+                    ]
+                  },
+                  {
+                    "label": "cursor",
+                    "sourcePixelRect": [
+                      1255.11,
+                      463.08000000000004,
+                      15.32,
+                      31.32
+                    ]
+                  },
+                  {
+                    "label": "stopwatch",
+                    "sourcePixelRect": [
+                      1446.6100000000001,
+                      520.5,
+                      122.56,
+                      127.89
+                    ]
+                  }
+                ]
+              },
+              {
+                "imageId": "agentic-silhouette",
+                "sourcePixelRect": [
+                  13,
+                  664,
+                  1562,
+                  313
+                ],
+                "ar": [
+                  0.008197,
+                  0.669355,
+                  0.984868,
+                  0.315524
+                ],
+                "protectedSubjects": [
+                  {
+                    "label": "Sam hands/head",
+                    "sourcePixelRect": [
+                      294.15999999999997,
+                      673.39,
+                      546.6999999999999,
+                      275.44
+                    ]
+                  },
+                  {
+                    "label": "red monitor",
+                    "sourcePixelRect": [
+                      747.14,
+                      670.26,
+                      562.3199999999999,
+                      250.4
+                    ]
+                  }
+                ]
+              }
+            ],
+            "annotationSource": "Retained actually observed subjects, rebound only to byte-identical canonical master; lettering/story review pending"
+          }
+        ]
+      },
+      {
+        "slug": "traditional-systems",
+        "storyId": "traditional",
+        "scenes": []
+      },
+      {
+        "slug": "data-migrations",
+        "storyId": "data-migrations",
+        "scenes": []
+      }
+    ],
+    "mustRefreshAfterNewMaster": true,
+    "revisedMasters": [
+      {
+        "storyId": "agentic",
+        "scene": "restore",
+        "masterSha256": "2abdef24e4c14dfd31c2585470473d85743c01e23955236147c8f30208a69c4b",
+        "changedPanel": "agentic-backup"
+      },
+      {
+        "storyId": "data-migrations",
+        "scene": "red",
+        "masterSha256": "ced817bf061a724d9592065de69843d3a2ef095a4cc8dd7c98534fb4159d8867",
+        "changedPanel": "dm-test-wall"
+      }
+    ],
+    "additionalDeviceScenes": []
+  },
+  "styles": [
+    "site/src/styles/comic-story.css",
+    "site/src/styles/motion-toolbar.css",
+    "site/src/styles/motion-progress.css"
+  ],
+  "sourceReceipts": {
+    "subjectBindingsSha256": "d06c66541a9992b2bad2bbc6479aa1a325c6b3fdd7843cfd6e3819c454fb7985",
+    "deviceAssetSha256": "d08fa883700ee4019c5e32f7a46ab477f624aba030eeb8ca41dc25914a3b7a52",
+    "phoneConfigSha256": "f9f37e845ae629a82e8f909ff036a326198a6d129b3179cb7300b6dce95dd14a"
+  },
+  "bindingPreparation": {
+    "imageManifestSha256": "5bb30f8a2265c5cda98dbd7bca35071bf04fec504344714115c485d8e4107729",
+    "priorConfigSha256": "69efb42bcf216580d6d0b04ba44b82afee5a6f6196920859db23e3d0baa42357",
+    "sourceGuards": [
+      {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "ab565ac2bd31f14440066945f11df60c12d06f5b0c2f2b8d4b94127b086038e9"
+      },
+      {
+        "path": "site/src/data/comic-stories/agentic.ts",
+        "sha256": "7053862394548cc0b3e1a2925084e2a479b1c161405f836ca5598e06f8a1b72d"
+      },
+      {
+        "path": "site/src/data/comic-stories/traditional.ts",
+        "sha256": "56b5d6f8173f8ec0e3b31f748caf86805da65219f0badf8d02b8ca0791defc75"
+      },
+      {
+        "path": "site/src/data/comic-stories/data-migrations.ts",
+        "sha256": "e8a2f54758163ce34cc9424d45878fdc04eab79f6ce9d5085c26ea6c66842ec2"
+      },
+      {
+        "path": "site/src/data/comic-stories/demo.ts",
+        "sha256": "a7ee9f69861642f0942753ae4a7d2cf696cc3b7ef1e68876efdb51fce2d80eb7"
+      },
+      {
+        "path": "site/src/data/comic-stories/retime.ts",
+        "sha256": "4398bc22aa2ca783e24720945571a7661f7a37fd9e9493e3e7e3c57c3bfda845"
+      },
+      {
+        "path": "site/scripts/comic-story-playback-review.mjs",
+        "sha256": "d22f73374d4e9a953c9f4aa56e823b1b7bb0dd2bdf5e3b5848c3eac4af0aaecb"
+      }
+    ],
+    "receiptInputs": [
+      {
+        "path": "wiki/image-library/records/comic-b-home-quote-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "f502c7ca14d0fc9f212dacdf2c5d42abee4c965ad203edbc381771eb4d18e9c6",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-doubt-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "dcdd8f110f891c98e79a61ea97a22bff56e956d8f4d594b2380c69c304da4546",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-brief-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "69f7f3860acf23ead89b7165551cc1edd8cf9afe12c0494075e30d96f80cadd2",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-call-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "0918c3b616fbffafad97f833efcdedb0473f4d6bf74fe240afaafb564e683fda",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-agent-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "a33ec14d8294fe50473b0dc274ae8c6aa59d6ff498b7afb131e9ea70e3a2ed91",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-codex-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "c8b9808e2051e0bec76e5c001cce5bd81bb324e6f30ce14ef6aa30f3e458fa2e",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-answers-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "2ff53542f8de550bc9254812744871456394c22dc294b8f0890ac4e188aab41b",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-lobby-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "b541e0e0ba9a7e441d1fcdeb93bdbc3375aff917aa91033fb86f915f34ad29bb",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-nine-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "b9e9c71893f5ae0cc7af5dadbcbd99f269d41ed5467029cc50ee5558060a145d",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-roof-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "ce30d5688c3bcb93e4f8fe3ad02a13b7865e47dceefdad2b89ad0cf09b1c040b",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-monday-teal-canvas-20261010-v3/encoding-receipt-v3.json",
+        "sha256": "76413c0e670baffed6e60aa806fae684db04a1f249a74f3c2bd7e75f7df1a78c",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-process-20261010-live-v2/delivery-encoding-v2.json",
+        "sha256": "348b90bf4c15eb28a6b16f35ebd4616f40c4a5517d467e9d7e3c1afbdf67d61a",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-home-access-check-20261010-live-v1/delivery-encoding-v1.json",
+        "sha256": "91a3b229edddd21052c80eb92ac45b0489e61b96592d0fdf023e2c5f2bc77909",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-records-20261010-live-v1/delivery-encoding.json",
+        "sha256": "cd8b83c32d04ff47df3918d59cae69c3ab0f635b561e789affa53f1e44f7d226",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-plan-20261010-live-v1/delivery-encoding.json",
+        "sha256": "41d9f4de0cc13a285534acc07fe23bfed6a5b389647b712170f734dcdefebb70",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-waves-20261010-live-v1/delivery-encoding.json",
+        "sha256": "9fb7c28d002074571c979aec2bcc45f5de76e66e82662dba2c66dc3cfb608251",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-discrepancy-20261010-live-v1/delivery-encoding.json",
+        "sha256": "0f048ed566dc36c212856b3d10314e0b4df873ee0fa7ea677faa1201b5f85f28",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-red-20261010-live-v1/delivery-encoding.json",
+        "sha256": "b70fe4d949ed2ec6048504ecef275e40c48cfb735d4047dde3f67505af57b601",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-try-20261010-live-v1/delivery-encoding.json",
+        "sha256": "22246a27440e80c978a3efc3e415b2136139c143b4e8880c71dda4b0b29e8163",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-repair-20261010-live-v1/delivery-encoding.json",
+        "sha256": "4bc0aa543e667106bda9d3181c55320697370771b11558416906c9298c2280c5",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-cutover-20261010-live-v1/delivery-encoding.json",
+        "sha256": "ea07e7b9e106b1d94f2efdb8ac955373aca3fda5d9a7bd37c78aaedf6c40867f",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/comic-b-data-migrations-access-procedure-20261010-live-v1/delivery-encoding-v1.json",
+        "sha256": "3889338aa601601c7c4d575f71f70a82e506972565b783ee4536f7066111ec79",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/traditional-owners-friday-reader-20261010/encoding-receipt.json",
+        "sha256": "dbcbec0944e6a73f1294a60666f1c016bd95dd3692aacd966a4fe9b600aa110d",
+        "canonical": true
+      },
+      {
+        "path": "wiki/image-library/records/traditional-sharing-procedure-conversion-20261010/process-encoding-receipt-v2.json",
+        "sha256": "93d40a17ca49162ded0e6fa5314ba49e06c6915277e75449579dea6e37ac04d0",
+        "canonical": true
+      },
+      {
+        "path": ".codex/worktrees/comics-02-conversion-20261010/final-v1/delivery-encoding.json",
+        "sha256": "d525949e76c7ed131459c0562eb02fbea8ca0ba25b34ee4634e1c0b28571ae45",
+        "canonical": false
+      },
+      {
+        "path": ".codex/worktrees/comics-02-conversion-20261010/partial-v1/delivery-encoding.json",
+        "sha256": "70927ac9d3352abe677628efd7e92e5397950354b9233611aa12951c29949e58",
+        "canonical": false
+      }
+    ],
+    "status": "Current exact bytes; native visual/hearing review and human approval separate"
+  }
+}

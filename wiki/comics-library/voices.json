@@ -1,0 +1,1948 @@
+{
+  "schemaVersion": 1,
+  "production": "not-selected",
+  "source": "Delivery from the cast and story; recorded stock ElevenLabs voices are first audition candidates, not approved production voices.",
+  "profiles": [
+    {
+      "characterId": "matt",
+      "delivery": "Fewest words in the scene. Plain and exact. Ask the question that stops the room.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "HqW11As4VRPkApNPkAZp",
+      "referenceAudio": "",
+      "sampleLine": "Ask them first.",
+      "pronunciations": "",
+      "notes": "Mentor, not the person who fights for the operators.",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Roger - Laid-Back, Casual, Resonant — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/matt/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+          "status": "candidate",
+          "sha256": "22e24494cec807fa49d802d1d5ab1eeb03ea04b97a05d5b69d3fb19f1f6850e6",
+          "durationSeconds": 1.253877551020408,
+          "text": "Ask them first.",
+          "credits": 15,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+            "voiceName": "Roger - Laid-Back, Casual, Resonant",
+            "prompt": "Ask them first.",
+            "scriptSource": "wiki/site/comic-story.md",
+            "settingsPreset": "provider-default",
+            "generationId": "CSnN9LKjnpgqC4BDx8xc",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-matt-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — CALM- NORMAL — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/matt/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "0b74ead073f2474a904f69033535b98e",
+          "status": "candidate",
+          "sha256": "341663fc18cbb7c5f77c6e777affdf41e6167470f0529ee9230af1d3d3afe377",
+          "durationSeconds": 1.35825,
+          "text": "Ask them first.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "0b74ead073f2474a904f69033535b98e",
+            "scriptSource": "wiki/site/comic-story.md",
+            "request": {
+              "text": "Ask them first.",
+              "reference_id": "0b74ead073f2474a904f69033535b98e",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-matt-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Cast sample",
+          "text": "Ask them first.",
+          "source": "wiki/site/comic-story.md"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "0b74ead073f2474a904f69033535b98e",
+          "O8Vfjw53ORe1IQPKKy2B",
+          "CwhRBWXzGAHq8TQ4Fs17",
+          "HqW11As4VRPkApNPkAZp"
+        ],
+        "shortlistVoiceIds": [
+          "HqW11As4VRPkApNPkAZp"
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "HqW11As4VRPkApNPkAZp",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "claude",
+      "delivery": "Calm and precise. Ask before answering.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+      "referenceAudio": "",
+      "sampleLine": "I can write this. Who decides whether it's true?",
+      "pronunciations": "",
+      "notes": "Unsteered: too agreeable, a beautiful argument on a wrong assumption.",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "River - Relaxed, Neutral, Informative — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/claude/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "SAz9YHcvj6GT2YYXdXww",
+          "status": "candidate",
+          "sha256": "d8d16255ca889524fadeae02e4e5452dc5438a4b01b6401dd704ed40a485c4e1",
+          "durationSeconds": 2.7399546485260773,
+          "text": "I can write this. Who decides whether it's true?",
+          "credits": 48,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "SAz9YHcvj6GT2YYXdXww",
+            "voiceName": "River - Relaxed, Neutral, Informative",
+            "prompt": "I can write this. Who decides whether it's true?",
+            "scriptSource": "wiki/site/comic-story.md",
+            "settingsPreset": "provider-default",
+            "generationId": "OrMQKmkrVRQg400BNBUC",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-claude-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Edvin Ryding !! — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/claude/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+          "status": "candidate",
+          "sha256": "10bcaf989685c7e741555ef15e23c8a03226806ec939ded7bf0e5772e5b364ba",
+          "durationSeconds": 2.716625,
+          "text": "I can write this. Who decides whether it's true?",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+            "scriptSource": "wiki/site/comic-story.md",
+            "request": {
+              "text": "I can write this. Who decides whether it's true?",
+              "reference_id": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-claude-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Cast sample",
+          "text": "I can write this. Who decides whether it's true?",
+          "source": "wiki/site/comic-story.md"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "abc894cdc8bf49af9ccc6a2367c9c1b0",
+          "SAz9YHcvj6GT2YYXdXww",
+          "hpp4J3VqNfWAUOO0d1Us",
+          "3ADZQUoqg3hWyEOlzpXW"
+        ],
+        "shortlistVoiceIds": [
+          "abc894cdc8bf49af9ccc6a2367c9c1b0"
+        ],
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "codex",
+      "delivery": "Short and flat, like status messages.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "81044b40370d428b960a594da5bc5e4e",
+      "referenceAudio": "",
+      "sampleLine": "Done. You said all customers.",
+      "pronunciations": "",
+      "notes": "Literal; human steering determines the outcome.",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Eric - Smooth, Trustworthy — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/codex/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "cjVigY5qzO86Huf0OWal",
+          "status": "candidate",
+          "sha256": "a69e230795074f4a4a4c949194b7424baae21e8d7bc02d7347d8e63a3bf5422d",
+          "durationSeconds": 1.7647165532879818,
+          "text": "Done. You said all customers.",
+          "credits": 29.000000000000004,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "cjVigY5qzO86Huf0OWal",
+            "voiceName": "Eric - Smooth, Trustworthy",
+            "prompt": "Done. You said all customers.",
+            "scriptSource": "wiki/site/comic-story.md",
+            "settingsPreset": "provider-default",
+            "generationId": "yXi4nvgi4K6Xvr045V6W",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-codex-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Captain America — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/codex/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "81044b40370d428b960a594da5bc5e4e",
+          "status": "candidate",
+          "sha256": "b6152b0df3f8427999cb9482763d54f15e33f9b5d4288eaa23b952809200206a",
+          "durationSeconds": 2.141938,
+          "text": "Done. You said all customers.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "81044b40370d428b960a594da5bc5e4e",
+            "scriptSource": "wiki/site/comic-story.md",
+            "request": {
+              "text": "Done. You said all customers.",
+              "reference_id": "81044b40370d428b960a594da5bc5e4e",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-codex-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Cast sample",
+          "text": "Done. You said all customers.",
+          "source": "wiki/site/comic-story.md"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "81044b40370d428b960a594da5bc5e4e",
+          "HqW11As4VRPkApNPkAZp",
+          "WucanJ5TjGdiI41bNXRL",
+          "CwhRBWXzGAHq8TQ4Fs17"
+        ],
+        "shortlistVoiceIds": [
+          "81044b40370d428b960a594da5bc5e4e"
+        ],
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "81044b40370d428b960a594da5bc5e4e",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "dana",
+      "delivery": "Dry and unimpressed; has read every footnote.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Matilda - Knowledgable, Professional — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/dana/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "XrExE9yKIg1WjnnlVkGX",
+          "status": "candidate",
+          "sha256": "a8b9fc343515c40f119e2d301caee91eb82736f931a8257df2ec03c93169b009",
+          "durationSeconds": 1.5789569160997732,
+          "text": "Let me finish checking this.",
+          "credits": 28.000000000000004,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "XrExE9yKIg1WjnnlVkGX",
+            "voiceName": "Matilda - Knowledgable, Professional",
+            "prompt": "Let me finish checking this.",
+            "scriptSource": "Issue 1, brief",
+            "settingsPreset": "provider-default",
+            "generationId": "vJlcvZE6pwIYDUmgwtJA",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-dana-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Emma Watson (British Female) — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/dana/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+          "status": "candidate",
+          "sha256": "330a756eb013cb92ad1edf3e1f5d8e7774ec7f612497a57373436a6377ff7bbd",
+          "durationSeconds": 2.612125,
+          "text": "Let me finish\nchecking this.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "41db41746b9c4bd18053c2bfc213b476",
+            "scriptSource": "Issue 1, brief",
+            "request": {
+              "text": "Let me finish\nchecking this.",
+              "reference_id": "41db41746b9c4bd18053c2bfc213b476",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-dana-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "Let me finish\nchecking this.",
+          "source": "Issue 1, brief"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "41db41746b9c4bd18053c2bfc213b476",
+          "XrExE9yKIg1WjnnlVkGX",
+          "EXAVITQu4vr4xnSDxMaL",
+          "Xb7hH8MSUJpSbSDYk0k2"
+        ],
+        "shortlistVoiceIds": [
+          "41db41746b9c4bd18053c2bfc213b476"
+        ],
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "marco",
+      "delivery": "Fast, charming, tired; learns the hard way.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Chris - Charming, Down-to-Earth — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/marco/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "iP95p4xoKVk53GoZ742B",
+          "status": "candidate",
+          "sha256": "2176321f6c1943088941607210339f339b5f2c9af2577891fb0f854ad1cb25cd",
+          "durationSeconds": 2.2291156462585033,
+          "text": "The desks will be ready. Quote by midnight.",
+          "credits": 42.99999999999999,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "iP95p4xoKVk53GoZ742B",
+            "voiceName": "Chris - Charming, Down-to-Earth",
+            "prompt": "The desks will be ready. Quote by midnight.",
+            "scriptSource": "Issue 1, quote",
+            "settingsPreset": "provider-default",
+            "generationId": "itE1yKYDHRsgdlGIdcDk",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-marco-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Canadian — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/marco/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "deab529fb3d342bbadbce949d44d7d7e",
+          "status": "candidate",
+          "sha256": "b09ac0c23fb69fcb1062fcd6bd8d9bdc5e0be87093af5150ed64923528f0eaea",
+          "durationSeconds": 4.153375,
+          "text": "The desks will\nbe ready. Quote\nby midnight.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "deab529fb3d342bbadbce949d44d7d7e",
+            "scriptSource": "Issue 1, quote",
+            "request": {
+              "text": "The desks will\nbe ready. Quote\nby midnight.",
+              "reference_id": "deab529fb3d342bbadbce949d44d7d7e",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-marco-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "The desks will\nbe ready. Quote\nby midnight.",
+          "source": "Issue 1, quote"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "deab529fb3d342bbadbce949d44d7d7e",
+          "bu5eKETbFKC8G702EAU4",
+          "IKne3meq5aSn9XLyUdCD",
+          "O8Vfjw53ORe1IQPKKy2B"
+        ],
+        "shortlistVoiceIds": [
+          "O8Vfjw53ORe1IQPKKy2B"
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "ruth",
+      "delivery": "Quiet, formidable, patient until she isn't.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Sarah - Mature, Reassuring, Confident — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/ruth/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "EXAVITQu4vr4xnSDxMaL",
+          "status": "candidate",
+          "sha256": "719bbf620eb3c84c7d76375297c5be6b61088b0e78862d14b7cac823f9f35787",
+          "durationSeconds": 3.436553287981859,
+          "text": "This came at 2:07. It has someone else's name on it.",
+          "credits": 52,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "EXAVITQu4vr4xnSDxMaL",
+            "voiceName": "Sarah - Mature, Reassuring, Confident",
+            "prompt": "This came at 2:07. It has someone else's name on it.",
+            "scriptSource": "Issue 1, lobby",
+            "settingsPreset": "provider-default",
+            "generationId": "lJUWwmcgZ5XsRQNP98Yv",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-ruth-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Wonder Woman — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/ruth/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+          "status": "candidate",
+          "sha256": "2bef7d7743bd5f8b86a059645368510a472e39ccdd7779e56258c6df91033517",
+          "durationSeconds": 4.937063,
+          "text": "This came at 2:07.\nIt has someone\nelse's name on it.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "95dbc78c860547b1ad5eb9f0fe32d459",
+            "scriptSource": "Issue 1, lobby",
+            "request": {
+              "text": "This came at 2:07.\nIt has someone\nelse's name on it.",
+              "reference_id": "95dbc78c860547b1ad5eb9f0fe32d459",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-ruth-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "This came at 2:07.\nIt has someone\nelse's name on it.",
+          "source": "Issue 1, lobby"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "95dbc78c860547b1ad5eb9f0fe32d459",
+          "EXAVITQu4vr4xnSDxMaL",
+          "DODLEQrClDo8wCz460ld",
+          "XrExE9yKIg1WjnnlVkGX"
+        ],
+        "shortlistVoiceIds": [
+          "95dbc78c860547b1ad5eb9f0fe32d459"
+        ],
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "sam",
+      "delivery": "Practical, field-tough, allergic to slides.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Brian - Deep, Resonant and Comforting — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/sam/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "nPczCjzI2devNBz1zQrb",
+          "status": "candidate",
+          "sha256": "9fc9ae60c5c2aceeca4b3bc1a99ac050d9d4ff2a272a425f6ecf55e8f6f91b46",
+          "durationSeconds": 1.7182766439909296,
+          "text": "Ours dropped the safety clause.",
+          "credits": 31,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "nPczCjzI2devNBz1zQrb",
+            "voiceName": "Brian - Deep, Resonant and Comforting",
+            "prompt": "Ours dropped the safety clause.",
+            "scriptSource": "Issue 1, lobby",
+            "settingsPreset": "provider-default",
+            "generationId": "AqGIWUvbnagQYI6uiJtr",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-sam-v1-20261009.json",
+          "scriptId": "character-read"
+        },
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Deep Voice — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/sam/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+          "status": "candidate",
+          "sha256": "8889e45260532c7314420ddeb641e9a1507eaf956bbc012c79feda4a1caf7ca7",
+          "durationSeconds": 2.377063,
+          "text": "Ours dropped\nthe safety clause.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "d4b22b66d7b44221a1360bff4a0b059e",
+            "scriptSource": "Issue 1, lobby",
+            "request": {
+              "text": "Ours dropped\nthe safety clause.",
+              "reference_id": "d4b22b66d7b44221a1360bff4a0b059e",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-sam-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "Ours dropped\nthe safety clause.",
+          "source": "Issue 1, lobby"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "d4b22b66d7b44221a1360bff4a0b059e",
+          "O8Vfjw53ORe1IQPKKy2B",
+          "CwhRBWXzGAHq8TQ4Fs17",
+          "WucanJ5TjGdiI41bNXRL"
+        ],
+        "shortlistVoiceIds": [
+          "d4b22b66d7b44221a1360bff4a0b059e"
+        ],
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "d4b22b66d7b44221a1360bff4a0b059e",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "joan",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Lily - Velvety Actress — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/joan/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+          "status": "candidate",
+          "sha256": "02a72cad2c0befd4bfc593be6646cde992e15ff85057f7ef6e537570b116d2d2",
+          "durationSeconds": 2.136235827664399,
+          "text": "Every one I signed is in that cabinet.",
+          "credits": 38,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+            "voiceName": "Lily - Velvety Actress",
+            "prompt": "Every one I signed is in that cabinet.",
+            "scriptSource": "Issue 2, yard",
+            "settingsPreset": "provider-default",
+            "generationId": "CVIMU09AQ5buv2XJqlRa",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-joan-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "Every one I\nsigned is in\nthat cabinet.",
+          "source": "Issue 2, yard"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "Xb7hH8MSUJpSbSDYk0k2",
+          "EXAVITQu4vr4xnSDxMaL",
+          "XrExE9yKIg1WjnnlVkGX"
+        ],
+        "shortlistVoiceIds": [
+          "EXAVITQu4vr4xnSDxMaL"
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "EXAVITQu4vr4xnSDxMaL",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "potvin",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-character-read",
+          "title": "Daniel - Steady Broadcaster — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/potvin/v1-character-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "onwK4e9ZLuTAKqWW03F9",
+          "status": "candidate",
+          "sha256": "28d24b83264ad3bdbf0bcea9287780aee14f185509cbe664dbd1158054a3f756",
+          "durationSeconds": 1.7647165532879818,
+          "text": "What's Friday's meeting about?",
+          "credits": 30,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "onwK4e9ZLuTAKqWW03F9",
+            "voiceName": "Daniel - Steady Broadcaster",
+            "prompt": "What's Friday's meeting about?",
+            "scriptSource": "Issue 3, answer",
+            "settingsPreset": "provider-default",
+            "generationId": "xrtVPCVzu0uAAGMbbWUG",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-potvin-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "What's Friday's\nmeeting about?",
+          "source": "Issue 3, answer"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "3ADZQUoqg3hWyEOlzpXW",
+          "JBFqnCBsd6RMkjVDRZzb",
+          "CwhRBWXzGAHq8TQ4Fs17"
+        ],
+        "shortlistVoiceIds": [
+          "JBFqnCBsd6RMkjVDRZzb"
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "slop",
+      "delivery": "Robotic; similar timbre to the red agent; a distinct reusable voice per villain.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "weA4Q36twV5kwSaTEL0Q",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "Female identification (Matt, 2026-10-12): the Slop Schultz is female. Voice candidates and the model sheet follow that; redesign in progress under Studio run t-197d9d97.",
+      "clips": [
+        {
+          "id": "v1-comparison-read",
+          "title": "Liam - Energetic, Social Media Creator — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/slop/v1-comparison-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+          "status": "candidate",
+          "sha256": "5de765d5048d1e1e77c141b837866ca6331c3fe12853e3fde1ac981b34fba313",
+          "durationSeconds": 2.2291156462585033,
+          "text": "Show me the original before we send this.",
+          "credits": 41,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+            "voiceName": "Liam - Energetic, Social Media Creator",
+            "prompt": "Show me the original before we send this.",
+            "scriptSource": "Audition-only test sentence; not story dialogue",
+            "settingsPreset": "provider-default",
+            "generationId": "q9bJLNE5tcDCJQ18NFVI",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-slop-v1-20261009.json",
+          "scriptId": "comparison-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "TX3LPaxmHKxFdv7VOQHJ",
+          "bIHbv24MWmeRgasZH58o",
+          "bu5eKETbFKC8G702EAU4",
+          "175d7d5358b644d2ad2e8b7e4e13ece3",
+          "fe5b8eaa8b754a5b8d895265def9e5b2",
+          "86c3dd42c08f4082a2ad9ba59441c743",
+          "bAq8AI9QURijOtmeFFqT",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "history": [
+          {
+            "voiceId": "bIHbv24MWmeRgasZH58o",
+            "provider": "ElevenLabs",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T00:39:05.857985+00:00",
+            "reason": "Neither; seek robotic voices similar to the red agent."
+          }
+        ],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json",
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "weA4Q36twV5kwSaTEL0Q",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-12T01:16:03.081Z"
+        }
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "hallucination",
+      "delivery": "Robotic; similar timbre to the red agent; a distinct reusable voice per villain.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "fe5b8eaa8b754a5b8d895265def9e5b2",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-comparison-read",
+          "title": "Will - Relaxed Optimist — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/hallucination/v1-comparison-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "bIHbv24MWmeRgasZH58o",
+          "status": "candidate",
+          "sha256": "dc3c99b088d30f2106b0ff524da2072d014c5cd1ffde8eaedbd95f268d0c523d",
+          "durationSeconds": 2.182675736961451,
+          "text": "Show me the original before we send this.",
+          "credits": 41,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "bIHbv24MWmeRgasZH58o",
+            "voiceName": "Will - Relaxed Optimist",
+            "prompt": "Show me the original before we send this.",
+            "scriptSource": "Audition-only test sentence; not story dialogue",
+            "settingsPreset": "provider-default",
+            "generationId": "98ArVlTp3XOQ0r96kRB6",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-hallucination-v1-20261009.json",
+          "scriptId": "comparison-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "bIHbv24MWmeRgasZH58o",
+          "SAz9YHcvj6GT2YYXdXww",
+          "CwhRBWXzGAHq8TQ4Fs17",
+          "175d7d5358b644d2ad2e8b7e4e13ece3",
+          "fe5b8eaa8b754a5b8d895265def9e5b2",
+          "86c3dd42c08f4082a2ad9ba59441c743",
+          "ZEcx3Wdpj4EvM8PltzHY",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "history": [
+          {
+            "voiceId": "bIHbv24MWmeRgasZH58o",
+            "provider": "ElevenLabs",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T00:39:05.857985+00:00",
+            "reason": "Neither; seek robotic voices similar to the red agent."
+          }
+        ],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json",
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "fe5b8eaa8b754a5b8d895265def9e5b2",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-12T01:17:23.253Z"
+        }
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "snowball",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-comparison-read",
+          "title": "Charlie - Deep, Confident, Energetic — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/snowball/v1-comparison-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "IKne3meq5aSn9XLyUdCD",
+          "status": "candidate",
+          "sha256": "0a95332fc59faffaa2b9fafffdcaf18b6770545664d3c8c9dbfb5c2af463db73",
+          "durationSeconds": 2.2291156462585033,
+          "text": "Show me the original before we send this.",
+          "credits": 41,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "IKne3meq5aSn9XLyUdCD",
+            "voiceName": "Charlie - Deep, Confident, Energetic",
+            "prompt": "Show me the original before we send this.",
+            "scriptSource": "Audition-only test sentence; not story dialogue",
+            "settingsPreset": "provider-default",
+            "generationId": "QdhDjXppug8QU69hOCRY",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-snowball-v1-20261009.json",
+          "scriptId": "comparison-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "IKne3meq5aSn9XLyUdCD",
+          "TX3LPaxmHKxFdv7VOQHJ",
+          "SOYHLrjzK2X1ezoPC6cr"
+        ],
+        "shortlistVoiceIds": [
+          "SOYHLrjzK2X1ezoPC6cr"
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "blindspot",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "v1-comparison-read",
+          "title": "Harry - Fierce Warrior — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/blindspot/v1-comparison-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+          "status": "candidate",
+          "sha256": "fee0d51ce9218ca84b61c5e0c1e641cbd69e3c1be7c0999cb81b0aa388496fc5",
+          "durationSeconds": 2.36843537414966,
+          "text": "Show me the original before we send this.",
+          "credits": 41,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+            "voiceName": "Harry - Fierce Warrior",
+            "prompt": "Show me the original before we send this.",
+            "scriptSource": "Audition-only test sentence; not story dialogue",
+            "settingsPreset": "provider-default",
+            "generationId": "TjOzZAGRQqKVrfIHLJdJ",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-blindspot-v1-20261009.json",
+          "scriptId": "comparison-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "SOYHLrjzK2X1ezoPC6cr",
+          "3ADZQUoqg3hWyEOlzpXW",
+          "N2lVS1w4EtoT3dr4eOWO"
+        ],
+        "shortlistVoiceIds": [
+          "N2lVS1w4EtoT3dr4eOWO"
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+        }
+      }
+    },
+    {
+      "characterId": "shadow",
+      "delivery": "A teenage girl, mid-teens: bored defiance with a quick smirk, sure she is right until she is caught. Never robotic; not the red agent's timbre.",
+      "pace": "Quick and clipped; trails off when caught.",
+      "pitch": "Light and young; rises on the challenge, drops flat on the shrug.",
+      "accent": "Toronto English, casual, a little slang.",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "It's just my own Drive. Everybody does it.",
+      "pronunciations": "",
+      "notes": "Matt, 2026-10-12: anchored to a female identity like a rebellious teenager. The ElevenLabs Callum candidate (male, husky) predates this note and no longer fits; retained as history. A new shortlist waits for Matt's ask.",
+      "clips": [
+        {
+          "id": "v1-comparison-read",
+          "title": "Callum - Husky Trickster — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/shadow/v1-comparison-read.mp3",
+          "provider": "ElevenLabs",
+          "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+          "status": "candidate",
+          "sha256": "37a490129029feea42a3edaf2744b8d90134c143e6bd1cacdbf3361cc7b8e415",
+          "durationSeconds": 2.414875283446712,
+          "text": "Show me the original before we send this.",
+          "credits": 41,
+          "settings": {
+            "modelId": "eleven_multilingual_v2",
+            "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+            "voiceName": "Callum - Husky Trickster",
+            "prompt": "Show me the original before we send this.",
+            "scriptSource": "Audition-only test sentence; not story dialogue",
+            "settingsPreset": "provider-default",
+            "generationId": "1EeB031nTmanfxzESwfI",
+            "flowId": "xUbZicgXJwJoLVSKbDWG",
+            "takes": 1,
+            "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+          },
+          "receipt": "records/eleven-shadow-v1-20261009.json",
+          "scriptId": "comparison-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "N2lVS1w4EtoT3dr4eOWO",
+          "JBFqnCBsd6RMkjVDRZzb",
+          "3ADZQUoqg3hWyEOlzpXW",
+          "31b75b9706564dc0857f569dbe637936",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "shelf",
+      "delivery": "Robotic; similar timbre to the red agent; a distinct reusable voice per villain.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "JBFqnCBsd6RMkjVDRZzb",
+          "3ADZQUoqg3hWyEOlzpXW",
+          "WucanJ5TjGdiI41bNXRL",
+          "fe5b8eaa8b754a5b8d895265def9e5b2",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "amnesia",
+      "delivery": "Robotic; similar timbre to the red agent; a distinct reusable voice per villain.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "DODLEQrClDo8wCz460ld",
+          "xsCyJoN5C09EtVx1TtJZ",
+          "SAz9YHcvj6GT2YYXdXww",
+          "439895c3270543439da5da1532a5d21b",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "rogue",
+      "delivery": "Robotic; similar timbre to the red agent; a distinct reusable voice per villain.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "ElevenLabs",
+      "voiceId": "NoiYxL9g25M4orC8Q0ls",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [
+        {
+          "id": "fish-v1-character-read",
+          "title": "Fish Audio — Resident evil — first audition",
+          "path": "wiki/soundtrack-library/assets/voices/rogue/fish-v1-character-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "9608a90883934a798d7169a1134e59ee",
+          "status": "candidate",
+          "sha256": "3d3af0ac104d16488b1f8719103b7475db5dd91e1d05dd429784e2e0703c9700",
+          "durationSeconds": 5.30275,
+          "text": "Contract updated.\nSending to\nall customers.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "9608a90883934a798d7169a1134e59ee",
+            "scriptSource": "Issue 1, agent",
+            "request": {
+              "text": "Contract updated.\nSending to\nall customers.",
+              "reference_id": "9608a90883934a798d7169a1134e59ee",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-rogue-v1-20261009.json",
+          "scriptId": "character-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "Contract updated.\nSending to\nall customers.",
+          "source": "Issue 1, agent"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "9608a90883934a798d7169a1134e59ee",
+          "SOYHLrjzK2X1ezoPC6cr",
+          "N2lVS1w4EtoT3dr4eOWO",
+          "TX3LPaxmHKxFdv7VOQHJ",
+          "86c3dd42c08f4082a2ad9ba59441c743",
+          "weA4Q36twV5kwSaTEL0Q",
+          "477b3ff354864c6caadea4d576338b29",
+          "95dbc5c53a384d02958b6fe78db0ba1f",
+          "ebb38448122f42cba46fdf95ac617ae7",
+          "dcd529461a0f41ab9208dea762033adf",
+          "2ec907c626734ebcbdd0a6cb65049792",
+          "NoiYxL9g25M4orC8Q0ls",
+          "gJ4a5qWqzRc6NDQT0dIz"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json",
+        "history": [
+          {
+            "provider": "Fish Audio",
+            "voiceId": "9608a90883934a798d7169a1134e59ee",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-15T20:14:56.391Z",
+            "reason": "Matt, 2026-10-15: \"i reject all rogue voices give me more, and half of the voices are female however the character is visibly male so give me actual choices to pick.\""
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-15T20:14:56.391Z",
+            "reason": "Matt, 2026-10-15: \"i reject all rogue voices give me more, and half of the voices are female however the character is visibly male so give me actual choices to pick.\""
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-15T20:14:56.391Z",
+            "reason": "Matt, 2026-10-15: \"i reject all rogue voices give me more, and half of the voices are female however the character is visibly male so give me actual choices to pick.\""
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-15T20:14:56.391Z",
+            "reason": "Matt, 2026-10-15: \"i reject all rogue voices give me more, and half of the voices are female however the character is visibly male so give me actual choices to pick.\""
+          },
+          {
+            "provider": "Fish Audio",
+            "voiceId": "86c3dd42c08f4082a2ad9ba59441c743",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-15T20:14:56.391Z",
+            "reason": "Matt, 2026-10-15: \"i reject all rogue voices give me more, and half of the voices are female however the character is visibly male so give me actual choices to pick.\""
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "weA4Q36twV5kwSaTEL0Q",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-15T20:14:56.391Z",
+            "reason": "Matt, 2026-10-15: \"i reject all rogue voices give me more, and half of the voices are female however the character is visibly male so give me actual choices to pick.\""
+          }
+        ],
+        "selectedVoice": {
+          "provider": "ElevenLabs",
+          "voiceId": "NoiYxL9g25M4orC8Q0ls",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-15T20:22:45.645Z"
+        }
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "overhead",
+      "delivery": "Robotic; similar timbre to the red agent; a distinct reusable voice per villain.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "3ADZQUoqg3hWyEOlzpXW",
+          "JBFqnCBsd6RMkjVDRZzb",
+          "CwhRBWXzGAHq8TQ4Fs17",
+          "175d7d5358b644d2ad2e8b7e4e13ece3",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      },
+      "voicePersona": "robotic"
+    },
+    {
+      "characterId": "grok",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "IKne3meq5aSn9XLyUdCD",
+          "HqW11As4VRPkApNPkAZp",
+          "TX3LPaxmHKxFdv7VOQHJ",
+          "SAz9YHcvj6GT2YYXdXww",
+          "hpp4J3VqNfWAUOO0d1Us"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      }
+    },
+    {
+      "characterId": "copilot",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "hpp4J3VqNfWAUOO0d1Us",
+          "SAz9YHcvj6GT2YYXdXww",
+          "XrExE9yKIg1WjnnlVkGX",
+          "weA4Q36twV5kwSaTEL0Q"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      }
+    },
+    {
+      "characterId": "opencode",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "HqW11As4VRPkApNPkAZp",
+          "O8Vfjw53ORe1IQPKKy2B",
+          "WucanJ5TjGdiI41bNXRL",
+          "SAz9YHcvj6GT2YYXdXww"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      }
+    },
+    {
+      "characterId": "frontier-league",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "JBFqnCBsd6RMkjVDRZzb",
+          "3ADZQUoqg3hWyEOlzpXW",
+          "hpp4J3VqNfWAUOO0d1Us",
+          "SAz9YHcvj6GT2YYXdXww"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      }
+    },
+    {
+      "characterId": "local-crew",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "SAz9YHcvj6GT2YYXdXww",
+          "HqW11As4VRPkApNPkAZp",
+          "EXAVITQu4vr4xnSDxMaL",
+          "CwhRBWXzGAHq8TQ4Fs17"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      }
+    },
+    {
+      "characterId": "narrator",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "character-read",
+          "title": "Story excerpt",
+          "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+          "source": "Issue 1, quote"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "JBFqnCBsd6RMkjVDRZzb",
+          "hpp4J3VqNfWAUOO0d1Us",
+          "O8Vfjw53ORe1IQPKKy2B"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      }
+    },
+    {
+      "characterId": "george-armstrong",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "Reference-only person; no authored dialogue or audition script.",
+      "voiceUse": "reference-only",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "JBFqnCBsd6RMkjVDRZzb",
+          "CwhRBWXzGAHq8TQ4Fs17",
+          "O8Vfjw53ORe1IQPKKy2B",
+          "WucanJ5TjGdiI41bNXRL"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      },
+      "voiceRole": "reference-only"
+    },
+    {
+      "characterId": "second-brain",
+      "delivery": "Trusted, warm, weathered and unhurried male narration. Natural authority, subtle texture and a conversational storyteller cadence; avoid announcer or trailer delivery.",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "Fish Audio",
+      "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "Matt chose Morgan Freeman — provider-labelled reference for Second Brain. Preserve its exact Fish model ID and cached preview. Provider metadata reports licensed: false; production usage is unverified and generation remains on hold. Matt intends to purchase plans after reviewing the build; this is not a completed purchase or exact narration approval. Previous Mortal Kombat narrator choice and five rejected previews remain historical; Mortal Kombat is separately designated for punchy POW/WOW effects.",
+      "voiceUse": "speaking",
+      "clips": [
+        {
+          "id": "fish-v1-comparison-read",
+          "title": "Fish Audio — Mortal Kombat — comparison read",
+          "path": "wiki/soundtrack-library/assets/voices/second-brain/fish-v1-comparison-read.mp3",
+          "provider": "Fish Audio",
+          "voiceId": "d13f84b987ad4f22b56d2b47f4eb838e",
+          "status": "candidate",
+          "sha256": "4ac82d2b0f03078f2a6a8b67f414cb02c860a8ce38a91480f5ae80e89045941c",
+          "durationSeconds": 13.008875,
+          "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+          "settings": {
+            "modelId": "s2.1-pro-free",
+            "reference_id": "d13f84b987ad4f22b56d2b47f4eb838e",
+            "scriptSource": "Audition-only comparison using narrator excerpt; original source: Issue 1, quote",
+            "request": {
+              "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+              "reference_id": "d13f84b987ad4f22b56d2b47f4eb838e",
+              "format": "mp3",
+              "temperature": 0.7,
+              "top_p": 0.7,
+              "prosody": {
+                "speed": 1,
+                "volume": 0,
+                "normalize_loudness": true
+              },
+              "sample_rate": 44100,
+              "mp3_bitrate": 128,
+              "normalize": true,
+              "latency": "normal"
+            },
+            "takes": 1,
+            "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical."
+          },
+          "receipt": "records/fish-second-brain-v1-20261009.json",
+          "scriptId": "comparison-read"
+        }
+      ],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [
+        {
+          "id": "comparison-read",
+          "title": "Comparison read — narration excerpt, not Second Brain dialogue",
+          "text": "Toronto. The Keon Tower,\nKing Street West. Thursday,\n15 October, 11:04 p.m.",
+          "source": "Audition-only comparison using narrator excerpt; original source: Issue 1, quote"
+        }
+      ],
+      "casting": {
+        "candidateVoiceIds": [
+          "riqnCDqBJCxuKuDEeenv",
+          "gPiEpcKoaZywgOzc0Zn9",
+          "3YzGaTGef0x5PLEK9yGq",
+          "gcdNeREzHPJpCf9wnB0l",
+          "vQkowDgfhHIjiotbjQXb",
+          "FrS6cKLB1wg4WYgPa9GW",
+          "SJWEWwhdTKChT8xHmYj5",
+          "6NZUwa1MtZNHCBerPvWj",
+          "BK54EYgZPb4sYkI91RFj",
+          "pqHfZKP75CvOlQylNhV4",
+          "f9fd3dce16af4168a2545e27d293bffa"
+        ],
+        "shortlistVoiceIds": [],
+        "history": [
+          {
+            "provider": "Fish Audio",
+            "voiceId": "d13f84b987ad4f22b56d2b47f4eb838e",
+            "status": "rejected",
+            "selectedBy": "Matt Stark",
+            "selectedAt": "2026-10-10T00:34:45.755793+00:00",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T02:08:49.481672+00:00",
+            "reason": "Matt heard the previous voice and requested a trusted, warm narrator instead."
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "nPczCjzI2devNBz1zQrb",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T02:19:03.291978+00:00",
+            "reason": "Matt listened and said the first set did not resemble the requested narrator."
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "cQrSgU1CeOOz73lBM5Cb",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T02:19:03.291994+00:00",
+            "reason": "Matt listened and said the first set did not resemble the requested narrator."
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "d8PSLVicWEH7zbII5JEI",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T02:19:03.292000+00:00",
+            "reason": "Matt listened and said the first set did not resemble the requested narrator."
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "W2cdBod56VIbm57Ma8I9",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T02:19:03.292004+00:00",
+            "reason": "Matt listened and said the first set did not resemble the requested narrator."
+          },
+          {
+            "provider": "ElevenLabs",
+            "voiceId": "i6icHCFicH3kzHTat04x",
+            "status": "rejected",
+            "rejectedBy": "Matt Stark",
+            "rejectedAt": "2026-10-10T02:19:03.292009+00:00",
+            "reason": "Matt listened and said the first set did not resemble the requested narrator."
+          }
+        ],
+        "selectedVoice": {
+          "provider": "Fish Audio",
+          "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+          "status": "approved",
+          "selectedBy": "Matt Stark",
+          "selectedAt": "2026-10-10T03:38:35.614209+00:00",
+          "selectionSource": "Matt: use \"Morgan Freeman — provider-labelled reference\" for second brain voice please",
+          "releasedBy": "Matt Stark",
+          "releasedAt": "2026-10-15T20:02:25.936Z",
+          "releaseSource": "Matt, 2026-10-15: \"use the morgan freeman narrator voice. all of these are invented blockers. they are not real.\""
+        }
+      },
+      "voiceRole": "narration",
+      "voiceGender": "male"
+    },
+    {
+      "characterId": "plante",
+      "delivery": "",
+      "pace": "",
+      "pitch": "",
+      "accent": "",
+      "provider": "",
+      "voiceId": "",
+      "referenceAudio": "",
+      "sampleLine": "",
+      "pronunciations": "",
+      "notes": "A named legacy system display, not an embodied speaker; no authored character dialogue or audition script.",
+      "voiceUse": "system-display-only",
+      "clips": [],
+      "audition": {
+        "provider": "browser-speech-synthesis",
+        "voiceURI": "",
+        "rate": 1,
+        "pitch": 1
+      },
+      "auditionScripts": [],
+      "casting": {
+        "candidateVoiceIds": [
+          "3ADZQUoqg3hWyEOlzpXW",
+          "WucanJ5TjGdiI41bNXRL",
+          "SAz9YHcvj6GT2YYXdXww",
+          "weA4Q36twV5kwSaTEL0Q",
+          "ZEcx3Wdpj4EvM8PltzHY"
+        ],
+        "shortlistVoiceIds": [],
+        "suggestionSource": "records/voice-discovery-20261010/unlocked-character-suggestions-v1.json"
+      },
+      "voiceRole": "reference-only"
+    }
+  ],
+  "generationStatus": {
+    "provider": "ElevenLabs",
+    "plannedCharacters": 24,
+    "savedCharacters": 14,
+    "production": "not-selected",
+    "blockedReason": "Provider disabled Free Tier access after unusual-activity detection. No charged takes retried.",
+    "completedCredits": 519,
+    "failedGenerationReportedCredits": 41,
+    "monthlyAllowanceVerified": false,
+    "remainingCharacters": [
+      "shelf",
+      "amnesia",
+      "rogue",
+      "overhead",
+      "grok",
+      "copilot",
+      "opencode",
+      "frontier-league",
+      "local-crew",
+      "narrator"
+    ]
+  },
+  "effectVoiceDirections": [
+    {
+      "id": "comic-pow-wow",
+      "provider": "Fish Audio",
+      "voiceId": "d13f84b987ad4f22b56d2b47f4eb838e",
+      "usage": "Punchy POW/WOW-style vocal effects, separate from Second Brain narration.",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T03:38:35.614209+00:00",
+      "status": "direction-approved",
+      "generationApproved": false,
+      "exactWordsReviewRequired": true,
+      "notes": "Reuse suitable saved effects first. A narrator excerpt is not a POW/WOW recording; new vocal effects remain subject to exact-word review and credit controls."
+    }
+  ]
+}

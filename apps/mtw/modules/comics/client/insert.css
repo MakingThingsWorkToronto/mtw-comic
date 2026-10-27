@@ -1,0 +1,21 @@
+/* Insert scene / Insert box forms and their "Inserting…" markers (InsertDialogs.tsx). */
+.ins-form { display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.ins-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-3); }
+.ins-area { height: auto; min-height: calc(var(--control-h) * 1.6); padding: var(--space-2); font: inherit; resize: vertical; }
+.ins-chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0; padding: 0; border: 0; min-width: 0; }
+.ins-chips legend { width: 100%; margin-bottom: var(--space-1); }
+.ins-rows { display: flex; flex-direction: column; gap: var(--space-2); margin: 0; padding: 0; border: 0; min-width: 0; }
+.ins-rows legend { margin-bottom: var(--space-1); }
+.ins-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.ins-row .select { max-width: 13rem; }
+.ins-grow { flex: 1 1 14rem; }
+.ins-row-error { flex-basis: 100%; }
+.ins-params { max-height: 14rem; overflow: auto; white-space: pre-wrap; word-break: break-word; font-size: var(--fs-small); }
+.ins-badge { display: inline-flex; align-items: center; gap: var(--space-2); text-decoration: none; }
+.iss-inserting { list-style: none; padding: var(--space-2); border: 1px dashed var(--line); border-radius: 6px; }
+.iss-list-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); }
+@media (max-width: 640px) {
+  .ins-row .select { max-width: none; flex: 1 1 8rem; }
+}
+.ins-form .error { color: var(--error); }
+.ins-rows > .btn { align-self: flex-start; }

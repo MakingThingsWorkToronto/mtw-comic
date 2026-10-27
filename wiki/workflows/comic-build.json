@@ -1,0 +1,24 @@
+{
+  "id": "comic-build",
+  "title": "Comic build",
+  "domain": "Comics",
+  "description": "Build one Comic B issue from scratch with the comic build framework (scripts/comics/README.md): write and check the story, Matt approves the words, then every scene is planned, drawn through Codex lanes, reviewed at full size, layered, lettered, scored, registered, bound and frame-reviewed on 8787, one scene at a time; Matt accepts the issue; voices follow as their own paid step.",
+  "inputs": [
+    { "name": "slug", "label": "Issue slug (/comics/<slug>/)", "required": true },
+    { "name": "build", "label": "Build id (e.g. 20261015)", "required": true },
+    { "name": "brief", "label": "Story brief from Matt (what must change)" }
+  ],
+  "nodes": [
+    { "id": "story", "label": "Write and check the story", "kind": "operation", "operation": "comics-build-story", "params": { "slug": "{{input.slug}}", "build": "{{input.build}}", "brief": "{{input.brief}}" }, "note": "Stage story of the comic-build workflow: writer, four checks, cold read, review sheet in wiki/comics-library/records/<slug>-build-<build>/story-review.md." },
+    { "id": "approve-story", "label": "Approve the words", "kind": "human-gate", "noteRequired": false, "note": "Read story-review.md and the issue in /m/comics. Approve freezes every word; later steps move balloons but never change text. Reject with what to change; then start a new run of this workflow with that note as the brief (the engine does not loop back)." },
+    { "id": "scenes", "label": "Build every scene", "kind": "operation", "operation": "comics-build-scenes", "params": { "slug": "{{input.slug}}", "build": "{{input.build}}", "note": "{{approve-story}}" }, "note": "Stage scenes: one scene at a time; Codex lanes, full-size reviews, planes cut from masters, lettering from measured faces, sound, one registration per scene, binding, frames on 8787 reviewed frame by frame. Stops after one correction per defect and reports the rest." },
+    { "id": "finish", "label": "Issue checks and build", "kind": "operation", "operation": "comics-run-checks", "params": { "story": "{{input.slug}}" } },
+    { "id": "accept-issue", "label": "Accept the issue", "kind": "human-gate", "note": "Play /comics/<slug>/ on 8787 on desktop and phone. Accept, or reject with the scene and box ids that fail; each goes back through the scene step as a new attempt in the same ledger. Voices come after acceptance: approve each line in the issue review in /m/comics and generate it there (comics-generate-speech, one balloon at a time, paid)." }
+  ],
+  "edges": [
+    { "from": "story", "to": "approve-story" },
+    { "from": "approve-story", "to": "scenes" },
+    { "from": "scenes", "to": "finish", "when": "always" },
+    { "from": "finish", "to": "accept-issue", "when": "always" }
+  ]
+}

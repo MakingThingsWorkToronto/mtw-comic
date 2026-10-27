@@ -1,0 +1,9 @@
+.motion-progress { --progress: 0%; position: absolute; left: 8px; right: 8px; height: 24px; z-index: 7; }
+.motion-progress__track { position: absolute; left: 7px; right: 7px; top: 10px; height: 3px; background: #b4d5d533; pointer-events: none; }
+.motion-progress__fill { display: block; width: var(--progress); height: 100%; background: var(--teal-light, #5fc4c9); }
+.motion-progress__range { appearance: none; -webkit-appearance: none; position: absolute; inset: 0; width: 100%; height: 24px; margin: 0; padding: 0; border: 0; background: transparent; color: var(--teal-light, #5fc4c9); cursor: pointer; touch-action: none; }
+.motion-progress__range::-webkit-slider-runnable-track { height: 3px; background: transparent; }
+.motion-progress__range::-moz-range-track { height: 3px; background: transparent; }
+.motion-progress__range::-webkit-slider-thumb { appearance: none; -webkit-appearance: none; width: 14px; height: 14px; margin-top: -5.5px; border: 2px solid var(--paper, #f2f2ef); border-radius: 50%; background: var(--teal, #1a9ba1); }
+.motion-progress__range::-moz-range-thumb { width: 10px; height: 10px; border: 2px solid var(--paper, #f2f2ef); border-radius: 50%; background: var(--teal, #1a9ba1); }
+.motion-progress__range:focus-visible { outline: 2px solid var(--teal-light, #5fc4c9); outline-offset: 2px; }

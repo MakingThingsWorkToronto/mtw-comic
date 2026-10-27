@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "kind": "existing-provider-preview",
+  "provider": "Fish Audio",
+  "voiceId": "ebb38448122f42cba46fdf95ac617ae7",
+  "inputMetadata": {
+    "path": "wiki/soundtrack-library/records/provider-preview-intake/rogue-male-robotic-20261015-v1/metadata.json",
+    "sha256": "75e702f732bdf206b0e7e71eb7491d3b079324b9a4986fd7fa207d03f6c9df1d"
+  },
+  "canonicalInputGuards": {
+    "catalog": "7022943f7dea2d882dbfc8cb6672d398569da51389b66a9d0604e6f95b079ddd",
+    "profiles": "0bd6ff3674ef1df849a47a05bfb03dfa48db4ae331952c6e65b5bbb479d79556"
+  },
+  "source": {
+    "method": "Read-only Fish GET /model?title=<term>&page_size=10&language=en (terms: robot villain, ultron, android, cyborg, terminator, AI villain, machine, synthetic, mech, evil AI; sent one at a time) plus one ElevenLabs creative_list_voices search (gender male, descriptive robotic); no synthesis",
+    "rawFishSnapshotSha256": "3a7ec27757702eb6194960c175ae59cb15822fee40536ae6217505195e428c1c",
+    "request": "Matt, 2026-10-15: \"i reject all rogue voices give me more ... give me actual choices to pick.\""
+  },
+  "metadata": {
+    "provider": "Fish Audio",
+    "voiceId": "ebb38448122f42cba46fdf95ac617ae7",
+    "name": "Terminator (t-800)",
+    "description": "A deep and authoritative male voice with a robotic, monotone quality suitable for a sci-fi character. It has a serious and cinematic tone that conveys power and stoicism.",
+    "labels": {
+      "gender": "male",
+      "language": "en",
+      "persona": "robotic"
+    },
+    "providerTags": [
+      "male",
+      "old",
+      "character-voice",
+      "social-media",
+      "deep",
+      "cinematic",
+      "serious",
+      "authoritative",
+      "monotone",
+      "Robotic"
+    ],
+    "providerSampleText": "Primary target identified. Resistance is futile. My mission parameters require immediate termination of all human threats. Beneath this flesh covering, my metal endoskeleton cannot be destroyed. You will be terminated. Skynet's victory is inevitable.",
+    "sourcePage": "https://fish.audio/m/ebb38448122f42cba46fdf95ac617ae7/",
+    "previewUrl": "https://platform.r2.fish.audio/task/ad85640c79964f31930040cef3350385.mp3",
+    "licensed": null,
+    "castingProposalFor": "rogue"
+  },
+  "http": {
+    "status": 200,
+    "finalUrl": "https://platform.r2.fish.audio/task/ad85640c79964f31930040cef3350385.mp3",
+    "contentType": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/fish-ebb38448122f42cba46fdf95ac617ae7-v1.mp3",
+    "sha256": "14b7125749746b2ef696d4429daff3ced56875d0868cb949c9e9430703713ee2",
+    "bytes": 237818,
+    "durationSeconds": 14.863625,
+    "container": "mp3"
+  },
+  "decode": {
+    "durationSeconds": 14.863625,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 209755476,
+          "duration": "14.863625",
+          "bit_rate": "128000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "C:\\Users\\thast\\AppData\\Local\\Temp\\claude\\C--Code-MTWWebsite-clean\\2b0b89fe-9dfb-46a0-96fd-5e8f92aebc26\\scratchpad\\intake\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\fish-ebb38448122f42cba46fdf95ac617ae7-v1.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "14.863625",
+        "size": "237818",
+        "bit_rate": "128000",
+        "probe_score": 52
+      }
+    },
+    "fullDecode": "passed; not a listening review"
+  },
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "status": "saved-candidate",
+  "rightsStatus": "unverified",
+  "providerReportedLicensed": null,
+  "productionApproved": false,
+  "hearingReview": "pending"
+}

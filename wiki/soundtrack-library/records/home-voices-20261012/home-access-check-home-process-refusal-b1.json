@@ -1,0 +1,13 @@
+{
+  "id": "home-access-check-home-process-refusal-b1",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Good. I choose what goes out.",
+  "historyItemId": "l0q4UNyy9hoKMwf6EKXo",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "4ae57ba13a5db7659ad0622a75fdbcea8cc461ec342c02ecfacc7f8b1abe2426",
+  "createdAt": "2026-10-12T06:22:00.375Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

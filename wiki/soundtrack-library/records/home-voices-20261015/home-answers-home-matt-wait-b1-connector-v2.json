@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T23:28:37Z",
+  "provider": "ElevenLabs",
+  "transport": "ElevenLabs connector (creative_generate_speech)",
+  "characterId": "matt",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "generationsCount": 1,
+  "text": "Ruth and Sam are in at eight. Tonight, build what you know.",
+  "flowId": "ciUDIstXaEbrnU8GgIkd",
+  "sessionId": "OXbBhNBQrYcgCkMGVfhz",
+  "generationId": "S8WaHKZwUE1OH8rOKNos",
+  "reportedCredits": 59,
+  "status": "saved",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/matt/home-answers-home-matt-wait-b1-raw-v1.mp3",
+  "rawSha256": "73d14498174b7baaf4cc7cd7f79fe5feacfd1bff6f9148567381fd3bfe65c4db",
+  "supersedesReceipt": "home-answers-home-matt-wait-b1-connector-v1.json",
+  "note": "Connector validation take requested by Matt, 2026-10-15. Approved words (approvalId home-answers-home-matt-wait-b1)."
+}

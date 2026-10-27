@@ -1,0 +1,12 @@
+{
+  "id": "home-output-home-process-output-b0",
+  "characterId": "codex",
+  "provider": "Fish Audio",
+  "voiceId": "81044b40370d428b960a594da5bc5e4e",
+  "modelId": "s2.1-pro-free",
+  "text": "Each figure names its source.",
+  "requestId": null,
+  "rawSha256": "7a333eb5feb377275430be132a0337fc90d40becc1589100db274d28e14e1728",
+  "createdAt": "2026-10-12T06:18:25.793Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

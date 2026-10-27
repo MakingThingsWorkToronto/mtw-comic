@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "kind": "existing-provider-preview",
+  "provider": "ElevenLabs",
+  "voiceId": "gJ4a5qWqzRc6NDQT0dIz",
+  "inputMetadata": {
+    "path": "wiki/soundtrack-library/records/provider-preview-intake/rogue-male-robotic-20261015-v1/metadata.json",
+    "sha256": "75e702f732bdf206b0e7e71eb7491d3b079324b9a4986fd7fa207d03f6c9df1d"
+  },
+  "canonicalInputGuards": {
+    "catalog": "7022943f7dea2d882dbfc8cb6672d398569da51389b66a9d0604e6f95b079ddd",
+    "profiles": "0bd6ff3674ef1df849a47a05bfb03dfa48db4ae331952c6e65b5bbb479d79556"
+  },
+  "source": {
+    "method": "Read-only Fish GET /model?title=<term>&page_size=10&language=en (terms: robot villain, ultron, android, cyborg, terminator, AI villain, machine, synthetic, mech, evil AI; sent one at a time) plus one ElevenLabs creative_list_voices search (gender male, descriptive robotic); no synthesis",
+    "rawFishSnapshotSha256": "3a7ec27757702eb6194960c175ae59cb15822fee40536ae6217505195e428c1c",
+    "request": "Matt, 2026-10-15: \"i reject all rogue voices give me more ... give me actual choices to pick.\""
+  },
+  "metadata": {
+    "provider": "ElevenLabs",
+    "voiceId": "gJ4a5qWqzRc6NDQT0dIz",
+    "name": "The Curator",
+    "description": "A voice of monotonous and deliberate equilibrium. Flat, precise and disturbing. Articulated in dryness that suggests a lack of life. Mid-30's, low-medium pitched voice. American English voice accent.",
+    "labels": {
+      "gender": "male",
+      "accent": "en-american",
+      "age": "young",
+      "language": "en",
+      "descriptive": "robotic"
+    },
+    "labelEvidence": "descriptive=robotic: returned by ElevenLabs creative_list_voices filter gender=male, descriptives=[robotic], languages=[en] (2026-10-15)",
+    "category": "professional",
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/HzHwYysAulOjT1aCUipuVyyE2q13/voices/gJ4a5qWqzRc6NDQT0dIz/99630ee6-4d05-4906-b7c7-9c1c1ec24843.mp3",
+    "licensed": null,
+    "castingProposalFor": "rogue"
+  },
+  "http": {
+    "status": 200,
+    "finalUrl": "https://storage.googleapis.com/eleven-public-prod/database/user/HzHwYysAulOjT1aCUipuVyyE2q13/voices/gJ4a5qWqzRc6NDQT0dIz/99630ee6-4d05-4906-b7c7-9c1c1ec24843.mp3",
+    "contentType": "text/plain"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/gJ4a5qWqzRc6NDQT0dIz-v1.mp3",
+    "sha256": "6165846a24a62dce9ff13c12e80ab7ff12c2e34e74213e834fa224485d2b1479",
+    "bytes": 203800,
+    "durationSeconds": 5.093875,
+    "container": "mp3"
+  },
+  "decode": {
+    "durationSeconds": 5.093875,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 71884764,
+          "duration": "5.093875",
+          "bit_rate": "320000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "C:\\Users\\thast\\AppData\\Local\\Temp\\claude\\C--Code-MTWWebsite-clean\\2b0b89fe-9dfb-46a0-96fd-5e8f92aebc26\\scratchpad\\intake\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\gJ4a5qWqzRc6NDQT0dIz-v1.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "5.093875",
+        "size": "203800",
+        "bit_rate": "320070",
+        "probe_score": 52,
+        "tags": {
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "fullDecode": "passed; not a listening review"
+  },
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "status": "saved-candidate",
+  "rightsStatus": "unverified",
+  "providerReportedLicensed": null,
+  "productionApproved": false,
+  "hearingReview": "pending"
+}

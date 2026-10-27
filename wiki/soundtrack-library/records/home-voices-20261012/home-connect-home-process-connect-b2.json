@@ -1,0 +1,12 @@
+{
+  "id": "home-connect-home-process-connect-b2",
+  "characterId": "claude",
+  "provider": "Fish Audio",
+  "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+  "modelId": "s2.1-pro-free",
+  "text": "Separate sources. Separate access.",
+  "requestId": null,
+  "rawSha256": "39542d10ce8a9d6d216b57f7034eb2cdd68c2f020b7aa65ec95372bb7850fcbc",
+  "createdAt": "2026-10-12T06:18:26.348Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

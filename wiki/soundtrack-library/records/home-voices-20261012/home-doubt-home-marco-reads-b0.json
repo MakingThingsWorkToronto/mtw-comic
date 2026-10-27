@@ -1,0 +1,13 @@
+{
+  "id": "home-doubt-home-marco-reads-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Sharper than they expected?",
+  "historyItemId": "Ev0YQinw03j8o2SJ98aD",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "444d6dd90acdfc13d5255bd944bcb35d14e164a13ef82ff8beea21076cb1bca7",
+  "createdAt": "2026-10-12T06:21:56.215Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

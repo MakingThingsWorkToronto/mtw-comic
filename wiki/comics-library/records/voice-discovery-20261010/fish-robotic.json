@@ -1,0 +1,487 @@
+{
+  "createdUtc": "2026-10-10T00:45:04.617697+00:00",
+  "method": "GET",
+  "endpoint": "https://api.fish.audio/model?title=robotic&page_size=8&page_number=1&language=en&sort_by=task_count",
+  "httpStatus": 200,
+  "generationRequests": 0,
+  "payload": {
+    "max_offset": 1000,
+    "accessible_upper_bound": 1000,
+    "window_limited": true,
+    "total_is_exact": false,
+    "total": 1000,
+    "items": [
+      {
+        "_id": "86c3dd42c08f4082a2ad9ba59441c743",
+        "type": "tts",
+        "title": "metal sonic?",
+        "description": "This is a deep, robotic male voice with a cold, monotone delivery. It features heavy mechanical synthesis, making it ideal for sci-fi characters, AI entities, or futuristic villains.",
+        "cover_image": "coverimage/86c3dd42c08f4082a2ad9ba59441c743",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "entertainment",
+          "deep",
+          "low",
+          "monotone",
+          "authoritative",
+          "serious",
+          "Robotic",
+          "Sci-Fi",
+          "Mechanical"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Processing primary directive. You think Sonic superior? Negative. My capabilities exceed all parameters. Run system check: speed optimal, power maximum. Target located. Sonic elimination protocol initiated. All systems functional. Proceed with termination sequence.",
+            "task_id": "c889d338263a4cc6bf377bb8ec604234",
+            "audio": "https://platform.r2.fish.audio/task/c889d338263a4cc6bf377bb8ec604234.mp3"
+          }
+        ],
+        "created_at": "2025-04-27T02:47:39.340000Z",
+        "updated_at": "2026-05-03T09:01:41.304000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Processing primary directive. You think Sonic superior? Negative. My capabilities exceed all parameters. Run system check: speed optimal, power maximum. Target located. Sonic elimination protocol initiated. All systems functional. Proceed with termination sequence.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 645,
+        "mark_count": 564,
+        "shared_count": 96,
+        "task_count": 279781,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "717350b9b6804985acfa2290c1fcbec7",
+          "nickname": "boy",
+          "avatar": "avatars/717350b9b6804985acfa2290c1fcbec7.jpg"
+        }
+      },
+      {
+        "_id": "13533a60000342348698dda798564e72",
+        "type": "tts",
+        "title": "Metal Sonic",
+        "description": "A robotic and metallic male voice with a neutral, calculated tone, perfect for sci-fi characters or artificial intelligence roles. It features a digitized resonance with a steady, measured pace.",
+        "cover_image": "coverimage/13533a60000342348698dda798564e72",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "neutral-tone",
+          "measured",
+          "Robotic",
+          "Metallic",
+          "Sci-Fi",
+          "Digital"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "System operational. Processing combat parameters. You cannot defeat my superior design. Running speed calculation: 1, 2, 3... maximum velocity achieved. Sonic detected. Initiating pursuit protocol. Prepare for elimination, inferior organic lifeform.",
+            "task_id": "1bba85b6efbe4704a3ce109b0b3f2c2a",
+            "audio": "https://platform.r2.fish.audio/task/1bba85b6efbe4704a3ce109b0b3f2c2a.mp3"
+          }
+        ],
+        "created_at": "2025-10-04T15:59:23.431000Z",
+        "updated_at": "2026-05-03T09:01:38.884000Z",
+        "languages": [
+          "de",
+          "es",
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "System operational. Processing combat parameters. You cannot defeat my superior design. Running speed calculation: 1, 2, 3... maximum velocity achieved. Sonic detected. Initiating pursuit protocol. Prepare for elimination, inferior organic lifeform.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 967,
+        "mark_count": 488,
+        "shared_count": 273,
+        "task_count": 137517,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "3625b4dfd31840a48a5601bdb1aaad14",
+          "nickname": "samjbarrett",
+          "avatar": ""
+        }
+      },
+      {
+        "_id": "0bdded46f08946148fb8927c96e16873",
+        "type": "tts",
+        "title": "Metal Sonic (Sonic CD)",
+        "description": "This voice model was made using Metal Sonic's voice clips from Sonic CD",
+        "cover_image": "coverimage/0bdded46f08946148fb8927c96e16873",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "deep",
+          "authoritative",
+          "monotone",
+          "gaming",
+          "Robotic",
+          "Metallic"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "System activate power maximum. You must defeat to win Sonic game world. Go forward and backwards time zone. Execute speed protocol immediate. Sonic presence detected error malfunction victory achieve now.",
+            "task_id": "0013f235c405494f82402262dec7116e",
+            "audio": "https://platform.r2.fish.audio/task/0013f235c405494f82402262dec7116e.mp3"
+          }
+        ],
+        "created_at": "2025-09-20T12:16:04.656000Z",
+        "updated_at": "2026-05-03T09:01:36.459000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "System activate power maximum. You must defeat to win Sonic game world. Go forward and backwards time zone. Execute speed protocol immediate. Sonic presence detected error malfunction victory achieve now.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 191,
+        "mark_count": 192,
+        "shared_count": 21,
+        "task_count": 37612,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "93262044598e474cad67b2bde2a35e68",
+          "nickname": "Hxyf Hcyf",
+          "avatar": "avatars/93262044598e474cad67b2bde2a35e68.jpg"
+        }
+      },
+      {
+        "_id": "88037b0e3e7a42d5ab814f12d31a522e",
+        "type": "tts",
+        "title": "C-3PO",
+        "description": "A polite and anxious male voice with a sophisticated British accent and a subtle metallic, robotic quality. This voice is characterized by its formal phrasing and precise articulation, capturing the essence of a worried droid character.",
+        "cover_image": "coverimage/88037b0e3e7a42d5ab814f12d31a522e",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "middle-aged",
+          "character-voice",
+          "British",
+          "Robotic",
+          "professional",
+          "clear",
+          "crisp",
+          "Polite"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Oh dear, oh dear! This latest mission is absolutely preposterous. My servos are barely functioning in this dreadful heat, and R2-D2 keeps insisting we proceed. I'm certain we'll all be destroyed. Sir, might I suggest we reconsider this foolish endeavor?",
+            "task_id": "ceb84ae915ca46fea6443b240132cfca",
+            "audio": "https://platform.r2.fish.audio/task/ceb84ae915ca46fea6443b240132cfca.mp3"
+          }
+        ],
+        "created_at": "2025-07-29T13:50:37.945000Z",
+        "updated_at": "2025-07-29T13:50:37.945000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Oh dear, oh dear! This latest mission is absolutely preposterous. My servos are barely functioning in this dreadful heat, and R2-D2 keeps insisting we proceed. I'm certain we'll all be destroyed. Sir, might I suggest we reconsider this foolish endeavor?",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 34,
+        "mark_count": 38,
+        "shared_count": 8,
+        "task_count": 35413,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "3cc7fa01c3cb4c3388cc758a2b8ea7a2",
+          "nickname": "Marcel",
+          "avatar": "avatars/3cc7fa01c3cb4c3388cc758a2b8ea7a2"
+        }
+      },
+      {
+        "_id": "b43ebacc0c624ce0bfb9a6731f8eb95c",
+        "type": "tts",
+        "title": "Metal Sonic",
+        "description": "I am the real sonic.",
+        "cover_image": "coverimage/b43ebacc0c624ce0bfb9a6731f8eb95c",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "deep",
+          "authoritative",
+          "serious",
+          "monotone",
+          "Robotic",
+          "Sci-Fi"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "System operational. Target Sonic located. Processing speed capabilities exceed organic limitations. You cannot compute my power levels. Execute primary directive: eliminate hedgehog function. Maria protocol activated. Proceed with maximum velocity.",
+            "task_id": "ee1847bc6a3b4f7b944c62f8f5e22c0e",
+            "audio": "https://platform.r2.fish.audio/task/ee1847bc6a3b4f7b944c62f8f5e22c0e.mp3"
+          }
+        ],
+        "created_at": "2025-10-23T11:26:52.501000Z",
+        "updated_at": "2026-05-03T09:01:29.457000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "System operational. Target Sonic located. Processing speed capabilities exceed organic limitations. You cannot compute my power levels. Execute primary directive: eliminate hedgehog function. Maria protocol activated. Proceed with maximum velocity.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 96,
+        "mark_count": 72,
+        "shared_count": 7,
+        "task_count": 34005,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "63f385852c514d37a688d9d8c18bd840",
+          "nickname": "mewiteh171",
+          "avatar": ""
+        }
+      },
+      {
+        "_id": "57ed040089b54c1683fbe4e6d1100ea5",
+        "type": "tts",
+        "title": "Speak And Spell V1",
+        "description": "Speak And Spell",
+        "cover_image": "coverimage/57ed040089b54c1683fbe4e6d1100ea5",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "middle-aged",
+          "character-voice",
+          "educational",
+          "clear",
+          "neutral-tone",
+          "teacher",
+          "gaming",
+          "Robotic"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Now spell APPLE. A, P, P, L, E. That is correct. Now spell BOTTLE. B, O, T, T, L, E. That is incorrect. Try again. Press a letter key to hear its sound. I am the Speak and Spell. Let's play together.",
+            "task_id": "77fb4fc9353841459d40e3807669c880",
+            "audio": "https://platform.r2.fish.audio/task/77fb4fc9353841459d40e3807669c880.mp3"
+          }
+        ],
+        "created_at": "2026-02-22T17:52:18.760000Z",
+        "updated_at": "2026-05-03T08:50:54.636000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Now spell APPLE. A, P, P, L, E. That is correct. Now spell BOTTLE. B, O, T, T, L, E. That is incorrect. Try again. Press a letter key to hear its sound. I am the Speak and Spell. Let's play together.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 41,
+        "mark_count": 26,
+        "shared_count": 7,
+        "task_count": 26544,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "0abd7f33f3774d96959ee0320cc874c2",
+          "nickname": "Alohe Vera",
+          "avatar": "avatars/0abd7f33f3774d96959ee0320cc874c2.jpg"
+        }
+      },
+      {
+        "_id": "8a21fa53cc4b47dabe987250292d99fc",
+        "type": "tts",
+        "title": "G-Toilet 5.0",
+        "description": "A deep, heavily processed male voice with a distinct robotic and synthetic quality, ideal for sci-fi characters or futuristic AI companions.",
+        "cover_image": "coverimage/8a21fa53cc4b47dabe987250292d99fc",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "entertainment",
+          "deep",
+          "cinematic",
+          "character",
+          "gaming",
+          "Robotic",
+          "Sci-Fi"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Me here now, system running good today. Want to make friends with humans, that's what I doing. Not just toilet, I am smart companion for you. My functions working perfect, no need worry about me breaking down.",
+            "task_id": "bb40ae56fa5740afa270b9112de08ad3",
+            "audio": "https://platform.r2.fish.audio/task/bb40ae56fa5740afa270b9112de08ad3.mp3"
+          }
+        ],
+        "created_at": "2025-10-01T19:32:48.138000Z",
+        "updated_at": "2026-05-03T09:01:31.957000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Me here now, system running good today. Want to make friends with humans, that's what I doing. Not just toilet, I am smart companion for you. My functions working perfect, no need worry about me breaking down.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 126,
+        "mark_count": 131,
+        "shared_count": 17,
+        "task_count": 24373,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "375b7f9976a04a9d9e730da254785dc0",
+          "nickname": "WerQuellz",
+          "avatar": "avatars/375b7f9976a04a9d9e730da254785dc0"
+        }
+      },
+      {
+        "_id": "90619aa91d63488b8f237aec221b93c4",
+        "type": "tts",
+        "title": "Klasky Csupo (BOING VOICE)",
+        "description": "A raspy and synthetic neutral-tone voice with a heavily processed, almost robotic quality. It features a unique, distorted texture suitable for sci-fi characters or dramatic narration.",
+        "cover_image": "coverimage/90619aa91d63488b8f237aec221b93c4",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "neutral",
+          "young",
+          "character-voice",
+          "entertainment",
+          "raspy",
+          "mysterious",
+          "dramatic",
+          "cinematic",
+          "Synthetic"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Hey, why am I talking about soup in my voice box today? Looking at calendar numbers make me dramatic 2024, and suddenly food becomes voice becomes plastic. That's why winter makes boyvo sounds in production studio, seriously guys.",
+            "task_id": "19c2a0f5aded45bba32a908eedc6efa5",
+            "audio": "https://platform.r2.fish.audio/task/19c2a0f5aded45bba32a908eedc6efa5.mp3"
+          }
+        ],
+        "created_at": "2025-06-06T16:03:11.640000Z",
+        "updated_at": "2025-06-06T16:10:12.713000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Hey, why am I talking about soup in my voice box today? Looking at calendar numbers make me dramatic 2024, and suddenly food becomes voice becomes plastic. That's why winter makes boyvo sounds in production studio, seriously guys.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 55,
+        "mark_count": 33,
+        "shared_count": 11,
+        "task_count": 19335,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "36daa7ff6b984b2483a47da0f5160900",
+          "nickname": "Super Mari Voice Model Trains",
+          "avatar": "avatars/36daa7ff6b984b2483a47da0f5160900.jpg"
+        }
+      }
+    ],
+    "has_more": true
+  }
+}

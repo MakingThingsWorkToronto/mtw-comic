@@ -1,0 +1,32 @@
+/* Site tokens, copied unchanged from site/src/styles/base.css, plus the compact app scale. Dark only. */
+:root {
+  color-scheme: dark;
+  --teal: #1a9ba1;
+  --teal-light: #5fc4c9;
+  --paper: #f2f2ef;
+  --muted: #b9c3c4;
+  --ink: #101619;
+  --line: #ffffff26;
+  --glass-radius: 4px;
+  --error: #ff4d4d;
+  --success: #34c759;
+  --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --body: 'Open Sans', sans-serif;
+  --ease: cubic-bezier(.16, 1, .3, 1);
+
+  /* App scale */
+  --fs: 14px;
+  --fs-small: 12px;
+  --control-h: 32px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --header-h: 48px;
+  --nav-w: 200px;
+  --nav-w-collapsed: 48px;
+  --surface: #0b1419;
+  --surface-raised: #112126;
+  --focus: 2px solid var(--teal-light);
+}

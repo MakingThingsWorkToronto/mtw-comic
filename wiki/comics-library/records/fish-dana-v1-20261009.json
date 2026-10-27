@@ -1,0 +1,55 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "dana",
+  "scriptId": "character-read",
+  "scriptSource": "Issue 1, brief",
+  "text": "Let me finish\nchecking this.",
+  "textSha256": "ec227c6c02bede8a824c572c9487960cdd99962ce1dfe806fabb85f8e8fc4439",
+  "voiceId": "41db41746b9c4bd18053c2bfc213b476",
+  "voiceName": "Emma Watson (British Female)",
+  "modelId": "s2.1-pro-free",
+  "settings": {
+    "text": "Let me finish\nchecking this.",
+    "reference_id": "41db41746b9c4bd18053c2bfc213b476",
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal"
+  },
+  "startedAt": "2026-10-09T16:16:13.609361+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "textUtf8Bytes": 28,
+  "estimatedUsd": 0,
+  "actualCharge": "not exposed by generation response",
+  "status": "saved",
+  "candidateOnly": true,
+  "productionApproved": false,
+  "licensed": false,
+  "productionRights": "not verified",
+  "reproduction": "Exact inputs retained; no seed exposed. Regeneration is not guaranteed byte-identical.",
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "endedAt": "2026-10-09T16:16:14.433019+00:00",
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/dana/fish-v1-character-read.mp3",
+    "sha256": "330a756eb013cb92ad1edf3e1f5d8e7774ec7f612497a57373436a6377ff7bbd",
+    "bytes": 41794,
+    "durationSeconds": 2.612125
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "id": "fish-v1-character-read",
+  "path": "wiki/soundtrack-library/assets/voices/dana/fish-v1-character-read.mp3",
+  "sha256": "330a756eb013cb92ad1edf3e1f5d8e7774ec7f612497a57373436a6377ff7bbd"
+}

@@ -1,0 +1,199 @@
+/* ---------- Comic Story (Comic B) ----------
+   src/components/ComicStory.astro with public/scripts/comic-story.js (skill: mtw-comic-story, references/deslop.md; facts:
+   wiki/site/comic-story.md). Only what the reference comics use (Matt, 2026-09-28: "if you have styles not used in the
+   comics remove them"): a slim margin and thin gutters in brand teal (page-constants), a dark ground
+   around the page (black and teal), boxes with crisp brand teal borders (or the generated page art's
+   own), light balloons with black ink outlines, yellow captions with a black rule, hand lettering. No rounded corners, no
+   shadows, no gradients, no blur, no overlays (grain, vignette, shimmer), nothing over the page. Matt, 2026-10-09 adds bounded art-only cinematic focus effects; otherwise motion is opacity only:
+   boxes fade, balloons fade and their lettering types on. Checked by scripts/comic-story-deslop.mjs. */
+
+/* Lettering (SIL OFL, self-hosted): Kalam 700 for dialogue and captions (Matt, 2026-09-30: "Kalam lettering"; public/fonts/
+   OFL-kalam.txt), which leans forward like the references' pen; stress is the same face slanted further (Kalam has no
+   italic: a synthetic slant, lettering:bold-italic-stress); Bangers for shouts. */
+@font-face { font-family: 'Kalam Letter'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/kalam-700.woff2') format('woff2'); }
+@font-face { font-family: 'Bangers'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/bangers-400.woff2') format('woff2'); }
+
+.comic { display: none; }
+html[data-comic] .comic {
+  /* The black-and-teal value ladder (Codex reference descriptors): #071312, #123d3b, #247a74, #55c6b6, #e7ebdd. */
+  --cs-ground: #071312;
+  --cs-separator: var(--teal, #1a9ba1);
+  --cs-ink: #0a0a0a;
+  --cs-paper: #e7ebdd;
+  --cs-ochre: #eae619;
+  --cs-teal: #247a74;
+  --cs-teal-light: #55c6b6;
+  --cs-mute: #7e8a8c;
+  --cs-pad-x: max(12px, env(safe-area-inset-left), env(safe-area-inset-right));
+  --cs-strip-height: 64px;
+  --cs-letter: 'Kalam Letter', 'Comic Neue', 'Comic Sans MS', system-ui, sans-serif;
+  /* In the page's flow under the MTW header, one screen tall, edge to edge (the -b page's header, or the reader's page). */
+  display: block; position: relative; margin-top: var(--header-h, 64px);
+  height: calc(100vh - var(--header-h, 64px)); height: calc(100svh - var(--header-h, 64px));
+  overflow: hidden; background: var(--cs-ground); color: var(--cs-paper);
+  contain: strict; isolation: isolate;
+}
+/* Newsprint only as an option (?theme=paper or a story's theme: 'paper'). */
+.comic[data-theme="paper"] { --cs-ground: #ddd5bf; }
+html[data-comic="done"] .comic { display: none; }
+.sr-only-comic { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; margin: 0; }
+
+/* ---------- The page ---------- */
+.cs-view { position: absolute; top: 0; left: env(safe-area-inset-left); right: env(safe-area-inset-right); bottom: calc(env(safe-area-inset-bottom) + var(--cs-strip-height)); overflow: hidden; }
+.comic[data-phone-scroll="true"] .cs-view { overflow-x: hidden; overflow-y: auto; overscroll-behavior-y: contain; touch-action: pan-y; }
+.comic[data-phone-scroll="true"] .cs-view:focus-visible { outline: 2px solid var(--cs-teal-light); outline-offset: -2px; }
+.cs-cam { position: absolute; left: 0; top: 0; }
+/* Matt, 2026-10-09: brand teal margins and separators; reference geometry and texture retained. */
+.cs-page { position: absolute; left: 0; top: 0; visibility: hidden; background: var(--cs-separator); }
+/* One paper texture over everything printed (Matt, 2026-09-29: "ensure paper texture"): a tile sampled from the printed
+   references' blank paper (scripts/sample-reference-paper.mjs: patches of the photographed page's margins, overlap-added
+   into a seamless 512 px tile), layered twice at coprime sizes and offsets so its period never shows, multiplied over the
+   page's own art and paper (one layer per page, below the boxes) and over each box's art (continuing the same grain);
+   ink stays black, teal clean. Balloons and captions sit above and carry their own mean-preserving grain (the engine). */
+.cs-paperfx { position: absolute; inset: 0; pointer-events: none; background-image: var(--cs-paper-tile), var(--cs-paper-tile); background-size: 512px 512px, 397px 397px; background-position: 0 0, 173px 89px; background-blend-mode: multiply; mix-blend-mode: multiply; }
+.cs-panel__art::after { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background-image: var(--cs-paper-tile), var(--cs-paper-tile); background-size: 512px 512px, 397px 397px; background-position: calc(0px - var(--px, 0px)) calc(0px - var(--py, 0px)), calc(173px - var(--px, 0px)) calc(89px - var(--py, 0px)); background-blend-mode: multiply; mix-blend-mode: multiply; }
+/* Brand teal between boxes; no white or paper-coloured separator surfaces. */
+.cs-gutters { position: absolute; background: var(--cs-separator); }
+.cs-page.is-live { visibility: visible; }
+/* Hi-res raster page art (Matt, 2026-09-29), cut into its boxes (Matt, 2026-10-04: full screen, desktop and mobile):
+   each box shows its region of the page, sized and placed by the engine (placeCrops) to cover the box. */
+.cs-motion-art { transform-origin: 50% 50%; }
+@media (prefers-reduced-motion: reduce) { .cs-motion-art { transform: none !important; } }
+.cs-crop { position: absolute; inset: 0; background-repeat: no-repeat; pointer-events: none; }
+.cs-crop-stack { position: absolute; inset: 0; pointer-events: none; }
+.cs-art-layer[data-layer-role="agents"] { isolation: isolate; }
+
+/* The preloader: the comic's own printed page, nothing invented. The issue number is the NEXT tag's ink block, the title
+   its ochre caption, the progress one crisp ink rule in the bottom margin (style-provenance: loader). */
+.cs-loader { display: none; position: absolute; top: 0; left: env(safe-area-inset-left); right: env(safe-area-inset-right); bottom: calc(env(safe-area-inset-bottom) + var(--cs-strip-height)); z-index: 7; background: var(--cs-ground); padding: max(6px, 1.2vmin); transition: opacity .6s ease; }
+:root[data-comic] .cs-loader { display: block; }
+.cs-loader[hidden], :root[data-comic="done"] .cs-loader { display: none; }
+.cs-loader.is-done { opacity: 0; pointer-events: none; }
+.cs-loader__page { position: relative; width: 100%; height: 100%; background-color: var(--cs-separator); background-image: url("/comic/_paper/paper-tile-512.webp"), url("/comic/_paper/paper-tile-512.webp"); background-size: 512px 512px, 397px 397px; background-position: 0 0, 173px 89px; background-blend-mode: multiply; }
+.cs-loader__no { position: absolute; left: 1.9vmin; top: 1.9vmin; padding: .35em .55em .3em; background: var(--cs-ink); color: #f8f2e4; font: 400 clamp(16px, 1.6vw, 24px)/1 'Bangers', var(--cs-letter); letter-spacing: .06em; }
+.cs-loader__title { position: absolute; left: 1.9vmin; bottom: calc(1.9vmin + 22px); max-width: min(80%, 560px); margin: 0; padding: .3em .55em; background: var(--cs-ochre); color: var(--cs-ink); border: 1.5px solid var(--cs-ink); font: 400 clamp(15px, 1.3vw, 20px)/1.12 var(--cs-letter); font-style: oblique 9deg; text-transform: uppercase; }
+.cs-loader__rule { position: absolute; left: 1.9vmin; right: 1.9vmin; bottom: 1.9vmin; height: 3px; background: rgba(10, 10, 10, .14); }
+.cs-loader__rule span { position: absolute; inset: 0; background: var(--cs-ink); transform: scaleX(0); transform-origin: 0 50%; transition: transform .25s linear; }
+.cs-loader__count { position: absolute; right: 1.9vmin; bottom: calc(1.9vmin + 10px); color: var(--cs-ink); font: 400 13px/1 var(--cs-letter); text-transform: uppercase; }
+
+.cs-veil { position: absolute; inset: 0; background: var(--cs-ground); opacity: 0; pointer-events: none; z-index: 2; }
+
+/* A box: its art, then its crisp black border (engine-drawn, only where it meets another box), then its balloons. */
+/* A box is a dark base with its border; only its content (art, balloons) ghosts at --cs-ghost and comes up to full. */
+/* No z-index on an ordinary box, so every balloon and caption (z 4) stays above any inset (z 2) laid over it. A box is a
+   step lighter than the ground, so the page's structure reads before any art exists (root audit, 2026-09-28). */
+.cs-panel { position: absolute; overflow: visible; opacity: 0; background: #101a1f; cursor: pointer; outline: 0; }
+.cs-panel:focus-visible { outline: 2px solid var(--cs-teal-light); outline-offset: 2px; }
+/* The art layer carries the box's dark base, so its paper texture (multiply) darkens art and never lightens an empty box. */
+.cs-panel__art { position: absolute; inset: 0; overflow: hidden; opacity: var(--cs-ghost); will-change: opacity; background: #101a1f; }
+.cs-panel__art .cs-svg, .cs-panel__art .cs-raster { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.cs-panel__art .cs-raster { object-fit: cover; }
+.cs-border { position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; fill: var(--cs-separator); shape-rendering: crispEdges; }
+.cs-break { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+/* An inset over the box beneath is drawn as the references draw one (the Darkseid page's close-up): a band of brand teal,
+   exactly one gutter wide, around its outer edge, always at full strength, then its crisp black border, then the
+   art. A spread outline, never a shadow, offset or translucency (Matt, 2026-09-28: "the margin is reconstructed"). */
+.cs-panel.is-inset { outline: var(--cs-gut, 10px) solid var(--cs-separator); outline-offset: 0; }
+/* Placeholder (art not there yet): just the dark box. No label, no description, nothing light. */
+.cs-panel__alt { display: none; }
+
+/* Page-art mode: the generated page owns its borders, gutters and margins; the boxes are reveal regions only. */
+.cs-pageart { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; }
+.cs-page.is-art .cs-panel { background: none; }
+.cs-page.is-art .cs-panel__art, .cs-page.is-art .cs-border { display: none; }
+
+/* ---------- Balloons and captions: the engine draws each shape as SVG ink around the lettering ----------
+   The measured recipe (.claude/skills/mtw-comic-story/assets/reference-balloons/report.md; skill assets/balloon-style.json). The engine composes
+   the words into lines (one .cs-line each, never the browser's wrap, never a word broken) and sets the size and the
+   leading (1.31 cap heights, 1.29 in captions) from the face's measured cap height. */
+/* Above the page's multiply texture (z 5): balloons and captions carry their own mean-preserving grain (the engine), so
+   their colour stays the measured one. */
+.cs-bw { position: absolute; inset: 0; z-index: 6; pointer-events: none; opacity: 0; }
+.cs-bshape { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+/* Compact upper case, leaning slightly forward. */
+.cs-b {
+  position: absolute; box-sizing: border-box; width: max-content; padding: 0; margin: 0;
+  font-family: var(--cs-letter); font-weight: 700; font-style: normal; letter-spacing: .02em;
+  text-transform: uppercase; text-align: center; color: var(--cs-ink); white-space: nowrap;
+}
+.cs-line { display: block; width: max-content; margin: 0 auto; white-space: nowrap; }
+.cs-b em { font-style: italic; font-weight: 700; font-synthesis: style; -webkit-text-stroke: .05em currentColor; }
+.cs-b--burst { font-family: 'Bangers', var(--cs-letter); font-style: normal; letter-spacing: .04em; }
+.cs-b--burst.cs-b--panic { font-family: var(--cs-letter); font-style: italic; font-weight: 700; font-synthesis: style; -webkit-text-stroke: .04em currentColor; letter-spacing: .02em; }
+.cs-b--cap { letter-spacing: .01em; text-align: left; }
+.cs-b--cap .cs-line { margin: 0; }
+.cs-b--place { letter-spacing: .04em; }
+.cs-u { opacity: 0; }
+
+/* ---------- NEXT: a comic page of choices ---------- */
+.cs-next { position: absolute; inset: 0; z-index: 3; padding: var(--cs-margin, 20px); background: var(--cs-ground); opacity: 0; }
+.cs-next[hidden] { display: none; }
+.cs-next__list { position: absolute; inset: var(--cs-margin, 20px); margin: 0; padding: 0; list-style: none; display: grid; gap: var(--cs-gut, 10px); grid-template-columns: 1.35fr 1fr; grid-auto-rows: 1fr; }
+.cs-next__list[data-count="3"] li:first-child { grid-row: span 2; }
+.cs-next__list[data-count="4"] { grid-template-columns: 1.3fr 1fr 1fr; }
+.cs-next__list[data-count="4"] li:first-child { grid-row: span 2; }
+.cs-next__list[data-count="4"] li:last-child { grid-column: span 2; }
+.cs-next__list li { min-width: 0; min-height: 0; }
+.cs-choice { position: relative; display: block; height: 100%; overflow: hidden; background: #050607; border: var(--cs-bw, 4px) solid var(--cs-ink); text-decoration: none; }
+.cs-choice:focus-visible, .cs-choice:hover { outline: 2px solid var(--cs-teal-light); outline-offset: -2px; }
+.cs-choice__art { position: absolute; inset: 0; }
+.cs-choice__art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cs-choice__label { position: absolute; left: 0; top: 0; max-width: min(78%, 420px); padding: .3em .55em; background: var(--cs-ochre); color: var(--cs-ink); border: 2px solid var(--cs-ink); border-width: 0 2px 2px 0; font: 400 clamp(14px, 1.2vw, 18px)/.98 var(--cs-letter); font-style: oblique 9deg; text-transform: uppercase; }
+.cs-next__tag { position: absolute; z-index: 2; right: var(--cs-margin, 20px); top: var(--cs-margin, 20px); display: flex; flex-direction: column; align-items: center; padding: .4em .5em .9em; background: var(--cs-ink); color: var(--cs-paper); font: 400 clamp(14px, 1.4vw, 20px)/.95 'Bangers', var(--cs-letter); letter-spacing: .06em; clip-path: polygon(0 0, 100% 0, 100% calc(100% - .6em), 50% 100%, 0 calc(100% - .6em)); }
+.cs-next__tag span { display: block; }
+.cs-next__h { position: absolute; z-index: 2; left: var(--cs-margin, 20px); bottom: var(--cs-margin, 20px); max-width: min(60%, 560px); margin: 0; padding: .3em .55em; background: var(--cs-ochre); color: var(--cs-ink); border: 2px solid var(--cs-ink); font: 400 clamp(15px, 1.3vw, 20px)/.98 var(--cs-letter); font-style: oblique 9deg; text-transform: uppercase; }
+.cs-next__issues { position: absolute; z-index: 2; right: var(--cs-margin, 20px); bottom: var(--cs-margin, 20px); display: flex; gap: 6px; }
+
+/* ---------- The strip below the page: controls, a one-time hint, the progress line. Nothing over the page. ---------- */
+.cs-strip { position: absolute; left: 0; right: 0; bottom: 0; height: calc(env(safe-area-inset-bottom) + var(--cs-strip-height)); z-index: 6; display: flex; align-items: flex-start; gap: 12px; padding: calc(var(--cs-page-gap, 9px) + 8px) var(--cs-pad-x) env(safe-area-inset-bottom); background: #050607; }
+.cs-hint { margin: 0 auto 0 0; font: 400 12px/1.3 var(--body, sans-serif); color: var(--cs-mute); opacity: 0; transition: opacity .6s; }
+.cs-hint.is-on { opacity: 1; }
+.cs-hint__tap { display: none; }
+@media (pointer: coarse) { .cs-hint__tap { display: inline; } .cs-hint__key { display: none; } }
+.cs-progress.motion-progress { top: 0; }
+.cs-progress .motion-progress__track { top: 2.5px; }
+.cs-progress .motion-progress__range { box-sizing: border-box; padding-bottom: 15px; }
+/* The controls are the site's canonical motion toolbar (MotionToolbar.astro, styles in motion-toolbar.css, the 8-bit
+   Beat Comic's own; Matt, 2026-09-28: "reuse the styles from 8 bit for the buttons"). This file only places the dock in
+   the strip; it defines no button styles of its own (lint). */
+.cs-strip .rl-dock { position: static; margin-left: 0; flex: 1; min-width: 0; }
+/* Illustrated navigation opens the Comics dialog; the 8-bit Tracklist stays with the Beat Comic. */
+.cs-strip .rl-list { display: none; }
+.cs-strip > .cs-issues-btn { order: 1; margin-left: 0; flex: none; }
+@media (min-width: 701px) { .cs-hint { display: none; } }
+
+/* ---------- The Issues overlay (a dialog; the only thing ever drawn over the page, and only on request) ---------- */
+.cs-issues { position: absolute; inset: 0; z-index: 8; display: grid; place-items: center; padding: 16px; background: #071312f0; }
+.cs-issues[hidden] { display: none; }
+.cs-issues__panel { width: min(1100px, 100%); max-height: 100%; overflow-y: auto; overscroll-behavior: contain; padding: clamp(14px, 2vw, 24px); background: #050607; border: 2px solid var(--cs-ink); }
+.cs-issues__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.cs-issues__h { margin: 0; font: 400 clamp(22px, 2.4vw, 32px)/1 'Bangers', var(--cs-letter); letter-spacing: .05em; color: var(--cs-paper); }
+.cs-issues__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 12px; }
+.cs-issue { display: flex; flex-direction: column; height: 100%; text-decoration: none; color: var(--cs-paper); background: var(--cs-ground); border: 2px solid var(--cs-ink); }
+.cs-issue:hover, .cs-issue:focus-visible { outline: 2px solid var(--cs-teal-light); outline-offset: -2px; }
+.cs-issue[aria-current="page"] { outline: 1px solid var(--cs-teal); outline-offset: -1px; }
+.cs-issue__art { aspect-ratio: 16 / 9; overflow: hidden; background: #050607; }
+.cs-issue__art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cs-issue__no { padding: 10px 12px 0; font: 400 13px/1 var(--cs-letter); text-transform: uppercase; color: var(--cs-ochre); }
+.cs-issue__no em { color: var(--cs-teal-light); font-style: normal; }
+.cs-issue__title { padding: 6px 12px 0; font: 700 clamp(17px, 1.5vw, 21px)/1.05 var(--cs-letter); text-transform: uppercase; }
+.cs-issue__villain { padding: 6px 12px 12px; margin-top: auto; font: 600 13px/1.3 var(--body, sans-serif); color: #aab4b5; }
+.cs-issues__foot { display: flex; gap: 18px; flex-wrap: wrap; margin: 16px 0 0; font: 600 14px/1.3 var(--body, sans-serif); }
+.cs-issues__foot a { color: var(--cs-teal-light); }
+
+@media (max-width: 700px) {
+  html[data-comic] .comic { --cs-strip-height: 104px; }
+  .cs-strip { align-items: flex-start; padding-top: calc(var(--cs-page-gap, 6px) + 8px); padding-bottom: env(safe-area-inset-bottom); }
+  .cs-strip .rl-dock { flex: initial; }
+  .cs-strip > .cs-issues-btn { order: initial; margin-left: auto; }
+  .cs-hint { display: none; }
+  .cs-next__list, .cs-next__list[data-count] { grid-template-columns: 1fr; }
+  .cs-next__list[data-count] li:first-child, .cs-next__list[data-count] li:last-child { grid-row: auto; grid-column: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cs-hint { transition: none; }
+}
+
+/* Verification only (?bg=grey): flat mid-grey boxes, no art, for the style check's balloon seam test. */
+.comic[data-bg="grey"] .cs-panel { background: #808080; }
+.comic[data-bg="grey"] .cs-panel__art { display: none; }

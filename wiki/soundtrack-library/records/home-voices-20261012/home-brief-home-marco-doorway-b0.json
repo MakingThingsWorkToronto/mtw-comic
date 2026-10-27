@@ -1,0 +1,13 @@
+{
+  "id": "home-brief-home-marco-doorway-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Can I pull a quote once the client has said yes?",
+  "historyItemId": "2EYHN7jPevNKHcfSrpbW",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "7b0fc3be42ada7b3d70d0a310099b60f96dab311037e56c0c4bdb3fecab3aa39",
+  "createdAt": "2026-10-12T06:21:56.730Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

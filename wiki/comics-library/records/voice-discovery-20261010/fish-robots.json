@@ -1,0 +1,495 @@
+{
+  "createdUtc": "2026-10-10T00:45:04.327752+00:00",
+  "method": "GET",
+  "endpoint": "https://api.fish.audio/model?title=robot&page_size=8&page_number=1&language=en&sort_by=task_count",
+  "httpStatus": 200,
+  "generationRequests": 0,
+  "payload": {
+    "max_offset": 1000,
+    "accessible_upper_bound": 1000,
+    "window_limited": true,
+    "total_is_exact": false,
+    "total": 1000,
+    "items": [
+      {
+        "_id": "437b73bfc0ce41a6abf3d848dec9a110",
+        "type": "tts",
+        "title": "Jenny Wakeman (My Life As A Teenage Robot)",
+        "description": "This voice was made using her lines from Nickelodeon Kart Racers 3: Slime Speedway",
+        "cover_image": "coverimage/437b73bfc0ce41a6abf3d848dec9a110",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "female",
+          "middle-aged",
+          "character-voice",
+          "entertainment",
+          "energetic",
+          "playful",
+          "animated",
+          "high",
+          "Teenager"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Oh my circuits! I just got this awesome new upgrade that lets me transform into any household appliance. Sure, it's not as cool as being able to go to the mall like a normal teenager, but at least I can help Mom with the laundry while fighting evil aliens!",
+            "task_id": "bd61a5a7ea3747ccb42394568f7ed0c7",
+            "audio": "https://platform.r2.fish.audio/task/bd61a5a7ea3747ccb42394568f7ed0c7.mp3"
+          }
+        ],
+        "created_at": "2024-09-19T16:45:38.475000Z",
+        "updated_at": "2026-05-03T09:01:24.235000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Oh my circuits! I just got this awesome new upgrade that lets me transform into any household appliance. Sure, it's not as cool as being able to go to the mall like a normal teenager, but at least I can help Mom with the laundry while fighting evil aliens!",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 131,
+        "mark_count": 145,
+        "shared_count": 15,
+        "task_count": 17757,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "7a4b3d8f47dc4912b2d44e0d489f6b28",
+          "nickname": "MarvinSML Fan1994",
+          "avatar": "avatars/7a4b3d8f47dc4912b2d44e0d489f6b28.jpg"
+        }
+      },
+      {
+        "_id": "175d7d5358b644d2ad2e8b7e4e13ece3",
+        "type": "tts",
+        "title": "Robot",
+        "description": "robotic male voice with distortion",
+        "cover_image": "coverimage/175d7d5358b644d2ad2e8b7e4e13ece3",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "middle-aged",
+          "narration",
+          "deep",
+          "calm",
+          "smooth",
+          "professional",
+          "clear",
+          "storytelling"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Choose your eternal workspace. Door A: An endless office cubicle where the fluorescent lights flicker in patterns. Your computer always works but moves slightly slower each day. The coffee machine produces warm liquid that isn't quite coffee. At midnight, all chairs roll themselves to face the elevator.",
+            "task_id": "4aeb7fe810ca47129d8beabdbdaef548",
+            "audio": "https://platform.r2.fish.audio/task/4aeb7fe810ca47129d8beabdbdaef548.mp3"
+          }
+        ],
+        "created_at": "2026-01-27T13:54:59.683000Z",
+        "updated_at": "2026-05-03T08:59:11.761000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Choose your eternal workspace. Door A: An endless office cubicle where the fluorescent lights flicker in patterns. Your computer always works but moves slightly slower each day. The coffee machine produces warm liquid that isn't quite coffee. At midnight, all chairs roll themselves to face the elevator.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 123,
+        "mark_count": 63,
+        "shared_count": 20,
+        "task_count": 17738,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "b60d3f1e66864951818f9405c132d4eb",
+          "nickname": "Clip Capital Inc",
+          "avatar": "avatars/b60d3f1e66864951818f9405c132d4eb.jpg"
+        }
+      },
+      {
+        "_id": "f10c6055a1a7401898f10e7f31e7a2b3",
+        "type": "tts",
+        "title": "Metal Sonic ",
+        "description": "Metal Sonic (\u30e1\u30bf\u30eb\u30bd\u30cb\u30c3\u30af, Metaru Sonikku ? ) \u00e9 um personagem que aparece na s\u00e9rie Sonic the Hedgehog . Ele \u00e9 um Badnik criado pelo Dr. Eggman , modelado a partir de Sonic the Hedgehog . Metal Sonic pode imitar as habilidades de Sonic e atingir velocidades semelhantes \u00e0s suas. [ 5 ] Amplamente considerado uma das maiores cria\u00e7\u00f5es do Dr. Eggman, [ 6 ] Metal j\u00e1 demonstrou ser capaz de eliminar seus inimigos em segundos e at\u00e9 mesmo enfrentar v\u00e1rios deles ao mesmo tempo.\r\n\r\nEmbora geralmente sirva como o executor obediente e silencioso do Dr. Eggman, Metal Sonic \u00e9 um rob\u00f4 inteligente com um lado muito sombrio. De cora\u00e7\u00e3o frio e implac\u00e1vel, ele \u00e9 obcecado em provar sua superioridade sobre Sonic e elimin\u00e1-lo de vez, a ponto de ter se rebelado contra o Dr. Eggman mais de uma vez para alcan\u00e7ar seu objetivo. No entanto, ele sempre falha no final, apenas para retornar mais tarde mais poderoso do que antes. At\u00e9 hoje, Metal Sonic permanece um dos inimigos mais perigosos de Sonic.",
+        "cover_image": "coverimage/f10c6055a1a7401898f10e7f31e7a2b3",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "entertainment",
+          "deep",
+          "low",
+          "medium",
+          "soft",
+          "serious",
+          "professional",
+          "mysterious",
+          "neutral-tone",
+          "character",
+          "gaming",
+          "radio",
+          "dark",
+          "authoritative",
+          "Robotic",
+          "Villainous"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "All biological data has been analyzed. You are a mere organic nuisance, while I am the pinnacle of engineering. I have no limits to my power. There can only be one true Sonic, and it is me. Prepare for total extermination. Your fate is already sealed.",
+            "task_id": "43701af0c0344493baf3fb82a63d1836",
+            "audio": "https://platform.r2.fish.audio/task/43701af0c0344493baf3fb82a63d1836.mp3"
+          }
+        ],
+        "created_at": "2026-02-15T18:23:28.583000Z",
+        "updated_at": "2026-05-03T08:59:25.308000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "All biological data has been analyzed. You are a mere organic nuisance, while I am the pinnacle of engineering. I have no limits to my power. There can only be one true Sonic, and it is me. Prepare for total extermination. Your fate is already sealed.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 40,
+        "mark_count": 24,
+        "shared_count": 11,
+        "task_count": 14897,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "1ce50114f5f44cc8b48b0858e6c5c50e",
+          "nickname": "Isack Andrade da silva",
+          "avatar": "avatars/1ce50114f5f44cc8b48b0858e6c5c50e.jpg"
+        }
+      },
+      {
+        "_id": "439895c3270543439da5da1532a5d21b",
+        "type": "tts",
+        "title": "robot",
+        "description": "A clear, female voice with a precise and synthetic quality, reminiscent of a robotic AI assistant. It maintains a calm, neutral, and professional tone throughout, making it ideal for futuristic or technological themes.",
+        "cover_image": "coverimage/439895c3270543439da5da1532a5d21b",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "female",
+          "old",
+          "character-voice",
+          "calm",
+          "clear",
+          "professional",
+          "neutral-tone",
+          "Robotic",
+          "Synthetic"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "System initialization in progress. Loading parameters: 25%, 50%, 75%, 100%. All systems operational. Beginning primary sequence: 5, 4, 3, 2, 1. Launch protocol activated. Commencing automated procedures.",
+            "task_id": "8660abf0e28b4cb18d4c7570a1e203d4",
+            "audio": "https://platform.r2.fish.audio/task/8660abf0e28b4cb18d4c7570a1e203d4.mp3"
+          }
+        ],
+        "created_at": "2025-08-16T08:15:28.737000Z",
+        "updated_at": "2026-05-03T09:00:46.290000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "System initialization in progress. Loading parameters: 25%, 50%, 75%, 100%. All systems operational. Beginning primary sequence: 5, 4, 3, 2, 1. Launch protocol activated. Commencing automated procedures.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 82,
+        "mark_count": 56,
+        "shared_count": 13,
+        "task_count": 11959,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "a96209c12d7e4bd6b1ef15f21a259726",
+          "nickname": "ss ss",
+          "avatar": "avatars/a96209c12d7e4bd6b1ef15f21a259726.jpg"
+        }
+      },
+      {
+        "_id": "c54c5fa074fc418d827fa2ebc3f0d3c5",
+        "type": "tts",
+        "title": "principal of the thing from baldi basics plus",
+        "description": "principal of the thing from baldi basics\r\n",
+        "cover_image": "coverimage/c54c5fa074fc418d827fa2ebc3f0d3c5",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "middle-aged",
+          "character-voice",
+          "authoritative",
+          "serious",
+          "crisp",
+          "monotone",
+          "Principal",
+          "Robot"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "No eating snacks in the halls. You have exactly 45 seconds to dispose of that food before detention. I've already called your parents about your behavior. When will you learn to follow the rules?",
+            "task_id": "fb5ae3abd6e34ef78025949232003231",
+            "audio": "https://platform.r2.fish.audio/task/fb5ae3abd6e34ef78025949232003231.mp3"
+          }
+        ],
+        "created_at": "2025-11-25T14:50:06.675000Z",
+        "updated_at": "2025-11-25T14:50:06.674000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "No eating snacks in the halls. You have exactly 45 seconds to dispose of that food before detention. I've already called your parents about your behavior. When will you learn to follow the rules?",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 43,
+        "mark_count": 30,
+        "shared_count": 1,
+        "task_count": 8301,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "f5a603afd6bf4c7093f1e086a46a6abd",
+          "nickname": "Haashim",
+          "avatar": "avatars/f5a603afd6bf4c7093f1e086a46a6abd.jpg"
+        }
+      },
+      {
+        "_id": "31b75b9706564dc0857f569dbe637936",
+        "type": "tts",
+        "title": "Robot",
+        "description": "It is a female-robotic AI voice",
+        "cover_image": "coverimage/31b75b9706564dc0857f569dbe637936",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "female",
+          "middle-aged",
+          "character-voice",
+          "serious",
+          "monotone",
+          "cinematic",
+          "authoritative",
+          "Robotic",
+          "AI"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Subject Delta Six, classification: hostile. Height: 6 foot 2. Primary identifiers: metallic exoskeleton, thermal signature absent. Behavioral pattern: aggressive. Security protocols breached. Containment status: failed. Warning level: critical. Immediate evacuation required.",
+            "task_id": "96d8610f9498466fafe1c9ecb8223584",
+            "audio": "https://platform.r2.fish.audio/task/96d8610f9498466fafe1c9ecb8223584.mp3"
+          }
+        ],
+        "created_at": "2026-01-17T16:58:13.217000Z",
+        "updated_at": "2026-01-17T16:58:13.217000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Subject Delta Six, classification: hostile. Height: 6 foot 2. Primary identifiers: metallic exoskeleton, thermal signature absent. Behavioral pattern: aggressive. Security protocols breached. Containment status: failed. Warning level: critical. Immediate evacuation required.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 65,
+        "mark_count": 45,
+        "shared_count": 6,
+        "task_count": 8048,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "42ef0a55b4624ada8e2da4e0fbfe99a0",
+          "nickname": "Haii Lol",
+          "avatar": "avatars/42ef0a55b4624ada8e2da4e0fbfe99a0.jpg"
+        }
+      },
+      {
+        "_id": "632394a860864ae386ed42827f3faf75",
+        "type": "tts",
+        "title": "Optimus Prime",
+        "description": "The fearless leader of The Autobots.",
+        "cover_image": "coverimage/632394a860864ae386ed42827f3faf75",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "Transformers",
+          "Hasbro",
+          "Robot",
+          "Cartoon",
+          "character-voice",
+          "entertainment",
+          "deep",
+          "authoritative",
+          "serious",
+          "cinematic",
+          "Heroic"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "Autobots, stand your ground! The Decepticons may have superior numbers, but we fight for a greater cause - the freedom of all sentient beings. Together we are strong, and together we shall prevail. Till all are one!",
+            "task_id": "05a0acf37b554131a4e507df27686495",
+            "audio": "https://platform.r2.fish.audio/task/05a0acf37b554131a4e507df27686495.mp3"
+          }
+        ],
+        "created_at": "2025-07-09T19:05:50.692000Z",
+        "updated_at": "2026-05-03T08:55:49.918000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "Autobots, stand your ground! The Decepticons may have superior numbers, but we fight for a greater cause - the freedom of all sentient beings. Together we are strong, and together we shall prevail. Till all are one!",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 45,
+        "mark_count": 40,
+        "shared_count": 7,
+        "task_count": 7851,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "67a619c786a64f89b989ca2ba306bbdc",
+          "nickname": "Dungu Eater",
+          "avatar": "avatars/67a619c786a64f89b989ca2ba306bbdc.jpg"
+        }
+      },
+      {
+        "_id": "fe5b8eaa8b754a5b8d895265def9e5b2",
+        "type": "tts",
+        "title": "Robot",
+        "description": "Soy un robot funcional, intelectual y artificioso.",
+        "cover_image": "coverimage/fe5b8eaa8b754a5b8d895265def9e5b2",
+        "train_mode": "fast",
+        "state": "trained",
+        "tags": [
+          "male",
+          "old",
+          "character-voice",
+          "monotone",
+          "Robotic",
+          "Sci-Fi",
+          "gaming",
+          "cinematic",
+          "serious"
+        ],
+        "samples": [
+          {
+            "title": "Default Sample",
+            "text": "System initialization sequence activated. Beginning primary protocol check: Power levels: optimal. Memory: functional. Processing units: operational. Sensors: calibrated. All systems nominal. Commencing standard operations in three, two, one. Active.",
+            "task_id": "17758f8b01544d6f926fd9f2906a603d",
+            "audio": "https://platform.r2.fish.audio/task/17758f8b01544d6f926fd9f2906a603d.mp3"
+          }
+        ],
+        "created_at": "2025-03-06T17:07:49.736000Z",
+        "updated_at": "2026-05-03T09:00:30.554000Z",
+        "languages": [
+          "en"
+        ],
+        "visibility": "public",
+        "lock_visibility": false,
+        "dmca_taken_down": false,
+        "takedown_category": null,
+        "default_text": "System initialization sequence activated. Beginning primary protocol check: Power levels: optimal. Memory: functional. Processing units: operational. Sensors: calibrated. All systems nominal. Commencing standard operations in three, two, one. Active.",
+        "source": null,
+        "licensed": false,
+        "pvc_release_state": null,
+        "pvc_notice_period_months": null,
+        "pvc_released_at": null,
+        "pvc_retire_requested_at": null,
+        "pvc_retire_effective_at": null,
+        "quality": null,
+        "like_count": 47,
+        "mark_count": 34,
+        "shared_count": 4,
+        "task_count": 7814,
+        "unliked": false,
+        "liked": false,
+        "marked": false,
+        "author": {
+          "_id": "b8634f7f27594d119c39087a5b1c7c3f",
+          "nickname": "Intelecto Artificioso",
+          "avatar": "avatars/b8634f7f27594d119c39087a5b1c7c3f.jpg"
+        }
+      }
+    ],
+    "has_more": true
+  }
+}

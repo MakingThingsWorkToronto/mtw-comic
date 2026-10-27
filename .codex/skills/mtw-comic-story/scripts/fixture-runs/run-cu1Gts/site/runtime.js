@@ -1,0 +1,1 @@
+function transit(){ return 1; }

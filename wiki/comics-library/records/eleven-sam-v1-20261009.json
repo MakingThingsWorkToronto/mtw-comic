@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Brian - Deep, Resonant and Comforting — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/sam/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "nPczCjzI2devNBz1zQrb",
+  "status": "candidate",
+  "sha256": "9fc9ae60c5c2aceeca4b3bc1a99ac050d9d4ff2a272a425f6ecf55e8f6f91b46",
+  "durationSeconds": 1.7182766439909296,
+  "text": "Ours dropped the safety clause.",
+  "credits": 31,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "nPczCjzI2devNBz1zQrb",
+    "voiceName": "Brian - Deep, Resonant and Comforting",
+    "prompt": "Ours dropped the safety clause.",
+    "scriptSource": "Issue 1, lobby",
+    "settingsPreset": "provider-default",
+    "generationId": "AqGIWUvbnagQYI6uiJtr",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

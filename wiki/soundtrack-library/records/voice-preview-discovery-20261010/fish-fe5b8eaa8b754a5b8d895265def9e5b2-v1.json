@@ -1,0 +1,50 @@
+{
+  "createdUtc": "2026-10-10T00:46:35.740173+00:00",
+  "stage": "Provider existing preview downloaded, fully decoded; listening unperformed. No TTS or VoiceDesign request.",
+  "provider": "Fish Audio",
+  "voiceId": "fe5b8eaa8b754a5b8d895265def9e5b2",
+  "sourceApi": "https://api.fish.audio/model/fe5b8eaa8b754a5b8d895265def9e5b2",
+  "sourcePage": "https://fish.audio/m/fe5b8eaa8b754a5b8d895265def9e5b2/",
+  "sourceMetadataRecords": [
+    "wiki/comics-library/records/voice-discovery-20261010/fish-robots.json"
+  ],
+  "sourcePreviewUrl": "https://platform.r2.fish.audio/task/17758f8b01544d6f926fd9f2906a603d.mp3",
+  "requestMethod": "GET",
+  "httpStatus": 200,
+  "contentType": "audio/mpeg",
+  "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-fe5b8eaa8b754a5b8d895265def9e5b2-v1.mp3",
+  "sha256": "df6f91cc7eed1d1f6a820a38e304ce55f92a720558a4efe86f248fc8559fb004",
+  "bytes": 274181,
+  "durationSeconds": 17.136313,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "decodeExitCode": 0,
+  "providerTags": [
+    "male",
+    "old",
+    "character-voice",
+    "monotone",
+    "Robotic",
+    "Sci-Fi",
+    "gaming",
+    "cinematic",
+    "serious"
+  ],
+  "providerDescription": "Soy un robot funcional, intelectual y artificioso.",
+  "providerSampleText": "System initialization sequence activated. Beginning primary protocol check: Power levels: optimal. Memory: functional. Processing units: operational. Sensors: calibrated. All systems nominal. Commencing standard operations in three, two, one. Active.",
+  "generationRequests": 0,
+  "chargedGenerationCredits": 0,
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "ownershipCheck": {
+    "approvedCharacterVoice": false,
+    "referenceVoiceExcluded": "9608a90883934a798d7169a1134e59ee"
+  },
+  "licensed": false,
+  "productionRights": "not verified"
+}

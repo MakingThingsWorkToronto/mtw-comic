@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:58:25.978Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-marco-desk-b2-20261013-raw-v1.mp3",
+  "rawSha256": "84548a17b3e8f17d4d6934fcd8179414478e1de9d4bd3a7f640e7131a8d34e1e",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-marco-desk-b2-20261013-eq-tempo112-v1.mp3",
+  "sha256": "41b1e568ace042648bddcda62eb25d90af15a9f6272a0a22c60dbdfe39b5f11c",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-marco-desk-b2-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-21.38",
+    "input_tp": "-4.04",
+    "input_lra": "0.00",
+    "input_thresh": "-31.38",
+    "output_i": "-20.32",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.32",
+    "normalization_type": "linear",
+    "target_offset": "2.32"
+  },
+  "encodedMeasurement": {
+    "input_i": "-20.78",
+    "input_tp": "-3.37",
+    "input_lra": "0.00",
+    "input_thresh": "-30.78",
+    "output_i": "-20.39",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.39",
+    "normalization_type": "linear",
+    "target_offset": "2.39"
+  },
+  "encodedIntegratedLufs": -20.78,
+  "encodedTruePeakDbtp": -3.37,
+  "durationSeconds": 2.384966,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": false,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "processing-review-required",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "home-output-home-process-output-b1",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Compare it with the checked example.",
+  "historyItemId": "hqOocuPYaZ0Px01GChLI",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "04526caa7c89c91f19b11110e3fc2aa7bc45d545cba99c43ab0056243c1d48ef",
+  "createdAt": "2026-10-12T06:22:00.003Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

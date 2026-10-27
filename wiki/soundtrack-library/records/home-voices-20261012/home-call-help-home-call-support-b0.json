@@ -1,0 +1,13 @@
+{
+  "id": "home-call-help-home-call-support-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Matt? Dana said you build and secure these systems. Our job is sending the wrong contract.",
+  "historyItemId": "KFW8eaBUN6f5SCXhCvLp",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "db38e5bbc6fe7478adbb046c943eee565afacfd45ed2b42919051328738e03c5",
+  "createdAt": "2026-10-12T06:21:57.091Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "home-learning-home-floors-light-b1",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "The Second Brain keeps the sources and procedures you’ve checked.",
+  "historyItemId": "iPS1x4CjqF81TrjIIzlm",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "2def1076697953c12561957e4c3f2398c74c4e6bc7515f0a6843792f5831a8e4",
+  "createdAt": "2026-10-12T06:22:00.503Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "home-roof-home-brain-rises-b0",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "The procedure stays. You review its sources when the work changes.",
+  "historyItemId": "eam5Alxbxu0cYiREHZPg",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "0cd4b26c4496ae658610908da322ac604d5bbf5680b8fa7ac58febf816318006",
+  "createdAt": "2026-10-12T06:22:01.138Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

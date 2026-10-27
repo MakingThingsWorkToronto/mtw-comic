@@ -1,0 +1,46 @@
+---
+// The Comic B style lab (Matt, 2026-09-28: "visually verify you are in the style boundary first with font and colors and
+// bubble style"): every balloon kind over the calibration art on the dark ground, the colour tokens and the lettering
+// sizes, so the style is judged before any layout or art. Checked by scripts/comic-story-style-check.mjs against crops of
+// the reference pages. noindex; not linked from the site.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComicStory from '../../components/ComicStory.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { labStory } from '../../data/comic-stories/lab';
+
+// The comic's own tokens (comic-story.css, page-constants, balloon-style): the printed paper, ink, the measured caption
+// yellow and red, and the black-and-teal ladder. Villain cue colours live in the art, not here.
+const swatches: [string, string][] = [
+  ['Printed paper (margins, gutters)', '#f8f2e4'], ['Balloon (measured)', '#f4f4f4'], ['Thinking (Spider-Man #33)', '#ede614'], ['Ink line', '#0a0a0a'], ['Caption yellow (X-Men #137)', '#eae619'], ['Caption cream (Crisis #8 look)', '#f9ddb6'], ['Scream and menace red', '#e30a0f'],
+  ['Ground', '#071312'], ['Box base', '#101a1f'], ['Teal deep', '#123d3b'], ['Teal', '#247a74'], ['Teal light', '#55c6b6'],
+];
+---
+<BaseLayout title="Comic B style lab" description="Every Comic B balloon kind, colour and lettering size, for the style check." noindex agentExclude canonical="/comics/">
+  <h1 class="lab-h">Comic B style lab</h1>
+  <ComicStory story={labStory} mode="standalone" still />
+  <section class="lab" data-lab-swatches>
+    <h2>Colours</h2>
+    <ul class="lab-sw">{swatches.map(([n, c]) => <li><span style={`background:${c}`}></span>{n} <code>{c}</code></li>)}</ul>
+    <h2>Lettering</h2>
+    <div class="lab-type" data-lab-type>
+      <p class="lab-dialogue">Dialogue: Everyone has chat now. <em>Nobody checks it.</em></p>
+      <p class="lab-caption">Caption: The rate card was two years old.</p>
+      <p class="lab-burst">Burst: Wait!</p>
+    </div>
+  </section>
+  <SiteFooter slot="footer" lines={['Making Things Work', 'Practical AI solutions.']} links={[{ label: 'Comics', href: '/comics/' }, { label: "Let's talk", href: '/contact/' }]} fine="Comic B style lab (not linked)" />
+</BaseLayout>
+<style>
+  .lab-h { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .lab { padding: 32px var(--page-gutter) 48px; background: #0b1419; color: var(--paper); }
+  .lab h2 { font: 600 20px/1.2 var(--display); margin: 0 0 12px; }
+  .lab-sw { list-style: none; margin: 0 0 28px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; font: 13px/1.3 var(--body); }
+  .lab-sw span { display: inline-block; width: 28px; height: 28px; margin-right: 8px; vertical-align: middle; border: 1px solid #ffffff33; }
+  .lab-sw code { color: var(--muted); }
+  .lab-type p { margin: 0 0 14px; text-transform: uppercase; color: #0a0a0a; display: inline-block; padding: .3em .6em; }
+  .lab-dialogue { font: 700 18px/.92 'Kalam Letter', 'Comic Neue', sans-serif; background: #f4f4f4; }
+  .lab-dialogue em { font-style: oblique 12deg; font-weight: 700; }
+  .lab-caption { font: 700 16px/.92 'Kalam Letter', 'Comic Neue', sans-serif; background: #eae619; border: 2px solid #0a0a0a; }
+  .lab-burst { font: 400 28px/1 'Bangers', sans-serif; letter-spacing: .04em; background: #f4f4f4; }
+  .lab-type { display: flex; flex-direction: column; align-items: flex-start; }
+</style>

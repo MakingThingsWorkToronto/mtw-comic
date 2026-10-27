@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T19:33:35.650Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/ruth/home-lobby-home-ruth-b2-raw-v1.mp3",
+  "rawSha256": "057ab117bca3f7d68f4d3c08527b87a455547a197873063a1058790e24a39677",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/ruth/home-lobby-home-ruth-b2-eq-v1.mp3",
+  "sha256": "edc938230235f587ed020ef33eac4a7523dc8a52f57c966c83b381acb7b1c031",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261015/home-lobby-home-ruth-b2-eq-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1,
+    "compress": true,
+    "eq": "highpass=f=70,lowpass=f=12000,acompressor=threshold=0.1:ratio=3:attack=0.1:release=80:knee=2.828:makeup=1",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-29.38",
+    "input_tp": "-15.81",
+    "input_lra": "1.20",
+    "input_thresh": "-39.84",
+    "output_i": "-17.43",
+    "output_tp": "-4.45",
+    "output_lra": "1.10",
+    "output_thresh": "-27.80",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.57"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.47",
+    "input_tp": "-4.91",
+    "input_lra": "1.20",
+    "input_thresh": "-28.94",
+    "output_i": "-17.43",
+    "output_tp": "-4.46",
+    "output_lra": "1.10",
+    "output_thresh": "-27.80",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.57"
+  },
+  "encodedIntegratedLufs": -18.47,
+  "encodedTruePeakDbtp": -4.91,
+  "durationSeconds": 5.067755,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

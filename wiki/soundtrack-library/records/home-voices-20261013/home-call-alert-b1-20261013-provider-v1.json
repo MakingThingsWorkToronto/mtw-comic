@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:56:08.490Z",
+  "provider": "ElevenLabs",
+  "transport": "direct configured-key API",
+  "credential": {
+    "source": ".env.local",
+    "name": "ELEVEN_LABS_API_KEY"
+  },
+  "endpoint": "https://api.elevenlabs.io/v1/text-to-speech/O8Vfjw53ORe1IQPKKy2B?output_format=mp3_44100_128",
+  "request": {
+    "text": "Our contract job\njust woke up.",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0,
+      "use_speaker_boost": true,
+      "speed": 1
+    }
+  },
+  "characters": 30,
+  "maximumChars": 2347,
+  "requestedTakeCount": 1,
+  "retry": false,
+  "fallback": false,
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-call-alert-b1-20261013-raw-v1.mp3",
+  "receiptCanonicalPath": "wiki/soundtrack-library/records/home-voices-20261013/home-call-alert-b1-20261013-provider-v1.json",
+  "status": "provider-rejected",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "reportedCost": null,
+  "costBasis": "No balance GET or guessed debit; only provider character-cost response header is recorded.",
+  "sourceRefs": [
+    {
+      "storyId": "home",
+      "panelId": "home-call-alert",
+      "balloonIndex": 1,
+      "textSha256": "002e9c8fe0f4e9a75653589887086e166cd7d78c45a537ca3be424aee945db36"
+    }
+  ],
+  "sessionGenerationAuthorization": {
+    "sessionAuthorization": {
+      "path": "wiki/comics-library/records/home-missing-voices-20261013-authorization.json",
+      "sha256": "a0cefb397814bf7a8eb78e92c681174035013325655645b26ce1329bee097de9",
+      "lineId": "home-call-alert-b1-20261013",
+      "directive": {
+        "quote": "i reviewed http://localhost:8787/comics/home/ and i am seeing many many missing voices and for the narration i have said to use the morgan freeman second brain voice for this many times. identify other things that were not fixed , i see no visual movement on the first scene or noting engaging at least.",
+        "goal": "complete comic",
+        "permission": "you have full access permissions do not ask me."
+      }
+    },
+    "voiceSelection": {
+      "provider": "ElevenLabs",
+      "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "hearingApproved": false,
+    "textReviewRecorded": false
+  },
+  "httpStatus": 402,
+  "requestId": null,
+  "contentType": "application/json",
+  "detail": "{\"status\":\"payment_required\",\"message\":\"Free users cannot use library voices via the API. Please upgrade your subscription to use this voice.\"}"
+}

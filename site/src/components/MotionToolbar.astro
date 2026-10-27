@@ -1,0 +1,79 @@
+---
+// The motion toolbar (skill: mtw-beat-comic): the one toolbar every motion graphic experience on the site uses (Matt,
+// 2026-09-28: "this toolbar shall be canonical in all motion graphic experiences"). Left to right: Let's Talk (8-bit, to
+// the contact page), Tracklist (the site playlist as an 8-bit dialog, the comics' global navigation), Previous track,
+// Pause/Play, Next track (icon only: "remove "Pause" text from button, add next and prev track icon only buttons"), Skip
+// Intro, then the player's music tag (the slot). Behaviour and state: public/scripts/motion-toolbar.js (loaded here,
+// before the player's own script), which documents the player API (MTWToolbar.register, setPaused, pin, isOpen and the
+// window 'mtw-toolbar' events). Styles: src/styles/motion-toolbar.css.
+//
+// Used by BeatComic.astro inside its stage. Another player (Comic B, Game C) renders <MotionToolbar music=... /> in its
+// own stage, places .rl-dock with its CSS, passes its credit tag markup as the slot if it has one, and registers with
+// MTWToolbar; see the skill's "Motion toolbar" section.
+import '../styles/motion-toolbar.css';
+import Tracklist from './Tracklist.astro';
+import { playlistRows } from '../data/beat-comics/playlist';
+import { tracklist } from '../data/beat-comics/tracklist';
+
+interface Props {
+  /** The page the toolbar is on: its track plays in the Tracklist, and Previous and Next step from it. */
+  current?: string;
+  /** Skip Intro, for a player that folds into the page (default true). */
+  skip?: boolean;
+  /** Pause/Play (default true). */
+  pause?: boolean;
+  /** Story navigation buttons instead of playlist links. */
+  transport?: 'playlist' | 'story';
+  talkStyle?: 'pixel' | 'standard';
+  list?: boolean;
+}
+const { current = Astro.url.pathname, skip = true, pause = true, transport = 'playlist', talkStyle = 'pixel', list = true } = Astro.props;
+const here = current.endsWith('/') ? current : `${current}/`;
+const rows = playlistRows(here);
+// Previous and Next step through the whole playlist in order, Disc 1 then Disc 2 (the Journal), and wrap round at the
+// ends as a mixtape plays on: Disc 1's last track steps on to Disc 2 Track 01, and Disc 2's last track back to Disc 1
+// Track 01. From a page that is not a track (Contact, the Journal index), Next is Disc 1 Track 01 and Previous the last
+// track of the last disc.
+const n = tracklist.length, i = tracklist.findIndex((t) => t.path === here);
+const prev = tracklist[i < 0 ? n - 1 : (i - 1 + n) % n], next = tracklist[i < 0 ? 0 : (i + 1) % n];
+// Pixel icons drawn from the pixel font's own glyphs (public/scripts/motion-toolbar.js), one unit a pixel.
+const path = (rows: string[], dx = 0) => rows.flatMap((r, y) => [...r].map((c, x) => (c === '#' ? `M${x + dx} ${y}h1v1h-1z` : ''))).join('');
+const TRI = ['#...', '##..', '###.', '####', '###.', '##..', '#...'];
+const TRI_L = TRI.map((r) => [...r].reverse().join(''));
+const BAR = ['#', '#', '#', '#', '#', '#', '#'];
+const icon = {
+  next: { w: 9, h: 7, d: path(TRI) + path(TRI, 4) + path(BAR, 8) },
+  prev: { w: 9, h: 7, d: path(BAR) + path(TRI_L, 1) + path(TRI_L, 5) },
+  play: { w: 4, h: 7, d: path(TRI) },
+  pause: { w: 5, h: 7, d: path(['##.##', '##.##', '##.##', '##.##', '##.##', '##.##', '##.##']) },
+  list: { w: 7, h: 5, d: path(['#.#####', '.......', '#.#####', '.......', '#.#####']) },
+  skip: { w: 7, h: 8, d: path(['#.....#', '.#...#.', '..#.#..', '...#...', '#.....#', '.#...#.', '..#.#..', '...#...']) },
+};
+const svg = (k: keyof typeof icon, cls = '') => ({ class: `rl-ico ${cls}`.trim(), viewBox: `0 0 ${icon[k].w} ${icon[k].h}`, width: icon[k].w * 2, height: icon[k].h * 2, 'aria-hidden': 'true' });
+const prevName = `Previous track: ${prev.title}`, nextName = `Next track: ${next.title}`;
+---
+<div class="rl-dock" data-motion-toolbar data-current={here}>
+  <a class:list={['rl-talk', { 'rl-talk--standard': talkStyle === 'standard' }]} href="https://www.makingthings.work/contact/" data-tactile="press">{talkStyle === 'standard' ? <span>Let's talk</span> : <><canvas class="rl-px" data-px="LET'S TALK" aria-hidden="true"></canvas><span class="rl-vh">Let's Talk</span></>}</a>
+  {list && <button class="rl-list" type="button" aria-haspopup="dialog" aria-controls="rl-tracklist" aria-expanded="false" data-tactile="press">
+    <svg {...svg('list')}><path d={icon.list.d} /></svg>
+    <span class="rl-list__label">Tracklist</span>
+  </button>}
+  {transport === 'story' ? <button class="rl-prev rl-ico-btn" type="button" aria-label="Previous box" title="Previous box" data-tactile="press"><svg {...svg('prev')}><path d={icon.prev.d} /></svg></button> : <a class="rl-prev rl-ico-btn" href={prev.path} aria-label={prevName} title={prevName} data-tactile="press"><svg {...svg('prev')}><path d={icon.prev.d} /></svg></a>}
+  {pause && (
+    <button class="rl-pause rl-ico-btn" type="button" aria-label="Pause" title="Pause" data-tactile="press">
+      <svg {...svg('pause', 'rl-pause__i rl-pause__i--pause')}><path d={icon.pause.d} /></svg>
+      <svg {...svg('play', 'rl-pause__i rl-pause__i--play')}><path d={icon.play.d} /></svg>
+      <span class="rl-pause__label rl-vh">Pause</span>
+    </button>
+  )}
+  {transport === 'story' ? <button class="rl-next rl-ico-btn" type="button" aria-label="Next box" title="Next box" data-tactile="press"><svg {...svg('next')}><path d={icon.next.d} /></svg></button> : <a class="rl-next rl-ico-btn" href={next.path} aria-label={nextName} title={nextName} data-tactile="press"><svg {...svg('next')}><path d={icon.next.d} /></svg></a>}
+  {skip && (
+    <button class="rl-skip" type="button" data-tactile="press">
+      <svg {...svg('skip', 'rl-skip__i')}><path d={icon.skip.d} /></svg>
+      <span class="rl-skip__label">Skip Intro</span>
+    </button>
+  )}
+  <slot />
+</div>
+{list && <><Tracklist rows={rows} /><script type="application/json" id="mtw-playlist" set:html={JSON.stringify(rows)}></script></>}
+<script is:inline src="/scripts/motion-toolbar.js" defer></script>

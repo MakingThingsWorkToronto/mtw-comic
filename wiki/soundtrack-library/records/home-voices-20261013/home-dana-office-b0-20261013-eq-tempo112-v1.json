@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:58:34.337Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-dana-office-b0-20261013-raw-v1.mp3",
+  "rawSha256": "1486c03547b229a6246b2a719b0b7ecae58d7f9de3a87a7060b1166e196c0783",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-dana-office-b0-20261013-eq-tempo112-v1.mp3",
+  "sha256": "ab6a6ca0c912cd505d62dfdab3319b842e440a6a4ce45096e4f5181d7f46c0e2",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-dana-office-b0-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-22.92",
+    "input_tp": "-5.64",
+    "input_lra": "0.00",
+    "input_thresh": "-33.80",
+    "output_i": "-20.29",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.17",
+    "normalization_type": "linear",
+    "target_offset": "2.29"
+  },
+  "encodedMeasurement": {
+    "input_i": "-20.72",
+    "input_tp": "-3.45",
+    "input_lra": "0.00",
+    "input_thresh": "-31.60",
+    "output_i": "-20.29",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.17",
+    "normalization_type": "linear",
+    "target_offset": "2.29"
+  },
+  "encodedIntegratedLufs": -20.72,
+  "encodedTruePeakDbtp": -3.45,
+  "durationSeconds": 1.96644,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": false,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "processing-review-required",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

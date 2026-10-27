@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:59:13.927Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-monday-floor-b0-20261013-raw-v1.mp3",
+  "rawSha256": "17a3fe9e1c9c6716f343756ed14341df7f3be20f9cf0949810cc5d8e830b4a28",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-monday-floor-b0-20261013-eq-tempo112-v1.mp3",
+  "sha256": "356d78c5339adc84870288233d0ba20922b418e0ad6811652dc7719dad87a838",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-monday-floor-b0-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-22.75",
+    "input_tp": "-6.08",
+    "input_lra": "1.90",
+    "input_thresh": "-33.53",
+    "output_i": "-17.55",
+    "output_tp": "-3.00",
+    "output_lra": "0.90",
+    "output_thresh": "-28.70",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.45"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.36",
+    "input_tp": "-3.42",
+    "input_lra": "1.20",
+    "input_thresh": "-29.25",
+    "output_i": "-17.58",
+    "output_tp": "-3.00",
+    "output_lra": "1.00",
+    "output_thresh": "-28.73",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.42"
+  },
+  "encodedIntegratedLufs": -18.36,
+  "encodedTruePeakDbtp": -3.42,
+  "durationSeconds": 5.578481,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "v1-character-read",
+  "title": "Lily - Velvety Actress — first audition",
+  "path": "wiki/soundtrack-library/assets/voices/joan/v1-character-read.mp3",
+  "provider": "ElevenLabs",
+  "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+  "status": "candidate",
+  "sha256": "02a72cad2c0befd4bfc593be6646cde992e15ff85057f7ef6e537570b116d2d2",
+  "durationSeconds": 2.136235827664399,
+  "text": "Every one I signed is in that cabinet.",
+  "credits": 38,
+  "settings": {
+    "modelId": "eleven_multilingual_v2",
+    "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+    "voiceName": "Lily - Velvety Actress",
+    "prompt": "Every one I signed is in that cabinet.",
+    "scriptSource": "Issue 2, yard",
+    "settingsPreset": "provider-default",
+    "generationId": "CVIMU09AQ5buv2XJqlRa",
+    "flowId": "xUbZicgXJwJoLVSKbDWG",
+    "takes": 1,
+    "reproduction": "Saved audio is fixed; a new provider generation is not guaranteed to be byte-identical."
+  }
+}

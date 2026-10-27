@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "type": "existing-provider-preview",
+  "source": {
+    "voiceId": "3YzGaTGef0x5PLEK9yGq",
+    "name": "Atlas - Deep, Gravelly Narrator",
+    "description": "Atlas is a deep, gravelly American male voice built for documentary narration, audiobooks, and cinematic storytelling. Trained across factual scripts, long-form non-fiction, and epic fantasy, his low raspy register carries unhurried authority and natural weight - the sound of someone who has been there.Measured and resonant, built to hold attention for hours. Ideal for documentary, history and nature narration, audiobooks, trailers, and rugged character work.",
+    "labels": {
+      "age": "middle-aged",
+      "gender": "male",
+      "accent": "en-american",
+      "language": "en"
+    },
+    "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/6d0695d80340403b9bd9a971d45fc0b2/voices/3YzGaTGef0x5PLEK9yGq/P0f7KBR5gxNKTAeJ8HFA.mp3",
+    "category": "professional",
+    "provider": "ElevenLabs"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/provider-previews/3YzGaTGef0x5PLEK9yGq-v1.mp3",
+    "sha256": "5368aaeb763fcff4c8c9718904831b064280ea53ce3598520305b6982af52e77",
+    "bytes": 118629,
+    "durationSeconds": 6.315828
+  },
+  "httpContentType": "audio/mpeg",
+  "generationRequests": 0,
+  "apiCreditsUsedForSynthesis": 0,
+  "hearingReview": "Matt evaluation pending",
+  "productionRights": "Not asserted",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "mp4a.40.34",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 89128960,
+        "duration": "6.315828",
+        "bit_rate": "128000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Code\\MTW-comics-shelf-20261009\\more-narrator-previews-20261010\\wiki\\soundtrack-library\\assets\\voices\\provider-previews\\3YzGaTGef0x5PLEK9yGq-v1.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.025057",
+      "duration": "6.315828",
+      "size": "118629",
+      "bit_rate": "150262",
+      "probe_score": 52,
+      "tags": {
+        "encoder": "Lavf60.16.101"
+      }
+    }
+  }
+}

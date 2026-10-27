@@ -1,0 +1,54 @@
+{
+  "description": "MTW repo-level Codex hooks (mirrors .claude/settings.json). Codex must trust them once via /hooks.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "repo_root=\"$(git rev-parse --show-toplevel)\" || exit 0; node \"$repo_root/.codex/hooks/session-start.mjs\"",
+            "commandWindows": "$repoRoot = git rev-parse --show-toplevel; if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($repoRoot)) { exit 0 }; node (Join-Path $repoRoot '.codex/hooks/session-start.mjs'); exit $LASTEXITCODE",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "repo_root=\"$(git rev-parse --show-toplevel)\" || exit 0; node \"$repo_root/.codex/hooks/asset-registration-reminder.mjs\"",
+            "commandWindows": "$repoRoot = git rev-parse --show-toplevel; if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($repoRoot)) { exit 0 }; node (Join-Path $repoRoot '.codex/hooks/asset-registration-reminder.mjs'); exit $LASTEXITCODE",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "apply_patch|Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "repo_root=\"$(git rev-parse --show-toplevel)\" || exit 0; node \"$repo_root/.codex/hooks/check-layering.mjs\"",
+            "commandWindows": "$repoRoot = git rev-parse --show-toplevel; if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($repoRoot)) { exit 0 }; node (Join-Path $repoRoot '.codex/hooks/check-layering.mjs'); exit $LASTEXITCODE",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "apply_patch|Write|Edit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "repo_root=\"$(git rev-parse --show-toplevel)\" || exit 0; node \"$repo_root/.codex/hooks/asset-registration-reminder.mjs\"",
+            "commandWindows": "$repoRoot = git rev-parse --show-toplevel; if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($repoRoot)) { exit 0 }; node (Join-Path $repoRoot '.codex/hooks/asset-registration-reminder.mjs'); exit $LASTEXITCODE",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

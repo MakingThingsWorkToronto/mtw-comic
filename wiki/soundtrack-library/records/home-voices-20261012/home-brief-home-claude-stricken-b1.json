@@ -1,0 +1,12 @@
+{
+  "id": "home-brief-home-claude-stricken-b1",
+  "characterId": "claude",
+  "provider": "Fish Audio",
+  "voiceId": "abc894cdc8bf49af9ccc6a2367c9c1b0",
+  "modelId": "s2.1-pro-free",
+  "text": "I… wrote what you asked for.",
+  "requestId": null,
+  "rawSha256": "82811a8050c45f1fef8943b2171f1e4f141ba4f77e394aac015609277d214df8",
+  "createdAt": "2026-10-12T06:18:12.026Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

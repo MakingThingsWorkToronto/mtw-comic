@@ -1,0 +1,10 @@
+---
+import '../styles/motion-progress.css';
+interface Props { class?: string; label?: string }
+const { class: className = '', label = 'Playback position' } = Astro.props;
+---
+<div class:list={['motion-progress', className]} data-motion-progress>
+  <span class="motion-progress__track" aria-hidden="true"><span class="motion-progress__fill"></span></span>
+  <input class="motion-progress__range" type="range" min="0" max="1" step="0.01" value="0" aria-label={label} aria-valuetext="0:00" />
+</div>
+<script is:inline src="/scripts/motion-progress.js" defer></script>

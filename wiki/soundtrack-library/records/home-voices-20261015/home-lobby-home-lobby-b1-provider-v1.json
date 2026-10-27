@@ -1,0 +1,99 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "second-brain",
+  "scriptId": "home-lobby-home-lobby-b1",
+  "scriptSource": "wiki/comics-library/records/home-rebuild-20261014/narration-authorization-20261015.json#home-lobby-home-lobby-b1",
+  "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+  "voiceName": "Morgan Freeman — provider-labelled reference",
+  "modelId": "s2.1-pro-free",
+  "text": "The Keon Tower\nlobby. Friday,\n8:05 a.m.",
+  "textSha256": "008bb5a84ac58350d94cbd51c40fdf50dcf6ea31a2b4fa2b5465303aa466eecb",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "The Keon Tower lobby. Friday, 8:05 a.m.",
+    "reference_id": "f9fd3dce16af4168a2545e27d293bffa"
+  },
+  "licensed": null,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "speechBinding": {
+    "storyId": "home",
+    "sceneId": "lobby",
+    "panelId": "home-lobby",
+    "balloonIndex": 0,
+    "kind": "place",
+    "authoredWho": "narrator"
+  },
+  "spokenText": "The Keon Tower lobby. Friday, 8:05 a.m.",
+  "spokenTextSha256": "988953406d0441f8a94dfbe828cfa88b18b3a47bf9be82dd08c929b08fc3b068",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "status": "saved",
+  "startedAt": "2026-10-15T19:30:39.178605+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "f157394e33715f330fadefe4dd8dffe14db0a49750ef02a286284e7ec9728a71",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "sessionGenerationAuthorization": {
+    "sessionAuthorization": {
+      "path": "wiki/comics-library/records/home-rebuild-20261014/narration-authorization-20261015.json",
+      "sha256": "2a69e6f177afa9f9cfa831fad41e7cd9421cf2d49ce8272a838fc071598ad45b",
+      "lineId": "home-lobby-home-lobby-b1",
+      "directive": {
+        "quote": "i reviewed http://localhost:8787/comics/home/ and i am seeing many many missing voices and for the narration i have said to use the morgan freeman second brain voice for this many times. identify other things that were not fixed , i see no visual movement on the first scene or noting engaging at least.",
+        "saidOn": "2026-10-13",
+        "goal": "complete comic",
+        "note": "Matt’s standing narration-voice direction, verbatim, as recorded in home-missing-voices-20261013-authorization-v2.json."
+      }
+    },
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "f9fd3dce16af4168a2545e27d293bffa",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T03:38:35.614209+00:00",
+      "useScope": "preview-review",
+      "productionHold": true,
+      "holdReason": "Provider-labelled community reference; production usage remains unverified. Exact narration words are not approved.",
+      "selectionSource": "Matt: use \"Morgan Freeman — provider-labelled reference\" for second brain voice please"
+    },
+    "sourceSha256": "97299bd1361f98cf839c4c811624c639701d32ea6888b993fe1c59fab301677f",
+    "hearingApproved": false,
+    "textReviewRecorded": false
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/home-20261015/second-brain/home-lobby-home-lobby-b1-raw-v1.mp3",
+    "sha256": "ea649dc34c92b3f4e6bd98c13939bced5b52481659f3059a9b5731c640126c3c",
+    "bytes": 68544,
+    "durationSeconds": 4.284
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-15T19:30:41.999620+00:00"
+}

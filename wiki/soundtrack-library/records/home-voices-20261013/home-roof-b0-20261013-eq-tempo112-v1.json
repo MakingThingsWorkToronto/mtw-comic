@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:59:12.659Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-roof-b0-20261013-raw-v1.mp3",
+  "rawSha256": "075b84fe6ee87612051053155fe75d6fa6a270c2a2a0728e41d3d8a47466b205",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-roof-b0-20261013-eq-tempo112-v1.mp3",
+  "sha256": "ae2638647ca92f2a96ba259aeb1c0e03f3c91b36a64c1ef9af3b78962cf4382e",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-roof-b0-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-23.85",
+    "input_tp": "-3.41",
+    "input_lra": "0.50",
+    "input_thresh": "-34.97",
+    "output_i": "-18.71",
+    "output_tp": "-3.00",
+    "output_lra": "0.70",
+    "output_thresh": "-29.52",
+    "normalization_type": "dynamic",
+    "target_offset": "0.71"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.40",
+    "input_tp": "-3.35",
+    "input_lra": "1.00",
+    "input_thresh": "-29.36",
+    "output_i": "-17.77",
+    "output_tp": "-3.00",
+    "output_lra": "0.50",
+    "output_thresh": "-28.46",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.23"
+  },
+  "encodedIntegratedLufs": -18.4,
+  "encodedTruePeakDbtp": -3.35,
+  "durationSeconds": 4.364399,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

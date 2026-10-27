@@ -1,0 +1,3 @@
+#!/bin/sh
+# Shim: git runs this; the logic is in scripts/hooks/pre-commit.mjs.
+exec node "$(git rev-parse --show-toplevel)/scripts/hooks/pre-commit.mjs" "$@"

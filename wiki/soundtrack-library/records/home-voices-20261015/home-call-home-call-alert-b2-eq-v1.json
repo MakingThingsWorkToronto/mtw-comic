@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-15T19:32:19.761Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/marco/home-call-home-call-alert-b2-raw-v1.mp3",
+  "rawSha256": "cc1fda267b9a6792a17328970f5a438a665d71ff7be9e84da2d6f33355079495",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/voices/home-20261015/marco/home-call-home-call-alert-b2-eq-v1.mp3",
+  "sha256": "ff86bdcca6565e303808a65f54d5f6e970bb0fec93c3aa1de588a5be56c34c74",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261015/home-call-home-call-alert-b2-eq-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1,
+    "compress": true,
+    "eq": "highpass=f=70,lowpass=f=12000,acompressor=threshold=0.1:ratio=3:attack=0.1:release=80:knee=2.828:makeup=1",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-27.43",
+    "input_tp": "-13.08",
+    "input_lra": "0.00",
+    "input_thresh": "-37.43",
+    "output_i": "-18.00",
+    "output_tp": "-3.65",
+    "output_lra": "0.00",
+    "output_thresh": "-28.32",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "encodedMeasurement": {
+    "input_i": "-18.44",
+    "input_tp": "-4.01",
+    "input_lra": "0.00",
+    "input_thresh": "-28.76",
+    "output_i": "-18.01",
+    "output_tp": "-3.57",
+    "output_lra": "0.00",
+    "output_thresh": "-28.33",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "encodedIntegratedLufs": -18.44,
+  "encodedTruePeakDbtp": -4.01,
+  "durationSeconds": 1.718277,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": true,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "candidate",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

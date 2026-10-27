@@ -1,0 +1,13 @@
+{
+  "id": "home-monday-home-marco-turns-b0",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Not yet. Show me the assumptions.",
+  "historyItemId": "63yHU3d7CFFOxlJhgyCD",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "be4db6ec9a900c1cc0a5f579b3d13931db5735b45a45fef47557c9fe8d1d7450",
+  "createdAt": "2026-10-12T06:22:01.404Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

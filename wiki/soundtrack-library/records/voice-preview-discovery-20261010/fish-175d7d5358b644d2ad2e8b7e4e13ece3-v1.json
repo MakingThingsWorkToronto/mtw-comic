@@ -1,0 +1,50 @@
+{
+  "createdUtc": "2026-10-10T00:46:35.438048+00:00",
+  "stage": "Provider existing preview downloaded, fully decoded; listening unperformed. No TTS or VoiceDesign request.",
+  "provider": "Fish Audio",
+  "voiceId": "175d7d5358b644d2ad2e8b7e4e13ece3",
+  "sourceApi": "https://api.fish.audio/model/175d7d5358b644d2ad2e8b7e4e13ece3",
+  "sourcePage": "https://fish.audio/m/175d7d5358b644d2ad2e8b7e4e13ece3/",
+  "sourceMetadataRecords": [
+    "wiki/comics-library/records/voice-discovery-20261010/fish-robots.json"
+  ],
+  "sourcePreviewUrl": "https://platform.r2.fish.audio/task/4aeb7fe810ca47129d8beabdbdaef548.mp3",
+  "requestMethod": "GET",
+  "httpStatus": 200,
+  "contentType": "audio/mpeg",
+  "canonicalPath": "wiki/soundtrack-library/assets/voices/provider-previews/fish-175d7d5358b644d2ad2e8b7e4e13ece3-v1.mp3",
+  "sha256": "84344353a5b59dc0ec81b8bc752535644e26ec6c05300bff074ee2c500ef8f9d",
+  "bytes": 288809,
+  "durationSeconds": 18.050563,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "decodeExitCode": 0,
+  "providerTags": [
+    "male",
+    "middle-aged",
+    "narration",
+    "deep",
+    "calm",
+    "smooth",
+    "professional",
+    "clear",
+    "storytelling"
+  ],
+  "providerDescription": "robotic male voice with distortion",
+  "providerSampleText": "Choose your eternal workspace. Door A: An endless office cubicle where the fluorescent lights flicker in patterns. Your computer always works but moves slightly slower each day. The coffee machine produces warm liquid that isn't quite coffee. At midnight, all chairs roll themselves to face the elevator.",
+  "generationRequests": 0,
+  "chargedGenerationCredits": 0,
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "ownershipCheck": {
+    "approvedCharacterVoice": false,
+    "referenceVoiceExcluded": "9608a90883934a798d7169a1134e59ee"
+  },
+  "licensed": false,
+  "productionRights": "not verified"
+}

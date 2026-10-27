@@ -1,0 +1,103 @@
+{
+  "provider": "Fish Audio",
+  "characterId": "ruth",
+  "scriptId": "home-compare-home-compare-table-b2",
+  "scriptSource": "wiki/comics-library/speech-approvals.json#home-compare-home-compare-table-b2",
+  "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+  "voiceName": "ruth",
+  "modelId": "s2.1-pro-free",
+  "text": "Signed order: section\nseven, site safety.\nThe sent copy\nskips it.",
+  "textSha256": "20f817752bd16a37016e785451c6ad31b3d5718a9883c7c719ab42d4a3adae7f",
+  "settings": {
+    "format": "mp3",
+    "temperature": 0.7,
+    "top_p": 0.7,
+    "prosody": {
+      "speed": 1,
+      "volume": 0,
+      "normalize_loudness": true
+    },
+    "sample_rate": 44100,
+    "mp3_bitrate": 128,
+    "normalize": true,
+    "latency": "normal",
+    "text": "Signed order: section seven, site safety. The sent copy skips it.",
+    "reference_id": "95dbc78c860547b1ad5eb9f0fe32d459"
+  },
+  "licensed": null,
+  "candidateOnly": true,
+  "productionApproved": false,
+  "productionRights": "not verified",
+  "speechBinding": {
+    "storyId": "home",
+    "sceneId": "compare",
+    "panelId": "home-compare-table",
+    "balloonIndex": 1,
+    "kind": "speech",
+    "authoredWho": "ruth"
+  },
+  "spokenText": "Signed order: section seven, site safety. The sent copy skips it.",
+  "spokenTextSha256": "4454f30447fbfcdd3a459d66642ac3fb508c853cacc3a222a57d3ec497466ccd",
+  "spokenTextNormalization": "layout-whitespace-v1",
+  "status": "saved",
+  "startedAt": "2026-10-15T19:21:17.131580+00:00",
+  "attempts": 1,
+  "automaticRetry": false,
+  "dependencies": {
+    "helperSha256": "f157394e33715f330fadefe4dd8dffe14db0a49750ef02a286284e7ec9728a71",
+    "pythonVersion": "3.14.4",
+    "stdlibTransport": "urllib.request",
+    "decoder": "ffprobe",
+    "decoderSha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+    "voiceProfilesSha256": "e6c98f20fb85b49dc199b3eafbbe63cd1d69ca8b89298603f3b977c4b6604b47",
+    "endpoint": "https://api.fish.audio/v1/tts"
+  },
+  "humanSpeechReview": {
+    "review": {
+      "id": "home-compare-home-compare-table-b2",
+      "characterId": "ruth",
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "textSha256": "20f817752bd16a37016e785451c6ad31b3d5718a9883c7c719ab42d4a3adae7f",
+      "storySource": {
+        "path": "site/src/data/comic-stories/home.ts",
+        "sha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+      },
+      "status": "approved",
+      "reviewedBy": "Matt Stark",
+      "reviewedAt": "2026-10-15T19:17:37.175Z",
+      "approvalSource": {
+        "quote": "i already approved the lines to the previous claude",
+        "saidOn": "2026-10-15",
+        "scope": "exact words of the 47 lines in wiki/comics-library/records/home-rebuild-20261014/unvoiced-lines.json and paid speech generation for those lines with each character’s Studio-selected voice",
+        "recordedBy": "Claude Opus 5.5 (Home voicing lane) through Studio POST /api/comics/speech/:id/review"
+      }
+    },
+    "approvalManifestSha256": "5987ca4492717d0766cb738c8507ff401409b9dbdaf0558e55d87763149814a8",
+    "voiceSelection": {
+      "provider": "Fish Audio",
+      "voiceId": "95dbc78c860547b1ad5eb9f0fe32d459",
+      "status": "approved",
+      "selectedBy": "Matt Stark",
+      "selectedAt": "2026-10-10T00:34:45.755793+00:00"
+    },
+    "sourceSha256": "080d7a478e3c8a1a1eab20b1d80ff730b60a1b49faf9913b37b70bffdfa5930c"
+  },
+  "reproduction": "Reuse exact saved bytes; stochastic generation is not byte-identical.",
+  "actualCharge": "not exposed",
+  "generationId": null,
+  "requestId": null,
+  "httpStatus": 200,
+  "responseHeaders": {
+    "Content-Type": "audio/mpeg"
+  },
+  "savedAsset": {
+    "path": "wiki/soundtrack-library/assets/voices/home-20261015/ruth/home-compare-home-compare-table-b2-raw-v1.mp3",
+    "sha256": "d1f1c35abfe33ad5a989694b738446d0817c6e01c6e780010b0bd6b3d5d0e54c",
+    "bytes": 93203,
+    "durationSeconds": 5.825188
+  },
+  "nativePlayback": "pending",
+  "listeningReview": "pending",
+  "endedAt": "2026-10-15T19:21:20.646592+00:00"
+}

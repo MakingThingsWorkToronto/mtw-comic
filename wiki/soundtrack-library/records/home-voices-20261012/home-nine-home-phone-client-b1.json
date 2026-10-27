@@ -1,0 +1,13 @@
+{
+  "id": "home-nine-home-phone-client-b1",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "It's all on page one.",
+  "historyItemId": "BCvrq6WJEYkmiuiovzDS",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "e68dda2e20b6af16639b488ca6068cef4534e6a77f153a806cea659a77dc4084",
+  "createdAt": "2026-10-12T06:22:00.823Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

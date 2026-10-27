@@ -1,0 +1,4 @@
+interface:
+  display_name: "MTW Soundtrack"
+  short_description: "Take approved music into the soundtrack library and profile it"
+  default_prompt: "Use $mtw-soundtrack to take Matt's approved tracks into the soundtrack library, resolve their credits, profile them and check the library. Read discussion/spec.md in full first."

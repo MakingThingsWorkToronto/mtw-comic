@@ -1,0 +1,13 @@
+{
+  "id": "home-process-home-process-procedure-b2",
+  "characterId": "matt",
+  "provider": "ElevenLabs",
+  "voiceId": "HqW11As4VRPkApNPkAZp",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Walk me through a quote you’d sign.",
+  "historyItemId": "xfBuFJyYZLpakTVcQlFS",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "d63535892e1df500b2e8cfeff81fad846f084fac4dc7cc14b0c4c97bc0690f02",
+  "createdAt": "2026-10-12T06:21:59.172Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-13T16:59:05.421Z",
+  "kind": "speech-processing",
+  "rawCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-process-connect-b3-20261013-raw-v1.mp3",
+  "rawSha256": "9d150a0249fd40b66de568c15262c94153b09a81d47cc590016b83598209bdc7",
+  "normalizedCanonicalPath": "wiki/soundtrack-library/assets/speech/home-20261013/home-process-connect-b3-20261013-eq-tempo112-v1.mp3",
+  "sha256": "c5e51b7600a4db705d1c3e34dbc9d3c18794d93c5d355772da977011824c4cf2",
+  "normalizationReceipt": "wiki/soundtrack-library/records/home-voices-20261013/home-process-connect-b3-20261013-eq-tempo112-v1.json",
+  "settings": {
+    "targetLufs": -18,
+    "truePeakDbtp": -3,
+    "lra": 11,
+    "tempo": 1.12,
+    "eq": "highpass=f=70,lowpass=f=12000,atempo=1.12",
+    "bitrate": "128k",
+    "sampleRate": 44100
+  },
+  "twoPassMeasurement": {
+    "input_i": "-23.87",
+    "input_tp": "-3.88",
+    "input_lra": "0.00",
+    "input_thresh": "-34.37",
+    "output_i": "-22.99",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-33.49",
+    "normalization_type": "linear",
+    "target_offset": "4.99"
+  },
+  "encodedMeasurement": {
+    "input_i": "-23.43",
+    "input_tp": "-3.44",
+    "input_lra": "0.00",
+    "input_thresh": "-33.93",
+    "output_i": "-22.99",
+    "output_tp": "-3.00",
+    "output_lra": "0.00",
+    "output_thresh": "-33.50",
+    "normalization_type": "linear",
+    "target_offset": "4.99"
+  },
+  "encodedIntegratedLufs": -23.43,
+  "encodedTruePeakDbtp": -3.44,
+  "durationSeconds": 2.925102,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "checks": {
+    "encodedLufsWithin1Db": false,
+    "encodedTruePeakAtMostMinus3": true
+  },
+  "status": "processing-review-required",
+  "productionApproved": false,
+  "hearingReview": "pending",
+  "measurementBasis": "Actual encoded derivative remeasured after MP3 encoding; target alone is not the achieved measurement."
+}

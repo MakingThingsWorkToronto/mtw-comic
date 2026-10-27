@@ -1,0 +1,13 @@
+{
+  "id": "home-process-home-process-procedure-b3",
+  "characterId": "marco",
+  "provider": "ElevenLabs",
+  "voiceId": "O8Vfjw53ORe1IQPKKy2B",
+  "modelId": "eleven_multilingual_v2",
+  "text": "Current rates. Labour. An agreed discount. Then I check every line.",
+  "historyItemId": "8Fro2eUTZd7oEGeQbSmw",
+  "via": "ElevenLabs connector flow JtP3SvpB33Da2JPxw6Lt",
+  "rawSha256": "3848d9892cf2f600c8fd13169a94f957da3b6de1c2b173bcac6098fea7429a31",
+  "createdAt": "2026-10-12T06:21:59.344Z",
+  "authorization": "Matt, 2026-10-12: complete Home comic with voices"
+}
